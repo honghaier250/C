@@ -1,0 +1,27 @@
+%{
+    /* C code that goes verbatim in output */
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+%}
+    struct tl{ const char* name ; const char* s2;};
+%%
+881050971,"aaaaa"
+881123701,"bbbbb"
+881122057,"ccccc"
+881044216,"ddddd"
+881052006,"eeeee"
+881160639,"fffff"
+881120640,"ggggg"
+%%
+int main(int argc,char **argv)
+{
+    char str[32];
+    const struct tl * str2;
+    while(scanf("%s",str))
+    {
+        str2=in_word_set(str,strlen(str));
+        printf("%s  ",str2->s2);
+    }
+    return 0;
+}

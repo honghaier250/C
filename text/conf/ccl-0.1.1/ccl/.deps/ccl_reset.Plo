@@ -1,0 +1,10 @@
+ccl_reset.lo: ccl_reset.c ../ccl/ccl.h config.h ../ccl/bst.h \
+ /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+
+../ccl/ccl.h:
+
+config.h:
+
+../ccl/bst.h:
+
+/usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h:

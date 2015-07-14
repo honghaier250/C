@@ -1,0 +1,1 @@
+cmd_/root/workspace/driver/scullc/scullc.ko.unsigned := ld -r -m elf_x86_64 -T /usr/src/kernels/2.6.32-431.1.ky3.1.x86_64/scripts/module-common.lds --build-id -o /root/workspace/driver/scullc/scullc.ko.unsigned /root/workspace/driver/scullc/scullc.o /root/workspace/driver/scullc/scullc.mod.o 

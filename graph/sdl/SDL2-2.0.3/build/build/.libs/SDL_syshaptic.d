@@ -1,0 +1,24 @@
+build/SDL_syshaptic.lo: \
+ /root/workspace/exercise/languages/c/graph/sdl/SDL2-2.0.3/src/haptic/linux/SDL_syshaptic.c \
+ /root/workspace/exercise/languages/c/graph/sdl/SDL2-2.0.3/src/haptic/linux/../../SDL_internal.h \
+ /root/workspace/exercise/languages/c/graph/sdl/SDL2-2.0.3/src/haptic/linux/../../dynapi/SDL_dynapi.h \
+ /root/workspace/exercise/languages/c/graph/sdl/SDL2-2.0.3/src/haptic/linux/../../dynapi/SDL_dynapi_overrides.h \
+ include/SDL_config.h \
+ /root/workspace/exercise/languages/c/graph/sdl/SDL2-2.0.3/include/SDL_platform.h \
+ /root/workspace/exercise/languages/c/graph/sdl/SDL2-2.0.3/include/begin_code.h \
+ /root/workspace/exercise/languages/c/graph/sdl/SDL2-2.0.3/include/close_code.h \
+ /root/workspace/exercise/languages/c/graph/sdl/SDL2-2.0.3/include/SDL_assert.h \
+ /root/workspace/exercise/languages/c/graph/sdl/SDL2-2.0.3/include/SDL_config.h \
+ /root/workspace/exercise/languages/c/graph/sdl/SDL2-2.0.3/include/SDL_haptic.h \
+ /root/workspace/exercise/languages/c/graph/sdl/SDL2-2.0.3/include/SDL_stdinc.h \
+ /root/workspace/exercise/languages/c/graph/sdl/SDL2-2.0.3/include/SDL_error.h \
+ /root/workspace/exercise/languages/c/graph/sdl/SDL2-2.0.3/include/SDL_joystick.h \
+ /root/workspace/exercise/languages/c/graph/sdl/SDL2-2.0.3/src/haptic/linux/../SDL_syshaptic.h \
+ /root/workspace/exercise/languages/c/graph/sdl/SDL2-2.0.3/src/haptic/linux/../../SDL_internal.h \
+ /root/workspace/exercise/languages/c/graph/sdl/SDL2-2.0.3/include/SDL_joystick.h \
+ /root/workspace/exercise/languages/c/graph/sdl/SDL2-2.0.3/src/haptic/linux/../../joystick/SDL_sysjoystick.h \
+ /root/workspace/exercise/languages/c/graph/sdl/SDL2-2.0.3/src/haptic/linux/../../joystick/../SDL_internal.h \
+ /root/workspace/exercise/languages/c/graph/sdl/SDL2-2.0.3/src/haptic/linux/../../joystick/SDL_joystick_c.h \
+ /root/workspace/exercise/languages/c/graph/sdl/SDL2-2.0.3/src/haptic/linux/../../joystick/linux/SDL_sysjoystick_c.h \
+ /root/workspace/exercise/languages/c/graph/sdl/SDL2-2.0.3/src/haptic/linux/../../core/linux/SDL_udev.h \
+ /root/workspace/exercise/languages/c/graph/sdl/SDL2-2.0.3/src/haptic/linux/../../core/linux/../../SDL_internal.h

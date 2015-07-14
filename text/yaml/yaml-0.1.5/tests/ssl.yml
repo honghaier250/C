@@ -1,0 +1,49 @@
+ssl:
+    verify: none
+    verify_depth: 3
+    protocol:
+        - -ALL
+        - +TLSv1
+    cipher: AES256-SHA
+    site_cert:
+        rsa:
+            path: ./site_cert/rsa
+            pem: cae0c1c4.dbcb1db54387be84651b8edbe753af7dc1b9e88a.pem
+            key: cae0c1c4.dbcb1db54387be84651b8edbe753af7dc1b9e88a.key
+        sm2:
+            path: ./site_cert/sm2
+            pem: null
+            key: null
+    ca: ./ca
+    ssl_opt: null
+    wait_for_client_hello: 1
+    session_cache:
+        enable: off
+        size: 1048576
+        timeout: 300
+        expire_mode: idle
+    crl:
+        enable: off
+    fep:
+        enable: off
+        nocert_notify: off
+        expire_notify: off
+        allow_expire: 30
+        redirect_to_ssl: off
+        allow_no_cert: off
+    proxy:
+        enable: off
+        proxy_cert_dir: ./proxy
+        proxy_ca: ./ca
+        protocol:
+            - -ALL
+            - +TLSv1
+        cipher: ALL
+        verify: None
+        check_peer_CN: off
+        check_peer_Name: off
+        check_peer_Expire: off
+    crypto_device:
+        enable: off
+        path: /usr/local/ssl/lib/libkoal_cavium_engine.so
+        opt: null

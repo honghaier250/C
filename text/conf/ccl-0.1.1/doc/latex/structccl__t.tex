@@ -1,0 +1,32 @@
+\section{ccl\_\-t Struct Reference}
+\label{structccl__t}\index{ccl\_\-t@{ccl\_\-t}}
+
+
+Data structure encapsulating a parsed configuration file.  
+
+
+{\ttfamily \#include $<$ccl.h$>$}\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+char {\bf comment\_\-char}\label{structccl__t_ab3b455aca4b664fcda172b6c1606e0c8}
+
+\begin{DoxyCompactList}\small\item\em Character that indicates the start of a comment. \item\end{DoxyCompactList}\item 
+char {\bf sep\_\-char}\label{structccl__t_afd2461642040cb4d35b36908c1a017c0}
+
+\begin{DoxyCompactList}\small\item\em Character that separates keys from values. \item\end{DoxyCompactList}\item 
+char {\bf str\_\-char}\label{structccl__t_a721f055750dd40e32f768349c4335655}
+
+\begin{DoxyCompactList}\small\item\em Character that delineates string literals. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Data structure encapsulating a parsed configuration file. In the file:
+\begin{DoxyItemize}
+\item comments begin with {\ttfamily comment\_\-char} and continue to a newline
+\item Keys are separated from values by {\ttfamily sep\_\-char} 
+\item String literals enclosed in {\ttfamily str\_\-char} may contain any character, including spaces. 
+\end{DoxyItemize}
+
+The documentation for this struct was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+{\bf ccl.h}\end{DoxyCompactItemize}

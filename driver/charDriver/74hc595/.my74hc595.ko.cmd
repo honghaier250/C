@@ -1,0 +1,1 @@
+cmd_/root/workspace/exercise/c/driver/charDriver/74hc595/my74hc595.ko := cp /root/workspace/exercise/c/driver/charDriver/74hc595/my74hc595.ko.unsigned /root/workspace/exercise/c/driver/charDriver/74hc595/my74hc595.ko

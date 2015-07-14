@@ -1,0 +1,1 @@
+cmd_/root/workspace/driver/scullc/scullc.o := ld -m elf_x86_64   -r -o /root/workspace/driver/scullc/scullc.o /root/workspace/driver/scullc/main.o ; scripts/mod/modpost /root/workspace/driver/scullc/scullc.o
