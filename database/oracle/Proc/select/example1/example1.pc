@@ -1,0 +1,265 @@
+//============================================================================  
+// Name        : CExercise.pc  
+// Author      : Haier  
+// Version     : 0.1  
+// Copyright   : Your copyright notice  
+// Description : Connect Oracle in C by Pro*c, Ansi-style  
+//===========================================================================
+
+#include <stdio.h>
+#include <string.h>
+#include <sqlca.h>
+#include <stdlib.h>
+#include <sqlda.h>
+#include <sqlcpr.h>
+
+#define UNAME_LEN      20 
+#define PWD_LEN        11 
+ 
+/*
+ * Use the precompiler typedef'ing capability to create
+ * null-terminated strings for the authentication host
+ * variables. 
+ */
+typedef char asciiz[PWD_LEN]; 
+
+EXEC SQL TYPE asciiz IS CHARZ(PWD_LEN) REFERENCE; 
+asciiz     username; 
+asciiz     password;
+asciiz     server; 
+
+struct emp_info 
+{ 
+    asciiz     emp_name; 
+    asciiz      salary; 
+    asciiz      commission; 
+}; 
+
+void sql_error(char *msg) 
+{ 
+    char err_msg[512];
+    size_t buf_len, msg_len;
+
+    EXEC SQL WHENEVER SQLERROR CONTINUE;
+
+    printf("\n%s\n", msg);
+
+/* Call sqlglm() to get the complete text of the
+ * error message.
+ */
+    buf_len = sizeof (err_msg);
+    sqlglm(err_msg, &buf_len, &msg_len);
+    printf("%.*s\n", msg_len, err_msg);
+
+    EXEC SQL ROLLBACK RELEASE;
+    exit(EXIT_FAILURE);
+} 
+
+void main() 
+{ 
+    struct emp_info *emp_rec_ptr; 
+
+/* Allocate memory for emp_info struct. */ 
+    if ((emp_rec_ptr = 
+        (struct emp_info *) malloc(sizeof(struct emp_info))) == 0)
+    { 
+        fprintf(stderr, "Memory allocation error.\n"); 
+        exit(EXIT_FAILURE); 
+    } 
+ 
+/* Connect to ORACLE. */ 
+    strcpy(username, "so1"); 
+    strcpy(password, "1qaz!QAZ");
+    strcpy(server, "KFCS"); 
+ 
+    EXEC SQL WHENEVER SQLERROR DO sql_error("ORACLE error--");
+ 
+    EXEC SQL CONNECT :username IDENTIFIED BY :password USING :server; 
+    printf("\nConnected to ORACLE as user: %s\n", username); 
+ 
+/* Declare the cursor. All static SQL explicit cursors
+ * contain SELECT commands. 'salespeople' is a SQL identifier,
+ * not a (C) host variable.
+ */
+    EXEC SQL DECLARE salespeople CURSOR FOR 
+        SELECT BILL_ID, PASSWORD, STATE 
+            FROM SO1.INS_PROD_A 
+            WHERE BILL_ID LIKE '15238075968'; 
+ 
+/* Open the cursor. */
+    EXEC SQL OPEN salespeople; 
+ 
+/* Get ready to print results. */
+    printf("\n\nThe results are as follows:\n\n");
+    printf("BILL_ID      PASSWORD       STATE\n"); 
+    printf("---------------------------------\n"); 
+ 
+/* Loop, fetching all salesperson's statistics.
+ * Cause the program to break the loop when no more
+ * data can be retrieved on the cursor.
+ */
+    EXEC SQL WHENEVER NOT FOUND DO break; 
+
+    for (;;) 
+    { 
+        EXEC SQL FETCH salespeople INTO :emp_rec_ptr; 
+        printf("%s\t%s\t%s\n", emp_rec_ptr->emp_name, 
+                emp_rec_ptr->salary, emp_rec_ptr->commission); 
+    } 
+ 
+/* Close the cursor. */
+    EXEC SQL CLOSE salespeople; 
+ 
+    printf("\nThe 1 row is selected\n\n");
+
+    EXEC SQL COMMIT WORK RELEASE; 
+    exit(EXIT_SUCCESS); 
+} 
+
+/* Result Sets Interface */
+#ifndef SQL_CRSR
+#  define SQL_CRSR
+  struct sql_cursor
+  {
+    unsigned int curocn;
+    void *ptr1;
+    void *ptr2;
+    unsigned int magic;
+  };
+  typedef struct sql_cursor sql_cursor;
+  typedef struct sql_cursor SQL_CURSOR;
+#endif /* SQL_CRSR */
+
+/* Thread Safety */
+typedef void * sql_context;
+typedef void * SQL_CONTEXT;
+
+/* Object support */
+struct sqltvn
+{
+  unsigned char *tvnvsn; 
+  unsigned short tvnvsnl; 
+  unsigned char *tvnnm;
+  unsigned short tvnnml; 
+  unsigned char *tvnsnm;
+  unsigned short tvnsnml;
+};
+typedef struct sqltvn sqltvn;
+
+struct sqladts
+{
+  unsigned int adtvsn; 
+  unsigned short adtmode; 
+  unsigned short adtnum;  
+  sqltvn adttvn[1];       
+};
+typedef struct sqladts sqladts;
+
+static struct sqladts sqladt = {
+  1,1,0,
+};
+
+/* Binding to PL/SQL Records */
+struct sqltdss
+{
+  unsigned int tdsvsn; 
+  unsigned short tdsnum; 
+  unsigned char *tdsval[1]; 
+};
+typedef struct sqltdss sqltdss;
+static struct sqltdss sqltds =
+{
+  1,
+  0,
+};
+
+/* File name & Package Name */
+struct sqlcxp
+{
+  unsigned short fillen;
+           char  filnam[46];
+};
+static const struct sqlcxp sqlfpn =
+{
+    45,
+    "E:\\Eclipse\\workspace\\Exercise\\src\\Exercise.pc"
+};
+
+
+static unsigned int sqlctx = 1690133715;
+
+
+static struct sqlexd {
+   unsigned int   sqlvsn;
+   unsigned int   arrsiz;
+   unsigned int   iters;
+   unsigned int   offset;
+   unsigned short selerr;
+   unsigned short sqlety;
+   unsigned int   occurs;
+      const short *cud;
+   unsigned char  *sqlest;
+      const char  *stmt;
+   sqladts *sqladtp;
+   sqltdss *sqltdsp;
+            void  **sqphsv;
+   unsigned int   *sqphsl;
+            int   *sqphss;
+            void  **sqpind;
+            int   *sqpins;
+   unsigned int   *sqparm;
+   unsigned int   **sqparc;
+   unsigned short  *sqpadto;
+   unsigned short  *sqptdso;
+   unsigned int   sqlcmax;
+   unsigned int   sqlcmin;
+   unsigned int   sqlcincr;
+   unsigned int   sqlctimeout;
+   unsigned int   sqlcnowait;
+              int   sqfoff;
+   unsigned int   sqcmod;
+   unsigned int   sqfmod;
+   unsigned int   sqlpfmem;
+            void  *sqhstv[4];
+   unsigned int   sqhstl[4];
+            int   sqhsts[4];
+            void  *sqindv[4];
+            int   sqinds[4];
+   unsigned int   sqharm[4];
+   unsigned int   *sqharc[4];
+   unsigned short  sqadto[4];
+   unsigned short  sqtdso[4];
+} sqlstm = {13,4};
+
+/* SQLLIB Prototypes */
+extern void sqlcxt (void **, unsigned int *,
+                    struct sqlexd *, const struct sqlcxp *);
+extern void sqlcx2t(void **, unsigned int *,
+                    struct sqlexd *, const struct sqlcxp *);
+extern void sqlbuft(void **, char *);
+extern void sqlgs2t(void **, char *);
+extern void sqlorat(void **, unsigned int *, void *);
+
+/* Forms Interface */
+static const int IAPSUCC = 0;
+static const int IAPFAIL = 1403;
+static const int IAPFTL  = 535;
+extern void sqliem(unsigned char *, signed int *);
+
+ static const char *sq0003 = 
+"select BILL_ID ,PASSWORD ,STATE  from SO1.INS_PROD_A where BILL_ID like '15\
+238075968'           ";
+
+typedef struct { unsigned short len; unsigned char arr[1]; } VARCHAR;
+typedef struct { unsigned short len; unsigned char arr[1]; } varchar;
+
+/* cud (compilation unit data) array */
+static const short sqlcud0[] =
+{13,4130,852,0,0,
+5,0,0,1,0,0,32,54,0,0,0,0,0,1,0,
+20,0,0,0,0,0,27,77,0,0,4,4,0,1,0,1,97,0,0,1,97,0,0,1,97,0,0,1,10,0,0,
+51,0,0,3,96,0,9,90,0,0,0,0,0,1,0,
+66,0,0,3,0,0,13,105,0,0,3,0,0,1,0,2,97,0,0,2,97,0,0,2,97,0,0,
+93,0,0,3,0,0,15,111,0,0,0,0,0,1,0,
+108,0,0,4,0,0,30,115,0,0,0,0,0,1,0,
+};
