@@ -1,0 +1,11 @@
+[ req ]
+distinguished_name     = req_distinguished_name
+prompt                 = no
+[ req_distinguished_name ]
+C                      = CN
+ST                     = SH
+L                      = Shanghai
+O                      = Koal Software
+OU                     = SSL Group
+CN                     = mysite
+emailAddress            = ssl@koal.com

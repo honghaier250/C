@@ -226,7 +226,8 @@ static int bind_rsaref (ENGINE * e)
         || !ENGINE_set_ciphers (e, rsaref_ciphers)
         || !ENGINE_set_digests (e, rsaref_digests)
         || !ENGINE_set_destroy_function (e, rsaref_destroy)
-        || !ENGINE_set_init_function (e, rsaref_init) || !ENGINE_set_finish_function (e, rsaref_finish)
+        || !ENGINE_set_init_function (e, rsaref_init)
+        || !ENGINE_set_finish_function (e, rsaref_finish)
         /* || !ENGINE_set_ctrl_function(e, rsaref_ctrl) */
         /* || !ENGINE_set_cmd_defns(e, rsaref_cmd_defns) */ )
         return 0;

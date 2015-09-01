@@ -13,7 +13,7 @@
  * are met:
  *
  * 1. Redistributions of source code must retain the above copyright
- *    notice, this list of conditions and the following disclaimer. 
+ *    notice, this list of conditions and the following disclaimer.
  *
  * 2. Redistributions in binary form must reproduce the above copyright
  *    notice, this list of conditions and the following disclaimer in
@@ -568,10 +568,13 @@ static int bind_capi (ENGINE * e)
         || !ENGINE_set_RSA (e, &capi_rsa_method)
         || !ENGINE_set_DSA (e, &capi_dsa_method)
         || !ENGINE_set_load_privkey_function (e, capi_load_privkey)
-        || !ENGINE_set_load_ssl_client_cert_function (e,
-                                                      capi_load_ssl_client_cert)
-        || !ENGINE_set_cmd_defns (e, capi_cmd_defns) || !ENGINE_set_ctrl_function (e, capi_ctrl))
+        || !ENGINE_set_load_ssl_client_cert_function (e, capi_load_ssl_client_cert)
+        || !ENGINE_set_cmd_defns (e, capi_cmd_defns)
+        || !ENGINE_set_ctrl_function (e, capi_ctrl)
+       )
+
         return 0;
+
     ERR_load_CAPI_strings ();
 
     return 1;
@@ -623,7 +626,7 @@ static int lend_tobn (BIGNUM * bn, unsigned char *bin, int binlen)
     int i;
 
     /* Reverse buffer in place: since this is a keyblob structure
-     * that will be freed up after conversion anyway it doesn't 
+     * that will be freed up after conversion anyway it doesn't
      * matter if we change it.
      */
     for (i = 0; i < binlen / 2; i++)

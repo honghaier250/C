@@ -13,7 +13,7 @@
  * are met:
  *
  * 1. Redistributions of source code must retain the above copyright
- *    notice, this list of conditions and the following disclaimer. 
+ *    notice, this list of conditions and the following disclaimer.
  *
  * 2. Redistributions in binary form must reproduce the above copyright
  *    notice, this list of conditions and the following disclaimer in
@@ -109,25 +109,25 @@ struct conf_imodule_st
 
 static STACK_OF (CONF_MODULE) * supported_modules = NULL;
 
-     static STACK_OF (CONF_IMODULE) * initialized_modules = NULL;
+static STACK_OF (CONF_IMODULE) * initialized_modules = NULL;
 
-     static void module_free (CONF_MODULE * md);
+static void module_free (CONF_MODULE * md);
 
-     static void module_finish (CONF_IMODULE * imod);
+static void module_finish (CONF_IMODULE * imod);
 
-     static int module_run (const CONF * cnf, char *name, char *value, unsigned long flags);
+static int module_run (const CONF * cnf, char *name, char *value, unsigned long flags);
 
-     static CONF_MODULE *module_add (DSO * dso, const char *name, conf_init_func * ifunc, conf_finish_func * ffunc);
+static CONF_MODULE *module_add (DSO * dso, const char *name, conf_init_func * ifunc, conf_finish_func * ffunc);
 
-     static CONF_MODULE *module_find (char *name);
+static CONF_MODULE *module_find (char *name);
 
-     static int module_init (CONF_MODULE * pmod, char *name, char *value, const CONF * cnf);
+static int module_init (CONF_MODULE * pmod, char *name, char *value, const CONF * cnf);
 
-     static CONF_MODULE *module_load_dso (const CONF * cnf, char *name, char *value, unsigned long flags);
+static CONF_MODULE *module_load_dso (const CONF * cnf, char *name, char *value, unsigned long flags);
 
 /* Main function: load modules from a CONF structure */
 
-     int CONF_modules_load (const CONF * cnf, const char *appname, unsigned long flags)
+int CONF_modules_load (const CONF * cnf, const char *appname, unsigned long flags)
 {
     STACK_OF (CONF_VALUE) * values;
     CONF_VALUE *vl;

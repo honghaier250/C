@@ -2,19 +2,6 @@
 #include <stdlib.h>
 #include <memory.h>
 #include <errno.h>
-#ifndef _WIN32
-#include <sys/types.h>
-#include <sys/socket.h>
-#include <netinet/in.h>
-#include <arpa/inet.h>
-#include <netdb.h>
-#include <unistd.h>
-
-
-#else
-#include <winsock2.h>
-#include <windows.h>
-#endif
 #include "pthread.h"
 #include <openssl/rsa.h>
 #include <openssl/crypto.h>
@@ -22,18 +9,29 @@
 #include <openssl/pem.h>
 #include <openssl/ssl.h>
 #include <openssl/err.h>
+
+#ifndef _WIN32
+    #include <sys/types.h>
+    #include <sys/socket.h>
+    #include <netinet/in.h>
+    #include <arpa/inet.h>
+    #include <netdb.h>
+    #include <unistd.h>
+#else
+    #include <winsock2.h>
+    #include <windows.h>
+#endif
+
 #define CERTF "certs/ec_servercert.pem"
 #define KEYF "certs/ec_serverkey.key"
 #define CAFILE "demoCA/cacert.pem"
-pthread_mutex_t mlock=PTHREAD_MUTEX_INITIALIZER;
-static pthread_mutex_t *lock_cs;
-static long *lock_count;
 #define CHK_NULL(x)  { if((x)==NULL) { printf("null\n"); } }
 #define CHK_ERR(err,s) { if((err)==-1) { printf(" -1 \n"); } }
 #define CHK_SSL(err) { if((err)==-1) { printf(" -1 \n");} }
-//#define CAFILE "certs/cacert.pem"
 
-
+pthread_mutex_t mlock=PTHREAD_MUTEX_INITIALIZER;
+static pthread_mutex_t *lock_cs;
+static long *lock_count;
 
 int verify_callback_server(int ok, X509_STORE_CTX *ctx)
 {
@@ -83,7 +81,10 @@ void * thread_main(void *arg)
     X509 *client_cert;
     char *str;
     char buf[1024];
+    BIO *bio_s_out = NULL;
 
+    if (bio_s_out == NULL)
+        bio_s_out = BIO_new_fp (stdout, BIO_NOCLOSE);
 
     ssl=(SSL*)arg;
 
@@ -98,6 +99,9 @@ void * thread_main(void *arg)
         return ;
     }
     printf("SSL connection using %s\n", SSL_get_cipher(ssl));
+
+    //PEM_write_bio_SSL_SESSION (bio_s_out, SSL_get_session (ssl));
+    //SSL_SESSION_print (bio_s_out, SSL_get_session (ssl));
 
     //检索证书
     client_cert = SSL_get_peer_certificate(ssl);
@@ -134,7 +138,13 @@ void * thread_main(void *arg)
     buf[err] = '\0';
     err = SSL_write(ssl, "I hear you.", strlen("I hear you."));
 #endif
-    SSL_free(ssl);
+    if(ssl != NULL)
+        SSL_free(ssl);
+    if (bio_s_out != NULL)
+    {
+        BIO_free (bio_s_out);
+        bio_s_out = NULL;
+    }
     close(s);
 }
 
@@ -188,7 +198,7 @@ int main()
     //加载crypto/ssl错误提示
     SSL_load_error_strings();
 
-    //为服务器构造TLSv1 SSL_METHOD结构
+    //指定协议版本：为服务器构造TLSv1 SSL_METHOD结构
     meth = SSLv3_server_method();
 
     //建立新的SSL上下文
@@ -229,6 +239,7 @@ int main()
 
     s_server_verify=SSL_VERIFY_PEER|SSL_VERIFY_FAIL_IF_NO_PEER_CERT|SSL_VERIFY_CLIENT_ONCE;
 
+    //指定证书验证方式
     SSL_CTX_set_verify(ctx,s_server_verify,verify_callback_server);
     //当需要客户端验证的时候，服务器把CAfile里面的可信任CA证书发往客户端。
     SSL_CTX_set_client_CA_list(ctx,SSL_load_client_CA_file(CAFILE));
@@ -288,7 +299,7 @@ int main()
             AcceptSocket=accept(s, NULL,NULL);
             ssl = SSL_new(ctx);
 
-            //提交一份自己能够支持的加密方法的列表
+            //算法组合：提交一份自己能够支持的加密方法的列表
             //SSL_set_cipher_list(ssl,"ECDH-RSA-AES256-SHA");
             SSL_set_cipher_list(ssl,"RC4-MD5");
 
@@ -305,8 +316,8 @@ int main()
                 continue;
         }
     }
+
     SSL_CTX_free(ctx);
     return 0;
-
 
 }

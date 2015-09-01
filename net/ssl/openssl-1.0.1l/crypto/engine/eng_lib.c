@@ -13,7 +13,7 @@
  * are met:
  *
  * 1. Redistributions of source code must retain the above copyright
- *    notice, this list of conditions and the following disclaimer. 
+ *    notice, this list of conditions and the following disclaimer.
  *
  * 2. Redistributions in binary form must reproduce the above copyright
  *    notice, this list of conditions and the following disclaimer in
@@ -117,7 +117,8 @@ int engine_free_util (ENGINE * e, int locked)
         i = CRYPTO_add (&e->struct_ref, -1, CRYPTO_LOCK_ENGINE);
     else
         i = --e->struct_ref;
-    engine_ref_debug (e, 0, -1) if (i > 0)
+    engine_ref_debug (e, 0, -1)
+    if (i > 0)
         return 1;
 #ifdef REF_CHECK
     if (i < 0)

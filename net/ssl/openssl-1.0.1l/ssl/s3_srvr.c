@@ -7,21 +7,21 @@
  * This package is an SSL implementation written
  * by Eric Young (eay@cryptsoft.com).
  * The implementation was written so as to conform with Netscapes SSL.
- * 
+ *
  * This library is free for commercial and non-commercial use as long as
  * the following conditions are aheared to.  The following conditions
  * apply to all code found in this distribution, be it the RC4, RSA,
  * lhash, DES, etc., code; not just the SSL code.  The SSL documentation
  * included with this distribution is covered by the same copyright terms
  * except that the holder is Tim Hudson (tjh@cryptsoft.com).
- * 
+ *
  * Copyright remains Eric Young's, and as such any Copyright notices in
  * the code are not to be removed.
  * If this package is used in a product, Eric Young should be given attribution
  * as the author of the parts of the library used.
  * This can be in the form of a textual message at program startup or
  * in documentation (online or textual) provided with the package.
- * 
+ *
  * Redistribution and use in source and binary forms, with or without
  * modification, are permitted provided that the following conditions
  * are met:
@@ -36,10 +36,10 @@
  *     Eric Young (eay@cryptsoft.com)"
  *    The word 'cryptographic' can be left out if the rouines from the library
  *    being used are not cryptographic related :-).
- * 4. If you include any Windows specific code (or a derivative thereof) from 
+ * 4. If you include any Windows specific code (or a derivative thereof) from
  *    the apps directory (application code) you must include an acknowledgement:
  *    "This product includes software written by Tim Hudson (tjh@cryptsoft.com)"
- * 
+ *
  * THIS SOFTWARE IS PROVIDED BY ERIC YOUNG ``AS IS'' AND
  * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
  * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
@@ -51,7 +51,7 @@
  * LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
- * 
+ *
  * The licence and distribution terms for any publically available version or
  * derivative of this code cannot be changed.  i.e. this code cannot simply be
  * copied and put under another distribution licence
@@ -66,7 +66,7 @@
  * are met:
  *
  * 1. Redistributions of source code must retain the above copyright
- *    notice, this list of conditions and the following disclaimer. 
+ *    notice, this list of conditions and the following disclaimer.
  *
  * 2. Redistributions in binary form must reproduce the above copyright
  *    notice, this list of conditions and the following disclaimer in
@@ -115,7 +115,7 @@
 /* ====================================================================
  * Copyright 2002 Sun Microsystems, Inc. ALL RIGHTS RESERVED.
  *
- * Portions of the attached software ("Contribution") are developed by 
+ * Portions of the attached software ("Contribution") are developed by
  * SUN MICROSYSTEMS, INC., and are contributed to the OpenSSL project.
  *
  * The Contribution is licensed pursuant to the OpenSSL open source
@@ -199,7 +199,7 @@ IMPLEMENT_ssl3_meth_func (SSLv3_server_method, ssl3_accept, ssl_undefined_functi
     {
         if (s->srp_ctx.login == NULL)
         {
-            /* RFC 5054 says SHOULD reject, 
+            /* RFC 5054 says SHOULD reject,
                we do so if There is no srp login name */
             ret = SSL3_AL_FATAL;
             *al = SSL_AD_UNKNOWN_PSK_IDENTITY;
@@ -1096,7 +1096,7 @@ int ssl3_get_client_hello (SSL * s)
         /* cookie stuff */
         cookie_len = *(p++);
 
-        /* 
+        /*
          * The ClientHello may contain a cookie even if the
          * HelloVerify message has not been sent--make sure that it
          * does not cause an overflow.
@@ -1460,7 +1460,7 @@ int ssl3_get_client_hello (SSL * s)
         }
     }
 
-    /* we now have the following setup. 
+    /* we now have the following setup.
      * client_random
      * cipher_list      - our prefered list of ciphers
      * ciphers      - the clients prefered list of ciphers
@@ -1818,7 +1818,7 @@ int ssl3_send_server_key_exchange (SSL * s)
             }
 
             /* XXX: For now, we only support ephemeral ECDH
-             * keys over named (not generic) curves. For 
+             * keys over named (not generic) curves. For
              * supported named curves, curve_id is non-zero.
              */
             if ((curve_id = tls1_ec_nid2curve_id (EC_GROUP_get_curve_name (group))) == 0)
@@ -1857,11 +1857,11 @@ int ssl3_send_server_key_exchange (SSL * s)
             BN_CTX_free (bn_ctx);
             bn_ctx = NULL;
 
-            /* XXX: For now, we only support named (not 
+            /* XXX: For now, we only support named (not
              * generic) curves in ECDH ephemeral key exchanges.
              * In this situation, we need four additional bytes
              * to encode the entire ServerECDHParams
-             * structure. 
+             * structure.
              */
             n = 4 + encodedlen;
 
@@ -2580,7 +2580,7 @@ int ssl3_get_client_key_exchange (SSL * s)
              * protocol does not offer such protection for DH ciphersuites).
              * However, buggy clients exist that send random bytes instead of
              * the protocol version.
-             * If SSL_OP_TLS_ROLLBACK_BUG is set, tolerate such clients. 
+             * If SSL_OP_TLS_ROLLBACK_BUG is set, tolerate such clients.
              * (Perhaps we should have a separate BUG value for the Kerberos cipher)
              */
             if (!(s->options & SSL_OP_TLS_ROLLBACK_BUG))
@@ -2682,8 +2682,8 @@ int ssl3_get_client_key_exchange (SSL * s)
                  * authentication using ECDH certificates
                  * so this branch (n == 0L) of the code is
                  * never executed. When that support is
-                 * added, we ought to ensure the key 
-                 * received in the certificate is 
+                 * added, we ought to ensure the key
+                 * received in the certificate is
                  * authorized for key agreement.
                  * ECDH_compute_key implicitly checks that
                  * the two ECDH shares are for the same
@@ -2726,7 +2726,7 @@ int ssl3_get_client_key_exchange (SSL * s)
                 goto err;
             }
             /* p is pointing to somewhere in the buffer
-             * currently, so set it to the start 
+             * currently, so set it to the start
              */
             p = (unsigned char *) s->init_buf->data;
         }
@@ -2938,7 +2938,7 @@ int ssl3_get_client_key_exchange (SSL * s)
         }
         start = p;
         inlen = Tlen;
-        if (EVP_PKEY_decrypt (pkey_ctx, premaster_secret, &outlen, start, inlen) <= 0)
+        if (EVP_PKEY_decrypt (pkey_ctx, remaster_secret, &outlen, start, inlen) <= 0)
 
         {
             SSLerr (SSL_F_SSL3_GET_CLIENT_KEY_EXCHANGE, SSL_R_DECRYPTION_FAILED);
