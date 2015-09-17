@@ -27,7 +27,7 @@ all:
 FORCE.install:
 install:	FORCE.install
 		cd install; \
-			make -f unix/makefile CFLAGS='-I. -DPROTOTYPES=1 -O -c' RSAREFLIB=librsaref.a librsaref.a
+			make -f unix/makefile CFLAGS='-I. -fPIC -DPROTOTYPES=1 -O0 -g3 -c' RSAREFLIB=librsaref.a librsaref.a
 
 FORCE.update:
 update:		FORCE.update
