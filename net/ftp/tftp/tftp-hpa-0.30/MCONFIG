@@ -1,0 +1,65 @@
+## -*- makefile -*- ------------------------------------------------------
+##   
+##   Copyright 2001 H. Peter Anvin - All Rights Reserved
+##
+##   This program is free software available under the same license
+##   as the "OpenBSD" operating system, distributed at
+##   http://www.openbsd.org/.
+##
+## ----------------------------------------------------------------------- 
+## $Id: MCONFIG.in,v 1.7 2001/11/27 10:18:11 hpa Exp $
+
+##
+## MCONFIG.in
+##
+## Basic Makefile definitions
+##
+
+# Prefixes
+prefix      = /usr
+exec_prefix = ${prefix}
+
+# Directory for user binaries
+BINDIR  = ${exec_prefix}/bin
+
+# Man page tree
+MANDIR  = ${prefix}/man
+
+# System binaries
+SBINDIR = ${exec_prefix}/sbin
+
+# Binary suffixes
+O = o
+X = 
+
+# Install into alternate root area, e.g. for package generation
+INSTALLROOT = 
+
+# Link
+LN_S            = ln -s
+
+# Install program
+INSTALL         = /usr/bin/install -c
+INSTALL_PROGRAM = ${INSTALL}
+INSTALL_DATA    = ${INSTALL} -m 644
+
+# Compiler and compiler flags
+CC      = gcc
+CFLAGS  = -g3 -O0 -D_XPG4_2 -D_XOPEN_SOURCE -D__EXTENSIONS__ -D_BSD_SOURCE -D_ISO9X_SOURCE -D_OSF_SOURCE -D_XOPEN_SOURCE_EXTENDED -W -Wall -Wpointer-arith -Wbad-function-cast -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Winline -Wwrite-strings -Wundef -Wshadow -Wsign-compare -pipe -I$(SRCROOT)
+
+# Link flags
+LDFLAGS = 
+
+# Libraries (client and server)
+TFTP_LIBS  = ../lib/libxtra.a 
+TFTPD_LIBS = ../lib/libxtra.a 
+
+# Additional library we need to build
+LIBOBJS	=  xmalloc.o xstrdup.o
+
+# Additional tftpd objects we need to build
+TFTPDOBJS = 
+
+# ar and ranlib (for making libraries)
+AR	= ar cq
+RANLIB	= ranlib

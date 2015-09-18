@@ -118,6 +118,8 @@ depend:
 		rm -f Makefile.tmp Makefile
 		mv Makefile.new Makefile
 
+clean:
+	find . -name "*.o" -exec rm '{}' \; -o -name "*.a" -exec rm '{}' \; -o -name "*.so" -exec rm '{}' \;
 # DO NOT DELETE THIS LINE -- make depend depends on it.
 
 rsaref.o: ../../../include/openssl/asn1.h ../../../include/openssl/bio.h
