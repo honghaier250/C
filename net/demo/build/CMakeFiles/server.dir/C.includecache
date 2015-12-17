@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/workspace/exercise/languages/C/net/demo/src/server.c
+sys/types.h
+-
+sys/socket.h
+-
+netinet/in.h
+-
+time.h
+-
+string.h
+-
+unistd.h
+-
+stdio.h
+-
+

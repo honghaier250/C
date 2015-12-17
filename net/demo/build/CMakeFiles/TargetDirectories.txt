@@ -1,0 +1,2 @@
+/root/workspace/exercise/languages/C/net/demo/build/CMakeFiles/client.dir
+/root/workspace/exercise/languages/C/net/demo/build/CMakeFiles/server.dir
