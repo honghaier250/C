@@ -31,9 +31,14 @@ void print_start_interface(void)
 {
     int x, y;
     printf("\33[2J");
-    printf("\33[%d;%dH\33[32m分数:\33[0m", p_y + 10, p_x + 25);
-    printf("\33[%d;%dH\33[32m等级:\33[0m", p_y + 14, p_x + 25);
-    for (x = p_x, y = p_y; x <= 46; x++)
+    printf("\33[%d;%dH\33[32m俄罗斯方块\33[0m", p_y - 3 , p_x + 13);
+    printf("\33[%d;%dH\33[32m功能键:\33[0m", p_y + 9, p_x + 24);
+    printf("\33[%d;%dH\33[32m   暂停: p\33[0m", p_y + 10, p_x + 25);
+    printf("\33[%d;%dH\33[32m   退出: q\33[0m", p_y + 11, p_x + 25);
+    printf("\33[%d;%dH\33[32m分数:\33[0m", p_y + 15, p_x + 25);
+    printf("\33[%d;%dH\33[32m等级:\33[0m", p_y + 17, p_x + 25);
+    printf("\33[%d;%dH\33[32m状态:\33[0m", p_y + 19, p_x + 25);
+    for (x = p_x, y = p_y; x <= (p_x+36); x++)
         printf("\33[%d;%dH\33[41m==\33[0m", y, x);
     for (x = p_x, y = p_y + 1; y <= 25; y++)
         printf("\33[%d;%dH\33[41m||\33[0m", y, x);
@@ -41,9 +46,11 @@ void print_start_interface(void)
         printf("\33[%d;%dH\33[41m||\33[0m", y, x);
     for (x = p_x + 36, y = p_y + 1; y <= 25; y++)
         printf("\33[%d;%dH\33[41m||\33[0m", y, x);
-    for (x = p_x + 24, y = p_y + 8; x <= 44; x++)
+    for (x = p_x + 24, y = p_y + 8; x <= 74; x++)
         printf("\33[%d;%dH\33[41m--\33[0m", y, x);
-    for (x = p_x, y = p_y + 21; x <= 46; x++)
+    for (x = p_x + 24, y = p_y + 13; x <= 74; x++)
+        printf("\33[%d;%dH\33[41m--\33[0m", y, x);
+    for (x = p_x, y = p_y + 21; x <= (p_x+36); x++)
         printf("\33[%d;%dH\33[41m==\33[0m", y, x);
     printf("\33[?25l");
     fflush(stdout);
@@ -226,6 +233,12 @@ void move_left(void)
 // move down
 void move_down()
 {
+    //游戏若处于暂停状态,直接返回
+    if (1 == flag_pause)
+    {
+        goto finish;
+    }
+
     y++;
     if (y >= Y - save_row + 1 || judge_by_color(x, mode) == 1)
     {
@@ -250,6 +263,9 @@ void move_down()
     }
     print_mode_shape();
     fflush(stdout);
+
+finish:
+    ;
 }
 
 // fall down
@@ -331,18 +347,18 @@ void print_next(void)
 //print scores info
 void print_score(void)
 {
-    printf("\33[%d;%dH\33[31m%d\33[0m", p_y + 10, p_x + X + 10, score);
+    printf("\33[%d;%dH\33[31m%d\33[0m", p_y + 15, p_x + X + 10, score);
     fprintf(stdout, "\33[%d;0H", p_y + 20 + 2);
 }
 
 //print grades info
 void print_level(void)
 {
-    printf("\33[%d;%dH\33[31m%d\33[0m", p_y + 14, p_x + X + 10, level);
+    printf("\33[%d;%dH\33[31m%d\33[0m", p_y + 17, p_x + X + 10, level);
     fprintf(stdout, "\33[%d;0H", p_y + 20 + 2);
 }
 
-//destroy a line or lines    
+//destroy a line or lines
 void destroy_line(void)
 {
     int i, j, full;
@@ -382,7 +398,7 @@ void destroy_line(void)
     }
 }
 
-//change level , change rate   
+//change level , change rate
 void change_level(void)
 {
     switch (level)
@@ -450,7 +466,7 @@ int judge_by_color(int x, int mode)
     }
 }
 
-//control the diamonds shape by the key        
+//control the diamonds shape by the key
 void key_control(void)
 {
     int ch, flag = 1;
@@ -464,6 +480,26 @@ void key_control(void)
         while (flag)
         {
             ch = getchar();
+            if (1 == flag_pause)
+            {
+                if (ch == 'p')
+                {
+                    flag_pause = 0;
+                    move_down();
+
+                    //消除暂停提示
+                    printf("\33[%d;%dH\33[32m    \33[0m", p_y + 19, p_x + 30);
+                    continue;
+                }
+            }
+
+            //游戏暂停
+            if (ch == 'p')
+            {
+                printf("\33[%d;%dH\33[32m暂停\33[0m", p_y + 19, p_x + 30);
+                flag_pause = 1;
+                continue;
+            }
             if (ch == '\r')
             {
                 fall_down();
@@ -499,11 +535,15 @@ void key_control(void)
         }
         printf("\33[%d;%dH\33[31m-----game interrupt exit!-----\33[0m", p_y + Y + 3, p_x);
         printf("\33[%d;0H\33[?25h", p_y + Y + 4);
+        fflush(stdout);
     }
     tcsetattr(0, 0, &save);
+
+    //游戏结束时清空屏幕
+    system("clear");
 }
 
-//reach the top line, the game is over        
+//reach the top line, the game is over
 void game_over(void)
 {
     int i;

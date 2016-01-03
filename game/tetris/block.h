@@ -1,7 +1,7 @@
 #ifndef _BLOCK_H_
 #    define _BLOCK_H_
 
-#    define  p_x 10                //init postion row;
+#    define  p_x 40                //init postion row;
 #    define  p_y 5                //init postion col;
 #    define  X 20                // game_window_size
 #    define  Y 20
@@ -10,6 +10,7 @@
 jmp_buf env;
 static int x, y;                //   current diamonds postion
 static int flag_erase;            //   erase flag
+static int flag_pause;            //   erase flag
 static int num, mode, next_num, next_mode;    //   current and next diamonds
 static int save_row, save_col, save_x, save_y, save_mode;    //   save coordinate, save graph
 static int color, save_color, flag_color;    //   save the color of the next diamonds
@@ -19,12 +20,12 @@ static int level = 1;            //   game levels
 static int score = 0;            //   game scores
 /*
 struct itimerval {
-struct timeval it_interval; // next value 
-struct timeval it_value;    // current value 
+struct timeval it_interval; // next value
+struct timeval it_value;    // current value
 };
 struct timeval {
-long tv_sec;                // seconds 
-long tv_usec;               // microseconds 
+long tv_sec;                // seconds
+long tv_usec;               // microseconds
 };
 */
 typedef struct itimerval LEVEL;
@@ -44,7 +45,7 @@ static LEVEL level_09 = { {0, 60000}, {0, 300000} };
 //second-dimensional for alterable's mode
 //third-dimensional for reality value of row and col
 static const int shape[7][4][18] = {
-    {{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 1, 2, 1},    //        
+    {{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 1, 2, 1},    //
      {0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 2},    //   []   []    [][][]     []
      {0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 0, 2, 1},    // [][][] [][]    []     [][]
      {0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 2}},    //         []               []
@@ -59,7 +60,7 @@ static const int shape[7][4][18] = {
      {0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 1, 0, 1, 2},    // []       []    [][][]    []
      {0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 2, 1}},    // [][][]   []        []  [][]
 
-    {{0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 2},    // 
+    {{0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 2},    //
      {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 1, 0, 2, 1},    //    []
      {0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 2},    //    [][]     [][]
      {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 1, 0, 2, 1}},    //       []   [][]
@@ -76,8 +77,8 @@ static const int shape[7][4][18] = {
 
     {{0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3},    //     []
      {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 3, 0},    //     []     [][][][]
-     {0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3},    //     [] 
-     {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 3, 0}}    //     []     
+     {0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3},    //     []
+     {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 3, 0}}    //     []
 };
 
 void init_for_globle(void);
