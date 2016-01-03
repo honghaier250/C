@@ -6,11 +6,10 @@
 // Description : Connect Mysql in C++, Ansi-style
 //============================================================================
 
-#include <iostream>
-#include <cstring>
+#include <stdio.h>
+#include <string.h>
 #include <linux/socket.h>
-#include <mysql/mysql.h>
-using namespace std;
+#include "mysql.h"
 
 int main()
 {
@@ -19,35 +18,33 @@ int main()
     MYSQL_ROW row;
 
     mysql_init(&mysql);
-    if(!mysql_real_connect(&mysql,"10.87.30.13X","root","XXXXXX","mysql",3306,NULL,0))
+    if(!mysql_real_connect(&mysql,"127.0.0.1","root","admin","xdgw",3306,NULL,0))
     {
-        cout<<"mysql connect failed !"<<endl;
+        fprintf(stderr, "%s" ,"mysql connect failed !");
         return 0;
     }
 
-    if(mysql_real_query(&mysql,"select * from user",(unsigned long)strlen("select * from user")))
+    if(mysql_real_query(&mysql,"SELECT OBJECTID,NAME,ID_CARD,PAPERS FROM TB_PMS_SUBJECT_RES WHERE CERT_SN='48798gdf56sd23tg1'",(unsigned long)strlen("SELECT OBJECTID,NAME,ID_CARD,PAPERS FROM TB_PMS_SUBJECT_RES WHERE CERT_SN='48798gdf56sd23tg1'")))
     {
-        cout<<"select failed !"<<endl;
+        fprintf(stderr, "%s" , "select failed !");
         return 0;
     }
 
-    if(NULL==(result=mysql_store_result(&mysql)))
+    /* if(NULL==(result=mysql_store_result(&mysql))) */
+    if(NULL==(result=mysql_use_result(&mysql)))
     {
-        cout<<"stroe result failed !"<<endl;
+        fprintf(stderr, "%s" , "stroe result failed !");
         return 0;
     }
 
     while(row=mysql_fetch_row(result))
     {
-        cout<<row[0]<<"\t"<<row[1]<<endl;
+        fprintf(stdout, "%s\t%s\t%s\t%s\n" ,row[0], row[1], row[2], row[3]);
     }
 
     mysql_free_result(result);
     mysql_close(&mysql);
 
-
-
-    cout << "!!!Hello World\t!!!" << endl; // prints !!!Hello World!!!
     return 0;
 }
 

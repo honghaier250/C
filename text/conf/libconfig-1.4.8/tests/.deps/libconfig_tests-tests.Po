@@ -18,9 +18,8 @@ libconfig_tests-tests.o: tests.c /usr/include/stdlib.h \
  /usr/include/wchar.h \
  /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h \
  /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
- /usr/include/bits/stdio.h ../tinytest/tinytest.h /usr/include/setjmp.h \
- /usr/include/bits/setjmp.h /usr/include/string.h /usr/include/xlocale.h \
- /usr/include/bits/string.h /usr/include/bits/string2.h
+ ../tinytest/tinytest.h /usr/include/setjmp.h /usr/include/bits/setjmp.h \
+ /usr/include/string.h /usr/include/xlocale.h
 
 /usr/include/stdlib.h:
 
@@ -98,8 +97,6 @@ libconfig_tests-tests.o: tests.c /usr/include/stdlib.h \
 
 /usr/include/bits/sys_errlist.h:
 
-/usr/include/bits/stdio.h:
-
 ../tinytest/tinytest.h:
 
 /usr/include/setjmp.h:
@@ -109,7 +106,3 @@ libconfig_tests-tests.o: tests.c /usr/include/stdlib.h \
 /usr/include/string.h:
 
 /usr/include/xlocale.h:
-
-/usr/include/bits/string.h:
-
-/usr/include/bits/string2.h:

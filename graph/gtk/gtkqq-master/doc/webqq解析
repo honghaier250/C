@@ -1,0 +1,138 @@
+		WebQQ协议解析
+
+1.登录1421032531
+	WebQQ的登录是通过网址http://ui.ptlogin2.qq.com/cgi-bin/login完成。
+	访问这个网址的时候需要几个参数。首先，appid和s_url是必需的。这两个的值
+可以设置为1003903和http://web2.qq.com/loginproxy.html。通常在通过webqq登录的时
+后还会有其他参数，但不是必需的。比如style表示的是风格。应该是腾讯给其他版本的
+QQ提供不同的登录风格。由于不同style的登录页面代码有差别，因此，下面的分析采用
+webqq使用的风格4。还有下面的参数target=self，appid=1003903，enable_qlogin=0，
+no_verifyimg=1。发现这几个参数是硬编码在html文件中的。因此用这些默认的值就可以。
+	通过这个地址可以获取到登录窗口的所有源码。最重要的就是那个登录form。
+form中有用的参数有三个，action="http://ptlogin2.qq.com/login"，method="post"和
+onsubmit="ptui_onLoginEx(loginform,'qq.com')"。在提交登录信息之前，通过函数
+ptui_onLoginEx函数处理提交的信息。
+	完成所有源码的下载之后，webqq需要获得一个叫做vc_type的变量。这个变量在
+后面的通讯中有用。首先，发送GET请求http://ptlogin2.webqq.com/check?uin=xxxxxx&
+appid=1003903&r=xx其中，uin是qq号。appid是前面加载验证码图片的ptui_changeImg函
+数的第二个参数。r是一个小于1的随机数。服务器返回下面的数据：ptui_checkVC('1',
+'44657d96f141ad5fc9ced861e2ba1a48b32e0dc974505ad7');。第二个参数就是vc_type的
+值。这同时也是检测是否需要输入验证码。
+	在加载验证码图片的时候，会调用imgLoadReport函数来检测是否需要验证码。
+服务器会返回前面提到的vc_type的值。通过下面的请求获取新的验证码图片:
+http://captcha.qq.com/getimage?&uin=xxx&vc_type=xxx&aid=1002101&random。
+aid后面紧跟着一个小于1的随机数。验证码的生成估计和这个发送的随机数有关。
+	当用户点击提交，也就是登录之后。如果用户选择记住密码，那么调用函数
+ptui_onLoginEx(form, "qq.com")来完成登录，否则调用ptui_onLogin(form)。最终调用函数
+ajax_Submit提交登录申请。在ajax_Submit中拼接发送个登录网址的参数。
+主要的参数如下：
+	u = QQ号码
+	p = 对密码进行三次MD5运算，加上全部大写的验证码，再进行一次MD5运算。
+	verifycode = 验证码
+	webqq_type = 1
+	remember_uin = 1 or 0 是否记住用户名
+	下面的几个参数都是从页面的隐藏标签中获得。
+	aid = 1002101
+	ul = http://web2.qq.com
+	ptredirect=1
+	ptlang=2052
+	from_ui=1
+	pttype=1
+	fp=loginerroralert
+
+发送出去之后。服务器返回为：
+	1.ptuiCB('4','0','','0','\346\202\250\350\276\223\345\205\245\347\232\204
+			\351\252\214\350\257\201\347\240\201\346\234\211\350
+			\257\257\357\274\214\350\257\267\351\207\215\350\257
+			\225\343\200\202')
+	表示密码或者验证码错误。
+
+	2.ptuiCB('0','0','http://web2.qq.com/loginproxy.html?login_level=3','0',
+			'\347\231\273\345\275\225\346\210\220\345\212\237\357
+			\274\201')
+	表示登录成功。
+	（注：上面的\xxx是utf8编码的字符，glib可以直接识别。不需要做任何处理，
+glib会以正确的形式输出和现实。）
+0：登录成功!
+1：系统繁忙，请稍后重试。
+2：已经过期的QQ号码。
+3：您输入的密码有误，请重试。
+4：您输入的验证码有误，请重试。
+5：校验失败。
+6：密码错误。如果您刚修改过密码, 请稍后再登录.
+7：您的输入有误, 请重试。
+8：您的IP输入错误的次数过多，请稍后再试。
+
+
+然后，通过POST方法向http://d.web2.qq.com/channel/login2发送数据r={"status":"",
+"ptwebqq":"83274d9a158ec3151bcb47cea852a518c4f6ed590420ae33bd03df0fc8f57a91",
+"passwd_sig":"","clientid":"59790248","psessionid":null}获取登录后的信息。这个数
+据需要url转码。ptwebqq在前面登录的form提交后，返回的response中的cookie中。
+
+服务器返回，{"retcode":0,"result":{"uin":494498045,"index":1074,"port":33237,
+"status":"hidden","vfwebqq":"6c8fdacdba15f2f9c666c114be65afa7de1d5e37eaff87e
+1ac37099ef1d2421010d8d4452510a211",
+"psessionid":"8368046764001e636f6e6e7365727665725f77656271714031302e3132382e3
+6362e31313500000e030000039e026e0400fd70791d6d0000000a40784c74344a4f666d786d00
+0000286c8fdacdba15f2f9c666c114be65afa7de1d5e37eaff87e1ac37099ef1d2421010d8d44
+52510a211"}}其中，vfwebqq和pesssionid是每次通讯必需使用的。
+
+	至此，登录成功。
+
+  获取好友和分组：
+　　地址：http://web2-b.qq.com/api/get_user_friends
+     提交参数 r=%7B%22vfwebqq%22%3A%22{0}%22%7D ｛0｝为登陆成功后返回的vfwebqq
+     提交方式：post
+     返回结果包含了好友分组   好友   好友信息 
+     
+      这里获取的好友唯一一点不足就是无法区别好友是否在线，还得专门去获取在线好友。倒是QQ空间获取好友的方式比较适用
+ 
+   获取在线好友：
+    地址：http://web2-b.qq.com/channel/get_online_buddies?clientid={0}&psessionid={1}&t={2}
+    ｛0｝登陆时生成的clientid，｛1｝登陆后获取的psessionid参数 ｛2｝时间戳
+   提交方式：get
+ 
+   获取群：
+   地址：http://web2-b.qq.com/api/get_group_name_list_mask
+   参数：r=%7B%22vfwebqq%22%3A%22{0}%22%7D ｛0｝为登陆后获取的vfwebqq
+   提交方式：post
+   
+    获取个性签名：
+   地址：http://web2-b.qq.com/api/get_single_long_nick?tuin={0}&t={1}  ｛0｝QQ号码  ｛1｝时间戳
+   提交方式 get
+ 
+   设置个性签名：
+   地址："http://web2-b.qq.com/api/set_long_nick
+    提交参数：r=%7B%22nlk%22%3A%22{0}%22%2C%22vfwebqq%22%3A%22{1}%22%7D
+     ｛0｝为签名内容  ｛1｝为登陆后获取的vfwwebqq参数
+    提交方式 post
+
+2.登出
+3.获取个人信息
+4.获取好友列表及信息
+5.获取群信息
+6.发送和接收好友消息
+7.发送和接收群消息
+8.传送和接收文件
+9.其他
+
+
+
+客户端密码的加密：
+	首先将密码用md5加密三次。
+	然后将加密结果和验证码链接成字符串。
+	再对这个字符串用md5加密。
+
+
+clientid = String(m.random(0, 99)) + String((new Date()).getTime() % 1000000)
+
+msg_id 
+v = (new Date()).getTime();
+        v = (v - v % 1000) / 1000;
+        v = v % 10000 * 10000;
+        var u = function() {
+            p++;
+            return v + p;
+        };
+clientType: {1: "PC",2: "PC",3: "PC",4: "PC",5: "PC",6: "PC",10: "PC",21: "Phone",22: "Phone",23: "Phone",24: "Phone",41: "WebQQ",42: "PC",1E4: "PC"}
+
