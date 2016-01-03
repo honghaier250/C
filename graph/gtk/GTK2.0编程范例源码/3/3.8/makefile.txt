@@ -1,0 +1,7 @@
+CC=gcc
+all:prop.o prop-editor.o
+	$(CC) -o prop prop.o prop-editor.o `pkg-config --libs gtk+-2.0`
+prop.o:prop.c prop-editor.h
+	$(CC) -c prop.c `pkg-config --cflags gtk+-2.0`
+prop-editor.o:prop-editor.c prop-editor.h
+	$(CC) -c prop-editor.c `pkg-config --cflags gtk+-2.0`

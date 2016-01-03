@@ -1,0 +1,15 @@
+*.in
+*.lo
+*.log
+*.o
+*.out
+*.swp
+*~
+.deps/
+.libs/
+/eproject.cfg
+Makefile
+aclocal.m4
+autom4te.cache
+build-aux/
+cscope*

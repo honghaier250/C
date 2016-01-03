@@ -26,26 +26,26 @@
 
 int main(int argc, char *argv[])
 {
-	StatusIcon icon;
-	MainWindow window;
+    StatusIcon icon;
+    MainWindow window;
 
-	mwp = &window;
-	bindtextdomain(GETTEXT_PACKAGE, __LOCALE_PATH);
-	bind_textdomain_codeset(GETTEXT_PACKAGE, "UTF-8");
-	textdomain(GETTEXT_PACKAGE);
+    mwp = &window;
+    bindtextdomain(GETTEXT_PACKAGE, __LOCALE_PATH);
+    bind_textdomain_codeset(GETTEXT_PACKAGE, "UTF-8");
+    textdomain(GETTEXT_PACKAGE);
 
-	if (!g_thread_supported())
-		g_thread_init(NULL);
-	gdk_threads_init();
-	gdk_threads_enter();
-	gtk_init(&argc, &argv);
+    if (!g_thread_supported())
+        g_thread_init(NULL);
+    gdk_threads_init();
+    gdk_threads_enter();
+    gtk_init(&argc, &argv);
 
-	iptux_init();
-	icon.CreateStatusIcon();
-	thread_create(ThreadFunc(CoreThread::CoreThreadEntry), NULL, false);
-	window.CreateWindow();
+    iptux_init();
+    icon.CreateStatusIcon();
+    thread_create(ThreadFunc(CoreThread::CoreThreadEntry), NULL, false);
+    window.CreateWindow();
 
-	gtk_main();
-	gdk_threads_leave();
-	return 0;
+    gtk_main();
+    gdk_threads_leave();
+    return 0;
 }

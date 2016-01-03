@@ -1,0 +1,80 @@
+//使用事件盒，URL连接  url.c
+#include <gtk/gtk.h>
+
+//定义一个布尔型回调函数
+static gboolean button_press_callback(GtkWidget	*event_box, GdkEventButton   *event, gpointer  data)
+{
+	//判断是否为鼠标左键	
+	if(event->button == 1)  
+	//打开our.html文件
+	system("firefox our.html");
+	return TRUE;
+}
+int main(int argc,char*argv[])
+{
+	GtkWidget *window;	//定义一个窗口
+	GtkWidget *vbox;		//定义一个纵向盒子
+	GtkWidget *hbox;		//定义一个横向盒子
+	GtkWidget *label;	//定义一个标签
+	GtkWidget *image;	//定义一个图片
+	GtkWidget *eventbox;	//定义一个事件盒
+
+	//初始化
+	gtk_init(&argc,&argv);	
+	//创建窗体
+	window = gtk_window_new(GTK_WINDOW_TOPLEVEL);	
+	//登记窗体delete_event关闭窗口信号	
+	g_signal_connect(G_OBJECT(window),"delete_event",G_CALLBACK(gtk_main_quit),NULL);	
+	//给窗口加个标题
+	gtk_window_set_title(GTK_WINDOW(window),"URL链接");	
+	//设置窗口位置
+	gtk_window_set_position(GTK_WINDOW(window),GTK_WIN_POS_CENTER);	
+	//窗口容器宽度
+	gtk_container_set_border_width(GTK_CONTAINER(window),10);	
+
+
+	//创建一个纵向的盒子
+	vbox = gtk_vbox_new(FALSE,0);	
+	 //把盒子放入窗口里面
+	gtk_container_add(GTK_CONTAINER(window),vbox); 
+	//创建一个标签
+	label = gtk_label_new("以下为两种形式的超链接:");	
+	//把标签放到盒子里
+	gtk_box_pack_start(GTK_BOX(vbox),label,FALSE,FALSE,5);
+	//创建一个横向的盒子
+	hbox = gtk_hbox_new(FALSE,0);	
+	//把一个横向盒子放到纵向盒子里
+	gtk_box_pack_start(GTK_BOX(vbox),hbox,FALSE,FALSE,5);	
+
+
+	//创建事件盒构件
+	eventbox = gtk_event_box_new();	
+	//为事件盒构件绑定一个事件响应	
+	g_signal_connect (G_OBJECT (eventbox),"button_press_event",G_CALLBACK (button_press_callback),image);	
+	//把事件盒放到横向的盒子里
+	gtk_box_pack_start(GTK_BOX(hbox),eventbox,FALSE,FALSE,15);	
+	 //创建一个标签
+	label = gtk_label_new("欢迎参观我的网页...");   
+	//将标签加入事件盒
+	gtk_container_add(GTK_CONTAINER(eventbox),label);	
+
+
+	//创建事件盒构件
+	eventbox = gtk_event_box_new();	
+	//为事件盒构件绑定一个事件响应
+	g_signal_connect (G_OBJECT (eventbox),"button_press_event",G_CALLBACK (button_press_callback),image);
+	//把事件盒放到横向的盒子里
+	gtk_box_pack_start(GTK_BOX(hbox),eventbox,FALSE,FALSE,15);
+	//图像链接
+	image = gtk_image_new_from_file("tupian.bmp");   
+	//把图像加入事件盒构件
+	gtk_container_add(GTK_CONTAINER(eventbox),image);	
+
+
+	//显示所有窗口
+	gtk_widget_show_all(window);
+	gtk_main();
+	return FALSE;
+}
+
+
