@@ -27,7 +27,7 @@ void init_for_globle(void)
 }
 
 //print start interface
-void print_start_interface(void)
+void print_start_interface()
 {
     int x, y;
     printf("\33[2J");
@@ -54,6 +54,19 @@ void print_start_interface(void)
         printf("\33[%d;%dH\33[41m==\33[0m", y, x);
     printf("\33[?25l");
     fflush(stdout);
+
+    //游戏过程中，终端窗口大小发生变化后，重新绘制游戏界面
+    if(1 == sig_winch)
+    {
+        print_save_matrix();
+        print_next();
+        print_mode_shape();
+        print_score();
+        print_level();
+    }
+
+    //游戏启动时，设置终端窗口大小发生变化标识
+    sig_winch = 1;
 }
 
 //erase last diamonds

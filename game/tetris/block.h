@@ -10,7 +10,8 @@
 jmp_buf env;
 static int x, y;                //   current diamonds postion
 static int flag_erase;            //   erase flag
-static int flag_pause;            //   erase flag
+static int flag_pause;            //   pause flag
+static int sig_winch;            //    SIGWINCH
 static int num, mode, next_num, next_mode;    //   current and next diamonds
 static int save_row, save_col, save_x, save_y, save_mode;    //   save coordinate, save graph
 static int color, save_color, flag_color;    //   save the color of the next diamonds
