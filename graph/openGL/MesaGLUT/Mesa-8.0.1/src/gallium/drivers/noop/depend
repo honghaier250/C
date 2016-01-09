@@ -1,0 +1,120 @@
+# DO NOT DELETE
+
+noop_pipe.o: /usr/include/stdio.h /usr/include/features.h
+noop_pipe.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+noop_pipe.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+noop_pipe.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+noop_pipe.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+noop_pipe.o: /usr/include/libio.h /usr/include/_G_config.h
+noop_pipe.o: /usr/include/wchar.h
+noop_pipe.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+noop_pipe.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+noop_pipe.o: /usr/include/errno.h /usr/include/bits/errno.h
+noop_pipe.o: /usr/include/linux/errno.h /usr/include/asm/errno.h
+noop_pipe.o: /usr/include/asm-generic/errno.h
+noop_pipe.o: /usr/include/asm-generic/errno-base.h
+noop_pipe.o: ../../../../src/gallium/include/pipe/p_defines.h
+noop_pipe.o: ../../../../src/gallium/include/pipe/p_compiler.h
+noop_pipe.o: ../../../../src/gallium/include/pipe/p_config.h
+noop_pipe.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+noop_pipe.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+noop_pipe.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+noop_pipe.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+noop_pipe.o: /usr/include/bits/posix2_lim.h /usr/include/endian.h
+noop_pipe.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+noop_pipe.o: /usr/include/stdlib.h /usr/include/bits/waitflags.h
+noop_pipe.o: /usr/include/bits/waitstatus.h /usr/include/sys/types.h
+noop_pipe.o: /usr/include/time.h /usr/include/sys/select.h
+noop_pipe.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+noop_pipe.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+noop_pipe.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+noop_pipe.o: /usr/include/string.h /usr/include/xlocale.h
+noop_pipe.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+noop_pipe.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+noop_pipe.o: ../../../../src/gallium/include/pipe/p_state.h
+noop_pipe.o: ../../../../src/gallium/include/pipe/p_defines.h
+noop_pipe.o: ../../../../src/gallium/include/pipe/p_format.h
+noop_pipe.o: ../../../../src/gallium/include/pipe/p_context.h
+noop_pipe.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+noop_pipe.o: ../../../../src/gallium/include/pipe/p_screen.h
+noop_pipe.o: ../../../../src/gallium/include/pipe/p_compiler.h
+noop_pipe.o: ../../../../src/gallium/include/pipe/p_format.h
+noop_pipe.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+noop_pipe.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+noop_pipe.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+noop_pipe.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+noop_pipe.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+noop_pipe.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+noop_pipe.o: ../../../../src/gallium/include/pipe/p_config.h
+noop_pipe.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+noop_pipe.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+noop_pipe.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+noop_pipe.o: ../../../../src/gallium/auxiliary/util/u_debug_describe.h
+noop_pipe.o: ../../../../src/gallium/auxiliary/util/u_debug_refcnt.h
+noop_pipe.o: ../../../../src/gallium/auxiliary/util/u_atomic.h
+noop_pipe.o: ../../../../src/gallium/auxiliary/util/u_box.h
+noop_pipe.o: ../../../../src/gallium/auxiliary/util/u_math.h
+noop_pipe.o: /usr/include/math.h /usr/include/bits/huge_val.h
+noop_pipe.o: /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h
+noop_pipe.o: /usr/include/bits/inf.h /usr/include/bits/nan.h
+noop_pipe.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+noop_pipe.o: ../../../../src/gallium/auxiliary/util/u_format.h noop_public.h
+noop_state.o: /usr/include/stdio.h /usr/include/features.h
+noop_state.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+noop_state.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+noop_state.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+noop_state.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+noop_state.o: /usr/include/libio.h /usr/include/_G_config.h
+noop_state.o: /usr/include/wchar.h
+noop_state.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+noop_state.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+noop_state.o: /usr/include/errno.h /usr/include/bits/errno.h
+noop_state.o: /usr/include/linux/errno.h /usr/include/asm/errno.h
+noop_state.o: /usr/include/asm-generic/errno.h
+noop_state.o: /usr/include/asm-generic/errno-base.h
+noop_state.o: ../../../../src/gallium/include/pipe/p_defines.h
+noop_state.o: ../../../../src/gallium/include/pipe/p_compiler.h
+noop_state.o: ../../../../src/gallium/include/pipe/p_config.h
+noop_state.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+noop_state.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+noop_state.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+noop_state.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+noop_state.o: /usr/include/bits/posix2_lim.h /usr/include/endian.h
+noop_state.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+noop_state.o: /usr/include/stdlib.h /usr/include/bits/waitflags.h
+noop_state.o: /usr/include/bits/waitstatus.h /usr/include/sys/types.h
+noop_state.o: /usr/include/time.h /usr/include/sys/select.h
+noop_state.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+noop_state.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+noop_state.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+noop_state.o: /usr/include/string.h /usr/include/xlocale.h
+noop_state.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+noop_state.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+noop_state.o: ../../../../src/gallium/include/pipe/p_state.h
+noop_state.o: ../../../../src/gallium/include/pipe/p_defines.h
+noop_state.o: ../../../../src/gallium/include/pipe/p_format.h
+noop_state.o: ../../../../src/gallium/include/pipe/p_context.h
+noop_state.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+noop_state.o: ../../../../src/gallium/include/pipe/p_screen.h
+noop_state.o: ../../../../src/gallium/include/pipe/p_compiler.h
+noop_state.o: ../../../../src/gallium/include/pipe/p_format.h
+noop_state.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+noop_state.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+noop_state.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+noop_state.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+noop_state.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+noop_state.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+noop_state.o: ../../../../src/gallium/include/pipe/p_config.h
+noop_state.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+noop_state.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+noop_state.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+noop_state.o: ../../../../src/gallium/auxiliary/util/u_debug_describe.h
+noop_state.o: ../../../../src/gallium/auxiliary/util/u_debug_refcnt.h
+noop_state.o: ../../../../src/gallium/auxiliary/util/u_atomic.h
+noop_state.o: ../../../../src/gallium/auxiliary/util/u_box.h
+noop_state.o: ../../../../src/gallium/auxiliary/util/u_math.h
+noop_state.o: /usr/include/math.h /usr/include/bits/huge_val.h
+noop_state.o: /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h
+noop_state.o: /usr/include/bits/inf.h /usr/include/bits/nan.h
+noop_state.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+noop_state.o: ../../../../src/gallium/auxiliary/util/u_transfer.h

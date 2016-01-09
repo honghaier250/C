@@ -1,0 +1,255 @@
+# DO NOT DELETE
+
+tr_context.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+tr_context.o: ../../../../src/gallium/include/pipe/p_context.h
+tr_context.o: ../../../../src/gallium/include/pipe/p_compiler.h
+tr_context.o: ../../../../src/gallium/include/pipe/p_config.h
+tr_context.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+tr_context.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+tr_context.o: /usr/include/limits.h /usr/include/features.h
+tr_context.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+tr_context.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+tr_context.o: /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h
+tr_context.o: /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h
+tr_context.o: /usr/include/endian.h /usr/include/bits/endian.h
+tr_context.o: /usr/include/bits/byteswap.h /usr/include/stdlib.h
+tr_context.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+tr_context.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+tr_context.o: /usr/include/sys/types.h /usr/include/bits/types.h
+tr_context.o: /usr/include/bits/typesizes.h /usr/include/time.h
+tr_context.o: /usr/include/sys/select.h /usr/include/bits/select.h
+tr_context.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+tr_context.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+tr_context.o: /usr/include/alloca.h /usr/include/string.h
+tr_context.o: /usr/include/xlocale.h
+tr_context.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+tr_context.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+tr_context.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+tr_context.o: ../../../../src/gallium/include/pipe/p_format.h
+tr_context.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+tr_context.o: ../../../../src/gallium/include/pipe/p_defines.h
+tr_context.o: ../../../../src/gallium/include/pipe/p_state.h
+tr_context.o: ../../../../src/gallium/include/pipe/p_defines.h
+tr_context.o: ../../../../src/gallium/include/pipe/p_screen.h
+tr_context.o: ../../../../src/gallium/include/pipe/p_compiler.h
+tr_context.o: ../../../../src/gallium/include/pipe/p_format.h
+tr_context.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+tr_context.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+tr_context.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+tr_context.o: ../../../../src/gallium/auxiliary/util/u_debug_describe.h
+tr_context.o: ../../../../src/gallium/auxiliary/util/u_debug_refcnt.h
+tr_context.o: ../../../../src/gallium/include/pipe/p_config.h
+tr_context.o: ../../../../src/gallium/auxiliary/util/u_atomic.h
+tr_context.o: ../../../../src/gallium/auxiliary/util/u_box.h
+tr_context.o: ../../../../src/gallium/auxiliary/util/u_math.h
+tr_context.o: /usr/include/math.h /usr/include/bits/huge_val.h
+tr_context.o: /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h
+tr_context.o: /usr/include/bits/inf.h /usr/include/bits/nan.h
+tr_context.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+tr_context.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+tr_context.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+tr_context.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+tr_context.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+tr_context.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+tr_context.o: ../../../../src/gallium/auxiliary/util/u_simple_list.h
+tr_context.o: tr_dump.h tr_dump_state.h
+tr_context.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+tr_context.o: tr_public.h tr_screen.h
+tr_context.o: ../../../../src/gallium/auxiliary/os/os_thread.h
+tr_context.o: ../../../../src/gallium/auxiliary/os/os_time.h tr_texture.h
+tr_context.o: tr_context.h
+tr_dump.o: ../../../../src/gallium/include/pipe/p_config.h
+tr_dump.o: /usr/include/stdio.h /usr/include/features.h
+tr_dump.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+tr_dump.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+tr_dump.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+tr_dump.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+tr_dump.o: /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h
+tr_dump.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+tr_dump.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+tr_dump.o: /usr/include/stdlib.h /usr/include/bits/waitflags.h
+tr_dump.o: /usr/include/bits/waitstatus.h /usr/include/endian.h
+tr_dump.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+tr_dump.o: /usr/include/sys/types.h /usr/include/time.h
+tr_dump.o: /usr/include/sys/select.h /usr/include/bits/select.h
+tr_dump.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+tr_dump.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+tr_dump.o: /usr/include/alloca.h
+tr_dump.o: ../../../../src/gallium/include/pipe/p_compiler.h
+tr_dump.o: ../../../../src/gallium/auxiliary/os/os_thread.h
+tr_dump.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+tr_dump.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+tr_dump.o: ../../../../src/gallium/auxiliary/os/os_time.h
+tr_dump.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+tr_dump.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+tr_dump.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+tr_dump.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+tr_dump.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+tr_dump.o: ../../../../src/gallium/auxiliary/util/u_string.h
+tr_dump.o: ../../../../src/gallium/auxiliary/util/u_math.h
+tr_dump.o: /usr/include/math.h /usr/include/bits/huge_val.h
+tr_dump.o: /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h
+tr_dump.o: /usr/include/bits/inf.h /usr/include/bits/nan.h
+tr_dump.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+tr_dump.o: ../../../../src/gallium/auxiliary/util/u_format.h
+tr_dump.o: ../../../../src/gallium/include/pipe/p_format.h tr_dump.h
+tr_dump.o: tr_screen.h ../../../../src/gallium/include/pipe/p_screen.h
+tr_dump.o: ../../../../src/gallium/include/pipe/p_defines.h
+tr_dump.o: ../../../../src/gallium/include/pipe/p_compiler.h
+tr_dump.o: ../../../../src/gallium/include/pipe/p_config.h
+tr_dump.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+tr_dump.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+tr_dump.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+tr_dump.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+tr_dump.o: /usr/include/bits/posix2_lim.h /usr/include/string.h
+tr_dump.o: /usr/include/xlocale.h /usr/include/stdint.h
+tr_dump.o: /usr/include/bits/wchar.h
+tr_dump.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+tr_dump.o: ../../../../src/gallium/include/pipe/p_video_enums.h tr_texture.h
+tr_dump.o: ../../../../src/gallium/include/pipe/p_state.h
+tr_dump.o: ../../../../src/gallium/include/pipe/p_defines.h
+tr_dump.o: ../../../../src/gallium/include/pipe/p_format.h
+tr_dump_state.o: ../../../../src/gallium/include/pipe/p_compiler.h
+tr_dump_state.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+tr_dump_state.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+tr_dump_state.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+tr_dump_state.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+tr_dump_state.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+tr_dump_state.o: ../../../../src/gallium/include/pipe/p_config.h
+tr_dump_state.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+tr_dump_state.o: /usr/include/stdlib.h /usr/include/features.h
+tr_dump_state.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+tr_dump_state.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+tr_dump_state.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+tr_dump_state.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+tr_dump_state.o: /usr/include/endian.h /usr/include/bits/endian.h
+tr_dump_state.o: /usr/include/bits/byteswap.h /usr/include/sys/types.h
+tr_dump_state.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+tr_dump_state.o: /usr/include/time.h /usr/include/sys/select.h
+tr_dump_state.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+tr_dump_state.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+tr_dump_state.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+tr_dump_state.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+tr_dump_state.o: ../../../../src/gallium/auxiliary/util/u_format.h
+tr_dump_state.o: ../../../../src/gallium/include/pipe/p_format.h
+tr_dump_state.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_dump.h
+tr_dump_state.o: ../../../../src/gallium/include/pipe/p_defines.h
+tr_dump_state.o: ../../../../src/gallium/include/pipe/p_compiler.h
+tr_dump_state.o: ../../../../src/gallium/include/pipe/p_config.h
+tr_dump_state.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+tr_dump_state.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+tr_dump_state.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+tr_dump_state.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+tr_dump_state.o: /usr/include/bits/posix2_lim.h /usr/include/string.h
+tr_dump_state.o: /usr/include/xlocale.h
+tr_dump_state.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+tr_dump_state.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+tr_dump_state.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+tr_dump_state.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+tr_dump_state.o: tr_dump.h tr_dump_state.h
+tr_dump_state.o: ../../../../src/gallium/include/pipe/p_state.h
+tr_dump_state.o: ../../../../src/gallium/include/pipe/p_defines.h
+tr_dump_state.o: ../../../../src/gallium/include/pipe/p_format.h
+tr_screen.o: ../../../../src/gallium/auxiliary/util/u_format.h
+tr_screen.o: ../../../../src/gallium/include/pipe/p_format.h
+tr_screen.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+tr_screen.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+tr_screen.o: ../../../../src/gallium/include/pipe/p_compiler.h
+tr_screen.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+tr_screen.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+tr_screen.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+tr_screen.o: ../../../../src/gallium/include/pipe/p_config.h
+tr_screen.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+tr_screen.o: /usr/include/stdlib.h /usr/include/features.h
+tr_screen.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+tr_screen.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+tr_screen.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+tr_screen.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+tr_screen.o: /usr/include/endian.h /usr/include/bits/endian.h
+tr_screen.o: /usr/include/bits/byteswap.h /usr/include/sys/types.h
+tr_screen.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+tr_screen.o: /usr/include/time.h /usr/include/sys/select.h
+tr_screen.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+tr_screen.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+tr_screen.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+tr_screen.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+tr_screen.o: ../../../../src/gallium/auxiliary/util/u_simple_list.h tr_dump.h
+tr_screen.o: tr_dump_state.h ../../../../src/gallium/include/pipe/p_state.h
+tr_screen.o: ../../../../src/gallium/include/pipe/p_compiler.h
+tr_screen.o: ../../../../src/gallium/include/pipe/p_config.h
+tr_screen.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+tr_screen.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+tr_screen.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+tr_screen.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+tr_screen.o: /usr/include/bits/posix2_lim.h /usr/include/string.h
+tr_screen.o: /usr/include/xlocale.h
+tr_screen.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+tr_screen.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+tr_screen.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+tr_screen.o: ../../../../src/gallium/include/pipe/p_defines.h
+tr_screen.o: ../../../../src/gallium/include/pipe/p_format.h
+tr_screen.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+tr_screen.o: tr_texture.h tr_screen.h
+tr_screen.o: ../../../../src/gallium/include/pipe/p_screen.h
+tr_screen.o: ../../../../src/gallium/include/pipe/p_defines.h
+tr_screen.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+tr_screen.o: ../../../../src/gallium/auxiliary/os/os_thread.h
+tr_screen.o: ../../../../src/gallium/auxiliary/os/os_time.h tr_context.h
+tr_screen.o: ../../../../src/gallium/include/pipe/p_context.h
+tr_screen.o: ../../../../src/gallium/include/pipe/p_video_enums.h tr_public.h
+tr_texture.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+tr_texture.o: ../../../../src/gallium/include/pipe/p_context.h
+tr_texture.o: ../../../../src/gallium/include/pipe/p_compiler.h
+tr_texture.o: ../../../../src/gallium/include/pipe/p_config.h
+tr_texture.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+tr_texture.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+tr_texture.o: /usr/include/limits.h /usr/include/features.h
+tr_texture.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+tr_texture.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+tr_texture.o: /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h
+tr_texture.o: /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h
+tr_texture.o: /usr/include/endian.h /usr/include/bits/endian.h
+tr_texture.o: /usr/include/bits/byteswap.h /usr/include/stdlib.h
+tr_texture.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+tr_texture.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+tr_texture.o: /usr/include/sys/types.h /usr/include/bits/types.h
+tr_texture.o: /usr/include/bits/typesizes.h /usr/include/time.h
+tr_texture.o: /usr/include/sys/select.h /usr/include/bits/select.h
+tr_texture.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+tr_texture.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+tr_texture.o: /usr/include/alloca.h /usr/include/string.h
+tr_texture.o: /usr/include/xlocale.h
+tr_texture.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+tr_texture.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+tr_texture.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+tr_texture.o: ../../../../src/gallium/include/pipe/p_format.h
+tr_texture.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+tr_texture.o: ../../../../src/gallium/include/pipe/p_defines.h
+tr_texture.o: ../../../../src/gallium/include/pipe/p_state.h
+tr_texture.o: ../../../../src/gallium/include/pipe/p_defines.h
+tr_texture.o: ../../../../src/gallium/include/pipe/p_screen.h
+tr_texture.o: ../../../../src/gallium/include/pipe/p_compiler.h
+tr_texture.o: ../../../../src/gallium/include/pipe/p_format.h
+tr_texture.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+tr_texture.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+tr_texture.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+tr_texture.o: ../../../../src/gallium/auxiliary/util/u_debug_describe.h
+tr_texture.o: ../../../../src/gallium/auxiliary/util/u_debug_refcnt.h
+tr_texture.o: ../../../../src/gallium/include/pipe/p_config.h
+tr_texture.o: ../../../../src/gallium/auxiliary/util/u_atomic.h
+tr_texture.o: ../../../../src/gallium/auxiliary/util/u_box.h
+tr_texture.o: ../../../../src/gallium/auxiliary/util/u_math.h
+tr_texture.o: /usr/include/math.h /usr/include/bits/huge_val.h
+tr_texture.o: /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h
+tr_texture.o: /usr/include/bits/inf.h /usr/include/bits/nan.h
+tr_texture.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+tr_texture.o: ../../../../src/gallium/auxiliary/util/u_hash_table.h
+tr_texture.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+tr_texture.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+tr_texture.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+tr_texture.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+tr_texture.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+tr_texture.o: ../../../../src/gallium/auxiliary/util/u_simple_list.h
+tr_texture.o: tr_screen.h ../../../../src/gallium/auxiliary/os/os_thread.h
+tr_texture.o: ../../../../src/gallium/auxiliary/os/os_time.h tr_context.h
+tr_texture.o: tr_texture.h

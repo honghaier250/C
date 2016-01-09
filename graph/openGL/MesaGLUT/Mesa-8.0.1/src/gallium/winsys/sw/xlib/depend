@@ -1,0 +1,71 @@
+# DO NOT DELETE
+
+xlib_sw_winsys.o: ../../../../../src/gallium/include/pipe/p_format.h
+xlib_sw_winsys.o: ../../../../../src/gallium/include/pipe/p_context.h
+xlib_sw_winsys.o: ../../../../../src/gallium/include/pipe/p_compiler.h
+xlib_sw_winsys.o: ../../../../../src/gallium/include/pipe/p_config.h
+xlib_sw_winsys.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+xlib_sw_winsys.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+xlib_sw_winsys.o: /usr/include/limits.h /usr/include/features.h
+xlib_sw_winsys.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+xlib_sw_winsys.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+xlib_sw_winsys.o: /usr/include/bits/posix1_lim.h
+xlib_sw_winsys.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+xlib_sw_winsys.o: /usr/include/bits/posix2_lim.h /usr/include/endian.h
+xlib_sw_winsys.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+xlib_sw_winsys.o: /usr/include/stdlib.h
+xlib_sw_winsys.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+xlib_sw_winsys.o: /usr/include/bits/waitflags.h
+xlib_sw_winsys.o: /usr/include/bits/waitstatus.h /usr/include/sys/types.h
+xlib_sw_winsys.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+xlib_sw_winsys.o: /usr/include/time.h /usr/include/sys/select.h
+xlib_sw_winsys.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+xlib_sw_winsys.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+xlib_sw_winsys.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+xlib_sw_winsys.o: /usr/include/string.h /usr/include/xlocale.h
+xlib_sw_winsys.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+xlib_sw_winsys.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+xlib_sw_winsys.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+xlib_sw_winsys.o: ../../../../../src/gallium/include/pipe/p_format.h
+xlib_sw_winsys.o: ../../../../../src/gallium/include/pipe/p_video_enums.h
+xlib_sw_winsys.o: ../../../../../src/gallium/auxiliary/util/u_inlines.h
+xlib_sw_winsys.o: ../../../../../src/gallium/include/pipe/p_defines.h
+xlib_sw_winsys.o: ../../../../../src/gallium/include/pipe/p_state.h
+xlib_sw_winsys.o: ../../../../../src/gallium/include/pipe/p_defines.h
+xlib_sw_winsys.o: ../../../../../src/gallium/include/pipe/p_screen.h
+xlib_sw_winsys.o: ../../../../../src/gallium/include/pipe/p_compiler.h
+xlib_sw_winsys.o: ../../../../../src/gallium/include/pipe/p_video_enums.h
+xlib_sw_winsys.o: ../../../../../src/gallium/auxiliary/util/u_debug.h
+xlib_sw_winsys.o: ../../../../../src/gallium/auxiliary/os/os_misc.h
+xlib_sw_winsys.o: ../../../../../src/gallium/auxiliary/util/u_debug_describe.h
+xlib_sw_winsys.o: ../../../../../src/gallium/auxiliary/util/u_debug_refcnt.h
+xlib_sw_winsys.o: ../../../../../src/gallium/include/pipe/p_config.h
+xlib_sw_winsys.o: ../../../../../src/gallium/auxiliary/util/u_atomic.h
+xlib_sw_winsys.o: ../../../../../src/gallium/auxiliary/util/u_box.h
+xlib_sw_winsys.o: ../../../../../src/gallium/auxiliary/util/u_math.h
+xlib_sw_winsys.o: /usr/include/math.h /usr/include/bits/huge_val.h
+xlib_sw_winsys.o: /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h
+xlib_sw_winsys.o: /usr/include/bits/inf.h /usr/include/bits/nan.h
+xlib_sw_winsys.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+xlib_sw_winsys.o: ../../../../../src/gallium/auxiliary/util/u_format.h
+xlib_sw_winsys.o: ../../../../../src/gallium/auxiliary/util/u_memory.h
+xlib_sw_winsys.o: ../../../../../src/gallium/auxiliary/util/u_pointer.h
+xlib_sw_winsys.o: ../../../../../src/gallium/auxiliary/os/os_memory.h
+xlib_sw_winsys.o: ../../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+xlib_sw_winsys.o: ../../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+xlib_sw_winsys.o: ../../../../../src/gallium/include/state_tracker/xlib_sw_winsys.h
+xlib_sw_winsys.o: ../../../../../src/gallium/include/state_tracker/sw_winsys.h
+xlib_sw_winsys.o: /usr/include/X11/Xlib.h /usr/include/X11/X.h
+xlib_sw_winsys.o: /usr/include/X11/Xfuncproto.h /usr/include/X11/Xosdefs.h
+xlib_sw_winsys.o: /usr/include/X11/Xlibint.h /usr/include/X11/Xproto.h
+xlib_sw_winsys.o: /usr/include/X11/Xmd.h /usr/include/X11/Xprotostr.h
+xlib_sw_winsys.o: /usr/include/X11/XlibConf.h /usr/include/errno.h
+xlib_sw_winsys.o: /usr/include/bits/errno.h /usr/include/linux/errno.h
+xlib_sw_winsys.o: /usr/include/asm/errno.h /usr/include/asm-generic/errno.h
+xlib_sw_winsys.o: /usr/include/asm-generic/errno-base.h
+xlib_sw_winsys.o: /usr/include/X11/Xfuncs.h /usr/include/X11/Xutil.h
+xlib_sw_winsys.o: /usr/include/X11/keysym.h /usr/include/X11/keysymdef.h
+xlib_sw_winsys.o: /usr/include/sys/ipc.h /usr/include/bits/ipctypes.h
+xlib_sw_winsys.o: /usr/include/bits/ipc.h /usr/include/sys/shm.h
+xlib_sw_winsys.o: /usr/include/bits/shm.h /usr/include/X11/extensions/XShm.h
+xlib_sw_winsys.o: /usr/include/X11/extensions/shm.h

@@ -1,0 +1,181 @@
+# DO NOT DELETE
+
+egl_dri2.o: /usr/include/stdlib.h /usr/include/features.h
+egl_dri2.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+egl_dri2.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+egl_dri2.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+egl_dri2.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+egl_dri2.o: /usr/include/endian.h /usr/include/bits/endian.h
+egl_dri2.o: /usr/include/bits/byteswap.h /usr/include/sys/types.h
+egl_dri2.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+egl_dri2.o: /usr/include/time.h /usr/include/sys/select.h
+egl_dri2.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+egl_dri2.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+egl_dri2.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+egl_dri2.o: /usr/include/string.h /usr/include/xlocale.h /usr/include/stdio.h
+egl_dri2.o: /usr/include/libio.h /usr/include/_G_config.h
+egl_dri2.o: /usr/include/wchar.h
+egl_dri2.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+egl_dri2.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+egl_dri2.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+egl_dri2.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+egl_dri2.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+egl_dri2.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+egl_dri2.o: /usr/include/bits/posix2_lim.h /usr/include/dlfcn.h
+egl_dri2.o: /usr/include/bits/dlfcn.h /usr/include/fcntl.h
+egl_dri2.o: /usr/include/bits/fcntl.h /usr/include/bits/stat.h
+egl_dri2.o: /usr/include/errno.h /usr/include/bits/errno.h
+egl_dri2.o: /usr/include/linux/errno.h /usr/include/asm/errno.h
+egl_dri2.o: /usr/include/asm-generic/errno.h
+egl_dri2.o: /usr/include/asm-generic/errno-base.h /usr/include/unistd.h
+egl_dri2.o: /usr/include/bits/posix_opt.h /usr/include/bits/environments.h
+egl_dri2.o: /usr/include/bits/confname.h /usr/include/getopt.h
+egl_dri2.o: /usr/include/xf86drm.h /usr/include/stdint.h
+egl_dri2.o: /usr/include/bits/wchar.h /usr/include/libdrm/drm.h
+egl_dri2.o: /usr/include/libdrm/drm_mode.h ../../../../include/GL/gl.h
+egl_dri2.o: ../../../../include/GL/glext.h /usr/include/inttypes.h
+egl_dri2.o: ../../../../include/GL/internal/dri_interface.h
+egl_dri2.o: /usr/include/sys/stat.h egl_dri2.h /usr/include/xcb/xcb.h
+egl_dri2.o: /usr/include/sys/uio.h /usr/include/bits/uio.h
+egl_dri2.o: /usr/include/pthread.h /usr/include/sched.h
+egl_dri2.o: /usr/include/bits/sched.h /usr/include/bits/setjmp.h
+egl_dri2.o: /usr/include/xcb/xproto.h /usr/include/xcb/xcb.h
+egl_dri2.o: /usr/include/xcb/dri2.h /usr/include/xcb/xfixes.h
+egl_dri2.o: /usr/include/xcb/render.h /usr/include/xcb/shape.h
+egl_dri2.o: /usr/include/X11/Xlib-xcb.h /usr/include/X11/Xlib.h
+egl_dri2.o: /usr/include/X11/X.h /usr/include/X11/Xfuncproto.h
+egl_dri2.o: /usr/include/X11/Xosdefs.h ../../../../src/egl/main/eglconfig.h
+egl_dri2.o: /usr/include/assert.h ../../../../src/egl/main/egltypedefs.h
+egl_dri2.o: ../../../../include/EGL/egl.h
+egl_dri2.o: ../../../../include/EGL/eglplatform.h
+egl_dri2.o: ../../../../include/KHR/khrplatform.h /usr/include/X11/Xutil.h
+egl_dri2.o: /usr/include/X11/keysym.h /usr/include/X11/keysymdef.h
+egl_dri2.o: ../../../../include/EGL/eglext.h
+egl_dri2.o: ../../../../include/EGL/eglmesaext.h
+egl_dri2.o: ../../../../src/egl/main/eglcompiler.h
+egl_dri2.o: ../../../../src/egl/main/eglcontext.h
+egl_dri2.o: ../../../../src/egl/main/egldisplay.h
+egl_dri2.o: ../../../../src/egl/main/egldefines.h
+egl_dri2.o: ../../../../src/egl/main/eglmutex.h
+egl_dri2.o: ../../../../src/egl/main/eglarray.h
+egl_dri2.o: ../../../../src/egl/main/egldriver.h
+egl_dri2.o: ../../../../src/egl/main/eglapi.h
+egl_dri2.o: ../../../../src/egl/main/eglcurrent.h
+egl_dri2.o: ../../../../src/egl/main/egllog.h
+egl_dri2.o: ../../../../src/egl/main/eglsurface.h
+egl_dri2.o: ../../../../src/egl/main/eglimage.h
+common.o: /usr/include/stdio.h /usr/include/features.h
+common.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+common.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+common.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+common.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+common.o: /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h
+common.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+common.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+common.o: /usr/include/string.h /usr/include/xlocale.h
+common.o: /usr/include/sys/types.h /usr/include/time.h /usr/include/endian.h
+common.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+common.o: /usr/include/sys/select.h /usr/include/bits/select.h
+common.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+common.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+common.o: /usr/include/sys/stat.h /usr/include/bits/stat.h
+common.o: /usr/include/unistd.h /usr/include/bits/posix_opt.h
+common.o: /usr/include/bits/environments.h /usr/include/bits/confname.h
+common.o: /usr/include/getopt.h egl_dri2.h /usr/include/xcb/xcb.h
+common.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+common.o: /usr/include/sys/uio.h /usr/include/bits/uio.h
+common.o: /usr/include/pthread.h /usr/include/sched.h
+common.o: /usr/include/bits/sched.h /usr/include/bits/setjmp.h
+common.o: /usr/include/xcb/xproto.h /usr/include/xcb/xcb.h
+common.o: /usr/include/xcb/dri2.h /usr/include/xcb/xfixes.h
+common.o: /usr/include/xcb/render.h /usr/include/xcb/shape.h
+common.o: /usr/include/X11/Xlib-xcb.h /usr/include/X11/Xlib.h
+common.o: /usr/include/X11/X.h /usr/include/X11/Xfuncproto.h
+common.o: /usr/include/X11/Xosdefs.h ../../../../include/GL/gl.h
+common.o: ../../../../include/GL/glext.h /usr/include/inttypes.h
+common.o: ../../../../include/GL/internal/dri_interface.h
+common.o: /usr/include/libdrm/drm.h /usr/include/libdrm/drm_mode.h
+common.o: ../../../../src/egl/main/eglconfig.h /usr/include/assert.h
+common.o: ../../../../src/egl/main/egltypedefs.h
+common.o: ../../../../include/EGL/egl.h ../../../../include/EGL/eglplatform.h
+common.o: ../../../../include/KHR/khrplatform.h /usr/include/X11/Xutil.h
+common.o: /usr/include/X11/keysym.h /usr/include/X11/keysymdef.h
+common.o: ../../../../include/EGL/eglext.h
+common.o: ../../../../include/EGL/eglmesaext.h
+common.o: ../../../../src/egl/main/eglcompiler.h
+common.o: ../../../../src/egl/main/eglcontext.h
+common.o: ../../../../src/egl/main/egldisplay.h
+common.o: ../../../../src/egl/main/egldefines.h
+common.o: ../../../../src/egl/main/eglmutex.h
+common.o: ../../../../src/egl/main/eglarray.h
+common.o: ../../../../src/egl/main/egldriver.h
+common.o: ../../../../src/egl/main/eglapi.h
+common.o: ../../../../src/egl/main/eglcurrent.h
+common.o: ../../../../src/egl/main/egllog.h
+common.o: ../../../../src/egl/main/eglsurface.h
+common.o: ../../../../src/egl/main/eglimage.h
+platform_x11.o: /usr/include/stdlib.h /usr/include/features.h
+platform_x11.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+platform_x11.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+platform_x11.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+platform_x11.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+platform_x11.o: /usr/include/endian.h /usr/include/bits/endian.h
+platform_x11.o: /usr/include/bits/byteswap.h /usr/include/sys/types.h
+platform_x11.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+platform_x11.o: /usr/include/time.h /usr/include/sys/select.h
+platform_x11.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+platform_x11.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+platform_x11.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+platform_x11.o: /usr/include/string.h /usr/include/xlocale.h
+platform_x11.o: /usr/include/stdio.h /usr/include/libio.h
+platform_x11.o: /usr/include/_G_config.h /usr/include/wchar.h
+platform_x11.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+platform_x11.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+platform_x11.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+platform_x11.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+platform_x11.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+platform_x11.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+platform_x11.o: /usr/include/bits/posix2_lim.h /usr/include/dlfcn.h
+platform_x11.o: /usr/include/bits/dlfcn.h /usr/include/fcntl.h
+platform_x11.o: /usr/include/bits/fcntl.h /usr/include/bits/stat.h
+platform_x11.o: /usr/include/errno.h /usr/include/bits/errno.h
+platform_x11.o: /usr/include/linux/errno.h /usr/include/asm/errno.h
+platform_x11.o: /usr/include/asm-generic/errno.h
+platform_x11.o: /usr/include/asm-generic/errno-base.h /usr/include/unistd.h
+platform_x11.o: /usr/include/bits/posix_opt.h
+platform_x11.o: /usr/include/bits/environments.h /usr/include/bits/confname.h
+platform_x11.o: /usr/include/getopt.h /usr/include/xf86drm.h
+platform_x11.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+platform_x11.o: /usr/include/libdrm/drm.h /usr/include/libdrm/drm_mode.h
+platform_x11.o: /usr/include/sys/stat.h egl_dri2.h /usr/include/xcb/xcb.h
+platform_x11.o: /usr/include/sys/uio.h /usr/include/bits/uio.h
+platform_x11.o: /usr/include/pthread.h /usr/include/sched.h
+platform_x11.o: /usr/include/bits/sched.h /usr/include/bits/setjmp.h
+platform_x11.o: /usr/include/xcb/xproto.h /usr/include/xcb/xcb.h
+platform_x11.o: /usr/include/xcb/dri2.h /usr/include/xcb/xfixes.h
+platform_x11.o: /usr/include/xcb/render.h /usr/include/xcb/shape.h
+platform_x11.o: /usr/include/X11/Xlib-xcb.h /usr/include/X11/Xlib.h
+platform_x11.o: /usr/include/X11/X.h /usr/include/X11/Xfuncproto.h
+platform_x11.o: /usr/include/X11/Xosdefs.h ../../../../include/GL/gl.h
+platform_x11.o: ../../../../include/GL/glext.h /usr/include/inttypes.h
+platform_x11.o: ../../../../include/GL/internal/dri_interface.h
+platform_x11.o: ../../../../src/egl/main/eglconfig.h /usr/include/assert.h
+platform_x11.o: ../../../../src/egl/main/egltypedefs.h
+platform_x11.o: ../../../../include/EGL/egl.h
+platform_x11.o: ../../../../include/EGL/eglplatform.h
+platform_x11.o: ../../../../include/KHR/khrplatform.h
+platform_x11.o: /usr/include/X11/Xutil.h /usr/include/X11/keysym.h
+platform_x11.o: /usr/include/X11/keysymdef.h ../../../../include/EGL/eglext.h
+platform_x11.o: ../../../../include/EGL/eglmesaext.h
+platform_x11.o: ../../../../src/egl/main/eglcompiler.h
+platform_x11.o: ../../../../src/egl/main/eglcontext.h
+platform_x11.o: ../../../../src/egl/main/egldisplay.h
+platform_x11.o: ../../../../src/egl/main/egldefines.h
+platform_x11.o: ../../../../src/egl/main/eglmutex.h
+platform_x11.o: ../../../../src/egl/main/eglarray.h
+platform_x11.o: ../../../../src/egl/main/egldriver.h
+platform_x11.o: ../../../../src/egl/main/eglapi.h
+platform_x11.o: ../../../../src/egl/main/eglcurrent.h
+platform_x11.o: ../../../../src/egl/main/egllog.h
+platform_x11.o: ../../../../src/egl/main/eglsurface.h
+platform_x11.o: ../../../../src/egl/main/eglimage.h

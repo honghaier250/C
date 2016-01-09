@@ -1,0 +1,1102 @@
+# DO NOT DELETE
+
+clientattrib.o: /usr/include/assert.h /usr/include/features.h
+clientattrib.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+clientattrib.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+clientattrib.o: glxclient.h /usr/include/X11/Xproto.h /usr/include/X11/Xmd.h
+clientattrib.o: /usr/include/X11/Xprotostr.h /usr/include/X11/Xlibint.h
+clientattrib.o: /usr/include/X11/Xlib.h /usr/include/sys/types.h
+clientattrib.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+clientattrib.o: /usr/include/time.h
+clientattrib.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+clientattrib.o: /usr/include/endian.h /usr/include/bits/endian.h
+clientattrib.o: /usr/include/bits/byteswap.h /usr/include/sys/select.h
+clientattrib.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+clientattrib.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+clientattrib.o: /usr/include/bits/pthreadtypes.h /usr/include/X11/X.h
+clientattrib.o: /usr/include/X11/Xfuncproto.h /usr/include/X11/Xosdefs.h
+clientattrib.o: /usr/include/X11/XlibConf.h /usr/include/errno.h
+clientattrib.o: /usr/include/bits/errno.h /usr/include/linux/errno.h
+clientattrib.o: /usr/include/asm/errno.h /usr/include/asm-generic/errno.h
+clientattrib.o: /usr/include/asm-generic/errno-base.h
+clientattrib.o: /usr/include/X11/Xfuncs.h /usr/include/string.h
+clientattrib.o: /usr/include/xlocale.h /usr/include/stdlib.h
+clientattrib.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+clientattrib.o: /usr/include/alloca.h /usr/include/X11/extensions/extutil.h
+clientattrib.o: /usr/include/X11/extensions/Xext.h ../../include/GL/glx.h
+clientattrib.o: /usr/include/X11/Xutil.h /usr/include/X11/keysym.h
+clientattrib.o: /usr/include/X11/keysymdef.h ../../include/GL/gl.h
+clientattrib.o: ../../include/GL/glext.h /usr/include/inttypes.h
+clientattrib.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+clientattrib.o: ../../include/GL/glxext.h /usr/include/stdio.h
+clientattrib.o: /usr/include/libio.h /usr/include/_G_config.h
+clientattrib.o: /usr/include/wchar.h
+clientattrib.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+clientattrib.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+clientattrib.o: /usr/include/GL/glxproto.h /usr/include/GL/glxmd.h
+clientattrib.o: ../../src/mapi/glapi/glapitable.h glxconfig.h glxhash.h
+clientattrib.o: glxextensions.h indirect.h indirect_vertex_array.h
+clientinfo.o: /usr/include/string.h /usr/include/features.h
+clientinfo.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+clientinfo.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+clientinfo.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+clientinfo.o: /usr/include/xlocale.h /usr/include/ctype.h
+clientinfo.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+clientinfo.o: /usr/include/endian.h /usr/include/bits/endian.h
+clientinfo.o: /usr/include/bits/byteswap.h glxclient.h
+clientinfo.o: /usr/include/X11/Xproto.h /usr/include/X11/Xmd.h
+clientinfo.o: /usr/include/X11/Xprotostr.h /usr/include/X11/Xlibint.h
+clientinfo.o: /usr/include/X11/Xlib.h /usr/include/sys/types.h
+clientinfo.o: /usr/include/time.h /usr/include/sys/select.h
+clientinfo.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+clientinfo.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+clientinfo.o: /usr/include/bits/pthreadtypes.h /usr/include/X11/X.h
+clientinfo.o: /usr/include/X11/Xfuncproto.h /usr/include/X11/Xosdefs.h
+clientinfo.o: /usr/include/X11/XlibConf.h /usr/include/errno.h
+clientinfo.o: /usr/include/bits/errno.h /usr/include/linux/errno.h
+clientinfo.o: /usr/include/asm/errno.h /usr/include/asm-generic/errno.h
+clientinfo.o: /usr/include/asm-generic/errno-base.h /usr/include/X11/Xfuncs.h
+clientinfo.o: /usr/include/stdlib.h /usr/include/bits/waitflags.h
+clientinfo.o: /usr/include/bits/waitstatus.h /usr/include/alloca.h
+clientinfo.o: /usr/include/X11/extensions/extutil.h
+clientinfo.o: /usr/include/X11/extensions/Xext.h ../../include/GL/glx.h
+clientinfo.o: /usr/include/X11/Xutil.h /usr/include/X11/keysym.h
+clientinfo.o: /usr/include/X11/keysymdef.h ../../include/GL/gl.h
+clientinfo.o: ../../include/GL/glext.h /usr/include/inttypes.h
+clientinfo.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+clientinfo.o: ../../include/GL/glxext.h /usr/include/stdio.h
+clientinfo.o: /usr/include/libio.h /usr/include/_G_config.h
+clientinfo.o: /usr/include/wchar.h
+clientinfo.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+clientinfo.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+clientinfo.o: /usr/include/GL/glxproto.h /usr/include/GL/glxmd.h
+clientinfo.o: ../../src/mapi/glapi/glapitable.h glxconfig.h glxhash.h
+clientinfo.o: glxextensions.h /usr/include/xcb/glx.h /usr/include/xcb/xcb.h
+clientinfo.o: /usr/include/sys/uio.h /usr/include/bits/uio.h
+clientinfo.o: /usr/include/pthread.h /usr/include/sched.h
+clientinfo.o: /usr/include/bits/sched.h /usr/include/bits/setjmp.h
+clientinfo.o: /usr/include/xcb/xproto.h /usr/include/X11/Xlib-xcb.h
+clientinfo.o: /usr/include/xcb/xcb.h
+compsize.o: ../../include/GL/gl.h ../../include/GL/glext.h
+compsize.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+compsize.o: /usr/include/inttypes.h /usr/include/features.h
+compsize.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+compsize.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+compsize.o: /usr/include/stdint.h /usr/include/bits/wchar.h glxclient.h
+compsize.o: /usr/include/X11/Xproto.h /usr/include/X11/Xmd.h
+compsize.o: /usr/include/X11/Xprotostr.h /usr/include/X11/Xlibint.h
+compsize.o: /usr/include/X11/Xlib.h /usr/include/sys/types.h
+compsize.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+compsize.o: /usr/include/time.h /usr/include/endian.h
+compsize.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+compsize.o: /usr/include/sys/select.h /usr/include/bits/select.h
+compsize.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+compsize.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+compsize.o: /usr/include/X11/X.h /usr/include/X11/Xfuncproto.h
+compsize.o: /usr/include/X11/Xosdefs.h /usr/include/X11/XlibConf.h
+compsize.o: /usr/include/errno.h /usr/include/bits/errno.h
+compsize.o: /usr/include/linux/errno.h /usr/include/asm/errno.h
+compsize.o: /usr/include/asm-generic/errno.h
+compsize.o: /usr/include/asm-generic/errno-base.h /usr/include/X11/Xfuncs.h
+compsize.o: /usr/include/string.h /usr/include/xlocale.h
+compsize.o: /usr/include/stdlib.h /usr/include/bits/waitflags.h
+compsize.o: /usr/include/bits/waitstatus.h /usr/include/alloca.h
+compsize.o: /usr/include/X11/extensions/extutil.h
+compsize.o: /usr/include/X11/extensions/Xext.h ../../include/GL/glx.h
+compsize.o: /usr/include/X11/Xutil.h /usr/include/X11/keysym.h
+compsize.o: /usr/include/X11/keysymdef.h ../../include/GL/glxext.h
+compsize.o: /usr/include/stdio.h /usr/include/libio.h
+compsize.o: /usr/include/_G_config.h /usr/include/wchar.h
+compsize.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+compsize.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+compsize.o: /usr/include/GL/glxproto.h /usr/include/GL/glxmd.h
+compsize.o: ../../src/mapi/glapi/glapitable.h glxconfig.h glxhash.h
+compsize.o: glxextensions.h
+create_context.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+create_context.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+create_context.o: /usr/include/limits.h /usr/include/features.h
+create_context.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+create_context.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+create_context.o: /usr/include/bits/posix1_lim.h
+create_context.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+create_context.o: /usr/include/bits/posix2_lim.h glxclient.h
+create_context.o: /usr/include/X11/Xproto.h /usr/include/X11/Xmd.h
+create_context.o: /usr/include/X11/Xprotostr.h /usr/include/X11/Xlibint.h
+create_context.o: /usr/include/X11/Xlib.h /usr/include/sys/types.h
+create_context.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+create_context.o: /usr/include/time.h
+create_context.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+create_context.o: /usr/include/endian.h /usr/include/bits/endian.h
+create_context.o: /usr/include/bits/byteswap.h /usr/include/sys/select.h
+create_context.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+create_context.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+create_context.o: /usr/include/bits/pthreadtypes.h /usr/include/X11/X.h
+create_context.o: /usr/include/X11/Xfuncproto.h /usr/include/X11/Xosdefs.h
+create_context.o: /usr/include/X11/XlibConf.h /usr/include/errno.h
+create_context.o: /usr/include/bits/errno.h /usr/include/linux/errno.h
+create_context.o: /usr/include/asm/errno.h /usr/include/asm-generic/errno.h
+create_context.o: /usr/include/asm-generic/errno-base.h
+create_context.o: /usr/include/X11/Xfuncs.h /usr/include/string.h
+create_context.o: /usr/include/xlocale.h /usr/include/stdlib.h
+create_context.o: /usr/include/bits/waitflags.h
+create_context.o: /usr/include/bits/waitstatus.h /usr/include/alloca.h
+create_context.o: /usr/include/X11/extensions/extutil.h
+create_context.o: /usr/include/X11/extensions/Xext.h ../../include/GL/glx.h
+create_context.o: /usr/include/X11/Xutil.h /usr/include/X11/keysym.h
+create_context.o: /usr/include/X11/keysymdef.h ../../include/GL/gl.h
+create_context.o: ../../include/GL/glext.h /usr/include/inttypes.h
+create_context.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+create_context.o: ../../include/GL/glxext.h /usr/include/stdio.h
+create_context.o: /usr/include/libio.h /usr/include/_G_config.h
+create_context.o: /usr/include/wchar.h
+create_context.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+create_context.o: /usr/include/bits/stdio_lim.h
+create_context.o: /usr/include/bits/sys_errlist.h /usr/include/GL/glxproto.h
+create_context.o: /usr/include/GL/glxmd.h ../../src/mapi/glapi/glapitable.h
+create_context.o: glxconfig.h glxhash.h glxextensions.h glx_error.h
+create_context.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+create_context.o: /usr/include/xcb/xcb.h /usr/include/xcb/glx.h
+create_context.o: /usr/include/xcb/xcb.h /usr/include/sys/uio.h
+create_context.o: /usr/include/bits/uio.h /usr/include/pthread.h
+create_context.o: /usr/include/sched.h /usr/include/bits/sched.h
+create_context.o: /usr/include/bits/setjmp.h /usr/include/xcb/xproto.h
+create_context.o: /usr/include/X11/Xlib-xcb.h /usr/include/assert.h
+eval.o: packrender.h glxclient.h /usr/include/X11/Xproto.h
+eval.o: /usr/include/X11/Xmd.h /usr/include/X11/Xprotostr.h
+eval.o: /usr/include/X11/Xlibint.h /usr/include/X11/Xlib.h
+eval.o: /usr/include/sys/types.h /usr/include/features.h
+eval.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+eval.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+eval.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+eval.o: /usr/include/time.h
+eval.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+eval.o: /usr/include/endian.h /usr/include/bits/endian.h
+eval.o: /usr/include/bits/byteswap.h /usr/include/sys/select.h
+eval.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+eval.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+eval.o: /usr/include/bits/pthreadtypes.h /usr/include/X11/X.h
+eval.o: /usr/include/X11/Xfuncproto.h /usr/include/X11/Xosdefs.h
+eval.o: /usr/include/X11/XlibConf.h /usr/include/errno.h
+eval.o: /usr/include/bits/errno.h /usr/include/linux/errno.h
+eval.o: /usr/include/asm/errno.h /usr/include/asm-generic/errno.h
+eval.o: /usr/include/asm-generic/errno-base.h /usr/include/X11/Xfuncs.h
+eval.o: /usr/include/string.h /usr/include/xlocale.h /usr/include/stdlib.h
+eval.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+eval.o: /usr/include/alloca.h /usr/include/X11/extensions/extutil.h
+eval.o: /usr/include/X11/extensions/Xext.h ../../include/GL/glx.h
+eval.o: /usr/include/X11/Xutil.h /usr/include/X11/keysym.h
+eval.o: /usr/include/X11/keysymdef.h ../../include/GL/gl.h
+eval.o: ../../include/GL/glext.h /usr/include/inttypes.h
+eval.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+eval.o: ../../include/GL/glxext.h /usr/include/stdio.h /usr/include/libio.h
+eval.o: /usr/include/_G_config.h /usr/include/wchar.h
+eval.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+eval.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+eval.o: /usr/include/GL/glxproto.h /usr/include/GL/glxmd.h
+eval.o: ../../src/mapi/glapi/glapitable.h glxconfig.h glxhash.h
+eval.o: glxextensions.h
+glxconfig.o: ../../include/GL/glx.h /usr/include/X11/Xlib.h
+glxconfig.o: /usr/include/sys/types.h /usr/include/features.h
+glxconfig.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+glxconfig.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+glxconfig.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+glxconfig.o: /usr/include/time.h
+glxconfig.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+glxconfig.o: /usr/include/endian.h /usr/include/bits/endian.h
+glxconfig.o: /usr/include/bits/byteswap.h /usr/include/sys/select.h
+glxconfig.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+glxconfig.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+glxconfig.o: /usr/include/bits/pthreadtypes.h /usr/include/X11/X.h
+glxconfig.o: /usr/include/X11/Xfuncproto.h /usr/include/X11/Xosdefs.h
+glxconfig.o: /usr/include/X11/Xutil.h /usr/include/X11/keysym.h
+glxconfig.o: /usr/include/X11/keysymdef.h ../../include/GL/gl.h
+glxconfig.o: ../../include/GL/glext.h /usr/include/inttypes.h
+glxconfig.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+glxconfig.o: ../../include/GL/glxext.h /usr/include/GL/glxint.h
+glxconfig.o: /usr/include/X11/Xdefs.h /usr/include/stdlib.h
+glxconfig.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+glxconfig.o: /usr/include/alloca.h /usr/include/string.h
+glxconfig.o: /usr/include/xlocale.h glxconfig.h
+glxcmds.o: glxclient.h /usr/include/X11/Xproto.h /usr/include/X11/Xmd.h
+glxcmds.o: /usr/include/X11/Xprotostr.h /usr/include/X11/Xlibint.h
+glxcmds.o: /usr/include/X11/Xlib.h /usr/include/sys/types.h
+glxcmds.o: /usr/include/features.h /usr/include/sys/cdefs.h
+glxcmds.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+glxcmds.o: /usr/include/gnu/stubs-64.h /usr/include/bits/types.h
+glxcmds.o: /usr/include/bits/typesizes.h /usr/include/time.h
+glxcmds.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+glxcmds.o: /usr/include/endian.h /usr/include/bits/endian.h
+glxcmds.o: /usr/include/bits/byteswap.h /usr/include/sys/select.h
+glxcmds.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+glxcmds.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+glxcmds.o: /usr/include/bits/pthreadtypes.h /usr/include/X11/X.h
+glxcmds.o: /usr/include/X11/Xfuncproto.h /usr/include/X11/Xosdefs.h
+glxcmds.o: /usr/include/X11/XlibConf.h /usr/include/errno.h
+glxcmds.o: /usr/include/bits/errno.h /usr/include/linux/errno.h
+glxcmds.o: /usr/include/asm/errno.h /usr/include/asm-generic/errno.h
+glxcmds.o: /usr/include/asm-generic/errno-base.h /usr/include/X11/Xfuncs.h
+glxcmds.o: /usr/include/string.h /usr/include/xlocale.h /usr/include/stdlib.h
+glxcmds.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+glxcmds.o: /usr/include/alloca.h /usr/include/X11/extensions/extutil.h
+glxcmds.o: /usr/include/X11/extensions/Xext.h ../../include/GL/glx.h
+glxcmds.o: /usr/include/X11/Xutil.h /usr/include/X11/keysym.h
+glxcmds.o: /usr/include/X11/keysymdef.h ../../include/GL/gl.h
+glxcmds.o: ../../include/GL/glext.h /usr/include/inttypes.h
+glxcmds.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+glxcmds.o: ../../include/GL/glxext.h /usr/include/stdio.h
+glxcmds.o: /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h
+glxcmds.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+glxcmds.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+glxcmds.o: /usr/include/GL/glxproto.h /usr/include/GL/glxmd.h
+glxcmds.o: ../../src/mapi/glapi/glapitable.h glxconfig.h glxhash.h
+glxcmds.o: glxextensions.h ../../src/mapi/glapi/glapi.h
+glxcmds.o: ../../src/mapi/glapi/glthread.h ../../src/mapi/mapi/u_thread.h
+glxcmds.o: ../../src/mapi/mapi/u_compiler.h indirect.h glx_error.h
+glxcmds.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+glxcmds.o: /usr/include/xcb/xcb.h
+glxcurrent.o: glxclient.h /usr/include/X11/Xproto.h /usr/include/X11/Xmd.h
+glxcurrent.o: /usr/include/X11/Xprotostr.h /usr/include/X11/Xlibint.h
+glxcurrent.o: /usr/include/X11/Xlib.h /usr/include/sys/types.h
+glxcurrent.o: /usr/include/features.h /usr/include/sys/cdefs.h
+glxcurrent.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+glxcurrent.o: /usr/include/gnu/stubs-64.h /usr/include/bits/types.h
+glxcurrent.o: /usr/include/bits/typesizes.h /usr/include/time.h
+glxcurrent.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+glxcurrent.o: /usr/include/endian.h /usr/include/bits/endian.h
+glxcurrent.o: /usr/include/bits/byteswap.h /usr/include/sys/select.h
+glxcurrent.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+glxcurrent.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+glxcurrent.o: /usr/include/bits/pthreadtypes.h /usr/include/X11/X.h
+glxcurrent.o: /usr/include/X11/Xfuncproto.h /usr/include/X11/Xosdefs.h
+glxcurrent.o: /usr/include/X11/XlibConf.h /usr/include/errno.h
+glxcurrent.o: /usr/include/bits/errno.h /usr/include/linux/errno.h
+glxcurrent.o: /usr/include/asm/errno.h /usr/include/asm-generic/errno.h
+glxcurrent.o: /usr/include/asm-generic/errno-base.h /usr/include/X11/Xfuncs.h
+glxcurrent.o: /usr/include/string.h /usr/include/xlocale.h
+glxcurrent.o: /usr/include/stdlib.h /usr/include/bits/waitflags.h
+glxcurrent.o: /usr/include/bits/waitstatus.h /usr/include/alloca.h
+glxcurrent.o: /usr/include/X11/extensions/extutil.h
+glxcurrent.o: /usr/include/X11/extensions/Xext.h ../../include/GL/glx.h
+glxcurrent.o: /usr/include/X11/Xutil.h /usr/include/X11/keysym.h
+glxcurrent.o: /usr/include/X11/keysymdef.h ../../include/GL/gl.h
+glxcurrent.o: ../../include/GL/glext.h /usr/include/inttypes.h
+glxcurrent.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+glxcurrent.o: ../../include/GL/glxext.h /usr/include/stdio.h
+glxcurrent.o: /usr/include/libio.h /usr/include/_G_config.h
+glxcurrent.o: /usr/include/wchar.h
+glxcurrent.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+glxcurrent.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+glxcurrent.o: /usr/include/GL/glxproto.h /usr/include/GL/glxmd.h
+glxcurrent.o: ../../src/mapi/glapi/glapitable.h glxconfig.h glxhash.h
+glxcurrent.o: glxextensions.h ../../src/mapi/glapi/glapi.h
+glxcurrent.o: ../../src/mapi/glapi/glthread.h ../../src/mapi/mapi/u_thread.h
+glxcurrent.o: ../../src/mapi/mapi/u_compiler.h
+glx_error.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+glx_error.o: /usr/include/assert.h /usr/include/features.h
+glx_error.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+glx_error.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+glx_error.o: /usr/include/X11/Xlibint.h /usr/include/X11/Xlib.h
+glx_error.o: /usr/include/sys/types.h /usr/include/bits/types.h
+glx_error.o: /usr/include/bits/typesizes.h /usr/include/time.h
+glx_error.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+glx_error.o: /usr/include/endian.h /usr/include/bits/endian.h
+glx_error.o: /usr/include/bits/byteswap.h /usr/include/sys/select.h
+glx_error.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+glx_error.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+glx_error.o: /usr/include/bits/pthreadtypes.h /usr/include/X11/X.h
+glx_error.o: /usr/include/X11/Xfuncproto.h /usr/include/X11/Xosdefs.h
+glx_error.o: /usr/include/X11/Xproto.h /usr/include/X11/Xmd.h
+glx_error.o: /usr/include/X11/Xprotostr.h /usr/include/X11/XlibConf.h
+glx_error.o: /usr/include/errno.h /usr/include/bits/errno.h
+glx_error.o: /usr/include/linux/errno.h /usr/include/asm/errno.h
+glx_error.o: /usr/include/asm-generic/errno.h
+glx_error.o: /usr/include/asm-generic/errno-base.h /usr/include/X11/Xfuncs.h
+glx_error.o: /usr/include/string.h /usr/include/xlocale.h
+glx_error.o: /usr/include/stdlib.h /usr/include/bits/waitflags.h
+glx_error.o: /usr/include/bits/waitstatus.h /usr/include/alloca.h
+glx_error.o: /usr/include/X11/extensions/extutil.h
+glx_error.o: /usr/include/X11/extensions/Xext.h glxclient.h
+glx_error.o: ../../include/GL/glx.h /usr/include/X11/Xutil.h
+glx_error.o: /usr/include/X11/keysym.h /usr/include/X11/keysymdef.h
+glx_error.o: ../../include/GL/gl.h ../../include/GL/glext.h
+glx_error.o: /usr/include/inttypes.h /usr/include/stdint.h
+glx_error.o: /usr/include/bits/wchar.h ../../include/GL/glxext.h
+glx_error.o: /usr/include/stdio.h /usr/include/libio.h
+glx_error.o: /usr/include/_G_config.h /usr/include/wchar.h
+glx_error.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+glx_error.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+glx_error.o: /usr/include/GL/glxproto.h /usr/include/GL/glxmd.h
+glx_error.o: ../../src/mapi/glapi/glapitable.h glxconfig.h glxhash.h
+glx_error.o: glxextensions.h glx_error.h /usr/include/xcb/xcb.h
+glxext.o: /usr/include/assert.h /usr/include/features.h
+glxext.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+glxext.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h glxclient.h
+glxext.o: /usr/include/X11/Xproto.h /usr/include/X11/Xmd.h
+glxext.o: /usr/include/X11/Xprotostr.h /usr/include/X11/Xlibint.h
+glxext.o: /usr/include/X11/Xlib.h /usr/include/sys/types.h
+glxext.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+glxext.o: /usr/include/time.h
+glxext.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+glxext.o: /usr/include/endian.h /usr/include/bits/endian.h
+glxext.o: /usr/include/bits/byteswap.h /usr/include/sys/select.h
+glxext.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+glxext.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+glxext.o: /usr/include/bits/pthreadtypes.h /usr/include/X11/X.h
+glxext.o: /usr/include/X11/Xfuncproto.h /usr/include/X11/Xosdefs.h
+glxext.o: /usr/include/X11/XlibConf.h /usr/include/errno.h
+glxext.o: /usr/include/bits/errno.h /usr/include/linux/errno.h
+glxext.o: /usr/include/asm/errno.h /usr/include/asm-generic/errno.h
+glxext.o: /usr/include/asm-generic/errno-base.h /usr/include/X11/Xfuncs.h
+glxext.o: /usr/include/string.h /usr/include/xlocale.h /usr/include/stdlib.h
+glxext.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+glxext.o: /usr/include/alloca.h /usr/include/X11/extensions/extutil.h
+glxext.o: /usr/include/X11/extensions/Xext.h ../../include/GL/glx.h
+glxext.o: /usr/include/X11/Xutil.h /usr/include/X11/keysym.h
+glxext.o: /usr/include/X11/keysymdef.h ../../include/GL/gl.h
+glxext.o: ../../include/GL/glext.h /usr/include/inttypes.h
+glxext.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+glxext.o: ../../include/GL/glxext.h /usr/include/stdio.h /usr/include/libio.h
+glxext.o: /usr/include/_G_config.h /usr/include/wchar.h
+glxext.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+glxext.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+glxext.o: /usr/include/GL/glxproto.h /usr/include/GL/glxmd.h
+glxext.o: ../../src/mapi/glapi/glapitable.h glxconfig.h glxhash.h
+glxext.o: glxextensions.h
+glxextensions.o: glxclient.h /usr/include/X11/Xproto.h /usr/include/X11/Xmd.h
+glxextensions.o: /usr/include/X11/Xprotostr.h /usr/include/X11/Xlibint.h
+glxextensions.o: /usr/include/X11/Xlib.h /usr/include/sys/types.h
+glxextensions.o: /usr/include/features.h /usr/include/sys/cdefs.h
+glxextensions.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+glxextensions.o: /usr/include/gnu/stubs-64.h /usr/include/bits/types.h
+glxextensions.o: /usr/include/bits/typesizes.h /usr/include/time.h
+glxextensions.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+glxextensions.o: /usr/include/endian.h /usr/include/bits/endian.h
+glxextensions.o: /usr/include/bits/byteswap.h /usr/include/sys/select.h
+glxextensions.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+glxextensions.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+glxextensions.o: /usr/include/bits/pthreadtypes.h /usr/include/X11/X.h
+glxextensions.o: /usr/include/X11/Xfuncproto.h /usr/include/X11/Xosdefs.h
+glxextensions.o: /usr/include/X11/XlibConf.h /usr/include/errno.h
+glxextensions.o: /usr/include/bits/errno.h /usr/include/linux/errno.h
+glxextensions.o: /usr/include/asm/errno.h /usr/include/asm-generic/errno.h
+glxextensions.o: /usr/include/asm-generic/errno-base.h
+glxextensions.o: /usr/include/X11/Xfuncs.h /usr/include/string.h
+glxextensions.o: /usr/include/xlocale.h /usr/include/stdlib.h
+glxextensions.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+glxextensions.o: /usr/include/alloca.h /usr/include/X11/extensions/extutil.h
+glxextensions.o: /usr/include/X11/extensions/Xext.h ../../include/GL/glx.h
+glxextensions.o: /usr/include/X11/Xutil.h /usr/include/X11/keysym.h
+glxextensions.o: /usr/include/X11/keysymdef.h ../../include/GL/gl.h
+glxextensions.o: ../../include/GL/glext.h /usr/include/inttypes.h
+glxextensions.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+glxextensions.o: ../../include/GL/glxext.h /usr/include/stdio.h
+glxextensions.o: /usr/include/libio.h /usr/include/_G_config.h
+glxextensions.o: /usr/include/wchar.h
+glxextensions.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+glxextensions.o: /usr/include/bits/stdio_lim.h
+glxextensions.o: /usr/include/bits/sys_errlist.h /usr/include/GL/glxproto.h
+glxextensions.o: /usr/include/GL/glxmd.h ../../src/mapi/glapi/glapitable.h
+glxextensions.o: glxconfig.h glxhash.h glxextensions.h
+indirect_glx.o: ../../src/mapi/glapi/glapi.h ../../src/mapi/glapi/glthread.h
+indirect_glx.o: ../../src/mapi/mapi/u_thread.h
+indirect_glx.o: ../../src/mapi/mapi/u_compiler.h glxclient.h
+indirect_glx.o: /usr/include/X11/Xproto.h /usr/include/X11/Xmd.h
+indirect_glx.o: /usr/include/X11/Xprotostr.h /usr/include/X11/Xlibint.h
+indirect_glx.o: /usr/include/X11/Xlib.h /usr/include/sys/types.h
+indirect_glx.o: /usr/include/features.h /usr/include/sys/cdefs.h
+indirect_glx.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+indirect_glx.o: /usr/include/gnu/stubs-64.h /usr/include/bits/types.h
+indirect_glx.o: /usr/include/bits/typesizes.h /usr/include/time.h
+indirect_glx.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+indirect_glx.o: /usr/include/endian.h /usr/include/bits/endian.h
+indirect_glx.o: /usr/include/bits/byteswap.h /usr/include/sys/select.h
+indirect_glx.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+indirect_glx.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+indirect_glx.o: /usr/include/bits/pthreadtypes.h /usr/include/X11/X.h
+indirect_glx.o: /usr/include/X11/Xfuncproto.h /usr/include/X11/Xosdefs.h
+indirect_glx.o: /usr/include/X11/XlibConf.h /usr/include/errno.h
+indirect_glx.o: /usr/include/bits/errno.h /usr/include/linux/errno.h
+indirect_glx.o: /usr/include/asm/errno.h /usr/include/asm-generic/errno.h
+indirect_glx.o: /usr/include/asm-generic/errno-base.h
+indirect_glx.o: /usr/include/X11/Xfuncs.h /usr/include/string.h
+indirect_glx.o: /usr/include/xlocale.h /usr/include/stdlib.h
+indirect_glx.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+indirect_glx.o: /usr/include/alloca.h /usr/include/X11/extensions/extutil.h
+indirect_glx.o: /usr/include/X11/extensions/Xext.h ../../include/GL/glx.h
+indirect_glx.o: /usr/include/X11/Xutil.h /usr/include/X11/keysym.h
+indirect_glx.o: /usr/include/X11/keysymdef.h ../../include/GL/gl.h
+indirect_glx.o: ../../include/GL/glext.h /usr/include/inttypes.h
+indirect_glx.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+indirect_glx.o: ../../include/GL/glxext.h /usr/include/stdio.h
+indirect_glx.o: /usr/include/libio.h /usr/include/_G_config.h
+indirect_glx.o: /usr/include/wchar.h
+indirect_glx.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+indirect_glx.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+indirect_glx.o: /usr/include/GL/glxproto.h /usr/include/GL/glxmd.h
+indirect_glx.o: ../../src/mapi/glapi/glapitable.h glxconfig.h glxhash.h
+indirect_glx.o: glxextensions.h
+indirect.o: ../../include/GL/gl.h ../../include/GL/glext.h
+indirect.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+indirect.o: /usr/include/inttypes.h /usr/include/features.h
+indirect.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+indirect.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+indirect.o: /usr/include/stdint.h /usr/include/bits/wchar.h indirect.h
+indirect.o: /usr/include/X11/Xfuncproto.h glxclient.h
+indirect.o: /usr/include/X11/Xproto.h /usr/include/X11/Xmd.h
+indirect.o: /usr/include/X11/Xprotostr.h /usr/include/X11/Xlibint.h
+indirect.o: /usr/include/X11/Xlib.h /usr/include/sys/types.h
+indirect.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+indirect.o: /usr/include/time.h /usr/include/endian.h
+indirect.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+indirect.o: /usr/include/sys/select.h /usr/include/bits/select.h
+indirect.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+indirect.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+indirect.o: /usr/include/X11/X.h /usr/include/X11/Xosdefs.h
+indirect.o: /usr/include/X11/XlibConf.h /usr/include/errno.h
+indirect.o: /usr/include/bits/errno.h /usr/include/linux/errno.h
+indirect.o: /usr/include/asm/errno.h /usr/include/asm-generic/errno.h
+indirect.o: /usr/include/asm-generic/errno-base.h /usr/include/X11/Xfuncs.h
+indirect.o: /usr/include/string.h /usr/include/xlocale.h
+indirect.o: /usr/include/stdlib.h /usr/include/bits/waitflags.h
+indirect.o: /usr/include/bits/waitstatus.h /usr/include/alloca.h
+indirect.o: /usr/include/X11/extensions/extutil.h
+indirect.o: /usr/include/X11/extensions/Xext.h ../../include/GL/glx.h
+indirect.o: /usr/include/X11/Xutil.h /usr/include/X11/keysym.h
+indirect.o: /usr/include/X11/keysymdef.h ../../include/GL/glxext.h
+indirect.o: /usr/include/stdio.h /usr/include/libio.h
+indirect.o: /usr/include/_G_config.h /usr/include/wchar.h
+indirect.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+indirect.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+indirect.o: /usr/include/GL/glxproto.h /usr/include/GL/glxmd.h
+indirect.o: ../../src/mapi/glapi/glapitable.h glxconfig.h glxhash.h
+indirect.o: glxextensions.h indirect_size.h ../../src/mapi/glapi/glapi.h
+indirect.o: ../../src/mapi/glapi/glthread.h ../../src/mapi/mapi/u_thread.h
+indirect.o: ../../src/mapi/mapi/u_compiler.h ../../src/mapi/glapi/glthread.h
+indirect_init.o: indirect_init.h glxclient.h /usr/include/X11/Xproto.h
+indirect_init.o: /usr/include/X11/Xmd.h /usr/include/X11/Xprotostr.h
+indirect_init.o: /usr/include/X11/Xlibint.h /usr/include/X11/Xlib.h
+indirect_init.o: /usr/include/sys/types.h /usr/include/features.h
+indirect_init.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+indirect_init.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+indirect_init.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+indirect_init.o: /usr/include/time.h
+indirect_init.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+indirect_init.o: /usr/include/endian.h /usr/include/bits/endian.h
+indirect_init.o: /usr/include/bits/byteswap.h /usr/include/sys/select.h
+indirect_init.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+indirect_init.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+indirect_init.o: /usr/include/bits/pthreadtypes.h /usr/include/X11/X.h
+indirect_init.o: /usr/include/X11/Xfuncproto.h /usr/include/X11/Xosdefs.h
+indirect_init.o: /usr/include/X11/XlibConf.h /usr/include/errno.h
+indirect_init.o: /usr/include/bits/errno.h /usr/include/linux/errno.h
+indirect_init.o: /usr/include/asm/errno.h /usr/include/asm-generic/errno.h
+indirect_init.o: /usr/include/asm-generic/errno-base.h
+indirect_init.o: /usr/include/X11/Xfuncs.h /usr/include/string.h
+indirect_init.o: /usr/include/xlocale.h /usr/include/stdlib.h
+indirect_init.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+indirect_init.o: /usr/include/alloca.h /usr/include/X11/extensions/extutil.h
+indirect_init.o: /usr/include/X11/extensions/Xext.h ../../include/GL/glx.h
+indirect_init.o: /usr/include/X11/Xutil.h /usr/include/X11/keysym.h
+indirect_init.o: /usr/include/X11/keysymdef.h ../../include/GL/gl.h
+indirect_init.o: ../../include/GL/glext.h /usr/include/inttypes.h
+indirect_init.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+indirect_init.o: ../../include/GL/glxext.h /usr/include/stdio.h
+indirect_init.o: /usr/include/libio.h /usr/include/_G_config.h
+indirect_init.o: /usr/include/wchar.h
+indirect_init.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+indirect_init.o: /usr/include/bits/stdio_lim.h
+indirect_init.o: /usr/include/bits/sys_errlist.h /usr/include/GL/glxproto.h
+indirect_init.o: /usr/include/GL/glxmd.h ../../src/mapi/glapi/glapitable.h
+indirect_init.o: glxconfig.h glxhash.h glxextensions.h indirect.h
+indirect_init.o: ../../src/mapi/glapi/glapi.h ../../src/mapi/glapi/glthread.h
+indirect_init.o: ../../src/mapi/mapi/u_thread.h
+indirect_init.o: ../../src/mapi/mapi/u_compiler.h
+indirect_size.o: /usr/include/X11/Xfuncproto.h ../../include/GL/gl.h
+indirect_size.o: ../../include/GL/glext.h
+indirect_size.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+indirect_size.o: /usr/include/inttypes.h /usr/include/features.h
+indirect_size.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+indirect_size.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+indirect_size.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+indirect_size.o: indirect_size.h
+indirect_window_pos.o: ../../include/GL/gl.h ../../include/GL/glext.h
+indirect_window_pos.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+indirect_window_pos.o: /usr/include/inttypes.h /usr/include/features.h
+indirect_window_pos.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+indirect_window_pos.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+indirect_window_pos.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+indirect_window_pos.o: indirect.h /usr/include/X11/Xfuncproto.h glxclient.h
+indirect_window_pos.o: /usr/include/X11/Xproto.h /usr/include/X11/Xmd.h
+indirect_window_pos.o: /usr/include/X11/Xprotostr.h
+indirect_window_pos.o: /usr/include/X11/Xlibint.h /usr/include/X11/Xlib.h
+indirect_window_pos.o: /usr/include/sys/types.h /usr/include/bits/types.h
+indirect_window_pos.o: /usr/include/bits/typesizes.h /usr/include/time.h
+indirect_window_pos.o: /usr/include/endian.h /usr/include/bits/endian.h
+indirect_window_pos.o: /usr/include/bits/byteswap.h /usr/include/sys/select.h
+indirect_window_pos.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+indirect_window_pos.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+indirect_window_pos.o: /usr/include/bits/pthreadtypes.h /usr/include/X11/X.h
+indirect_window_pos.o: /usr/include/X11/Xosdefs.h /usr/include/X11/XlibConf.h
+indirect_window_pos.o: /usr/include/errno.h /usr/include/bits/errno.h
+indirect_window_pos.o: /usr/include/linux/errno.h /usr/include/asm/errno.h
+indirect_window_pos.o: /usr/include/asm-generic/errno.h
+indirect_window_pos.o: /usr/include/asm-generic/errno-base.h
+indirect_window_pos.o: /usr/include/X11/Xfuncs.h /usr/include/string.h
+indirect_window_pos.o: /usr/include/xlocale.h /usr/include/stdlib.h
+indirect_window_pos.o: /usr/include/bits/waitflags.h
+indirect_window_pos.o: /usr/include/bits/waitstatus.h /usr/include/alloca.h
+indirect_window_pos.o: /usr/include/X11/extensions/extutil.h
+indirect_window_pos.o: /usr/include/X11/extensions/Xext.h
+indirect_window_pos.o: ../../include/GL/glx.h /usr/include/X11/Xutil.h
+indirect_window_pos.o: /usr/include/X11/keysym.h /usr/include/X11/keysymdef.h
+indirect_window_pos.o: ../../include/GL/glxext.h /usr/include/stdio.h
+indirect_window_pos.o: /usr/include/libio.h /usr/include/_G_config.h
+indirect_window_pos.o: /usr/include/wchar.h
+indirect_window_pos.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+indirect_window_pos.o: /usr/include/bits/stdio_lim.h
+indirect_window_pos.o: /usr/include/bits/sys_errlist.h
+indirect_window_pos.o: /usr/include/GL/glxproto.h /usr/include/GL/glxmd.h
+indirect_window_pos.o: ../../src/mapi/glapi/glapitable.h glxconfig.h
+indirect_window_pos.o: glxhash.h glxextensions.h
+indirect_texture_compression.o: packrender.h glxclient.h
+indirect_texture_compression.o: /usr/include/X11/Xproto.h
+indirect_texture_compression.o: /usr/include/X11/Xmd.h
+indirect_texture_compression.o: /usr/include/X11/Xprotostr.h
+indirect_texture_compression.o: /usr/include/X11/Xlibint.h
+indirect_texture_compression.o: /usr/include/X11/Xlib.h
+indirect_texture_compression.o: /usr/include/sys/types.h
+indirect_texture_compression.o: /usr/include/features.h
+indirect_texture_compression.o: /usr/include/sys/cdefs.h
+indirect_texture_compression.o: /usr/include/bits/wordsize.h
+indirect_texture_compression.o: /usr/include/gnu/stubs.h
+indirect_texture_compression.o: /usr/include/gnu/stubs-64.h
+indirect_texture_compression.o: /usr/include/bits/types.h
+indirect_texture_compression.o: /usr/include/bits/typesizes.h
+indirect_texture_compression.o: /usr/include/time.h
+indirect_texture_compression.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+indirect_texture_compression.o: /usr/include/endian.h
+indirect_texture_compression.o: /usr/include/bits/endian.h
+indirect_texture_compression.o: /usr/include/bits/byteswap.h
+indirect_texture_compression.o: /usr/include/sys/select.h
+indirect_texture_compression.o: /usr/include/bits/select.h
+indirect_texture_compression.o: /usr/include/bits/sigset.h
+indirect_texture_compression.o: /usr/include/bits/time.h
+indirect_texture_compression.o: /usr/include/sys/sysmacros.h
+indirect_texture_compression.o: /usr/include/bits/pthreadtypes.h
+indirect_texture_compression.o: /usr/include/X11/X.h
+indirect_texture_compression.o: /usr/include/X11/Xfuncproto.h
+indirect_texture_compression.o: /usr/include/X11/Xosdefs.h
+indirect_texture_compression.o: /usr/include/X11/XlibConf.h
+indirect_texture_compression.o: /usr/include/errno.h
+indirect_texture_compression.o: /usr/include/bits/errno.h
+indirect_texture_compression.o: /usr/include/linux/errno.h
+indirect_texture_compression.o: /usr/include/asm/errno.h
+indirect_texture_compression.o: /usr/include/asm-generic/errno.h
+indirect_texture_compression.o: /usr/include/asm-generic/errno-base.h
+indirect_texture_compression.o: /usr/include/X11/Xfuncs.h
+indirect_texture_compression.o: /usr/include/string.h /usr/include/xlocale.h
+indirect_texture_compression.o: /usr/include/stdlib.h
+indirect_texture_compression.o: /usr/include/bits/waitflags.h
+indirect_texture_compression.o: /usr/include/bits/waitstatus.h
+indirect_texture_compression.o: /usr/include/alloca.h
+indirect_texture_compression.o: /usr/include/X11/extensions/extutil.h
+indirect_texture_compression.o: /usr/include/X11/extensions/Xext.h
+indirect_texture_compression.o: ../../include/GL/glx.h
+indirect_texture_compression.o: /usr/include/X11/Xutil.h
+indirect_texture_compression.o: /usr/include/X11/keysym.h
+indirect_texture_compression.o: /usr/include/X11/keysymdef.h
+indirect_texture_compression.o: ../../include/GL/gl.h
+indirect_texture_compression.o: ../../include/GL/glext.h
+indirect_texture_compression.o: /usr/include/inttypes.h /usr/include/stdint.h
+indirect_texture_compression.o: /usr/include/bits/wchar.h
+indirect_texture_compression.o: ../../include/GL/glxext.h
+indirect_texture_compression.o: /usr/include/stdio.h /usr/include/libio.h
+indirect_texture_compression.o: /usr/include/_G_config.h /usr/include/wchar.h
+indirect_texture_compression.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+indirect_texture_compression.o: /usr/include/bits/stdio_lim.h
+indirect_texture_compression.o: /usr/include/bits/sys_errlist.h
+indirect_texture_compression.o: /usr/include/GL/glxproto.h
+indirect_texture_compression.o: /usr/include/GL/glxmd.h
+indirect_texture_compression.o: ../../src/mapi/glapi/glapitable.h glxconfig.h
+indirect_texture_compression.o: glxhash.h glxextensions.h packsingle.h
+indirect_texture_compression.o: indirect.h /usr/include/assert.h
+indirect_transpose_matrix.o: ../../include/GL/gl.h ../../include/GL/glext.h
+indirect_transpose_matrix.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+indirect_transpose_matrix.o: /usr/include/inttypes.h /usr/include/features.h
+indirect_transpose_matrix.o: /usr/include/sys/cdefs.h
+indirect_transpose_matrix.o: /usr/include/bits/wordsize.h
+indirect_transpose_matrix.o: /usr/include/gnu/stubs.h
+indirect_transpose_matrix.o: /usr/include/gnu/stubs-64.h
+indirect_transpose_matrix.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+indirect_transpose_matrix.o: indirect.h /usr/include/X11/Xfuncproto.h
+indirect_transpose_matrix.o: glxclient.h /usr/include/X11/Xproto.h
+indirect_transpose_matrix.o: /usr/include/X11/Xmd.h
+indirect_transpose_matrix.o: /usr/include/X11/Xprotostr.h
+indirect_transpose_matrix.o: /usr/include/X11/Xlibint.h
+indirect_transpose_matrix.o: /usr/include/X11/Xlib.h /usr/include/sys/types.h
+indirect_transpose_matrix.o: /usr/include/bits/types.h
+indirect_transpose_matrix.o: /usr/include/bits/typesizes.h
+indirect_transpose_matrix.o: /usr/include/time.h /usr/include/endian.h
+indirect_transpose_matrix.o: /usr/include/bits/endian.h
+indirect_transpose_matrix.o: /usr/include/bits/byteswap.h
+indirect_transpose_matrix.o: /usr/include/sys/select.h
+indirect_transpose_matrix.o: /usr/include/bits/select.h
+indirect_transpose_matrix.o: /usr/include/bits/sigset.h
+indirect_transpose_matrix.o: /usr/include/bits/time.h
+indirect_transpose_matrix.o: /usr/include/sys/sysmacros.h
+indirect_transpose_matrix.o: /usr/include/bits/pthreadtypes.h
+indirect_transpose_matrix.o: /usr/include/X11/X.h /usr/include/X11/Xosdefs.h
+indirect_transpose_matrix.o: /usr/include/X11/XlibConf.h /usr/include/errno.h
+indirect_transpose_matrix.o: /usr/include/bits/errno.h
+indirect_transpose_matrix.o: /usr/include/linux/errno.h
+indirect_transpose_matrix.o: /usr/include/asm/errno.h
+indirect_transpose_matrix.o: /usr/include/asm-generic/errno.h
+indirect_transpose_matrix.o: /usr/include/asm-generic/errno-base.h
+indirect_transpose_matrix.o: /usr/include/X11/Xfuncs.h /usr/include/string.h
+indirect_transpose_matrix.o: /usr/include/xlocale.h /usr/include/stdlib.h
+indirect_transpose_matrix.o: /usr/include/bits/waitflags.h
+indirect_transpose_matrix.o: /usr/include/bits/waitstatus.h
+indirect_transpose_matrix.o: /usr/include/alloca.h
+indirect_transpose_matrix.o: /usr/include/X11/extensions/extutil.h
+indirect_transpose_matrix.o: /usr/include/X11/extensions/Xext.h
+indirect_transpose_matrix.o: ../../include/GL/glx.h /usr/include/X11/Xutil.h
+indirect_transpose_matrix.o: /usr/include/X11/keysym.h
+indirect_transpose_matrix.o: /usr/include/X11/keysymdef.h
+indirect_transpose_matrix.o: ../../include/GL/glxext.h /usr/include/stdio.h
+indirect_transpose_matrix.o: /usr/include/libio.h /usr/include/_G_config.h
+indirect_transpose_matrix.o: /usr/include/wchar.h
+indirect_transpose_matrix.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+indirect_transpose_matrix.o: /usr/include/bits/stdio_lim.h
+indirect_transpose_matrix.o: /usr/include/bits/sys_errlist.h
+indirect_transpose_matrix.o: /usr/include/GL/glxproto.h
+indirect_transpose_matrix.o: /usr/include/GL/glxmd.h
+indirect_transpose_matrix.o: ../../src/mapi/glapi/glapitable.h glxconfig.h
+indirect_transpose_matrix.o: glxhash.h glxextensions.h
+indirect_vertex_array.o: /usr/include/inttypes.h /usr/include/features.h
+indirect_vertex_array.o: /usr/include/sys/cdefs.h
+indirect_vertex_array.o: /usr/include/bits/wordsize.h
+indirect_vertex_array.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+indirect_vertex_array.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+indirect_vertex_array.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+indirect_vertex_array.o: /usr/include/assert.h /usr/include/string.h
+indirect_vertex_array.o: /usr/include/xlocale.h glxclient.h
+indirect_vertex_array.o: /usr/include/X11/Xproto.h /usr/include/X11/Xmd.h
+indirect_vertex_array.o: /usr/include/X11/Xprotostr.h
+indirect_vertex_array.o: /usr/include/X11/Xlibint.h /usr/include/X11/Xlib.h
+indirect_vertex_array.o: /usr/include/sys/types.h /usr/include/bits/types.h
+indirect_vertex_array.o: /usr/include/bits/typesizes.h /usr/include/time.h
+indirect_vertex_array.o: /usr/include/endian.h /usr/include/bits/endian.h
+indirect_vertex_array.o: /usr/include/bits/byteswap.h
+indirect_vertex_array.o: /usr/include/sys/select.h /usr/include/bits/select.h
+indirect_vertex_array.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+indirect_vertex_array.o: /usr/include/sys/sysmacros.h
+indirect_vertex_array.o: /usr/include/bits/pthreadtypes.h
+indirect_vertex_array.o: /usr/include/X11/X.h /usr/include/X11/Xfuncproto.h
+indirect_vertex_array.o: /usr/include/X11/Xosdefs.h
+indirect_vertex_array.o: /usr/include/X11/XlibConf.h /usr/include/errno.h
+indirect_vertex_array.o: /usr/include/bits/errno.h /usr/include/linux/errno.h
+indirect_vertex_array.o: /usr/include/asm/errno.h
+indirect_vertex_array.o: /usr/include/asm-generic/errno.h
+indirect_vertex_array.o: /usr/include/asm-generic/errno-base.h
+indirect_vertex_array.o: /usr/include/X11/Xfuncs.h /usr/include/stdlib.h
+indirect_vertex_array.o: /usr/include/bits/waitflags.h
+indirect_vertex_array.o: /usr/include/bits/waitstatus.h /usr/include/alloca.h
+indirect_vertex_array.o: /usr/include/X11/extensions/extutil.h
+indirect_vertex_array.o: /usr/include/X11/extensions/Xext.h
+indirect_vertex_array.o: ../../include/GL/glx.h /usr/include/X11/Xutil.h
+indirect_vertex_array.o: /usr/include/X11/keysym.h
+indirect_vertex_array.o: /usr/include/X11/keysymdef.h ../../include/GL/gl.h
+indirect_vertex_array.o: ../../include/GL/glext.h ../../include/GL/glxext.h
+indirect_vertex_array.o: /usr/include/stdio.h /usr/include/libio.h
+indirect_vertex_array.o: /usr/include/_G_config.h /usr/include/wchar.h
+indirect_vertex_array.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+indirect_vertex_array.o: /usr/include/bits/stdio_lim.h
+indirect_vertex_array.o: /usr/include/bits/sys_errlist.h
+indirect_vertex_array.o: /usr/include/GL/glxproto.h /usr/include/GL/glxmd.h
+indirect_vertex_array.o: ../../src/mapi/glapi/glapitable.h glxconfig.h
+indirect_vertex_array.o: glxhash.h glxextensions.h indirect.h
+indirect_vertex_array.o: indirect_vertex_array.h indirect_vertex_array_priv.h
+indirect_vertex_program.o: /usr/include/inttypes.h /usr/include/features.h
+indirect_vertex_program.o: /usr/include/sys/cdefs.h
+indirect_vertex_program.o: /usr/include/bits/wordsize.h
+indirect_vertex_program.o: /usr/include/gnu/stubs.h
+indirect_vertex_program.o: /usr/include/gnu/stubs-64.h /usr/include/stdint.h
+indirect_vertex_program.o: /usr/include/bits/wchar.h
+indirect_vertex_program.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+indirect_vertex_program.o: ../../include/GL/gl.h ../../include/GL/glext.h
+indirect_vertex_program.o: indirect.h /usr/include/X11/Xfuncproto.h
+indirect_vertex_program.o: glxclient.h /usr/include/X11/Xproto.h
+indirect_vertex_program.o: /usr/include/X11/Xmd.h
+indirect_vertex_program.o: /usr/include/X11/Xprotostr.h
+indirect_vertex_program.o: /usr/include/X11/Xlibint.h /usr/include/X11/Xlib.h
+indirect_vertex_program.o: /usr/include/sys/types.h /usr/include/bits/types.h
+indirect_vertex_program.o: /usr/include/bits/typesizes.h /usr/include/time.h
+indirect_vertex_program.o: /usr/include/endian.h /usr/include/bits/endian.h
+indirect_vertex_program.o: /usr/include/bits/byteswap.h
+indirect_vertex_program.o: /usr/include/sys/select.h
+indirect_vertex_program.o: /usr/include/bits/select.h
+indirect_vertex_program.o: /usr/include/bits/sigset.h
+indirect_vertex_program.o: /usr/include/bits/time.h
+indirect_vertex_program.o: /usr/include/sys/sysmacros.h
+indirect_vertex_program.o: /usr/include/bits/pthreadtypes.h
+indirect_vertex_program.o: /usr/include/X11/X.h /usr/include/X11/Xosdefs.h
+indirect_vertex_program.o: /usr/include/X11/XlibConf.h /usr/include/errno.h
+indirect_vertex_program.o: /usr/include/bits/errno.h
+indirect_vertex_program.o: /usr/include/linux/errno.h
+indirect_vertex_program.o: /usr/include/asm/errno.h
+indirect_vertex_program.o: /usr/include/asm-generic/errno.h
+indirect_vertex_program.o: /usr/include/asm-generic/errno-base.h
+indirect_vertex_program.o: /usr/include/X11/Xfuncs.h /usr/include/string.h
+indirect_vertex_program.o: /usr/include/xlocale.h /usr/include/stdlib.h
+indirect_vertex_program.o: /usr/include/bits/waitflags.h
+indirect_vertex_program.o: /usr/include/bits/waitstatus.h
+indirect_vertex_program.o: /usr/include/alloca.h
+indirect_vertex_program.o: /usr/include/X11/extensions/extutil.h
+indirect_vertex_program.o: /usr/include/X11/extensions/Xext.h
+indirect_vertex_program.o: ../../include/GL/glx.h /usr/include/X11/Xutil.h
+indirect_vertex_program.o: /usr/include/X11/keysym.h
+indirect_vertex_program.o: /usr/include/X11/keysymdef.h
+indirect_vertex_program.o: ../../include/GL/glxext.h /usr/include/stdio.h
+indirect_vertex_program.o: /usr/include/libio.h /usr/include/_G_config.h
+indirect_vertex_program.o: /usr/include/wchar.h
+indirect_vertex_program.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+indirect_vertex_program.o: /usr/include/bits/stdio_lim.h
+indirect_vertex_program.o: /usr/include/bits/sys_errlist.h
+indirect_vertex_program.o: /usr/include/GL/glxproto.h /usr/include/GL/glxmd.h
+indirect_vertex_program.o: ../../src/mapi/glapi/glapitable.h glxconfig.h
+indirect_vertex_program.o: glxhash.h glxextensions.h indirect_vertex_array.h
+pixel.o: packrender.h glxclient.h /usr/include/X11/Xproto.h
+pixel.o: /usr/include/X11/Xmd.h /usr/include/X11/Xprotostr.h
+pixel.o: /usr/include/X11/Xlibint.h /usr/include/X11/Xlib.h
+pixel.o: /usr/include/sys/types.h /usr/include/features.h
+pixel.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+pixel.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+pixel.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+pixel.o: /usr/include/time.h
+pixel.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+pixel.o: /usr/include/endian.h /usr/include/bits/endian.h
+pixel.o: /usr/include/bits/byteswap.h /usr/include/sys/select.h
+pixel.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+pixel.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+pixel.o: /usr/include/bits/pthreadtypes.h /usr/include/X11/X.h
+pixel.o: /usr/include/X11/Xfuncproto.h /usr/include/X11/Xosdefs.h
+pixel.o: /usr/include/X11/XlibConf.h /usr/include/errno.h
+pixel.o: /usr/include/bits/errno.h /usr/include/linux/errno.h
+pixel.o: /usr/include/asm/errno.h /usr/include/asm-generic/errno.h
+pixel.o: /usr/include/asm-generic/errno-base.h /usr/include/X11/Xfuncs.h
+pixel.o: /usr/include/string.h /usr/include/xlocale.h /usr/include/stdlib.h
+pixel.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+pixel.o: /usr/include/alloca.h /usr/include/X11/extensions/extutil.h
+pixel.o: /usr/include/X11/extensions/Xext.h ../../include/GL/glx.h
+pixel.o: /usr/include/X11/Xutil.h /usr/include/X11/keysym.h
+pixel.o: /usr/include/X11/keysymdef.h ../../include/GL/gl.h
+pixel.o: ../../include/GL/glext.h /usr/include/inttypes.h
+pixel.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+pixel.o: ../../include/GL/glxext.h /usr/include/stdio.h /usr/include/libio.h
+pixel.o: /usr/include/_G_config.h /usr/include/wchar.h
+pixel.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+pixel.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+pixel.o: /usr/include/GL/glxproto.h /usr/include/GL/glxmd.h
+pixel.o: ../../src/mapi/glapi/glapitable.h glxconfig.h glxhash.h
+pixel.o: glxextensions.h
+pixelstore.o: glxclient.h /usr/include/X11/Xproto.h /usr/include/X11/Xmd.h
+pixelstore.o: /usr/include/X11/Xprotostr.h /usr/include/X11/Xlibint.h
+pixelstore.o: /usr/include/X11/Xlib.h /usr/include/sys/types.h
+pixelstore.o: /usr/include/features.h /usr/include/sys/cdefs.h
+pixelstore.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+pixelstore.o: /usr/include/gnu/stubs-64.h /usr/include/bits/types.h
+pixelstore.o: /usr/include/bits/typesizes.h /usr/include/time.h
+pixelstore.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+pixelstore.o: /usr/include/endian.h /usr/include/bits/endian.h
+pixelstore.o: /usr/include/bits/byteswap.h /usr/include/sys/select.h
+pixelstore.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+pixelstore.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+pixelstore.o: /usr/include/bits/pthreadtypes.h /usr/include/X11/X.h
+pixelstore.o: /usr/include/X11/Xfuncproto.h /usr/include/X11/Xosdefs.h
+pixelstore.o: /usr/include/X11/XlibConf.h /usr/include/errno.h
+pixelstore.o: /usr/include/bits/errno.h /usr/include/linux/errno.h
+pixelstore.o: /usr/include/asm/errno.h /usr/include/asm-generic/errno.h
+pixelstore.o: /usr/include/asm-generic/errno-base.h /usr/include/X11/Xfuncs.h
+pixelstore.o: /usr/include/string.h /usr/include/xlocale.h
+pixelstore.o: /usr/include/stdlib.h /usr/include/bits/waitflags.h
+pixelstore.o: /usr/include/bits/waitstatus.h /usr/include/alloca.h
+pixelstore.o: /usr/include/X11/extensions/extutil.h
+pixelstore.o: /usr/include/X11/extensions/Xext.h ../../include/GL/glx.h
+pixelstore.o: /usr/include/X11/Xutil.h /usr/include/X11/keysym.h
+pixelstore.o: /usr/include/X11/keysymdef.h ../../include/GL/gl.h
+pixelstore.o: ../../include/GL/glext.h /usr/include/inttypes.h
+pixelstore.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+pixelstore.o: ../../include/GL/glxext.h /usr/include/stdio.h
+pixelstore.o: /usr/include/libio.h /usr/include/_G_config.h
+pixelstore.o: /usr/include/wchar.h
+pixelstore.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+pixelstore.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+pixelstore.o: /usr/include/GL/glxproto.h /usr/include/GL/glxmd.h
+pixelstore.o: ../../src/mapi/glapi/glapitable.h glxconfig.h glxhash.h
+pixelstore.o: glxextensions.h indirect.h
+render2.o: packrender.h glxclient.h /usr/include/X11/Xproto.h
+render2.o: /usr/include/X11/Xmd.h /usr/include/X11/Xprotostr.h
+render2.o: /usr/include/X11/Xlibint.h /usr/include/X11/Xlib.h
+render2.o: /usr/include/sys/types.h /usr/include/features.h
+render2.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+render2.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+render2.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+render2.o: /usr/include/time.h
+render2.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+render2.o: /usr/include/endian.h /usr/include/bits/endian.h
+render2.o: /usr/include/bits/byteswap.h /usr/include/sys/select.h
+render2.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+render2.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+render2.o: /usr/include/bits/pthreadtypes.h /usr/include/X11/X.h
+render2.o: /usr/include/X11/Xfuncproto.h /usr/include/X11/Xosdefs.h
+render2.o: /usr/include/X11/XlibConf.h /usr/include/errno.h
+render2.o: /usr/include/bits/errno.h /usr/include/linux/errno.h
+render2.o: /usr/include/asm/errno.h /usr/include/asm-generic/errno.h
+render2.o: /usr/include/asm-generic/errno-base.h /usr/include/X11/Xfuncs.h
+render2.o: /usr/include/string.h /usr/include/xlocale.h /usr/include/stdlib.h
+render2.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+render2.o: /usr/include/alloca.h /usr/include/X11/extensions/extutil.h
+render2.o: /usr/include/X11/extensions/Xext.h ../../include/GL/glx.h
+render2.o: /usr/include/X11/Xutil.h /usr/include/X11/keysym.h
+render2.o: /usr/include/X11/keysymdef.h ../../include/GL/gl.h
+render2.o: ../../include/GL/glext.h /usr/include/inttypes.h
+render2.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+render2.o: ../../include/GL/glxext.h /usr/include/stdio.h
+render2.o: /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h
+render2.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+render2.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+render2.o: /usr/include/GL/glxproto.h /usr/include/GL/glxmd.h
+render2.o: ../../src/mapi/glapi/glapitable.h glxconfig.h glxhash.h
+render2.o: glxextensions.h indirect.h indirect_size.h
+renderpix.o: packrender.h glxclient.h /usr/include/X11/Xproto.h
+renderpix.o: /usr/include/X11/Xmd.h /usr/include/X11/Xprotostr.h
+renderpix.o: /usr/include/X11/Xlibint.h /usr/include/X11/Xlib.h
+renderpix.o: /usr/include/sys/types.h /usr/include/features.h
+renderpix.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+renderpix.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+renderpix.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+renderpix.o: /usr/include/time.h
+renderpix.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+renderpix.o: /usr/include/endian.h /usr/include/bits/endian.h
+renderpix.o: /usr/include/bits/byteswap.h /usr/include/sys/select.h
+renderpix.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+renderpix.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+renderpix.o: /usr/include/bits/pthreadtypes.h /usr/include/X11/X.h
+renderpix.o: /usr/include/X11/Xfuncproto.h /usr/include/X11/Xosdefs.h
+renderpix.o: /usr/include/X11/XlibConf.h /usr/include/errno.h
+renderpix.o: /usr/include/bits/errno.h /usr/include/linux/errno.h
+renderpix.o: /usr/include/asm/errno.h /usr/include/asm-generic/errno.h
+renderpix.o: /usr/include/asm-generic/errno-base.h /usr/include/X11/Xfuncs.h
+renderpix.o: /usr/include/string.h /usr/include/xlocale.h
+renderpix.o: /usr/include/stdlib.h /usr/include/bits/waitflags.h
+renderpix.o: /usr/include/bits/waitstatus.h /usr/include/alloca.h
+renderpix.o: /usr/include/X11/extensions/extutil.h
+renderpix.o: /usr/include/X11/extensions/Xext.h ../../include/GL/glx.h
+renderpix.o: /usr/include/X11/Xutil.h /usr/include/X11/keysym.h
+renderpix.o: /usr/include/X11/keysymdef.h ../../include/GL/gl.h
+renderpix.o: ../../include/GL/glext.h /usr/include/inttypes.h
+renderpix.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+renderpix.o: ../../include/GL/glxext.h /usr/include/stdio.h
+renderpix.o: /usr/include/libio.h /usr/include/_G_config.h
+renderpix.o: /usr/include/wchar.h
+renderpix.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+renderpix.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+renderpix.o: /usr/include/GL/glxproto.h /usr/include/GL/glxmd.h
+renderpix.o: ../../src/mapi/glapi/glapitable.h glxconfig.h glxhash.h
+renderpix.o: glxextensions.h indirect.h
+single2.o: /usr/include/stdio.h /usr/include/features.h
+single2.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+single2.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+single2.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+single2.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+single2.o: /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h
+single2.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+single2.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+single2.o: /usr/include/assert.h glxclient.h /usr/include/X11/Xproto.h
+single2.o: /usr/include/X11/Xmd.h /usr/include/X11/Xprotostr.h
+single2.o: /usr/include/X11/Xlibint.h /usr/include/X11/Xlib.h
+single2.o: /usr/include/sys/types.h /usr/include/time.h /usr/include/endian.h
+single2.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+single2.o: /usr/include/sys/select.h /usr/include/bits/select.h
+single2.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+single2.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+single2.o: /usr/include/X11/X.h /usr/include/X11/Xfuncproto.h
+single2.o: /usr/include/X11/Xosdefs.h /usr/include/X11/XlibConf.h
+single2.o: /usr/include/errno.h /usr/include/bits/errno.h
+single2.o: /usr/include/linux/errno.h /usr/include/asm/errno.h
+single2.o: /usr/include/asm-generic/errno.h
+single2.o: /usr/include/asm-generic/errno-base.h /usr/include/X11/Xfuncs.h
+single2.o: /usr/include/string.h /usr/include/xlocale.h /usr/include/stdlib.h
+single2.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+single2.o: /usr/include/alloca.h /usr/include/X11/extensions/extutil.h
+single2.o: /usr/include/X11/extensions/Xext.h ../../include/GL/glx.h
+single2.o: /usr/include/X11/Xutil.h /usr/include/X11/keysym.h
+single2.o: /usr/include/X11/keysymdef.h ../../include/GL/gl.h
+single2.o: ../../include/GL/glext.h /usr/include/inttypes.h
+single2.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+single2.o: ../../include/GL/glxext.h /usr/include/GL/glxproto.h
+single2.o: /usr/include/GL/glxmd.h ../../src/mapi/glapi/glapitable.h
+single2.o: glxconfig.h glxhash.h glxextensions.h packsingle.h packrender.h
+single2.o: indirect.h indirect_vertex_array.h
+single2.o: ../../src/mapi/glapi/glapitable.h ../../src/mapi/glapi/glapi.h
+single2.o: ../../src/mapi/glapi/glthread.h ../../src/mapi/mapi/u_thread.h
+single2.o: ../../src/mapi/mapi/u_compiler.h
+singlepix.o: packsingle.h packrender.h glxclient.h /usr/include/X11/Xproto.h
+singlepix.o: /usr/include/X11/Xmd.h /usr/include/X11/Xprotostr.h
+singlepix.o: /usr/include/X11/Xlibint.h /usr/include/X11/Xlib.h
+singlepix.o: /usr/include/sys/types.h /usr/include/features.h
+singlepix.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+singlepix.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+singlepix.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+singlepix.o: /usr/include/time.h
+singlepix.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+singlepix.o: /usr/include/endian.h /usr/include/bits/endian.h
+singlepix.o: /usr/include/bits/byteswap.h /usr/include/sys/select.h
+singlepix.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+singlepix.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+singlepix.o: /usr/include/bits/pthreadtypes.h /usr/include/X11/X.h
+singlepix.o: /usr/include/X11/Xfuncproto.h /usr/include/X11/Xosdefs.h
+singlepix.o: /usr/include/X11/XlibConf.h /usr/include/errno.h
+singlepix.o: /usr/include/bits/errno.h /usr/include/linux/errno.h
+singlepix.o: /usr/include/asm/errno.h /usr/include/asm-generic/errno.h
+singlepix.o: /usr/include/asm-generic/errno-base.h /usr/include/X11/Xfuncs.h
+singlepix.o: /usr/include/string.h /usr/include/xlocale.h
+singlepix.o: /usr/include/stdlib.h /usr/include/bits/waitflags.h
+singlepix.o: /usr/include/bits/waitstatus.h /usr/include/alloca.h
+singlepix.o: /usr/include/X11/extensions/extutil.h
+singlepix.o: /usr/include/X11/extensions/Xext.h ../../include/GL/glx.h
+singlepix.o: /usr/include/X11/Xutil.h /usr/include/X11/keysym.h
+singlepix.o: /usr/include/X11/keysymdef.h ../../include/GL/gl.h
+singlepix.o: ../../include/GL/glext.h /usr/include/inttypes.h
+singlepix.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+singlepix.o: ../../include/GL/glxext.h /usr/include/stdio.h
+singlepix.o: /usr/include/libio.h /usr/include/_G_config.h
+singlepix.o: /usr/include/wchar.h
+singlepix.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+singlepix.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+singlepix.o: /usr/include/GL/glxproto.h /usr/include/GL/glxmd.h
+singlepix.o: ../../src/mapi/glapi/glapitable.h glxconfig.h glxhash.h
+singlepix.o: glxextensions.h indirect.h ../../src/mapi/glapi/glapitable.h
+singlepix.o: ../../src/mapi/glapi/glapi.h ../../src/mapi/glapi/glthread.h
+singlepix.o: ../../src/mapi/mapi/u_thread.h ../../src/mapi/mapi/u_compiler.h
+singlepix.o: ../../src/mapi/glapi/glthread.h
+vertarr.o: glxclient.h /usr/include/X11/Xproto.h /usr/include/X11/Xmd.h
+vertarr.o: /usr/include/X11/Xprotostr.h /usr/include/X11/Xlibint.h
+vertarr.o: /usr/include/X11/Xlib.h /usr/include/sys/types.h
+vertarr.o: /usr/include/features.h /usr/include/sys/cdefs.h
+vertarr.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+vertarr.o: /usr/include/gnu/stubs-64.h /usr/include/bits/types.h
+vertarr.o: /usr/include/bits/typesizes.h /usr/include/time.h
+vertarr.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+vertarr.o: /usr/include/endian.h /usr/include/bits/endian.h
+vertarr.o: /usr/include/bits/byteswap.h /usr/include/sys/select.h
+vertarr.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+vertarr.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+vertarr.o: /usr/include/bits/pthreadtypes.h /usr/include/X11/X.h
+vertarr.o: /usr/include/X11/Xfuncproto.h /usr/include/X11/Xosdefs.h
+vertarr.o: /usr/include/X11/XlibConf.h /usr/include/errno.h
+vertarr.o: /usr/include/bits/errno.h /usr/include/linux/errno.h
+vertarr.o: /usr/include/asm/errno.h /usr/include/asm-generic/errno.h
+vertarr.o: /usr/include/asm-generic/errno-base.h /usr/include/X11/Xfuncs.h
+vertarr.o: /usr/include/string.h /usr/include/xlocale.h /usr/include/stdlib.h
+vertarr.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+vertarr.o: /usr/include/alloca.h /usr/include/X11/extensions/extutil.h
+vertarr.o: /usr/include/X11/extensions/Xext.h ../../include/GL/glx.h
+vertarr.o: /usr/include/X11/Xutil.h /usr/include/X11/keysym.h
+vertarr.o: /usr/include/X11/keysymdef.h ../../include/GL/gl.h
+vertarr.o: ../../include/GL/glext.h /usr/include/inttypes.h
+vertarr.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+vertarr.o: ../../include/GL/glxext.h /usr/include/stdio.h
+vertarr.o: /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h
+vertarr.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+vertarr.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+vertarr.o: /usr/include/GL/glxproto.h /usr/include/GL/glxmd.h
+vertarr.o: ../../src/mapi/glapi/glapitable.h glxconfig.h glxhash.h
+vertarr.o: glxextensions.h indirect.h indirect_vertex_array.h
+glx_pbuffer.o: /usr/include/inttypes.h /usr/include/features.h
+glx_pbuffer.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+glx_pbuffer.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+glx_pbuffer.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+glx_pbuffer.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+glx_pbuffer.o: glxclient.h /usr/include/X11/Xproto.h /usr/include/X11/Xmd.h
+glx_pbuffer.o: /usr/include/X11/Xprotostr.h /usr/include/X11/Xlibint.h
+glx_pbuffer.o: /usr/include/X11/Xlib.h /usr/include/sys/types.h
+glx_pbuffer.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+glx_pbuffer.o: /usr/include/time.h /usr/include/endian.h
+glx_pbuffer.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+glx_pbuffer.o: /usr/include/sys/select.h /usr/include/bits/select.h
+glx_pbuffer.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+glx_pbuffer.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+glx_pbuffer.o: /usr/include/X11/X.h /usr/include/X11/Xfuncproto.h
+glx_pbuffer.o: /usr/include/X11/Xosdefs.h /usr/include/X11/XlibConf.h
+glx_pbuffer.o: /usr/include/errno.h /usr/include/bits/errno.h
+glx_pbuffer.o: /usr/include/linux/errno.h /usr/include/asm/errno.h
+glx_pbuffer.o: /usr/include/asm-generic/errno.h
+glx_pbuffer.o: /usr/include/asm-generic/errno-base.h
+glx_pbuffer.o: /usr/include/X11/Xfuncs.h /usr/include/string.h
+glx_pbuffer.o: /usr/include/xlocale.h /usr/include/stdlib.h
+glx_pbuffer.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+glx_pbuffer.o: /usr/include/alloca.h /usr/include/X11/extensions/extutil.h
+glx_pbuffer.o: /usr/include/X11/extensions/Xext.h ../../include/GL/glx.h
+glx_pbuffer.o: /usr/include/X11/Xutil.h /usr/include/X11/keysym.h
+glx_pbuffer.o: /usr/include/X11/keysymdef.h ../../include/GL/gl.h
+glx_pbuffer.o: ../../include/GL/glext.h ../../include/GL/glxext.h
+glx_pbuffer.o: /usr/include/stdio.h /usr/include/libio.h
+glx_pbuffer.o: /usr/include/_G_config.h /usr/include/wchar.h
+glx_pbuffer.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+glx_pbuffer.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+glx_pbuffer.o: /usr/include/GL/glxproto.h /usr/include/GL/glxmd.h
+glx_pbuffer.o: ../../src/mapi/glapi/glapitable.h glxconfig.h glxhash.h
+glx_pbuffer.o: glxextensions.h /usr/include/assert.h
+glx_query.o: glxclient.h /usr/include/X11/Xproto.h /usr/include/X11/Xmd.h
+glx_query.o: /usr/include/X11/Xprotostr.h /usr/include/X11/Xlibint.h
+glx_query.o: /usr/include/X11/Xlib.h /usr/include/sys/types.h
+glx_query.o: /usr/include/features.h /usr/include/sys/cdefs.h
+glx_query.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+glx_query.o: /usr/include/gnu/stubs-64.h /usr/include/bits/types.h
+glx_query.o: /usr/include/bits/typesizes.h /usr/include/time.h
+glx_query.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+glx_query.o: /usr/include/endian.h /usr/include/bits/endian.h
+glx_query.o: /usr/include/bits/byteswap.h /usr/include/sys/select.h
+glx_query.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+glx_query.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+glx_query.o: /usr/include/bits/pthreadtypes.h /usr/include/X11/X.h
+glx_query.o: /usr/include/X11/Xfuncproto.h /usr/include/X11/Xosdefs.h
+glx_query.o: /usr/include/X11/XlibConf.h /usr/include/errno.h
+glx_query.o: /usr/include/bits/errno.h /usr/include/linux/errno.h
+glx_query.o: /usr/include/asm/errno.h /usr/include/asm-generic/errno.h
+glx_query.o: /usr/include/asm-generic/errno-base.h /usr/include/X11/Xfuncs.h
+glx_query.o: /usr/include/string.h /usr/include/xlocale.h
+glx_query.o: /usr/include/stdlib.h /usr/include/bits/waitflags.h
+glx_query.o: /usr/include/bits/waitstatus.h /usr/include/alloca.h
+glx_query.o: /usr/include/X11/extensions/extutil.h
+glx_query.o: /usr/include/X11/extensions/Xext.h ../../include/GL/glx.h
+glx_query.o: /usr/include/X11/Xutil.h /usr/include/X11/keysym.h
+glx_query.o: /usr/include/X11/keysymdef.h ../../include/GL/gl.h
+glx_query.o: ../../include/GL/glext.h /usr/include/inttypes.h
+glx_query.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+glx_query.o: ../../include/GL/glxext.h /usr/include/stdio.h
+glx_query.o: /usr/include/libio.h /usr/include/_G_config.h
+glx_query.o: /usr/include/wchar.h
+glx_query.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+glx_query.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+glx_query.o: /usr/include/GL/glxproto.h /usr/include/GL/glxmd.h
+glx_query.o: ../../src/mapi/glapi/glapitable.h glxconfig.h glxhash.h
+glx_query.o: glxextensions.h
+glxhash.o: glxhash.h /usr/include/X11/Xfuncproto.h /usr/include/stdio.h
+glxhash.o: /usr/include/features.h /usr/include/sys/cdefs.h
+glxhash.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+glxhash.o: /usr/include/gnu/stubs-64.h
+glxhash.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+glxhash.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+glxhash.o: /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h
+glxhash.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+glxhash.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+glxhash.o: /usr/include/stdlib.h /usr/include/bits/waitflags.h
+glxhash.o: /usr/include/bits/waitstatus.h /usr/include/endian.h
+glxhash.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+glxhash.o: /usr/include/sys/types.h /usr/include/time.h
+glxhash.o: /usr/include/sys/select.h /usr/include/bits/select.h
+glxhash.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+glxhash.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+glxhash.o: /usr/include/alloca.h /usr/include/string.h /usr/include/xlocale.h

@@ -35,7 +35,7 @@
 #define __IP_TUX__ 1
 
 /* Define if you system has installed gstreamer already */
-/* #undef HAVE_GST */
+#define HAVE_GST 1
 
 /* Define if you want to print message */
 #define MESSAGE 1

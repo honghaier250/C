@@ -1,0 +1,41 @@
+# DO NOT DELETE
+
+egl_glx.o: /usr/include/stdlib.h /usr/include/features.h
+egl_glx.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+egl_glx.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+egl_glx.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+egl_glx.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+egl_glx.o: /usr/include/endian.h /usr/include/bits/endian.h
+egl_glx.o: /usr/include/bits/byteswap.h /usr/include/sys/types.h
+egl_glx.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+egl_glx.o: /usr/include/time.h /usr/include/sys/select.h
+egl_glx.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+egl_glx.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+egl_glx.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+egl_glx.o: /usr/include/string.h /usr/include/xlocale.h
+egl_glx.o: /usr/include/X11/Xlib.h /usr/include/X11/X.h
+egl_glx.o: /usr/include/X11/Xfuncproto.h /usr/include/X11/Xosdefs.h
+egl_glx.o: /usr/include/dlfcn.h /usr/include/bits/dlfcn.h
+egl_glx.o: ../../../../include/GL/glx.h /usr/include/X11/Xutil.h
+egl_glx.o: /usr/include/X11/keysym.h /usr/include/X11/keysymdef.h
+egl_glx.o: ../../../../include/GL/gl.h ../../../../include/GL/glext.h
+egl_glx.o: /usr/include/inttypes.h /usr/include/stdint.h
+egl_glx.o: /usr/include/bits/wchar.h ../../../../include/GL/glxext.h
+egl_glx.o: ../../../../src/egl/main/eglconfig.h /usr/include/assert.h
+egl_glx.o: ../../../../src/egl/main/egltypedefs.h
+egl_glx.o: ../../../../include/EGL/egl.h
+egl_glx.o: ../../../../include/EGL/eglplatform.h
+egl_glx.o: ../../../../include/KHR/khrplatform.h
+egl_glx.o: ../../../../include/EGL/eglext.h
+egl_glx.o: ../../../../include/EGL/eglmesaext.h
+egl_glx.o: ../../../../src/egl/main/eglcompiler.h
+egl_glx.o: ../../../../src/egl/main/eglcontext.h
+egl_glx.o: ../../../../src/egl/main/egldisplay.h
+egl_glx.o: ../../../../src/egl/main/egldefines.h
+egl_glx.o: ../../../../src/egl/main/eglmutex.h
+egl_glx.o: ../../../../src/egl/main/eglarray.h
+egl_glx.o: ../../../../src/egl/main/egldriver.h
+egl_glx.o: ../../../../src/egl/main/eglapi.h
+egl_glx.o: ../../../../src/egl/main/eglcurrent.h
+egl_glx.o: ../../../../src/egl/main/egllog.h
+egl_glx.o: ../../../../src/egl/main/eglsurface.h

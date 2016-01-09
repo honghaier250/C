@@ -45,13 +45,9 @@ IptuxSetting.o: IptuxSetting.cpp IptuxSetting.h udt.h sys.h ../config.h \
  /usr/include/asm-generic/ioctls.h /usr/include/linux/ioctl.h \
  /usr/include/asm/ioctl.h /usr/include/asm-generic/ioctl.h \
  /usr/include/bits/ioctl-types.h /usr/include/sys/ttydefaults.h \
- /usr/include/net/if.h face.h /usr/include/gtk-2.0/gtk/gtk.h \
- /usr/include/gtk-2.0/gdk/gdk.h \
- /usr/include/gtk-2.0/gdk/gdkapplaunchcontext.h \
- /usr/include/glib-2.0/gio/gio.h /usr/include/glib-2.0/gio/giotypes.h \
- /usr/include/glib-2.0/gio/gioenums.h /usr/include/glib-2.0/glib-object.h \
- /usr/include/glib-2.0/gobject/gbinding.h /usr/include/glib-2.0/glib.h \
- /usr/include/glib-2.0/glib/galloca.h /usr/include/glib-2.0/glib/gtypes.h \
+ /usr/include/net/if.h face.h /usr/include/gstreamer-0.10/gst/gst.h \
+ /usr/include/glib-2.0/glib.h /usr/include/glib-2.0/glib/galloca.h \
+ /usr/include/glib-2.0/glib/gtypes.h \
  /usr/lib64/glib-2.0/include/glibconfig.h \
  /usr/include/glib-2.0/glib/gmacros.h \
  /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h \
@@ -102,6 +98,10 @@ IptuxSetting.o: IptuxSetting.cpp IptuxSetting.h udt.h sys.h ../config.h \
  /usr/include/glib-2.0/glib/gurifuncs.h \
  /usr/include/glib-2.0/glib/gvarianttype.h \
  /usr/include/glib-2.0/glib/gvariant.h \
+ /usr/include/gstreamer-0.10/gst/glib-compat.h \
+ /usr/include/gstreamer-0.10/gst/gstenumtypes.h \
+ /usr/include/glib-2.0/glib-object.h \
+ /usr/include/glib-2.0/gobject/gbinding.h \
  /usr/include/glib-2.0/gobject/gobject.h \
  /usr/include/glib-2.0/gobject/gtype.h \
  /usr/include/glib-2.0/gobject/gvalue.h \
@@ -117,6 +117,81 @@ IptuxSetting.o: IptuxSetting.cpp IptuxSetting.h udt.h sys.h ../config.h \
  /usr/include/glib-2.0/gobject/gtypeplugin.h \
  /usr/include/glib-2.0/gobject/gvaluearray.h \
  /usr/include/glib-2.0/gobject/gvaluetypes.h \
+ /usr/include/gstreamer-0.10/gst/gstversion.h \
+ /usr/include/gstreamer-0.10/gst/gstbin.h \
+ /usr/include/gstreamer-0.10/gst/gstelement.h \
+ /usr/include/gstreamer-0.10/gst/gstconfig.h \
+ /usr/include/libxml2/libxml/parser.h \
+ /usr/include/libxml2/libxml/xmlversion.h \
+ /usr/include/libxml2/libxml/xmlexports.h \
+ /usr/include/libxml2/libxml/tree.h \
+ /usr/include/libxml2/libxml/xmlstring.h \
+ /usr/include/libxml2/libxml/xmlregexp.h \
+ /usr/include/libxml2/libxml/dict.h /usr/include/libxml2/libxml/hash.h \
+ /usr/include/libxml2/libxml/valid.h \
+ /usr/include/libxml2/libxml/xmlerror.h \
+ /usr/include/libxml2/libxml/list.h \
+ /usr/include/libxml2/libxml/xmlautomata.h \
+ /usr/include/libxml2/libxml/entities.h \
+ /usr/include/libxml2/libxml/encoding.h \
+ /usr/include/libxml2/libxml/xmlIO.h \
+ /usr/include/libxml2/libxml/globals.h /usr/include/libxml2/libxml/SAX.h \
+ /usr/include/libxml2/libxml/xlink.h /usr/include/libxml2/libxml/SAX2.h \
+ /usr/include/libxml2/libxml/xmlmemory.h \
+ /usr/include/libxml2/libxml/threads.h \
+ /usr/include/gstreamer-0.10/gst/gstobject.h \
+ /usr/include/gstreamer-0.10/gst/gstpad.h \
+ /usr/include/gstreamer-0.10/gst/gstbuffer.h \
+ /usr/include/gstreamer-0.10/gst/gstminiobject.h \
+ /usr/include/gstreamer-0.10/gst/gstclock.h \
+ /usr/include/gstreamer-0.10/gst/gstcaps.h \
+ /usr/include/gstreamer-0.10/gst/gststructure.h \
+ /usr/include/gstreamer-0.10/gst/gstbufferlist.h \
+ /usr/include/gstreamer-0.10/gst/gstevent.h \
+ /usr/include/gstreamer-0.10/gst/gstformat.h \
+ /usr/include/gstreamer-0.10/gst/gstiterator.h \
+ /usr/include/gstreamer-0.10/gst/gsttaglist.h \
+ /usr/include/gstreamer-0.10/gst/gstquery.h \
+ /usr/include/gstreamer-0.10/gst/gsttask.h \
+ /usr/include/gstreamer-0.10/gst/gsttaskpool.h \
+ /usr/include/gstreamer-0.10/gst/gstpadtemplate.h \
+ /usr/include/gstreamer-0.10/gst/gstbus.h \
+ /usr/include/gstreamer-0.10/gst/gstmessage.h \
+ /usr/include/gstreamer-0.10/gst/gstelementfactory.h \
+ /usr/include/gstreamer-0.10/gst/gstplugin.h \
+ /usr/include/glib-2.0/gmodule.h \
+ /usr/include/gstreamer-0.10/gst/gstmacros.h \
+ /usr/include/gstreamer-0.10/gst/gstpluginfeature.h \
+ /usr/include/gstreamer-0.10/gst/gstindex.h \
+ /usr/include/gstreamer-0.10/gst/gstindexfactory.h \
+ /usr/include/gstreamer-0.10/gst/gstchildproxy.h \
+ /usr/include/gstreamer-0.10/gst/gstdebugutils.h \
+ /usr/include/gstreamer-0.10/gst/gsterror.h \
+ /usr/include/gstreamer-0.10/gst/gstghostpad.h \
+ /usr/include/gstreamer-0.10/gst/gstinfo.h \
+ /usr/include/gstreamer-0.10/gst/gstinterface.h \
+ /usr/include/gstreamer-0.10/gst/gstmarshal.h \
+ /usr/include/gstreamer-0.10/gst/gstparamspecs.h \
+ /usr/include/gstreamer-0.10/gst/gstvalue.h \
+ /usr/include/gstreamer-0.10/gst/gstpipeline.h \
+ /usr/include/gstreamer-0.10/gst/gstpoll.h \
+ /usr/include/gstreamer-0.10/gst/gstpreset.h \
+ /usr/include/gstreamer-0.10/gst/gstregistry.h \
+ /usr/include/gstreamer-0.10/gst/gstsegment.h \
+ /usr/include/gstreamer-0.10/gst/gstsystemclock.h \
+ /usr/include/gstreamer-0.10/gst/gsttagsetter.h \
+ /usr/include/gstreamer-0.10/gst/gsttrace.h \
+ /usr/include/gstreamer-0.10/gst/gsttypefind.h \
+ /usr/include/gstreamer-0.10/gst/gsttypefindfactory.h \
+ /usr/include/gstreamer-0.10/gst/gsturi.h \
+ /usr/include/gstreamer-0.10/gst/gstutils.h \
+ /usr/include/gstreamer-0.10/gst/gstparse.h \
+ /usr/include/gstreamer-0.10/gst/gstxml.h \
+ /usr/include/gstreamer-0.10/gst/gstcompat.h \
+ /usr/include/gtk-2.0/gtk/gtk.h /usr/include/gtk-2.0/gdk/gdk.h \
+ /usr/include/gtk-2.0/gdk/gdkapplaunchcontext.h \
+ /usr/include/glib-2.0/gio/gio.h /usr/include/glib-2.0/gio/giotypes.h \
+ /usr/include/glib-2.0/gio/gioenums.h \
  /usr/include/glib-2.0/gio/gappinfo.h \
  /usr/include/glib-2.0/gio/gasyncinitable.h \
  /usr/include/glib-2.0/gio/ginitable.h \
@@ -166,7 +241,7 @@ IptuxSetting.o: IptuxSetting.cpp IptuxSetting.h udt.h sys.h ../config.h \
  /usr/include/glib-2.0/gio/ginetsocketaddress.h \
  /usr/include/glib-2.0/gio/gsocketaddress.h \
  /usr/include/glib-2.0/gio/gioenumtypes.h \
- /usr/include/glib-2.0/gio/giomodule.h /usr/include/glib-2.0/gmodule.h \
+ /usr/include/glib-2.0/gio/giomodule.h \
  /usr/include/glib-2.0/gio/gioscheduler.h \
  /usr/include/glib-2.0/gio/gloadableicon.h \
  /usr/include/glib-2.0/gio/gmemoryinputstream.h \
@@ -709,21 +784,7 @@ net.h:
 
 face.h:
 
-/usr/include/gtk-2.0/gtk/gtk.h:
-
-/usr/include/gtk-2.0/gdk/gdk.h:
-
-/usr/include/gtk-2.0/gdk/gdkapplaunchcontext.h:
-
-/usr/include/glib-2.0/gio/gio.h:
-
-/usr/include/glib-2.0/gio/giotypes.h:
-
-/usr/include/glib-2.0/gio/gioenums.h:
-
-/usr/include/glib-2.0/glib-object.h:
-
-/usr/include/glib-2.0/gobject/gbinding.h:
+/usr/include/gstreamer-0.10/gst/gst.h:
 
 /usr/include/glib-2.0/glib.h:
 
@@ -863,6 +924,14 @@ face.h:
 
 /usr/include/glib-2.0/glib/gvariant.h:
 
+/usr/include/gstreamer-0.10/gst/glib-compat.h:
+
+/usr/include/gstreamer-0.10/gst/gstenumtypes.h:
+
+/usr/include/glib-2.0/glib-object.h:
+
+/usr/include/glib-2.0/gobject/gbinding.h:
+
 /usr/include/glib-2.0/gobject/gobject.h:
 
 /usr/include/glib-2.0/gobject/gtype.h:
@@ -892,6 +961,166 @@ face.h:
 /usr/include/glib-2.0/gobject/gvaluearray.h:
 
 /usr/include/glib-2.0/gobject/gvaluetypes.h:
+
+/usr/include/gstreamer-0.10/gst/gstversion.h:
+
+/usr/include/gstreamer-0.10/gst/gstbin.h:
+
+/usr/include/gstreamer-0.10/gst/gstelement.h:
+
+/usr/include/gstreamer-0.10/gst/gstconfig.h:
+
+/usr/include/libxml2/libxml/parser.h:
+
+/usr/include/libxml2/libxml/xmlversion.h:
+
+/usr/include/libxml2/libxml/xmlexports.h:
+
+/usr/include/libxml2/libxml/tree.h:
+
+/usr/include/libxml2/libxml/xmlstring.h:
+
+/usr/include/libxml2/libxml/xmlregexp.h:
+
+/usr/include/libxml2/libxml/dict.h:
+
+/usr/include/libxml2/libxml/hash.h:
+
+/usr/include/libxml2/libxml/valid.h:
+
+/usr/include/libxml2/libxml/xmlerror.h:
+
+/usr/include/libxml2/libxml/list.h:
+
+/usr/include/libxml2/libxml/xmlautomata.h:
+
+/usr/include/libxml2/libxml/entities.h:
+
+/usr/include/libxml2/libxml/encoding.h:
+
+/usr/include/libxml2/libxml/xmlIO.h:
+
+/usr/include/libxml2/libxml/globals.h:
+
+/usr/include/libxml2/libxml/SAX.h:
+
+/usr/include/libxml2/libxml/xlink.h:
+
+/usr/include/libxml2/libxml/SAX2.h:
+
+/usr/include/libxml2/libxml/xmlmemory.h:
+
+/usr/include/libxml2/libxml/threads.h:
+
+/usr/include/gstreamer-0.10/gst/gstobject.h:
+
+/usr/include/gstreamer-0.10/gst/gstpad.h:
+
+/usr/include/gstreamer-0.10/gst/gstbuffer.h:
+
+/usr/include/gstreamer-0.10/gst/gstminiobject.h:
+
+/usr/include/gstreamer-0.10/gst/gstclock.h:
+
+/usr/include/gstreamer-0.10/gst/gstcaps.h:
+
+/usr/include/gstreamer-0.10/gst/gststructure.h:
+
+/usr/include/gstreamer-0.10/gst/gstbufferlist.h:
+
+/usr/include/gstreamer-0.10/gst/gstevent.h:
+
+/usr/include/gstreamer-0.10/gst/gstformat.h:
+
+/usr/include/gstreamer-0.10/gst/gstiterator.h:
+
+/usr/include/gstreamer-0.10/gst/gsttaglist.h:
+
+/usr/include/gstreamer-0.10/gst/gstquery.h:
+
+/usr/include/gstreamer-0.10/gst/gsttask.h:
+
+/usr/include/gstreamer-0.10/gst/gsttaskpool.h:
+
+/usr/include/gstreamer-0.10/gst/gstpadtemplate.h:
+
+/usr/include/gstreamer-0.10/gst/gstbus.h:
+
+/usr/include/gstreamer-0.10/gst/gstmessage.h:
+
+/usr/include/gstreamer-0.10/gst/gstelementfactory.h:
+
+/usr/include/gstreamer-0.10/gst/gstplugin.h:
+
+/usr/include/glib-2.0/gmodule.h:
+
+/usr/include/gstreamer-0.10/gst/gstmacros.h:
+
+/usr/include/gstreamer-0.10/gst/gstpluginfeature.h:
+
+/usr/include/gstreamer-0.10/gst/gstindex.h:
+
+/usr/include/gstreamer-0.10/gst/gstindexfactory.h:
+
+/usr/include/gstreamer-0.10/gst/gstchildproxy.h:
+
+/usr/include/gstreamer-0.10/gst/gstdebugutils.h:
+
+/usr/include/gstreamer-0.10/gst/gsterror.h:
+
+/usr/include/gstreamer-0.10/gst/gstghostpad.h:
+
+/usr/include/gstreamer-0.10/gst/gstinfo.h:
+
+/usr/include/gstreamer-0.10/gst/gstinterface.h:
+
+/usr/include/gstreamer-0.10/gst/gstmarshal.h:
+
+/usr/include/gstreamer-0.10/gst/gstparamspecs.h:
+
+/usr/include/gstreamer-0.10/gst/gstvalue.h:
+
+/usr/include/gstreamer-0.10/gst/gstpipeline.h:
+
+/usr/include/gstreamer-0.10/gst/gstpoll.h:
+
+/usr/include/gstreamer-0.10/gst/gstpreset.h:
+
+/usr/include/gstreamer-0.10/gst/gstregistry.h:
+
+/usr/include/gstreamer-0.10/gst/gstsegment.h:
+
+/usr/include/gstreamer-0.10/gst/gstsystemclock.h:
+
+/usr/include/gstreamer-0.10/gst/gsttagsetter.h:
+
+/usr/include/gstreamer-0.10/gst/gsttrace.h:
+
+/usr/include/gstreamer-0.10/gst/gsttypefind.h:
+
+/usr/include/gstreamer-0.10/gst/gsttypefindfactory.h:
+
+/usr/include/gstreamer-0.10/gst/gsturi.h:
+
+/usr/include/gstreamer-0.10/gst/gstutils.h:
+
+/usr/include/gstreamer-0.10/gst/gstparse.h:
+
+/usr/include/gstreamer-0.10/gst/gstxml.h:
+
+/usr/include/gstreamer-0.10/gst/gstcompat.h:
+
+/usr/include/gtk-2.0/gtk/gtk.h:
+
+/usr/include/gtk-2.0/gdk/gdk.h:
+
+/usr/include/gtk-2.0/gdk/gdkapplaunchcontext.h:
+
+/usr/include/glib-2.0/gio/gio.h:
+
+/usr/include/glib-2.0/gio/giotypes.h:
+
+/usr/include/glib-2.0/gio/gioenums.h:
 
 /usr/include/glib-2.0/gio/gappinfo.h:
 
@@ -996,8 +1225,6 @@ face.h:
 /usr/include/glib-2.0/gio/gioenumtypes.h:
 
 /usr/include/glib-2.0/gio/giomodule.h:
-
-/usr/include/glib-2.0/gmodule.h:
 
 /usr/include/glib-2.0/gio/gioscheduler.h:
 

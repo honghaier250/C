@@ -1,0 +1,288 @@
+# DO NOT DELETE
+
+dri_context.o: ../../../../../src/mesa/drivers/dri/common/utils.h
+dri_context.o: ../../../../../include/GL/gl.h
+dri_context.o: ../../../../../include/GL/glext.h
+dri_context.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+dri_context.o: /usr/include/inttypes.h /usr/include/features.h
+dri_context.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+dri_context.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+dri_context.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+dri_context.o: ../../../../../include/GL/internal/dri_interface.h
+dri_context.o: /usr/include/libdrm/drm.h /usr/include/sys/types.h
+dri_context.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+dri_context.o: /usr/include/time.h /usr/include/endian.h
+dri_context.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+dri_context.o: /usr/include/sys/select.h /usr/include/bits/select.h
+dri_context.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+dri_context.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+dri_context.o: /usr/include/libdrm/drm_mode.h
+dri_context.o: ../../../../../src/mesa/main/context.h
+dri_context.o: ../../../../../src/mesa/main/imports.h
+dri_context.o: ../../../../../src/mesa/main/compiler.h /usr/include/assert.h
+dri_context.o: /usr/include/ctype.h /usr/include/xlocale.h
+dri_context.o: /usr/include/math.h /usr/include/bits/huge_val.h
+dri_context.o: /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h
+dri_context.o: /usr/include/bits/inf.h /usr/include/bits/nan.h
+dri_context.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+dri_context.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+dri_context.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+dri_context.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+dri_context.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+dri_context.o: /usr/include/bits/posix2_lim.h /usr/include/stdlib.h
+dri_context.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+dri_context.o: /usr/include/alloca.h /usr/include/stdio.h
+dri_context.o: /usr/include/libio.h /usr/include/_G_config.h
+dri_context.o: /usr/include/wchar.h
+dri_context.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+dri_context.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+dri_context.o: /usr/include/string.h
+dri_context.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+dri_context.o: ../../../../../src/mesa/main/glheader.h
+dri_context.o: ../../../../../src/mesa/main/mtypes.h
+dri_context.o: ../../../../../src/mesa/main/glheader.h
+dri_context.o: ../../../../../src/mesa/main/config.h
+dri_context.o: ../../../../../src/mesa/main/mfeatures.h
+dri_context.o: ../../../../../src/mapi/glapi/glapi.h
+dri_context.o: ../../../../../src/mapi/glapi/glthread.h
+dri_context.o: ../../../../../src/mapi/mapi/u_thread.h
+dri_context.o: ../../../../../src/mapi/mapi/u_compiler.h
+dri_context.o: ../../../../../src/mesa/math/m_matrix.h
+dri_context.o: ../../../../../src/mesa/main/simple_list.h
+dri_context.o: ../../../../../src/mesa/main/formats.h
+dri_context.o: ../../../../../src/mesa/main/dd.h
+dri_context.o: ../../../../../src/gallium/state_trackers/dri/common/dri_screen.h
+dri_context.o: ../../../../../src/mesa/drivers/dri/common/dri_util.h
+dri_context.o: ../../../../../src/mesa/main/mtypes.h
+dri_context.o: ../../../../../src/mesa/drivers/dri/common/xmlconfig.h
+dri_context.o: ../../../../../src/gallium/include/pipe/p_compiler.h
+dri_context.o: ../../../../../src/gallium/include/pipe/p_config.h
+dri_context.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+dri_context.o: ../../../../../src/gallium/include/pipe/p_context.h
+dri_context.o: ../../../../../src/gallium/include/pipe/p_compiler.h
+dri_context.o: ../../../../../src/gallium/include/pipe/p_format.h
+dri_context.o: ../../../../../src/gallium/include/pipe/p_video_enums.h
+dri_context.o: ../../../../../src/gallium/include/pipe/p_state.h
+dri_context.o: ../../../../../src/gallium/include/pipe/p_defines.h
+dri_context.o: ../../../../../src/gallium/include/state_tracker/st_api.h
+dri_context.o: ../../../../../src/gallium/include/pipe/p_format.h
+dri_context.o: ../../../../../src/gallium/state_trackers/dri/common/dri_drawable.h
+dri_context.o: ../../../../../src/gallium/state_trackers/dri/common/dri_context.h
+dri_context.o: ../../../../../src/gallium/auxiliary/postprocess/filters.h
+dri_context.o: ../../../../../src/gallium/auxiliary/postprocess/postprocess.h
+dri_context.o: ../../../../../src/gallium/auxiliary/postprocess/pp_program.h
+dri_context.o: ../../../../../src/mesa/state_tracker/st_context.h
+dri_screen.o: ../../../../../src/mesa/drivers/dri/common/utils.h
+dri_screen.o: ../../../../../include/GL/gl.h
+dri_screen.o: ../../../../../include/GL/glext.h
+dri_screen.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+dri_screen.o: /usr/include/inttypes.h /usr/include/features.h
+dri_screen.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+dri_screen.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+dri_screen.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+dri_screen.o: ../../../../../include/GL/internal/dri_interface.h
+dri_screen.o: /usr/include/libdrm/drm.h /usr/include/sys/types.h
+dri_screen.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+dri_screen.o: /usr/include/time.h /usr/include/endian.h
+dri_screen.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+dri_screen.o: /usr/include/sys/select.h /usr/include/bits/select.h
+dri_screen.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+dri_screen.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+dri_screen.o: /usr/include/libdrm/drm_mode.h
+dri_screen.o: ../../../../../src/mesa/main/context.h
+dri_screen.o: ../../../../../src/mesa/main/imports.h
+dri_screen.o: ../../../../../src/mesa/main/compiler.h /usr/include/assert.h
+dri_screen.o: /usr/include/ctype.h /usr/include/xlocale.h /usr/include/math.h
+dri_screen.o: /usr/include/bits/huge_val.h /usr/include/bits/huge_valf.h
+dri_screen.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+dri_screen.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+dri_screen.o: /usr/include/bits/mathcalls.h
+dri_screen.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+dri_screen.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+dri_screen.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+dri_screen.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+dri_screen.o: /usr/include/bits/posix2_lim.h /usr/include/stdlib.h
+dri_screen.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+dri_screen.o: /usr/include/alloca.h /usr/include/stdio.h /usr/include/libio.h
+dri_screen.o: /usr/include/_G_config.h /usr/include/wchar.h
+dri_screen.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+dri_screen.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+dri_screen.o: /usr/include/string.h
+dri_screen.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+dri_screen.o: ../../../../../src/mesa/main/glheader.h
+dri_screen.o: ../../../../../src/mesa/main/mtypes.h
+dri_screen.o: ../../../../../src/mesa/main/glheader.h
+dri_screen.o: ../../../../../src/mesa/main/config.h
+dri_screen.o: ../../../../../src/mesa/main/mfeatures.h
+dri_screen.o: ../../../../../src/mapi/glapi/glapi.h
+dri_screen.o: ../../../../../src/mapi/glapi/glthread.h
+dri_screen.o: ../../../../../src/mapi/mapi/u_thread.h
+dri_screen.o: ../../../../../src/mapi/mapi/u_compiler.h
+dri_screen.o: ../../../../../src/mesa/math/m_matrix.h
+dri_screen.o: ../../../../../src/mesa/main/simple_list.h
+dri_screen.o: ../../../../../src/mesa/main/formats.h
+dri_screen.o: ../../../../../src/mesa/main/dd.h
+dri_screen.o: ../../../../../src/mesa/drivers/dri/common/xmlpool.h
+dri_screen.o: ../../../../../src/mesa/drivers/dri/common/xmlpool/options.h
+dri_screen.o: ../../../../../src/gallium/state_trackers/dri/common/dri_screen.h
+dri_screen.o: ../../../../../src/mesa/drivers/dri/common/dri_util.h
+dri_screen.o: ../../../../../src/mesa/main/mtypes.h
+dri_screen.o: ../../../../../src/mesa/drivers/dri/common/xmlconfig.h
+dri_screen.o: ../../../../../src/gallium/include/pipe/p_compiler.h
+dri_screen.o: ../../../../../src/gallium/include/pipe/p_config.h
+dri_screen.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+dri_screen.o: ../../../../../src/gallium/include/pipe/p_context.h
+dri_screen.o: ../../../../../src/gallium/include/pipe/p_compiler.h
+dri_screen.o: ../../../../../src/gallium/include/pipe/p_format.h
+dri_screen.o: ../../../../../src/gallium/include/pipe/p_video_enums.h
+dri_screen.o: ../../../../../src/gallium/include/pipe/p_state.h
+dri_screen.o: ../../../../../src/gallium/include/pipe/p_defines.h
+dri_screen.o: ../../../../../src/gallium/include/state_tracker/st_api.h
+dri_screen.o: ../../../../../src/gallium/include/pipe/p_format.h
+dri_screen.o: ../../../../../src/gallium/auxiliary/util/u_inlines.h
+dri_screen.o: ../../../../../src/gallium/include/pipe/p_defines.h
+dri_screen.o: ../../../../../src/gallium/include/pipe/p_screen.h
+dri_screen.o: ../../../../../src/gallium/include/pipe/p_video_enums.h
+dri_screen.o: ../../../../../src/gallium/auxiliary/util/u_debug.h
+dri_screen.o: ../../../../../src/gallium/auxiliary/os/os_misc.h
+dri_screen.o: ../../../../../src/gallium/auxiliary/util/u_debug_describe.h
+dri_screen.o: ../../../../../src/gallium/auxiliary/util/u_debug_refcnt.h
+dri_screen.o: ../../../../../src/gallium/include/pipe/p_config.h
+dri_screen.o: ../../../../../src/gallium/auxiliary/util/u_atomic.h
+dri_screen.o: ../../../../../src/gallium/auxiliary/util/u_box.h
+dri_screen.o: ../../../../../src/gallium/auxiliary/util/u_math.h
+dri_screen.o: ../../../../../src/mesa/state_tracker/st_gl_api.h
+dri_drawable.o: ../../../../../src/gallium/state_trackers/dri/common/dri_screen.h
+dri_drawable.o: ../../../../../src/mesa/drivers/dri/common/dri_util.h
+dri_drawable.o: ../../../../../include/GL/gl.h
+dri_drawable.o: ../../../../../include/GL/glext.h
+dri_drawable.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+dri_drawable.o: /usr/include/inttypes.h /usr/include/features.h
+dri_drawable.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+dri_drawable.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+dri_drawable.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+dri_drawable.o: ../../../../../include/GL/internal/dri_interface.h
+dri_drawable.o: /usr/include/libdrm/drm.h /usr/include/sys/types.h
+dri_drawable.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+dri_drawable.o: /usr/include/time.h /usr/include/endian.h
+dri_drawable.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+dri_drawable.o: /usr/include/sys/select.h /usr/include/bits/select.h
+dri_drawable.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+dri_drawable.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+dri_drawable.o: /usr/include/libdrm/drm_mode.h
+dri_drawable.o: ../../../../../src/mesa/main/mtypes.h
+dri_drawable.o: ../../../../../src/mesa/drivers/dri/common/xmlconfig.h
+dri_drawable.o: ../../../../../src/gallium/include/pipe/p_compiler.h
+dri_drawable.o: ../../../../../src/gallium/include/pipe/p_config.h
+dri_drawable.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+dri_drawable.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+dri_drawable.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+dri_drawable.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+dri_drawable.o: /usr/include/bits/posix2_lim.h /usr/include/stdlib.h
+dri_drawable.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+dri_drawable.o: /usr/include/alloca.h /usr/include/string.h
+dri_drawable.o: /usr/include/xlocale.h
+dri_drawable.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+dri_drawable.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+dri_drawable.o: ../../../../../src/gallium/include/pipe/p_context.h
+dri_drawable.o: ../../../../../src/gallium/include/pipe/p_compiler.h
+dri_drawable.o: ../../../../../src/gallium/include/pipe/p_format.h
+dri_drawable.o: ../../../../../src/gallium/include/pipe/p_video_enums.h
+dri_drawable.o: ../../../../../src/gallium/include/pipe/p_state.h
+dri_drawable.o: ../../../../../src/gallium/include/pipe/p_defines.h
+dri_drawable.o: ../../../../../src/gallium/include/state_tracker/st_api.h
+dri_drawable.o: ../../../../../src/gallium/include/pipe/p_format.h
+dri_drawable.o: ../../../../../src/gallium/state_trackers/dri/common/dri_context.h
+dri_drawable.o: ../../../../../src/gallium/auxiliary/postprocess/filters.h
+dri_drawable.o: ../../../../../src/gallium/auxiliary/postprocess/postprocess.h
+dri_drawable.o: ../../../../../src/gallium/auxiliary/postprocess/pp_program.h
+dri_drawable.o: ../../../../../src/gallium/state_trackers/dri/common/dri_drawable.h
+dri_drawable.o: ../../../../../src/gallium/include/pipe/p_screen.h
+dri_drawable.o: ../../../../../src/gallium/include/pipe/p_defines.h
+dri_drawable.o: ../../../../../src/gallium/include/pipe/p_video_enums.h
+dri_drawable.o: ../../../../../src/gallium/auxiliary/util/u_format.h
+dri_drawable.o: ../../../../../src/gallium/auxiliary/util/u_debug.h
+dri_drawable.o: ../../../../../src/gallium/auxiliary/os/os_misc.h
+dri_drawable.o: ../../../../../src/gallium/auxiliary/util/u_memory.h
+dri_drawable.o: ../../../../../src/gallium/auxiliary/util/u_pointer.h
+dri_drawable.o: ../../../../../src/gallium/auxiliary/os/os_memory.h
+dri_drawable.o: ../../../../../src/gallium/include/pipe/p_config.h
+dri_drawable.o: ../../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+dri_drawable.o: ../../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+dri_drawable.o: ../../../../../src/gallium/auxiliary/util/u_inlines.h
+dri_drawable.o: ../../../../../src/gallium/auxiliary/util/u_debug_describe.h
+dri_drawable.o: ../../../../../src/gallium/auxiliary/util/u_debug_refcnt.h
+dri_drawable.o: ../../../../../src/gallium/auxiliary/util/u_atomic.h
+dri_drawable.o: ../../../../../src/gallium/auxiliary/util/u_box.h
+dri_drawable.o: ../../../../../src/gallium/auxiliary/util/u_math.h
+dri_drawable.o: /usr/include/math.h /usr/include/bits/huge_val.h
+dri_drawable.o: /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h
+dri_drawable.o: /usr/include/bits/inf.h /usr/include/bits/nan.h
+dri_drawable.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+dri2.o: ../../../../../src/gallium/auxiliary/util/u_memory.h
+dri2.o: ../../../../../src/gallium/auxiliary/util/u_pointer.h
+dri2.o: ../../../../../src/gallium/include/pipe/p_compiler.h
+dri2.o: ../../../../../src/gallium/include/pipe/p_config.h
+dri2.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+dri2.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+dri2.o: /usr/include/limits.h /usr/include/features.h
+dri2.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+dri2.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+dri2.o: /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h
+dri2.o: /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h
+dri2.o: /usr/include/endian.h /usr/include/bits/endian.h
+dri2.o: /usr/include/bits/byteswap.h /usr/include/stdlib.h
+dri2.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+dri2.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+dri2.o: /usr/include/sys/types.h /usr/include/bits/types.h
+dri2.o: /usr/include/bits/typesizes.h /usr/include/time.h
+dri2.o: /usr/include/sys/select.h /usr/include/bits/select.h
+dri2.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+dri2.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+dri2.o: /usr/include/alloca.h /usr/include/string.h /usr/include/xlocale.h
+dri2.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+dri2.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+dri2.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+dri2.o: ../../../../../src/gallium/auxiliary/util/u_debug.h
+dri2.o: ../../../../../src/gallium/auxiliary/os/os_misc.h
+dri2.o: ../../../../../src/gallium/auxiliary/os/os_memory.h
+dri2.o: ../../../../../src/gallium/include/pipe/p_config.h
+dri2.o: ../../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+dri2.o: ../../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+dri2.o: ../../../../../src/gallium/auxiliary/util/u_inlines.h
+dri2.o: ../../../../../src/gallium/include/pipe/p_context.h
+dri2.o: ../../../../../src/gallium/include/pipe/p_compiler.h
+dri2.o: ../../../../../src/gallium/include/pipe/p_format.h
+dri2.o: ../../../../../src/gallium/include/pipe/p_video_enums.h
+dri2.o: ../../../../../src/gallium/include/pipe/p_defines.h
+dri2.o: ../../../../../src/gallium/include/pipe/p_state.h
+dri2.o: ../../../../../src/gallium/include/pipe/p_defines.h
+dri2.o: ../../../../../src/gallium/include/pipe/p_screen.h
+dri2.o: ../../../../../src/gallium/include/pipe/p_format.h
+dri2.o: ../../../../../src/gallium/include/pipe/p_video_enums.h
+dri2.o: ../../../../../src/gallium/auxiliary/util/u_debug_describe.h
+dri2.o: ../../../../../src/gallium/auxiliary/util/u_debug_refcnt.h
+dri2.o: ../../../../../src/gallium/auxiliary/util/u_atomic.h
+dri2.o: ../../../../../src/gallium/auxiliary/util/u_box.h
+dri2.o: ../../../../../src/gallium/auxiliary/util/u_math.h
+dri2.o: /usr/include/math.h /usr/include/bits/huge_val.h
+dri2.o: /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h
+dri2.o: /usr/include/bits/inf.h /usr/include/bits/nan.h
+dri2.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+dri2.o: ../../../../../src/gallium/auxiliary/util/u_format.h
+dri2.o: ../../../../../src/gallium/include/state_tracker/drm_driver.h
+dri2.o: ../../../../../src/gallium/state_trackers/dri/common/dri_screen.h
+dri2.o: ../../../../../src/mesa/drivers/dri/common/dri_util.h
+dri2.o: ../../../../../include/GL/gl.h ../../../../../include/GL/glext.h
+dri2.o: /usr/include/inttypes.h
+dri2.o: ../../../../../include/GL/internal/dri_interface.h
+dri2.o: /usr/include/libdrm/drm.h /usr/include/libdrm/drm_mode.h
+dri2.o: ../../../../../src/mesa/main/mtypes.h
+dri2.o: ../../../../../src/mesa/drivers/dri/common/xmlconfig.h
+dri2.o: ../../../../../src/gallium/include/state_tracker/st_api.h
+dri2.o: ../../../../../src/gallium/state_trackers/dri/common/dri_context.h
+dri2.o: ../../../../../src/gallium/auxiliary/postprocess/filters.h
+dri2.o: ../../../../../src/gallium/auxiliary/postprocess/postprocess.h
+dri2.o: ../../../../../src/gallium/auxiliary/postprocess/pp_program.h
+dri2.o: ../../../../../src/gallium/state_trackers/dri/common/dri_drawable.h
+dri2.o: dri2_buffer.h

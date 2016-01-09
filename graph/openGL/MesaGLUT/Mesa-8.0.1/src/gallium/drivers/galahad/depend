@@ -1,0 +1,164 @@
+# DO NOT DELETE
+
+glhd_objects.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+glhd_objects.o: ../../../../src/gallium/include/pipe/p_context.h
+glhd_objects.o: ../../../../src/gallium/include/pipe/p_compiler.h
+glhd_objects.o: ../../../../src/gallium/include/pipe/p_config.h
+glhd_objects.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+glhd_objects.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+glhd_objects.o: /usr/include/limits.h /usr/include/features.h
+glhd_objects.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+glhd_objects.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+glhd_objects.o: /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h
+glhd_objects.o: /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h
+glhd_objects.o: /usr/include/endian.h /usr/include/bits/endian.h
+glhd_objects.o: /usr/include/bits/byteswap.h /usr/include/stdlib.h
+glhd_objects.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+glhd_objects.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+glhd_objects.o: /usr/include/sys/types.h /usr/include/bits/types.h
+glhd_objects.o: /usr/include/bits/typesizes.h /usr/include/time.h
+glhd_objects.o: /usr/include/sys/select.h /usr/include/bits/select.h
+glhd_objects.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+glhd_objects.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+glhd_objects.o: /usr/include/alloca.h /usr/include/string.h
+glhd_objects.o: /usr/include/xlocale.h
+glhd_objects.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+glhd_objects.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+glhd_objects.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+glhd_objects.o: ../../../../src/gallium/include/pipe/p_format.h
+glhd_objects.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+glhd_objects.o: ../../../../src/gallium/include/pipe/p_defines.h
+glhd_objects.o: ../../../../src/gallium/include/pipe/p_state.h
+glhd_objects.o: ../../../../src/gallium/include/pipe/p_defines.h
+glhd_objects.o: ../../../../src/gallium/include/pipe/p_screen.h
+glhd_objects.o: ../../../../src/gallium/include/pipe/p_compiler.h
+glhd_objects.o: ../../../../src/gallium/include/pipe/p_format.h
+glhd_objects.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+glhd_objects.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+glhd_objects.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+glhd_objects.o: ../../../../src/gallium/auxiliary/util/u_debug_describe.h
+glhd_objects.o: ../../../../src/gallium/auxiliary/util/u_debug_refcnt.h
+glhd_objects.o: ../../../../src/gallium/include/pipe/p_config.h
+glhd_objects.o: ../../../../src/gallium/auxiliary/util/u_atomic.h
+glhd_objects.o: ../../../../src/gallium/auxiliary/util/u_box.h
+glhd_objects.o: ../../../../src/gallium/auxiliary/util/u_math.h
+glhd_objects.o: /usr/include/math.h /usr/include/bits/huge_val.h
+glhd_objects.o: /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h
+glhd_objects.o: /usr/include/bits/inf.h /usr/include/bits/nan.h
+glhd_objects.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+glhd_objects.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+glhd_objects.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+glhd_objects.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+glhd_objects.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+glhd_objects.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+glhd_objects.o: glhd_screen.h glhd_objects.h glhd_context.h
+glhd_objects.o: /usr/include/stdio.h /usr/include/libio.h
+glhd_objects.o: /usr/include/_G_config.h /usr/include/wchar.h
+glhd_objects.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+glhd_context.o: ../../../../src/gallium/include/pipe/p_context.h
+glhd_context.o: ../../../../src/gallium/include/pipe/p_compiler.h
+glhd_context.o: ../../../../src/gallium/include/pipe/p_config.h
+glhd_context.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+glhd_context.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+glhd_context.o: /usr/include/limits.h /usr/include/features.h
+glhd_context.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+glhd_context.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+glhd_context.o: /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h
+glhd_context.o: /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h
+glhd_context.o: /usr/include/endian.h /usr/include/bits/endian.h
+glhd_context.o: /usr/include/bits/byteswap.h /usr/include/stdlib.h
+glhd_context.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+glhd_context.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+glhd_context.o: /usr/include/sys/types.h /usr/include/bits/types.h
+glhd_context.o: /usr/include/bits/typesizes.h /usr/include/time.h
+glhd_context.o: /usr/include/sys/select.h /usr/include/bits/select.h
+glhd_context.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+glhd_context.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+glhd_context.o: /usr/include/alloca.h /usr/include/string.h
+glhd_context.o: /usr/include/xlocale.h
+glhd_context.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+glhd_context.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+glhd_context.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+glhd_context.o: ../../../../src/gallium/include/pipe/p_format.h
+glhd_context.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+glhd_context.o: ../../../../src/gallium/auxiliary/util/u_format.h
+glhd_context.o: ../../../../src/gallium/include/pipe/p_format.h
+glhd_context.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+glhd_context.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+glhd_context.o: ../../../../src/gallium/include/pipe/p_compiler.h
+glhd_context.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+glhd_context.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+glhd_context.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+glhd_context.o: ../../../../src/gallium/include/pipe/p_config.h
+glhd_context.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+glhd_context.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+glhd_context.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+glhd_context.o: ../../../../src/gallium/include/pipe/p_defines.h
+glhd_context.o: ../../../../src/gallium/include/pipe/p_state.h
+glhd_context.o: ../../../../src/gallium/include/pipe/p_defines.h
+glhd_context.o: ../../../../src/gallium/include/pipe/p_screen.h
+glhd_context.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+glhd_context.o: ../../../../src/gallium/auxiliary/util/u_debug_describe.h
+glhd_context.o: ../../../../src/gallium/auxiliary/util/u_debug_refcnt.h
+glhd_context.o: ../../../../src/gallium/auxiliary/util/u_atomic.h
+glhd_context.o: ../../../../src/gallium/auxiliary/util/u_box.h
+glhd_context.o: ../../../../src/gallium/auxiliary/util/u_math.h
+glhd_context.o: /usr/include/math.h /usr/include/bits/huge_val.h
+glhd_context.o: /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h
+glhd_context.o: /usr/include/bits/inf.h /usr/include/bits/nan.h
+glhd_context.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+glhd_context.o: glhd_context.h /usr/include/stdio.h /usr/include/libio.h
+glhd_context.o: /usr/include/_G_config.h /usr/include/wchar.h
+glhd_context.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+glhd_context.o: glhd_objects.h glhd_screen.h
+glhd_screen.o: ../../../../src/gallium/include/pipe/p_screen.h
+glhd_screen.o: ../../../../src/gallium/include/pipe/p_compiler.h
+glhd_screen.o: ../../../../src/gallium/include/pipe/p_format.h
+glhd_screen.o: ../../../../src/gallium/include/pipe/p_defines.h
+glhd_screen.o: ../../../../src/gallium/include/pipe/p_compiler.h
+glhd_screen.o: ../../../../src/gallium/include/pipe/p_config.h
+glhd_screen.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+glhd_screen.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+glhd_screen.o: /usr/include/limits.h /usr/include/features.h
+glhd_screen.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+glhd_screen.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+glhd_screen.o: /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h
+glhd_screen.o: /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h
+glhd_screen.o: /usr/include/endian.h /usr/include/bits/endian.h
+glhd_screen.o: /usr/include/bits/byteswap.h /usr/include/stdlib.h
+glhd_screen.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+glhd_screen.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+glhd_screen.o: /usr/include/sys/types.h /usr/include/bits/types.h
+glhd_screen.o: /usr/include/bits/typesizes.h /usr/include/time.h
+glhd_screen.o: /usr/include/sys/select.h /usr/include/bits/select.h
+glhd_screen.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+glhd_screen.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+glhd_screen.o: /usr/include/alloca.h /usr/include/string.h
+glhd_screen.o: /usr/include/xlocale.h
+glhd_screen.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+glhd_screen.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+glhd_screen.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+glhd_screen.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+glhd_screen.o: ../../../../src/gallium/include/pipe/p_state.h
+glhd_screen.o: ../../../../src/gallium/include/pipe/p_defines.h
+glhd_screen.o: ../../../../src/gallium/include/pipe/p_format.h
+glhd_screen.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+glhd_screen.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+glhd_screen.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+glhd_screen.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+glhd_screen.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+glhd_screen.o: ../../../../src/gallium/include/pipe/p_config.h
+glhd_screen.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+glhd_screen.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+glhd_screen.o: ../../../../src/gallium/auxiliary/util/u_math.h
+glhd_screen.o: /usr/include/math.h /usr/include/bits/huge_val.h
+glhd_screen.o: /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h
+glhd_screen.o: /usr/include/bits/inf.h /usr/include/bits/nan.h
+glhd_screen.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+glhd_screen.o: glhd_public.h glhd_screen.h glhd_context.h
+glhd_screen.o: /usr/include/stdio.h /usr/include/libio.h
+glhd_screen.o: /usr/include/_G_config.h /usr/include/wchar.h
+glhd_screen.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+glhd_screen.o: ../../../../src/gallium/include/pipe/p_context.h
+glhd_screen.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+glhd_screen.o: glhd_objects.h

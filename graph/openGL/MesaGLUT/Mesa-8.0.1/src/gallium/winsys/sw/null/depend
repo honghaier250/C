@@ -1,0 +1,40 @@
+# DO NOT DELETE
+
+null_sw_winsys.o: /usr/include/stdio.h /usr/include/features.h
+null_sw_winsys.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+null_sw_winsys.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+null_sw_winsys.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+null_sw_winsys.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+null_sw_winsys.o: /usr/include/libio.h /usr/include/_G_config.h
+null_sw_winsys.o: /usr/include/wchar.h
+null_sw_winsys.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+null_sw_winsys.o: /usr/include/bits/stdio_lim.h
+null_sw_winsys.o: /usr/include/bits/sys_errlist.h
+null_sw_winsys.o: ../../../../../src/gallium/include/pipe/p_format.h
+null_sw_winsys.o: ../../../../../src/gallium/auxiliary/util/u_memory.h
+null_sw_winsys.o: ../../../../../src/gallium/auxiliary/util/u_pointer.h
+null_sw_winsys.o: ../../../../../src/gallium/include/pipe/p_compiler.h
+null_sw_winsys.o: ../../../../../src/gallium/include/pipe/p_config.h
+null_sw_winsys.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+null_sw_winsys.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+null_sw_winsys.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+null_sw_winsys.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+null_sw_winsys.o: /usr/include/bits/posix2_lim.h /usr/include/endian.h
+null_sw_winsys.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+null_sw_winsys.o: /usr/include/stdlib.h /usr/include/bits/waitflags.h
+null_sw_winsys.o: /usr/include/bits/waitstatus.h /usr/include/sys/types.h
+null_sw_winsys.o: /usr/include/time.h /usr/include/sys/select.h
+null_sw_winsys.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+null_sw_winsys.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+null_sw_winsys.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+null_sw_winsys.o: /usr/include/string.h /usr/include/xlocale.h
+null_sw_winsys.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+null_sw_winsys.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+null_sw_winsys.o: ../../../../../src/gallium/auxiliary/util/u_debug.h
+null_sw_winsys.o: ../../../../../src/gallium/auxiliary/os/os_misc.h
+null_sw_winsys.o: ../../../../../src/gallium/auxiliary/os/os_memory.h
+null_sw_winsys.o: ../../../../../src/gallium/include/pipe/p_config.h
+null_sw_winsys.o: ../../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+null_sw_winsys.o: ../../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+null_sw_winsys.o: ../../../../../src/gallium/include/state_tracker/sw_winsys.h
+null_sw_winsys.o: null_sw_winsys.h

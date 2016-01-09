@@ -1,0 +1,12 @@
+
+# Object files and binary
+bin/*
+*.o
+
+# Temporary score file
+yetris.hscore
+
+# local documentation
+doc/html
+
+tmp/

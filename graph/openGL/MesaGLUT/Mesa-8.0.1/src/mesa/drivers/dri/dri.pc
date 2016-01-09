@@ -1,0 +1,11 @@
+prefix=/usr/local/mesa
+exec_prefix=${prefix}
+libdir=/usr/local/mesa/lib
+includedir=/usr/local/mesa/include
+dridriverdir=/usr/local/mesa/lib/dri
+
+Name: dri
+Description: Direct Rendering Infrastructure
+Version: 8.0.0
+Requires.private: libdrm >= 2.4.24
+Cflags: -I${includedir}

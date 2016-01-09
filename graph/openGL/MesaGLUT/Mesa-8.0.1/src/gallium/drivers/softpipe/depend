@@ -1,0 +1,1456 @@
+# DO NOT DELETE
+
+sp_fs_exec.o: sp_context.h ../../../../src/gallium/include/pipe/p_context.h
+sp_fs_exec.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_fs_exec.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_fs_exec.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+sp_fs_exec.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+sp_fs_exec.o: /usr/include/limits.h /usr/include/features.h
+sp_fs_exec.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+sp_fs_exec.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+sp_fs_exec.o: /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h
+sp_fs_exec.o: /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h
+sp_fs_exec.o: /usr/include/endian.h /usr/include/bits/endian.h
+sp_fs_exec.o: /usr/include/bits/byteswap.h /usr/include/stdlib.h
+sp_fs_exec.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+sp_fs_exec.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+sp_fs_exec.o: /usr/include/sys/types.h /usr/include/bits/types.h
+sp_fs_exec.o: /usr/include/bits/typesizes.h /usr/include/time.h
+sp_fs_exec.o: /usr/include/sys/select.h /usr/include/bits/select.h
+sp_fs_exec.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+sp_fs_exec.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+sp_fs_exec.o: /usr/include/alloca.h /usr/include/string.h
+sp_fs_exec.o: /usr/include/xlocale.h
+sp_fs_exec.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+sp_fs_exec.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+sp_fs_exec.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+sp_fs_exec.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_fs_exec.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+sp_fs_exec.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+sp_fs_exec.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_fs_exec.o: ../../../../src/gallium/include/pipe/p_state.h
+sp_fs_exec.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_fs_exec.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+sp_fs_exec.o: ../../../../src/gallium/auxiliary/os/os_misc.h sp_quad_pipe.h
+sp_fs_exec.o: sp_state.h ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+sp_fs_exec.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h sp_fs.h
+sp_fs_exec.o: sp_quad.h ../../../../src/gallium/auxiliary/tgsi/tgsi_exec.h
+sp_fs_exec.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_fs_exec.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+sp_fs_exec.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+sp_fs_exec.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+sp_fs_exec.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_fs_exec.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+sp_fs_exec.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+sp_fs_exec.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_parse.h
+sp_clear.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_clear.o: ../../../../src/gallium/auxiliary/util/u_pack_color.h
+sp_clear.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_clear.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_clear.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+sp_clear.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+sp_clear.o: ../../../../src/gallium/auxiliary/util/u_format.h
+sp_clear.o: ../../../../src/gallium/auxiliary/util/u_math.h
+sp_clear.o: /usr/include/math.h /usr/include/features.h
+sp_clear.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+sp_clear.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+sp_clear.o: /usr/include/bits/huge_val.h /usr/include/bits/huge_valf.h
+sp_clear.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+sp_clear.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+sp_clear.o: /usr/include/bits/mathcalls.h
+sp_clear.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h sp_clear.h
+sp_clear.o: sp_context.h ../../../../src/gallium/include/pipe/p_context.h
+sp_clear.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_clear.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_clear.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+sp_clear.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+sp_clear.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+sp_clear.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+sp_clear.o: /usr/include/bits/posix2_lim.h /usr/include/endian.h
+sp_clear.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+sp_clear.o: /usr/include/stdlib.h
+sp_clear.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+sp_clear.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+sp_clear.o: /usr/include/sys/types.h /usr/include/bits/types.h
+sp_clear.o: /usr/include/bits/typesizes.h /usr/include/time.h
+sp_clear.o: /usr/include/sys/select.h /usr/include/bits/select.h
+sp_clear.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+sp_clear.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+sp_clear.o: /usr/include/alloca.h /usr/include/string.h
+sp_clear.o: /usr/include/xlocale.h /usr/include/stdint.h
+sp_clear.o: /usr/include/bits/wchar.h
+sp_clear.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+sp_clear.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_clear.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+sp_clear.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+sp_clear.o: ../../../../src/gallium/include/pipe/p_state.h
+sp_clear.o: ../../../../src/gallium/include/pipe/p_defines.h sp_quad_pipe.h
+sp_clear.o: sp_query.h sp_tile_cache.h sp_texture.h sp_limits.h
+sp_fence.o: ../../../../src/gallium/include/pipe/p_screen.h
+sp_fence.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_fence.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_fence.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_fence.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+sp_fence.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+sp_fence.o: ../../../../src/gallium/auxiliary/os/os_misc.h sp_fence.h
+sp_flush.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_flush.o: ../../../../src/gallium/include/pipe/p_screen.h
+sp_flush.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_flush.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_flush.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+sp_flush.o: ../../../../src/gallium/auxiliary/draw/draw_context.h
+sp_flush.o: ../../../../src/gallium/include/pipe/p_state.h
+sp_flush.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_flush.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_flush.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+sp_flush.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+sp_flush.o: /usr/include/limits.h /usr/include/features.h
+sp_flush.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+sp_flush.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+sp_flush.o: /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h
+sp_flush.o: /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h
+sp_flush.o: /usr/include/endian.h /usr/include/bits/endian.h
+sp_flush.o: /usr/include/bits/byteswap.h /usr/include/stdlib.h
+sp_flush.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+sp_flush.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+sp_flush.o: /usr/include/sys/types.h /usr/include/bits/types.h
+sp_flush.o: /usr/include/bits/typesizes.h /usr/include/time.h
+sp_flush.o: /usr/include/sys/select.h /usr/include/bits/select.h
+sp_flush.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+sp_flush.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+sp_flush.o: /usr/include/alloca.h /usr/include/string.h
+sp_flush.o: /usr/include/xlocale.h
+sp_flush.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+sp_flush.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+sp_flush.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+sp_flush.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_flush.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_flush.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_exec.h
+sp_flush.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h sp_flush.h
+sp_flush.o: sp_context.h ../../../../src/gallium/include/pipe/p_context.h
+sp_flush.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+sp_flush.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+sp_flush.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+sp_flush.o: ../../../../src/gallium/auxiliary/os/os_misc.h sp_quad_pipe.h
+sp_flush.o: sp_state.h ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+sp_flush.o: sp_tile_cache.h sp_texture.h sp_limits.h sp_tex_tile_cache.h
+sp_query.o: ../../../../src/gallium/auxiliary/draw/draw_context.h
+sp_query.o: ../../../../src/gallium/include/pipe/p_state.h
+sp_query.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_query.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_query.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+sp_query.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+sp_query.o: /usr/include/limits.h /usr/include/features.h
+sp_query.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+sp_query.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+sp_query.o: /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h
+sp_query.o: /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h
+sp_query.o: /usr/include/endian.h /usr/include/bits/endian.h
+sp_query.o: /usr/include/bits/byteswap.h /usr/include/stdlib.h
+sp_query.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+sp_query.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+sp_query.o: /usr/include/sys/types.h /usr/include/bits/types.h
+sp_query.o: /usr/include/bits/typesizes.h /usr/include/time.h
+sp_query.o: /usr/include/sys/select.h /usr/include/bits/select.h
+sp_query.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+sp_query.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+sp_query.o: /usr/include/alloca.h /usr/include/string.h
+sp_query.o: /usr/include/xlocale.h
+sp_query.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+sp_query.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+sp_query.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+sp_query.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_query.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_query.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_exec.h
+sp_query.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_query.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+sp_query.o: ../../../../src/gallium/auxiliary/os/os_time.h
+sp_query.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_query.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_query.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+sp_query.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+sp_query.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+sp_query.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+sp_query.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+sp_query.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+sp_query.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+sp_query.o: sp_context.h ../../../../src/gallium/include/pipe/p_context.h
+sp_query.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+sp_query.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+sp_query.o: sp_quad_pipe.h sp_query.h sp_state.h
+sp_query.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+sp_context.o: ../../../../src/gallium/auxiliary/draw/draw_context.h
+sp_context.o: ../../../../src/gallium/include/pipe/p_state.h
+sp_context.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_context.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_context.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+sp_context.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+sp_context.o: /usr/include/limits.h /usr/include/features.h
+sp_context.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+sp_context.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+sp_context.o: /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h
+sp_context.o: /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h
+sp_context.o: /usr/include/endian.h /usr/include/bits/endian.h
+sp_context.o: /usr/include/bits/byteswap.h /usr/include/stdlib.h
+sp_context.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+sp_context.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+sp_context.o: /usr/include/sys/types.h /usr/include/bits/types.h
+sp_context.o: /usr/include/bits/typesizes.h /usr/include/time.h
+sp_context.o: /usr/include/sys/select.h /usr/include/bits/select.h
+sp_context.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+sp_context.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+sp_context.o: /usr/include/alloca.h /usr/include/string.h
+sp_context.o: /usr/include/xlocale.h
+sp_context.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+sp_context.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+sp_context.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+sp_context.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_context.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_context.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_exec.h
+sp_context.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_context.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+sp_context.o: ../../../../src/gallium/auxiliary/draw/draw_vbuf.h
+sp_context.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_context.o: ../../../../src/gallium/auxiliary/util/u_math.h
+sp_context.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+sp_context.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+sp_context.o: /usr/include/math.h /usr/include/bits/huge_val.h
+sp_context.o: /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h
+sp_context.o: /usr/include/bits/inf.h /usr/include/bits/nan.h
+sp_context.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+sp_context.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+sp_context.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+sp_context.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+sp_context.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_context.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+sp_context.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+sp_context.o: ../../../../src/gallium/auxiliary/util/u_pstipple.h
+sp_context.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+sp_context.o: ../../../../src/gallium/include/pipe/p_context.h
+sp_context.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+sp_context.o: ../../../../src/gallium/include/pipe/p_screen.h
+sp_context.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_context.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+sp_context.o: ../../../../src/gallium/auxiliary/util/u_debug_describe.h
+sp_context.o: ../../../../src/gallium/auxiliary/util/u_debug_refcnt.h
+sp_context.o: ../../../../src/gallium/auxiliary/util/u_atomic.h
+sp_context.o: ../../../../src/gallium/auxiliary/util/u_box.h
+sp_context.o: ../../../../src/gallium/auxiliary/vl/vl_decoder.h
+sp_context.o: ../../../../src/gallium/include/pipe/p_video_decoder.h
+sp_context.o: ../../../../src/gallium/include/pipe/p_video_state.h
+sp_context.o: ../../../../src/gallium/auxiliary/vl/vl_video_buffer.h
+sp_context.o: ../../../../src/gallium/auxiliary/vl/vl_defines.h sp_clear.h
+sp_context.o: sp_context.h
+sp_context.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+sp_context.o: sp_quad_pipe.h sp_flush.h sp_prim_vbuf.h sp_state.h
+sp_context.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h sp_surface.h
+sp_context.o: sp_tile_cache.h sp_texture.h sp_limits.h sp_tex_tile_cache.h
+sp_context.o: sp_query.h sp_screen.h
+sp_draw_arrays.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_draw_arrays.o: ../../../../src/gallium/include/pipe/p_context.h
+sp_draw_arrays.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_draw_arrays.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_draw_arrays.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+sp_draw_arrays.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+sp_draw_arrays.o: /usr/include/limits.h /usr/include/features.h
+sp_draw_arrays.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+sp_draw_arrays.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+sp_draw_arrays.o: /usr/include/bits/posix1_lim.h
+sp_draw_arrays.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+sp_draw_arrays.o: /usr/include/bits/posix2_lim.h /usr/include/endian.h
+sp_draw_arrays.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+sp_draw_arrays.o: /usr/include/stdlib.h
+sp_draw_arrays.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+sp_draw_arrays.o: /usr/include/bits/waitflags.h
+sp_draw_arrays.o: /usr/include/bits/waitstatus.h /usr/include/sys/types.h
+sp_draw_arrays.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+sp_draw_arrays.o: /usr/include/time.h /usr/include/sys/select.h
+sp_draw_arrays.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+sp_draw_arrays.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+sp_draw_arrays.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+sp_draw_arrays.o: /usr/include/string.h /usr/include/xlocale.h
+sp_draw_arrays.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+sp_draw_arrays.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+sp_draw_arrays.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+sp_draw_arrays.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_draw_arrays.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+sp_draw_arrays.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+sp_draw_arrays.o: ../../../../src/gallium/include/pipe/p_state.h
+sp_draw_arrays.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_draw_arrays.o: ../../../../src/gallium/include/pipe/p_screen.h
+sp_draw_arrays.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_draw_arrays.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_draw_arrays.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+sp_draw_arrays.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+sp_draw_arrays.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+sp_draw_arrays.o: ../../../../src/gallium/auxiliary/util/u_debug_describe.h
+sp_draw_arrays.o: ../../../../src/gallium/auxiliary/util/u_debug_refcnt.h
+sp_draw_arrays.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_draw_arrays.o: ../../../../src/gallium/auxiliary/util/u_atomic.h
+sp_draw_arrays.o: ../../../../src/gallium/auxiliary/util/u_box.h
+sp_draw_arrays.o: ../../../../src/gallium/auxiliary/util/u_math.h
+sp_draw_arrays.o: /usr/include/math.h /usr/include/bits/huge_val.h
+sp_draw_arrays.o: /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h
+sp_draw_arrays.o: /usr/include/bits/inf.h /usr/include/bits/nan.h
+sp_draw_arrays.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+sp_draw_arrays.o: ../../../../src/gallium/auxiliary/util/u_prim.h
+sp_draw_arrays.o: sp_context.h
+sp_draw_arrays.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+sp_draw_arrays.o: sp_quad_pipe.h sp_query.h sp_state.h
+sp_draw_arrays.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+sp_draw_arrays.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+sp_draw_arrays.o: sp_texture.h sp_limits.h
+sp_draw_arrays.o: ../../../../src/gallium/auxiliary/draw/draw_context.h
+sp_draw_arrays.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_exec.h
+sp_prim_vbuf.o: sp_context.h ../../../../src/gallium/include/pipe/p_context.h
+sp_prim_vbuf.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_prim_vbuf.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_prim_vbuf.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+sp_prim_vbuf.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+sp_prim_vbuf.o: /usr/include/limits.h /usr/include/features.h
+sp_prim_vbuf.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+sp_prim_vbuf.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+sp_prim_vbuf.o: /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h
+sp_prim_vbuf.o: /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h
+sp_prim_vbuf.o: /usr/include/endian.h /usr/include/bits/endian.h
+sp_prim_vbuf.o: /usr/include/bits/byteswap.h /usr/include/stdlib.h
+sp_prim_vbuf.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+sp_prim_vbuf.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+sp_prim_vbuf.o: /usr/include/sys/types.h /usr/include/bits/types.h
+sp_prim_vbuf.o: /usr/include/bits/typesizes.h /usr/include/time.h
+sp_prim_vbuf.o: /usr/include/sys/select.h /usr/include/bits/select.h
+sp_prim_vbuf.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+sp_prim_vbuf.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+sp_prim_vbuf.o: /usr/include/alloca.h /usr/include/string.h
+sp_prim_vbuf.o: /usr/include/xlocale.h
+sp_prim_vbuf.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+sp_prim_vbuf.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+sp_prim_vbuf.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+sp_prim_vbuf.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_prim_vbuf.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+sp_prim_vbuf.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+sp_prim_vbuf.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_prim_vbuf.o: ../../../../src/gallium/include/pipe/p_state.h
+sp_prim_vbuf.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_prim_vbuf.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+sp_prim_vbuf.o: ../../../../src/gallium/auxiliary/os/os_misc.h sp_quad_pipe.h
+sp_prim_vbuf.o: sp_setup.h sp_state.h
+sp_prim_vbuf.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+sp_prim_vbuf.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+sp_prim_vbuf.o: sp_prim_vbuf.h
+sp_prim_vbuf.o: ../../../../src/gallium/auxiliary/draw/draw_context.h
+sp_prim_vbuf.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_exec.h
+sp_prim_vbuf.o: ../../../../src/gallium/auxiliary/draw/draw_vbuf.h
+sp_prim_vbuf.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+sp_prim_vbuf.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+sp_prim_vbuf.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+sp_prim_vbuf.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_prim_vbuf.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+sp_prim_vbuf.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+sp_prim_vbuf.o: ../../../../src/gallium/auxiliary/util/u_prim.h
+sp_prim_vbuf.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_quad_pipe.o: sp_context.h ../../../../src/gallium/include/pipe/p_context.h
+sp_quad_pipe.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_quad_pipe.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_quad_pipe.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+sp_quad_pipe.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+sp_quad_pipe.o: /usr/include/limits.h /usr/include/features.h
+sp_quad_pipe.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+sp_quad_pipe.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+sp_quad_pipe.o: /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h
+sp_quad_pipe.o: /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h
+sp_quad_pipe.o: /usr/include/endian.h /usr/include/bits/endian.h
+sp_quad_pipe.o: /usr/include/bits/byteswap.h /usr/include/stdlib.h
+sp_quad_pipe.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+sp_quad_pipe.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+sp_quad_pipe.o: /usr/include/sys/types.h /usr/include/bits/types.h
+sp_quad_pipe.o: /usr/include/bits/typesizes.h /usr/include/time.h
+sp_quad_pipe.o: /usr/include/sys/select.h /usr/include/bits/select.h
+sp_quad_pipe.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+sp_quad_pipe.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+sp_quad_pipe.o: /usr/include/alloca.h /usr/include/string.h
+sp_quad_pipe.o: /usr/include/xlocale.h
+sp_quad_pipe.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+sp_quad_pipe.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+sp_quad_pipe.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+sp_quad_pipe.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_quad_pipe.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+sp_quad_pipe.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+sp_quad_pipe.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_quad_pipe.o: ../../../../src/gallium/include/pipe/p_state.h
+sp_quad_pipe.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_quad_pipe.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+sp_quad_pipe.o: ../../../../src/gallium/auxiliary/os/os_misc.h sp_quad_pipe.h
+sp_quad_pipe.o: sp_state.h ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+sp_quad_pipe.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+sp_quad_stipple.o: sp_context.h
+sp_quad_stipple.o: ../../../../src/gallium/include/pipe/p_context.h
+sp_quad_stipple.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_quad_stipple.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_quad_stipple.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+sp_quad_stipple.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+sp_quad_stipple.o: /usr/include/limits.h /usr/include/features.h
+sp_quad_stipple.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+sp_quad_stipple.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+sp_quad_stipple.o: /usr/include/bits/posix1_lim.h
+sp_quad_stipple.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+sp_quad_stipple.o: /usr/include/bits/posix2_lim.h /usr/include/endian.h
+sp_quad_stipple.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+sp_quad_stipple.o: /usr/include/stdlib.h
+sp_quad_stipple.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+sp_quad_stipple.o: /usr/include/bits/waitflags.h
+sp_quad_stipple.o: /usr/include/bits/waitstatus.h /usr/include/sys/types.h
+sp_quad_stipple.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+sp_quad_stipple.o: /usr/include/time.h /usr/include/sys/select.h
+sp_quad_stipple.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+sp_quad_stipple.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+sp_quad_stipple.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+sp_quad_stipple.o: /usr/include/string.h /usr/include/xlocale.h
+sp_quad_stipple.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+sp_quad_stipple.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+sp_quad_stipple.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+sp_quad_stipple.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_quad_stipple.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+sp_quad_stipple.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+sp_quad_stipple.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_quad_stipple.o: ../../../../src/gallium/include/pipe/p_state.h
+sp_quad_stipple.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_quad_stipple.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+sp_quad_stipple.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+sp_quad_stipple.o: sp_quad_pipe.h sp_quad.h
+sp_quad_stipple.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_exec.h
+sp_quad_stipple.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+sp_quad_stipple.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_quad_stipple.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+sp_quad_stipple.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+sp_quad_stipple.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+sp_quad_stipple.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_quad_stipple.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+sp_quad_stipple.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+sp_quad_depth_test.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_quad_depth_test.o: ../../../../src/gallium/auxiliary/util/u_format.h
+sp_quad_depth_test.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_quad_depth_test.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+sp_quad_depth_test.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+sp_quad_depth_test.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_quad_depth_test.o: ../../../../src/gallium/auxiliary/util/u_math.h
+sp_quad_depth_test.o: /usr/include/math.h /usr/include/features.h
+sp_quad_depth_test.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+sp_quad_depth_test.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+sp_quad_depth_test.o: /usr/include/bits/huge_val.h
+sp_quad_depth_test.o: /usr/include/bits/huge_valf.h
+sp_quad_depth_test.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+sp_quad_depth_test.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+sp_quad_depth_test.o: /usr/include/bits/mathcalls.h
+sp_quad_depth_test.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+sp_quad_depth_test.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+sp_quad_depth_test.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+sp_quad_depth_test.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+sp_quad_depth_test.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_quad_depth_test.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+sp_quad_depth_test.o: /usr/include/stdlib.h
+sp_quad_depth_test.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+sp_quad_depth_test.o: /usr/include/bits/waitflags.h
+sp_quad_depth_test.o: /usr/include/bits/waitstatus.h /usr/include/endian.h
+sp_quad_depth_test.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+sp_quad_depth_test.o: /usr/include/sys/types.h /usr/include/bits/types.h
+sp_quad_depth_test.o: /usr/include/bits/typesizes.h /usr/include/time.h
+sp_quad_depth_test.o: /usr/include/sys/select.h /usr/include/bits/select.h
+sp_quad_depth_test.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+sp_quad_depth_test.o: /usr/include/sys/sysmacros.h
+sp_quad_depth_test.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+sp_quad_depth_test.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+sp_quad_depth_test.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+sp_quad_depth_test.o: ../../../../src/gallium/include/pipe/p_state.h
+sp_quad_depth_test.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_quad_depth_test.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_quad_depth_test.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+sp_quad_depth_test.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+sp_quad_depth_test.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+sp_quad_depth_test.o: /usr/include/bits/local_lim.h
+sp_quad_depth_test.o: /usr/include/linux/limits.h
+sp_quad_depth_test.o: /usr/include/bits/posix2_lim.h /usr/include/string.h
+sp_quad_depth_test.o: /usr/include/xlocale.h /usr/include/stdint.h
+sp_quad_depth_test.o: /usr/include/bits/wchar.h
+sp_quad_depth_test.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+sp_quad_depth_test.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_quad_depth_test.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_quad_depth_test.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+sp_quad_depth_test.o: sp_context.h
+sp_quad_depth_test.o: ../../../../src/gallium/include/pipe/p_context.h
+sp_quad_depth_test.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+sp_quad_depth_test.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+sp_quad_depth_test.o: sp_quad_pipe.h sp_quad.h
+sp_quad_depth_test.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_exec.h
+sp_quad_depth_test.o: sp_tile_cache.h sp_texture.h sp_limits.h sp_state.h
+sp_quad_depth_test.o: sp_quad_depth_test_tmp.h
+sp_quad_fs.o: ../../../../src/gallium/auxiliary/util/u_math.h
+sp_quad_fs.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_quad_fs.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+sp_quad_fs.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+sp_quad_fs.o: /usr/include/math.h /usr/include/features.h
+sp_quad_fs.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+sp_quad_fs.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+sp_quad_fs.o: /usr/include/bits/huge_val.h /usr/include/bits/huge_valf.h
+sp_quad_fs.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+sp_quad_fs.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+sp_quad_fs.o: /usr/include/bits/mathcalls.h
+sp_quad_fs.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+sp_quad_fs.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+sp_quad_fs.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+sp_quad_fs.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+sp_quad_fs.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_quad_fs.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+sp_quad_fs.o: /usr/include/stdlib.h
+sp_quad_fs.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+sp_quad_fs.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+sp_quad_fs.o: /usr/include/endian.h /usr/include/bits/endian.h
+sp_quad_fs.o: /usr/include/bits/byteswap.h /usr/include/sys/types.h
+sp_quad_fs.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+sp_quad_fs.o: /usr/include/time.h /usr/include/sys/select.h
+sp_quad_fs.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+sp_quad_fs.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+sp_quad_fs.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+sp_quad_fs.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+sp_quad_fs.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_quad_fs.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+sp_quad_fs.o: sp_context.h ../../../../src/gallium/include/pipe/p_context.h
+sp_quad_fs.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_quad_fs.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_quad_fs.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+sp_quad_fs.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+sp_quad_fs.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+sp_quad_fs.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+sp_quad_fs.o: /usr/include/bits/posix2_lim.h /usr/include/string.h
+sp_quad_fs.o: /usr/include/xlocale.h /usr/include/stdint.h
+sp_quad_fs.o: /usr/include/bits/wchar.h
+sp_quad_fs.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+sp_quad_fs.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_quad_fs.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+sp_quad_fs.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+sp_quad_fs.o: ../../../../src/gallium/include/pipe/p_state.h
+sp_quad_fs.o: ../../../../src/gallium/include/pipe/p_defines.h sp_quad_pipe.h
+sp_quad_fs.o: sp_state.h ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+sp_quad_fs.o: sp_quad.h ../../../../src/gallium/auxiliary/tgsi/tgsi_exec.h
+sp_quad_blend.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_quad_blend.o: ../../../../src/gallium/auxiliary/util/u_math.h
+sp_quad_blend.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_quad_blend.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+sp_quad_blend.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+sp_quad_blend.o: /usr/include/math.h /usr/include/features.h
+sp_quad_blend.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+sp_quad_blend.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+sp_quad_blend.o: /usr/include/bits/huge_val.h /usr/include/bits/huge_valf.h
+sp_quad_blend.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+sp_quad_blend.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+sp_quad_blend.o: /usr/include/bits/mathcalls.h
+sp_quad_blend.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+sp_quad_blend.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+sp_quad_blend.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+sp_quad_blend.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+sp_quad_blend.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_quad_blend.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+sp_quad_blend.o: /usr/include/stdlib.h
+sp_quad_blend.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+sp_quad_blend.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+sp_quad_blend.o: /usr/include/endian.h /usr/include/bits/endian.h
+sp_quad_blend.o: /usr/include/bits/byteswap.h /usr/include/sys/types.h
+sp_quad_blend.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+sp_quad_blend.o: /usr/include/time.h /usr/include/sys/select.h
+sp_quad_blend.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+sp_quad_blend.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+sp_quad_blend.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+sp_quad_blend.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+sp_quad_blend.o: ../../../../src/gallium/auxiliary/util/u_format.h
+sp_quad_blend.o: ../../../../src/gallium/include/pipe/p_format.h sp_context.h
+sp_quad_blend.o: ../../../../src/gallium/include/pipe/p_context.h
+sp_quad_blend.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_quad_blend.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_quad_blend.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+sp_quad_blend.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+sp_quad_blend.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+sp_quad_blend.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+sp_quad_blend.o: /usr/include/bits/posix2_lim.h /usr/include/string.h
+sp_quad_blend.o: /usr/include/xlocale.h /usr/include/stdint.h
+sp_quad_blend.o: /usr/include/bits/wchar.h
+sp_quad_blend.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+sp_quad_blend.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_quad_blend.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+sp_quad_blend.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+sp_quad_blend.o: ../../../../src/gallium/include/pipe/p_state.h
+sp_quad_blend.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_quad_blend.o: sp_quad_pipe.h sp_state.h
+sp_quad_blend.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+sp_quad_blend.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+sp_quad_blend.o: sp_quad.h ../../../../src/gallium/auxiliary/tgsi/tgsi_exec.h
+sp_quad_blend.o: sp_tile_cache.h sp_texture.h sp_limits.h
+sp_screen.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+sp_screen.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+sp_screen.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_screen.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+sp_screen.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+sp_screen.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+sp_screen.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_screen.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+sp_screen.o: /usr/include/stdlib.h /usr/include/features.h
+sp_screen.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+sp_screen.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+sp_screen.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+sp_screen.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+sp_screen.o: /usr/include/endian.h /usr/include/bits/endian.h
+sp_screen.o: /usr/include/bits/byteswap.h /usr/include/sys/types.h
+sp_screen.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+sp_screen.o: /usr/include/time.h /usr/include/sys/select.h
+sp_screen.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+sp_screen.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+sp_screen.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+sp_screen.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+sp_screen.o: ../../../../src/gallium/auxiliary/util/u_format.h
+sp_screen.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_screen.o: ../../../../src/gallium/auxiliary/util/u_format_s3tc.h
+sp_screen.o: ../../../../src/gallium/auxiliary/util/u_video.h
+sp_screen.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_screen.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+sp_screen.o: ../../../../src/gallium/include/pipe/p_screen.h
+sp_screen.o: ../../../../src/gallium/auxiliary/draw/draw_context.h
+sp_screen.o: ../../../../src/gallium/include/pipe/p_state.h
+sp_screen.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_screen.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_screen.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+sp_screen.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+sp_screen.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+sp_screen.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+sp_screen.o: /usr/include/bits/posix2_lim.h /usr/include/string.h
+sp_screen.o: /usr/include/xlocale.h
+sp_screen.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+sp_screen.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+sp_screen.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+sp_screen.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_screen.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_screen.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_exec.h
+sp_screen.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+sp_screen.o: ../../../../src/gallium/auxiliary/vl/vl_decoder.h
+sp_screen.o: ../../../../src/gallium/include/pipe/p_video_decoder.h
+sp_screen.o: ../../../../src/gallium/include/pipe/p_video_state.h
+sp_screen.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+sp_screen.o: ../../../../src/gallium/include/pipe/p_context.h
+sp_screen.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+sp_screen.o: ../../../../src/gallium/auxiliary/util/u_debug_describe.h
+sp_screen.o: ../../../../src/gallium/auxiliary/util/u_debug_refcnt.h
+sp_screen.o: ../../../../src/gallium/auxiliary/util/u_atomic.h
+sp_screen.o: ../../../../src/gallium/auxiliary/util/u_box.h
+sp_screen.o: ../../../../src/gallium/auxiliary/util/u_math.h
+sp_screen.o: /usr/include/math.h /usr/include/bits/huge_val.h
+sp_screen.o: /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h
+sp_screen.o: /usr/include/bits/inf.h /usr/include/bits/nan.h
+sp_screen.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+sp_screen.o: ../../../../src/gallium/auxiliary/vl/vl_video_buffer.h
+sp_screen.o: ../../../../src/gallium/auxiliary/vl/vl_defines.h
+sp_screen.o: ../../../../src/gallium/include/state_tracker/sw_winsys.h
+sp_screen.o: sp_texture.h sp_limits.h sp_screen.h sp_context.h
+sp_screen.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+sp_screen.o: sp_quad_pipe.h sp_fence.h sp_public.h
+sp_setup.o: sp_context.h ../../../../src/gallium/include/pipe/p_context.h
+sp_setup.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_setup.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_setup.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+sp_setup.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+sp_setup.o: /usr/include/limits.h /usr/include/features.h
+sp_setup.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+sp_setup.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+sp_setup.o: /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h
+sp_setup.o: /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h
+sp_setup.o: /usr/include/endian.h /usr/include/bits/endian.h
+sp_setup.o: /usr/include/bits/byteswap.h /usr/include/stdlib.h
+sp_setup.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+sp_setup.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+sp_setup.o: /usr/include/sys/types.h /usr/include/bits/types.h
+sp_setup.o: /usr/include/bits/typesizes.h /usr/include/time.h
+sp_setup.o: /usr/include/sys/select.h /usr/include/bits/select.h
+sp_setup.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+sp_setup.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+sp_setup.o: /usr/include/alloca.h /usr/include/string.h
+sp_setup.o: /usr/include/xlocale.h
+sp_setup.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+sp_setup.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+sp_setup.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+sp_setup.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_setup.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+sp_setup.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+sp_setup.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_setup.o: ../../../../src/gallium/include/pipe/p_state.h
+sp_setup.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_setup.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+sp_setup.o: ../../../../src/gallium/auxiliary/os/os_misc.h sp_quad_pipe.h
+sp_setup.o: sp_quad.h ../../../../src/gallium/auxiliary/tgsi/tgsi_exec.h
+sp_setup.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h sp_setup.h
+sp_setup.o: sp_state.h ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+sp_setup.o: ../../../../src/gallium/auxiliary/draw/draw_context.h
+sp_setup.o: ../../../../src/gallium/auxiliary/util/u_math.h
+sp_setup.o: /usr/include/math.h /usr/include/bits/huge_val.h
+sp_setup.o: /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h
+sp_setup.o: /usr/include/bits/inf.h /usr/include/bits/nan.h
+sp_setup.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+sp_setup.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+sp_setup.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+sp_setup.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+sp_setup.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_setup.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+sp_setup.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+sp_state_blend.o: ../../../../src/gallium/auxiliary/util/u_math.h
+sp_state_blend.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_state_blend.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+sp_state_blend.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+sp_state_blend.o: /usr/include/math.h /usr/include/features.h
+sp_state_blend.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+sp_state_blend.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+sp_state_blend.o: /usr/include/bits/huge_val.h /usr/include/bits/huge_valf.h
+sp_state_blend.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+sp_state_blend.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+sp_state_blend.o: /usr/include/bits/mathcalls.h
+sp_state_blend.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+sp_state_blend.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+sp_state_blend.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+sp_state_blend.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+sp_state_blend.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_state_blend.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+sp_state_blend.o: /usr/include/stdlib.h
+sp_state_blend.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+sp_state_blend.o: /usr/include/bits/waitflags.h
+sp_state_blend.o: /usr/include/bits/waitstatus.h /usr/include/endian.h
+sp_state_blend.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+sp_state_blend.o: /usr/include/sys/types.h /usr/include/bits/types.h
+sp_state_blend.o: /usr/include/bits/typesizes.h /usr/include/time.h
+sp_state_blend.o: /usr/include/sys/select.h /usr/include/bits/select.h
+sp_state_blend.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+sp_state_blend.o: /usr/include/sys/sysmacros.h
+sp_state_blend.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+sp_state_blend.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+sp_state_blend.o: ../../../../src/gallium/auxiliary/draw/draw_context.h
+sp_state_blend.o: ../../../../src/gallium/include/pipe/p_state.h
+sp_state_blend.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_state_blend.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_state_blend.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+sp_state_blend.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+sp_state_blend.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+sp_state_blend.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+sp_state_blend.o: /usr/include/bits/posix2_lim.h /usr/include/string.h
+sp_state_blend.o: /usr/include/xlocale.h /usr/include/stdint.h
+sp_state_blend.o: /usr/include/bits/wchar.h
+sp_state_blend.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+sp_state_blend.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_state_blend.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_state_blend.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_exec.h
+sp_state_blend.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+sp_state_blend.o: sp_context.h
+sp_state_blend.o: ../../../../src/gallium/include/pipe/p_context.h
+sp_state_blend.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+sp_state_blend.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+sp_state_blend.o: sp_quad_pipe.h sp_state.h
+sp_state_blend.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+sp_state_clip.o: sp_context.h
+sp_state_clip.o: ../../../../src/gallium/include/pipe/p_context.h
+sp_state_clip.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_state_clip.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_state_clip.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+sp_state_clip.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+sp_state_clip.o: /usr/include/limits.h /usr/include/features.h
+sp_state_clip.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+sp_state_clip.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+sp_state_clip.o: /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h
+sp_state_clip.o: /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h
+sp_state_clip.o: /usr/include/endian.h /usr/include/bits/endian.h
+sp_state_clip.o: /usr/include/bits/byteswap.h /usr/include/stdlib.h
+sp_state_clip.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+sp_state_clip.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+sp_state_clip.o: /usr/include/sys/types.h /usr/include/bits/types.h
+sp_state_clip.o: /usr/include/bits/typesizes.h /usr/include/time.h
+sp_state_clip.o: /usr/include/sys/select.h /usr/include/bits/select.h
+sp_state_clip.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+sp_state_clip.o: /usr/include/sys/sysmacros.h
+sp_state_clip.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+sp_state_clip.o: /usr/include/string.h /usr/include/xlocale.h
+sp_state_clip.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+sp_state_clip.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+sp_state_clip.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+sp_state_clip.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_state_clip.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+sp_state_clip.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+sp_state_clip.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_state_clip.o: ../../../../src/gallium/include/pipe/p_state.h
+sp_state_clip.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_state_clip.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+sp_state_clip.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+sp_state_clip.o: sp_quad_pipe.h sp_state.h
+sp_state_clip.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+sp_state_clip.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+sp_state_clip.o: ../../../../src/gallium/auxiliary/draw/draw_context.h
+sp_state_clip.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_exec.h
+sp_state_derived.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+sp_state_derived.o: ../../../../src/gallium/include/pipe/p_context.h
+sp_state_derived.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_state_derived.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_state_derived.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+sp_state_derived.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+sp_state_derived.o: /usr/include/limits.h /usr/include/features.h
+sp_state_derived.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+sp_state_derived.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+sp_state_derived.o: /usr/include/bits/posix1_lim.h
+sp_state_derived.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+sp_state_derived.o: /usr/include/bits/posix2_lim.h /usr/include/endian.h
+sp_state_derived.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+sp_state_derived.o: /usr/include/stdlib.h
+sp_state_derived.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+sp_state_derived.o: /usr/include/bits/waitflags.h
+sp_state_derived.o: /usr/include/bits/waitstatus.h /usr/include/sys/types.h
+sp_state_derived.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+sp_state_derived.o: /usr/include/time.h /usr/include/sys/select.h
+sp_state_derived.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+sp_state_derived.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+sp_state_derived.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+sp_state_derived.o: /usr/include/string.h /usr/include/xlocale.h
+sp_state_derived.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+sp_state_derived.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+sp_state_derived.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+sp_state_derived.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_state_derived.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+sp_state_derived.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_state_derived.o: ../../../../src/gallium/include/pipe/p_state.h
+sp_state_derived.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_state_derived.o: ../../../../src/gallium/include/pipe/p_screen.h
+sp_state_derived.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_state_derived.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_state_derived.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+sp_state_derived.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+sp_state_derived.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+sp_state_derived.o: ../../../../src/gallium/auxiliary/util/u_debug_describe.h
+sp_state_derived.o: ../../../../src/gallium/auxiliary/util/u_debug_refcnt.h
+sp_state_derived.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_state_derived.o: ../../../../src/gallium/auxiliary/util/u_atomic.h
+sp_state_derived.o: ../../../../src/gallium/auxiliary/util/u_box.h
+sp_state_derived.o: ../../../../src/gallium/auxiliary/util/u_math.h
+sp_state_derived.o: /usr/include/math.h /usr/include/bits/huge_val.h
+sp_state_derived.o: /usr/include/bits/huge_valf.h
+sp_state_derived.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+sp_state_derived.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+sp_state_derived.o: /usr/include/bits/mathcalls.h
+sp_state_derived.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+sp_state_derived.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+sp_state_derived.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+sp_state_derived.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+sp_state_derived.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+sp_state_derived.o: ../../../../src/gallium/auxiliary/util/u_pstipple.h
+sp_state_derived.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+sp_state_derived.o: ../../../../src/gallium/auxiliary/draw/draw_context.h
+sp_state_derived.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_exec.h
+sp_state_derived.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+sp_state_derived.o: sp_context.h sp_quad_pipe.h sp_screen.h sp_state.h
+sp_state_derived.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+sp_state_derived.o: sp_texture.h sp_limits.h sp_tex_tile_cache.h
+sp_state_sampler.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+sp_state_sampler.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+sp_state_sampler.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_state_sampler.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+sp_state_sampler.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+sp_state_sampler.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+sp_state_sampler.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_state_sampler.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+sp_state_sampler.o: /usr/include/stdlib.h /usr/include/features.h
+sp_state_sampler.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+sp_state_sampler.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+sp_state_sampler.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+sp_state_sampler.o: /usr/include/bits/waitflags.h
+sp_state_sampler.o: /usr/include/bits/waitstatus.h /usr/include/endian.h
+sp_state_sampler.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+sp_state_sampler.o: /usr/include/sys/types.h /usr/include/bits/types.h
+sp_state_sampler.o: /usr/include/bits/typesizes.h /usr/include/time.h
+sp_state_sampler.o: /usr/include/sys/select.h /usr/include/bits/select.h
+sp_state_sampler.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+sp_state_sampler.o: /usr/include/sys/sysmacros.h
+sp_state_sampler.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+sp_state_sampler.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+sp_state_sampler.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+sp_state_sampler.o: ../../../../src/gallium/include/pipe/p_context.h
+sp_state_sampler.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_state_sampler.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_state_sampler.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+sp_state_sampler.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+sp_state_sampler.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+sp_state_sampler.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+sp_state_sampler.o: /usr/include/bits/posix2_lim.h /usr/include/string.h
+sp_state_sampler.o: /usr/include/xlocale.h
+sp_state_sampler.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+sp_state_sampler.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+sp_state_sampler.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+sp_state_sampler.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_state_sampler.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+sp_state_sampler.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_state_sampler.o: ../../../../src/gallium/include/pipe/p_state.h
+sp_state_sampler.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_state_sampler.o: ../../../../src/gallium/include/pipe/p_screen.h
+sp_state_sampler.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_state_sampler.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+sp_state_sampler.o: ../../../../src/gallium/auxiliary/util/u_debug_describe.h
+sp_state_sampler.o: ../../../../src/gallium/auxiliary/util/u_debug_refcnt.h
+sp_state_sampler.o: ../../../../src/gallium/auxiliary/util/u_atomic.h
+sp_state_sampler.o: ../../../../src/gallium/auxiliary/util/u_box.h
+sp_state_sampler.o: ../../../../src/gallium/auxiliary/util/u_math.h
+sp_state_sampler.o: /usr/include/math.h /usr/include/bits/huge_val.h
+sp_state_sampler.o: /usr/include/bits/huge_valf.h
+sp_state_sampler.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+sp_state_sampler.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+sp_state_sampler.o: /usr/include/bits/mathcalls.h
+sp_state_sampler.o: ../../../../src/gallium/auxiliary/draw/draw_context.h
+sp_state_sampler.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_exec.h
+sp_state_sampler.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+sp_state_sampler.o: sp_context.h
+sp_state_sampler.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+sp_state_sampler.o: sp_quad_pipe.h sp_state.h
+sp_state_sampler.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+sp_state_sampler.o: sp_texture.h sp_limits.h sp_tex_sample.h
+sp_state_sampler.o: sp_tex_tile_cache.h
+sp_state_shader.o: sp_context.h
+sp_state_shader.o: ../../../../src/gallium/include/pipe/p_context.h
+sp_state_shader.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_state_shader.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_state_shader.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+sp_state_shader.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+sp_state_shader.o: /usr/include/limits.h /usr/include/features.h
+sp_state_shader.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+sp_state_shader.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+sp_state_shader.o: /usr/include/bits/posix1_lim.h
+sp_state_shader.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+sp_state_shader.o: /usr/include/bits/posix2_lim.h /usr/include/endian.h
+sp_state_shader.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+sp_state_shader.o: /usr/include/stdlib.h
+sp_state_shader.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+sp_state_shader.o: /usr/include/bits/waitflags.h
+sp_state_shader.o: /usr/include/bits/waitstatus.h /usr/include/sys/types.h
+sp_state_shader.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+sp_state_shader.o: /usr/include/time.h /usr/include/sys/select.h
+sp_state_shader.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+sp_state_shader.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+sp_state_shader.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+sp_state_shader.o: /usr/include/string.h /usr/include/xlocale.h
+sp_state_shader.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+sp_state_shader.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+sp_state_shader.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+sp_state_shader.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_state_shader.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+sp_state_shader.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+sp_state_shader.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_state_shader.o: ../../../../src/gallium/include/pipe/p_state.h
+sp_state_shader.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_state_shader.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+sp_state_shader.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+sp_state_shader.o: sp_quad_pipe.h sp_state.h
+sp_state_shader.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+sp_state_shader.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+sp_state_shader.o: sp_fs.h sp_texture.h sp_limits.h
+sp_state_shader.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_state_shader.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+sp_state_shader.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+sp_state_shader.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+sp_state_shader.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_state_shader.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+sp_state_shader.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+sp_state_shader.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+sp_state_shader.o: ../../../../src/gallium/include/pipe/p_screen.h
+sp_state_shader.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_state_shader.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+sp_state_shader.o: ../../../../src/gallium/auxiliary/util/u_debug_describe.h
+sp_state_shader.o: ../../../../src/gallium/auxiliary/util/u_debug_refcnt.h
+sp_state_shader.o: ../../../../src/gallium/auxiliary/util/u_atomic.h
+sp_state_shader.o: ../../../../src/gallium/auxiliary/util/u_box.h
+sp_state_shader.o: ../../../../src/gallium/auxiliary/util/u_math.h
+sp_state_shader.o: /usr/include/math.h /usr/include/bits/huge_val.h
+sp_state_shader.o: /usr/include/bits/huge_valf.h
+sp_state_shader.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+sp_state_shader.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+sp_state_shader.o: /usr/include/bits/mathcalls.h
+sp_state_shader.o: ../../../../src/gallium/auxiliary/util/u_pstipple.h
+sp_state_shader.o: ../../../../src/gallium/auxiliary/draw/draw_context.h
+sp_state_shader.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_exec.h
+sp_state_shader.o: ../../../../src/gallium/auxiliary/draw/draw_vs.h
+sp_state_shader.o: ../../../../src/gallium/auxiliary/draw/draw_context.h
+sp_state_shader.o: ../../../../src/gallium/auxiliary/draw/draw_private.h
+sp_state_shader.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+sp_state_shader.o: ../../../../src/gallium/auxiliary/draw/draw_gs.h
+sp_state_shader.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_dump.h
+sp_state_shader.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_parse.h
+sp_state_so.o: sp_context.h ../../../../src/gallium/include/pipe/p_context.h
+sp_state_so.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_state_so.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_state_so.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+sp_state_so.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+sp_state_so.o: /usr/include/limits.h /usr/include/features.h
+sp_state_so.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+sp_state_so.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+sp_state_so.o: /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h
+sp_state_so.o: /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h
+sp_state_so.o: /usr/include/endian.h /usr/include/bits/endian.h
+sp_state_so.o: /usr/include/bits/byteswap.h /usr/include/stdlib.h
+sp_state_so.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+sp_state_so.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+sp_state_so.o: /usr/include/sys/types.h /usr/include/bits/types.h
+sp_state_so.o: /usr/include/bits/typesizes.h /usr/include/time.h
+sp_state_so.o: /usr/include/sys/select.h /usr/include/bits/select.h
+sp_state_so.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+sp_state_so.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+sp_state_so.o: /usr/include/alloca.h /usr/include/string.h
+sp_state_so.o: /usr/include/xlocale.h
+sp_state_so.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+sp_state_so.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+sp_state_so.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+sp_state_so.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_state_so.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+sp_state_so.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+sp_state_so.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_state_so.o: ../../../../src/gallium/include/pipe/p_state.h
+sp_state_so.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_state_so.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+sp_state_so.o: ../../../../src/gallium/auxiliary/os/os_misc.h sp_quad_pipe.h
+sp_state_so.o: sp_state.h ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+sp_state_so.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+sp_state_so.o: sp_texture.h sp_limits.h
+sp_state_so.o: ../../../../src/gallium/auxiliary/util/u_format.h
+sp_state_so.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_state_so.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+sp_state_so.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+sp_state_so.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+sp_state_so.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_state_so.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+sp_state_so.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+sp_state_so.o: ../../../../src/gallium/auxiliary/draw/draw_context.h
+sp_state_so.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_exec.h
+sp_state_so.o: ../../../../src/gallium/auxiliary/pipebuffer/pb_buffer.h
+sp_state_so.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+sp_state_so.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_state_so.o: ../../../../src/gallium/include/pipe/p_screen.h
+sp_state_so.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+sp_state_so.o: ../../../../src/gallium/auxiliary/util/u_debug_describe.h
+sp_state_so.o: ../../../../src/gallium/auxiliary/util/u_debug_refcnt.h
+sp_state_so.o: ../../../../src/gallium/auxiliary/util/u_atomic.h
+sp_state_so.o: ../../../../src/gallium/auxiliary/util/u_box.h
+sp_state_so.o: ../../../../src/gallium/auxiliary/util/u_math.h
+sp_state_so.o: /usr/include/math.h /usr/include/bits/huge_val.h
+sp_state_so.o: /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h
+sp_state_so.o: /usr/include/bits/inf.h /usr/include/bits/nan.h
+sp_state_so.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+sp_state_rasterizer.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_state_rasterizer.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+sp_state_rasterizer.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+sp_state_rasterizer.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_state_rasterizer.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+sp_state_rasterizer.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+sp_state_rasterizer.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+sp_state_rasterizer.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_state_rasterizer.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+sp_state_rasterizer.o: /usr/include/stdlib.h /usr/include/features.h
+sp_state_rasterizer.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+sp_state_rasterizer.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+sp_state_rasterizer.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+sp_state_rasterizer.o: /usr/include/bits/waitflags.h
+sp_state_rasterizer.o: /usr/include/bits/waitstatus.h /usr/include/endian.h
+sp_state_rasterizer.o: /usr/include/bits/endian.h
+sp_state_rasterizer.o: /usr/include/bits/byteswap.h /usr/include/sys/types.h
+sp_state_rasterizer.o: /usr/include/bits/types.h
+sp_state_rasterizer.o: /usr/include/bits/typesizes.h /usr/include/time.h
+sp_state_rasterizer.o: /usr/include/sys/select.h /usr/include/bits/select.h
+sp_state_rasterizer.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+sp_state_rasterizer.o: /usr/include/sys/sysmacros.h
+sp_state_rasterizer.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+sp_state_rasterizer.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+sp_state_rasterizer.o: sp_context.h
+sp_state_rasterizer.o: ../../../../src/gallium/include/pipe/p_context.h
+sp_state_rasterizer.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_state_rasterizer.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_state_rasterizer.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+sp_state_rasterizer.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+sp_state_rasterizer.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+sp_state_rasterizer.o: /usr/include/bits/local_lim.h
+sp_state_rasterizer.o: /usr/include/linux/limits.h
+sp_state_rasterizer.o: /usr/include/bits/posix2_lim.h /usr/include/string.h
+sp_state_rasterizer.o: /usr/include/xlocale.h
+sp_state_rasterizer.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+sp_state_rasterizer.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+sp_state_rasterizer.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+sp_state_rasterizer.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_state_rasterizer.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+sp_state_rasterizer.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+sp_state_rasterizer.o: ../../../../src/gallium/include/pipe/p_state.h
+sp_state_rasterizer.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_state_rasterizer.o: sp_quad_pipe.h sp_state.h
+sp_state_rasterizer.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+sp_state_rasterizer.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+sp_state_rasterizer.o: ../../../../src/gallium/auxiliary/draw/draw_context.h
+sp_state_rasterizer.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_exec.h
+sp_state_surface.o: sp_context.h
+sp_state_surface.o: ../../../../src/gallium/include/pipe/p_context.h
+sp_state_surface.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_state_surface.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_state_surface.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+sp_state_surface.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+sp_state_surface.o: /usr/include/limits.h /usr/include/features.h
+sp_state_surface.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+sp_state_surface.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+sp_state_surface.o: /usr/include/bits/posix1_lim.h
+sp_state_surface.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+sp_state_surface.o: /usr/include/bits/posix2_lim.h /usr/include/endian.h
+sp_state_surface.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+sp_state_surface.o: /usr/include/stdlib.h
+sp_state_surface.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+sp_state_surface.o: /usr/include/bits/waitflags.h
+sp_state_surface.o: /usr/include/bits/waitstatus.h /usr/include/sys/types.h
+sp_state_surface.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+sp_state_surface.o: /usr/include/time.h /usr/include/sys/select.h
+sp_state_surface.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+sp_state_surface.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+sp_state_surface.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+sp_state_surface.o: /usr/include/string.h /usr/include/xlocale.h
+sp_state_surface.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+sp_state_surface.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+sp_state_surface.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+sp_state_surface.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_state_surface.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+sp_state_surface.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+sp_state_surface.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_state_surface.o: ../../../../src/gallium/include/pipe/p_state.h
+sp_state_surface.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_state_surface.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+sp_state_surface.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+sp_state_surface.o: sp_quad_pipe.h sp_state.h
+sp_state_surface.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+sp_state_surface.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+sp_state_surface.o: sp_tile_cache.h sp_texture.h sp_limits.h
+sp_state_surface.o: ../../../../src/gallium/auxiliary/draw/draw_context.h
+sp_state_surface.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_exec.h
+sp_state_surface.o: ../../../../src/gallium/auxiliary/util/u_format.h
+sp_state_surface.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_state_surface.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+sp_state_surface.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_state_surface.o: ../../../../src/gallium/include/pipe/p_screen.h
+sp_state_surface.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+sp_state_surface.o: ../../../../src/gallium/auxiliary/util/u_debug_describe.h
+sp_state_surface.o: ../../../../src/gallium/auxiliary/util/u_debug_refcnt.h
+sp_state_surface.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_state_surface.o: ../../../../src/gallium/auxiliary/util/u_atomic.h
+sp_state_surface.o: ../../../../src/gallium/auxiliary/util/u_box.h
+sp_state_surface.o: ../../../../src/gallium/auxiliary/util/u_math.h
+sp_state_surface.o: /usr/include/math.h /usr/include/bits/huge_val.h
+sp_state_surface.o: /usr/include/bits/huge_valf.h
+sp_state_surface.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+sp_state_surface.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+sp_state_surface.o: /usr/include/bits/mathcalls.h
+sp_state_vertex.o: sp_context.h
+sp_state_vertex.o: ../../../../src/gallium/include/pipe/p_context.h
+sp_state_vertex.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_state_vertex.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_state_vertex.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+sp_state_vertex.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+sp_state_vertex.o: /usr/include/limits.h /usr/include/features.h
+sp_state_vertex.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+sp_state_vertex.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+sp_state_vertex.o: /usr/include/bits/posix1_lim.h
+sp_state_vertex.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+sp_state_vertex.o: /usr/include/bits/posix2_lim.h /usr/include/endian.h
+sp_state_vertex.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+sp_state_vertex.o: /usr/include/stdlib.h
+sp_state_vertex.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+sp_state_vertex.o: /usr/include/bits/waitflags.h
+sp_state_vertex.o: /usr/include/bits/waitstatus.h /usr/include/sys/types.h
+sp_state_vertex.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+sp_state_vertex.o: /usr/include/time.h /usr/include/sys/select.h
+sp_state_vertex.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+sp_state_vertex.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+sp_state_vertex.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+sp_state_vertex.o: /usr/include/string.h /usr/include/xlocale.h
+sp_state_vertex.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+sp_state_vertex.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+sp_state_vertex.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+sp_state_vertex.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_state_vertex.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+sp_state_vertex.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+sp_state_vertex.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_state_vertex.o: ../../../../src/gallium/include/pipe/p_state.h
+sp_state_vertex.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_state_vertex.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+sp_state_vertex.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+sp_state_vertex.o: sp_quad_pipe.h sp_state.h
+sp_state_vertex.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+sp_state_vertex.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+sp_state_vertex.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+sp_state_vertex.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+sp_state_vertex.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+sp_state_vertex.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_state_vertex.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+sp_state_vertex.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+sp_state_vertex.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+sp_state_vertex.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_state_vertex.o: ../../../../src/gallium/include/pipe/p_screen.h
+sp_state_vertex.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_state_vertex.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+sp_state_vertex.o: ../../../../src/gallium/auxiliary/util/u_debug_describe.h
+sp_state_vertex.o: ../../../../src/gallium/auxiliary/util/u_debug_refcnt.h
+sp_state_vertex.o: ../../../../src/gallium/auxiliary/util/u_atomic.h
+sp_state_vertex.o: ../../../../src/gallium/auxiliary/util/u_box.h
+sp_state_vertex.o: ../../../../src/gallium/auxiliary/util/u_math.h
+sp_state_vertex.o: /usr/include/math.h /usr/include/bits/huge_val.h
+sp_state_vertex.o: /usr/include/bits/huge_valf.h
+sp_state_vertex.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+sp_state_vertex.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+sp_state_vertex.o: /usr/include/bits/mathcalls.h
+sp_state_vertex.o: ../../../../src/gallium/auxiliary/util/u_transfer.h
+sp_state_vertex.o: ../../../../src/gallium/auxiliary/draw/draw_context.h
+sp_state_vertex.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_exec.h
+sp_texture.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_texture.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+sp_texture.o: ../../../../src/gallium/include/pipe/p_context.h
+sp_texture.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_texture.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_texture.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+sp_texture.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+sp_texture.o: /usr/include/limits.h /usr/include/features.h
+sp_texture.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+sp_texture.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+sp_texture.o: /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h
+sp_texture.o: /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h
+sp_texture.o: /usr/include/endian.h /usr/include/bits/endian.h
+sp_texture.o: /usr/include/bits/byteswap.h /usr/include/stdlib.h
+sp_texture.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+sp_texture.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+sp_texture.o: /usr/include/sys/types.h /usr/include/bits/types.h
+sp_texture.o: /usr/include/bits/typesizes.h /usr/include/time.h
+sp_texture.o: /usr/include/sys/select.h /usr/include/bits/select.h
+sp_texture.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+sp_texture.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+sp_texture.o: /usr/include/alloca.h /usr/include/string.h
+sp_texture.o: /usr/include/xlocale.h
+sp_texture.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+sp_texture.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+sp_texture.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+sp_texture.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_texture.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+sp_texture.o: ../../../../src/gallium/include/pipe/p_state.h
+sp_texture.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_texture.o: ../../../../src/gallium/include/pipe/p_screen.h
+sp_texture.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_texture.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_texture.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+sp_texture.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+sp_texture.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+sp_texture.o: ../../../../src/gallium/auxiliary/util/u_debug_describe.h
+sp_texture.o: ../../../../src/gallium/auxiliary/util/u_debug_refcnt.h
+sp_texture.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_texture.o: ../../../../src/gallium/auxiliary/util/u_atomic.h
+sp_texture.o: ../../../../src/gallium/auxiliary/util/u_box.h
+sp_texture.o: ../../../../src/gallium/auxiliary/util/u_math.h
+sp_texture.o: /usr/include/math.h /usr/include/bits/huge_val.h
+sp_texture.o: /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h
+sp_texture.o: /usr/include/bits/inf.h /usr/include/bits/nan.h
+sp_texture.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+sp_texture.o: ../../../../src/gallium/auxiliary/util/u_format.h
+sp_texture.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+sp_texture.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+sp_texture.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+sp_texture.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+sp_texture.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+sp_texture.o: ../../../../src/gallium/auxiliary/util/u_transfer.h
+sp_texture.o: sp_context.h
+sp_texture.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+sp_texture.o: sp_quad_pipe.h sp_flush.h sp_texture.h sp_limits.h sp_screen.h
+sp_texture.o: ../../../../src/gallium/include/state_tracker/sw_winsys.h
+sp_tex_sample.o: ../../../../src/gallium/include/pipe/p_context.h
+sp_tex_sample.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_tex_sample.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_tex_sample.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+sp_tex_sample.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+sp_tex_sample.o: /usr/include/limits.h /usr/include/features.h
+sp_tex_sample.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+sp_tex_sample.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+sp_tex_sample.o: /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h
+sp_tex_sample.o: /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h
+sp_tex_sample.o: /usr/include/endian.h /usr/include/bits/endian.h
+sp_tex_sample.o: /usr/include/bits/byteswap.h /usr/include/stdlib.h
+sp_tex_sample.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+sp_tex_sample.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+sp_tex_sample.o: /usr/include/sys/types.h /usr/include/bits/types.h
+sp_tex_sample.o: /usr/include/bits/typesizes.h /usr/include/time.h
+sp_tex_sample.o: /usr/include/sys/select.h /usr/include/bits/select.h
+sp_tex_sample.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+sp_tex_sample.o: /usr/include/sys/sysmacros.h
+sp_tex_sample.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+sp_tex_sample.o: /usr/include/string.h /usr/include/xlocale.h
+sp_tex_sample.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+sp_tex_sample.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+sp_tex_sample.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+sp_tex_sample.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_tex_sample.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+sp_tex_sample.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_tex_sample.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+sp_tex_sample.o: ../../../../src/gallium/auxiliary/util/u_math.h
+sp_tex_sample.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_tex_sample.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+sp_tex_sample.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+sp_tex_sample.o: /usr/include/math.h /usr/include/bits/huge_val.h
+sp_tex_sample.o: /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h
+sp_tex_sample.o: /usr/include/bits/inf.h /usr/include/bits/nan.h
+sp_tex_sample.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+sp_tex_sample.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+sp_tex_sample.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+sp_tex_sample.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+sp_tex_sample.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_tex_sample.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+sp_tex_sample.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+sp_tex_sample.o: sp_quad.h ../../../../src/gallium/include/pipe/p_state.h
+sp_tex_sample.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_tex_sample.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_exec.h
+sp_tex_sample.o: sp_tex_sample.h sp_tex_tile_cache.h sp_limits.h
+sp_tex_tile_cache.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+sp_tex_tile_cache.o: ../../../../src/gallium/include/pipe/p_context.h
+sp_tex_tile_cache.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_tex_tile_cache.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_tex_tile_cache.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+sp_tex_tile_cache.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+sp_tex_tile_cache.o: /usr/include/limits.h /usr/include/features.h
+sp_tex_tile_cache.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+sp_tex_tile_cache.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+sp_tex_tile_cache.o: /usr/include/bits/posix1_lim.h
+sp_tex_tile_cache.o: /usr/include/bits/local_lim.h
+sp_tex_tile_cache.o: /usr/include/linux/limits.h
+sp_tex_tile_cache.o: /usr/include/bits/posix2_lim.h /usr/include/endian.h
+sp_tex_tile_cache.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+sp_tex_tile_cache.o: /usr/include/stdlib.h
+sp_tex_tile_cache.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+sp_tex_tile_cache.o: /usr/include/bits/waitflags.h
+sp_tex_tile_cache.o: /usr/include/bits/waitstatus.h /usr/include/sys/types.h
+sp_tex_tile_cache.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+sp_tex_tile_cache.o: /usr/include/time.h /usr/include/sys/select.h
+sp_tex_tile_cache.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+sp_tex_tile_cache.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+sp_tex_tile_cache.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+sp_tex_tile_cache.o: /usr/include/string.h /usr/include/xlocale.h
+sp_tex_tile_cache.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+sp_tex_tile_cache.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+sp_tex_tile_cache.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+sp_tex_tile_cache.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_tex_tile_cache.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+sp_tex_tile_cache.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_tex_tile_cache.o: ../../../../src/gallium/include/pipe/p_state.h
+sp_tex_tile_cache.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_tex_tile_cache.o: ../../../../src/gallium/include/pipe/p_screen.h
+sp_tex_tile_cache.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_tex_tile_cache.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_tex_tile_cache.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+sp_tex_tile_cache.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+sp_tex_tile_cache.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+sp_tex_tile_cache.o: ../../../../src/gallium/auxiliary/util/u_debug_describe.h
+sp_tex_tile_cache.o: ../../../../src/gallium/auxiliary/util/u_debug_refcnt.h
+sp_tex_tile_cache.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_tex_tile_cache.o: ../../../../src/gallium/auxiliary/util/u_atomic.h
+sp_tex_tile_cache.o: ../../../../src/gallium/auxiliary/util/u_box.h
+sp_tex_tile_cache.o: ../../../../src/gallium/auxiliary/util/u_math.h
+sp_tex_tile_cache.o: /usr/include/math.h /usr/include/bits/huge_val.h
+sp_tex_tile_cache.o: /usr/include/bits/huge_valf.h
+sp_tex_tile_cache.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+sp_tex_tile_cache.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+sp_tex_tile_cache.o: /usr/include/bits/mathcalls.h
+sp_tex_tile_cache.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+sp_tex_tile_cache.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+sp_tex_tile_cache.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+sp_tex_tile_cache.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+sp_tex_tile_cache.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+sp_tex_tile_cache.o: ../../../../src/gallium/auxiliary/util/u_tile.h
+sp_tex_tile_cache.o: ../../../../src/gallium/auxiliary/util/u_format.h
+sp_tex_tile_cache.o: sp_context.h
+sp_tex_tile_cache.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+sp_tex_tile_cache.o: sp_quad_pipe.h sp_texture.h sp_limits.h
+sp_tex_tile_cache.o: sp_tex_tile_cache.h
+sp_tile_cache.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+sp_tile_cache.o: ../../../../src/gallium/include/pipe/p_context.h
+sp_tile_cache.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_tile_cache.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_tile_cache.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+sp_tile_cache.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+sp_tile_cache.o: /usr/include/limits.h /usr/include/features.h
+sp_tile_cache.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+sp_tile_cache.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+sp_tile_cache.o: /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h
+sp_tile_cache.o: /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h
+sp_tile_cache.o: /usr/include/endian.h /usr/include/bits/endian.h
+sp_tile_cache.o: /usr/include/bits/byteswap.h /usr/include/stdlib.h
+sp_tile_cache.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+sp_tile_cache.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+sp_tile_cache.o: /usr/include/sys/types.h /usr/include/bits/types.h
+sp_tile_cache.o: /usr/include/bits/typesizes.h /usr/include/time.h
+sp_tile_cache.o: /usr/include/sys/select.h /usr/include/bits/select.h
+sp_tile_cache.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+sp_tile_cache.o: /usr/include/sys/sysmacros.h
+sp_tile_cache.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+sp_tile_cache.o: /usr/include/string.h /usr/include/xlocale.h
+sp_tile_cache.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+sp_tile_cache.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+sp_tile_cache.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+sp_tile_cache.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_tile_cache.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+sp_tile_cache.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_tile_cache.o: ../../../../src/gallium/include/pipe/p_state.h
+sp_tile_cache.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_tile_cache.o: ../../../../src/gallium/include/pipe/p_screen.h
+sp_tile_cache.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_tile_cache.o: ../../../../src/gallium/include/pipe/p_format.h
+sp_tile_cache.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+sp_tile_cache.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+sp_tile_cache.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+sp_tile_cache.o: ../../../../src/gallium/auxiliary/util/u_debug_describe.h
+sp_tile_cache.o: ../../../../src/gallium/auxiliary/util/u_debug_refcnt.h
+sp_tile_cache.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_tile_cache.o: ../../../../src/gallium/auxiliary/util/u_atomic.h
+sp_tile_cache.o: ../../../../src/gallium/auxiliary/util/u_box.h
+sp_tile_cache.o: ../../../../src/gallium/auxiliary/util/u_math.h
+sp_tile_cache.o: /usr/include/math.h /usr/include/bits/huge_val.h
+sp_tile_cache.o: /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h
+sp_tile_cache.o: /usr/include/bits/inf.h /usr/include/bits/nan.h
+sp_tile_cache.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+sp_tile_cache.o: ../../../../src/gallium/auxiliary/util/u_format.h
+sp_tile_cache.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+sp_tile_cache.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+sp_tile_cache.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+sp_tile_cache.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+sp_tile_cache.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+sp_tile_cache.o: ../../../../src/gallium/auxiliary/util/u_tile.h
+sp_tile_cache.o: sp_tile_cache.h sp_texture.h sp_limits.h
+sp_surface.o: ../../../../src/gallium/auxiliary/util/u_surface.h
+sp_surface.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_surface.o: ../../../../src/gallium/include/pipe/p_state.h
+sp_surface.o: ../../../../src/gallium/include/pipe/p_compiler.h
+sp_surface.o: ../../../../src/gallium/include/pipe/p_config.h
+sp_surface.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+sp_surface.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+sp_surface.o: /usr/include/limits.h /usr/include/features.h
+sp_surface.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+sp_surface.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+sp_surface.o: /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h
+sp_surface.o: /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h
+sp_surface.o: /usr/include/endian.h /usr/include/bits/endian.h
+sp_surface.o: /usr/include/bits/byteswap.h /usr/include/stdlib.h
+sp_surface.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+sp_surface.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+sp_surface.o: /usr/include/sys/types.h /usr/include/bits/types.h
+sp_surface.o: /usr/include/bits/typesizes.h /usr/include/time.h
+sp_surface.o: /usr/include/sys/select.h /usr/include/bits/select.h
+sp_surface.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+sp_surface.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+sp_surface.o: /usr/include/alloca.h /usr/include/string.h
+sp_surface.o: /usr/include/xlocale.h
+sp_surface.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+sp_surface.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+sp_surface.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+sp_surface.o: ../../../../src/gallium/include/pipe/p_defines.h
+sp_surface.o: ../../../../src/gallium/include/pipe/p_format.h sp_context.h
+sp_surface.o: ../../../../src/gallium/include/pipe/p_context.h
+sp_surface.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+sp_surface.o: ../../../../src/gallium/auxiliary/draw/draw_vertex.h
+sp_surface.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+sp_surface.o: ../../../../src/gallium/auxiliary/os/os_misc.h sp_quad_pipe.h
+sp_surface.o: sp_surface.h

@@ -1,0 +1,515 @@
+# DO NOT DELETE
+
+vmw_buffer.o: ../../../../../src/gallium/drivers/svga/svga_cmd.h
+vmw_buffer.o: ../../../../../src/gallium/drivers/svga/include/svga_types.h
+vmw_buffer.o: ../../../../../src/gallium/include/pipe/p_compiler.h
+vmw_buffer.o: ../../../../../src/gallium/include/pipe/p_config.h
+vmw_buffer.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+vmw_buffer.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+vmw_buffer.o: /usr/include/limits.h /usr/include/features.h
+vmw_buffer.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+vmw_buffer.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+vmw_buffer.o: /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h
+vmw_buffer.o: /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h
+vmw_buffer.o: /usr/include/endian.h /usr/include/bits/endian.h
+vmw_buffer.o: /usr/include/bits/byteswap.h /usr/include/stdlib.h
+vmw_buffer.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+vmw_buffer.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+vmw_buffer.o: /usr/include/sys/types.h /usr/include/bits/types.h
+vmw_buffer.o: /usr/include/bits/typesizes.h /usr/include/time.h
+vmw_buffer.o: /usr/include/sys/select.h /usr/include/bits/select.h
+vmw_buffer.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+vmw_buffer.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+vmw_buffer.o: /usr/include/alloca.h /usr/include/string.h
+vmw_buffer.o: /usr/include/xlocale.h
+vmw_buffer.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+vmw_buffer.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+vmw_buffer.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+vmw_buffer.o: ../../../../../src/gallium/drivers/svga/include/svga_reg.h
+vmw_buffer.o: ../../../../../src/gallium/drivers/svga/include/svga3d_reg.h
+vmw_buffer.o: ../../../../../src/gallium/include/pipe/p_defines.h
+vmw_buffer.o: ../../../../../src/gallium/include/pipe/p_compiler.h
+vmw_buffer.o: ../../../../../src/gallium/auxiliary/util/u_inlines.h
+vmw_buffer.o: ../../../../../src/gallium/include/pipe/p_context.h
+vmw_buffer.o: ../../../../../src/gallium/include/pipe/p_format.h
+vmw_buffer.o: ../../../../../src/gallium/include/pipe/p_video_enums.h
+vmw_buffer.o: ../../../../../src/gallium/include/pipe/p_state.h
+vmw_buffer.o: ../../../../../src/gallium/include/pipe/p_defines.h
+vmw_buffer.o: ../../../../../src/gallium/include/pipe/p_screen.h
+vmw_buffer.o: ../../../../../src/gallium/include/pipe/p_format.h
+vmw_buffer.o: ../../../../../src/gallium/include/pipe/p_video_enums.h
+vmw_buffer.o: ../../../../../src/gallium/auxiliary/util/u_debug.h
+vmw_buffer.o: ../../../../../src/gallium/auxiliary/os/os_misc.h
+vmw_buffer.o: ../../../../../src/gallium/auxiliary/util/u_debug_describe.h
+vmw_buffer.o: ../../../../../src/gallium/auxiliary/util/u_debug_refcnt.h
+vmw_buffer.o: ../../../../../src/gallium/include/pipe/p_config.h
+vmw_buffer.o: ../../../../../src/gallium/auxiliary/util/u_atomic.h
+vmw_buffer.o: ../../../../../src/gallium/auxiliary/util/u_box.h
+vmw_buffer.o: ../../../../../src/gallium/auxiliary/util/u_math.h
+vmw_buffer.o: /usr/include/math.h /usr/include/bits/huge_val.h
+vmw_buffer.o: /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h
+vmw_buffer.o: /usr/include/bits/inf.h /usr/include/bits/nan.h
+vmw_buffer.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+vmw_buffer.o: ../../../../../src/gallium/auxiliary/util/u_memory.h
+vmw_buffer.o: ../../../../../src/gallium/auxiliary/util/u_pointer.h
+vmw_buffer.o: ../../../../../src/gallium/auxiliary/os/os_memory.h
+vmw_buffer.o: ../../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+vmw_buffer.o: ../../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+vmw_buffer.o: ../../../../../src/gallium/auxiliary/pipebuffer/pb_buffer.h
+vmw_buffer.o: ../../../../../src/gallium/auxiliary/pipebuffer/pb_bufmgr.h
+vmw_buffer.o: ../../../../../src/gallium/auxiliary/pipebuffer/pb_buffer.h
+vmw_buffer.o: ../../../../../src/gallium/drivers/svga/svga_winsys.h
+vmw_buffer.o: vmw_screen.h vmw_buffer.h /usr/include/assert.h
+vmw_context.o: ../../../../../src/gallium/drivers/svga/svga_cmd.h
+vmw_context.o: ../../../../../src/gallium/drivers/svga/include/svga_types.h
+vmw_context.o: ../../../../../src/gallium/include/pipe/p_compiler.h
+vmw_context.o: ../../../../../src/gallium/include/pipe/p_config.h
+vmw_context.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+vmw_context.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+vmw_context.o: /usr/include/limits.h /usr/include/features.h
+vmw_context.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+vmw_context.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+vmw_context.o: /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h
+vmw_context.o: /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h
+vmw_context.o: /usr/include/endian.h /usr/include/bits/endian.h
+vmw_context.o: /usr/include/bits/byteswap.h /usr/include/stdlib.h
+vmw_context.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+vmw_context.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+vmw_context.o: /usr/include/sys/types.h /usr/include/bits/types.h
+vmw_context.o: /usr/include/bits/typesizes.h /usr/include/time.h
+vmw_context.o: /usr/include/sys/select.h /usr/include/bits/select.h
+vmw_context.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+vmw_context.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+vmw_context.o: /usr/include/alloca.h /usr/include/string.h
+vmw_context.o: /usr/include/xlocale.h
+vmw_context.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+vmw_context.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+vmw_context.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+vmw_context.o: ../../../../../src/gallium/drivers/svga/include/svga_reg.h
+vmw_context.o: ../../../../../src/gallium/drivers/svga/include/svga3d_reg.h
+vmw_context.o: ../../../../../src/gallium/include/pipe/p_defines.h
+vmw_context.o: ../../../../../src/gallium/include/pipe/p_compiler.h
+vmw_context.o: ../../../../../src/gallium/auxiliary/util/u_debug.h
+vmw_context.o: ../../../../../src/gallium/auxiliary/os/os_misc.h
+vmw_context.o: ../../../../../src/gallium/auxiliary/util/u_memory.h
+vmw_context.o: ../../../../../src/gallium/auxiliary/util/u_pointer.h
+vmw_context.o: ../../../../../src/gallium/auxiliary/os/os_memory.h
+vmw_context.o: ../../../../../src/gallium/include/pipe/p_config.h
+vmw_context.o: ../../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+vmw_context.o: ../../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+vmw_context.o: ../../../../../src/gallium/auxiliary/util/u_debug_stack.h
+vmw_context.o: ../../../../../src/gallium/auxiliary/pipebuffer/pb_buffer.h
+vmw_context.o: ../../../../../src/gallium/auxiliary/util/u_inlines.h
+vmw_context.o: ../../../../../src/gallium/include/pipe/p_context.h
+vmw_context.o: ../../../../../src/gallium/include/pipe/p_format.h
+vmw_context.o: ../../../../../src/gallium/include/pipe/p_video_enums.h
+vmw_context.o: ../../../../../src/gallium/include/pipe/p_state.h
+vmw_context.o: ../../../../../src/gallium/include/pipe/p_defines.h
+vmw_context.o: ../../../../../src/gallium/include/pipe/p_screen.h
+vmw_context.o: ../../../../../src/gallium/include/pipe/p_format.h
+vmw_context.o: ../../../../../src/gallium/include/pipe/p_video_enums.h
+vmw_context.o: ../../../../../src/gallium/auxiliary/util/u_debug_describe.h
+vmw_context.o: ../../../../../src/gallium/auxiliary/util/u_debug_refcnt.h
+vmw_context.o: ../../../../../src/gallium/auxiliary/util/u_atomic.h
+vmw_context.o: ../../../../../src/gallium/auxiliary/util/u_box.h
+vmw_context.o: ../../../../../src/gallium/auxiliary/util/u_math.h
+vmw_context.o: /usr/include/math.h /usr/include/bits/huge_val.h
+vmw_context.o: /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h
+vmw_context.o: /usr/include/bits/inf.h /usr/include/bits/nan.h
+vmw_context.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+vmw_context.o: ../../../../../src/gallium/auxiliary/pipebuffer/pb_validate.h
+vmw_context.o: ../../../../../src/gallium/drivers/svga/svga_winsys.h
+vmw_context.o: vmw_context.h vmw_screen.h vmw_buffer.h /usr/include/assert.h
+vmw_context.o: vmw_surface.h vmw_fence.h
+vmw_fence.o: ../../../../../src/gallium/auxiliary/util/u_memory.h
+vmw_fence.o: ../../../../../src/gallium/auxiliary/util/u_pointer.h
+vmw_fence.o: ../../../../../src/gallium/include/pipe/p_compiler.h
+vmw_fence.o: ../../../../../src/gallium/include/pipe/p_config.h
+vmw_fence.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+vmw_fence.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+vmw_fence.o: /usr/include/limits.h /usr/include/features.h
+vmw_fence.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+vmw_fence.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+vmw_fence.o: /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h
+vmw_fence.o: /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h
+vmw_fence.o: /usr/include/endian.h /usr/include/bits/endian.h
+vmw_fence.o: /usr/include/bits/byteswap.h /usr/include/stdlib.h
+vmw_fence.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+vmw_fence.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+vmw_fence.o: /usr/include/sys/types.h /usr/include/bits/types.h
+vmw_fence.o: /usr/include/bits/typesizes.h /usr/include/time.h
+vmw_fence.o: /usr/include/sys/select.h /usr/include/bits/select.h
+vmw_fence.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+vmw_fence.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+vmw_fence.o: /usr/include/alloca.h /usr/include/string.h
+vmw_fence.o: /usr/include/xlocale.h
+vmw_fence.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+vmw_fence.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+vmw_fence.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+vmw_fence.o: ../../../../../src/gallium/auxiliary/util/u_debug.h
+vmw_fence.o: ../../../../../src/gallium/auxiliary/os/os_misc.h
+vmw_fence.o: ../../../../../src/gallium/auxiliary/os/os_memory.h
+vmw_fence.o: ../../../../../src/gallium/include/pipe/p_config.h
+vmw_fence.o: ../../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+vmw_fence.o: ../../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+vmw_fence.o: ../../../../../src/gallium/auxiliary/util/u_atomic.h
+vmw_fence.o: ../../../../../src/gallium/include/pipe/p_defines.h
+vmw_fence.o: ../../../../../src/gallium/include/pipe/p_compiler.h
+vmw_fence.o: ../../../../../src/gallium/auxiliary/pipebuffer/pb_buffer_fenced.h
+vmw_fence.o: vmw_screen.h ../../../../../src/gallium/include/pipe/p_state.h
+vmw_fence.o: ../../../../../src/gallium/include/pipe/p_defines.h
+vmw_fence.o: ../../../../../src/gallium/include/pipe/p_format.h
+vmw_fence.o: ../../../../../src/gallium/drivers/svga/svga_winsys.h
+vmw_fence.o: ../../../../../src/gallium/drivers/svga/include/svga_types.h
+vmw_fence.o: ../../../../../src/gallium/drivers/svga/include/svga_reg.h
+vmw_fence.o: ../../../../../src/gallium/drivers/svga/include/svga3d_reg.h
+vmw_fence.o: vmw_fence.h
+vmw_screen.o: vmw_screen.h
+vmw_screen.o: ../../../../../src/gallium/include/pipe/p_compiler.h
+vmw_screen.o: ../../../../../src/gallium/include/pipe/p_config.h
+vmw_screen.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+vmw_screen.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+vmw_screen.o: /usr/include/limits.h /usr/include/features.h
+vmw_screen.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+vmw_screen.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+vmw_screen.o: /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h
+vmw_screen.o: /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h
+vmw_screen.o: /usr/include/endian.h /usr/include/bits/endian.h
+vmw_screen.o: /usr/include/bits/byteswap.h /usr/include/stdlib.h
+vmw_screen.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+vmw_screen.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+vmw_screen.o: /usr/include/sys/types.h /usr/include/bits/types.h
+vmw_screen.o: /usr/include/bits/typesizes.h /usr/include/time.h
+vmw_screen.o: /usr/include/sys/select.h /usr/include/bits/select.h
+vmw_screen.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+vmw_screen.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+vmw_screen.o: /usr/include/alloca.h /usr/include/string.h
+vmw_screen.o: /usr/include/xlocale.h
+vmw_screen.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+vmw_screen.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+vmw_screen.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+vmw_screen.o: ../../../../../src/gallium/include/pipe/p_state.h
+vmw_screen.o: ../../../../../src/gallium/include/pipe/p_compiler.h
+vmw_screen.o: ../../../../../src/gallium/include/pipe/p_defines.h
+vmw_screen.o: ../../../../../src/gallium/include/pipe/p_format.h
+vmw_screen.o: ../../../../../src/gallium/drivers/svga/svga_winsys.h
+vmw_screen.o: ../../../../../src/gallium/drivers/svga/include/svga_types.h
+vmw_screen.o: ../../../../../src/gallium/drivers/svga/include/svga_reg.h
+vmw_screen.o: ../../../../../src/gallium/drivers/svga/include/svga3d_reg.h
+vmw_screen.o: ../../../../../src/gallium/include/pipe/p_defines.h
+vmw_screen.o: vmw_context.h
+vmw_screen.o: ../../../../../src/gallium/auxiliary/util/u_memory.h
+vmw_screen.o: ../../../../../src/gallium/auxiliary/util/u_pointer.h
+vmw_screen.o: ../../../../../src/gallium/auxiliary/util/u_debug.h
+vmw_screen.o: ../../../../../src/gallium/auxiliary/os/os_misc.h
+vmw_screen.o: ../../../../../src/gallium/auxiliary/os/os_memory.h
+vmw_screen.o: ../../../../../src/gallium/include/pipe/p_config.h
+vmw_screen.o: ../../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+vmw_screen.o: ../../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+vmw_screen_dri.o: ../../../../../src/gallium/include/pipe/p_compiler.h
+vmw_screen_dri.o: ../../../../../src/gallium/include/pipe/p_config.h
+vmw_screen_dri.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+vmw_screen_dri.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+vmw_screen_dri.o: /usr/include/limits.h /usr/include/features.h
+vmw_screen_dri.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+vmw_screen_dri.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+vmw_screen_dri.o: /usr/include/bits/posix1_lim.h
+vmw_screen_dri.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+vmw_screen_dri.o: /usr/include/bits/posix2_lim.h /usr/include/endian.h
+vmw_screen_dri.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+vmw_screen_dri.o: /usr/include/stdlib.h
+vmw_screen_dri.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+vmw_screen_dri.o: /usr/include/bits/waitflags.h
+vmw_screen_dri.o: /usr/include/bits/waitstatus.h /usr/include/sys/types.h
+vmw_screen_dri.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+vmw_screen_dri.o: /usr/include/time.h /usr/include/sys/select.h
+vmw_screen_dri.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+vmw_screen_dri.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+vmw_screen_dri.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+vmw_screen_dri.o: /usr/include/string.h /usr/include/xlocale.h
+vmw_screen_dri.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+vmw_screen_dri.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+vmw_screen_dri.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+vmw_screen_dri.o: ../../../../../src/gallium/auxiliary/util/u_inlines.h
+vmw_screen_dri.o: ../../../../../src/gallium/include/pipe/p_context.h
+vmw_screen_dri.o: ../../../../../src/gallium/include/pipe/p_compiler.h
+vmw_screen_dri.o: ../../../../../src/gallium/include/pipe/p_format.h
+vmw_screen_dri.o: ../../../../../src/gallium/include/pipe/p_video_enums.h
+vmw_screen_dri.o: ../../../../../src/gallium/include/pipe/p_defines.h
+vmw_screen_dri.o: ../../../../../src/gallium/include/pipe/p_state.h
+vmw_screen_dri.o: ../../../../../src/gallium/include/pipe/p_defines.h
+vmw_screen_dri.o: ../../../../../src/gallium/include/pipe/p_screen.h
+vmw_screen_dri.o: ../../../../../src/gallium/include/pipe/p_format.h
+vmw_screen_dri.o: ../../../../../src/gallium/include/pipe/p_video_enums.h
+vmw_screen_dri.o: ../../../../../src/gallium/auxiliary/util/u_debug.h
+vmw_screen_dri.o: ../../../../../src/gallium/auxiliary/os/os_misc.h
+vmw_screen_dri.o: ../../../../../src/gallium/auxiliary/util/u_debug_describe.h
+vmw_screen_dri.o: ../../../../../src/gallium/auxiliary/util/u_debug_refcnt.h
+vmw_screen_dri.o: ../../../../../src/gallium/include/pipe/p_config.h
+vmw_screen_dri.o: ../../../../../src/gallium/auxiliary/util/u_atomic.h
+vmw_screen_dri.o: ../../../../../src/gallium/auxiliary/util/u_box.h
+vmw_screen_dri.o: ../../../../../src/gallium/auxiliary/util/u_math.h
+vmw_screen_dri.o: /usr/include/math.h /usr/include/bits/huge_val.h
+vmw_screen_dri.o: /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h
+vmw_screen_dri.o: /usr/include/bits/inf.h /usr/include/bits/nan.h
+vmw_screen_dri.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+vmw_screen_dri.o: ../../../../../src/gallium/auxiliary/util/u_memory.h
+vmw_screen_dri.o: ../../../../../src/gallium/auxiliary/util/u_pointer.h
+vmw_screen_dri.o: ../../../../../src/gallium/auxiliary/os/os_memory.h
+vmw_screen_dri.o: ../../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+vmw_screen_dri.o: ../../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+vmw_screen_dri.o: ../../../../../src/gallium/auxiliary/util/u_format.h
+vmw_screen_dri.o: vmw_screen.h
+vmw_screen_dri.o: ../../../../../src/gallium/drivers/svga/svga_winsys.h
+vmw_screen_dri.o: ../../../../../src/gallium/drivers/svga/include/svga_types.h
+vmw_screen_dri.o: ../../../../../src/gallium/drivers/svga/include/svga_reg.h
+vmw_screen_dri.o: ../../../../../src/gallium/drivers/svga/include/svga3d_reg.h
+vmw_screen_dri.o: vmw_surface.h svga_drm_public.h
+vmw_screen_dri.o: ../../../../../src/gallium/include/state_tracker/drm_driver.h
+vmw_screen_dri.o: vmwgfx_drm.h /usr/include/xf86drm.h
+vmw_screen_dri.o: /usr/include/libdrm/drm.h /usr/include/libdrm/drm_mode.h
+vmw_screen_dri.o: /usr/include/stdio.h /usr/include/libio.h
+vmw_screen_dri.o: /usr/include/_G_config.h /usr/include/wchar.h
+vmw_screen_dri.o: /usr/include/bits/stdio_lim.h
+vmw_screen_dri.o: /usr/include/bits/sys_errlist.h
+vmw_screen_ioctl.o: ../../../../../src/gallium/drivers/svga/svga_cmd.h
+vmw_screen_ioctl.o: ../../../../../src/gallium/drivers/svga/include/svga_types.h
+vmw_screen_ioctl.o: ../../../../../src/gallium/include/pipe/p_compiler.h
+vmw_screen_ioctl.o: ../../../../../src/gallium/include/pipe/p_config.h
+vmw_screen_ioctl.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+vmw_screen_ioctl.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+vmw_screen_ioctl.o: /usr/include/limits.h /usr/include/features.h
+vmw_screen_ioctl.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+vmw_screen_ioctl.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+vmw_screen_ioctl.o: /usr/include/bits/posix1_lim.h
+vmw_screen_ioctl.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+vmw_screen_ioctl.o: /usr/include/bits/posix2_lim.h /usr/include/endian.h
+vmw_screen_ioctl.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+vmw_screen_ioctl.o: /usr/include/stdlib.h
+vmw_screen_ioctl.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+vmw_screen_ioctl.o: /usr/include/bits/waitflags.h
+vmw_screen_ioctl.o: /usr/include/bits/waitstatus.h /usr/include/sys/types.h
+vmw_screen_ioctl.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+vmw_screen_ioctl.o: /usr/include/time.h /usr/include/sys/select.h
+vmw_screen_ioctl.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+vmw_screen_ioctl.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+vmw_screen_ioctl.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+vmw_screen_ioctl.o: /usr/include/string.h /usr/include/xlocale.h
+vmw_screen_ioctl.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+vmw_screen_ioctl.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+vmw_screen_ioctl.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+vmw_screen_ioctl.o: ../../../../../src/gallium/drivers/svga/include/svga_reg.h
+vmw_screen_ioctl.o: ../../../../../src/gallium/drivers/svga/include/svga3d_reg.h
+vmw_screen_ioctl.o: ../../../../../src/gallium/include/pipe/p_defines.h
+vmw_screen_ioctl.o: ../../../../../src/gallium/include/pipe/p_compiler.h
+vmw_screen_ioctl.o: ../../../../../src/gallium/auxiliary/util/u_memory.h
+vmw_screen_ioctl.o: ../../../../../src/gallium/auxiliary/util/u_pointer.h
+vmw_screen_ioctl.o: ../../../../../src/gallium/auxiliary/util/u_debug.h
+vmw_screen_ioctl.o: ../../../../../src/gallium/auxiliary/os/os_misc.h
+vmw_screen_ioctl.o: ../../../../../src/gallium/auxiliary/os/os_memory.h
+vmw_screen_ioctl.o: ../../../../../src/gallium/include/pipe/p_config.h
+vmw_screen_ioctl.o: ../../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+vmw_screen_ioctl.o: ../../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+vmw_screen_ioctl.o: ../../../../../src/gallium/auxiliary/util/u_math.h
+vmw_screen_ioctl.o: /usr/include/math.h /usr/include/bits/huge_val.h
+vmw_screen_ioctl.o: /usr/include/bits/huge_valf.h
+vmw_screen_ioctl.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+vmw_screen_ioctl.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+vmw_screen_ioctl.o: /usr/include/bits/mathcalls.h
+vmw_screen_ioctl.o: ../../../../../src/gallium/drivers/svga/svgadump/svga_dump.h
+vmw_screen_ioctl.o: vmw_screen.h
+vmw_screen_ioctl.o: ../../../../../src/gallium/include/pipe/p_state.h
+vmw_screen_ioctl.o: ../../../../../src/gallium/include/pipe/p_defines.h
+vmw_screen_ioctl.o: ../../../../../src/gallium/include/pipe/p_format.h
+vmw_screen_ioctl.o: ../../../../../src/gallium/drivers/svga/svga_winsys.h
+vmw_screen_ioctl.o: vmw_context.h vmw_fence.h /usr/include/xf86drm.h
+vmw_screen_ioctl.o: /usr/include/libdrm/drm.h /usr/include/libdrm/drm_mode.h
+vmw_screen_ioctl.o: vmwgfx_drm.h
+vmw_screen_ioctl.o: ../../../../../src/gallium/drivers/svga/include/svga3d_caps.h
+vmw_screen_ioctl.o: ../../../../../src/gallium/auxiliary/os/os_mman.h
+vmw_screen_ioctl.o: /usr/include/errno.h /usr/include/bits/errno.h
+vmw_screen_ioctl.o: /usr/include/linux/errno.h /usr/include/asm/errno.h
+vmw_screen_ioctl.o: /usr/include/asm-generic/errno.h
+vmw_screen_ioctl.o: /usr/include/asm-generic/errno-base.h
+vmw_screen_ioctl.o: /usr/include/unistd.h /usr/include/bits/posix_opt.h
+vmw_screen_ioctl.o: /usr/include/bits/environments.h
+vmw_screen_ioctl.o: /usr/include/bits/confname.h /usr/include/getopt.h
+vmw_screen_pools.o: vmw_screen.h
+vmw_screen_pools.o: ../../../../../src/gallium/include/pipe/p_compiler.h
+vmw_screen_pools.o: ../../../../../src/gallium/include/pipe/p_config.h
+vmw_screen_pools.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+vmw_screen_pools.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+vmw_screen_pools.o: /usr/include/limits.h /usr/include/features.h
+vmw_screen_pools.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+vmw_screen_pools.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+vmw_screen_pools.o: /usr/include/bits/posix1_lim.h
+vmw_screen_pools.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+vmw_screen_pools.o: /usr/include/bits/posix2_lim.h /usr/include/endian.h
+vmw_screen_pools.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+vmw_screen_pools.o: /usr/include/stdlib.h
+vmw_screen_pools.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+vmw_screen_pools.o: /usr/include/bits/waitflags.h
+vmw_screen_pools.o: /usr/include/bits/waitstatus.h /usr/include/sys/types.h
+vmw_screen_pools.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+vmw_screen_pools.o: /usr/include/time.h /usr/include/sys/select.h
+vmw_screen_pools.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+vmw_screen_pools.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+vmw_screen_pools.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+vmw_screen_pools.o: /usr/include/string.h /usr/include/xlocale.h
+vmw_screen_pools.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+vmw_screen_pools.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+vmw_screen_pools.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+vmw_screen_pools.o: ../../../../../src/gallium/include/pipe/p_state.h
+vmw_screen_pools.o: ../../../../../src/gallium/include/pipe/p_compiler.h
+vmw_screen_pools.o: ../../../../../src/gallium/include/pipe/p_defines.h
+vmw_screen_pools.o: ../../../../../src/gallium/include/pipe/p_format.h
+vmw_screen_pools.o: ../../../../../src/gallium/drivers/svga/svga_winsys.h
+vmw_screen_pools.o: ../../../../../src/gallium/drivers/svga/include/svga_types.h
+vmw_screen_pools.o: ../../../../../src/gallium/drivers/svga/include/svga_reg.h
+vmw_screen_pools.o: ../../../../../src/gallium/drivers/svga/include/svga3d_reg.h
+vmw_screen_pools.o: ../../../../../src/gallium/include/pipe/p_defines.h
+vmw_screen_pools.o: vmw_buffer.h /usr/include/assert.h vmw_fence.h
+vmw_screen_pools.o: ../../../../../src/gallium/auxiliary/pipebuffer/pb_buffer.h
+vmw_screen_pools.o: ../../../../../src/gallium/auxiliary/util/u_debug.h
+vmw_screen_pools.o: ../../../../../src/gallium/auxiliary/os/os_misc.h
+vmw_screen_pools.o: ../../../../../src/gallium/auxiliary/util/u_inlines.h
+vmw_screen_pools.o: ../../../../../src/gallium/include/pipe/p_context.h
+vmw_screen_pools.o: ../../../../../src/gallium/include/pipe/p_video_enums.h
+vmw_screen_pools.o: ../../../../../src/gallium/include/pipe/p_screen.h
+vmw_screen_pools.o: ../../../../../src/gallium/include/pipe/p_format.h
+vmw_screen_pools.o: ../../../../../src/gallium/include/pipe/p_video_enums.h
+vmw_screen_pools.o: ../../../../../src/gallium/auxiliary/util/u_debug_describe.h
+vmw_screen_pools.o: ../../../../../src/gallium/auxiliary/util/u_debug_refcnt.h
+vmw_screen_pools.o: ../../../../../src/gallium/include/pipe/p_config.h
+vmw_screen_pools.o: ../../../../../src/gallium/auxiliary/util/u_atomic.h
+vmw_screen_pools.o: ../../../../../src/gallium/auxiliary/util/u_box.h
+vmw_screen_pools.o: ../../../../../src/gallium/auxiliary/util/u_math.h
+vmw_screen_pools.o: /usr/include/math.h /usr/include/bits/huge_val.h
+vmw_screen_pools.o: /usr/include/bits/huge_valf.h
+vmw_screen_pools.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+vmw_screen_pools.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+vmw_screen_pools.o: /usr/include/bits/mathcalls.h
+vmw_screen_pools.o: ../../../../../src/gallium/auxiliary/pipebuffer/pb_bufmgr.h
+vmw_screen_pools.o: ../../../../../src/gallium/auxiliary/pipebuffer/pb_buffer.h
+vmw_screen_svga.o: ../../../../../src/gallium/drivers/svga/svga_cmd.h
+vmw_screen_svga.o: ../../../../../src/gallium/drivers/svga/include/svga_types.h
+vmw_screen_svga.o: ../../../../../src/gallium/include/pipe/p_compiler.h
+vmw_screen_svga.o: ../../../../../src/gallium/include/pipe/p_config.h
+vmw_screen_svga.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+vmw_screen_svga.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+vmw_screen_svga.o: /usr/include/limits.h /usr/include/features.h
+vmw_screen_svga.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+vmw_screen_svga.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+vmw_screen_svga.o: /usr/include/bits/posix1_lim.h
+vmw_screen_svga.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+vmw_screen_svga.o: /usr/include/bits/posix2_lim.h /usr/include/endian.h
+vmw_screen_svga.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+vmw_screen_svga.o: /usr/include/stdlib.h
+vmw_screen_svga.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+vmw_screen_svga.o: /usr/include/bits/waitflags.h
+vmw_screen_svga.o: /usr/include/bits/waitstatus.h /usr/include/sys/types.h
+vmw_screen_svga.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+vmw_screen_svga.o: /usr/include/time.h /usr/include/sys/select.h
+vmw_screen_svga.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+vmw_screen_svga.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+vmw_screen_svga.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+vmw_screen_svga.o: /usr/include/string.h /usr/include/xlocale.h
+vmw_screen_svga.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+vmw_screen_svga.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+vmw_screen_svga.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+vmw_screen_svga.o: ../../../../../src/gallium/drivers/svga/include/svga_reg.h
+vmw_screen_svga.o: ../../../../../src/gallium/drivers/svga/include/svga3d_reg.h
+vmw_screen_svga.o: ../../../../../src/gallium/include/pipe/p_defines.h
+vmw_screen_svga.o: ../../../../../src/gallium/include/pipe/p_compiler.h
+vmw_screen_svga.o: ../../../../../src/gallium/drivers/svga/include/svga3d_caps.h
+vmw_screen_svga.o: ../../../../../src/gallium/auxiliary/util/u_inlines.h
+vmw_screen_svga.o: ../../../../../src/gallium/include/pipe/p_context.h
+vmw_screen_svga.o: ../../../../../src/gallium/include/pipe/p_format.h
+vmw_screen_svga.o: ../../../../../src/gallium/include/pipe/p_video_enums.h
+vmw_screen_svga.o: ../../../../../src/gallium/include/pipe/p_state.h
+vmw_screen_svga.o: ../../../../../src/gallium/include/pipe/p_defines.h
+vmw_screen_svga.o: ../../../../../src/gallium/include/pipe/p_screen.h
+vmw_screen_svga.o: ../../../../../src/gallium/include/pipe/p_format.h
+vmw_screen_svga.o: ../../../../../src/gallium/include/pipe/p_video_enums.h
+vmw_screen_svga.o: ../../../../../src/gallium/auxiliary/util/u_debug.h
+vmw_screen_svga.o: ../../../../../src/gallium/auxiliary/os/os_misc.h
+vmw_screen_svga.o: ../../../../../src/gallium/auxiliary/util/u_debug_describe.h
+vmw_screen_svga.o: ../../../../../src/gallium/auxiliary/util/u_debug_refcnt.h
+vmw_screen_svga.o: ../../../../../src/gallium/include/pipe/p_config.h
+vmw_screen_svga.o: ../../../../../src/gallium/auxiliary/util/u_atomic.h
+vmw_screen_svga.o: ../../../../../src/gallium/auxiliary/util/u_box.h
+vmw_screen_svga.o: ../../../../../src/gallium/auxiliary/util/u_math.h
+vmw_screen_svga.o: /usr/include/math.h /usr/include/bits/huge_val.h
+vmw_screen_svga.o: /usr/include/bits/huge_valf.h
+vmw_screen_svga.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+vmw_screen_svga.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+vmw_screen_svga.o: /usr/include/bits/mathcalls.h
+vmw_screen_svga.o: ../../../../../src/gallium/auxiliary/util/u_memory.h
+vmw_screen_svga.o: ../../../../../src/gallium/auxiliary/util/u_pointer.h
+vmw_screen_svga.o: ../../../../../src/gallium/auxiliary/os/os_memory.h
+vmw_screen_svga.o: ../../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+vmw_screen_svga.o: ../../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+vmw_screen_svga.o: ../../../../../src/gallium/auxiliary/pipebuffer/pb_buffer.h
+vmw_screen_svga.o: ../../../../../src/gallium/auxiliary/pipebuffer/pb_bufmgr.h
+vmw_screen_svga.o: ../../../../../src/gallium/auxiliary/pipebuffer/pb_buffer.h
+vmw_screen_svga.o: ../../../../../src/gallium/drivers/svga/svga_winsys.h
+vmw_screen_svga.o: vmw_context.h vmw_screen.h vmw_surface.h vmw_buffer.h
+vmw_screen_svga.o: /usr/include/assert.h vmw_fence.h
+vmw_surface.o: ../../../../../src/gallium/drivers/svga/svga_cmd.h
+vmw_surface.o: ../../../../../src/gallium/drivers/svga/include/svga_types.h
+vmw_surface.o: ../../../../../src/gallium/include/pipe/p_compiler.h
+vmw_surface.o: ../../../../../src/gallium/include/pipe/p_config.h
+vmw_surface.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+vmw_surface.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+vmw_surface.o: /usr/include/limits.h /usr/include/features.h
+vmw_surface.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+vmw_surface.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+vmw_surface.o: /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h
+vmw_surface.o: /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h
+vmw_surface.o: /usr/include/endian.h /usr/include/bits/endian.h
+vmw_surface.o: /usr/include/bits/byteswap.h /usr/include/stdlib.h
+vmw_surface.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+vmw_surface.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+vmw_surface.o: /usr/include/sys/types.h /usr/include/bits/types.h
+vmw_surface.o: /usr/include/bits/typesizes.h /usr/include/time.h
+vmw_surface.o: /usr/include/sys/select.h /usr/include/bits/select.h
+vmw_surface.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+vmw_surface.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+vmw_surface.o: /usr/include/alloca.h /usr/include/string.h
+vmw_surface.o: /usr/include/xlocale.h
+vmw_surface.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+vmw_surface.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+vmw_surface.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+vmw_surface.o: ../../../../../src/gallium/drivers/svga/include/svga_reg.h
+vmw_surface.o: ../../../../../src/gallium/drivers/svga/include/svga3d_reg.h
+vmw_surface.o: ../../../../../src/gallium/include/pipe/p_defines.h
+vmw_surface.o: ../../../../../src/gallium/include/pipe/p_compiler.h
+vmw_surface.o: ../../../../../src/gallium/auxiliary/util/u_debug.h
+vmw_surface.o: ../../../../../src/gallium/auxiliary/os/os_misc.h
+vmw_surface.o: ../../../../../src/gallium/auxiliary/util/u_memory.h
+vmw_surface.o: ../../../../../src/gallium/auxiliary/util/u_pointer.h
+vmw_surface.o: ../../../../../src/gallium/auxiliary/os/os_memory.h
+vmw_surface.o: ../../../../../src/gallium/include/pipe/p_config.h
+vmw_surface.o: ../../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+vmw_surface.o: ../../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+vmw_surface.o: vmw_surface.h
+vmw_surface.o: ../../../../../src/gallium/auxiliary/util/u_atomic.h
+vmw_surface.o: ../../../../../src/gallium/auxiliary/util/u_inlines.h
+vmw_surface.o: ../../../../../src/gallium/include/pipe/p_context.h
+vmw_surface.o: ../../../../../src/gallium/include/pipe/p_format.h
+vmw_surface.o: ../../../../../src/gallium/include/pipe/p_video_enums.h
+vmw_surface.o: ../../../../../src/gallium/include/pipe/p_state.h
+vmw_surface.o: ../../../../../src/gallium/include/pipe/p_defines.h
+vmw_surface.o: ../../../../../src/gallium/include/pipe/p_screen.h
+vmw_surface.o: ../../../../../src/gallium/include/pipe/p_format.h
+vmw_surface.o: ../../../../../src/gallium/include/pipe/p_video_enums.h
+vmw_surface.o: ../../../../../src/gallium/auxiliary/util/u_debug_describe.h
+vmw_surface.o: ../../../../../src/gallium/auxiliary/util/u_debug_refcnt.h
+vmw_surface.o: ../../../../../src/gallium/auxiliary/util/u_box.h
+vmw_surface.o: ../../../../../src/gallium/auxiliary/util/u_math.h
+vmw_surface.o: /usr/include/math.h /usr/include/bits/huge_val.h
+vmw_surface.o: /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h
+vmw_surface.o: /usr/include/bits/inf.h /usr/include/bits/nan.h
+vmw_surface.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+vmw_surface.o: vmw_screen.h
+vmw_surface.o: ../../../../../src/gallium/drivers/svga/svga_winsys.h

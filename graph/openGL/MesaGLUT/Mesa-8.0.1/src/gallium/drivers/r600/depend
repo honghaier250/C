@@ -1,0 +1,1107 @@
+# DO NOT DELETE
+
+r600_asm.o: /usr/include/stdio.h /usr/include/features.h
+r600_asm.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+r600_asm.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+r600_asm.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+r600_asm.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+r600_asm.o: /usr/include/libio.h /usr/include/_G_config.h
+r600_asm.o: /usr/include/wchar.h
+r600_asm.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+r600_asm.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+r600_asm.o: /usr/include/errno.h /usr/include/bits/errno.h
+r600_asm.o: /usr/include/linux/errno.h /usr/include/asm/errno.h
+r600_asm.o: /usr/include/asm-generic/errno.h
+r600_asm.o: /usr/include/asm-generic/errno-base.h /usr/include/byteswap.h
+r600_asm.o: /usr/include/bits/byteswap.h
+r600_asm.o: ../../../../src/gallium/auxiliary/util/u_format.h
+r600_asm.o: ../../../../src/gallium/include/pipe/p_format.h
+r600_asm.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+r600_asm.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+r600_asm.o: ../../../../src/gallium/include/pipe/p_compiler.h
+r600_asm.o: ../../../../src/gallium/include/pipe/p_config.h
+r600_asm.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+r600_asm.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+r600_asm.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+r600_asm.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+r600_asm.o: /usr/include/bits/posix2_lim.h /usr/include/endian.h
+r600_asm.o: /usr/include/bits/endian.h /usr/include/stdlib.h
+r600_asm.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+r600_asm.o: /usr/include/sys/types.h /usr/include/time.h
+r600_asm.o: /usr/include/sys/select.h /usr/include/bits/select.h
+r600_asm.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+r600_asm.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+r600_asm.o: /usr/include/alloca.h /usr/include/string.h
+r600_asm.o: /usr/include/xlocale.h /usr/include/stdint.h
+r600_asm.o: /usr/include/bits/wchar.h
+r600_asm.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+r600_asm.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+r600_asm.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+r600_asm.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+r600_asm.o: ../../../../src/gallium/include/pipe/p_config.h
+r600_asm.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+r600_asm.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+r600_asm.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+r600_asm.o: r600_pipe.h ../../winsys/radeon/drm/radeon_winsys.h
+r600_asm.o: ../../../../src/gallium/auxiliary/pipebuffer/pb_bufmgr.h
+r600_asm.o: ../../../../src/gallium/auxiliary/pipebuffer/pb_buffer.h
+r600_asm.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+r600_asm.o: ../../../../src/gallium/include/pipe/p_context.h
+r600_asm.o: ../../../../src/gallium/include/pipe/p_compiler.h
+r600_asm.o: ../../../../src/gallium/include/pipe/p_format.h
+r600_asm.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+r600_asm.o: ../../../../src/gallium/include/pipe/p_defines.h
+r600_asm.o: ../../../../src/gallium/include/pipe/p_state.h
+r600_asm.o: ../../../../src/gallium/include/pipe/p_defines.h
+r600_asm.o: ../../../../src/gallium/include/pipe/p_screen.h
+r600_asm.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+r600_asm.o: ../../../../src/gallium/auxiliary/util/u_debug_describe.h
+r600_asm.o: ../../../../src/gallium/auxiliary/util/u_debug_refcnt.h
+r600_asm.o: ../../../../src/gallium/auxiliary/util/u_atomic.h
+r600_asm.o: ../../../../src/gallium/auxiliary/util/u_box.h
+r600_asm.o: ../../../../src/gallium/auxiliary/util/u_math.h
+r600_asm.o: /usr/include/math.h /usr/include/bits/huge_val.h
+r600_asm.o: /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h
+r600_asm.o: /usr/include/bits/inf.h /usr/include/bits/nan.h
+r600_asm.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+r600_asm.o: ../../../../src/gallium/auxiliary/util/u_slab.h
+r600_asm.o: ../../../../src/gallium/auxiliary/os/os_thread.h
+r600_asm.o: ../../../../src/gallium/auxiliary/os/os_time.h
+r600_asm.o: ../../../../src/gallium/auxiliary/util/u_vbuf.h
+r600_asm.o: ../../../../src/gallium/auxiliary/util/u_transfer.h r600.h
+r600_asm.o: ../../../../src/gallium/auxiliary/util/u_double_list.h
+r600_asm.o: r600_public.h r600_shader.h r600_asm.h r600_resource.h r600_sq.h
+r600_asm.o: r600_opcodes.h r600_formats.h r600d.h
+r600_blit.o: ../../../../src/gallium/auxiliary/util/u_surface.h
+r600_blit.o: ../../../../src/gallium/include/pipe/p_compiler.h
+r600_blit.o: ../../../../src/gallium/include/pipe/p_config.h
+r600_blit.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+r600_blit.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+r600_blit.o: /usr/include/limits.h /usr/include/features.h
+r600_blit.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+r600_blit.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+r600_blit.o: /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h
+r600_blit.o: /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h
+r600_blit.o: /usr/include/endian.h /usr/include/bits/endian.h
+r600_blit.o: /usr/include/bits/byteswap.h /usr/include/stdlib.h
+r600_blit.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+r600_blit.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+r600_blit.o: /usr/include/sys/types.h /usr/include/bits/types.h
+r600_blit.o: /usr/include/bits/typesizes.h /usr/include/time.h
+r600_blit.o: /usr/include/sys/select.h /usr/include/bits/select.h
+r600_blit.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+r600_blit.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+r600_blit.o: /usr/include/alloca.h /usr/include/string.h
+r600_blit.o: /usr/include/xlocale.h
+r600_blit.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+r600_blit.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+r600_blit.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+r600_blit.o: ../../../../src/gallium/include/pipe/p_state.h
+r600_blit.o: ../../../../src/gallium/include/pipe/p_compiler.h
+r600_blit.o: ../../../../src/gallium/include/pipe/p_defines.h
+r600_blit.o: ../../../../src/gallium/include/pipe/p_format.h
+r600_blit.o: ../../../../src/gallium/auxiliary/util/u_blitter.h
+r600_blit.o: ../../../../src/gallium/auxiliary/util/u_framebuffer.h
+r600_blit.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+r600_blit.o: ../../../../src/gallium/include/pipe/p_context.h
+r600_blit.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+r600_blit.o: ../../../../src/gallium/include/pipe/p_defines.h
+r600_blit.o: ../../../../src/gallium/include/pipe/p_screen.h
+r600_blit.o: ../../../../src/gallium/include/pipe/p_format.h
+r600_blit.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+r600_blit.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+r600_blit.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+r600_blit.o: ../../../../src/gallium/auxiliary/util/u_debug_describe.h
+r600_blit.o: ../../../../src/gallium/auxiliary/util/u_debug_refcnt.h
+r600_blit.o: ../../../../src/gallium/include/pipe/p_config.h
+r600_blit.o: ../../../../src/gallium/auxiliary/util/u_atomic.h
+r600_blit.o: ../../../../src/gallium/auxiliary/util/u_box.h
+r600_blit.o: ../../../../src/gallium/auxiliary/util/u_math.h
+r600_blit.o: /usr/include/math.h /usr/include/bits/huge_val.h
+r600_blit.o: /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h
+r600_blit.o: /usr/include/bits/inf.h /usr/include/bits/nan.h
+r600_blit.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+r600_blit.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+r600_blit.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+r600_blit.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+r600_blit.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+r600_blit.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+r600_blit.o: ../../../../src/gallium/auxiliary/util/u_format.h r600_pipe.h
+r600_blit.o: ../../winsys/radeon/drm/radeon_winsys.h
+r600_blit.o: ../../../../src/gallium/auxiliary/pipebuffer/pb_bufmgr.h
+r600_blit.o: ../../../../src/gallium/auxiliary/pipebuffer/pb_buffer.h
+r600_blit.o: ../../../../src/gallium/auxiliary/util/u_slab.h
+r600_blit.o: ../../../../src/gallium/auxiliary/os/os_thread.h
+r600_blit.o: ../../../../src/gallium/auxiliary/os/os_time.h
+r600_blit.o: ../../../../src/gallium/auxiliary/util/u_vbuf.h
+r600_blit.o: ../../../../src/gallium/auxiliary/util/u_transfer.h r600.h
+r600_blit.o: ../../../../src/gallium/auxiliary/util/u_double_list.h
+r600_blit.o: r600_public.h r600_shader.h r600_asm.h r600_resource.h
+r600_buffer.o: /usr/include/byteswap.h /usr/include/bits/byteswap.h
+r600_buffer.o: /usr/include/bits/wordsize.h
+r600_buffer.o: ../../../../src/gallium/include/pipe/p_screen.h
+r600_buffer.o: ../../../../src/gallium/include/pipe/p_compiler.h
+r600_buffer.o: ../../../../src/gallium/include/pipe/p_config.h
+r600_buffer.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+r600_buffer.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+r600_buffer.o: /usr/include/limits.h /usr/include/features.h
+r600_buffer.o: /usr/include/sys/cdefs.h /usr/include/gnu/stubs.h
+r600_buffer.o: /usr/include/gnu/stubs-64.h /usr/include/bits/posix1_lim.h
+r600_buffer.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+r600_buffer.o: /usr/include/bits/posix2_lim.h /usr/include/endian.h
+r600_buffer.o: /usr/include/bits/endian.h /usr/include/stdlib.h
+r600_buffer.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+r600_buffer.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+r600_buffer.o: /usr/include/sys/types.h /usr/include/bits/types.h
+r600_buffer.o: /usr/include/bits/typesizes.h /usr/include/time.h
+r600_buffer.o: /usr/include/sys/select.h /usr/include/bits/select.h
+r600_buffer.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+r600_buffer.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+r600_buffer.o: /usr/include/alloca.h /usr/include/string.h
+r600_buffer.o: /usr/include/xlocale.h
+r600_buffer.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+r600_buffer.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+r600_buffer.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+r600_buffer.o: ../../../../src/gallium/include/pipe/p_format.h
+r600_buffer.o: ../../../../src/gallium/include/pipe/p_defines.h
+r600_buffer.o: ../../../../src/gallium/include/pipe/p_compiler.h
+r600_buffer.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+r600_buffer.o: ../../../../src/gallium/auxiliary/util/u_format.h
+r600_buffer.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+r600_buffer.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+r600_buffer.o: ../../../../src/gallium/auxiliary/util/u_math.h
+r600_buffer.o: /usr/include/math.h /usr/include/bits/huge_val.h
+r600_buffer.o: /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h
+r600_buffer.o: /usr/include/bits/inf.h /usr/include/bits/nan.h
+r600_buffer.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+r600_buffer.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+r600_buffer.o: ../../../../src/gallium/include/pipe/p_context.h
+r600_buffer.o: ../../../../src/gallium/include/pipe/p_format.h
+r600_buffer.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+r600_buffer.o: ../../../../src/gallium/include/pipe/p_state.h
+r600_buffer.o: ../../../../src/gallium/include/pipe/p_defines.h
+r600_buffer.o: ../../../../src/gallium/auxiliary/util/u_debug_describe.h
+r600_buffer.o: ../../../../src/gallium/auxiliary/util/u_debug_refcnt.h
+r600_buffer.o: ../../../../src/gallium/include/pipe/p_config.h
+r600_buffer.o: ../../../../src/gallium/auxiliary/util/u_atomic.h
+r600_buffer.o: ../../../../src/gallium/auxiliary/util/u_box.h
+r600_buffer.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+r600_buffer.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+r600_buffer.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+r600_buffer.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+r600_buffer.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+r600_buffer.o: ../../../../src/gallium/auxiliary/util/u_upload_mgr.h r600.h
+r600_buffer.o: ../../winsys/radeon/drm/radeon_winsys.h
+r600_buffer.o: ../../../../src/gallium/auxiliary/pipebuffer/pb_bufmgr.h
+r600_buffer.o: ../../../../src/gallium/auxiliary/pipebuffer/pb_buffer.h
+r600_buffer.o: ../../../../src/gallium/auxiliary/util/u_double_list.h
+r600_buffer.o: ../../../../src/gallium/auxiliary/util/u_vbuf.h
+r600_buffer.o: ../../../../src/gallium/auxiliary/util/u_transfer.h
+r600_buffer.o: r600_pipe.h ../../../../src/gallium/auxiliary/util/u_slab.h
+r600_buffer.o: ../../../../src/gallium/auxiliary/os/os_thread.h
+r600_buffer.o: ../../../../src/gallium/auxiliary/os/os_time.h r600_public.h
+r600_buffer.o: r600_shader.h r600_asm.h r600_resource.h
+r600_hw_context.o: r600_hw_context_priv.h r600_pipe.h
+r600_hw_context.o: ../../winsys/radeon/drm/radeon_winsys.h
+r600_hw_context.o: ../../../../src/gallium/auxiliary/pipebuffer/pb_bufmgr.h
+r600_hw_context.o: ../../../../src/gallium/auxiliary/pipebuffer/pb_buffer.h
+r600_hw_context.o: ../../../../src/gallium/include/pipe/p_compiler.h
+r600_hw_context.o: ../../../../src/gallium/include/pipe/p_config.h
+r600_hw_context.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+r600_hw_context.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+r600_hw_context.o: /usr/include/limits.h /usr/include/features.h
+r600_hw_context.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+r600_hw_context.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+r600_hw_context.o: /usr/include/bits/posix1_lim.h
+r600_hw_context.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+r600_hw_context.o: /usr/include/bits/posix2_lim.h /usr/include/endian.h
+r600_hw_context.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+r600_hw_context.o: /usr/include/stdlib.h
+r600_hw_context.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+r600_hw_context.o: /usr/include/bits/waitflags.h
+r600_hw_context.o: /usr/include/bits/waitstatus.h /usr/include/sys/types.h
+r600_hw_context.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+r600_hw_context.o: /usr/include/time.h /usr/include/sys/select.h
+r600_hw_context.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+r600_hw_context.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+r600_hw_context.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+r600_hw_context.o: /usr/include/string.h /usr/include/xlocale.h
+r600_hw_context.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+r600_hw_context.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+r600_hw_context.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+r600_hw_context.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+r600_hw_context.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+r600_hw_context.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+r600_hw_context.o: ../../../../src/gallium/include/pipe/p_context.h
+r600_hw_context.o: ../../../../src/gallium/include/pipe/p_compiler.h
+r600_hw_context.o: ../../../../src/gallium/include/pipe/p_format.h
+r600_hw_context.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+r600_hw_context.o: ../../../../src/gallium/include/pipe/p_defines.h
+r600_hw_context.o: ../../../../src/gallium/include/pipe/p_state.h
+r600_hw_context.o: ../../../../src/gallium/include/pipe/p_defines.h
+r600_hw_context.o: ../../../../src/gallium/include/pipe/p_screen.h
+r600_hw_context.o: ../../../../src/gallium/include/pipe/p_format.h
+r600_hw_context.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+r600_hw_context.o: ../../../../src/gallium/auxiliary/util/u_debug_describe.h
+r600_hw_context.o: ../../../../src/gallium/auxiliary/util/u_debug_refcnt.h
+r600_hw_context.o: ../../../../src/gallium/include/pipe/p_config.h
+r600_hw_context.o: ../../../../src/gallium/auxiliary/util/u_atomic.h
+r600_hw_context.o: ../../../../src/gallium/auxiliary/util/u_box.h
+r600_hw_context.o: ../../../../src/gallium/auxiliary/util/u_math.h
+r600_hw_context.o: /usr/include/math.h /usr/include/bits/huge_val.h
+r600_hw_context.o: /usr/include/bits/huge_valf.h
+r600_hw_context.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+r600_hw_context.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+r600_hw_context.o: /usr/include/bits/mathcalls.h
+r600_hw_context.o: ../../../../src/gallium/auxiliary/util/u_slab.h
+r600_hw_context.o: ../../../../src/gallium/auxiliary/os/os_thread.h
+r600_hw_context.o: ../../../../src/gallium/auxiliary/os/os_time.h
+r600_hw_context.o: ../../../../src/gallium/auxiliary/util/u_vbuf.h
+r600_hw_context.o: ../../../../src/gallium/auxiliary/util/u_transfer.h r600.h
+r600_hw_context.o: ../../../../src/gallium/auxiliary/util/u_double_list.h
+r600_hw_context.o: r600_public.h r600_shader.h r600_asm.h r600_resource.h
+r600_hw_context.o: ../../../../src/gallium/auxiliary/util/u_hash_table.h
+r600_hw_context.o: r600d.h ../../../../src/gallium/auxiliary/util/u_memory.h
+r600_hw_context.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+r600_hw_context.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+r600_hw_context.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+r600_hw_context.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+r600_hw_context.o: /usr/include/errno.h /usr/include/bits/errno.h
+r600_hw_context.o: /usr/include/linux/errno.h /usr/include/asm/errno.h
+r600_hw_context.o: /usr/include/asm-generic/errno.h
+r600_hw_context.o: /usr/include/asm-generic/errno-base.h
+r600_pipe.o: /usr/include/stdio.h /usr/include/features.h
+r600_pipe.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+r600_pipe.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+r600_pipe.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+r600_pipe.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+r600_pipe.o: /usr/include/libio.h /usr/include/_G_config.h
+r600_pipe.o: /usr/include/wchar.h
+r600_pipe.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+r600_pipe.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+r600_pipe.o: /usr/include/errno.h /usr/include/bits/errno.h
+r600_pipe.o: /usr/include/linux/errno.h /usr/include/asm/errno.h
+r600_pipe.o: /usr/include/asm-generic/errno.h
+r600_pipe.o: /usr/include/asm-generic/errno-base.h
+r600_pipe.o: ../../../../src/gallium/include/pipe/p_defines.h
+r600_pipe.o: ../../../../src/gallium/include/pipe/p_compiler.h
+r600_pipe.o: ../../../../src/gallium/include/pipe/p_state.h
+r600_pipe.o: ../../../../src/gallium/include/pipe/p_defines.h
+r600_pipe.o: ../../../../src/gallium/include/pipe/p_format.h
+r600_pipe.o: ../../../../src/gallium/include/pipe/p_context.h
+r600_pipe.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+r600_pipe.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+r600_pipe.o: ../../../../src/gallium/include/pipe/p_compiler.h
+r600_pipe.o: ../../../../src/gallium/include/pipe/p_config.h
+r600_pipe.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+r600_pipe.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+r600_pipe.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+r600_pipe.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+r600_pipe.o: /usr/include/bits/posix2_lim.h /usr/include/endian.h
+r600_pipe.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+r600_pipe.o: /usr/include/stdlib.h /usr/include/bits/waitflags.h
+r600_pipe.o: /usr/include/bits/waitstatus.h /usr/include/sys/types.h
+r600_pipe.o: /usr/include/time.h /usr/include/sys/select.h
+r600_pipe.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+r600_pipe.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+r600_pipe.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+r600_pipe.o: /usr/include/string.h /usr/include/xlocale.h
+r600_pipe.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+r600_pipe.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+r600_pipe.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+r600_pipe.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_parse.h
+r600_pipe.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_util.h
+r600_pipe.o: ../../../../src/gallium/auxiliary/util/u_blitter.h
+r600_pipe.o: ../../../../src/gallium/auxiliary/util/u_framebuffer.h
+r600_pipe.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+r600_pipe.o: ../../../../src/gallium/include/pipe/p_screen.h
+r600_pipe.o: ../../../../src/gallium/include/pipe/p_format.h
+r600_pipe.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+r600_pipe.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+r600_pipe.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+r600_pipe.o: ../../../../src/gallium/auxiliary/util/u_debug_describe.h
+r600_pipe.o: ../../../../src/gallium/auxiliary/util/u_debug_refcnt.h
+r600_pipe.o: ../../../../src/gallium/include/pipe/p_config.h
+r600_pipe.o: ../../../../src/gallium/auxiliary/util/u_atomic.h
+r600_pipe.o: ../../../../src/gallium/auxiliary/util/u_box.h
+r600_pipe.o: ../../../../src/gallium/auxiliary/util/u_math.h
+r600_pipe.o: /usr/include/math.h /usr/include/bits/huge_val.h
+r600_pipe.o: /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h
+r600_pipe.o: /usr/include/bits/inf.h /usr/include/bits/nan.h
+r600_pipe.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+r600_pipe.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+r600_pipe.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+r600_pipe.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+r600_pipe.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+r600_pipe.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+r600_pipe.o: ../../../../src/gallium/auxiliary/util/u_double_list.h
+r600_pipe.o: ../../../../src/gallium/auxiliary/util/u_format.h
+r600_pipe.o: ../../../../src/gallium/auxiliary/util/u_format_s3tc.h
+r600_pipe.o: ../../../../src/gallium/auxiliary/util/u_transfer.h
+r600_pipe.o: ../../../../src/gallium/auxiliary/util/u_surface.h
+r600_pipe.o: ../../../../src/gallium/auxiliary/util/u_pack_color.h
+r600_pipe.o: ../../../../src/gallium/auxiliary/util/u_upload_mgr.h
+r600_pipe.o: ../../../../src/gallium/auxiliary/vl/vl_decoder.h
+r600_pipe.o: ../../../../src/gallium/include/pipe/p_video_decoder.h
+r600_pipe.o: ../../../../src/gallium/include/pipe/p_video_state.h
+r600_pipe.o: ../../../../src/gallium/auxiliary/vl/vl_video_buffer.h
+r600_pipe.o: ../../../../src/gallium/auxiliary/vl/vl_defines.h
+r600_pipe.o: ../../../../src/gallium/auxiliary/os/os_time.h
+r600_pipe.o: ../../../../src/gallium/auxiliary/pipebuffer/pb_buffer.h r600.h
+r600_pipe.o: ../../winsys/radeon/drm/radeon_winsys.h
+r600_pipe.o: ../../../../src/gallium/auxiliary/pipebuffer/pb_bufmgr.h
+r600_pipe.o: ../../../../src/gallium/auxiliary/pipebuffer/pb_buffer.h
+r600_pipe.o: ../../../../src/gallium/auxiliary/util/u_vbuf.h r600d.h
+r600_pipe.o: r600_resource.h r600_shader.h r600_asm.h r600_pipe.h
+r600_pipe.o: ../../../../src/gallium/auxiliary/util/u_slab.h
+r600_pipe.o: ../../../../src/gallium/auxiliary/os/os_thread.h r600_public.h
+r600_pipe.o: r600_hw_context_priv.h
+r600_pipe.o: ../../../../src/gallium/auxiliary/util/u_hash_table.h
+r600_pipe.o: ../../../../include/pci_ids/r600_pci_ids.h
+r600_query.o: r600_pipe.h ../../winsys/radeon/drm/radeon_winsys.h
+r600_query.o: ../../../../src/gallium/auxiliary/pipebuffer/pb_bufmgr.h
+r600_query.o: ../../../../src/gallium/auxiliary/pipebuffer/pb_buffer.h
+r600_query.o: ../../../../src/gallium/include/pipe/p_compiler.h
+r600_query.o: ../../../../src/gallium/include/pipe/p_config.h
+r600_query.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+r600_query.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+r600_query.o: /usr/include/limits.h /usr/include/features.h
+r600_query.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+r600_query.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+r600_query.o: /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h
+r600_query.o: /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h
+r600_query.o: /usr/include/endian.h /usr/include/bits/endian.h
+r600_query.o: /usr/include/bits/byteswap.h /usr/include/stdlib.h
+r600_query.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+r600_query.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+r600_query.o: /usr/include/sys/types.h /usr/include/bits/types.h
+r600_query.o: /usr/include/bits/typesizes.h /usr/include/time.h
+r600_query.o: /usr/include/sys/select.h /usr/include/bits/select.h
+r600_query.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+r600_query.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+r600_query.o: /usr/include/alloca.h /usr/include/string.h
+r600_query.o: /usr/include/xlocale.h
+r600_query.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+r600_query.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+r600_query.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+r600_query.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+r600_query.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+r600_query.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+r600_query.o: ../../../../src/gallium/include/pipe/p_context.h
+r600_query.o: ../../../../src/gallium/include/pipe/p_compiler.h
+r600_query.o: ../../../../src/gallium/include/pipe/p_format.h
+r600_query.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+r600_query.o: ../../../../src/gallium/include/pipe/p_defines.h
+r600_query.o: ../../../../src/gallium/include/pipe/p_state.h
+r600_query.o: ../../../../src/gallium/include/pipe/p_defines.h
+r600_query.o: ../../../../src/gallium/include/pipe/p_screen.h
+r600_query.o: ../../../../src/gallium/include/pipe/p_format.h
+r600_query.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+r600_query.o: ../../../../src/gallium/auxiliary/util/u_debug_describe.h
+r600_query.o: ../../../../src/gallium/auxiliary/util/u_debug_refcnt.h
+r600_query.o: ../../../../src/gallium/include/pipe/p_config.h
+r600_query.o: ../../../../src/gallium/auxiliary/util/u_atomic.h
+r600_query.o: ../../../../src/gallium/auxiliary/util/u_box.h
+r600_query.o: ../../../../src/gallium/auxiliary/util/u_math.h
+r600_query.o: /usr/include/math.h /usr/include/bits/huge_val.h
+r600_query.o: /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h
+r600_query.o: /usr/include/bits/inf.h /usr/include/bits/nan.h
+r600_query.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+r600_query.o: ../../../../src/gallium/auxiliary/util/u_slab.h
+r600_query.o: ../../../../src/gallium/auxiliary/os/os_thread.h
+r600_query.o: ../../../../src/gallium/auxiliary/os/os_time.h
+r600_query.o: ../../../../src/gallium/auxiliary/util/u_vbuf.h
+r600_query.o: ../../../../src/gallium/auxiliary/util/u_transfer.h r600.h
+r600_query.o: ../../../../src/gallium/auxiliary/util/u_double_list.h
+r600_query.o: r600_public.h r600_shader.h r600_asm.h r600_resource.h r600d.h
+r600_resource.o: r600_pipe.h ../../winsys/radeon/drm/radeon_winsys.h
+r600_resource.o: ../../../../src/gallium/auxiliary/pipebuffer/pb_bufmgr.h
+r600_resource.o: ../../../../src/gallium/auxiliary/pipebuffer/pb_buffer.h
+r600_resource.o: ../../../../src/gallium/include/pipe/p_compiler.h
+r600_resource.o: ../../../../src/gallium/include/pipe/p_config.h
+r600_resource.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+r600_resource.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+r600_resource.o: /usr/include/limits.h /usr/include/features.h
+r600_resource.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+r600_resource.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+r600_resource.o: /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h
+r600_resource.o: /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h
+r600_resource.o: /usr/include/endian.h /usr/include/bits/endian.h
+r600_resource.o: /usr/include/bits/byteswap.h /usr/include/stdlib.h
+r600_resource.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+r600_resource.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+r600_resource.o: /usr/include/sys/types.h /usr/include/bits/types.h
+r600_resource.o: /usr/include/bits/typesizes.h /usr/include/time.h
+r600_resource.o: /usr/include/sys/select.h /usr/include/bits/select.h
+r600_resource.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+r600_resource.o: /usr/include/sys/sysmacros.h
+r600_resource.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+r600_resource.o: /usr/include/string.h /usr/include/xlocale.h
+r600_resource.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+r600_resource.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+r600_resource.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+r600_resource.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+r600_resource.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+r600_resource.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+r600_resource.o: ../../../../src/gallium/include/pipe/p_context.h
+r600_resource.o: ../../../../src/gallium/include/pipe/p_compiler.h
+r600_resource.o: ../../../../src/gallium/include/pipe/p_format.h
+r600_resource.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+r600_resource.o: ../../../../src/gallium/include/pipe/p_defines.h
+r600_resource.o: ../../../../src/gallium/include/pipe/p_state.h
+r600_resource.o: ../../../../src/gallium/include/pipe/p_defines.h
+r600_resource.o: ../../../../src/gallium/include/pipe/p_screen.h
+r600_resource.o: ../../../../src/gallium/include/pipe/p_format.h
+r600_resource.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+r600_resource.o: ../../../../src/gallium/auxiliary/util/u_debug_describe.h
+r600_resource.o: ../../../../src/gallium/auxiliary/util/u_debug_refcnt.h
+r600_resource.o: ../../../../src/gallium/include/pipe/p_config.h
+r600_resource.o: ../../../../src/gallium/auxiliary/util/u_atomic.h
+r600_resource.o: ../../../../src/gallium/auxiliary/util/u_box.h
+r600_resource.o: ../../../../src/gallium/auxiliary/util/u_math.h
+r600_resource.o: /usr/include/math.h /usr/include/bits/huge_val.h
+r600_resource.o: /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h
+r600_resource.o: /usr/include/bits/inf.h /usr/include/bits/nan.h
+r600_resource.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+r600_resource.o: ../../../../src/gallium/auxiliary/util/u_slab.h
+r600_resource.o: ../../../../src/gallium/auxiliary/os/os_thread.h
+r600_resource.o: ../../../../src/gallium/auxiliary/os/os_time.h
+r600_resource.o: ../../../../src/gallium/auxiliary/util/u_vbuf.h
+r600_resource.o: ../../../../src/gallium/auxiliary/util/u_transfer.h r600.h
+r600_resource.o: ../../../../src/gallium/auxiliary/util/u_double_list.h
+r600_resource.o: r600_public.h r600_shader.h r600_asm.h r600_resource.h
+r600_shader.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+r600_shader.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_info.h
+r600_shader.o: ../../../../src/gallium/include/pipe/p_compiler.h
+r600_shader.o: ../../../../src/gallium/include/pipe/p_config.h
+r600_shader.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+r600_shader.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+r600_shader.o: /usr/include/limits.h /usr/include/features.h
+r600_shader.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+r600_shader.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+r600_shader.o: /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h
+r600_shader.o: /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h
+r600_shader.o: /usr/include/endian.h /usr/include/bits/endian.h
+r600_shader.o: /usr/include/bits/byteswap.h /usr/include/stdlib.h
+r600_shader.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+r600_shader.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+r600_shader.o: /usr/include/sys/types.h /usr/include/bits/types.h
+r600_shader.o: /usr/include/bits/typesizes.h /usr/include/time.h
+r600_shader.o: /usr/include/sys/select.h /usr/include/bits/select.h
+r600_shader.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+r600_shader.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+r600_shader.o: /usr/include/alloca.h /usr/include/string.h
+r600_shader.o: /usr/include/xlocale.h
+r600_shader.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+r600_shader.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+r600_shader.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+r600_shader.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_parse.h
+r600_shader.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+r600_shader.o: ../../../../src/gallium/include/pipe/p_state.h
+r600_shader.o: ../../../../src/gallium/include/pipe/p_compiler.h
+r600_shader.o: ../../../../src/gallium/include/pipe/p_defines.h
+r600_shader.o: ../../../../src/gallium/include/pipe/p_format.h
+r600_shader.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_dump.h
+r600_shader.o: ../../../../src/gallium/include/pipe/p_defines.h
+r600_shader.o: ../../../../src/gallium/auxiliary/util/u_format.h
+r600_shader.o: ../../../../src/gallium/include/pipe/p_format.h
+r600_shader.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+r600_shader.o: ../../../../src/gallium/auxiliary/os/os_misc.h r600_pipe.h
+r600_shader.o: ../../winsys/radeon/drm/radeon_winsys.h
+r600_shader.o: ../../../../src/gallium/auxiliary/pipebuffer/pb_bufmgr.h
+r600_shader.o: ../../../../src/gallium/auxiliary/pipebuffer/pb_buffer.h
+r600_shader.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+r600_shader.o: ../../../../src/gallium/include/pipe/p_context.h
+r600_shader.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+r600_shader.o: ../../../../src/gallium/include/pipe/p_screen.h
+r600_shader.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+r600_shader.o: ../../../../src/gallium/auxiliary/util/u_debug_describe.h
+r600_shader.o: ../../../../src/gallium/auxiliary/util/u_debug_refcnt.h
+r600_shader.o: ../../../../src/gallium/include/pipe/p_config.h
+r600_shader.o: ../../../../src/gallium/auxiliary/util/u_atomic.h
+r600_shader.o: ../../../../src/gallium/auxiliary/util/u_box.h
+r600_shader.o: ../../../../src/gallium/auxiliary/util/u_math.h
+r600_shader.o: /usr/include/math.h /usr/include/bits/huge_val.h
+r600_shader.o: /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h
+r600_shader.o: /usr/include/bits/inf.h /usr/include/bits/nan.h
+r600_shader.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+r600_shader.o: ../../../../src/gallium/auxiliary/util/u_slab.h
+r600_shader.o: ../../../../src/gallium/auxiliary/os/os_thread.h
+r600_shader.o: ../../../../src/gallium/auxiliary/os/os_time.h
+r600_shader.o: ../../../../src/gallium/auxiliary/util/u_vbuf.h
+r600_shader.o: ../../../../src/gallium/auxiliary/util/u_transfer.h r600.h
+r600_shader.o: ../../../../src/gallium/auxiliary/util/u_double_list.h
+r600_shader.o: r600_public.h r600_shader.h r600_asm.h r600_resource.h
+r600_shader.o: r600_sq.h r600_formats.h r600_opcodes.h r600d.h
+r600_shader.o: /usr/include/stdio.h /usr/include/libio.h
+r600_shader.o: /usr/include/_G_config.h /usr/include/wchar.h
+r600_shader.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+r600_shader.o: /usr/include/errno.h /usr/include/bits/errno.h
+r600_shader.o: /usr/include/linux/errno.h /usr/include/asm/errno.h
+r600_shader.o: /usr/include/asm-generic/errno.h
+r600_shader.o: /usr/include/asm-generic/errno-base.h /usr/include/byteswap.h
+r600_state.o: /usr/include/stdio.h /usr/include/features.h
+r600_state.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+r600_state.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+r600_state.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+r600_state.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+r600_state.o: /usr/include/libio.h /usr/include/_G_config.h
+r600_state.o: /usr/include/wchar.h
+r600_state.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+r600_state.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+r600_state.o: /usr/include/errno.h /usr/include/bits/errno.h
+r600_state.o: /usr/include/linux/errno.h /usr/include/asm/errno.h
+r600_state.o: /usr/include/asm-generic/errno.h
+r600_state.o: /usr/include/asm-generic/errno-base.h
+r600_state.o: ../../../../src/gallium/include/pipe/p_defines.h
+r600_state.o: ../../../../src/gallium/include/pipe/p_compiler.h
+r600_state.o: ../../../../src/gallium/include/pipe/p_state.h
+r600_state.o: ../../../../src/gallium/include/pipe/p_defines.h
+r600_state.o: ../../../../src/gallium/include/pipe/p_format.h
+r600_state.o: ../../../../src/gallium/include/pipe/p_context.h
+r600_state.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+r600_state.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+r600_state.o: ../../../../src/gallium/include/pipe/p_compiler.h
+r600_state.o: ../../../../src/gallium/include/pipe/p_config.h
+r600_state.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+r600_state.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+r600_state.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+r600_state.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+r600_state.o: /usr/include/bits/posix2_lim.h /usr/include/endian.h
+r600_state.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+r600_state.o: /usr/include/stdlib.h /usr/include/bits/waitflags.h
+r600_state.o: /usr/include/bits/waitstatus.h /usr/include/sys/types.h
+r600_state.o: /usr/include/time.h /usr/include/sys/select.h
+r600_state.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+r600_state.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+r600_state.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+r600_state.o: /usr/include/string.h /usr/include/xlocale.h
+r600_state.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+r600_state.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+r600_state.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+r600_state.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_parse.h
+r600_state.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_util.h
+r600_state.o: ../../../../src/gallium/auxiliary/util/u_double_list.h
+r600_state.o: ../../../../src/gallium/auxiliary/util/u_pack_color.h
+r600_state.o: ../../../../src/gallium/include/pipe/p_format.h
+r600_state.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+r600_state.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+r600_state.o: ../../../../src/gallium/auxiliary/util/u_format.h
+r600_state.o: ../../../../src/gallium/auxiliary/util/u_math.h
+r600_state.o: /usr/include/math.h /usr/include/bits/huge_val.h
+r600_state.o: /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h
+r600_state.o: /usr/include/bits/inf.h /usr/include/bits/nan.h
+r600_state.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+r600_state.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+r600_state.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+r600_state.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+r600_state.o: ../../../../src/gallium/include/pipe/p_config.h
+r600_state.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+r600_state.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+r600_state.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+r600_state.o: ../../../../src/gallium/include/pipe/p_screen.h
+r600_state.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+r600_state.o: ../../../../src/gallium/auxiliary/util/u_debug_describe.h
+r600_state.o: ../../../../src/gallium/auxiliary/util/u_debug_refcnt.h
+r600_state.o: ../../../../src/gallium/auxiliary/util/u_atomic.h
+r600_state.o: ../../../../src/gallium/auxiliary/util/u_box.h
+r600_state.o: ../../../../src/gallium/auxiliary/util/u_framebuffer.h
+r600_state.o: ../../../../src/gallium/auxiliary/util/u_transfer.h
+r600_state.o: ../../../../src/gallium/auxiliary/pipebuffer/pb_buffer.h r600.h
+r600_state.o: ../../winsys/radeon/drm/radeon_winsys.h
+r600_state.o: ../../../../src/gallium/auxiliary/pipebuffer/pb_bufmgr.h
+r600_state.o: ../../../../src/gallium/auxiliary/pipebuffer/pb_buffer.h
+r600_state.o: ../../../../src/gallium/auxiliary/util/u_vbuf.h r600d.h
+r600_state.o: r600_resource.h r600_shader.h r600_asm.h r600_pipe.h
+r600_state.o: ../../../../src/gallium/auxiliary/util/u_slab.h
+r600_state.o: ../../../../src/gallium/auxiliary/os/os_thread.h
+r600_state.o: ../../../../src/gallium/auxiliary/os/os_time.h r600_public.h
+r600_state.o: r600_formats.h
+r600_texture.o: /usr/include/errno.h /usr/include/features.h
+r600_texture.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+r600_texture.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+r600_texture.o: /usr/include/bits/errno.h /usr/include/linux/errno.h
+r600_texture.o: /usr/include/asm/errno.h /usr/include/asm-generic/errno.h
+r600_texture.o: /usr/include/asm-generic/errno-base.h
+r600_texture.o: ../../../../src/gallium/include/pipe/p_screen.h
+r600_texture.o: ../../../../src/gallium/include/pipe/p_compiler.h
+r600_texture.o: ../../../../src/gallium/include/pipe/p_config.h
+r600_texture.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+r600_texture.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+r600_texture.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+r600_texture.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+r600_texture.o: /usr/include/bits/posix2_lim.h /usr/include/endian.h
+r600_texture.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+r600_texture.o: /usr/include/stdlib.h
+r600_texture.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+r600_texture.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+r600_texture.o: /usr/include/sys/types.h /usr/include/bits/types.h
+r600_texture.o: /usr/include/bits/typesizes.h /usr/include/time.h
+r600_texture.o: /usr/include/sys/select.h /usr/include/bits/select.h
+r600_texture.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+r600_texture.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+r600_texture.o: /usr/include/alloca.h /usr/include/string.h
+r600_texture.o: /usr/include/xlocale.h
+r600_texture.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+r600_texture.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+r600_texture.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+r600_texture.o: ../../../../src/gallium/include/pipe/p_format.h
+r600_texture.o: ../../../../src/gallium/include/pipe/p_defines.h
+r600_texture.o: ../../../../src/gallium/include/pipe/p_compiler.h
+r600_texture.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+r600_texture.o: ../../../../src/gallium/auxiliary/util/u_format.h
+r600_texture.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+r600_texture.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+r600_texture.o: ../../../../src/gallium/auxiliary/util/u_format_s3tc.h
+r600_texture.o: ../../../../src/gallium/auxiliary/util/u_math.h
+r600_texture.o: /usr/include/math.h /usr/include/bits/huge_val.h
+r600_texture.o: /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h
+r600_texture.o: /usr/include/bits/inf.h /usr/include/bits/nan.h
+r600_texture.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+r600_texture.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+r600_texture.o: ../../../../src/gallium/include/pipe/p_context.h
+r600_texture.o: ../../../../src/gallium/include/pipe/p_format.h
+r600_texture.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+r600_texture.o: ../../../../src/gallium/include/pipe/p_state.h
+r600_texture.o: ../../../../src/gallium/include/pipe/p_defines.h
+r600_texture.o: ../../../../src/gallium/auxiliary/util/u_debug_describe.h
+r600_texture.o: ../../../../src/gallium/auxiliary/util/u_debug_refcnt.h
+r600_texture.o: ../../../../src/gallium/include/pipe/p_config.h
+r600_texture.o: ../../../../src/gallium/auxiliary/util/u_atomic.h
+r600_texture.o: ../../../../src/gallium/auxiliary/util/u_box.h
+r600_texture.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+r600_texture.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+r600_texture.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+r600_texture.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+r600_texture.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+r600_texture.o: ../../../../src/gallium/auxiliary/pipebuffer/pb_buffer.h
+r600_texture.o: r600_pipe.h ../../winsys/radeon/drm/radeon_winsys.h
+r600_texture.o: ../../../../src/gallium/auxiliary/pipebuffer/pb_bufmgr.h
+r600_texture.o: ../../../../src/gallium/auxiliary/pipebuffer/pb_buffer.h
+r600_texture.o: ../../../../src/gallium/auxiliary/util/u_slab.h
+r600_texture.o: ../../../../src/gallium/auxiliary/os/os_thread.h
+r600_texture.o: ../../../../src/gallium/auxiliary/os/os_time.h
+r600_texture.o: ../../../../src/gallium/auxiliary/util/u_vbuf.h
+r600_texture.o: ../../../../src/gallium/auxiliary/util/u_transfer.h r600.h
+r600_texture.o: ../../../../src/gallium/auxiliary/util/u_double_list.h
+r600_texture.o: r600_public.h r600_shader.h r600_asm.h r600_resource.h
+r600_texture.o: r600d.h r600_formats.h
+r700_asm.o: /usr/include/stdio.h /usr/include/features.h
+r700_asm.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+r700_asm.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+r700_asm.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+r700_asm.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+r700_asm.o: /usr/include/libio.h /usr/include/_G_config.h
+r700_asm.o: /usr/include/wchar.h
+r700_asm.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+r700_asm.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+r700_asm.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+r700_asm.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+r700_asm.o: ../../../../src/gallium/include/pipe/p_compiler.h
+r700_asm.o: ../../../../src/gallium/include/pipe/p_config.h
+r700_asm.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+r700_asm.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+r700_asm.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+r700_asm.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+r700_asm.o: /usr/include/bits/posix2_lim.h /usr/include/endian.h
+r700_asm.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+r700_asm.o: /usr/include/stdlib.h /usr/include/bits/waitflags.h
+r700_asm.o: /usr/include/bits/waitstatus.h /usr/include/sys/types.h
+r700_asm.o: /usr/include/time.h /usr/include/sys/select.h
+r700_asm.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+r700_asm.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+r700_asm.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+r700_asm.o: /usr/include/string.h /usr/include/xlocale.h
+r700_asm.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+r700_asm.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+r700_asm.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+r700_asm.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+r700_asm.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+r700_asm.o: ../../../../src/gallium/include/pipe/p_config.h
+r700_asm.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+r700_asm.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+r700_asm.o: r600_pipe.h ../../winsys/radeon/drm/radeon_winsys.h
+r700_asm.o: ../../../../src/gallium/auxiliary/pipebuffer/pb_bufmgr.h
+r700_asm.o: ../../../../src/gallium/auxiliary/pipebuffer/pb_buffer.h
+r700_asm.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+r700_asm.o: ../../../../src/gallium/include/pipe/p_context.h
+r700_asm.o: ../../../../src/gallium/include/pipe/p_compiler.h
+r700_asm.o: ../../../../src/gallium/include/pipe/p_format.h
+r700_asm.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+r700_asm.o: ../../../../src/gallium/include/pipe/p_defines.h
+r700_asm.o: ../../../../src/gallium/include/pipe/p_state.h
+r700_asm.o: ../../../../src/gallium/include/pipe/p_defines.h
+r700_asm.o: ../../../../src/gallium/include/pipe/p_screen.h
+r700_asm.o: ../../../../src/gallium/include/pipe/p_format.h
+r700_asm.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+r700_asm.o: ../../../../src/gallium/auxiliary/util/u_debug_describe.h
+r700_asm.o: ../../../../src/gallium/auxiliary/util/u_debug_refcnt.h
+r700_asm.o: ../../../../src/gallium/auxiliary/util/u_atomic.h
+r700_asm.o: ../../../../src/gallium/auxiliary/util/u_box.h
+r700_asm.o: ../../../../src/gallium/auxiliary/util/u_math.h
+r700_asm.o: /usr/include/math.h /usr/include/bits/huge_val.h
+r700_asm.o: /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h
+r700_asm.o: /usr/include/bits/inf.h /usr/include/bits/nan.h
+r700_asm.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+r700_asm.o: ../../../../src/gallium/auxiliary/util/u_slab.h
+r700_asm.o: ../../../../src/gallium/auxiliary/os/os_thread.h
+r700_asm.o: ../../../../src/gallium/auxiliary/os/os_time.h
+r700_asm.o: ../../../../src/gallium/auxiliary/util/u_vbuf.h
+r700_asm.o: ../../../../src/gallium/auxiliary/util/u_transfer.h r600.h
+r700_asm.o: ../../../../src/gallium/auxiliary/util/u_double_list.h
+r700_asm.o: r600_public.h r600_shader.h r600_asm.h r600_resource.h r700_sq.h
+evergreen_hw_context.o: r600.h ../../winsys/radeon/drm/radeon_winsys.h
+evergreen_hw_context.o: ../../../../src/gallium/auxiliary/pipebuffer/pb_bufmgr.h
+evergreen_hw_context.o: ../../../../src/gallium/auxiliary/pipebuffer/pb_buffer.h
+evergreen_hw_context.o: ../../../../src/gallium/include/pipe/p_compiler.h
+evergreen_hw_context.o: ../../../../src/gallium/include/pipe/p_config.h
+evergreen_hw_context.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+evergreen_hw_context.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+evergreen_hw_context.o: /usr/include/limits.h /usr/include/features.h
+evergreen_hw_context.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+evergreen_hw_context.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+evergreen_hw_context.o: /usr/include/bits/posix1_lim.h
+evergreen_hw_context.o: /usr/include/bits/local_lim.h
+evergreen_hw_context.o: /usr/include/linux/limits.h
+evergreen_hw_context.o: /usr/include/bits/posix2_lim.h /usr/include/endian.h
+evergreen_hw_context.o: /usr/include/bits/endian.h
+evergreen_hw_context.o: /usr/include/bits/byteswap.h /usr/include/stdlib.h
+evergreen_hw_context.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+evergreen_hw_context.o: /usr/include/bits/waitflags.h
+evergreen_hw_context.o: /usr/include/bits/waitstatus.h
+evergreen_hw_context.o: /usr/include/sys/types.h /usr/include/bits/types.h
+evergreen_hw_context.o: /usr/include/bits/typesizes.h /usr/include/time.h
+evergreen_hw_context.o: /usr/include/sys/select.h /usr/include/bits/select.h
+evergreen_hw_context.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+evergreen_hw_context.o: /usr/include/sys/sysmacros.h
+evergreen_hw_context.o: /usr/include/bits/pthreadtypes.h
+evergreen_hw_context.o: /usr/include/alloca.h /usr/include/string.h
+evergreen_hw_context.o: /usr/include/xlocale.h
+evergreen_hw_context.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+evergreen_hw_context.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+evergreen_hw_context.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+evergreen_hw_context.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+evergreen_hw_context.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+evergreen_hw_context.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+evergreen_hw_context.o: ../../../../src/gallium/include/pipe/p_context.h
+evergreen_hw_context.o: ../../../../src/gallium/include/pipe/p_compiler.h
+evergreen_hw_context.o: ../../../../src/gallium/include/pipe/p_format.h
+evergreen_hw_context.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+evergreen_hw_context.o: ../../../../src/gallium/include/pipe/p_defines.h
+evergreen_hw_context.o: ../../../../src/gallium/include/pipe/p_state.h
+evergreen_hw_context.o: ../../../../src/gallium/include/pipe/p_defines.h
+evergreen_hw_context.o: ../../../../src/gallium/include/pipe/p_screen.h
+evergreen_hw_context.o: ../../../../src/gallium/include/pipe/p_format.h
+evergreen_hw_context.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+evergreen_hw_context.o: ../../../../src/gallium/auxiliary/util/u_debug_describe.h
+evergreen_hw_context.o: ../../../../src/gallium/auxiliary/util/u_debug_refcnt.h
+evergreen_hw_context.o: ../../../../src/gallium/include/pipe/p_config.h
+evergreen_hw_context.o: ../../../../src/gallium/auxiliary/util/u_atomic.h
+evergreen_hw_context.o: ../../../../src/gallium/auxiliary/util/u_box.h
+evergreen_hw_context.o: ../../../../src/gallium/auxiliary/util/u_math.h
+evergreen_hw_context.o: /usr/include/math.h /usr/include/bits/huge_val.h
+evergreen_hw_context.o: /usr/include/bits/huge_valf.h
+evergreen_hw_context.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+evergreen_hw_context.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+evergreen_hw_context.o: /usr/include/bits/mathcalls.h
+evergreen_hw_context.o: ../../../../src/gallium/auxiliary/util/u_double_list.h
+evergreen_hw_context.o: ../../../../src/gallium/auxiliary/util/u_vbuf.h
+evergreen_hw_context.o: ../../../../src/gallium/auxiliary/util/u_transfer.h
+evergreen_hw_context.o: r600_hw_context_priv.h r600_pipe.h
+evergreen_hw_context.o: ../../../../src/gallium/auxiliary/util/u_slab.h
+evergreen_hw_context.o: ../../../../src/gallium/auxiliary/os/os_thread.h
+evergreen_hw_context.o: ../../../../src/gallium/auxiliary/os/os_time.h
+evergreen_hw_context.o: r600_public.h r600_shader.h r600_asm.h
+evergreen_hw_context.o: r600_resource.h
+evergreen_hw_context.o: ../../../../src/gallium/auxiliary/util/u_hash_table.h
+evergreen_hw_context.o: evergreend.h
+evergreen_hw_context.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+evergreen_hw_context.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+evergreen_hw_context.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+evergreen_hw_context.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+evergreen_hw_context.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+evergreen_hw_context.o: /usr/include/errno.h /usr/include/bits/errno.h
+evergreen_hw_context.o: /usr/include/linux/errno.h /usr/include/asm/errno.h
+evergreen_hw_context.o: /usr/include/asm-generic/errno.h
+evergreen_hw_context.o: /usr/include/asm-generic/errno-base.h
+evergreen_state.o: /usr/include/stdio.h /usr/include/features.h
+evergreen_state.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+evergreen_state.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+evergreen_state.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+evergreen_state.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+evergreen_state.o: /usr/include/libio.h /usr/include/_G_config.h
+evergreen_state.o: /usr/include/wchar.h
+evergreen_state.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+evergreen_state.o: /usr/include/bits/stdio_lim.h
+evergreen_state.o: /usr/include/bits/sys_errlist.h /usr/include/errno.h
+evergreen_state.o: /usr/include/bits/errno.h /usr/include/linux/errno.h
+evergreen_state.o: /usr/include/asm/errno.h /usr/include/asm-generic/errno.h
+evergreen_state.o: /usr/include/asm-generic/errno-base.h
+evergreen_state.o: ../../../../src/gallium/include/pipe/p_defines.h
+evergreen_state.o: ../../../../src/gallium/include/pipe/p_compiler.h
+evergreen_state.o: ../../../../src/gallium/include/pipe/p_state.h
+evergreen_state.o: ../../../../src/gallium/include/pipe/p_defines.h
+evergreen_state.o: ../../../../src/gallium/include/pipe/p_format.h
+evergreen_state.o: ../../../../src/gallium/include/pipe/p_context.h
+evergreen_state.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+evergreen_state.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_scan.h
+evergreen_state.o: ../../../../src/gallium/include/pipe/p_compiler.h
+evergreen_state.o: ../../../../src/gallium/include/pipe/p_config.h
+evergreen_state.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+evergreen_state.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+evergreen_state.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+evergreen_state.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+evergreen_state.o: /usr/include/bits/posix2_lim.h /usr/include/endian.h
+evergreen_state.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+evergreen_state.o: /usr/include/stdlib.h /usr/include/bits/waitflags.h
+evergreen_state.o: /usr/include/bits/waitstatus.h /usr/include/sys/types.h
+evergreen_state.o: /usr/include/time.h /usr/include/sys/select.h
+evergreen_state.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+evergreen_state.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+evergreen_state.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+evergreen_state.o: /usr/include/string.h /usr/include/xlocale.h
+evergreen_state.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+evergreen_state.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+evergreen_state.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+evergreen_state.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_parse.h
+evergreen_state.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_util.h
+evergreen_state.o: ../../../../src/gallium/auxiliary/util/u_blitter.h
+evergreen_state.o: ../../../../src/gallium/auxiliary/util/u_framebuffer.h
+evergreen_state.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+evergreen_state.o: ../../../../src/gallium/include/pipe/p_screen.h
+evergreen_state.o: ../../../../src/gallium/include/pipe/p_format.h
+evergreen_state.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+evergreen_state.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+evergreen_state.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+evergreen_state.o: ../../../../src/gallium/auxiliary/util/u_debug_describe.h
+evergreen_state.o: ../../../../src/gallium/auxiliary/util/u_debug_refcnt.h
+evergreen_state.o: ../../../../src/gallium/include/pipe/p_config.h
+evergreen_state.o: ../../../../src/gallium/auxiliary/util/u_atomic.h
+evergreen_state.o: ../../../../src/gallium/auxiliary/util/u_box.h
+evergreen_state.o: ../../../../src/gallium/auxiliary/util/u_math.h
+evergreen_state.o: /usr/include/math.h /usr/include/bits/huge_val.h
+evergreen_state.o: /usr/include/bits/huge_valf.h
+evergreen_state.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+evergreen_state.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+evergreen_state.o: /usr/include/bits/mathcalls.h
+evergreen_state.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+evergreen_state.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+evergreen_state.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+evergreen_state.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+evergreen_state.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+evergreen_state.o: ../../../../src/gallium/auxiliary/util/u_double_list.h
+evergreen_state.o: ../../../../src/gallium/auxiliary/util/u_transfer.h
+evergreen_state.o: ../../../../src/gallium/auxiliary/util/u_surface.h
+evergreen_state.o: ../../../../src/gallium/auxiliary/util/u_pack_color.h
+evergreen_state.o: ../../../../src/gallium/auxiliary/util/u_format.h
+evergreen_state.o: ../../../../src/gallium/auxiliary/pipebuffer/pb_buffer.h
+evergreen_state.o: r600.h ../../winsys/radeon/drm/radeon_winsys.h
+evergreen_state.o: ../../../../src/gallium/auxiliary/pipebuffer/pb_bufmgr.h
+evergreen_state.o: ../../../../src/gallium/auxiliary/pipebuffer/pb_buffer.h
+evergreen_state.o: ../../../../src/gallium/auxiliary/util/u_vbuf.h
+evergreen_state.o: evergreend.h r600_resource.h r600_shader.h r600_asm.h
+evergreen_state.o: r600_pipe.h
+evergreen_state.o: ../../../../src/gallium/auxiliary/util/u_slab.h
+evergreen_state.o: ../../../../src/gallium/auxiliary/os/os_thread.h
+evergreen_state.o: ../../../../src/gallium/auxiliary/os/os_time.h
+evergreen_state.o: r600_public.h r600_formats.h
+eg_asm.o: /usr/include/stdio.h /usr/include/features.h
+eg_asm.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+eg_asm.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+eg_asm.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+eg_asm.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+eg_asm.o: /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h
+eg_asm.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+eg_asm.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+eg_asm.o: /usr/include/errno.h /usr/include/bits/errno.h
+eg_asm.o: /usr/include/linux/errno.h /usr/include/asm/errno.h
+eg_asm.o: /usr/include/asm-generic/errno.h
+eg_asm.o: /usr/include/asm-generic/errno-base.h
+eg_asm.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+eg_asm.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+eg_asm.o: ../../../../src/gallium/include/pipe/p_compiler.h
+eg_asm.o: ../../../../src/gallium/include/pipe/p_config.h
+eg_asm.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+eg_asm.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+eg_asm.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+eg_asm.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+eg_asm.o: /usr/include/bits/posix2_lim.h /usr/include/endian.h
+eg_asm.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+eg_asm.o: /usr/include/stdlib.h /usr/include/bits/waitflags.h
+eg_asm.o: /usr/include/bits/waitstatus.h /usr/include/sys/types.h
+eg_asm.o: /usr/include/time.h /usr/include/sys/select.h
+eg_asm.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+eg_asm.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+eg_asm.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+eg_asm.o: /usr/include/string.h /usr/include/xlocale.h /usr/include/stdint.h
+eg_asm.o: /usr/include/bits/wchar.h
+eg_asm.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+eg_asm.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+eg_asm.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+eg_asm.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+eg_asm.o: ../../../../src/gallium/include/pipe/p_config.h
+eg_asm.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+eg_asm.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+eg_asm.o: r600_pipe.h ../../winsys/radeon/drm/radeon_winsys.h
+eg_asm.o: ../../../../src/gallium/auxiliary/pipebuffer/pb_bufmgr.h
+eg_asm.o: ../../../../src/gallium/auxiliary/pipebuffer/pb_buffer.h
+eg_asm.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+eg_asm.o: ../../../../src/gallium/include/pipe/p_context.h
+eg_asm.o: ../../../../src/gallium/include/pipe/p_compiler.h
+eg_asm.o: ../../../../src/gallium/include/pipe/p_format.h
+eg_asm.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+eg_asm.o: ../../../../src/gallium/include/pipe/p_defines.h
+eg_asm.o: ../../../../src/gallium/include/pipe/p_state.h
+eg_asm.o: ../../../../src/gallium/include/pipe/p_defines.h
+eg_asm.o: ../../../../src/gallium/include/pipe/p_screen.h
+eg_asm.o: ../../../../src/gallium/include/pipe/p_format.h
+eg_asm.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+eg_asm.o: ../../../../src/gallium/auxiliary/util/u_debug_describe.h
+eg_asm.o: ../../../../src/gallium/auxiliary/util/u_debug_refcnt.h
+eg_asm.o: ../../../../src/gallium/auxiliary/util/u_atomic.h
+eg_asm.o: ../../../../src/gallium/auxiliary/util/u_box.h
+eg_asm.o: ../../../../src/gallium/auxiliary/util/u_math.h /usr/include/math.h
+eg_asm.o: /usr/include/bits/huge_val.h /usr/include/bits/huge_valf.h
+eg_asm.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+eg_asm.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+eg_asm.o: /usr/include/bits/mathcalls.h
+eg_asm.o: ../../../../src/gallium/auxiliary/util/u_slab.h
+eg_asm.o: ../../../../src/gallium/auxiliary/os/os_thread.h
+eg_asm.o: ../../../../src/gallium/auxiliary/os/os_time.h
+eg_asm.o: ../../../../src/gallium/auxiliary/util/u_vbuf.h
+eg_asm.o: ../../../../src/gallium/auxiliary/util/u_transfer.h r600.h
+eg_asm.o: ../../../../src/gallium/auxiliary/util/u_double_list.h
+eg_asm.o: r600_public.h r600_shader.h r600_asm.h r600_resource.h eg_sq.h
+eg_asm.o: r600_opcodes.h evergreend.h
+r600_translate.o: ../../../../src/gallium/auxiliary/util/u_index_modify.h
+r600_translate.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+r600_translate.o: ../../../../src/gallium/include/pipe/p_context.h
+r600_translate.o: ../../../../src/gallium/include/pipe/p_compiler.h
+r600_translate.o: ../../../../src/gallium/include/pipe/p_format.h
+r600_translate.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+r600_translate.o: ../../../../src/gallium/include/pipe/p_defines.h
+r600_translate.o: ../../../../src/gallium/include/pipe/p_state.h
+r600_translate.o: ../../../../src/gallium/include/pipe/p_defines.h
+r600_translate.o: ../../../../src/gallium/include/pipe/p_screen.h
+r600_translate.o: ../../../../src/gallium/include/pipe/p_compiler.h
+r600_translate.o: ../../../../src/gallium/include/pipe/p_config.h
+r600_translate.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+r600_translate.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+r600_translate.o: /usr/include/limits.h /usr/include/features.h
+r600_translate.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+r600_translate.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+r600_translate.o: /usr/include/bits/posix1_lim.h
+r600_translate.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+r600_translate.o: /usr/include/bits/posix2_lim.h /usr/include/endian.h
+r600_translate.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+r600_translate.o: /usr/include/stdlib.h
+r600_translate.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+r600_translate.o: /usr/include/bits/waitflags.h
+r600_translate.o: /usr/include/bits/waitstatus.h /usr/include/sys/types.h
+r600_translate.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+r600_translate.o: /usr/include/time.h /usr/include/sys/select.h
+r600_translate.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+r600_translate.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+r600_translate.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+r600_translate.o: /usr/include/string.h /usr/include/xlocale.h
+r600_translate.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+r600_translate.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+r600_translate.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+r600_translate.o: ../../../../src/gallium/include/pipe/p_format.h
+r600_translate.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+r600_translate.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+r600_translate.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+r600_translate.o: ../../../../src/gallium/auxiliary/util/u_debug_describe.h
+r600_translate.o: ../../../../src/gallium/auxiliary/util/u_debug_refcnt.h
+r600_translate.o: ../../../../src/gallium/include/pipe/p_config.h
+r600_translate.o: ../../../../src/gallium/auxiliary/util/u_atomic.h
+r600_translate.o: ../../../../src/gallium/auxiliary/util/u_box.h
+r600_translate.o: ../../../../src/gallium/auxiliary/util/u_math.h
+r600_translate.o: /usr/include/math.h /usr/include/bits/huge_val.h
+r600_translate.o: /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h
+r600_translate.o: /usr/include/bits/inf.h /usr/include/bits/nan.h
+r600_translate.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+r600_translate.o: ../../../../src/gallium/auxiliary/util/u_upload_mgr.h
+r600_translate.o: r600_pipe.h ../../winsys/radeon/drm/radeon_winsys.h
+r600_translate.o: ../../../../src/gallium/auxiliary/pipebuffer/pb_bufmgr.h
+r600_translate.o: ../../../../src/gallium/auxiliary/pipebuffer/pb_buffer.h
+r600_translate.o: ../../../../src/gallium/auxiliary/util/u_slab.h
+r600_translate.o: ../../../../src/gallium/auxiliary/os/os_thread.h
+r600_translate.o: ../../../../src/gallium/auxiliary/os/os_time.h
+r600_translate.o: ../../../../src/gallium/auxiliary/util/u_vbuf.h
+r600_translate.o: ../../../../src/gallium/auxiliary/util/u_transfer.h r600.h
+r600_translate.o: ../../../../src/gallium/auxiliary/util/u_double_list.h
+r600_translate.o: r600_public.h r600_shader.h r600_asm.h r600_resource.h
+r600_state_common.o: ../../../../src/gallium/auxiliary/util/u_blitter.h
+r600_state_common.o: ../../../../src/gallium/auxiliary/util/u_framebuffer.h
+r600_state_common.o: ../../../../src/gallium/include/pipe/p_compiler.h
+r600_state_common.o: ../../../../src/gallium/include/pipe/p_config.h
+r600_state_common.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+r600_state_common.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+r600_state_common.o: /usr/include/limits.h /usr/include/features.h
+r600_state_common.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+r600_state_common.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+r600_state_common.o: /usr/include/bits/posix1_lim.h
+r600_state_common.o: /usr/include/bits/local_lim.h
+r600_state_common.o: /usr/include/linux/limits.h
+r600_state_common.o: /usr/include/bits/posix2_lim.h /usr/include/endian.h
+r600_state_common.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+r600_state_common.o: /usr/include/stdlib.h
+r600_state_common.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+r600_state_common.o: /usr/include/bits/waitflags.h
+r600_state_common.o: /usr/include/bits/waitstatus.h /usr/include/sys/types.h
+r600_state_common.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+r600_state_common.o: /usr/include/time.h /usr/include/sys/select.h
+r600_state_common.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+r600_state_common.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+r600_state_common.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+r600_state_common.o: /usr/include/string.h /usr/include/xlocale.h
+r600_state_common.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+r600_state_common.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+r600_state_common.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+r600_state_common.o: ../../../../src/gallium/include/pipe/p_state.h
+r600_state_common.o: ../../../../src/gallium/include/pipe/p_compiler.h
+r600_state_common.o: ../../../../src/gallium/include/pipe/p_defines.h
+r600_state_common.o: ../../../../src/gallium/include/pipe/p_format.h
+r600_state_common.o: ../../../../src/gallium/auxiliary/util/u_inlines.h
+r600_state_common.o: ../../../../src/gallium/include/pipe/p_context.h
+r600_state_common.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+r600_state_common.o: ../../../../src/gallium/include/pipe/p_defines.h
+r600_state_common.o: ../../../../src/gallium/include/pipe/p_screen.h
+r600_state_common.o: ../../../../src/gallium/include/pipe/p_format.h
+r600_state_common.o: ../../../../src/gallium/include/pipe/p_video_enums.h
+r600_state_common.o: ../../../../src/gallium/auxiliary/util/u_debug.h
+r600_state_common.o: ../../../../src/gallium/auxiliary/os/os_misc.h
+r600_state_common.o: ../../../../src/gallium/auxiliary/util/u_debug_describe.h
+r600_state_common.o: ../../../../src/gallium/auxiliary/util/u_debug_refcnt.h
+r600_state_common.o: ../../../../src/gallium/include/pipe/p_config.h
+r600_state_common.o: ../../../../src/gallium/auxiliary/util/u_atomic.h
+r600_state_common.o: ../../../../src/gallium/auxiliary/util/u_box.h
+r600_state_common.o: ../../../../src/gallium/auxiliary/util/u_math.h
+r600_state_common.o: /usr/include/math.h /usr/include/bits/huge_val.h
+r600_state_common.o: /usr/include/bits/huge_valf.h
+r600_state_common.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+r600_state_common.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+r600_state_common.o: /usr/include/bits/mathcalls.h
+r600_state_common.o: ../../../../src/gallium/auxiliary/util/u_memory.h
+r600_state_common.o: ../../../../src/gallium/auxiliary/util/u_pointer.h
+r600_state_common.o: ../../../../src/gallium/auxiliary/os/os_memory.h
+r600_state_common.o: ../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+r600_state_common.o: ../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+r600_state_common.o: ../../../../src/gallium/auxiliary/util/u_format.h
+r600_state_common.o: ../../../../src/gallium/auxiliary/pipebuffer/pb_buffer.h
+r600_state_common.o: ../../../../src/gallium/include/pipe/p_shader_tokens.h
+r600_state_common.o: ../../../../src/gallium/auxiliary/tgsi/tgsi_parse.h
+r600_state_common.o: r600_formats.h r600_pipe.h
+r600_state_common.o: ../../winsys/radeon/drm/radeon_winsys.h
+r600_state_common.o: ../../../../src/gallium/auxiliary/pipebuffer/pb_bufmgr.h
+r600_state_common.o: ../../../../src/gallium/auxiliary/pipebuffer/pb_buffer.h
+r600_state_common.o: ../../../../src/gallium/auxiliary/util/u_slab.h
+r600_state_common.o: ../../../../src/gallium/auxiliary/os/os_thread.h
+r600_state_common.o: ../../../../src/gallium/auxiliary/os/os_time.h
+r600_state_common.o: ../../../../src/gallium/auxiliary/util/u_vbuf.h
+r600_state_common.o: ../../../../src/gallium/auxiliary/util/u_transfer.h
+r600_state_common.o: r600.h
+r600_state_common.o: ../../../../src/gallium/auxiliary/util/u_double_list.h
+r600_state_common.o: r600_public.h r600_shader.h r600_asm.h r600_resource.h
+r600_state_common.o: r600d.h

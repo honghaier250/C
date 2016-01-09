@@ -1,0 +1,2535 @@
+# DO NOT DELETE
+
+../common/utils.o: /usr/include/string.h /usr/include/features.h
+../common/utils.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+../common/utils.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+../common/utils.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+../common/utils.o: /usr/include/xlocale.h /usr/include/stdlib.h
+../common/utils.o: /usr/include/bits/waitflags.h
+../common/utils.o: /usr/include/bits/waitstatus.h /usr/include/endian.h
+../common/utils.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+../common/utils.o: /usr/include/sys/types.h /usr/include/bits/types.h
+../common/utils.o: /usr/include/bits/typesizes.h /usr/include/time.h
+../common/utils.o: /usr/include/sys/select.h /usr/include/bits/select.h
+../common/utils.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+../common/utils.o: /usr/include/sys/sysmacros.h
+../common/utils.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+../common/utils.o: ../../../../../src/mesa/main/mtypes.h
+../common/utils.o: ../../../../../src/mesa/main/glheader.h
+../common/utils.o: ../../../../../include/GL/gl.h
+../common/utils.o: ../../../../../include/GL/glext.h /usr/include/inttypes.h
+../common/utils.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+../common/utils.o: ../../../../../src/mesa/main/config.h
+../common/utils.o: ../../../../../src/mesa/main/mfeatures.h
+../common/utils.o: ../../../../../src/mapi/glapi/glapi.h
+../common/utils.o: ../../../../../src/mapi/glapi/glthread.h
+../common/utils.o: ../../../../../src/mapi/mapi/u_thread.h
+../common/utils.o: ../../../../../src/mapi/mapi/u_compiler.h
+../common/utils.o: ../../../../../src/mesa/math/m_matrix.h
+../common/utils.o: ../../../../../src/mesa/main/simple_list.h
+../common/utils.o: ../../../../../src/mesa/main/formats.h
+../common/utils.o: ../../../../../src/mesa/main/dd.h
+../common/utils.o: ../../../../../src/mesa/main/glheader.h
+../common/utils.o: ../../../../../src/mesa/main/cpuinfo.h
+../common/utils.o: ../../../../../src/mesa/main/extensions.h
+../common/utils.o: ../../../../../src/mesa/main/mfeatures.h ../common/utils.h
+../common/utils.o: ../../../../../include/GL/internal/dri_interface.h
+../common/utils.o: /usr/include/libdrm/drm.h /usr/include/libdrm/drm_mode.h
+../common/utils.o: ../../../../../src/mesa/main/context.h
+../common/utils.o: ../../../../../src/mesa/main/imports.h
+../common/utils.o: ../../../../../src/mesa/main/compiler.h
+../common/utils.o: /usr/include/assert.h /usr/include/ctype.h
+../common/utils.o: /usr/include/math.h /usr/include/bits/huge_val.h
+../common/utils.o: /usr/include/bits/huge_valf.h
+../common/utils.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+../common/utils.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+../common/utils.o: /usr/include/bits/mathcalls.h
+../common/utils.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+../common/utils.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+../common/utils.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+../common/utils.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+../common/utils.o: /usr/include/bits/posix2_lim.h /usr/include/stdio.h
+../common/utils.o: /usr/include/libio.h /usr/include/_G_config.h
+../common/utils.o: /usr/include/wchar.h
+../common/utils.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+../common/utils.o: /usr/include/bits/stdio_lim.h
+../common/utils.o: /usr/include/bits/sys_errlist.h
+../common/utils.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+../common/utils.o: ../../../../../src/mesa/main/mtypes.h
+../common/dri_util.o: /usr/include/xf86drm.h
+../common/dri_util.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+../common/dri_util.o: /usr/include/sys/types.h /usr/include/features.h
+../common/dri_util.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+../common/dri_util.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+../common/dri_util.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+../common/dri_util.o: /usr/include/time.h
+../common/dri_util.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+../common/dri_util.o: /usr/include/endian.h /usr/include/bits/endian.h
+../common/dri_util.o: /usr/include/bits/byteswap.h /usr/include/sys/select.h
+../common/dri_util.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+../common/dri_util.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+../common/dri_util.o: /usr/include/bits/pthreadtypes.h /usr/include/stdint.h
+../common/dri_util.o: /usr/include/bits/wchar.h /usr/include/libdrm/drm.h
+../common/dri_util.o: /usr/include/libdrm/drm_mode.h ../common/dri_util.h
+../common/dri_util.o: ../../../../../include/GL/gl.h
+../common/dri_util.o: ../../../../../include/GL/glext.h
+../common/dri_util.o: /usr/include/inttypes.h
+../common/dri_util.o: ../../../../../include/GL/internal/dri_interface.h
+../common/dri_util.o: ../../../../../src/mesa/main/mtypes.h
+../common/dri_util.o: ../../../../../src/mesa/main/glheader.h
+../common/dri_util.o: ../../../../../src/mesa/main/config.h
+../common/dri_util.o: ../../../../../src/mesa/main/mfeatures.h
+../common/dri_util.o: ../../../../../src/mapi/glapi/glapi.h
+../common/dri_util.o: ../../../../../src/mapi/glapi/glthread.h
+../common/dri_util.o: ../../../../../src/mapi/mapi/u_thread.h
+../common/dri_util.o: ../../../../../src/mapi/mapi/u_compiler.h
+../common/dri_util.o: ../../../../../src/mesa/math/m_matrix.h
+../common/dri_util.o: ../../../../../src/mesa/main/simple_list.h
+../common/dri_util.o: ../../../../../src/mesa/main/formats.h
+../common/dri_util.o: ../../../../../src/mesa/main/dd.h
+../common/dri_util.o: ../../../../../src/mesa/main/glheader.h
+../common/dri_util.o: ../common/xmlconfig.h ../common/utils.h
+../common/dri_util.o: ../../../../../src/mesa/main/context.h
+../common/dri_util.o: ../../../../../src/mesa/main/imports.h
+../common/dri_util.o: ../../../../../src/mesa/main/compiler.h
+../common/dri_util.o: /usr/include/assert.h /usr/include/ctype.h
+../common/dri_util.o: /usr/include/xlocale.h /usr/include/math.h
+../common/dri_util.o: /usr/include/bits/huge_val.h
+../common/dri_util.o: /usr/include/bits/huge_valf.h
+../common/dri_util.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+../common/dri_util.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+../common/dri_util.o: /usr/include/bits/mathcalls.h
+../common/dri_util.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+../common/dri_util.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+../common/dri_util.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+../common/dri_util.o: /usr/include/bits/local_lim.h
+../common/dri_util.o: /usr/include/linux/limits.h
+../common/dri_util.o: /usr/include/bits/posix2_lim.h /usr/include/stdlib.h
+../common/dri_util.o: /usr/include/bits/waitflags.h
+../common/dri_util.o: /usr/include/bits/waitstatus.h /usr/include/alloca.h
+../common/dri_util.o: /usr/include/stdio.h /usr/include/libio.h
+../common/dri_util.o: /usr/include/_G_config.h /usr/include/wchar.h
+../common/dri_util.o: /usr/include/bits/stdio_lim.h
+../common/dri_util.o: /usr/include/bits/sys_errlist.h /usr/include/string.h
+../common/dri_util.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+../common/dri_util.o: ../../../../../src/mesa/main/mtypes.h
+../common/dri_util.o: ../common/xmlpool.h ../common/xmlpool/options.h
+../common/dri_util.o: ../../../../../src/glsl/glsl_parser_extras.h
+../common/xmlconfig.o: ../../../../../src/mesa/main/glheader.h
+../common/xmlconfig.o: ../../../../../include/GL/gl.h
+../common/xmlconfig.o: ../../../../../include/GL/glext.h
+../common/xmlconfig.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+../common/xmlconfig.o: /usr/include/inttypes.h /usr/include/features.h
+../common/xmlconfig.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+../common/xmlconfig.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+../common/xmlconfig.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+../common/xmlconfig.o: /usr/include/string.h /usr/include/xlocale.h
+../common/xmlconfig.o: /usr/include/assert.h /usr/include/expat.h
+../common/xmlconfig.o: /usr/include/stdlib.h /usr/include/bits/waitflags.h
+../common/xmlconfig.o: /usr/include/bits/waitstatus.h /usr/include/endian.h
+../common/xmlconfig.o: /usr/include/bits/endian.h
+../common/xmlconfig.o: /usr/include/bits/byteswap.h /usr/include/sys/types.h
+../common/xmlconfig.o: /usr/include/bits/types.h
+../common/xmlconfig.o: /usr/include/bits/typesizes.h /usr/include/time.h
+../common/xmlconfig.o: /usr/include/sys/select.h /usr/include/bits/select.h
+../common/xmlconfig.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+../common/xmlconfig.o: /usr/include/sys/sysmacros.h
+../common/xmlconfig.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+../common/xmlconfig.o: /usr/include/expat_external.h /usr/include/fcntl.h
+../common/xmlconfig.o: /usr/include/bits/fcntl.h /usr/include/bits/stat.h
+../common/xmlconfig.o: /usr/include/unistd.h /usr/include/bits/posix_opt.h
+../common/xmlconfig.o: /usr/include/bits/environments.h
+../common/xmlconfig.o: /usr/include/bits/confname.h /usr/include/getopt.h
+../common/xmlconfig.o: /usr/include/errno.h /usr/include/bits/errno.h
+../common/xmlconfig.o: /usr/include/linux/errno.h /usr/include/asm/errno.h
+../common/xmlconfig.o: /usr/include/asm-generic/errno.h
+../common/xmlconfig.o: /usr/include/asm-generic/errno-base.h
+../common/xmlconfig.o: ../../../../../src/mesa/main/imports.h
+../common/xmlconfig.o: ../../../../../src/mesa/main/compiler.h
+../common/xmlconfig.o: /usr/include/ctype.h /usr/include/math.h
+../common/xmlconfig.o: /usr/include/bits/huge_val.h
+../common/xmlconfig.o: /usr/include/bits/huge_valf.h
+../common/xmlconfig.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+../common/xmlconfig.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+../common/xmlconfig.o: /usr/include/bits/mathcalls.h
+../common/xmlconfig.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+../common/xmlconfig.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+../common/xmlconfig.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+../common/xmlconfig.o: /usr/include/bits/local_lim.h
+../common/xmlconfig.o: /usr/include/linux/limits.h
+../common/xmlconfig.o: /usr/include/bits/posix2_lim.h /usr/include/stdio.h
+../common/xmlconfig.o: /usr/include/libio.h /usr/include/_G_config.h
+../common/xmlconfig.o: /usr/include/wchar.h
+../common/xmlconfig.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+../common/xmlconfig.o: /usr/include/bits/stdio_lim.h
+../common/xmlconfig.o: /usr/include/bits/sys_errlist.h
+../common/xmlconfig.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+../common/xmlconfig.o: ../../../../../src/mesa/main/glheader.h
+../common/xmlconfig.o: ../common/utils.h
+../common/xmlconfig.o: ../../../../../include/GL/internal/dri_interface.h
+../common/xmlconfig.o: /usr/include/libdrm/drm.h
+../common/xmlconfig.o: /usr/include/libdrm/drm_mode.h
+../common/xmlconfig.o: ../../../../../src/mesa/main/context.h
+../common/xmlconfig.o: ../../../../../src/mesa/main/imports.h
+../common/xmlconfig.o: ../../../../../src/mesa/main/mtypes.h
+../common/xmlconfig.o: ../common/xmlconfig.h
+r200_context.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+r200_context.o: ../../../../../src/mesa/main/glheader.h
+r200_context.o: ../../../../../include/GL/gl.h
+r200_context.o: ../../../../../include/GL/glext.h
+r200_context.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+r200_context.o: /usr/include/inttypes.h /usr/include/features.h
+r200_context.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+r200_context.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+r200_context.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+r200_context.o: ../../../../../src/mesa/main/api_arrayelt.h
+r200_context.o: ../../../../../src/mesa/main/mfeatures.h
+r200_context.o: ../../../../../src/mesa/main/mtypes.h
+r200_context.o: ../../../../../src/mesa/main/config.h
+r200_context.o: ../../../../../src/mapi/glapi/glapi.h
+r200_context.o: ../../../../../src/mapi/glapi/glthread.h
+r200_context.o: ../../../../../src/mapi/mapi/u_thread.h
+r200_context.o: ../../../../../src/mapi/mapi/u_compiler.h
+r200_context.o: ../../../../../src/mesa/math/m_matrix.h
+r200_context.o: ../../../../../src/mesa/main/simple_list.h
+r200_context.o: ../../../../../src/mesa/main/formats.h
+r200_context.o: ../../../../../src/mesa/main/dd.h
+r200_context.o: ../../../../../src/mesa/main/glheader.h
+r200_context.o: ../../../../../src/mesa/main/context.h
+r200_context.o: ../../../../../src/mesa/main/imports.h
+r200_context.o: ../../../../../src/mesa/main/compiler.h /usr/include/assert.h
+r200_context.o: /usr/include/ctype.h /usr/include/bits/types.h
+r200_context.o: /usr/include/bits/typesizes.h /usr/include/endian.h
+r200_context.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+r200_context.o: /usr/include/xlocale.h /usr/include/math.h
+r200_context.o: /usr/include/bits/huge_val.h /usr/include/bits/huge_valf.h
+r200_context.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+r200_context.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+r200_context.o: /usr/include/bits/mathcalls.h
+r200_context.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+r200_context.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+r200_context.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+r200_context.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+r200_context.o: /usr/include/bits/posix2_lim.h /usr/include/stdlib.h
+r200_context.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+r200_context.o: /usr/include/sys/types.h /usr/include/time.h
+r200_context.o: /usr/include/sys/select.h /usr/include/bits/select.h
+r200_context.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+r200_context.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+r200_context.o: /usr/include/alloca.h /usr/include/stdio.h
+r200_context.o: /usr/include/libio.h /usr/include/_G_config.h
+r200_context.o: /usr/include/wchar.h
+r200_context.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+r200_context.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+r200_context.o: /usr/include/string.h
+r200_context.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+r200_context.o: ../../../../../src/mesa/main/mtypes.h
+r200_context.o: ../../../../../src/mesa/main/imports.h
+r200_context.o: ../../../../../src/mesa/main/extensions.h
+r200_context.o: ../../../../../src/mesa/main/mfeatures.h
+r200_context.o: ../../../../../src/mesa/main/version.h
+r200_context.o: ../../../../../src/mesa/swrast/swrast.h
+r200_context.o: ../../../../../src/mesa/swrast/s_chan.h
+r200_context.o: ../../../../../src/mesa/swrast_setup/swrast_setup.h
+r200_context.o: ../../../../../src/mesa/vbo/vbo.h
+r200_context.o: ../../../../../src/mesa/tnl/tnl.h
+r200_context.o: ../../../../../src/mesa/tnl/t_pipeline.h
+r200_context.o: ../../../../../src/mesa/tnl/t_context.h
+r200_context.o: ../../../../../src/mesa/math/m_vector.h
+r200_context.o: ../../../../../src/mesa/drivers/common/driverfuncs.h
+r200_context.o: r200_context.h ../../../../../src/mesa/tnl/t_vertex.h
+r200_context.o: /usr/include/libdrm/drm.h /usr/include/libdrm/drm_mode.h
+r200_context.o: /usr/include/libdrm/radeon_drm.h ../common/dri_util.h
+r200_context.o: ../../../../../include/GL/internal/dri_interface.h
+r200_context.o: ../common/xmlconfig.h ../../../../../src/mesa/main/macros.h
+r200_context.o: ../../../../../src/mesa/main/colormac.h
+r200_context.o: ../../../../../src/mesa/main/config.h
+r200_context.o: ../../../../../src/mesa/main/macros.h r200_reg.h
+r200_context.o: r200_vertprog.h radeon_screen.h server/radeon_dri.h
+r200_context.o: /usr/include/xf86drm.h radeon_chipset.h
+r200_context.o: ../../../../../include/pci_ids/r200_pci_ids.h
+r200_context.o: server/radeon_reg.h /usr/include/libdrm/drm_sarea.h
+r200_context.o: radeon_common.h radeon_common_context.h
+r200_context.o: ../../../../../src/mesa/main/mm.h
+r200_context.o: ../../../../../src/mesa/tnl/t_context.h radeon_debug.h
+r200_context.o: ../../../../../src/mesa/swrast/s_context.h
+r200_context.o: ../../../../../src/mesa/main/compiler.h
+r200_context.o: ../../../../../src/mesa/program/prog_execute.h
+r200_context.o: ../../../../../src/mesa/swrast/swrast.h
+r200_context.o: ../../../../../src/mesa/swrast/s_span.h
+r200_context.o: /usr/include/libdrm/radeon_bo_gem.h
+r200_context.o: /usr/include/libdrm/radeon_bo.h
+r200_context.o: /usr/include/libdrm/radeon_cs_gem.h
+r200_context.o: /usr/include/libdrm/radeon_cs.h
+r200_context.o: ../../../../../src/mesa/tnl_dd/t_dd_vertex.h radeon_dma.h
+r200_context.o: radeon_texture.h radeon_cmdbuf.h r200_ioctl.h r200_state.h
+r200_context.o: r200_tex.h r200_swtcl.h r200_tcl.h radeon_queryobj.h
+r200_context.o: r200_blit.h radeon_span.h ../common/utils.h
+r200_context.o: ../common/xmlpool.h ../common/xmlpool/options.h
+r200_ioctl.o: /usr/include/sched.h /usr/include/features.h
+r200_ioctl.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+r200_ioctl.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+r200_ioctl.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+r200_ioctl.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+r200_ioctl.o: /usr/include/time.h /usr/include/bits/sched.h
+r200_ioctl.o: /usr/include/errno.h /usr/include/bits/errno.h
+r200_ioctl.o: /usr/include/linux/errno.h /usr/include/asm/errno.h
+r200_ioctl.o: /usr/include/asm-generic/errno.h
+r200_ioctl.o: /usr/include/asm-generic/errno-base.h
+r200_ioctl.o: ../../../../../src/mesa/main/glheader.h
+r200_ioctl.o: ../../../../../include/GL/gl.h
+r200_ioctl.o: ../../../../../include/GL/glext.h /usr/include/inttypes.h
+r200_ioctl.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+r200_ioctl.o: ../../../../../src/mesa/main/imports.h
+r200_ioctl.o: ../../../../../src/mesa/main/compiler.h /usr/include/assert.h
+r200_ioctl.o: /usr/include/ctype.h /usr/include/endian.h
+r200_ioctl.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+r200_ioctl.o: /usr/include/xlocale.h /usr/include/math.h
+r200_ioctl.o: /usr/include/bits/huge_val.h /usr/include/bits/huge_valf.h
+r200_ioctl.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+r200_ioctl.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+r200_ioctl.o: /usr/include/bits/mathcalls.h
+r200_ioctl.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+r200_ioctl.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+r200_ioctl.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+r200_ioctl.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+r200_ioctl.o: /usr/include/bits/posix2_lim.h /usr/include/stdlib.h
+r200_ioctl.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+r200_ioctl.o: /usr/include/sys/types.h /usr/include/sys/select.h
+r200_ioctl.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+r200_ioctl.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+r200_ioctl.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+r200_ioctl.o: /usr/include/stdio.h /usr/include/libio.h
+r200_ioctl.o: /usr/include/_G_config.h /usr/include/wchar.h
+r200_ioctl.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+r200_ioctl.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+r200_ioctl.o: /usr/include/string.h
+r200_ioctl.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+r200_ioctl.o: ../../../../../src/mesa/main/glheader.h
+r200_ioctl.o: ../../../../../src/mesa/main/macros.h
+r200_ioctl.o: ../../../../../src/mesa/main/imports.h
+r200_ioctl.o: ../../../../../src/mesa/main/context.h
+r200_ioctl.o: ../../../../../src/mesa/main/mtypes.h
+r200_ioctl.o: ../../../../../src/mesa/swrast/swrast.h
+r200_ioctl.o: ../../../../../src/mesa/main/mtypes.h
+r200_ioctl.o: ../../../../../src/mesa/main/config.h
+r200_ioctl.o: ../../../../../src/mesa/main/mfeatures.h
+r200_ioctl.o: ../../../../../src/mapi/glapi/glapi.h
+r200_ioctl.o: ../../../../../src/mapi/glapi/glthread.h
+r200_ioctl.o: ../../../../../src/mapi/mapi/u_thread.h
+r200_ioctl.o: ../../../../../src/mapi/mapi/u_compiler.h
+r200_ioctl.o: ../../../../../src/mesa/math/m_matrix.h
+r200_ioctl.o: ../../../../../src/mesa/main/simple_list.h
+r200_ioctl.o: ../../../../../src/mesa/main/formats.h
+r200_ioctl.o: ../../../../../src/mesa/main/dd.h
+r200_ioctl.o: ../../../../../src/mesa/swrast/s_chan.h radeon_common.h
+r200_ioctl.o: radeon_common_context.h ../../../../../src/mesa/main/mm.h
+r200_ioctl.o: ../../../../../src/mesa/math/m_vector.h
+r200_ioctl.o: ../../../../../src/mesa/tnl/t_context.h
+r200_ioctl.o: ../../../../../src/mesa/main/colormac.h
+r200_ioctl.o: ../../../../../src/mesa/main/config.h
+r200_ioctl.o: ../../../../../src/mesa/main/macros.h radeon_debug.h
+r200_ioctl.o: radeon_screen.h ../common/dri_util.h
+r200_ioctl.o: ../../../../../include/GL/internal/dri_interface.h
+r200_ioctl.o: /usr/include/libdrm/drm.h /usr/include/libdrm/drm_mode.h
+r200_ioctl.o: ../common/xmlconfig.h server/radeon_dri.h
+r200_ioctl.o: /usr/include/xf86drm.h /usr/include/libdrm/radeon_drm.h
+r200_ioctl.o: radeon_chipset.h ../../../../../include/pci_ids/r200_pci_ids.h
+r200_ioctl.o: server/radeon_reg.h /usr/include/libdrm/drm_sarea.h
+r200_ioctl.o: ../../../../../src/mesa/tnl/t_vertex.h
+r200_ioctl.o: ../../../../../src/mesa/tnl/t_context.h
+r200_ioctl.o: ../../../../../src/mesa/vbo/vbo.h
+r200_ioctl.o: ../../../../../src/mesa/swrast/s_context.h
+r200_ioctl.o: ../../../../../src/mesa/main/compiler.h
+r200_ioctl.o: ../../../../../src/mesa/program/prog_execute.h
+r200_ioctl.o: ../../../../../src/mesa/swrast/swrast.h
+r200_ioctl.o: ../../../../../src/mesa/swrast/s_span.h
+r200_ioctl.o: /usr/include/libdrm/radeon_bo_gem.h
+r200_ioctl.o: /usr/include/libdrm/radeon_bo.h
+r200_ioctl.o: /usr/include/libdrm/radeon_cs_gem.h
+r200_ioctl.o: /usr/include/libdrm/radeon_cs.h
+r200_ioctl.o: ../../../../../src/mesa/tnl_dd/t_dd_vertex.h radeon_dma.h
+r200_ioctl.o: radeon_texture.h radeon_cmdbuf.h r200_context.h r200_reg.h
+r200_ioctl.o: r200_vertprog.h r200_ioctl.h
+r200_state.o: ../../../../../src/mesa/main/glheader.h
+r200_state.o: ../../../../../include/GL/gl.h
+r200_state.o: ../../../../../include/GL/glext.h
+r200_state.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+r200_state.o: /usr/include/inttypes.h /usr/include/features.h
+r200_state.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+r200_state.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+r200_state.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+r200_state.o: ../../../../../src/mesa/main/imports.h
+r200_state.o: ../../../../../src/mesa/main/compiler.h /usr/include/assert.h
+r200_state.o: /usr/include/ctype.h /usr/include/bits/types.h
+r200_state.o: /usr/include/bits/typesizes.h /usr/include/endian.h
+r200_state.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+r200_state.o: /usr/include/xlocale.h /usr/include/math.h
+r200_state.o: /usr/include/bits/huge_val.h /usr/include/bits/huge_valf.h
+r200_state.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+r200_state.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+r200_state.o: /usr/include/bits/mathcalls.h
+r200_state.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+r200_state.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+r200_state.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+r200_state.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+r200_state.o: /usr/include/bits/posix2_lim.h /usr/include/stdlib.h
+r200_state.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+r200_state.o: /usr/include/sys/types.h /usr/include/time.h
+r200_state.o: /usr/include/sys/select.h /usr/include/bits/select.h
+r200_state.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+r200_state.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+r200_state.o: /usr/include/alloca.h /usr/include/stdio.h /usr/include/libio.h
+r200_state.o: /usr/include/_G_config.h /usr/include/wchar.h
+r200_state.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+r200_state.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+r200_state.o: /usr/include/string.h
+r200_state.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+r200_state.o: ../../../../../src/mesa/main/glheader.h
+r200_state.o: ../../../../../src/mesa/main/api_arrayelt.h
+r200_state.o: ../../../../../src/mesa/main/mfeatures.h
+r200_state.o: ../../../../../src/mesa/main/mtypes.h
+r200_state.o: ../../../../../src/mesa/main/config.h
+r200_state.o: ../../../../../src/mapi/glapi/glapi.h
+r200_state.o: ../../../../../src/mapi/glapi/glthread.h
+r200_state.o: ../../../../../src/mapi/mapi/u_thread.h
+r200_state.o: ../../../../../src/mapi/mapi/u_compiler.h
+r200_state.o: ../../../../../src/mesa/math/m_matrix.h
+r200_state.o: ../../../../../src/mesa/main/simple_list.h
+r200_state.o: ../../../../../src/mesa/main/formats.h
+r200_state.o: ../../../../../src/mesa/main/dd.h
+r200_state.o: ../../../../../src/mesa/main/enums.h
+r200_state.o: ../../../../../src/mesa/main/mfeatures.h
+r200_state.o: ../../../../../src/mesa/main/colormac.h
+r200_state.o: ../../../../../src/mesa/main/config.h
+r200_state.o: ../../../../../src/mesa/main/macros.h
+r200_state.o: ../../../../../src/mesa/main/mtypes.h
+r200_state.o: ../../../../../src/mesa/main/light.h
+r200_state.o: ../../../../../src/mesa/main/framebuffer.h
+r200_state.o: ../../../../../src/mesa/swrast/swrast.h
+r200_state.o: ../../../../../src/mesa/swrast/s_chan.h
+r200_state.o: ../../../../../src/mesa/vbo/vbo.h
+r200_state.o: ../../../../../src/mesa/tnl/tnl.h
+r200_state.o: ../../../../../src/mesa/tnl/t_pipeline.h
+r200_state.o: ../../../../../src/mesa/tnl/t_context.h
+r200_state.o: ../../../../../src/mesa/math/m_vector.h
+r200_state.o: ../../../../../src/mesa/swrast_setup/swrast_setup.h
+r200_state.o: ../../../../../src/mesa/drivers/common/meta.h radeon_common.h
+r200_state.o: radeon_common_context.h ../../../../../src/mesa/main/mm.h
+r200_state.o: ../../../../../src/mesa/tnl/t_context.h radeon_debug.h
+r200_state.o: radeon_screen.h ../common/dri_util.h
+r200_state.o: ../../../../../include/GL/internal/dri_interface.h
+r200_state.o: /usr/include/libdrm/drm.h /usr/include/libdrm/drm_mode.h
+r200_state.o: ../common/xmlconfig.h server/radeon_dri.h
+r200_state.o: /usr/include/xf86drm.h /usr/include/libdrm/radeon_drm.h
+r200_state.o: radeon_chipset.h ../../../../../include/pci_ids/r200_pci_ids.h
+r200_state.o: server/radeon_reg.h /usr/include/libdrm/drm_sarea.h
+r200_state.o: ../../../../../src/mesa/tnl/t_vertex.h
+r200_state.o: ../../../../../src/mesa/swrast/s_context.h
+r200_state.o: ../../../../../src/mesa/main/compiler.h
+r200_state.o: ../../../../../src/mesa/program/prog_execute.h
+r200_state.o: ../../../../../src/mesa/swrast/swrast.h
+r200_state.o: ../../../../../src/mesa/swrast/s_span.h
+r200_state.o: /usr/include/libdrm/radeon_bo_gem.h
+r200_state.o: /usr/include/libdrm/radeon_bo.h
+r200_state.o: /usr/include/libdrm/radeon_cs_gem.h
+r200_state.o: /usr/include/libdrm/radeon_cs.h
+r200_state.o: ../../../../../src/mesa/tnl_dd/t_dd_vertex.h radeon_dma.h
+r200_state.o: radeon_texture.h radeon_cmdbuf.h radeon_mipmap_tree.h
+r200_state.o: r200_context.h ../../../../../src/mesa/main/macros.h
+r200_state.o: ../../../../../src/mesa/main/imports.h r200_reg.h
+r200_state.o: r200_vertprog.h r200_ioctl.h r200_state.h r200_tcl.h r200_tex.h
+r200_state.o: r200_swtcl.h
+r200_state_init.o: ../../../../../src/mesa/main/glheader.h
+r200_state_init.o: ../../../../../include/GL/gl.h
+r200_state_init.o: ../../../../../include/GL/glext.h
+r200_state_init.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+r200_state_init.o: /usr/include/inttypes.h /usr/include/features.h
+r200_state_init.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+r200_state_init.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+r200_state_init.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+r200_state_init.o: ../../../../../src/mesa/main/imports.h
+r200_state_init.o: ../../../../../src/mesa/main/compiler.h
+r200_state_init.o: /usr/include/assert.h /usr/include/ctype.h
+r200_state_init.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+r200_state_init.o: /usr/include/endian.h /usr/include/bits/endian.h
+r200_state_init.o: /usr/include/bits/byteswap.h /usr/include/xlocale.h
+r200_state_init.o: /usr/include/math.h /usr/include/bits/huge_val.h
+r200_state_init.o: /usr/include/bits/huge_valf.h
+r200_state_init.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+r200_state_init.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+r200_state_init.o: /usr/include/bits/mathcalls.h
+r200_state_init.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+r200_state_init.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+r200_state_init.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+r200_state_init.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+r200_state_init.o: /usr/include/bits/posix2_lim.h /usr/include/stdlib.h
+r200_state_init.o: /usr/include/bits/waitflags.h
+r200_state_init.o: /usr/include/bits/waitstatus.h /usr/include/sys/types.h
+r200_state_init.o: /usr/include/time.h /usr/include/sys/select.h
+r200_state_init.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+r200_state_init.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+r200_state_init.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+r200_state_init.o: /usr/include/stdio.h /usr/include/libio.h
+r200_state_init.o: /usr/include/_G_config.h /usr/include/wchar.h
+r200_state_init.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+r200_state_init.o: /usr/include/bits/stdio_lim.h
+r200_state_init.o: /usr/include/bits/sys_errlist.h /usr/include/string.h
+r200_state_init.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+r200_state_init.o: ../../../../../src/mesa/main/glheader.h
+r200_state_init.o: ../../../../../src/mesa/main/enums.h
+r200_state_init.o: ../../../../../src/mesa/main/mfeatures.h
+r200_state_init.o: ../../../../../src/mesa/main/colormac.h
+r200_state_init.o: ../../../../../src/mesa/main/config.h
+r200_state_init.o: ../../../../../src/mesa/main/macros.h
+r200_state_init.o: ../../../../../src/mesa/main/mtypes.h
+r200_state_init.o: ../../../../../src/mesa/main/api_arrayelt.h
+r200_state_init.o: ../../../../../src/mesa/main/mfeatures.h
+r200_state_init.o: ../../../../../src/mesa/main/mtypes.h
+r200_state_init.o: ../../../../../src/mesa/main/config.h
+r200_state_init.o: ../../../../../src/mapi/glapi/glapi.h
+r200_state_init.o: ../../../../../src/mapi/glapi/glthread.h
+r200_state_init.o: ../../../../../src/mapi/mapi/u_thread.h
+r200_state_init.o: ../../../../../src/mapi/mapi/u_compiler.h
+r200_state_init.o: ../../../../../src/mesa/math/m_matrix.h
+r200_state_init.o: ../../../../../src/mesa/main/simple_list.h
+r200_state_init.o: ../../../../../src/mesa/main/formats.h
+r200_state_init.o: ../../../../../src/mesa/main/dd.h
+r200_state_init.o: ../../../../../src/mesa/swrast/swrast.h
+r200_state_init.o: ../../../../../src/mesa/swrast/s_chan.h
+r200_state_init.o: ../../../../../src/mesa/vbo/vbo.h
+r200_state_init.o: ../../../../../src/mesa/tnl/t_pipeline.h
+r200_state_init.o: ../../../../../src/mesa/tnl/t_context.h
+r200_state_init.o: ../../../../../src/mesa/math/m_vector.h
+r200_state_init.o: ../../../../../src/mesa/swrast_setup/swrast_setup.h
+r200_state_init.o: radeon_common.h radeon_common_context.h
+r200_state_init.o: ../../../../../src/mesa/main/mm.h
+r200_state_init.o: ../../../../../src/mesa/tnl/t_context.h radeon_debug.h
+r200_state_init.o: radeon_screen.h ../common/dri_util.h
+r200_state_init.o: ../../../../../include/GL/internal/dri_interface.h
+r200_state_init.o: /usr/include/libdrm/drm.h /usr/include/libdrm/drm_mode.h
+r200_state_init.o: ../common/xmlconfig.h server/radeon_dri.h
+r200_state_init.o: /usr/include/xf86drm.h /usr/include/libdrm/radeon_drm.h
+r200_state_init.o: radeon_chipset.h
+r200_state_init.o: ../../../../../include/pci_ids/r200_pci_ids.h
+r200_state_init.o: server/radeon_reg.h /usr/include/libdrm/drm_sarea.h
+r200_state_init.o: ../../../../../src/mesa/tnl/t_vertex.h
+r200_state_init.o: ../../../../../src/mesa/swrast/s_context.h
+r200_state_init.o: ../../../../../src/mesa/main/compiler.h
+r200_state_init.o: ../../../../../src/mesa/program/prog_execute.h
+r200_state_init.o: ../../../../../src/mesa/swrast/swrast.h
+r200_state_init.o: ../../../../../src/mesa/swrast/s_span.h
+r200_state_init.o: /usr/include/libdrm/radeon_bo_gem.h
+r200_state_init.o: /usr/include/libdrm/radeon_bo.h
+r200_state_init.o: /usr/include/libdrm/radeon_cs_gem.h
+r200_state_init.o: /usr/include/libdrm/radeon_cs.h
+r200_state_init.o: ../../../../../src/mesa/tnl_dd/t_dd_vertex.h radeon_dma.h
+r200_state_init.o: radeon_texture.h radeon_cmdbuf.h radeon_mipmap_tree.h
+r200_state_init.o: r200_context.h ../../../../../src/mesa/main/macros.h
+r200_state_init.o: ../../../../../src/mesa/main/imports.h r200_reg.h
+r200_state_init.o: r200_vertprog.h r200_ioctl.h r200_state.h
+r200_state_init.o: radeon_queryobj.h ../common/xmlpool.h
+r200_state_init.o: ../common/xmlpool/options.h
+r200_cmdbuf.o: ../../../../../src/mesa/main/glheader.h
+r200_cmdbuf.o: ../../../../../include/GL/gl.h
+r200_cmdbuf.o: ../../../../../include/GL/glext.h
+r200_cmdbuf.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+r200_cmdbuf.o: /usr/include/inttypes.h /usr/include/features.h
+r200_cmdbuf.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+r200_cmdbuf.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+r200_cmdbuf.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+r200_cmdbuf.o: ../../../../../src/mesa/main/imports.h
+r200_cmdbuf.o: ../../../../../src/mesa/main/compiler.h /usr/include/assert.h
+r200_cmdbuf.o: /usr/include/ctype.h /usr/include/bits/types.h
+r200_cmdbuf.o: /usr/include/bits/typesizes.h /usr/include/endian.h
+r200_cmdbuf.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+r200_cmdbuf.o: /usr/include/xlocale.h /usr/include/math.h
+r200_cmdbuf.o: /usr/include/bits/huge_val.h /usr/include/bits/huge_valf.h
+r200_cmdbuf.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+r200_cmdbuf.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+r200_cmdbuf.o: /usr/include/bits/mathcalls.h
+r200_cmdbuf.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+r200_cmdbuf.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+r200_cmdbuf.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+r200_cmdbuf.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+r200_cmdbuf.o: /usr/include/bits/posix2_lim.h /usr/include/stdlib.h
+r200_cmdbuf.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+r200_cmdbuf.o: /usr/include/sys/types.h /usr/include/time.h
+r200_cmdbuf.o: /usr/include/sys/select.h /usr/include/bits/select.h
+r200_cmdbuf.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+r200_cmdbuf.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+r200_cmdbuf.o: /usr/include/alloca.h /usr/include/stdio.h
+r200_cmdbuf.o: /usr/include/libio.h /usr/include/_G_config.h
+r200_cmdbuf.o: /usr/include/wchar.h
+r200_cmdbuf.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+r200_cmdbuf.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+r200_cmdbuf.o: /usr/include/string.h
+r200_cmdbuf.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+r200_cmdbuf.o: ../../../../../src/mesa/main/glheader.h
+r200_cmdbuf.o: ../../../../../src/mesa/main/macros.h
+r200_cmdbuf.o: ../../../../../src/mesa/main/imports.h
+r200_cmdbuf.o: ../../../../../src/mesa/main/context.h
+r200_cmdbuf.o: ../../../../../src/mesa/main/mtypes.h
+r200_cmdbuf.o: ../../../../../src/mesa/main/simple_list.h radeon_common.h
+r200_cmdbuf.o: radeon_common_context.h ../../../../../src/mesa/main/mm.h
+r200_cmdbuf.o: ../../../../../src/mesa/math/m_vector.h
+r200_cmdbuf.o: ../../../../../src/mesa/tnl/t_context.h
+r200_cmdbuf.o: ../../../../../src/mesa/main/colormac.h
+r200_cmdbuf.o: ../../../../../src/mesa/main/config.h
+r200_cmdbuf.o: ../../../../../src/mesa/main/macros.h radeon_debug.h
+r200_cmdbuf.o: radeon_screen.h ../common/dri_util.h
+r200_cmdbuf.o: ../../../../../include/GL/internal/dri_interface.h
+r200_cmdbuf.o: /usr/include/libdrm/drm.h /usr/include/libdrm/drm_mode.h
+r200_cmdbuf.o: ../../../../../src/mesa/main/mtypes.h
+r200_cmdbuf.o: ../../../../../src/mesa/main/config.h
+r200_cmdbuf.o: ../../../../../src/mesa/main/mfeatures.h
+r200_cmdbuf.o: ../../../../../src/mapi/glapi/glapi.h
+r200_cmdbuf.o: ../../../../../src/mapi/glapi/glthread.h
+r200_cmdbuf.o: ../../../../../src/mapi/mapi/u_thread.h
+r200_cmdbuf.o: ../../../../../src/mapi/mapi/u_compiler.h
+r200_cmdbuf.o: ../../../../../src/mesa/math/m_matrix.h
+r200_cmdbuf.o: ../../../../../src/mesa/main/formats.h
+r200_cmdbuf.o: ../../../../../src/mesa/main/dd.h ../common/xmlconfig.h
+r200_cmdbuf.o: server/radeon_dri.h /usr/include/xf86drm.h
+r200_cmdbuf.o: /usr/include/libdrm/radeon_drm.h radeon_chipset.h
+r200_cmdbuf.o: ../../../../../include/pci_ids/r200_pci_ids.h
+r200_cmdbuf.o: server/radeon_reg.h /usr/include/libdrm/drm_sarea.h
+r200_cmdbuf.o: ../../../../../src/mesa/tnl/t_vertex.h
+r200_cmdbuf.o: ../../../../../src/mesa/tnl/t_context.h
+r200_cmdbuf.o: ../../../../../src/mesa/vbo/vbo.h
+r200_cmdbuf.o: ../../../../../src/mesa/swrast/s_context.h
+r200_cmdbuf.o: ../../../../../src/mesa/main/compiler.h
+r200_cmdbuf.o: ../../../../../src/mesa/program/prog_execute.h
+r200_cmdbuf.o: ../../../../../src/mesa/swrast/swrast.h
+r200_cmdbuf.o: ../../../../../src/mesa/swrast/s_span.h
+r200_cmdbuf.o: ../../../../../src/mesa/swrast/s_chan.h
+r200_cmdbuf.o: /usr/include/libdrm/radeon_bo_gem.h
+r200_cmdbuf.o: /usr/include/libdrm/radeon_bo.h
+r200_cmdbuf.o: /usr/include/libdrm/radeon_cs_gem.h
+r200_cmdbuf.o: /usr/include/libdrm/radeon_cs.h
+r200_cmdbuf.o: ../../../../../src/mesa/tnl_dd/t_dd_vertex.h radeon_dma.h
+r200_cmdbuf.o: radeon_texture.h radeon_cmdbuf.h r200_context.h r200_reg.h
+r200_cmdbuf.o: r200_vertprog.h r200_ioctl.h
+r200_tex.o: ../../../../../src/mesa/main/glheader.h
+r200_tex.o: ../../../../../include/GL/gl.h ../../../../../include/GL/glext.h
+r200_tex.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+r200_tex.o: /usr/include/inttypes.h /usr/include/features.h
+r200_tex.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+r200_tex.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+r200_tex.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+r200_tex.o: ../../../../../src/mesa/main/imports.h
+r200_tex.o: ../../../../../src/mesa/main/compiler.h /usr/include/assert.h
+r200_tex.o: /usr/include/ctype.h /usr/include/bits/types.h
+r200_tex.o: /usr/include/bits/typesizes.h /usr/include/endian.h
+r200_tex.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+r200_tex.o: /usr/include/xlocale.h /usr/include/math.h
+r200_tex.o: /usr/include/bits/huge_val.h /usr/include/bits/huge_valf.h
+r200_tex.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+r200_tex.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+r200_tex.o: /usr/include/bits/mathcalls.h
+r200_tex.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+r200_tex.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+r200_tex.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+r200_tex.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+r200_tex.o: /usr/include/bits/posix2_lim.h /usr/include/stdlib.h
+r200_tex.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+r200_tex.o: /usr/include/sys/types.h /usr/include/time.h
+r200_tex.o: /usr/include/sys/select.h /usr/include/bits/select.h
+r200_tex.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+r200_tex.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+r200_tex.o: /usr/include/alloca.h /usr/include/stdio.h /usr/include/libio.h
+r200_tex.o: /usr/include/_G_config.h /usr/include/wchar.h
+r200_tex.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+r200_tex.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+r200_tex.o: /usr/include/string.h
+r200_tex.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+r200_tex.o: ../../../../../src/mesa/main/glheader.h
+r200_tex.o: ../../../../../src/mesa/main/colormac.h
+r200_tex.o: ../../../../../src/mesa/main/config.h
+r200_tex.o: ../../../../../src/mesa/main/macros.h
+r200_tex.o: ../../../../../src/mesa/main/mtypes.h
+r200_tex.o: ../../../../../src/mesa/main/context.h
+r200_tex.o: ../../../../../src/mesa/main/imports.h
+r200_tex.o: ../../../../../src/mesa/main/enums.h
+r200_tex.o: ../../../../../src/mesa/main/mfeatures.h
+r200_tex.o: ../../../../../src/mesa/main/image.h
+r200_tex.o: ../../../../../src/mesa/main/mfeatures.h
+r200_tex.o: ../../../../../src/mesa/main/simple_list.h
+r200_tex.o: ../../../../../src/mesa/main/teximage.h
+r200_tex.o: ../../../../../src/mesa/main/formats.h
+r200_tex.o: ../../../../../src/mesa/main/texobj.h radeon_mipmap_tree.h
+r200_tex.o: radeon_common.h radeon_common_context.h
+r200_tex.o: ../../../../../src/mesa/main/mm.h
+r200_tex.o: ../../../../../src/mesa/math/m_vector.h
+r200_tex.o: ../../../../../src/mesa/tnl/t_context.h radeon_debug.h
+r200_tex.o: radeon_screen.h ../common/dri_util.h
+r200_tex.o: ../../../../../include/GL/internal/dri_interface.h
+r200_tex.o: /usr/include/libdrm/drm.h /usr/include/libdrm/drm_mode.h
+r200_tex.o: ../../../../../src/mesa/main/mtypes.h
+r200_tex.o: ../../../../../src/mesa/main/config.h
+r200_tex.o: ../../../../../src/mapi/glapi/glapi.h
+r200_tex.o: ../../../../../src/mapi/glapi/glthread.h
+r200_tex.o: ../../../../../src/mapi/mapi/u_thread.h
+r200_tex.o: ../../../../../src/mapi/mapi/u_compiler.h
+r200_tex.o: ../../../../../src/mesa/math/m_matrix.h
+r200_tex.o: ../../../../../src/mesa/main/formats.h
+r200_tex.o: ../../../../../src/mesa/main/dd.h ../common/xmlconfig.h
+r200_tex.o: server/radeon_dri.h /usr/include/xf86drm.h
+r200_tex.o: /usr/include/libdrm/radeon_drm.h radeon_chipset.h
+r200_tex.o: ../../../../../include/pci_ids/r200_pci_ids.h server/radeon_reg.h
+r200_tex.o: /usr/include/libdrm/drm_sarea.h
+r200_tex.o: ../../../../../src/mesa/tnl/t_vertex.h
+r200_tex.o: ../../../../../src/mesa/tnl/t_context.h
+r200_tex.o: ../../../../../src/mesa/vbo/vbo.h
+r200_tex.o: ../../../../../src/mesa/swrast/s_context.h
+r200_tex.o: ../../../../../src/mesa/main/compiler.h
+r200_tex.o: ../../../../../src/mesa/program/prog_execute.h
+r200_tex.o: ../../../../../src/mesa/swrast/swrast.h
+r200_tex.o: ../../../../../src/mesa/swrast/s_span.h
+r200_tex.o: ../../../../../src/mesa/swrast/s_chan.h
+r200_tex.o: /usr/include/libdrm/radeon_bo_gem.h
+r200_tex.o: /usr/include/libdrm/radeon_bo.h
+r200_tex.o: /usr/include/libdrm/radeon_cs_gem.h
+r200_tex.o: /usr/include/libdrm/radeon_cs.h
+r200_tex.o: ../../../../../src/mesa/tnl_dd/t_dd_vertex.h radeon_dma.h
+r200_tex.o: radeon_texture.h radeon_cmdbuf.h r200_context.h
+r200_tex.o: ../../../../../src/mesa/main/macros.h r200_reg.h r200_vertprog.h
+r200_tex.o: r200_ioctl.h r200_tex.h ../common/xmlpool.h
+r200_tex.o: ../common/xmlpool/options.h
+r200_texstate.o: ../../../../../src/mesa/main/glheader.h
+r200_texstate.o: ../../../../../include/GL/gl.h
+r200_texstate.o: ../../../../../include/GL/glext.h
+r200_texstate.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+r200_texstate.o: /usr/include/inttypes.h /usr/include/features.h
+r200_texstate.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+r200_texstate.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+r200_texstate.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+r200_texstate.o: ../../../../../src/mesa/main/imports.h
+r200_texstate.o: ../../../../../src/mesa/main/compiler.h
+r200_texstate.o: /usr/include/assert.h /usr/include/ctype.h
+r200_texstate.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+r200_texstate.o: /usr/include/endian.h /usr/include/bits/endian.h
+r200_texstate.o: /usr/include/bits/byteswap.h /usr/include/xlocale.h
+r200_texstate.o: /usr/include/math.h /usr/include/bits/huge_val.h
+r200_texstate.o: /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h
+r200_texstate.o: /usr/include/bits/inf.h /usr/include/bits/nan.h
+r200_texstate.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+r200_texstate.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+r200_texstate.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+r200_texstate.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+r200_texstate.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+r200_texstate.o: /usr/include/bits/posix2_lim.h /usr/include/stdlib.h
+r200_texstate.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+r200_texstate.o: /usr/include/sys/types.h /usr/include/time.h
+r200_texstate.o: /usr/include/sys/select.h /usr/include/bits/select.h
+r200_texstate.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+r200_texstate.o: /usr/include/sys/sysmacros.h
+r200_texstate.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+r200_texstate.o: /usr/include/stdio.h /usr/include/libio.h
+r200_texstate.o: /usr/include/_G_config.h /usr/include/wchar.h
+r200_texstate.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+r200_texstate.o: /usr/include/bits/stdio_lim.h
+r200_texstate.o: /usr/include/bits/sys_errlist.h /usr/include/string.h
+r200_texstate.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+r200_texstate.o: ../../../../../src/mesa/main/glheader.h
+r200_texstate.o: ../../../../../src/mesa/main/context.h
+r200_texstate.o: ../../../../../src/mesa/main/imports.h
+r200_texstate.o: ../../../../../src/mesa/main/mtypes.h
+r200_texstate.o: ../../../../../src/mesa/main/macros.h
+r200_texstate.o: ../../../../../src/mesa/main/teximage.h
+r200_texstate.o: ../../../../../src/mesa/main/formats.h
+r200_texstate.o: ../../../../../src/mesa/main/texobj.h
+r200_texstate.o: ../../../../../src/mesa/main/enums.h
+r200_texstate.o: ../../../../../src/mesa/main/mfeatures.h radeon_common.h
+r200_texstate.o: radeon_common_context.h ../../../../../src/mesa/main/mm.h
+r200_texstate.o: ../../../../../src/mesa/math/m_vector.h
+r200_texstate.o: ../../../../../src/mesa/tnl/t_context.h
+r200_texstate.o: ../../../../../src/mesa/main/colormac.h
+r200_texstate.o: ../../../../../src/mesa/main/config.h
+r200_texstate.o: ../../../../../src/mesa/main/macros.h radeon_debug.h
+r200_texstate.o: radeon_screen.h ../common/dri_util.h
+r200_texstate.o: ../../../../../include/GL/internal/dri_interface.h
+r200_texstate.o: /usr/include/libdrm/drm.h /usr/include/libdrm/drm_mode.h
+r200_texstate.o: ../../../../../src/mesa/main/mtypes.h
+r200_texstate.o: ../../../../../src/mesa/main/config.h
+r200_texstate.o: ../../../../../src/mesa/main/mfeatures.h
+r200_texstate.o: ../../../../../src/mapi/glapi/glapi.h
+r200_texstate.o: ../../../../../src/mapi/glapi/glthread.h
+r200_texstate.o: ../../../../../src/mapi/mapi/u_thread.h
+r200_texstate.o: ../../../../../src/mapi/mapi/u_compiler.h
+r200_texstate.o: ../../../../../src/mesa/math/m_matrix.h
+r200_texstate.o: ../../../../../src/mesa/main/simple_list.h
+r200_texstate.o: ../../../../../src/mesa/main/formats.h
+r200_texstate.o: ../../../../../src/mesa/main/dd.h ../common/xmlconfig.h
+r200_texstate.o: server/radeon_dri.h /usr/include/xf86drm.h
+r200_texstate.o: /usr/include/libdrm/radeon_drm.h radeon_chipset.h
+r200_texstate.o: ../../../../../include/pci_ids/r200_pci_ids.h
+r200_texstate.o: server/radeon_reg.h /usr/include/libdrm/drm_sarea.h
+r200_texstate.o: ../../../../../src/mesa/tnl/t_vertex.h
+r200_texstate.o: ../../../../../src/mesa/tnl/t_context.h
+r200_texstate.o: ../../../../../src/mesa/vbo/vbo.h
+r200_texstate.o: ../../../../../src/mesa/swrast/s_context.h
+r200_texstate.o: ../../../../../src/mesa/main/compiler.h
+r200_texstate.o: ../../../../../src/mesa/program/prog_execute.h
+r200_texstate.o: ../../../../../src/mesa/swrast/swrast.h
+r200_texstate.o: ../../../../../src/mesa/swrast/s_span.h
+r200_texstate.o: ../../../../../src/mesa/swrast/s_chan.h
+r200_texstate.o: /usr/include/libdrm/radeon_bo_gem.h
+r200_texstate.o: /usr/include/libdrm/radeon_bo.h
+r200_texstate.o: /usr/include/libdrm/radeon_cs_gem.h
+r200_texstate.o: /usr/include/libdrm/radeon_cs.h
+r200_texstate.o: ../../../../../src/mesa/tnl_dd/t_dd_vertex.h radeon_dma.h
+r200_texstate.o: radeon_texture.h radeon_cmdbuf.h radeon_mipmap_tree.h
+r200_texstate.o: r200_context.h r200_reg.h r200_vertprog.h r200_state.h
+r200_texstate.o: r200_ioctl.h r200_swtcl.h
+r200_texstate.o: ../../../../../src/mesa/swrast/swrast.h r200_tex.h
+r200_texstate.o: r200_tcl.h
+r200_tcl.o: ../../../../../src/mesa/main/glheader.h
+r200_tcl.o: ../../../../../include/GL/gl.h ../../../../../include/GL/glext.h
+r200_tcl.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+r200_tcl.o: /usr/include/inttypes.h /usr/include/features.h
+r200_tcl.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+r200_tcl.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+r200_tcl.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+r200_tcl.o: ../../../../../src/mesa/main/imports.h
+r200_tcl.o: ../../../../../src/mesa/main/compiler.h /usr/include/assert.h
+r200_tcl.o: /usr/include/ctype.h /usr/include/bits/types.h
+r200_tcl.o: /usr/include/bits/typesizes.h /usr/include/endian.h
+r200_tcl.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+r200_tcl.o: /usr/include/xlocale.h /usr/include/math.h
+r200_tcl.o: /usr/include/bits/huge_val.h /usr/include/bits/huge_valf.h
+r200_tcl.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+r200_tcl.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+r200_tcl.o: /usr/include/bits/mathcalls.h
+r200_tcl.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+r200_tcl.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+r200_tcl.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+r200_tcl.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+r200_tcl.o: /usr/include/bits/posix2_lim.h /usr/include/stdlib.h
+r200_tcl.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+r200_tcl.o: /usr/include/sys/types.h /usr/include/time.h
+r200_tcl.o: /usr/include/sys/select.h /usr/include/bits/select.h
+r200_tcl.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+r200_tcl.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+r200_tcl.o: /usr/include/alloca.h /usr/include/stdio.h /usr/include/libio.h
+r200_tcl.o: /usr/include/_G_config.h /usr/include/wchar.h
+r200_tcl.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+r200_tcl.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+r200_tcl.o: /usr/include/string.h
+r200_tcl.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+r200_tcl.o: ../../../../../src/mesa/main/glheader.h
+r200_tcl.o: ../../../../../src/mesa/main/mtypes.h
+r200_tcl.o: ../../../../../src/mesa/main/config.h
+r200_tcl.o: ../../../../../src/mesa/main/mfeatures.h
+r200_tcl.o: ../../../../../src/mapi/glapi/glapi.h
+r200_tcl.o: ../../../../../src/mapi/glapi/glthread.h
+r200_tcl.o: ../../../../../src/mapi/mapi/u_thread.h
+r200_tcl.o: ../../../../../src/mapi/mapi/u_compiler.h
+r200_tcl.o: ../../../../../src/mesa/math/m_matrix.h
+r200_tcl.o: ../../../../../src/mesa/main/simple_list.h
+r200_tcl.o: ../../../../../src/mesa/main/formats.h
+r200_tcl.o: ../../../../../src/mesa/main/dd.h
+r200_tcl.o: ../../../../../src/mesa/main/enums.h
+r200_tcl.o: ../../../../../src/mesa/main/mfeatures.h
+r200_tcl.o: ../../../../../src/mesa/main/colormac.h
+r200_tcl.o: ../../../../../src/mesa/main/config.h
+r200_tcl.o: ../../../../../src/mesa/main/macros.h
+r200_tcl.o: ../../../../../src/mesa/main/mtypes.h
+r200_tcl.o: ../../../../../src/mesa/main/light.h
+r200_tcl.o: ../../../../../src/mesa/vbo/vbo.h
+r200_tcl.o: ../../../../../src/mesa/tnl/tnl.h
+r200_tcl.o: ../../../../../src/mesa/tnl/t_pipeline.h
+r200_tcl.o: ../../../../../src/mesa/tnl/t_context.h
+r200_tcl.o: ../../../../../src/mesa/math/m_vector.h r200_context.h
+r200_tcl.o: ../../../../../src/mesa/tnl/t_vertex.h /usr/include/libdrm/drm.h
+r200_tcl.o: /usr/include/libdrm/drm_mode.h /usr/include/libdrm/radeon_drm.h
+r200_tcl.o: ../common/dri_util.h
+r200_tcl.o: ../../../../../include/GL/internal/dri_interface.h
+r200_tcl.o: ../common/xmlconfig.h ../../../../../src/mesa/main/macros.h
+r200_tcl.o: ../../../../../src/mesa/main/imports.h r200_reg.h r200_vertprog.h
+r200_tcl.o: radeon_screen.h server/radeon_dri.h /usr/include/xf86drm.h
+r200_tcl.o: radeon_chipset.h ../../../../../include/pci_ids/r200_pci_ids.h
+r200_tcl.o: server/radeon_reg.h /usr/include/libdrm/drm_sarea.h
+r200_tcl.o: radeon_common.h radeon_common_context.h
+r200_tcl.o: ../../../../../src/mesa/main/mm.h
+r200_tcl.o: ../../../../../src/mesa/tnl/t_context.h radeon_debug.h
+r200_tcl.o: ../../../../../src/mesa/swrast/s_context.h
+r200_tcl.o: ../../../../../src/mesa/main/compiler.h
+r200_tcl.o: ../../../../../src/mesa/program/prog_execute.h
+r200_tcl.o: ../../../../../src/mesa/swrast/swrast.h
+r200_tcl.o: ../../../../../src/mesa/swrast/s_span.h
+r200_tcl.o: ../../../../../src/mesa/swrast/s_chan.h
+r200_tcl.o: /usr/include/libdrm/radeon_bo_gem.h
+r200_tcl.o: /usr/include/libdrm/radeon_bo.h
+r200_tcl.o: /usr/include/libdrm/radeon_cs_gem.h
+r200_tcl.o: /usr/include/libdrm/radeon_cs.h
+r200_tcl.o: ../../../../../src/mesa/tnl_dd/t_dd_vertex.h radeon_dma.h
+r200_tcl.o: radeon_texture.h radeon_cmdbuf.h r200_state.h r200_ioctl.h
+r200_tcl.o: r200_tcl.h r200_swtcl.h ../../../../../src/mesa/swrast/swrast.h
+r200_tcl.o: r200_maos.h ../../../../../src/mesa/tnl_dd/t_dd_dmatmp2.h
+r200_swtcl.o: ../../../../../src/mesa/main/glheader.h
+r200_swtcl.o: ../../../../../include/GL/gl.h
+r200_swtcl.o: ../../../../../include/GL/glext.h
+r200_swtcl.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+r200_swtcl.o: /usr/include/inttypes.h /usr/include/features.h
+r200_swtcl.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+r200_swtcl.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+r200_swtcl.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+r200_swtcl.o: ../../../../../src/mesa/main/mtypes.h
+r200_swtcl.o: ../../../../../src/mesa/main/config.h
+r200_swtcl.o: ../../../../../src/mesa/main/mfeatures.h
+r200_swtcl.o: ../../../../../src/mapi/glapi/glapi.h
+r200_swtcl.o: ../../../../../src/mapi/glapi/glthread.h
+r200_swtcl.o: ../../../../../src/mapi/mapi/u_thread.h
+r200_swtcl.o: ../../../../../src/mapi/mapi/u_compiler.h
+r200_swtcl.o: ../../../../../src/mesa/math/m_matrix.h
+r200_swtcl.o: ../../../../../src/mesa/main/simple_list.h
+r200_swtcl.o: ../../../../../src/mesa/main/formats.h
+r200_swtcl.o: ../../../../../src/mesa/main/dd.h
+r200_swtcl.o: ../../../../../src/mesa/main/glheader.h
+r200_swtcl.o: ../../../../../src/mesa/main/colormac.h
+r200_swtcl.o: ../../../../../src/mesa/main/config.h
+r200_swtcl.o: ../../../../../src/mesa/main/macros.h
+r200_swtcl.o: ../../../../../src/mesa/main/mtypes.h
+r200_swtcl.o: ../../../../../src/mesa/main/enums.h
+r200_swtcl.o: ../../../../../src/mesa/main/mfeatures.h
+r200_swtcl.o: ../../../../../src/mesa/main/image.h
+r200_swtcl.o: ../../../../../src/mesa/main/imports.h
+r200_swtcl.o: ../../../../../src/mesa/main/compiler.h /usr/include/assert.h
+r200_swtcl.o: /usr/include/ctype.h /usr/include/bits/types.h
+r200_swtcl.o: /usr/include/bits/typesizes.h /usr/include/endian.h
+r200_swtcl.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+r200_swtcl.o: /usr/include/xlocale.h /usr/include/math.h
+r200_swtcl.o: /usr/include/bits/huge_val.h /usr/include/bits/huge_valf.h
+r200_swtcl.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+r200_swtcl.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+r200_swtcl.o: /usr/include/bits/mathcalls.h
+r200_swtcl.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+r200_swtcl.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+r200_swtcl.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+r200_swtcl.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+r200_swtcl.o: /usr/include/bits/posix2_lim.h /usr/include/stdlib.h
+r200_swtcl.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+r200_swtcl.o: /usr/include/sys/types.h /usr/include/time.h
+r200_swtcl.o: /usr/include/sys/select.h /usr/include/bits/select.h
+r200_swtcl.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+r200_swtcl.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+r200_swtcl.o: /usr/include/alloca.h /usr/include/stdio.h /usr/include/libio.h
+r200_swtcl.o: /usr/include/_G_config.h /usr/include/wchar.h
+r200_swtcl.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+r200_swtcl.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+r200_swtcl.o: /usr/include/string.h
+r200_swtcl.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+r200_swtcl.o: ../../../../../src/mesa/main/macros.h
+r200_swtcl.o: ../../../../../src/mesa/main/imports.h
+r200_swtcl.o: ../../../../../src/mesa/swrast/s_context.h
+r200_swtcl.o: ../../../../../src/mesa/main/compiler.h
+r200_swtcl.o: ../../../../../src/mesa/program/prog_execute.h
+r200_swtcl.o: ../../../../../src/mesa/swrast/swrast.h
+r200_swtcl.o: ../../../../../src/mesa/swrast/s_span.h
+r200_swtcl.o: ../../../../../src/mesa/swrast/s_chan.h
+r200_swtcl.o: ../../../../../src/mesa/swrast/s_fog.h
+r200_swtcl.o: ../../../../../src/mesa/swrast_setup/swrast_setup.h
+r200_swtcl.o: ../../../../../src/mesa/swrast/swrast.h
+r200_swtcl.o: ../../../../../src/mesa/tnl/tnl.h
+r200_swtcl.o: ../../../../../src/mesa/tnl/t_context.h
+r200_swtcl.o: ../../../../../src/mesa/tnl/t_pipeline.h
+r200_swtcl.o: ../../../../../src/mesa/tnl/t_context.h
+r200_swtcl.o: ../../../../../src/mesa/math/m_vector.h
+r200_swtcl.o: ../../../../../src/mesa/vbo/vbo.h r200_context.h
+r200_swtcl.o: ../../../../../src/mesa/tnl/t_vertex.h
+r200_swtcl.o: /usr/include/libdrm/drm.h /usr/include/libdrm/drm_mode.h
+r200_swtcl.o: /usr/include/libdrm/radeon_drm.h ../common/dri_util.h
+r200_swtcl.o: ../../../../../include/GL/internal/dri_interface.h
+r200_swtcl.o: ../common/xmlconfig.h r200_reg.h r200_vertprog.h
+r200_swtcl.o: radeon_screen.h server/radeon_dri.h /usr/include/xf86drm.h
+r200_swtcl.o: radeon_chipset.h ../../../../../include/pci_ids/r200_pci_ids.h
+r200_swtcl.o: server/radeon_reg.h /usr/include/libdrm/drm_sarea.h
+r200_swtcl.o: radeon_common.h radeon_common_context.h
+r200_swtcl.o: ../../../../../src/mesa/main/mm.h radeon_debug.h
+r200_swtcl.o: /usr/include/libdrm/radeon_bo_gem.h
+r200_swtcl.o: /usr/include/libdrm/radeon_bo.h
+r200_swtcl.o: /usr/include/libdrm/radeon_cs_gem.h
+r200_swtcl.o: /usr/include/libdrm/radeon_cs.h
+r200_swtcl.o: ../../../../../src/mesa/tnl_dd/t_dd_vertex.h radeon_dma.h
+r200_swtcl.o: radeon_texture.h radeon_cmdbuf.h r200_ioctl.h r200_state.h
+r200_swtcl.o: r200_swtcl.h r200_tcl.h
+r200_swtcl.o: ../../../../../src/mesa/tnl_dd/t_dd_triemit.h
+r200_swtcl.o: ../../../../../src/mesa/tnl_dd/t_dd_unfilled.h
+r200_swtcl.o: ../../../../../src/mesa/tnl_dd/t_dd_tritmp.h
+r200_swtcl.o: ../../../../../src/mesa/tnl/t_vb_rendertmp.h
+r200_maos.o: /usr/include/string.h /usr/include/features.h
+r200_maos.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+r200_maos.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+r200_maos.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+r200_maos.o: /usr/include/xlocale.h r200_context.h
+r200_maos.o: ../../../../../src/mesa/tnl/t_vertex.h
+r200_maos.o: ../../../../../src/mesa/main/glheader.h
+r200_maos.o: ../../../../../include/GL/gl.h ../../../../../include/GL/glext.h
+r200_maos.o: /usr/include/inttypes.h /usr/include/stdint.h
+r200_maos.o: /usr/include/bits/wchar.h
+r200_maos.o: ../../../../../src/mesa/tnl/t_context.h
+r200_maos.o: ../../../../../src/mesa/main/imports.h
+r200_maos.o: ../../../../../src/mesa/main/compiler.h /usr/include/assert.h
+r200_maos.o: /usr/include/ctype.h /usr/include/bits/types.h
+r200_maos.o: /usr/include/bits/typesizes.h /usr/include/endian.h
+r200_maos.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+r200_maos.o: /usr/include/math.h /usr/include/bits/huge_val.h
+r200_maos.o: /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h
+r200_maos.o: /usr/include/bits/inf.h /usr/include/bits/nan.h
+r200_maos.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+r200_maos.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+r200_maos.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+r200_maos.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+r200_maos.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+r200_maos.o: /usr/include/bits/posix2_lim.h /usr/include/stdlib.h
+r200_maos.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+r200_maos.o: /usr/include/sys/types.h /usr/include/time.h
+r200_maos.o: /usr/include/sys/select.h /usr/include/bits/select.h
+r200_maos.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+r200_maos.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+r200_maos.o: /usr/include/alloca.h /usr/include/stdio.h /usr/include/libio.h
+r200_maos.o: /usr/include/_G_config.h /usr/include/wchar.h
+r200_maos.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+r200_maos.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+r200_maos.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+r200_maos.o: ../../../../../src/mesa/main/glheader.h
+r200_maos.o: ../../../../../src/mesa/main/mtypes.h
+r200_maos.o: ../../../../../src/mesa/main/config.h
+r200_maos.o: ../../../../../src/mesa/main/mfeatures.h
+r200_maos.o: ../../../../../src/mapi/glapi/glapi.h
+r200_maos.o: ../../../../../src/mapi/glapi/glthread.h
+r200_maos.o: ../../../../../src/mapi/mapi/u_thread.h
+r200_maos.o: ../../../../../src/mapi/mapi/u_compiler.h
+r200_maos.o: ../../../../../src/mesa/math/m_matrix.h
+r200_maos.o: ../../../../../src/mesa/main/simple_list.h
+r200_maos.o: ../../../../../src/mesa/main/formats.h
+r200_maos.o: ../../../../../src/mesa/main/dd.h
+r200_maos.o: ../../../../../src/mesa/math/m_vector.h
+r200_maos.o: ../../../../../src/mesa/vbo/vbo.h /usr/include/libdrm/drm.h
+r200_maos.o: /usr/include/libdrm/drm_mode.h /usr/include/libdrm/radeon_drm.h
+r200_maos.o: ../common/dri_util.h
+r200_maos.o: ../../../../../include/GL/internal/dri_interface.h
+r200_maos.o: ../common/xmlconfig.h ../../../../../src/mesa/main/macros.h
+r200_maos.o: ../../../../../src/mesa/main/imports.h
+r200_maos.o: ../../../../../src/mesa/main/colormac.h
+r200_maos.o: ../../../../../src/mesa/main/config.h
+r200_maos.o: ../../../../../src/mesa/main/macros.h
+r200_maos.o: ../../../../../src/mesa/main/mtypes.h r200_reg.h r200_vertprog.h
+r200_maos.o: radeon_screen.h server/radeon_dri.h /usr/include/xf86drm.h
+r200_maos.o: radeon_chipset.h ../../../../../include/pci_ids/r200_pci_ids.h
+r200_maos.o: server/radeon_reg.h /usr/include/libdrm/drm_sarea.h
+r200_maos.o: radeon_common.h radeon_common_context.h
+r200_maos.o: ../../../../../src/mesa/main/mm.h
+r200_maos.o: ../../../../../src/mesa/tnl/t_context.h radeon_debug.h
+r200_maos.o: ../../../../../src/mesa/swrast/s_context.h
+r200_maos.o: ../../../../../src/mesa/main/compiler.h
+r200_maos.o: ../../../../../src/mesa/program/prog_execute.h
+r200_maos.o: ../../../../../src/mesa/swrast/swrast.h
+r200_maos.o: ../../../../../src/mesa/swrast/s_span.h
+r200_maos.o: ../../../../../src/mesa/swrast/s_chan.h
+r200_maos.o: /usr/include/libdrm/radeon_bo_gem.h
+r200_maos.o: /usr/include/libdrm/radeon_bo.h
+r200_maos.o: /usr/include/libdrm/radeon_cs_gem.h
+r200_maos.o: /usr/include/libdrm/radeon_cs.h
+r200_maos.o: ../../../../../src/mesa/tnl_dd/t_dd_vertex.h radeon_dma.h
+r200_maos.o: radeon_texture.h radeon_cmdbuf.h r200_maos_arrays.c
+r200_maos.o: ../../../../../src/mesa/swrast_setup/swrast_setup.h
+r200_maos.o: ../../../../../src/mesa/swrast/swrast.h
+r200_maos.o: ../../../../../src/mesa/math/m_translate.h
+r200_maos.o: ../../../../../src/mesa/tnl/tnl.h r200_ioctl.h r200_state.h
+r200_maos.o: r200_swtcl.h r200_maos.h r200_tcl.h
+r200_sanity.o: /usr/include/errno.h /usr/include/features.h
+r200_sanity.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+r200_sanity.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+r200_sanity.o: /usr/include/bits/errno.h /usr/include/linux/errno.h
+r200_sanity.o: /usr/include/asm/errno.h /usr/include/asm-generic/errno.h
+r200_sanity.o: /usr/include/asm-generic/errno-base.h
+r200_sanity.o: ../../../../../src/mesa/main/glheader.h
+r200_sanity.o: ../../../../../include/GL/gl.h
+r200_sanity.o: ../../../../../include/GL/glext.h
+r200_sanity.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+r200_sanity.o: /usr/include/inttypes.h /usr/include/stdint.h
+r200_sanity.o: /usr/include/bits/wchar.h
+r200_sanity.o: ../../../../../src/mesa/main/imports.h
+r200_sanity.o: ../../../../../src/mesa/main/compiler.h /usr/include/assert.h
+r200_sanity.o: /usr/include/ctype.h /usr/include/bits/types.h
+r200_sanity.o: /usr/include/bits/typesizes.h /usr/include/endian.h
+r200_sanity.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+r200_sanity.o: /usr/include/xlocale.h /usr/include/math.h
+r200_sanity.o: /usr/include/bits/huge_val.h /usr/include/bits/huge_valf.h
+r200_sanity.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+r200_sanity.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+r200_sanity.o: /usr/include/bits/mathcalls.h
+r200_sanity.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+r200_sanity.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+r200_sanity.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+r200_sanity.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+r200_sanity.o: /usr/include/bits/posix2_lim.h /usr/include/stdlib.h
+r200_sanity.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+r200_sanity.o: /usr/include/sys/types.h /usr/include/time.h
+r200_sanity.o: /usr/include/sys/select.h /usr/include/bits/select.h
+r200_sanity.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+r200_sanity.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+r200_sanity.o: /usr/include/alloca.h /usr/include/stdio.h
+r200_sanity.o: /usr/include/libio.h /usr/include/_G_config.h
+r200_sanity.o: /usr/include/wchar.h
+r200_sanity.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+r200_sanity.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+r200_sanity.o: /usr/include/string.h
+r200_sanity.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+r200_sanity.o: ../../../../../src/mesa/main/glheader.h r200_context.h
+r200_sanity.o: ../../../../../src/mesa/tnl/t_vertex.h
+r200_sanity.o: ../../../../../src/mesa/tnl/t_context.h
+r200_sanity.o: ../../../../../src/mesa/main/mtypes.h
+r200_sanity.o: ../../../../../src/mesa/main/config.h
+r200_sanity.o: ../../../../../src/mesa/main/mfeatures.h
+r200_sanity.o: ../../../../../src/mapi/glapi/glapi.h
+r200_sanity.o: ../../../../../src/mapi/glapi/glthread.h
+r200_sanity.o: ../../../../../src/mapi/mapi/u_thread.h
+r200_sanity.o: ../../../../../src/mapi/mapi/u_compiler.h
+r200_sanity.o: ../../../../../src/mesa/math/m_matrix.h
+r200_sanity.o: ../../../../../src/mesa/main/simple_list.h
+r200_sanity.o: ../../../../../src/mesa/main/formats.h
+r200_sanity.o: ../../../../../src/mesa/main/dd.h
+r200_sanity.o: ../../../../../src/mesa/math/m_vector.h
+r200_sanity.o: ../../../../../src/mesa/vbo/vbo.h /usr/include/libdrm/drm.h
+r200_sanity.o: /usr/include/libdrm/drm_mode.h
+r200_sanity.o: /usr/include/libdrm/radeon_drm.h ../common/dri_util.h
+r200_sanity.o: ../../../../../include/GL/internal/dri_interface.h
+r200_sanity.o: ../common/xmlconfig.h ../../../../../src/mesa/main/macros.h
+r200_sanity.o: ../../../../../src/mesa/main/imports.h
+r200_sanity.o: ../../../../../src/mesa/main/colormac.h
+r200_sanity.o: ../../../../../src/mesa/main/config.h
+r200_sanity.o: ../../../../../src/mesa/main/macros.h
+r200_sanity.o: ../../../../../src/mesa/main/mtypes.h r200_reg.h
+r200_sanity.o: r200_vertprog.h radeon_screen.h server/radeon_dri.h
+r200_sanity.o: /usr/include/xf86drm.h radeon_chipset.h
+r200_sanity.o: ../../../../../include/pci_ids/r200_pci_ids.h
+r200_sanity.o: server/radeon_reg.h /usr/include/libdrm/drm_sarea.h
+r200_sanity.o: radeon_common.h radeon_common_context.h
+r200_sanity.o: ../../../../../src/mesa/main/mm.h
+r200_sanity.o: ../../../../../src/mesa/tnl/t_context.h radeon_debug.h
+r200_sanity.o: ../../../../../src/mesa/swrast/s_context.h
+r200_sanity.o: ../../../../../src/mesa/main/compiler.h
+r200_sanity.o: ../../../../../src/mesa/program/prog_execute.h
+r200_sanity.o: ../../../../../src/mesa/swrast/swrast.h
+r200_sanity.o: ../../../../../src/mesa/swrast/s_span.h
+r200_sanity.o: ../../../../../src/mesa/swrast/s_chan.h
+r200_sanity.o: /usr/include/libdrm/radeon_bo_gem.h
+r200_sanity.o: /usr/include/libdrm/radeon_bo.h
+r200_sanity.o: /usr/include/libdrm/radeon_cs_gem.h
+r200_sanity.o: /usr/include/libdrm/radeon_cs.h
+r200_sanity.o: ../../../../../src/mesa/tnl_dd/t_dd_vertex.h radeon_dma.h
+r200_sanity.o: radeon_texture.h radeon_cmdbuf.h r200_sanity.h
+r200_fragshader.o: ../../../../../src/mesa/main/glheader.h
+r200_fragshader.o: ../../../../../include/GL/gl.h
+r200_fragshader.o: ../../../../../include/GL/glext.h
+r200_fragshader.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+r200_fragshader.o: /usr/include/inttypes.h /usr/include/features.h
+r200_fragshader.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+r200_fragshader.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+r200_fragshader.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+r200_fragshader.o: ../../../../../src/mesa/main/atifragshader.h
+r200_fragshader.o: ../../../../../src/mesa/main/compiler.h
+r200_fragshader.o: /usr/include/assert.h /usr/include/ctype.h
+r200_fragshader.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+r200_fragshader.o: /usr/include/endian.h /usr/include/bits/endian.h
+r200_fragshader.o: /usr/include/bits/byteswap.h /usr/include/xlocale.h
+r200_fragshader.o: /usr/include/math.h /usr/include/bits/huge_val.h
+r200_fragshader.o: /usr/include/bits/huge_valf.h
+r200_fragshader.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+r200_fragshader.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+r200_fragshader.o: /usr/include/bits/mathcalls.h
+r200_fragshader.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+r200_fragshader.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+r200_fragshader.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+r200_fragshader.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+r200_fragshader.o: /usr/include/bits/posix2_lim.h /usr/include/stdlib.h
+r200_fragshader.o: /usr/include/bits/waitflags.h
+r200_fragshader.o: /usr/include/bits/waitstatus.h /usr/include/sys/types.h
+r200_fragshader.o: /usr/include/time.h /usr/include/sys/select.h
+r200_fragshader.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+r200_fragshader.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+r200_fragshader.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+r200_fragshader.o: /usr/include/stdio.h /usr/include/libio.h
+r200_fragshader.o: /usr/include/_G_config.h /usr/include/wchar.h
+r200_fragshader.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+r200_fragshader.o: /usr/include/bits/stdio_lim.h
+r200_fragshader.o: /usr/include/bits/sys_errlist.h /usr/include/string.h
+r200_fragshader.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+r200_fragshader.o: ../../../../../src/mesa/main/glheader.h
+r200_fragshader.o: ../../../../../src/mesa/main/mfeatures.h
+r200_fragshader.o: ../../../../../src/mesa/main/macros.h
+r200_fragshader.o: ../../../../../src/mesa/main/imports.h
+r200_fragshader.o: ../../../../../src/mesa/main/enums.h
+r200_fragshader.o: ../../../../../src/mesa/tnl/t_context.h
+r200_fragshader.o: ../../../../../src/mesa/program/program.h
+r200_fragshader.o: ../../../../../src/mesa/main/compiler.h
+r200_fragshader.o: ../../../../../src/mesa/main/mtypes.h
+r200_fragshader.o: ../../../../../src/mesa/main/config.h
+r200_fragshader.o: ../../../../../src/mesa/main/mfeatures.h
+r200_fragshader.o: ../../../../../src/mapi/glapi/glapi.h
+r200_fragshader.o: ../../../../../src/mapi/glapi/glthread.h
+r200_fragshader.o: ../../../../../src/mapi/mapi/u_thread.h
+r200_fragshader.o: ../../../../../src/mapi/mapi/u_compiler.h
+r200_fragshader.o: ../../../../../src/mesa/math/m_matrix.h
+r200_fragshader.o: ../../../../../src/mesa/main/simple_list.h
+r200_fragshader.o: ../../../../../src/mesa/main/formats.h
+r200_fragshader.o: ../../../../../src/mesa/main/dd.h r200_context.h
+r200_fragshader.o: ../../../../../src/mesa/tnl/t_vertex.h
+r200_fragshader.o: ../../../../../src/mesa/tnl/t_context.h
+r200_fragshader.o: ../../../../../src/mesa/main/imports.h
+r200_fragshader.o: ../../../../../src/mesa/math/m_vector.h
+r200_fragshader.o: ../../../../../src/mesa/vbo/vbo.h
+r200_fragshader.o: /usr/include/libdrm/drm.h /usr/include/libdrm/drm_mode.h
+r200_fragshader.o: /usr/include/libdrm/radeon_drm.h ../common/dri_util.h
+r200_fragshader.o: ../../../../../include/GL/internal/dri_interface.h
+r200_fragshader.o: ../common/xmlconfig.h
+r200_fragshader.o: ../../../../../src/mesa/main/colormac.h
+r200_fragshader.o: ../../../../../src/mesa/main/config.h
+r200_fragshader.o: ../../../../../src/mesa/main/macros.h
+r200_fragshader.o: ../../../../../src/mesa/main/mtypes.h r200_reg.h
+r200_fragshader.o: r200_vertprog.h radeon_screen.h server/radeon_dri.h
+r200_fragshader.o: /usr/include/xf86drm.h radeon_chipset.h
+r200_fragshader.o: ../../../../../include/pci_ids/r200_pci_ids.h
+r200_fragshader.o: server/radeon_reg.h /usr/include/libdrm/drm_sarea.h
+r200_fragshader.o: radeon_common.h radeon_common_context.h
+r200_fragshader.o: ../../../../../src/mesa/main/mm.h radeon_debug.h
+r200_fragshader.o: ../../../../../src/mesa/swrast/s_context.h
+r200_fragshader.o: ../../../../../src/mesa/program/prog_execute.h
+r200_fragshader.o: ../../../../../src/mesa/swrast/swrast.h
+r200_fragshader.o: ../../../../../src/mesa/swrast/s_span.h
+r200_fragshader.o: ../../../../../src/mesa/swrast/s_chan.h
+r200_fragshader.o: /usr/include/libdrm/radeon_bo_gem.h
+r200_fragshader.o: /usr/include/libdrm/radeon_bo.h
+r200_fragshader.o: /usr/include/libdrm/radeon_cs_gem.h
+r200_fragshader.o: /usr/include/libdrm/radeon_cs.h
+r200_fragshader.o: ../../../../../src/mesa/tnl_dd/t_dd_vertex.h radeon_dma.h
+r200_fragshader.o: radeon_texture.h radeon_cmdbuf.h r200_ioctl.h r200_tex.h
+r200_vertprog.o: ../../../../../src/mesa/main/glheader.h
+r200_vertprog.o: ../../../../../include/GL/gl.h
+r200_vertprog.o: ../../../../../include/GL/glext.h
+r200_vertprog.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+r200_vertprog.o: /usr/include/inttypes.h /usr/include/features.h
+r200_vertprog.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+r200_vertprog.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+r200_vertprog.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+r200_vertprog.o: ../../../../../src/mesa/main/macros.h
+r200_vertprog.o: ../../../../../src/mesa/main/imports.h
+r200_vertprog.o: ../../../../../src/mesa/main/compiler.h
+r200_vertprog.o: /usr/include/assert.h /usr/include/ctype.h
+r200_vertprog.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+r200_vertprog.o: /usr/include/endian.h /usr/include/bits/endian.h
+r200_vertprog.o: /usr/include/bits/byteswap.h /usr/include/xlocale.h
+r200_vertprog.o: /usr/include/math.h /usr/include/bits/huge_val.h
+r200_vertprog.o: /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h
+r200_vertprog.o: /usr/include/bits/inf.h /usr/include/bits/nan.h
+r200_vertprog.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+r200_vertprog.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+r200_vertprog.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+r200_vertprog.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+r200_vertprog.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+r200_vertprog.o: /usr/include/bits/posix2_lim.h /usr/include/stdlib.h
+r200_vertprog.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+r200_vertprog.o: /usr/include/sys/types.h /usr/include/time.h
+r200_vertprog.o: /usr/include/sys/select.h /usr/include/bits/select.h
+r200_vertprog.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+r200_vertprog.o: /usr/include/sys/sysmacros.h
+r200_vertprog.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+r200_vertprog.o: /usr/include/stdio.h /usr/include/libio.h
+r200_vertprog.o: /usr/include/_G_config.h /usr/include/wchar.h
+r200_vertprog.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+r200_vertprog.o: /usr/include/bits/stdio_lim.h
+r200_vertprog.o: /usr/include/bits/sys_errlist.h /usr/include/string.h
+r200_vertprog.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+r200_vertprog.o: ../../../../../src/mesa/main/glheader.h
+r200_vertprog.o: ../../../../../src/mesa/main/enums.h
+r200_vertprog.o: ../../../../../src/mesa/main/mfeatures.h
+r200_vertprog.o: ../../../../../src/mesa/program/program.h
+r200_vertprog.o: ../../../../../src/mesa/main/compiler.h
+r200_vertprog.o: ../../../../../src/mesa/main/mtypes.h
+r200_vertprog.o: ../../../../../src/mesa/main/config.h
+r200_vertprog.o: ../../../../../src/mesa/main/mfeatures.h
+r200_vertprog.o: ../../../../../src/mapi/glapi/glapi.h
+r200_vertprog.o: ../../../../../src/mapi/glapi/glthread.h
+r200_vertprog.o: ../../../../../src/mapi/mapi/u_thread.h
+r200_vertprog.o: ../../../../../src/mapi/mapi/u_compiler.h
+r200_vertprog.o: ../../../../../src/mesa/math/m_matrix.h
+r200_vertprog.o: ../../../../../src/mesa/main/simple_list.h
+r200_vertprog.o: ../../../../../src/mesa/main/formats.h
+r200_vertprog.o: ../../../../../src/mesa/main/dd.h
+r200_vertprog.o: ../../../../../src/mesa/program/prog_instruction.h
+r200_vertprog.o: ../../../../../src/mesa/program/prog_parameter.h
+r200_vertprog.o: ../../../../../src/mesa/program/prog_statevars.h
+r200_vertprog.o: ../../../../../src/mesa/program/prog_statevars.h
+r200_vertprog.o: ../../../../../src/mesa/program/programopt.h
+r200_vertprog.o: ../../../../../src/mesa/tnl/tnl.h r200_context.h
+r200_vertprog.o: ../../../../../src/mesa/tnl/t_vertex.h
+r200_vertprog.o: ../../../../../src/mesa/tnl/t_context.h
+r200_vertprog.o: ../../../../../src/mesa/main/imports.h
+r200_vertprog.o: ../../../../../src/mesa/math/m_vector.h
+r200_vertprog.o: ../../../../../src/mesa/vbo/vbo.h /usr/include/libdrm/drm.h
+r200_vertprog.o: /usr/include/libdrm/drm_mode.h
+r200_vertprog.o: /usr/include/libdrm/radeon_drm.h ../common/dri_util.h
+r200_vertprog.o: ../../../../../include/GL/internal/dri_interface.h
+r200_vertprog.o: ../common/xmlconfig.h
+r200_vertprog.o: ../../../../../src/mesa/main/colormac.h
+r200_vertprog.o: ../../../../../src/mesa/main/config.h
+r200_vertprog.o: ../../../../../src/mesa/main/macros.h
+r200_vertprog.o: ../../../../../src/mesa/main/mtypes.h r200_reg.h
+r200_vertprog.o: r200_vertprog.h radeon_screen.h server/radeon_dri.h
+r200_vertprog.o: /usr/include/xf86drm.h radeon_chipset.h
+r200_vertprog.o: ../../../../../include/pci_ids/r200_pci_ids.h
+r200_vertprog.o: server/radeon_reg.h /usr/include/libdrm/drm_sarea.h
+r200_vertprog.o: radeon_common.h radeon_common_context.h
+r200_vertprog.o: ../../../../../src/mesa/main/mm.h
+r200_vertprog.o: ../../../../../src/mesa/tnl/t_context.h radeon_debug.h
+r200_vertprog.o: ../../../../../src/mesa/swrast/s_context.h
+r200_vertprog.o: ../../../../../src/mesa/program/prog_execute.h
+r200_vertprog.o: ../../../../../src/mesa/swrast/swrast.h
+r200_vertprog.o: ../../../../../src/mesa/swrast/s_span.h
+r200_vertprog.o: ../../../../../src/mesa/swrast/s_chan.h
+r200_vertprog.o: /usr/include/libdrm/radeon_bo_gem.h
+r200_vertprog.o: /usr/include/libdrm/radeon_bo.h
+r200_vertprog.o: /usr/include/libdrm/radeon_cs_gem.h
+r200_vertprog.o: /usr/include/libdrm/radeon_cs.h
+r200_vertprog.o: ../../../../../src/mesa/tnl_dd/t_dd_vertex.h radeon_dma.h
+r200_vertprog.o: radeon_texture.h radeon_cmdbuf.h r200_ioctl.h r200_tcl.h
+r200_blit.o: radeon_common.h radeon_common_context.h
+r200_blit.o: ../../../../../src/mesa/main/mm.h
+r200_blit.o: ../../../../../src/mesa/math/m_vector.h
+r200_blit.o: ../../../../../src/mesa/main/glheader.h
+r200_blit.o: ../../../../../include/GL/gl.h ../../../../../include/GL/glext.h
+r200_blit.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+r200_blit.o: /usr/include/inttypes.h /usr/include/features.h
+r200_blit.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+r200_blit.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+r200_blit.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+r200_blit.o: ../../../../../src/mesa/tnl/t_context.h
+r200_blit.o: ../../../../../src/mesa/main/colormac.h
+r200_blit.o: ../../../../../src/mesa/main/config.h
+r200_blit.o: ../../../../../src/mesa/main/macros.h
+r200_blit.o: ../../../../../src/mesa/main/mtypes.h radeon_debug.h
+r200_blit.o: /usr/include/stdlib.h /usr/include/bits/waitflags.h
+r200_blit.o: /usr/include/bits/waitstatus.h /usr/include/endian.h
+r200_blit.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+r200_blit.o: /usr/include/sys/types.h /usr/include/bits/types.h
+r200_blit.o: /usr/include/bits/typesizes.h /usr/include/time.h
+r200_blit.o: /usr/include/sys/select.h /usr/include/bits/select.h
+r200_blit.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+r200_blit.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+r200_blit.o: /usr/include/alloca.h radeon_screen.h ../common/dri_util.h
+r200_blit.o: ../../../../../include/GL/internal/dri_interface.h
+r200_blit.o: /usr/include/libdrm/drm.h /usr/include/libdrm/drm_mode.h
+r200_blit.o: ../../../../../src/mesa/main/mtypes.h
+r200_blit.o: ../../../../../src/mesa/main/config.h
+r200_blit.o: ../../../../../src/mesa/main/mfeatures.h
+r200_blit.o: ../../../../../src/mapi/glapi/glapi.h
+r200_blit.o: ../../../../../src/mapi/glapi/glthread.h
+r200_blit.o: ../../../../../src/mapi/mapi/u_thread.h
+r200_blit.o: ../../../../../src/mapi/mapi/u_compiler.h
+r200_blit.o: ../../../../../src/mesa/math/m_matrix.h
+r200_blit.o: ../../../../../src/mesa/main/simple_list.h
+r200_blit.o: ../../../../../src/mesa/main/formats.h
+r200_blit.o: ../../../../../src/mesa/main/dd.h
+r200_blit.o: ../../../../../src/mesa/main/glheader.h ../common/xmlconfig.h
+r200_blit.o: server/radeon_dri.h /usr/include/xf86drm.h
+r200_blit.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+r200_blit.o: /usr/include/libdrm/radeon_drm.h radeon_chipset.h
+r200_blit.o: ../../../../../include/pci_ids/r200_pci_ids.h
+r200_blit.o: server/radeon_reg.h /usr/include/libdrm/drm_sarea.h
+r200_blit.o: ../../../../../src/mesa/tnl/t_vertex.h
+r200_blit.o: ../../../../../src/mesa/tnl/t_context.h
+r200_blit.o: ../../../../../src/mesa/main/imports.h
+r200_blit.o: ../../../../../src/mesa/main/compiler.h /usr/include/assert.h
+r200_blit.o: /usr/include/ctype.h /usr/include/xlocale.h /usr/include/math.h
+r200_blit.o: /usr/include/bits/huge_val.h /usr/include/bits/huge_valf.h
+r200_blit.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+r200_blit.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+r200_blit.o: /usr/include/bits/mathcalls.h
+r200_blit.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+r200_blit.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+r200_blit.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+r200_blit.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+r200_blit.o: /usr/include/bits/posix2_lim.h /usr/include/stdio.h
+r200_blit.o: /usr/include/libio.h /usr/include/_G_config.h
+r200_blit.o: /usr/include/wchar.h /usr/include/bits/stdio_lim.h
+r200_blit.o: /usr/include/bits/sys_errlist.h /usr/include/string.h
+r200_blit.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+r200_blit.o: ../../../../../src/mesa/vbo/vbo.h
+r200_blit.o: ../../../../../src/mesa/swrast/s_context.h
+r200_blit.o: ../../../../../src/mesa/main/compiler.h
+r200_blit.o: ../../../../../src/mesa/program/prog_execute.h
+r200_blit.o: ../../../../../src/mesa/swrast/swrast.h
+r200_blit.o: ../../../../../src/mesa/swrast/s_span.h
+r200_blit.o: ../../../../../src/mesa/swrast/s_chan.h
+r200_blit.o: /usr/include/libdrm/radeon_bo_gem.h
+r200_blit.o: /usr/include/libdrm/radeon_bo.h
+r200_blit.o: /usr/include/libdrm/radeon_cs_gem.h
+r200_blit.o: /usr/include/libdrm/radeon_cs.h
+r200_blit.o: ../../../../../src/mesa/tnl_dd/t_dd_vertex.h radeon_dma.h
+r200_blit.o: radeon_texture.h radeon_cmdbuf.h r200_context.h
+r200_blit.o: ../../../../../src/mesa/main/macros.h
+r200_blit.o: ../../../../../src/mesa/main/imports.h r200_reg.h
+r200_blit.o: r200_vertprog.h r200_blit.h
+radeon_screen.o: /usr/include/errno.h /usr/include/features.h
+radeon_screen.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+radeon_screen.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+radeon_screen.o: /usr/include/bits/errno.h /usr/include/linux/errno.h
+radeon_screen.o: /usr/include/asm/errno.h /usr/include/asm-generic/errno.h
+radeon_screen.o: /usr/include/asm-generic/errno-base.h
+radeon_screen.o: ../../../../../src/mesa/main/glheader.h
+radeon_screen.o: ../../../../../include/GL/gl.h
+radeon_screen.o: ../../../../../include/GL/glext.h
+radeon_screen.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+radeon_screen.o: /usr/include/inttypes.h /usr/include/stdint.h
+radeon_screen.o: /usr/include/bits/wchar.h
+radeon_screen.o: ../../../../../src/mesa/main/imports.h
+radeon_screen.o: ../../../../../src/mesa/main/compiler.h
+radeon_screen.o: /usr/include/assert.h /usr/include/ctype.h
+radeon_screen.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+radeon_screen.o: /usr/include/endian.h /usr/include/bits/endian.h
+radeon_screen.o: /usr/include/bits/byteswap.h /usr/include/xlocale.h
+radeon_screen.o: /usr/include/math.h /usr/include/bits/huge_val.h
+radeon_screen.o: /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h
+radeon_screen.o: /usr/include/bits/inf.h /usr/include/bits/nan.h
+radeon_screen.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+radeon_screen.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+radeon_screen.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+radeon_screen.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+radeon_screen.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+radeon_screen.o: /usr/include/bits/posix2_lim.h /usr/include/stdlib.h
+radeon_screen.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+radeon_screen.o: /usr/include/sys/types.h /usr/include/time.h
+radeon_screen.o: /usr/include/sys/select.h /usr/include/bits/select.h
+radeon_screen.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+radeon_screen.o: /usr/include/sys/sysmacros.h
+radeon_screen.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+radeon_screen.o: /usr/include/stdio.h /usr/include/libio.h
+radeon_screen.o: /usr/include/_G_config.h /usr/include/wchar.h
+radeon_screen.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+radeon_screen.o: /usr/include/bits/stdio_lim.h
+radeon_screen.o: /usr/include/bits/sys_errlist.h /usr/include/string.h
+radeon_screen.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+radeon_screen.o: ../../../../../src/mesa/main/glheader.h
+radeon_screen.o: ../../../../../src/mesa/main/mtypes.h
+radeon_screen.o: ../../../../../src/mesa/main/config.h
+radeon_screen.o: ../../../../../src/mesa/main/mfeatures.h
+radeon_screen.o: ../../../../../src/mapi/glapi/glapi.h
+radeon_screen.o: ../../../../../src/mapi/glapi/glthread.h
+radeon_screen.o: ../../../../../src/mapi/mapi/u_thread.h
+radeon_screen.o: ../../../../../src/mapi/mapi/u_compiler.h
+radeon_screen.o: ../../../../../src/mesa/math/m_matrix.h
+radeon_screen.o: ../../../../../src/mesa/main/simple_list.h
+radeon_screen.o: ../../../../../src/mesa/main/formats.h
+radeon_screen.o: ../../../../../src/mesa/main/dd.h
+radeon_screen.o: ../../../../../src/mesa/main/framebuffer.h
+radeon_screen.o: ../../../../../src/mesa/main/renderbuffer.h
+radeon_screen.o: ../../../../../src/mesa/main/mtypes.h
+radeon_screen.o: ../../../../../src/mesa/main/fbobject.h
+radeon_screen.o: ../../../../../src/mesa/swrast/s_renderbuffer.h
+radeon_screen.o: radeon_chipset.h
+radeon_screen.o: ../../../../../include/pci_ids/r200_pci_ids.h
+radeon_screen.o: server/radeon_macros.h
+radeon_screen.o: ../../../../../src/mesa/drivers/dri/common/mmio.h
+radeon_screen.o: radeon_screen.h ../common/dri_util.h
+radeon_screen.o: ../../../../../include/GL/internal/dri_interface.h
+radeon_screen.o: /usr/include/libdrm/drm.h /usr/include/libdrm/drm_mode.h
+radeon_screen.o: ../common/xmlconfig.h server/radeon_dri.h
+radeon_screen.o: /usr/include/xf86drm.h /usr/include/libdrm/radeon_drm.h
+radeon_screen.o: server/radeon_reg.h /usr/include/libdrm/drm_sarea.h
+radeon_screen.o: radeon_common.h radeon_common_context.h
+radeon_screen.o: ../../../../../src/mesa/main/mm.h
+radeon_screen.o: ../../../../../src/mesa/math/m_vector.h
+radeon_screen.o: ../../../../../src/mesa/tnl/t_context.h
+radeon_screen.o: ../../../../../src/mesa/main/colormac.h
+radeon_screen.o: ../../../../../src/mesa/main/config.h
+radeon_screen.o: ../../../../../src/mesa/main/macros.h radeon_debug.h
+radeon_screen.o: ../../../../../src/mesa/tnl/t_vertex.h
+radeon_screen.o: ../../../../../src/mesa/tnl/t_context.h
+radeon_screen.o: ../../../../../src/mesa/vbo/vbo.h
+radeon_screen.o: ../../../../../src/mesa/swrast/s_context.h
+radeon_screen.o: ../../../../../src/mesa/main/compiler.h
+radeon_screen.o: ../../../../../src/mesa/program/prog_execute.h
+radeon_screen.o: ../../../../../src/mesa/swrast/swrast.h
+radeon_screen.o: ../../../../../src/mesa/swrast/s_span.h
+radeon_screen.o: ../../../../../src/mesa/swrast/s_chan.h
+radeon_screen.o: /usr/include/libdrm/radeon_bo_gem.h
+radeon_screen.o: /usr/include/libdrm/radeon_bo.h
+radeon_screen.o: /usr/include/libdrm/radeon_cs_gem.h
+radeon_screen.o: /usr/include/libdrm/radeon_cs.h
+radeon_screen.o: ../../../../../src/mesa/tnl_dd/t_dd_vertex.h radeon_dma.h
+radeon_screen.o: radeon_texture.h radeon_cmdbuf.h r200_context.h
+radeon_screen.o: ../../../../../src/mesa/main/macros.h
+radeon_screen.o: ../../../../../src/mesa/main/imports.h r200_reg.h
+radeon_screen.o: r200_vertprog.h r200_tex.h ../common/utils.h
+radeon_screen.o: ../../../../../src/mesa/main/context.h ../common/xmlpool.h
+radeon_screen.o: ../common/xmlpool/options.h
+radeon_buffer_objects.o: radeon_buffer_objects.h
+radeon_buffer_objects.o: ../../../../../src/mesa/main/mtypes.h
+radeon_buffer_objects.o: ../../../../../src/mesa/main/glheader.h
+radeon_buffer_objects.o: ../../../../../include/GL/gl.h
+radeon_buffer_objects.o: ../../../../../include/GL/glext.h
+radeon_buffer_objects.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+radeon_buffer_objects.o: /usr/include/inttypes.h /usr/include/features.h
+radeon_buffer_objects.o: /usr/include/sys/cdefs.h
+radeon_buffer_objects.o: /usr/include/bits/wordsize.h
+radeon_buffer_objects.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+radeon_buffer_objects.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+radeon_buffer_objects.o: ../../../../../src/mesa/main/config.h
+radeon_buffer_objects.o: ../../../../../src/mesa/main/mfeatures.h
+radeon_buffer_objects.o: ../../../../../src/mapi/glapi/glapi.h
+radeon_buffer_objects.o: ../../../../../src/mapi/glapi/glthread.h
+radeon_buffer_objects.o: ../../../../../src/mapi/mapi/u_thread.h
+radeon_buffer_objects.o: ../../../../../src/mapi/mapi/u_compiler.h
+radeon_buffer_objects.o: ../../../../../src/mesa/math/m_matrix.h
+radeon_buffer_objects.o: ../../../../../src/mesa/main/simple_list.h
+radeon_buffer_objects.o: ../../../../../src/mesa/main/formats.h
+radeon_buffer_objects.o: ../../../../../src/mesa/main/dd.h
+radeon_buffer_objects.o: ../../../../../src/mesa/main/glheader.h
+radeon_buffer_objects.o: ../../../../../src/mesa/main/imports.h
+radeon_buffer_objects.o: ../../../../../src/mesa/main/compiler.h
+radeon_buffer_objects.o: /usr/include/assert.h /usr/include/ctype.h
+radeon_buffer_objects.o: /usr/include/bits/types.h
+radeon_buffer_objects.o: /usr/include/bits/typesizes.h /usr/include/endian.h
+radeon_buffer_objects.o: /usr/include/bits/endian.h
+radeon_buffer_objects.o: /usr/include/bits/byteswap.h /usr/include/xlocale.h
+radeon_buffer_objects.o: /usr/include/math.h /usr/include/bits/huge_val.h
+radeon_buffer_objects.o: /usr/include/bits/huge_valf.h
+radeon_buffer_objects.o: /usr/include/bits/huge_vall.h
+radeon_buffer_objects.o: /usr/include/bits/inf.h /usr/include/bits/nan.h
+radeon_buffer_objects.o: /usr/include/bits/mathdef.h
+radeon_buffer_objects.o: /usr/include/bits/mathcalls.h
+radeon_buffer_objects.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+radeon_buffer_objects.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+radeon_buffer_objects.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+radeon_buffer_objects.o: /usr/include/bits/local_lim.h
+radeon_buffer_objects.o: /usr/include/linux/limits.h
+radeon_buffer_objects.o: /usr/include/bits/posix2_lim.h /usr/include/stdlib.h
+radeon_buffer_objects.o: /usr/include/bits/waitflags.h
+radeon_buffer_objects.o: /usr/include/bits/waitstatus.h
+radeon_buffer_objects.o: /usr/include/sys/types.h /usr/include/time.h
+radeon_buffer_objects.o: /usr/include/sys/select.h /usr/include/bits/select.h
+radeon_buffer_objects.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+radeon_buffer_objects.o: /usr/include/sys/sysmacros.h
+radeon_buffer_objects.o: /usr/include/bits/pthreadtypes.h
+radeon_buffer_objects.o: /usr/include/alloca.h /usr/include/stdio.h
+radeon_buffer_objects.o: /usr/include/libio.h /usr/include/_G_config.h
+radeon_buffer_objects.o: /usr/include/wchar.h
+radeon_buffer_objects.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+radeon_buffer_objects.o: /usr/include/bits/stdio_lim.h
+radeon_buffer_objects.o: /usr/include/bits/sys_errlist.h
+radeon_buffer_objects.o: /usr/include/string.h
+radeon_buffer_objects.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+radeon_buffer_objects.o: ../../../../../src/mesa/main/bufferobj.h
+radeon_buffer_objects.o: ../../../../../src/mesa/main/mfeatures.h
+radeon_buffer_objects.o: ../../../../../src/mesa/main/mtypes.h
+radeon_buffer_objects.o: radeon_common.h radeon_common_context.h
+radeon_buffer_objects.o: ../../../../../src/mesa/main/mm.h
+radeon_buffer_objects.o: ../../../../../src/mesa/math/m_vector.h
+radeon_buffer_objects.o: ../../../../../src/mesa/tnl/t_context.h
+radeon_buffer_objects.o: ../../../../../src/mesa/main/colormac.h
+radeon_buffer_objects.o: ../../../../../src/mesa/main/config.h
+radeon_buffer_objects.o: ../../../../../src/mesa/main/macros.h radeon_debug.h
+radeon_buffer_objects.o: radeon_screen.h ../common/dri_util.h
+radeon_buffer_objects.o: ../../../../../include/GL/internal/dri_interface.h
+radeon_buffer_objects.o: /usr/include/libdrm/drm.h
+radeon_buffer_objects.o: /usr/include/libdrm/drm_mode.h ../common/xmlconfig.h
+radeon_buffer_objects.o: server/radeon_dri.h /usr/include/xf86drm.h
+radeon_buffer_objects.o: /usr/include/libdrm/radeon_drm.h radeon_chipset.h
+radeon_buffer_objects.o: ../../../../../include/pci_ids/r200_pci_ids.h
+radeon_buffer_objects.o: server/radeon_reg.h /usr/include/libdrm/drm_sarea.h
+radeon_buffer_objects.o: ../../../../../src/mesa/tnl/t_vertex.h
+radeon_buffer_objects.o: ../../../../../src/mesa/tnl/t_context.h
+radeon_buffer_objects.o: ../../../../../src/mesa/vbo/vbo.h
+radeon_buffer_objects.o: ../../../../../src/mesa/swrast/s_context.h
+radeon_buffer_objects.o: ../../../../../src/mesa/main/compiler.h
+radeon_buffer_objects.o: ../../../../../src/mesa/program/prog_execute.h
+radeon_buffer_objects.o: ../../../../../src/mesa/swrast/swrast.h
+radeon_buffer_objects.o: ../../../../../src/mesa/swrast/s_span.h
+radeon_buffer_objects.o: ../../../../../src/mesa/swrast/s_chan.h
+radeon_buffer_objects.o: /usr/include/libdrm/radeon_bo_gem.h
+radeon_buffer_objects.o: /usr/include/libdrm/radeon_bo.h
+radeon_buffer_objects.o: /usr/include/libdrm/radeon_cs_gem.h
+radeon_buffer_objects.o: /usr/include/libdrm/radeon_cs.h
+radeon_buffer_objects.o: ../../../../../src/mesa/tnl_dd/t_dd_vertex.h
+radeon_buffer_objects.o: radeon_dma.h radeon_texture.h radeon_cmdbuf.h
+radeon_common_context.o: radeon_common.h radeon_common_context.h
+radeon_common_context.o: ../../../../../src/mesa/main/mm.h
+radeon_common_context.o: ../../../../../src/mesa/math/m_vector.h
+radeon_common_context.o: ../../../../../src/mesa/main/glheader.h
+radeon_common_context.o: ../../../../../include/GL/gl.h
+radeon_common_context.o: ../../../../../include/GL/glext.h
+radeon_common_context.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+radeon_common_context.o: /usr/include/inttypes.h /usr/include/features.h
+radeon_common_context.o: /usr/include/sys/cdefs.h
+radeon_common_context.o: /usr/include/bits/wordsize.h
+radeon_common_context.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+radeon_common_context.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+radeon_common_context.o: ../../../../../src/mesa/tnl/t_context.h
+radeon_common_context.o: ../../../../../src/mesa/main/colormac.h
+radeon_common_context.o: ../../../../../src/mesa/main/config.h
+radeon_common_context.o: ../../../../../src/mesa/main/macros.h
+radeon_common_context.o: ../../../../../src/mesa/main/mtypes.h radeon_debug.h
+radeon_common_context.o: /usr/include/stdlib.h /usr/include/bits/waitflags.h
+radeon_common_context.o: /usr/include/bits/waitstatus.h /usr/include/endian.h
+radeon_common_context.o: /usr/include/bits/endian.h
+radeon_common_context.o: /usr/include/bits/byteswap.h
+radeon_common_context.o: /usr/include/sys/types.h /usr/include/bits/types.h
+radeon_common_context.o: /usr/include/bits/typesizes.h /usr/include/time.h
+radeon_common_context.o: /usr/include/sys/select.h /usr/include/bits/select.h
+radeon_common_context.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+radeon_common_context.o: /usr/include/sys/sysmacros.h
+radeon_common_context.o: /usr/include/bits/pthreadtypes.h
+radeon_common_context.o: /usr/include/alloca.h radeon_screen.h
+radeon_common_context.o: ../common/dri_util.h
+radeon_common_context.o: ../../../../../include/GL/internal/dri_interface.h
+radeon_common_context.o: /usr/include/libdrm/drm.h
+radeon_common_context.o: /usr/include/libdrm/drm_mode.h
+radeon_common_context.o: ../../../../../src/mesa/main/mtypes.h
+radeon_common_context.o: ../../../../../src/mesa/main/config.h
+radeon_common_context.o: ../../../../../src/mesa/main/mfeatures.h
+radeon_common_context.o: ../../../../../src/mapi/glapi/glapi.h
+radeon_common_context.o: ../../../../../src/mapi/glapi/glthread.h
+radeon_common_context.o: ../../../../../src/mapi/mapi/u_thread.h
+radeon_common_context.o: ../../../../../src/mapi/mapi/u_compiler.h
+radeon_common_context.o: ../../../../../src/mesa/math/m_matrix.h
+radeon_common_context.o: ../../../../../src/mesa/main/simple_list.h
+radeon_common_context.o: ../../../../../src/mesa/main/formats.h
+radeon_common_context.o: ../../../../../src/mesa/main/dd.h
+radeon_common_context.o: ../../../../../src/mesa/main/glheader.h
+radeon_common_context.o: ../common/xmlconfig.h server/radeon_dri.h
+radeon_common_context.o: /usr/include/xf86drm.h
+radeon_common_context.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+radeon_common_context.o: /usr/include/libdrm/radeon_drm.h radeon_chipset.h
+radeon_common_context.o: ../../../../../include/pci_ids/r200_pci_ids.h
+radeon_common_context.o: server/radeon_reg.h /usr/include/libdrm/drm_sarea.h
+radeon_common_context.o: ../../../../../src/mesa/tnl/t_vertex.h
+radeon_common_context.o: ../../../../../src/mesa/tnl/t_context.h
+radeon_common_context.o: ../../../../../src/mesa/main/imports.h
+radeon_common_context.o: ../../../../../src/mesa/main/compiler.h
+radeon_common_context.o: /usr/include/assert.h /usr/include/ctype.h
+radeon_common_context.o: /usr/include/xlocale.h /usr/include/math.h
+radeon_common_context.o: /usr/include/bits/huge_val.h
+radeon_common_context.o: /usr/include/bits/huge_valf.h
+radeon_common_context.o: /usr/include/bits/huge_vall.h
+radeon_common_context.o: /usr/include/bits/inf.h /usr/include/bits/nan.h
+radeon_common_context.o: /usr/include/bits/mathdef.h
+radeon_common_context.o: /usr/include/bits/mathcalls.h
+radeon_common_context.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+radeon_common_context.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+radeon_common_context.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+radeon_common_context.o: /usr/include/bits/local_lim.h
+radeon_common_context.o: /usr/include/linux/limits.h
+radeon_common_context.o: /usr/include/bits/posix2_lim.h /usr/include/stdio.h
+radeon_common_context.o: /usr/include/libio.h /usr/include/_G_config.h
+radeon_common_context.o: /usr/include/wchar.h /usr/include/bits/stdio_lim.h
+radeon_common_context.o: /usr/include/bits/sys_errlist.h
+radeon_common_context.o: /usr/include/string.h
+radeon_common_context.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+radeon_common_context.o: ../../../../../src/mesa/vbo/vbo.h
+radeon_common_context.o: ../../../../../src/mesa/swrast/s_context.h
+radeon_common_context.o: ../../../../../src/mesa/main/compiler.h
+radeon_common_context.o: ../../../../../src/mesa/program/prog_execute.h
+radeon_common_context.o: ../../../../../src/mesa/swrast/swrast.h
+radeon_common_context.o: ../../../../../src/mesa/swrast/s_span.h
+radeon_common_context.o: ../../../../../src/mesa/swrast/s_chan.h
+radeon_common_context.o: /usr/include/libdrm/radeon_bo_gem.h
+radeon_common_context.o: /usr/include/libdrm/radeon_bo.h
+radeon_common_context.o: /usr/include/libdrm/radeon_cs_gem.h
+radeon_common_context.o: /usr/include/libdrm/radeon_cs.h
+radeon_common_context.o: ../../../../../src/mesa/tnl_dd/t_dd_vertex.h
+radeon_common_context.o: radeon_dma.h radeon_texture.h radeon_cmdbuf.h
+radeon_common_context.o: ../common/xmlpool.h ../common/xmlpool/options.h
+radeon_common_context.o: ../common/utils.h
+radeon_common_context.o: ../../../../../src/mesa/main/context.h
+radeon_common_context.o: ../../../../../src/mesa/main/imports.h
+radeon_common_context.o: ../../../../../src/mesa/drivers/common/meta.h
+radeon_common_context.o: ../../../../../src/mesa/main/framebuffer.h
+radeon_common_context.o: ../../../../../src/mesa/main/fbobject.h
+radeon_common_context.o: ../../../../../src/mesa/main/renderbuffer.h
+radeon_common_context.o: ../../../../../src/mesa/main/state.h
+radeon_common_context.o: ../../../../../src/mesa/swrast/swrast.h
+radeon_common_context.o: ../../../../../src/mesa/swrast_setup/swrast_setup.h
+radeon_common_context.o: ../../../../../src/mesa/tnl/tnl.h
+radeon_common.o: /usr/include/errno.h /usr/include/features.h
+radeon_common.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+radeon_common.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+radeon_common.o: /usr/include/bits/errno.h /usr/include/linux/errno.h
+radeon_common.o: /usr/include/asm/errno.h /usr/include/asm-generic/errno.h
+radeon_common.o: /usr/include/asm-generic/errno-base.h
+radeon_common.o: ../../../../../src/mesa/main/glheader.h
+radeon_common.o: ../../../../../include/GL/gl.h
+radeon_common.o: ../../../../../include/GL/glext.h
+radeon_common.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+radeon_common.o: /usr/include/inttypes.h /usr/include/stdint.h
+radeon_common.o: /usr/include/bits/wchar.h
+radeon_common.o: ../../../../../src/mesa/main/imports.h
+radeon_common.o: ../../../../../src/mesa/main/compiler.h
+radeon_common.o: /usr/include/assert.h /usr/include/ctype.h
+radeon_common.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+radeon_common.o: /usr/include/endian.h /usr/include/bits/endian.h
+radeon_common.o: /usr/include/bits/byteswap.h /usr/include/xlocale.h
+radeon_common.o: /usr/include/math.h /usr/include/bits/huge_val.h
+radeon_common.o: /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h
+radeon_common.o: /usr/include/bits/inf.h /usr/include/bits/nan.h
+radeon_common.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+radeon_common.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+radeon_common.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+radeon_common.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+radeon_common.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+radeon_common.o: /usr/include/bits/posix2_lim.h /usr/include/stdlib.h
+radeon_common.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+radeon_common.o: /usr/include/sys/types.h /usr/include/time.h
+radeon_common.o: /usr/include/sys/select.h /usr/include/bits/select.h
+radeon_common.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+radeon_common.o: /usr/include/sys/sysmacros.h
+radeon_common.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+radeon_common.o: /usr/include/stdio.h /usr/include/libio.h
+radeon_common.o: /usr/include/_G_config.h /usr/include/wchar.h
+radeon_common.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+radeon_common.o: /usr/include/bits/stdio_lim.h
+radeon_common.o: /usr/include/bits/sys_errlist.h /usr/include/string.h
+radeon_common.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+radeon_common.o: ../../../../../src/mesa/main/glheader.h
+radeon_common.o: ../../../../../src/mesa/main/context.h
+radeon_common.o: ../../../../../src/mesa/main/imports.h
+radeon_common.o: ../../../../../src/mesa/main/mtypes.h
+radeon_common.o: ../../../../../src/mesa/main/enums.h
+radeon_common.o: ../../../../../src/mesa/main/mfeatures.h
+radeon_common.o: ../../../../../src/mesa/main/framebuffer.h
+radeon_common.o: ../../../../../src/mesa/main/renderbuffer.h
+radeon_common.o: ../../../../../src/mesa/drivers/common/meta.h
+radeon_common.o: ../../../../../src/mesa/main/mtypes.h
+radeon_common.o: ../../../../../src/mesa/main/config.h
+radeon_common.o: ../../../../../src/mesa/main/mfeatures.h
+radeon_common.o: ../../../../../src/mapi/glapi/glapi.h
+radeon_common.o: ../../../../../src/mapi/glapi/glthread.h
+radeon_common.o: ../../../../../src/mapi/mapi/u_thread.h
+radeon_common.o: ../../../../../src/mapi/mapi/u_compiler.h
+radeon_common.o: ../../../../../src/mesa/math/m_matrix.h
+radeon_common.o: ../../../../../src/mesa/main/simple_list.h
+radeon_common.o: ../../../../../src/mesa/main/formats.h
+radeon_common.o: ../../../../../src/mesa/main/dd.h radeon_common.h
+radeon_common.o: radeon_common_context.h ../../../../../src/mesa/main/mm.h
+radeon_common.o: ../../../../../src/mesa/math/m_vector.h
+radeon_common.o: ../../../../../src/mesa/tnl/t_context.h
+radeon_common.o: ../../../../../src/mesa/main/colormac.h
+radeon_common.o: ../../../../../src/mesa/main/config.h
+radeon_common.o: ../../../../../src/mesa/main/macros.h radeon_debug.h
+radeon_common.o: radeon_screen.h ../common/dri_util.h
+radeon_common.o: ../../../../../include/GL/internal/dri_interface.h
+radeon_common.o: /usr/include/libdrm/drm.h /usr/include/libdrm/drm_mode.h
+radeon_common.o: ../common/xmlconfig.h server/radeon_dri.h
+radeon_common.o: /usr/include/xf86drm.h /usr/include/libdrm/radeon_drm.h
+radeon_common.o: radeon_chipset.h
+radeon_common.o: ../../../../../include/pci_ids/r200_pci_ids.h
+radeon_common.o: server/radeon_reg.h /usr/include/libdrm/drm_sarea.h
+radeon_common.o: ../../../../../src/mesa/tnl/t_vertex.h
+radeon_common.o: ../../../../../src/mesa/tnl/t_context.h
+radeon_common.o: ../../../../../src/mesa/vbo/vbo.h
+radeon_common.o: ../../../../../src/mesa/swrast/s_context.h
+radeon_common.o: ../../../../../src/mesa/main/compiler.h
+radeon_common.o: ../../../../../src/mesa/program/prog_execute.h
+radeon_common.o: ../../../../../src/mesa/swrast/swrast.h
+radeon_common.o: ../../../../../src/mesa/swrast/s_span.h
+radeon_common.o: ../../../../../src/mesa/swrast/s_chan.h
+radeon_common.o: /usr/include/libdrm/radeon_bo_gem.h
+radeon_common.o: /usr/include/libdrm/radeon_bo.h
+radeon_common.o: /usr/include/libdrm/radeon_cs_gem.h
+radeon_common.o: /usr/include/libdrm/radeon_cs.h
+radeon_common.o: ../../../../../src/mesa/tnl_dd/t_dd_vertex.h radeon_dma.h
+radeon_common.o: radeon_texture.h radeon_cmdbuf.h radeon_queryobj.h
+radeon_dma.o: /usr/include/errno.h /usr/include/features.h
+radeon_dma.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+radeon_dma.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+radeon_dma.o: /usr/include/bits/errno.h /usr/include/linux/errno.h
+radeon_dma.o: /usr/include/asm/errno.h /usr/include/asm-generic/errno.h
+radeon_dma.o: /usr/include/asm-generic/errno-base.h radeon_common.h
+radeon_dma.o: radeon_common_context.h ../../../../../src/mesa/main/mm.h
+radeon_dma.o: ../../../../../src/mesa/math/m_vector.h
+radeon_dma.o: ../../../../../src/mesa/main/glheader.h
+radeon_dma.o: ../../../../../include/GL/gl.h
+radeon_dma.o: ../../../../../include/GL/glext.h
+radeon_dma.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+radeon_dma.o: /usr/include/inttypes.h /usr/include/stdint.h
+radeon_dma.o: /usr/include/bits/wchar.h
+radeon_dma.o: ../../../../../src/mesa/tnl/t_context.h
+radeon_dma.o: ../../../../../src/mesa/main/colormac.h
+radeon_dma.o: ../../../../../src/mesa/main/config.h
+radeon_dma.o: ../../../../../src/mesa/main/macros.h
+radeon_dma.o: ../../../../../src/mesa/main/mtypes.h radeon_debug.h
+radeon_dma.o: /usr/include/stdlib.h /usr/include/bits/waitflags.h
+radeon_dma.o: /usr/include/bits/waitstatus.h /usr/include/endian.h
+radeon_dma.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+radeon_dma.o: /usr/include/sys/types.h /usr/include/bits/types.h
+radeon_dma.o: /usr/include/bits/typesizes.h /usr/include/time.h
+radeon_dma.o: /usr/include/sys/select.h /usr/include/bits/select.h
+radeon_dma.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+radeon_dma.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+radeon_dma.o: /usr/include/alloca.h radeon_screen.h ../common/dri_util.h
+radeon_dma.o: ../../../../../include/GL/internal/dri_interface.h
+radeon_dma.o: /usr/include/libdrm/drm.h /usr/include/libdrm/drm_mode.h
+radeon_dma.o: ../../../../../src/mesa/main/mtypes.h
+radeon_dma.o: ../../../../../src/mesa/main/config.h
+radeon_dma.o: ../../../../../src/mesa/main/mfeatures.h
+radeon_dma.o: ../../../../../src/mapi/glapi/glapi.h
+radeon_dma.o: ../../../../../src/mapi/glapi/glthread.h
+radeon_dma.o: ../../../../../src/mapi/mapi/u_thread.h
+radeon_dma.o: ../../../../../src/mapi/mapi/u_compiler.h
+radeon_dma.o: ../../../../../src/mesa/math/m_matrix.h
+radeon_dma.o: ../../../../../src/mesa/main/simple_list.h
+radeon_dma.o: ../../../../../src/mesa/main/formats.h
+radeon_dma.o: ../../../../../src/mesa/main/dd.h
+radeon_dma.o: ../../../../../src/mesa/main/glheader.h ../common/xmlconfig.h
+radeon_dma.o: server/radeon_dri.h /usr/include/xf86drm.h
+radeon_dma.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+radeon_dma.o: /usr/include/libdrm/radeon_drm.h radeon_chipset.h
+radeon_dma.o: ../../../../../include/pci_ids/r200_pci_ids.h
+radeon_dma.o: server/radeon_reg.h /usr/include/libdrm/drm_sarea.h
+radeon_dma.o: ../../../../../src/mesa/tnl/t_vertex.h
+radeon_dma.o: ../../../../../src/mesa/tnl/t_context.h
+radeon_dma.o: ../../../../../src/mesa/main/imports.h
+radeon_dma.o: ../../../../../src/mesa/main/compiler.h /usr/include/assert.h
+radeon_dma.o: /usr/include/ctype.h /usr/include/xlocale.h /usr/include/math.h
+radeon_dma.o: /usr/include/bits/huge_val.h /usr/include/bits/huge_valf.h
+radeon_dma.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+radeon_dma.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+radeon_dma.o: /usr/include/bits/mathcalls.h
+radeon_dma.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+radeon_dma.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+radeon_dma.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+radeon_dma.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+radeon_dma.o: /usr/include/bits/posix2_lim.h /usr/include/stdio.h
+radeon_dma.o: /usr/include/libio.h /usr/include/_G_config.h
+radeon_dma.o: /usr/include/wchar.h /usr/include/bits/stdio_lim.h
+radeon_dma.o: /usr/include/bits/sys_errlist.h /usr/include/string.h
+radeon_dma.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+radeon_dma.o: ../../../../../src/mesa/vbo/vbo.h
+radeon_dma.o: ../../../../../src/mesa/swrast/s_context.h
+radeon_dma.o: ../../../../../src/mesa/main/compiler.h
+radeon_dma.o: ../../../../../src/mesa/program/prog_execute.h
+radeon_dma.o: ../../../../../src/mesa/swrast/swrast.h
+radeon_dma.o: ../../../../../src/mesa/swrast/s_span.h
+radeon_dma.o: ../../../../../src/mesa/swrast/s_chan.h
+radeon_dma.o: /usr/include/libdrm/radeon_bo_gem.h
+radeon_dma.o: /usr/include/libdrm/radeon_bo.h
+radeon_dma.o: /usr/include/libdrm/radeon_cs_gem.h
+radeon_dma.o: /usr/include/libdrm/radeon_cs.h
+radeon_dma.o: ../../../../../src/mesa/tnl_dd/t_dd_vertex.h radeon_dma.h
+radeon_dma.o: radeon_texture.h radeon_cmdbuf.h
+radeon_debug.o: ../common/utils.h ../../../../../include/GL/gl.h
+radeon_debug.o: ../../../../../include/GL/glext.h
+radeon_debug.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+radeon_debug.o: /usr/include/inttypes.h /usr/include/features.h
+radeon_debug.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+radeon_debug.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+radeon_debug.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+radeon_debug.o: ../../../../../include/GL/internal/dri_interface.h
+radeon_debug.o: /usr/include/libdrm/drm.h /usr/include/sys/types.h
+radeon_debug.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+radeon_debug.o: /usr/include/time.h /usr/include/endian.h
+radeon_debug.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+radeon_debug.o: /usr/include/sys/select.h /usr/include/bits/select.h
+radeon_debug.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+radeon_debug.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+radeon_debug.o: /usr/include/libdrm/drm_mode.h
+radeon_debug.o: ../../../../../src/mesa/main/context.h
+radeon_debug.o: ../../../../../src/mesa/main/imports.h
+radeon_debug.o: ../../../../../src/mesa/main/compiler.h /usr/include/assert.h
+radeon_debug.o: /usr/include/ctype.h /usr/include/xlocale.h
+radeon_debug.o: /usr/include/math.h /usr/include/bits/huge_val.h
+radeon_debug.o: /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h
+radeon_debug.o: /usr/include/bits/inf.h /usr/include/bits/nan.h
+radeon_debug.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+radeon_debug.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+radeon_debug.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+radeon_debug.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+radeon_debug.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+radeon_debug.o: /usr/include/bits/posix2_lim.h /usr/include/stdlib.h
+radeon_debug.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+radeon_debug.o: /usr/include/alloca.h /usr/include/stdio.h
+radeon_debug.o: /usr/include/libio.h /usr/include/_G_config.h
+radeon_debug.o: /usr/include/wchar.h
+radeon_debug.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+radeon_debug.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+radeon_debug.o: /usr/include/string.h
+radeon_debug.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+radeon_debug.o: ../../../../../src/mesa/main/glheader.h
+radeon_debug.o: ../../../../../src/mesa/main/mtypes.h radeon_debug.h
+radeon_debug.o: radeon_common_context.h ../../../../../src/mesa/main/mm.h
+radeon_debug.o: ../../../../../src/mesa/math/m_vector.h
+radeon_debug.o: ../../../../../src/mesa/main/glheader.h
+radeon_debug.o: ../../../../../src/mesa/tnl/t_context.h
+radeon_debug.o: ../../../../../src/mesa/main/colormac.h
+radeon_debug.o: ../../../../../src/mesa/main/config.h
+radeon_debug.o: ../../../../../src/mesa/main/macros.h radeon_screen.h
+radeon_debug.o: ../common/dri_util.h ../../../../../src/mesa/main/mtypes.h
+radeon_debug.o: ../../../../../src/mesa/main/config.h
+radeon_debug.o: ../../../../../src/mesa/main/mfeatures.h
+radeon_debug.o: ../../../../../src/mapi/glapi/glapi.h
+radeon_debug.o: ../../../../../src/mapi/glapi/glthread.h
+radeon_debug.o: ../../../../../src/mapi/mapi/u_thread.h
+radeon_debug.o: ../../../../../src/mapi/mapi/u_compiler.h
+radeon_debug.o: ../../../../../src/mesa/math/m_matrix.h
+radeon_debug.o: ../../../../../src/mesa/main/simple_list.h
+radeon_debug.o: ../../../../../src/mesa/main/formats.h
+radeon_debug.o: ../../../../../src/mesa/main/dd.h ../common/xmlconfig.h
+radeon_debug.o: server/radeon_dri.h /usr/include/xf86drm.h
+radeon_debug.o: /usr/include/libdrm/radeon_drm.h radeon_chipset.h
+radeon_debug.o: ../../../../../include/pci_ids/r200_pci_ids.h
+radeon_debug.o: server/radeon_reg.h /usr/include/libdrm/drm_sarea.h
+radeon_debug.o: ../../../../../src/mesa/tnl/t_vertex.h
+radeon_debug.o: ../../../../../src/mesa/tnl/t_context.h
+radeon_debug.o: ../../../../../src/mesa/main/imports.h
+radeon_debug.o: ../../../../../src/mesa/vbo/vbo.h
+radeon_debug.o: ../../../../../src/mesa/swrast/s_context.h
+radeon_debug.o: ../../../../../src/mesa/main/compiler.h
+radeon_debug.o: ../../../../../src/mesa/program/prog_execute.h
+radeon_debug.o: ../../../../../src/mesa/swrast/swrast.h
+radeon_debug.o: ../../../../../src/mesa/swrast/s_span.h
+radeon_debug.o: ../../../../../src/mesa/swrast/s_chan.h
+radeon_debug.o: /usr/include/libdrm/radeon_bo_gem.h
+radeon_debug.o: /usr/include/libdrm/radeon_bo.h
+radeon_debug.o: /usr/include/libdrm/radeon_cs_gem.h
+radeon_debug.o: /usr/include/libdrm/radeon_cs.h
+radeon_debug.o: ../../../../../src/mesa/tnl_dd/t_dd_vertex.h
+radeon_fbo.o: ../../../../../src/mesa/main/imports.h
+radeon_fbo.o: ../../../../../src/mesa/main/compiler.h /usr/include/assert.h
+radeon_fbo.o: /usr/include/features.h /usr/include/sys/cdefs.h
+radeon_fbo.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+radeon_fbo.o: /usr/include/gnu/stubs-64.h /usr/include/ctype.h
+radeon_fbo.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+radeon_fbo.o: /usr/include/endian.h /usr/include/bits/endian.h
+radeon_fbo.o: /usr/include/bits/byteswap.h /usr/include/xlocale.h
+radeon_fbo.o: /usr/include/math.h /usr/include/bits/huge_val.h
+radeon_fbo.o: /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h
+radeon_fbo.o: /usr/include/bits/inf.h /usr/include/bits/nan.h
+radeon_fbo.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+radeon_fbo.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+radeon_fbo.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+radeon_fbo.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+radeon_fbo.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+radeon_fbo.o: /usr/include/bits/posix2_lim.h /usr/include/stdlib.h
+radeon_fbo.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+radeon_fbo.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+radeon_fbo.o: /usr/include/sys/types.h /usr/include/time.h
+radeon_fbo.o: /usr/include/sys/select.h /usr/include/bits/select.h
+radeon_fbo.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+radeon_fbo.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+radeon_fbo.o: /usr/include/alloca.h /usr/include/stdio.h /usr/include/libio.h
+radeon_fbo.o: /usr/include/_G_config.h /usr/include/wchar.h
+radeon_fbo.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+radeon_fbo.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+radeon_fbo.o: /usr/include/string.h
+radeon_fbo.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+radeon_fbo.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+radeon_fbo.o: ../../../../../src/mesa/main/glheader.h
+radeon_fbo.o: ../../../../../src/mesa/main/macros.h
+radeon_fbo.o: ../../../../../src/mesa/main/imports.h
+radeon_fbo.o: ../../../../../src/mesa/main/mfeatures.h
+radeon_fbo.o: ../../../../../src/mesa/main/mtypes.h
+radeon_fbo.o: ../../../../../src/mesa/main/glheader.h
+radeon_fbo.o: ../../../../../include/GL/gl.h
+radeon_fbo.o: ../../../../../include/GL/glext.h /usr/include/inttypes.h
+radeon_fbo.o: ../../../../../src/mesa/main/config.h
+radeon_fbo.o: ../../../../../src/mapi/glapi/glapi.h
+radeon_fbo.o: ../../../../../src/mapi/glapi/glthread.h
+radeon_fbo.o: ../../../../../src/mapi/mapi/u_thread.h
+radeon_fbo.o: ../../../../../src/mapi/mapi/u_compiler.h
+radeon_fbo.o: ../../../../../src/mesa/math/m_matrix.h
+radeon_fbo.o: ../../../../../src/mesa/main/simple_list.h
+radeon_fbo.o: ../../../../../src/mesa/main/formats.h
+radeon_fbo.o: ../../../../../src/mesa/main/dd.h
+radeon_fbo.o: ../../../../../src/mesa/main/enums.h
+radeon_fbo.o: ../../../../../src/mesa/main/mfeatures.h
+radeon_fbo.o: ../../../../../src/mesa/main/fbobject.h
+radeon_fbo.o: ../../../../../src/mesa/main/framebuffer.h
+radeon_fbo.o: ../../../../../src/mesa/main/renderbuffer.h
+radeon_fbo.o: ../../../../../src/mesa/main/mtypes.h
+radeon_fbo.o: ../../../../../src/mesa/main/context.h
+radeon_fbo.o: ../../../../../src/mesa/swrast/swrast.h
+radeon_fbo.o: ../../../../../src/mesa/swrast/s_chan.h
+radeon_fbo.o: ../../../../../src/mesa/drivers/common/meta.h radeon_common.h
+radeon_fbo.o: radeon_common_context.h ../../../../../src/mesa/main/mm.h
+radeon_fbo.o: ../../../../../src/mesa/math/m_vector.h
+radeon_fbo.o: ../../../../../src/mesa/tnl/t_context.h
+radeon_fbo.o: ../../../../../src/mesa/main/colormac.h
+radeon_fbo.o: ../../../../../src/mesa/main/config.h
+radeon_fbo.o: ../../../../../src/mesa/main/macros.h radeon_debug.h
+radeon_fbo.o: radeon_screen.h ../common/dri_util.h
+radeon_fbo.o: ../../../../../include/GL/internal/dri_interface.h
+radeon_fbo.o: /usr/include/libdrm/drm.h /usr/include/libdrm/drm_mode.h
+radeon_fbo.o: ../common/xmlconfig.h server/radeon_dri.h
+radeon_fbo.o: /usr/include/xf86drm.h /usr/include/libdrm/radeon_drm.h
+radeon_fbo.o: radeon_chipset.h ../../../../../include/pci_ids/r200_pci_ids.h
+radeon_fbo.o: server/radeon_reg.h /usr/include/libdrm/drm_sarea.h
+radeon_fbo.o: ../../../../../src/mesa/tnl/t_vertex.h
+radeon_fbo.o: ../../../../../src/mesa/tnl/t_context.h
+radeon_fbo.o: ../../../../../src/mesa/vbo/vbo.h
+radeon_fbo.o: ../../../../../src/mesa/swrast/s_context.h
+radeon_fbo.o: ../../../../../src/mesa/main/compiler.h
+radeon_fbo.o: ../../../../../src/mesa/program/prog_execute.h
+radeon_fbo.o: ../../../../../src/mesa/swrast/swrast.h
+radeon_fbo.o: ../../../../../src/mesa/swrast/s_span.h
+radeon_fbo.o: /usr/include/libdrm/radeon_bo_gem.h
+radeon_fbo.o: /usr/include/libdrm/radeon_bo.h
+radeon_fbo.o: /usr/include/libdrm/radeon_cs_gem.h
+radeon_fbo.o: /usr/include/libdrm/radeon_cs.h
+radeon_fbo.o: ../../../../../src/mesa/tnl_dd/t_dd_vertex.h radeon_dma.h
+radeon_fbo.o: radeon_texture.h radeon_cmdbuf.h radeon_mipmap_tree.h
+radeon_mipmap_tree.o: radeon_mipmap_tree.h radeon_common.h
+radeon_mipmap_tree.o: radeon_common_context.h
+radeon_mipmap_tree.o: ../../../../../src/mesa/main/mm.h
+radeon_mipmap_tree.o: ../../../../../src/mesa/math/m_vector.h
+radeon_mipmap_tree.o: ../../../../../src/mesa/main/glheader.h
+radeon_mipmap_tree.o: ../../../../../include/GL/gl.h
+radeon_mipmap_tree.o: ../../../../../include/GL/glext.h
+radeon_mipmap_tree.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+radeon_mipmap_tree.o: /usr/include/inttypes.h /usr/include/features.h
+radeon_mipmap_tree.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+radeon_mipmap_tree.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+radeon_mipmap_tree.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+radeon_mipmap_tree.o: ../../../../../src/mesa/tnl/t_context.h
+radeon_mipmap_tree.o: ../../../../../src/mesa/main/colormac.h
+radeon_mipmap_tree.o: ../../../../../src/mesa/main/config.h
+radeon_mipmap_tree.o: ../../../../../src/mesa/main/macros.h
+radeon_mipmap_tree.o: ../../../../../src/mesa/main/mtypes.h radeon_debug.h
+radeon_mipmap_tree.o: /usr/include/stdlib.h /usr/include/bits/waitflags.h
+radeon_mipmap_tree.o: /usr/include/bits/waitstatus.h /usr/include/endian.h
+radeon_mipmap_tree.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+radeon_mipmap_tree.o: /usr/include/sys/types.h /usr/include/bits/types.h
+radeon_mipmap_tree.o: /usr/include/bits/typesizes.h /usr/include/time.h
+radeon_mipmap_tree.o: /usr/include/sys/select.h /usr/include/bits/select.h
+radeon_mipmap_tree.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+radeon_mipmap_tree.o: /usr/include/sys/sysmacros.h
+radeon_mipmap_tree.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+radeon_mipmap_tree.o: radeon_screen.h ../common/dri_util.h
+radeon_mipmap_tree.o: ../../../../../include/GL/internal/dri_interface.h
+radeon_mipmap_tree.o: /usr/include/libdrm/drm.h
+radeon_mipmap_tree.o: /usr/include/libdrm/drm_mode.h
+radeon_mipmap_tree.o: ../../../../../src/mesa/main/mtypes.h
+radeon_mipmap_tree.o: ../../../../../src/mesa/main/config.h
+radeon_mipmap_tree.o: ../../../../../src/mesa/main/mfeatures.h
+radeon_mipmap_tree.o: ../../../../../src/mapi/glapi/glapi.h
+radeon_mipmap_tree.o: ../../../../../src/mapi/glapi/glthread.h
+radeon_mipmap_tree.o: ../../../../../src/mapi/mapi/u_thread.h
+radeon_mipmap_tree.o: ../../../../../src/mapi/mapi/u_compiler.h
+radeon_mipmap_tree.o: ../../../../../src/mesa/math/m_matrix.h
+radeon_mipmap_tree.o: ../../../../../src/mesa/main/simple_list.h
+radeon_mipmap_tree.o: ../../../../../src/mesa/main/formats.h
+radeon_mipmap_tree.o: ../../../../../src/mesa/main/dd.h
+radeon_mipmap_tree.o: ../../../../../src/mesa/main/glheader.h
+radeon_mipmap_tree.o: ../common/xmlconfig.h server/radeon_dri.h
+radeon_mipmap_tree.o: /usr/include/xf86drm.h
+radeon_mipmap_tree.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+radeon_mipmap_tree.o: /usr/include/libdrm/radeon_drm.h radeon_chipset.h
+radeon_mipmap_tree.o: ../../../../../include/pci_ids/r200_pci_ids.h
+radeon_mipmap_tree.o: server/radeon_reg.h /usr/include/libdrm/drm_sarea.h
+radeon_mipmap_tree.o: ../../../../../src/mesa/tnl/t_vertex.h
+radeon_mipmap_tree.o: ../../../../../src/mesa/tnl/t_context.h
+radeon_mipmap_tree.o: ../../../../../src/mesa/main/imports.h
+radeon_mipmap_tree.o: ../../../../../src/mesa/main/compiler.h
+radeon_mipmap_tree.o: /usr/include/assert.h /usr/include/ctype.h
+radeon_mipmap_tree.o: /usr/include/xlocale.h /usr/include/math.h
+radeon_mipmap_tree.o: /usr/include/bits/huge_val.h
+radeon_mipmap_tree.o: /usr/include/bits/huge_valf.h
+radeon_mipmap_tree.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+radeon_mipmap_tree.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+radeon_mipmap_tree.o: /usr/include/bits/mathcalls.h
+radeon_mipmap_tree.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+radeon_mipmap_tree.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+radeon_mipmap_tree.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+radeon_mipmap_tree.o: /usr/include/bits/local_lim.h
+radeon_mipmap_tree.o: /usr/include/linux/limits.h
+radeon_mipmap_tree.o: /usr/include/bits/posix2_lim.h /usr/include/stdio.h
+radeon_mipmap_tree.o: /usr/include/libio.h /usr/include/_G_config.h
+radeon_mipmap_tree.o: /usr/include/wchar.h /usr/include/bits/stdio_lim.h
+radeon_mipmap_tree.o: /usr/include/bits/sys_errlist.h /usr/include/string.h
+radeon_mipmap_tree.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+radeon_mipmap_tree.o: ../../../../../src/mesa/vbo/vbo.h
+radeon_mipmap_tree.o: ../../../../../src/mesa/swrast/s_context.h
+radeon_mipmap_tree.o: ../../../../../src/mesa/main/compiler.h
+radeon_mipmap_tree.o: ../../../../../src/mesa/program/prog_execute.h
+radeon_mipmap_tree.o: ../../../../../src/mesa/swrast/swrast.h
+radeon_mipmap_tree.o: ../../../../../src/mesa/swrast/s_span.h
+radeon_mipmap_tree.o: ../../../../../src/mesa/swrast/s_chan.h
+radeon_mipmap_tree.o: /usr/include/libdrm/radeon_bo_gem.h
+radeon_mipmap_tree.o: /usr/include/libdrm/radeon_bo.h
+radeon_mipmap_tree.o: /usr/include/libdrm/radeon_cs_gem.h
+radeon_mipmap_tree.o: /usr/include/libdrm/radeon_cs.h
+radeon_mipmap_tree.o: ../../../../../src/mesa/tnl_dd/t_dd_vertex.h
+radeon_mipmap_tree.o: radeon_dma.h radeon_texture.h radeon_cmdbuf.h
+radeon_mipmap_tree.o: /usr/include/errno.h /usr/include/bits/errno.h
+radeon_mipmap_tree.o: /usr/include/linux/errno.h /usr/include/asm/errno.h
+radeon_mipmap_tree.o: /usr/include/asm-generic/errno.h
+radeon_mipmap_tree.o: /usr/include/asm-generic/errno-base.h
+radeon_mipmap_tree.o: /usr/include/unistd.h /usr/include/bits/posix_opt.h
+radeon_mipmap_tree.o: /usr/include/bits/environments.h
+radeon_mipmap_tree.o: /usr/include/bits/confname.h /usr/include/getopt.h
+radeon_mipmap_tree.o: ../../../../../src/mesa/main/teximage.h
+radeon_mipmap_tree.o: ../../../../../src/mesa/main/formats.h
+radeon_mipmap_tree.o: ../../../../../src/mesa/main/texobj.h
+radeon_mipmap_tree.o: ../../../../../src/mesa/main/enums.h
+radeon_mipmap_tree.o: ../../../../../src/mesa/main/mfeatures.h radeon_tile.h
+radeon_pixel_read.o: /usr/include/stdint.h /usr/include/features.h
+radeon_pixel_read.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+radeon_pixel_read.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+radeon_pixel_read.o: /usr/include/bits/wchar.h
+radeon_pixel_read.o: ../../../../../src/mesa/main/bufferobj.h
+radeon_pixel_read.o: ../../../../../src/mesa/main/mfeatures.h
+radeon_pixel_read.o: ../../../../../src/mesa/main/mtypes.h
+radeon_pixel_read.o: ../../../../../src/mesa/main/enums.h
+radeon_pixel_read.o: ../../../../../src/mesa/main/image.h
+radeon_pixel_read.o: ../../../../../src/mesa/main/glheader.h
+radeon_pixel_read.o: ../../../../../src/mesa/main/readpix.h
+radeon_pixel_read.o: ../../../../../src/mesa/main/state.h
+radeon_pixel_read.o: radeon_buffer_objects.h
+radeon_pixel_read.o: ../../../../../src/mesa/main/mtypes.h
+radeon_pixel_read.o: ../../../../../src/mesa/main/glheader.h
+radeon_pixel_read.o: ../../../../../include/GL/gl.h
+radeon_pixel_read.o: ../../../../../include/GL/glext.h
+radeon_pixel_read.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+radeon_pixel_read.o: /usr/include/inttypes.h
+radeon_pixel_read.o: ../../../../../src/mesa/main/config.h
+radeon_pixel_read.o: ../../../../../src/mesa/main/mfeatures.h
+radeon_pixel_read.o: ../../../../../src/mapi/glapi/glapi.h
+radeon_pixel_read.o: ../../../../../src/mapi/glapi/glthread.h
+radeon_pixel_read.o: ../../../../../src/mapi/mapi/u_thread.h
+radeon_pixel_read.o: ../../../../../src/mapi/mapi/u_compiler.h
+radeon_pixel_read.o: ../../../../../src/mesa/math/m_matrix.h
+radeon_pixel_read.o: ../../../../../src/mesa/main/simple_list.h
+radeon_pixel_read.o: ../../../../../src/mesa/main/formats.h
+radeon_pixel_read.o: ../../../../../src/mesa/main/dd.h
+radeon_pixel_read.o: radeon_common_context.h
+radeon_pixel_read.o: ../../../../../src/mesa/main/mm.h
+radeon_pixel_read.o: ../../../../../src/mesa/math/m_vector.h
+radeon_pixel_read.o: ../../../../../src/mesa/tnl/t_context.h
+radeon_pixel_read.o: ../../../../../src/mesa/main/colormac.h
+radeon_pixel_read.o: ../../../../../src/mesa/main/config.h
+radeon_pixel_read.o: ../../../../../src/mesa/main/macros.h radeon_debug.h
+radeon_pixel_read.o: /usr/include/stdlib.h /usr/include/bits/waitflags.h
+radeon_pixel_read.o: /usr/include/bits/waitstatus.h /usr/include/endian.h
+radeon_pixel_read.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+radeon_pixel_read.o: /usr/include/sys/types.h /usr/include/bits/types.h
+radeon_pixel_read.o: /usr/include/bits/typesizes.h /usr/include/time.h
+radeon_pixel_read.o: /usr/include/sys/select.h /usr/include/bits/select.h
+radeon_pixel_read.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+radeon_pixel_read.o: /usr/include/sys/sysmacros.h
+radeon_pixel_read.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+radeon_pixel_read.o: radeon_screen.h ../common/dri_util.h
+radeon_pixel_read.o: ../../../../../include/GL/internal/dri_interface.h
+radeon_pixel_read.o: /usr/include/libdrm/drm.h /usr/include/libdrm/drm_mode.h
+radeon_pixel_read.o: ../common/xmlconfig.h server/radeon_dri.h
+radeon_pixel_read.o: /usr/include/xf86drm.h
+radeon_pixel_read.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+radeon_pixel_read.o: /usr/include/libdrm/radeon_drm.h radeon_chipset.h
+radeon_pixel_read.o: ../../../../../include/pci_ids/r200_pci_ids.h
+radeon_pixel_read.o: server/radeon_reg.h /usr/include/libdrm/drm_sarea.h
+radeon_pixel_read.o: ../../../../../src/mesa/tnl/t_vertex.h
+radeon_pixel_read.o: ../../../../../src/mesa/tnl/t_context.h
+radeon_pixel_read.o: ../../../../../src/mesa/main/imports.h
+radeon_pixel_read.o: ../../../../../src/mesa/main/compiler.h
+radeon_pixel_read.o: /usr/include/assert.h /usr/include/ctype.h
+radeon_pixel_read.o: /usr/include/xlocale.h /usr/include/math.h
+radeon_pixel_read.o: /usr/include/bits/huge_val.h
+radeon_pixel_read.o: /usr/include/bits/huge_valf.h
+radeon_pixel_read.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+radeon_pixel_read.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+radeon_pixel_read.o: /usr/include/bits/mathcalls.h
+radeon_pixel_read.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+radeon_pixel_read.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+radeon_pixel_read.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+radeon_pixel_read.o: /usr/include/bits/local_lim.h
+radeon_pixel_read.o: /usr/include/linux/limits.h
+radeon_pixel_read.o: /usr/include/bits/posix2_lim.h /usr/include/stdio.h
+radeon_pixel_read.o: /usr/include/libio.h /usr/include/_G_config.h
+radeon_pixel_read.o: /usr/include/wchar.h /usr/include/bits/stdio_lim.h
+radeon_pixel_read.o: /usr/include/bits/sys_errlist.h /usr/include/string.h
+radeon_pixel_read.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+radeon_pixel_read.o: ../../../../../src/mesa/vbo/vbo.h
+radeon_pixel_read.o: ../../../../../src/mesa/swrast/s_context.h
+radeon_pixel_read.o: ../../../../../src/mesa/main/compiler.h
+radeon_pixel_read.o: ../../../../../src/mesa/program/prog_execute.h
+radeon_pixel_read.o: ../../../../../src/mesa/swrast/swrast.h
+radeon_pixel_read.o: ../../../../../src/mesa/swrast/s_span.h
+radeon_pixel_read.o: ../../../../../src/mesa/swrast/s_chan.h
+radeon_pixel_read.o: /usr/include/libdrm/radeon_bo_gem.h
+radeon_pixel_read.o: /usr/include/libdrm/radeon_bo.h
+radeon_pixel_read.o: /usr/include/libdrm/radeon_cs_gem.h
+radeon_pixel_read.o: /usr/include/libdrm/radeon_cs.h
+radeon_pixel_read.o: ../../../../../src/mesa/tnl_dd/t_dd_vertex.h
+radeon_pixel_read.o: radeon_mipmap_tree.h radeon_common.h radeon_dma.h
+radeon_pixel_read.o: radeon_texture.h radeon_cmdbuf.h
+radeon_queryobj.o: radeon_common.h radeon_common_context.h
+radeon_queryobj.o: ../../../../../src/mesa/main/mm.h
+radeon_queryobj.o: ../../../../../src/mesa/math/m_vector.h
+radeon_queryobj.o: ../../../../../src/mesa/main/glheader.h
+radeon_queryobj.o: ../../../../../include/GL/gl.h
+radeon_queryobj.o: ../../../../../include/GL/glext.h
+radeon_queryobj.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+radeon_queryobj.o: /usr/include/inttypes.h /usr/include/features.h
+radeon_queryobj.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+radeon_queryobj.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+radeon_queryobj.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+radeon_queryobj.o: ../../../../../src/mesa/tnl/t_context.h
+radeon_queryobj.o: ../../../../../src/mesa/main/colormac.h
+radeon_queryobj.o: ../../../../../src/mesa/main/config.h
+radeon_queryobj.o: ../../../../../src/mesa/main/macros.h
+radeon_queryobj.o: ../../../../../src/mesa/main/mtypes.h radeon_debug.h
+radeon_queryobj.o: /usr/include/stdlib.h /usr/include/bits/waitflags.h
+radeon_queryobj.o: /usr/include/bits/waitstatus.h /usr/include/endian.h
+radeon_queryobj.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+radeon_queryobj.o: /usr/include/sys/types.h /usr/include/bits/types.h
+radeon_queryobj.o: /usr/include/bits/typesizes.h /usr/include/time.h
+radeon_queryobj.o: /usr/include/sys/select.h /usr/include/bits/select.h
+radeon_queryobj.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+radeon_queryobj.o: /usr/include/sys/sysmacros.h
+radeon_queryobj.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+radeon_queryobj.o: radeon_screen.h ../common/dri_util.h
+radeon_queryobj.o: ../../../../../include/GL/internal/dri_interface.h
+radeon_queryobj.o: /usr/include/libdrm/drm.h /usr/include/libdrm/drm_mode.h
+radeon_queryobj.o: ../../../../../src/mesa/main/mtypes.h
+radeon_queryobj.o: ../../../../../src/mesa/main/config.h
+radeon_queryobj.o: ../../../../../src/mesa/main/mfeatures.h
+radeon_queryobj.o: ../../../../../src/mapi/glapi/glapi.h
+radeon_queryobj.o: ../../../../../src/mapi/glapi/glthread.h
+radeon_queryobj.o: ../../../../../src/mapi/mapi/u_thread.h
+radeon_queryobj.o: ../../../../../src/mapi/mapi/u_compiler.h
+radeon_queryobj.o: ../../../../../src/mesa/math/m_matrix.h
+radeon_queryobj.o: ../../../../../src/mesa/main/simple_list.h
+radeon_queryobj.o: ../../../../../src/mesa/main/formats.h
+radeon_queryobj.o: ../../../../../src/mesa/main/dd.h
+radeon_queryobj.o: ../../../../../src/mesa/main/glheader.h
+radeon_queryobj.o: ../common/xmlconfig.h server/radeon_dri.h
+radeon_queryobj.o: /usr/include/xf86drm.h
+radeon_queryobj.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+radeon_queryobj.o: /usr/include/libdrm/radeon_drm.h radeon_chipset.h
+radeon_queryobj.o: ../../../../../include/pci_ids/r200_pci_ids.h
+radeon_queryobj.o: server/radeon_reg.h /usr/include/libdrm/drm_sarea.h
+radeon_queryobj.o: ../../../../../src/mesa/tnl/t_vertex.h
+radeon_queryobj.o: ../../../../../src/mesa/tnl/t_context.h
+radeon_queryobj.o: ../../../../../src/mesa/main/imports.h
+radeon_queryobj.o: ../../../../../src/mesa/main/compiler.h
+radeon_queryobj.o: /usr/include/assert.h /usr/include/ctype.h
+radeon_queryobj.o: /usr/include/xlocale.h /usr/include/math.h
+radeon_queryobj.o: /usr/include/bits/huge_val.h /usr/include/bits/huge_valf.h
+radeon_queryobj.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+radeon_queryobj.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+radeon_queryobj.o: /usr/include/bits/mathcalls.h
+radeon_queryobj.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+radeon_queryobj.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+radeon_queryobj.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+radeon_queryobj.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+radeon_queryobj.o: /usr/include/bits/posix2_lim.h /usr/include/stdio.h
+radeon_queryobj.o: /usr/include/libio.h /usr/include/_G_config.h
+radeon_queryobj.o: /usr/include/wchar.h /usr/include/bits/stdio_lim.h
+radeon_queryobj.o: /usr/include/bits/sys_errlist.h /usr/include/string.h
+radeon_queryobj.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+radeon_queryobj.o: ../../../../../src/mesa/vbo/vbo.h
+radeon_queryobj.o: ../../../../../src/mesa/swrast/s_context.h
+radeon_queryobj.o: ../../../../../src/mesa/main/compiler.h
+radeon_queryobj.o: ../../../../../src/mesa/program/prog_execute.h
+radeon_queryobj.o: ../../../../../src/mesa/swrast/swrast.h
+radeon_queryobj.o: ../../../../../src/mesa/swrast/s_span.h
+radeon_queryobj.o: ../../../../../src/mesa/swrast/s_chan.h
+radeon_queryobj.o: /usr/include/libdrm/radeon_bo_gem.h
+radeon_queryobj.o: /usr/include/libdrm/radeon_bo.h
+radeon_queryobj.o: /usr/include/libdrm/radeon_cs_gem.h
+radeon_queryobj.o: /usr/include/libdrm/radeon_cs.h
+radeon_queryobj.o: ../../../../../src/mesa/tnl_dd/t_dd_vertex.h radeon_dma.h
+radeon_queryobj.o: radeon_texture.h radeon_cmdbuf.h radeon_queryobj.h
+radeon_span.o: ../../../../../src/mesa/main/glheader.h
+radeon_span.o: ../../../../../include/GL/gl.h
+radeon_span.o: ../../../../../include/GL/glext.h
+radeon_span.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+radeon_span.o: /usr/include/inttypes.h /usr/include/features.h
+radeon_span.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+radeon_span.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+radeon_span.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+radeon_span.o: ../../../../../src/mesa/main/texformat.h
+radeon_span.o: ../../../../../src/mesa/main/formats.h
+radeon_span.o: ../../../../../src/mesa/main/renderbuffer.h
+radeon_span.o: ../../../../../src/mesa/main/glheader.h
+radeon_span.o: ../../../../../src/mesa/main/mtypes.h
+radeon_span.o: ../../../../../src/mesa/swrast/swrast.h
+radeon_span.o: ../../../../../src/mesa/main/mtypes.h
+radeon_span.o: ../../../../../src/mesa/main/config.h
+radeon_span.o: ../../../../../src/mesa/main/mfeatures.h
+radeon_span.o: ../../../../../src/mapi/glapi/glapi.h
+radeon_span.o: ../../../../../src/mapi/glapi/glthread.h
+radeon_span.o: ../../../../../src/mapi/mapi/u_thread.h
+radeon_span.o: ../../../../../src/mapi/mapi/u_compiler.h
+radeon_span.o: ../../../../../src/mesa/math/m_matrix.h
+radeon_span.o: ../../../../../src/mesa/main/simple_list.h
+radeon_span.o: ../../../../../src/mesa/main/formats.h
+radeon_span.o: ../../../../../src/mesa/main/dd.h
+radeon_span.o: ../../../../../src/mesa/swrast/s_chan.h
+radeon_span.o: ../../../../../src/mesa/swrast/s_renderbuffer.h
+radeon_span.o: radeon_common.h radeon_common_context.h
+radeon_span.o: ../../../../../src/mesa/main/mm.h
+radeon_span.o: ../../../../../src/mesa/math/m_vector.h
+radeon_span.o: ../../../../../src/mesa/tnl/t_context.h
+radeon_span.o: ../../../../../src/mesa/main/colormac.h
+radeon_span.o: ../../../../../src/mesa/main/config.h
+radeon_span.o: ../../../../../src/mesa/main/macros.h radeon_debug.h
+radeon_span.o: /usr/include/stdlib.h /usr/include/bits/waitflags.h
+radeon_span.o: /usr/include/bits/waitstatus.h /usr/include/endian.h
+radeon_span.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+radeon_span.o: /usr/include/sys/types.h /usr/include/bits/types.h
+radeon_span.o: /usr/include/bits/typesizes.h /usr/include/time.h
+radeon_span.o: /usr/include/sys/select.h /usr/include/bits/select.h
+radeon_span.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+radeon_span.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+radeon_span.o: /usr/include/alloca.h radeon_screen.h ../common/dri_util.h
+radeon_span.o: ../../../../../include/GL/internal/dri_interface.h
+radeon_span.o: /usr/include/libdrm/drm.h /usr/include/libdrm/drm_mode.h
+radeon_span.o: ../common/xmlconfig.h server/radeon_dri.h
+radeon_span.o: /usr/include/xf86drm.h
+radeon_span.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+radeon_span.o: /usr/include/libdrm/radeon_drm.h radeon_chipset.h
+radeon_span.o: ../../../../../include/pci_ids/r200_pci_ids.h
+radeon_span.o: server/radeon_reg.h /usr/include/libdrm/drm_sarea.h
+radeon_span.o: ../../../../../src/mesa/tnl/t_vertex.h
+radeon_span.o: ../../../../../src/mesa/tnl/t_context.h
+radeon_span.o: ../../../../../src/mesa/main/imports.h
+radeon_span.o: ../../../../../src/mesa/main/compiler.h /usr/include/assert.h
+radeon_span.o: /usr/include/ctype.h /usr/include/xlocale.h
+radeon_span.o: /usr/include/math.h /usr/include/bits/huge_val.h
+radeon_span.o: /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h
+radeon_span.o: /usr/include/bits/inf.h /usr/include/bits/nan.h
+radeon_span.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+radeon_span.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+radeon_span.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+radeon_span.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+radeon_span.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+radeon_span.o: /usr/include/bits/posix2_lim.h /usr/include/stdio.h
+radeon_span.o: /usr/include/libio.h /usr/include/_G_config.h
+radeon_span.o: /usr/include/wchar.h /usr/include/bits/stdio_lim.h
+radeon_span.o: /usr/include/bits/sys_errlist.h /usr/include/string.h
+radeon_span.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+radeon_span.o: ../../../../../src/mesa/vbo/vbo.h
+radeon_span.o: ../../../../../src/mesa/swrast/s_context.h
+radeon_span.o: ../../../../../src/mesa/main/compiler.h
+radeon_span.o: ../../../../../src/mesa/program/prog_execute.h
+radeon_span.o: ../../../../../src/mesa/swrast/swrast.h
+radeon_span.o: ../../../../../src/mesa/swrast/s_span.h
+radeon_span.o: /usr/include/libdrm/radeon_bo_gem.h
+radeon_span.o: /usr/include/libdrm/radeon_bo.h
+radeon_span.o: /usr/include/libdrm/radeon_cs_gem.h
+radeon_span.o: /usr/include/libdrm/radeon_cs.h
+radeon_span.o: ../../../../../src/mesa/tnl_dd/t_dd_vertex.h radeon_dma.h
+radeon_span.o: radeon_texture.h radeon_cmdbuf.h radeon_span.h
+radeon_texture.o: ../../../../../src/mesa/main/glheader.h
+radeon_texture.o: ../../../../../include/GL/gl.h
+radeon_texture.o: ../../../../../include/GL/glext.h
+radeon_texture.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+radeon_texture.o: /usr/include/inttypes.h /usr/include/features.h
+radeon_texture.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+radeon_texture.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+radeon_texture.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+radeon_texture.o: ../../../../../src/mesa/main/imports.h
+radeon_texture.o: ../../../../../src/mesa/main/compiler.h
+radeon_texture.o: /usr/include/assert.h /usr/include/ctype.h
+radeon_texture.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+radeon_texture.o: /usr/include/endian.h /usr/include/bits/endian.h
+radeon_texture.o: /usr/include/bits/byteswap.h /usr/include/xlocale.h
+radeon_texture.o: /usr/include/math.h /usr/include/bits/huge_val.h
+radeon_texture.o: /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h
+radeon_texture.o: /usr/include/bits/inf.h /usr/include/bits/nan.h
+radeon_texture.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+radeon_texture.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+radeon_texture.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+radeon_texture.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+radeon_texture.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+radeon_texture.o: /usr/include/bits/posix2_lim.h /usr/include/stdlib.h
+radeon_texture.o: /usr/include/bits/waitflags.h
+radeon_texture.o: /usr/include/bits/waitstatus.h /usr/include/sys/types.h
+radeon_texture.o: /usr/include/time.h /usr/include/sys/select.h
+radeon_texture.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+radeon_texture.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+radeon_texture.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+radeon_texture.o: /usr/include/stdio.h /usr/include/libio.h
+radeon_texture.o: /usr/include/_G_config.h /usr/include/wchar.h
+radeon_texture.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+radeon_texture.o: /usr/include/bits/stdio_lim.h
+radeon_texture.o: /usr/include/bits/sys_errlist.h /usr/include/string.h
+radeon_texture.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+radeon_texture.o: ../../../../../src/mesa/main/glheader.h
+radeon_texture.o: ../../../../../src/mesa/main/context.h
+radeon_texture.o: ../../../../../src/mesa/main/imports.h
+radeon_texture.o: ../../../../../src/mesa/main/mtypes.h
+radeon_texture.o: ../../../../../src/mesa/main/enums.h
+radeon_texture.o: ../../../../../src/mesa/main/mfeatures.h
+radeon_texture.o: ../../../../../src/mesa/main/mfeatures.h
+radeon_texture.o: ../../../../../src/mesa/main/mipmap.h
+radeon_texture.o: ../../../../../src/mesa/main/pbo.h
+radeon_texture.o: ../../../../../src/mesa/main/texcompress.h
+radeon_texture.o: ../../../../../src/mesa/main/formats.h
+radeon_texture.o: ../../../../../src/mesa/main/texstore.h
+radeon_texture.o: ../../../../../src/mesa/main/teximage.h
+radeon_texture.o: ../../../../../src/mesa/main/texobj.h
+radeon_texture.o: ../../../../../src/mesa/drivers/common/meta.h
+radeon_texture.o: ../../../../../src/mesa/main/mtypes.h
+radeon_texture.o: ../../../../../src/mesa/main/config.h
+radeon_texture.o: ../../../../../src/mapi/glapi/glapi.h
+radeon_texture.o: ../../../../../src/mapi/glapi/glthread.h
+radeon_texture.o: ../../../../../src/mapi/mapi/u_thread.h
+radeon_texture.o: ../../../../../src/mapi/mapi/u_compiler.h
+radeon_texture.o: ../../../../../src/mesa/math/m_matrix.h
+radeon_texture.o: ../../../../../src/mesa/main/simple_list.h
+radeon_texture.o: ../../../../../src/mesa/main/formats.h
+radeon_texture.o: ../../../../../src/mesa/main/dd.h ../common/xmlpool.h
+radeon_texture.o: ../common/xmlpool/options.h radeon_common.h
+radeon_texture.o: radeon_common_context.h ../../../../../src/mesa/main/mm.h
+radeon_texture.o: ../../../../../src/mesa/math/m_vector.h
+radeon_texture.o: ../../../../../src/mesa/tnl/t_context.h
+radeon_texture.o: ../../../../../src/mesa/main/colormac.h
+radeon_texture.o: ../../../../../src/mesa/main/config.h
+radeon_texture.o: ../../../../../src/mesa/main/macros.h radeon_debug.h
+radeon_texture.o: radeon_screen.h ../common/dri_util.h
+radeon_texture.o: ../../../../../include/GL/internal/dri_interface.h
+radeon_texture.o: /usr/include/libdrm/drm.h /usr/include/libdrm/drm_mode.h
+radeon_texture.o: ../common/xmlconfig.h server/radeon_dri.h
+radeon_texture.o: /usr/include/xf86drm.h /usr/include/libdrm/radeon_drm.h
+radeon_texture.o: radeon_chipset.h
+radeon_texture.o: ../../../../../include/pci_ids/r200_pci_ids.h
+radeon_texture.o: server/radeon_reg.h /usr/include/libdrm/drm_sarea.h
+radeon_texture.o: ../../../../../src/mesa/tnl/t_vertex.h
+radeon_texture.o: ../../../../../src/mesa/tnl/t_context.h
+radeon_texture.o: ../../../../../src/mesa/vbo/vbo.h
+radeon_texture.o: ../../../../../src/mesa/swrast/s_context.h
+radeon_texture.o: ../../../../../src/mesa/main/compiler.h
+radeon_texture.o: ../../../../../src/mesa/program/prog_execute.h
+radeon_texture.o: ../../../../../src/mesa/swrast/swrast.h
+radeon_texture.o: ../../../../../src/mesa/swrast/s_span.h
+radeon_texture.o: ../../../../../src/mesa/swrast/s_chan.h
+radeon_texture.o: /usr/include/libdrm/radeon_bo_gem.h
+radeon_texture.o: /usr/include/libdrm/radeon_bo.h
+radeon_texture.o: /usr/include/libdrm/radeon_cs_gem.h
+radeon_texture.o: /usr/include/libdrm/radeon_cs.h
+radeon_texture.o: ../../../../../src/mesa/tnl_dd/t_dd_vertex.h radeon_dma.h
+radeon_texture.o: radeon_texture.h radeon_cmdbuf.h radeon_mipmap_tree.h
+radeon_tex_copy.o: radeon_common.h radeon_common_context.h
+radeon_tex_copy.o: ../../../../../src/mesa/main/mm.h
+radeon_tex_copy.o: ../../../../../src/mesa/math/m_vector.h
+radeon_tex_copy.o: ../../../../../src/mesa/main/glheader.h
+radeon_tex_copy.o: ../../../../../include/GL/gl.h
+radeon_tex_copy.o: ../../../../../include/GL/glext.h
+radeon_tex_copy.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+radeon_tex_copy.o: /usr/include/inttypes.h /usr/include/features.h
+radeon_tex_copy.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+radeon_tex_copy.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+radeon_tex_copy.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+radeon_tex_copy.o: ../../../../../src/mesa/tnl/t_context.h
+radeon_tex_copy.o: ../../../../../src/mesa/main/colormac.h
+radeon_tex_copy.o: ../../../../../src/mesa/main/config.h
+radeon_tex_copy.o: ../../../../../src/mesa/main/macros.h
+radeon_tex_copy.o: ../../../../../src/mesa/main/mtypes.h radeon_debug.h
+radeon_tex_copy.o: /usr/include/stdlib.h /usr/include/bits/waitflags.h
+radeon_tex_copy.o: /usr/include/bits/waitstatus.h /usr/include/endian.h
+radeon_tex_copy.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+radeon_tex_copy.o: /usr/include/sys/types.h /usr/include/bits/types.h
+radeon_tex_copy.o: /usr/include/bits/typesizes.h /usr/include/time.h
+radeon_tex_copy.o: /usr/include/sys/select.h /usr/include/bits/select.h
+radeon_tex_copy.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+radeon_tex_copy.o: /usr/include/sys/sysmacros.h
+radeon_tex_copy.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+radeon_tex_copy.o: radeon_screen.h ../common/dri_util.h
+radeon_tex_copy.o: ../../../../../include/GL/internal/dri_interface.h
+radeon_tex_copy.o: /usr/include/libdrm/drm.h /usr/include/libdrm/drm_mode.h
+radeon_tex_copy.o: ../../../../../src/mesa/main/mtypes.h
+radeon_tex_copy.o: ../../../../../src/mesa/main/config.h
+radeon_tex_copy.o: ../../../../../src/mesa/main/mfeatures.h
+radeon_tex_copy.o: ../../../../../src/mapi/glapi/glapi.h
+radeon_tex_copy.o: ../../../../../src/mapi/glapi/glthread.h
+radeon_tex_copy.o: ../../../../../src/mapi/mapi/u_thread.h
+radeon_tex_copy.o: ../../../../../src/mapi/mapi/u_compiler.h
+radeon_tex_copy.o: ../../../../../src/mesa/math/m_matrix.h
+radeon_tex_copy.o: ../../../../../src/mesa/main/simple_list.h
+radeon_tex_copy.o: ../../../../../src/mesa/main/formats.h
+radeon_tex_copy.o: ../../../../../src/mesa/main/dd.h
+radeon_tex_copy.o: ../../../../../src/mesa/main/glheader.h
+radeon_tex_copy.o: ../common/xmlconfig.h server/radeon_dri.h
+radeon_tex_copy.o: /usr/include/xf86drm.h
+radeon_tex_copy.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+radeon_tex_copy.o: /usr/include/libdrm/radeon_drm.h radeon_chipset.h
+radeon_tex_copy.o: ../../../../../include/pci_ids/r200_pci_ids.h
+radeon_tex_copy.o: server/radeon_reg.h /usr/include/libdrm/drm_sarea.h
+radeon_tex_copy.o: ../../../../../src/mesa/tnl/t_vertex.h
+radeon_tex_copy.o: ../../../../../src/mesa/tnl/t_context.h
+radeon_tex_copy.o: ../../../../../src/mesa/main/imports.h
+radeon_tex_copy.o: ../../../../../src/mesa/main/compiler.h
+radeon_tex_copy.o: /usr/include/assert.h /usr/include/ctype.h
+radeon_tex_copy.o: /usr/include/xlocale.h /usr/include/math.h
+radeon_tex_copy.o: /usr/include/bits/huge_val.h /usr/include/bits/huge_valf.h
+radeon_tex_copy.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+radeon_tex_copy.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+radeon_tex_copy.o: /usr/include/bits/mathcalls.h
+radeon_tex_copy.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+radeon_tex_copy.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+radeon_tex_copy.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+radeon_tex_copy.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+radeon_tex_copy.o: /usr/include/bits/posix2_lim.h /usr/include/stdio.h
+radeon_tex_copy.o: /usr/include/libio.h /usr/include/_G_config.h
+radeon_tex_copy.o: /usr/include/wchar.h /usr/include/bits/stdio_lim.h
+radeon_tex_copy.o: /usr/include/bits/sys_errlist.h /usr/include/string.h
+radeon_tex_copy.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+radeon_tex_copy.o: ../../../../../src/mesa/vbo/vbo.h
+radeon_tex_copy.o: ../../../../../src/mesa/swrast/s_context.h
+radeon_tex_copy.o: ../../../../../src/mesa/main/compiler.h
+radeon_tex_copy.o: ../../../../../src/mesa/program/prog_execute.h
+radeon_tex_copy.o: ../../../../../src/mesa/swrast/swrast.h
+radeon_tex_copy.o: ../../../../../src/mesa/swrast/s_span.h
+radeon_tex_copy.o: ../../../../../src/mesa/swrast/s_chan.h
+radeon_tex_copy.o: /usr/include/libdrm/radeon_bo_gem.h
+radeon_tex_copy.o: /usr/include/libdrm/radeon_bo.h
+radeon_tex_copy.o: /usr/include/libdrm/radeon_cs_gem.h
+radeon_tex_copy.o: /usr/include/libdrm/radeon_cs.h
+radeon_tex_copy.o: ../../../../../src/mesa/tnl_dd/t_dd_vertex.h radeon_dma.h
+radeon_tex_copy.o: radeon_texture.h radeon_cmdbuf.h
+radeon_tex_copy.o: ../../../../../src/mesa/main/enums.h
+radeon_tex_copy.o: ../../../../../src/mesa/main/mfeatures.h
+radeon_tex_copy.o: ../../../../../src/mesa/main/image.h
+radeon_tex_copy.o: ../../../../../src/mesa/main/teximage.h
+radeon_tex_copy.o: ../../../../../src/mesa/main/formats.h
+radeon_tex_copy.o: ../../../../../src/mesa/main/texstate.h
+radeon_tex_copy.o: ../../../../../src/mesa/drivers/common/meta.h
+radeon_tex_copy.o: radeon_mipmap_tree.h
+radeon_tile.o: radeon_tile.h ../../../../../src/mesa/main/formats.h
+radeon_tile.o: ../../../../../include/GL/gl.h
+radeon_tile.o: ../../../../../include/GL/glext.h
+radeon_tile.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+radeon_tile.o: /usr/include/inttypes.h /usr/include/features.h
+radeon_tile.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+radeon_tile.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+radeon_tile.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+radeon_tile.o: /usr/include/string.h /usr/include/xlocale.h
+radeon_tile.o: ../../../../../src/mesa/main/macros.h
+radeon_tile.o: ../../../../../src/mesa/main/imports.h
+radeon_tile.o: ../../../../../src/mesa/main/compiler.h /usr/include/assert.h
+radeon_tile.o: /usr/include/ctype.h /usr/include/bits/types.h
+radeon_tile.o: /usr/include/bits/typesizes.h /usr/include/endian.h
+radeon_tile.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+radeon_tile.o: /usr/include/math.h /usr/include/bits/huge_val.h
+radeon_tile.o: /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h
+radeon_tile.o: /usr/include/bits/inf.h /usr/include/bits/nan.h
+radeon_tile.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+radeon_tile.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+radeon_tile.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+radeon_tile.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+radeon_tile.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+radeon_tile.o: /usr/include/bits/posix2_lim.h /usr/include/stdlib.h
+radeon_tile.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+radeon_tile.o: /usr/include/sys/types.h /usr/include/time.h
+radeon_tile.o: /usr/include/sys/select.h /usr/include/bits/select.h
+radeon_tile.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+radeon_tile.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+radeon_tile.o: /usr/include/alloca.h /usr/include/stdio.h
+radeon_tile.o: /usr/include/libio.h /usr/include/_G_config.h
+radeon_tile.o: /usr/include/wchar.h
+radeon_tile.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+radeon_tile.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+radeon_tile.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+radeon_tile.o: ../../../../../src/mesa/main/glheader.h radeon_debug.h

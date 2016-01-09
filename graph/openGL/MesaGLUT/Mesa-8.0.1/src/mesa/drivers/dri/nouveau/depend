@@ -1,0 +1,2838 @@
+# DO NOT DELETE
+
+../common/utils.o: /usr/include/string.h /usr/include/features.h
+../common/utils.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+../common/utils.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+../common/utils.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+../common/utils.o: /usr/include/xlocale.h /usr/include/stdlib.h
+../common/utils.o: /usr/include/bits/waitflags.h
+../common/utils.o: /usr/include/bits/waitstatus.h /usr/include/endian.h
+../common/utils.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+../common/utils.o: /usr/include/sys/types.h /usr/include/bits/types.h
+../common/utils.o: /usr/include/bits/typesizes.h /usr/include/time.h
+../common/utils.o: /usr/include/sys/select.h /usr/include/bits/select.h
+../common/utils.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+../common/utils.o: /usr/include/sys/sysmacros.h
+../common/utils.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+../common/utils.o: ../../../../../src/mesa/main/mtypes.h
+../common/utils.o: ../../../../../src/mesa/main/glheader.h
+../common/utils.o: ../../../../../include/GL/gl.h
+../common/utils.o: ../../../../../include/GL/glext.h /usr/include/inttypes.h
+../common/utils.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+../common/utils.o: ../../../../../src/mesa/main/config.h
+../common/utils.o: ../../../../../src/mesa/main/mfeatures.h
+../common/utils.o: ../../../../../src/mapi/glapi/glapi.h
+../common/utils.o: ../../../../../src/mapi/glapi/glthread.h
+../common/utils.o: ../../../../../src/mapi/mapi/u_thread.h
+../common/utils.o: ../../../../../src/mapi/mapi/u_compiler.h
+../common/utils.o: ../../../../../src/mesa/math/m_matrix.h
+../common/utils.o: ../../../../../src/mesa/main/simple_list.h
+../common/utils.o: ../../../../../src/mesa/main/formats.h
+../common/utils.o: ../../../../../src/mesa/main/dd.h
+../common/utils.o: ../../../../../src/mesa/main/glheader.h
+../common/utils.o: ../../../../../src/mesa/main/cpuinfo.h
+../common/utils.o: ../../../../../src/mesa/main/extensions.h
+../common/utils.o: ../../../../../src/mesa/main/mfeatures.h ../common/utils.h
+../common/utils.o: ../../../../../include/GL/internal/dri_interface.h
+../common/utils.o: /usr/include/libdrm/drm.h /usr/include/libdrm/drm_mode.h
+../common/utils.o: ../../../../../src/mesa/main/context.h
+../common/utils.o: ../../../../../src/mesa/main/imports.h
+../common/utils.o: ../../../../../src/mesa/main/compiler.h
+../common/utils.o: /usr/include/assert.h /usr/include/ctype.h
+../common/utils.o: /usr/include/math.h /usr/include/bits/huge_val.h
+../common/utils.o: /usr/include/bits/huge_valf.h
+../common/utils.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+../common/utils.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+../common/utils.o: /usr/include/bits/mathcalls.h
+../common/utils.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+../common/utils.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+../common/utils.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+../common/utils.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+../common/utils.o: /usr/include/bits/posix2_lim.h /usr/include/stdio.h
+../common/utils.o: /usr/include/libio.h /usr/include/_G_config.h
+../common/utils.o: /usr/include/wchar.h
+../common/utils.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+../common/utils.o: /usr/include/bits/stdio_lim.h
+../common/utils.o: /usr/include/bits/sys_errlist.h
+../common/utils.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+../common/utils.o: ../../../../../src/mesa/main/mtypes.h
+../common/dri_util.o: /usr/include/xf86drm.h
+../common/dri_util.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+../common/dri_util.o: /usr/include/sys/types.h /usr/include/features.h
+../common/dri_util.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+../common/dri_util.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+../common/dri_util.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+../common/dri_util.o: /usr/include/time.h
+../common/dri_util.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+../common/dri_util.o: /usr/include/endian.h /usr/include/bits/endian.h
+../common/dri_util.o: /usr/include/bits/byteswap.h /usr/include/sys/select.h
+../common/dri_util.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+../common/dri_util.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+../common/dri_util.o: /usr/include/bits/pthreadtypes.h /usr/include/stdint.h
+../common/dri_util.o: /usr/include/bits/wchar.h /usr/include/libdrm/drm.h
+../common/dri_util.o: /usr/include/libdrm/drm_mode.h ../common/dri_util.h
+../common/dri_util.o: ../../../../../include/GL/gl.h
+../common/dri_util.o: ../../../../../include/GL/glext.h
+../common/dri_util.o: /usr/include/inttypes.h
+../common/dri_util.o: ../../../../../include/GL/internal/dri_interface.h
+../common/dri_util.o: ../../../../../src/mesa/main/mtypes.h
+../common/dri_util.o: ../../../../../src/mesa/main/glheader.h
+../common/dri_util.o: ../../../../../src/mesa/main/config.h
+../common/dri_util.o: ../../../../../src/mesa/main/mfeatures.h
+../common/dri_util.o: ../../../../../src/mapi/glapi/glapi.h
+../common/dri_util.o: ../../../../../src/mapi/glapi/glthread.h
+../common/dri_util.o: ../../../../../src/mapi/mapi/u_thread.h
+../common/dri_util.o: ../../../../../src/mapi/mapi/u_compiler.h
+../common/dri_util.o: ../../../../../src/mesa/math/m_matrix.h
+../common/dri_util.o: ../../../../../src/mesa/main/simple_list.h
+../common/dri_util.o: ../../../../../src/mesa/main/formats.h
+../common/dri_util.o: ../../../../../src/mesa/main/dd.h
+../common/dri_util.o: ../../../../../src/mesa/main/glheader.h
+../common/dri_util.o: ../common/xmlconfig.h ../common/utils.h
+../common/dri_util.o: ../../../../../src/mesa/main/context.h
+../common/dri_util.o: ../../../../../src/mesa/main/imports.h
+../common/dri_util.o: ../../../../../src/mesa/main/compiler.h
+../common/dri_util.o: /usr/include/assert.h /usr/include/ctype.h
+../common/dri_util.o: /usr/include/xlocale.h /usr/include/math.h
+../common/dri_util.o: /usr/include/bits/huge_val.h
+../common/dri_util.o: /usr/include/bits/huge_valf.h
+../common/dri_util.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+../common/dri_util.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+../common/dri_util.o: /usr/include/bits/mathcalls.h
+../common/dri_util.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+../common/dri_util.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+../common/dri_util.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+../common/dri_util.o: /usr/include/bits/local_lim.h
+../common/dri_util.o: /usr/include/linux/limits.h
+../common/dri_util.o: /usr/include/bits/posix2_lim.h /usr/include/stdlib.h
+../common/dri_util.o: /usr/include/bits/waitflags.h
+../common/dri_util.o: /usr/include/bits/waitstatus.h /usr/include/alloca.h
+../common/dri_util.o: /usr/include/stdio.h /usr/include/libio.h
+../common/dri_util.o: /usr/include/_G_config.h /usr/include/wchar.h
+../common/dri_util.o: /usr/include/bits/stdio_lim.h
+../common/dri_util.o: /usr/include/bits/sys_errlist.h /usr/include/string.h
+../common/dri_util.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+../common/dri_util.o: ../../../../../src/mesa/main/mtypes.h
+../common/dri_util.o: ../common/xmlpool.h ../common/xmlpool/options.h
+../common/dri_util.o: ../../../../../src/glsl/glsl_parser_extras.h
+../common/xmlconfig.o: ../../../../../src/mesa/main/glheader.h
+../common/xmlconfig.o: ../../../../../include/GL/gl.h
+../common/xmlconfig.o: ../../../../../include/GL/glext.h
+../common/xmlconfig.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+../common/xmlconfig.o: /usr/include/inttypes.h /usr/include/features.h
+../common/xmlconfig.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+../common/xmlconfig.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+../common/xmlconfig.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+../common/xmlconfig.o: /usr/include/string.h /usr/include/xlocale.h
+../common/xmlconfig.o: /usr/include/assert.h /usr/include/expat.h
+../common/xmlconfig.o: /usr/include/stdlib.h /usr/include/bits/waitflags.h
+../common/xmlconfig.o: /usr/include/bits/waitstatus.h /usr/include/endian.h
+../common/xmlconfig.o: /usr/include/bits/endian.h
+../common/xmlconfig.o: /usr/include/bits/byteswap.h /usr/include/sys/types.h
+../common/xmlconfig.o: /usr/include/bits/types.h
+../common/xmlconfig.o: /usr/include/bits/typesizes.h /usr/include/time.h
+../common/xmlconfig.o: /usr/include/sys/select.h /usr/include/bits/select.h
+../common/xmlconfig.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+../common/xmlconfig.o: /usr/include/sys/sysmacros.h
+../common/xmlconfig.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+../common/xmlconfig.o: /usr/include/expat_external.h /usr/include/fcntl.h
+../common/xmlconfig.o: /usr/include/bits/fcntl.h /usr/include/bits/stat.h
+../common/xmlconfig.o: /usr/include/unistd.h /usr/include/bits/posix_opt.h
+../common/xmlconfig.o: /usr/include/bits/environments.h
+../common/xmlconfig.o: /usr/include/bits/confname.h /usr/include/getopt.h
+../common/xmlconfig.o: /usr/include/errno.h /usr/include/bits/errno.h
+../common/xmlconfig.o: /usr/include/linux/errno.h /usr/include/asm/errno.h
+../common/xmlconfig.o: /usr/include/asm-generic/errno.h
+../common/xmlconfig.o: /usr/include/asm-generic/errno-base.h
+../common/xmlconfig.o: ../../../../../src/mesa/main/imports.h
+../common/xmlconfig.o: ../../../../../src/mesa/main/compiler.h
+../common/xmlconfig.o: /usr/include/ctype.h /usr/include/math.h
+../common/xmlconfig.o: /usr/include/bits/huge_val.h
+../common/xmlconfig.o: /usr/include/bits/huge_valf.h
+../common/xmlconfig.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+../common/xmlconfig.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+../common/xmlconfig.o: /usr/include/bits/mathcalls.h
+../common/xmlconfig.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+../common/xmlconfig.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+../common/xmlconfig.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+../common/xmlconfig.o: /usr/include/bits/local_lim.h
+../common/xmlconfig.o: /usr/include/linux/limits.h
+../common/xmlconfig.o: /usr/include/bits/posix2_lim.h /usr/include/stdio.h
+../common/xmlconfig.o: /usr/include/libio.h /usr/include/_G_config.h
+../common/xmlconfig.o: /usr/include/wchar.h
+../common/xmlconfig.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+../common/xmlconfig.o: /usr/include/bits/stdio_lim.h
+../common/xmlconfig.o: /usr/include/bits/sys_errlist.h
+../common/xmlconfig.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+../common/xmlconfig.o: ../../../../../src/mesa/main/glheader.h
+../common/xmlconfig.o: ../common/utils.h
+../common/xmlconfig.o: ../../../../../include/GL/internal/dri_interface.h
+../common/xmlconfig.o: /usr/include/libdrm/drm.h
+../common/xmlconfig.o: /usr/include/libdrm/drm_mode.h
+../common/xmlconfig.o: ../../../../../src/mesa/main/context.h
+../common/xmlconfig.o: ../../../../../src/mesa/main/imports.h
+../common/xmlconfig.o: ../../../../../src/mesa/main/mtypes.h
+../common/xmlconfig.o: ../common/xmlconfig.h
+nouveau_screen.o: nouveau_driver.h ../../../../../src/mesa/main/imports.h
+nouveau_screen.o: ../../../../../src/mesa/main/compiler.h
+nouveau_screen.o: /usr/include/assert.h /usr/include/features.h
+nouveau_screen.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+nouveau_screen.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+nouveau_screen.o: /usr/include/ctype.h /usr/include/bits/types.h
+nouveau_screen.o: /usr/include/bits/typesizes.h /usr/include/endian.h
+nouveau_screen.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+nouveau_screen.o: /usr/include/xlocale.h /usr/include/math.h
+nouveau_screen.o: /usr/include/bits/huge_val.h /usr/include/bits/huge_valf.h
+nouveau_screen.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+nouveau_screen.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+nouveau_screen.o: /usr/include/bits/mathcalls.h
+nouveau_screen.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+nouveau_screen.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+nouveau_screen.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+nouveau_screen.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+nouveau_screen.o: /usr/include/bits/posix2_lim.h /usr/include/stdlib.h
+nouveau_screen.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+nouveau_screen.o: /usr/include/bits/waitflags.h
+nouveau_screen.o: /usr/include/bits/waitstatus.h /usr/include/sys/types.h
+nouveau_screen.o: /usr/include/time.h /usr/include/sys/select.h
+nouveau_screen.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+nouveau_screen.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+nouveau_screen.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+nouveau_screen.o: /usr/include/stdio.h /usr/include/libio.h
+nouveau_screen.o: /usr/include/_G_config.h /usr/include/wchar.h
+nouveau_screen.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+nouveau_screen.o: /usr/include/bits/stdio_lim.h
+nouveau_screen.o: /usr/include/bits/sys_errlist.h /usr/include/string.h
+nouveau_screen.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+nouveau_screen.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+nouveau_screen.o: ../../../../../src/mesa/main/glheader.h
+nouveau_screen.o: ../../../../../src/mesa/main/mtypes.h
+nouveau_screen.o: ../../../../../src/mesa/main/glheader.h
+nouveau_screen.o: ../../../../../include/GL/gl.h
+nouveau_screen.o: ../../../../../include/GL/glext.h /usr/include/inttypes.h
+nouveau_screen.o: ../../../../../src/mesa/main/config.h
+nouveau_screen.o: ../../../../../src/mesa/main/mfeatures.h
+nouveau_screen.o: ../../../../../src/mapi/glapi/glapi.h
+nouveau_screen.o: ../../../../../src/mapi/glapi/glthread.h
+nouveau_screen.o: ../../../../../src/mapi/mapi/u_thread.h
+nouveau_screen.o: ../../../../../src/mapi/mapi/u_compiler.h
+nouveau_screen.o: ../../../../../src/mesa/math/m_matrix.h
+nouveau_screen.o: ../../../../../src/mesa/main/simple_list.h
+nouveau_screen.o: ../../../../../src/mesa/main/formats.h
+nouveau_screen.o: ../../../../../src/mesa/main/dd.h
+nouveau_screen.o: ../../../../../src/mesa/main/macros.h
+nouveau_screen.o: ../../../../../src/mesa/main/imports.h
+nouveau_screen.o: ../../../../../src/mesa/main/state.h
+nouveau_screen.o: ../../../../../src/mesa/main/mtypes.h ../common/utils.h
+nouveau_screen.o: ../../../../../include/GL/internal/dri_interface.h
+nouveau_screen.o: /usr/include/libdrm/drm.h /usr/include/libdrm/drm_mode.h
+nouveau_screen.o: ../../../../../src/mesa/main/context.h ../common/dri_util.h
+nouveau_screen.o: ../common/xmlconfig.h /usr/include/nouveau/nouveau_device.h
+nouveau_screen.o: /usr/include/nouveau/nouveau_grobj.h
+nouveau_screen.o: /usr/include/nouveau/nouveau_channel.h
+nouveau_screen.o: /usr/include/nouveau/nouveau_bo.h
+nouveau_screen.o: /usr/include/nouveau/nouveau_notifier.h nouveau_screen.h
+nouveau_screen.o: nouveau_state.h nouveau_surface.h
+nouveau_screen.o: /usr/include/nouveau/nv04_pushbuf.h
+nouveau_screen.o: /usr/include/nouveau/nouveau_pushbuf.h nouveau_context.h
+nouveau_screen.o: nouveau_bo_state.h nouveau_scratch.h nouveau_render.h
+nouveau_screen.o: ../../../../../src/mesa/vbo/vbo_context.h
+nouveau_screen.o: ../../../../../src/mesa/vbo/vbo.h
+nouveau_screen.o: ../../../../../src/mesa/vbo/vbo_attrib.h
+nouveau_screen.o: ../../../../../src/mesa/vbo/vbo_exec.h
+nouveau_screen.o: ../../../../../src/mesa/vbo/vbo_save.h nouveau_array.h
+nouveau_screen.o: ../../../../../src/mesa/main/bitset.h nouveau_fbo.h
+nouveau_screen.o: nouveau_texture.h
+nouveau_screen.o: ../../../../../src/mesa/swrast/s_context.h
+nouveau_screen.o: ../../../../../src/mesa/main/compiler.h
+nouveau_screen.o: ../../../../../src/mesa/program/prog_execute.h
+nouveau_screen.o: ../../../../../src/mesa/swrast/swrast.h
+nouveau_screen.o: ../../../../../src/mesa/swrast/s_chan.h
+nouveau_screen.o: ../../../../../src/mesa/swrast/s_span.h
+nouveau_screen.o: /usr/include/libdrm/nouveau_drmif.h /usr/include/xf86drm.h
+nouveau_screen.o: nv04_driver.h nv04_context.h nv_object.xml.h nv10_driver.h
+nouveau_screen.o: nv20_driver.h ../../../../../src/mesa/main/framebuffer.h
+nouveau_screen.o: ../../../../../src/mesa/main/renderbuffer.h
+nouveau_screen.o: ../../../../../src/mesa/swrast/s_renderbuffer.h
+nouveau_context.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+nouveau_context.o: nouveau_driver.h ../../../../../src/mesa/main/imports.h
+nouveau_context.o: ../../../../../src/mesa/main/compiler.h
+nouveau_context.o: /usr/include/assert.h /usr/include/features.h
+nouveau_context.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+nouveau_context.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+nouveau_context.o: /usr/include/ctype.h /usr/include/bits/types.h
+nouveau_context.o: /usr/include/bits/typesizes.h /usr/include/endian.h
+nouveau_context.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+nouveau_context.o: /usr/include/xlocale.h /usr/include/math.h
+nouveau_context.o: /usr/include/bits/huge_val.h /usr/include/bits/huge_valf.h
+nouveau_context.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+nouveau_context.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+nouveau_context.o: /usr/include/bits/mathcalls.h
+nouveau_context.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+nouveau_context.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+nouveau_context.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+nouveau_context.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+nouveau_context.o: /usr/include/bits/posix2_lim.h /usr/include/stdlib.h
+nouveau_context.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+nouveau_context.o: /usr/include/bits/waitflags.h
+nouveau_context.o: /usr/include/bits/waitstatus.h /usr/include/sys/types.h
+nouveau_context.o: /usr/include/time.h /usr/include/sys/select.h
+nouveau_context.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+nouveau_context.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+nouveau_context.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+nouveau_context.o: /usr/include/stdio.h /usr/include/libio.h
+nouveau_context.o: /usr/include/_G_config.h /usr/include/wchar.h
+nouveau_context.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+nouveau_context.o: /usr/include/bits/stdio_lim.h
+nouveau_context.o: /usr/include/bits/sys_errlist.h /usr/include/string.h
+nouveau_context.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+nouveau_context.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+nouveau_context.o: ../../../../../src/mesa/main/glheader.h
+nouveau_context.o: ../../../../../src/mesa/main/mtypes.h
+nouveau_context.o: ../../../../../src/mesa/main/glheader.h
+nouveau_context.o: ../../../../../include/GL/gl.h
+nouveau_context.o: ../../../../../include/GL/glext.h /usr/include/inttypes.h
+nouveau_context.o: ../../../../../src/mesa/main/config.h
+nouveau_context.o: ../../../../../src/mesa/main/mfeatures.h
+nouveau_context.o: ../../../../../src/mapi/glapi/glapi.h
+nouveau_context.o: ../../../../../src/mapi/glapi/glthread.h
+nouveau_context.o: ../../../../../src/mapi/mapi/u_thread.h
+nouveau_context.o: ../../../../../src/mapi/mapi/u_compiler.h
+nouveau_context.o: ../../../../../src/mesa/math/m_matrix.h
+nouveau_context.o: ../../../../../src/mesa/main/simple_list.h
+nouveau_context.o: ../../../../../src/mesa/main/formats.h
+nouveau_context.o: ../../../../../src/mesa/main/dd.h
+nouveau_context.o: ../../../../../src/mesa/main/macros.h
+nouveau_context.o: ../../../../../src/mesa/main/imports.h
+nouveau_context.o: ../../../../../src/mesa/main/state.h
+nouveau_context.o: ../../../../../src/mesa/main/mtypes.h ../common/utils.h
+nouveau_context.o: ../../../../../include/GL/internal/dri_interface.h
+nouveau_context.o: /usr/include/libdrm/drm.h /usr/include/libdrm/drm_mode.h
+nouveau_context.o: ../../../../../src/mesa/main/context.h
+nouveau_context.o: ../common/dri_util.h ../common/xmlconfig.h
+nouveau_context.o: /usr/include/nouveau/nouveau_device.h
+nouveau_context.o: /usr/include/nouveau/nouveau_grobj.h
+nouveau_context.o: /usr/include/nouveau/nouveau_channel.h
+nouveau_context.o: /usr/include/nouveau/nouveau_bo.h
+nouveau_context.o: /usr/include/nouveau/nouveau_notifier.h nouveau_screen.h
+nouveau_context.o: nouveau_state.h nouveau_surface.h
+nouveau_context.o: /usr/include/nouveau/nv04_pushbuf.h
+nouveau_context.o: /usr/include/nouveau/nouveau_pushbuf.h nouveau_context.h
+nouveau_context.o: nouveau_bo_state.h nouveau_scratch.h nouveau_render.h
+nouveau_context.o: ../../../../../src/mesa/vbo/vbo_context.h
+nouveau_context.o: ../../../../../src/mesa/vbo/vbo.h
+nouveau_context.o: ../../../../../src/mesa/vbo/vbo_attrib.h
+nouveau_context.o: ../../../../../src/mesa/vbo/vbo_exec.h
+nouveau_context.o: ../../../../../src/mesa/vbo/vbo_save.h nouveau_array.h
+nouveau_context.o: ../../../../../src/mesa/main/bitset.h nouveau_bufferobj.h
+nouveau_context.o: nouveau_fbo.h ../../../../../src/mesa/main/dd.h
+nouveau_context.o: ../../../../../src/mesa/main/framebuffer.h
+nouveau_context.o: ../../../../../src/mesa/main/light.h
+nouveau_context.o: ../../../../../src/mesa/main/mfeatures.h
+nouveau_context.o: ../../../../../src/mesa/main/version.h
+nouveau_context.o: ../../../../../src/mesa/drivers/common/meta.h
+nouveau_context.o: ../../../../../src/mesa/drivers/common/driverfuncs.h
+nouveau_context.o: ../../../../../src/mesa/swrast/swrast.h
+nouveau_context.o: ../../../../../src/mesa/swrast/s_chan.h
+nouveau_context.o: ../../../../../src/mesa/swrast/s_context.h
+nouveau_context.o: ../../../../../src/mesa/main/compiler.h
+nouveau_context.o: ../../../../../src/mesa/program/prog_execute.h
+nouveau_context.o: ../../../../../src/mesa/swrast/swrast.h
+nouveau_context.o: ../../../../../src/mesa/swrast/s_span.h
+nouveau_context.o: ../../../../../src/mesa/vbo/vbo.h
+nouveau_context.o: ../../../../../src/mesa/tnl/tnl.h
+nouveau_context.o: ../../../../../src/mesa/tnl/t_context.h
+nouveau_context.o: ../../../../../src/mesa/math/m_vector.h
+nouveau_fbo.o: nouveau_driver.h ../../../../../src/mesa/main/imports.h
+nouveau_fbo.o: ../../../../../src/mesa/main/compiler.h /usr/include/assert.h
+nouveau_fbo.o: /usr/include/features.h /usr/include/sys/cdefs.h
+nouveau_fbo.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+nouveau_fbo.o: /usr/include/gnu/stubs-64.h /usr/include/ctype.h
+nouveau_fbo.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+nouveau_fbo.o: /usr/include/endian.h /usr/include/bits/endian.h
+nouveau_fbo.o: /usr/include/bits/byteswap.h /usr/include/xlocale.h
+nouveau_fbo.o: /usr/include/math.h /usr/include/bits/huge_val.h
+nouveau_fbo.o: /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h
+nouveau_fbo.o: /usr/include/bits/inf.h /usr/include/bits/nan.h
+nouveau_fbo.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+nouveau_fbo.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+nouveau_fbo.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+nouveau_fbo.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+nouveau_fbo.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+nouveau_fbo.o: /usr/include/bits/posix2_lim.h /usr/include/stdlib.h
+nouveau_fbo.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+nouveau_fbo.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+nouveau_fbo.o: /usr/include/sys/types.h /usr/include/time.h
+nouveau_fbo.o: /usr/include/sys/select.h /usr/include/bits/select.h
+nouveau_fbo.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+nouveau_fbo.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+nouveau_fbo.o: /usr/include/alloca.h /usr/include/stdio.h
+nouveau_fbo.o: /usr/include/libio.h /usr/include/_G_config.h
+nouveau_fbo.o: /usr/include/wchar.h
+nouveau_fbo.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+nouveau_fbo.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+nouveau_fbo.o: /usr/include/string.h
+nouveau_fbo.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+nouveau_fbo.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+nouveau_fbo.o: ../../../../../src/mesa/main/glheader.h
+nouveau_fbo.o: ../../../../../src/mesa/main/mtypes.h
+nouveau_fbo.o: ../../../../../src/mesa/main/glheader.h
+nouveau_fbo.o: ../../../../../include/GL/gl.h
+nouveau_fbo.o: ../../../../../include/GL/glext.h /usr/include/inttypes.h
+nouveau_fbo.o: ../../../../../src/mesa/main/config.h
+nouveau_fbo.o: ../../../../../src/mesa/main/mfeatures.h
+nouveau_fbo.o: ../../../../../src/mapi/glapi/glapi.h
+nouveau_fbo.o: ../../../../../src/mapi/glapi/glthread.h
+nouveau_fbo.o: ../../../../../src/mapi/mapi/u_thread.h
+nouveau_fbo.o: ../../../../../src/mapi/mapi/u_compiler.h
+nouveau_fbo.o: ../../../../../src/mesa/math/m_matrix.h
+nouveau_fbo.o: ../../../../../src/mesa/main/simple_list.h
+nouveau_fbo.o: ../../../../../src/mesa/main/formats.h
+nouveau_fbo.o: ../../../../../src/mesa/main/dd.h
+nouveau_fbo.o: ../../../../../src/mesa/main/macros.h
+nouveau_fbo.o: ../../../../../src/mesa/main/imports.h
+nouveau_fbo.o: ../../../../../src/mesa/main/state.h
+nouveau_fbo.o: ../../../../../src/mesa/main/mtypes.h ../common/utils.h
+nouveau_fbo.o: ../../../../../include/GL/internal/dri_interface.h
+nouveau_fbo.o: /usr/include/libdrm/drm.h /usr/include/libdrm/drm_mode.h
+nouveau_fbo.o: ../../../../../src/mesa/main/context.h ../common/dri_util.h
+nouveau_fbo.o: ../common/xmlconfig.h /usr/include/nouveau/nouveau_device.h
+nouveau_fbo.o: /usr/include/nouveau/nouveau_grobj.h
+nouveau_fbo.o: /usr/include/nouveau/nouveau_channel.h
+nouveau_fbo.o: /usr/include/nouveau/nouveau_bo.h
+nouveau_fbo.o: /usr/include/nouveau/nouveau_notifier.h nouveau_screen.h
+nouveau_fbo.o: nouveau_state.h nouveau_surface.h
+nouveau_fbo.o: /usr/include/nouveau/nv04_pushbuf.h
+nouveau_fbo.o: /usr/include/nouveau/nouveau_pushbuf.h nouveau_fbo.h
+nouveau_fbo.o: nouveau_context.h nouveau_bo_state.h nouveau_scratch.h
+nouveau_fbo.o: nouveau_render.h ../../../../../src/mesa/vbo/vbo_context.h
+nouveau_fbo.o: ../../../../../src/mesa/vbo/vbo.h
+nouveau_fbo.o: ../../../../../src/mesa/vbo/vbo_attrib.h
+nouveau_fbo.o: ../../../../../src/mesa/vbo/vbo_exec.h
+nouveau_fbo.o: ../../../../../src/mesa/vbo/vbo_save.h nouveau_array.h
+nouveau_fbo.o: ../../../../../src/mesa/main/bitset.h nouveau_texture.h
+nouveau_fbo.o: ../../../../../src/mesa/swrast/s_context.h
+nouveau_fbo.o: ../../../../../src/mesa/main/compiler.h
+nouveau_fbo.o: ../../../../../src/mesa/program/prog_execute.h
+nouveau_fbo.o: ../../../../../src/mesa/swrast/swrast.h
+nouveau_fbo.o: ../../../../../src/mesa/swrast/s_chan.h
+nouveau_fbo.o: ../../../../../src/mesa/swrast/s_span.h
+nouveau_fbo.o: ../../../../../src/mesa/main/framebuffer.h
+nouveau_fbo.o: ../../../../../src/mesa/main/renderbuffer.h
+nouveau_fbo.o: ../../../../../src/mesa/main/fbobject.h
+nouveau_driver.o: ../../../../../src/mesa/main/mfeatures.h nouveau_driver.h
+nouveau_driver.o: ../../../../../src/mesa/main/imports.h
+nouveau_driver.o: ../../../../../src/mesa/main/compiler.h
+nouveau_driver.o: /usr/include/assert.h /usr/include/features.h
+nouveau_driver.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+nouveau_driver.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+nouveau_driver.o: /usr/include/ctype.h /usr/include/bits/types.h
+nouveau_driver.o: /usr/include/bits/typesizes.h /usr/include/endian.h
+nouveau_driver.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+nouveau_driver.o: /usr/include/xlocale.h /usr/include/math.h
+nouveau_driver.o: /usr/include/bits/huge_val.h /usr/include/bits/huge_valf.h
+nouveau_driver.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+nouveau_driver.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+nouveau_driver.o: /usr/include/bits/mathcalls.h
+nouveau_driver.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+nouveau_driver.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+nouveau_driver.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+nouveau_driver.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+nouveau_driver.o: /usr/include/bits/posix2_lim.h /usr/include/stdlib.h
+nouveau_driver.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+nouveau_driver.o: /usr/include/bits/waitflags.h
+nouveau_driver.o: /usr/include/bits/waitstatus.h /usr/include/sys/types.h
+nouveau_driver.o: /usr/include/time.h /usr/include/sys/select.h
+nouveau_driver.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+nouveau_driver.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+nouveau_driver.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+nouveau_driver.o: /usr/include/stdio.h /usr/include/libio.h
+nouveau_driver.o: /usr/include/_G_config.h /usr/include/wchar.h
+nouveau_driver.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+nouveau_driver.o: /usr/include/bits/stdio_lim.h
+nouveau_driver.o: /usr/include/bits/sys_errlist.h /usr/include/string.h
+nouveau_driver.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+nouveau_driver.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+nouveau_driver.o: ../../../../../src/mesa/main/glheader.h
+nouveau_driver.o: ../../../../../src/mesa/main/mtypes.h
+nouveau_driver.o: ../../../../../src/mesa/main/glheader.h
+nouveau_driver.o: ../../../../../include/GL/gl.h
+nouveau_driver.o: ../../../../../include/GL/glext.h /usr/include/inttypes.h
+nouveau_driver.o: ../../../../../src/mesa/main/config.h
+nouveau_driver.o: ../../../../../src/mapi/glapi/glapi.h
+nouveau_driver.o: ../../../../../src/mapi/glapi/glthread.h
+nouveau_driver.o: ../../../../../src/mapi/mapi/u_thread.h
+nouveau_driver.o: ../../../../../src/mapi/mapi/u_compiler.h
+nouveau_driver.o: ../../../../../src/mesa/math/m_matrix.h
+nouveau_driver.o: ../../../../../src/mesa/main/simple_list.h
+nouveau_driver.o: ../../../../../src/mesa/main/formats.h
+nouveau_driver.o: ../../../../../src/mesa/main/dd.h
+nouveau_driver.o: ../../../../../src/mesa/main/macros.h
+nouveau_driver.o: ../../../../../src/mesa/main/imports.h
+nouveau_driver.o: ../../../../../src/mesa/main/state.h
+nouveau_driver.o: ../../../../../src/mesa/main/mtypes.h ../common/utils.h
+nouveau_driver.o: ../../../../../include/GL/internal/dri_interface.h
+nouveau_driver.o: /usr/include/libdrm/drm.h /usr/include/libdrm/drm_mode.h
+nouveau_driver.o: ../../../../../src/mesa/main/context.h ../common/dri_util.h
+nouveau_driver.o: ../common/xmlconfig.h /usr/include/nouveau/nouveau_device.h
+nouveau_driver.o: /usr/include/nouveau/nouveau_grobj.h
+nouveau_driver.o: /usr/include/nouveau/nouveau_channel.h
+nouveau_driver.o: /usr/include/nouveau/nouveau_bo.h
+nouveau_driver.o: /usr/include/nouveau/nouveau_notifier.h nouveau_screen.h
+nouveau_driver.o: nouveau_state.h nouveau_surface.h
+nouveau_driver.o: /usr/include/nouveau/nv04_pushbuf.h
+nouveau_driver.o: /usr/include/nouveau/nouveau_pushbuf.h nouveau_context.h
+nouveau_driver.o: nouveau_bo_state.h nouveau_scratch.h nouveau_render.h
+nouveau_driver.o: ../../../../../src/mesa/vbo/vbo_context.h
+nouveau_driver.o: ../../../../../src/mesa/vbo/vbo.h
+nouveau_driver.o: ../../../../../src/mesa/vbo/vbo_attrib.h
+nouveau_driver.o: ../../../../../src/mesa/vbo/vbo_exec.h
+nouveau_driver.o: ../../../../../src/mesa/vbo/vbo_save.h nouveau_array.h
+nouveau_driver.o: ../../../../../src/mesa/main/bitset.h nouveau_fbo.h
+nouveau_driver.o: nouveau_util.h ../../../../../src/mesa/main/colormac.h
+nouveau_driver.o: ../../../../../src/mesa/main/config.h
+nouveau_driver.o: ../../../../../src/mesa/main/macros.h
+nouveau_driver.o: ../../../../../src/mesa/drivers/common/meta.h
+nouveau_state.o: nouveau_driver.h ../../../../../src/mesa/main/imports.h
+nouveau_state.o: ../../../../../src/mesa/main/compiler.h
+nouveau_state.o: /usr/include/assert.h /usr/include/features.h
+nouveau_state.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+nouveau_state.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+nouveau_state.o: /usr/include/ctype.h /usr/include/bits/types.h
+nouveau_state.o: /usr/include/bits/typesizes.h /usr/include/endian.h
+nouveau_state.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+nouveau_state.o: /usr/include/xlocale.h /usr/include/math.h
+nouveau_state.o: /usr/include/bits/huge_val.h /usr/include/bits/huge_valf.h
+nouveau_state.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+nouveau_state.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+nouveau_state.o: /usr/include/bits/mathcalls.h
+nouveau_state.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+nouveau_state.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+nouveau_state.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+nouveau_state.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+nouveau_state.o: /usr/include/bits/posix2_lim.h /usr/include/stdlib.h
+nouveau_state.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+nouveau_state.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+nouveau_state.o: /usr/include/sys/types.h /usr/include/time.h
+nouveau_state.o: /usr/include/sys/select.h /usr/include/bits/select.h
+nouveau_state.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+nouveau_state.o: /usr/include/sys/sysmacros.h
+nouveau_state.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+nouveau_state.o: /usr/include/stdio.h /usr/include/libio.h
+nouveau_state.o: /usr/include/_G_config.h /usr/include/wchar.h
+nouveau_state.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+nouveau_state.o: /usr/include/bits/stdio_lim.h
+nouveau_state.o: /usr/include/bits/sys_errlist.h /usr/include/string.h
+nouveau_state.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+nouveau_state.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+nouveau_state.o: ../../../../../src/mesa/main/glheader.h
+nouveau_state.o: ../../../../../src/mesa/main/mtypes.h
+nouveau_state.o: ../../../../../src/mesa/main/glheader.h
+nouveau_state.o: ../../../../../include/GL/gl.h
+nouveau_state.o: ../../../../../include/GL/glext.h /usr/include/inttypes.h
+nouveau_state.o: ../../../../../src/mesa/main/config.h
+nouveau_state.o: ../../../../../src/mesa/main/mfeatures.h
+nouveau_state.o: ../../../../../src/mapi/glapi/glapi.h
+nouveau_state.o: ../../../../../src/mapi/glapi/glthread.h
+nouveau_state.o: ../../../../../src/mapi/mapi/u_thread.h
+nouveau_state.o: ../../../../../src/mapi/mapi/u_compiler.h
+nouveau_state.o: ../../../../../src/mesa/math/m_matrix.h
+nouveau_state.o: ../../../../../src/mesa/main/simple_list.h
+nouveau_state.o: ../../../../../src/mesa/main/formats.h
+nouveau_state.o: ../../../../../src/mesa/main/dd.h
+nouveau_state.o: ../../../../../src/mesa/main/macros.h
+nouveau_state.o: ../../../../../src/mesa/main/imports.h
+nouveau_state.o: ../../../../../src/mesa/main/state.h
+nouveau_state.o: ../../../../../src/mesa/main/mtypes.h ../common/utils.h
+nouveau_state.o: ../../../../../include/GL/internal/dri_interface.h
+nouveau_state.o: /usr/include/libdrm/drm.h /usr/include/libdrm/drm_mode.h
+nouveau_state.o: ../../../../../src/mesa/main/context.h ../common/dri_util.h
+nouveau_state.o: ../common/xmlconfig.h /usr/include/nouveau/nouveau_device.h
+nouveau_state.o: /usr/include/nouveau/nouveau_grobj.h
+nouveau_state.o: /usr/include/nouveau/nouveau_channel.h
+nouveau_state.o: /usr/include/nouveau/nouveau_bo.h
+nouveau_state.o: /usr/include/nouveau/nouveau_notifier.h nouveau_screen.h
+nouveau_state.o: nouveau_state.h nouveau_surface.h
+nouveau_state.o: /usr/include/nouveau/nv04_pushbuf.h
+nouveau_state.o: /usr/include/nouveau/nouveau_pushbuf.h nouveau_context.h
+nouveau_state.o: nouveau_bo_state.h nouveau_scratch.h nouveau_render.h
+nouveau_state.o: ../../../../../src/mesa/vbo/vbo_context.h
+nouveau_state.o: ../../../../../src/mesa/vbo/vbo.h
+nouveau_state.o: ../../../../../src/mesa/vbo/vbo_attrib.h
+nouveau_state.o: ../../../../../src/mesa/vbo/vbo_exec.h
+nouveau_state.o: ../../../../../src/mesa/vbo/vbo_save.h nouveau_array.h
+nouveau_state.o: ../../../../../src/mesa/main/bitset.h nouveau_texture.h
+nouveau_state.o: ../../../../../src/mesa/swrast/s_context.h
+nouveau_state.o: ../../../../../src/mesa/main/compiler.h
+nouveau_state.o: ../../../../../src/mesa/program/prog_execute.h
+nouveau_state.o: ../../../../../src/mesa/swrast/swrast.h
+nouveau_state.o: ../../../../../src/mesa/swrast/s_chan.h
+nouveau_state.o: ../../../../../src/mesa/swrast/s_span.h nouveau_util.h
+nouveau_state.o: ../../../../../src/mesa/main/colormac.h
+nouveau_state.o: ../../../../../src/mesa/main/config.h
+nouveau_state.o: ../../../../../src/mesa/main/macros.h
+nouveau_state.o: ../../../../../src/mesa/swrast/swrast.h
+nouveau_state.o: ../../../../../src/mesa/tnl/tnl.h
+nouveau_bufferobj.o: nouveau_driver.h ../../../../../src/mesa/main/imports.h
+nouveau_bufferobj.o: ../../../../../src/mesa/main/compiler.h
+nouveau_bufferobj.o: /usr/include/assert.h /usr/include/features.h
+nouveau_bufferobj.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+nouveau_bufferobj.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+nouveau_bufferobj.o: /usr/include/ctype.h /usr/include/bits/types.h
+nouveau_bufferobj.o: /usr/include/bits/typesizes.h /usr/include/endian.h
+nouveau_bufferobj.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+nouveau_bufferobj.o: /usr/include/xlocale.h /usr/include/math.h
+nouveau_bufferobj.o: /usr/include/bits/huge_val.h
+nouveau_bufferobj.o: /usr/include/bits/huge_valf.h
+nouveau_bufferobj.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+nouveau_bufferobj.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+nouveau_bufferobj.o: /usr/include/bits/mathcalls.h
+nouveau_bufferobj.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+nouveau_bufferobj.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+nouveau_bufferobj.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+nouveau_bufferobj.o: /usr/include/bits/local_lim.h
+nouveau_bufferobj.o: /usr/include/linux/limits.h
+nouveau_bufferobj.o: /usr/include/bits/posix2_lim.h /usr/include/stdlib.h
+nouveau_bufferobj.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+nouveau_bufferobj.o: /usr/include/bits/waitflags.h
+nouveau_bufferobj.o: /usr/include/bits/waitstatus.h /usr/include/sys/types.h
+nouveau_bufferobj.o: /usr/include/time.h /usr/include/sys/select.h
+nouveau_bufferobj.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+nouveau_bufferobj.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+nouveau_bufferobj.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+nouveau_bufferobj.o: /usr/include/stdio.h /usr/include/libio.h
+nouveau_bufferobj.o: /usr/include/_G_config.h /usr/include/wchar.h
+nouveau_bufferobj.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+nouveau_bufferobj.o: /usr/include/bits/stdio_lim.h
+nouveau_bufferobj.o: /usr/include/bits/sys_errlist.h /usr/include/string.h
+nouveau_bufferobj.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+nouveau_bufferobj.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+nouveau_bufferobj.o: ../../../../../src/mesa/main/glheader.h
+nouveau_bufferobj.o: ../../../../../src/mesa/main/mtypes.h
+nouveau_bufferobj.o: ../../../../../src/mesa/main/glheader.h
+nouveau_bufferobj.o: ../../../../../include/GL/gl.h
+nouveau_bufferobj.o: ../../../../../include/GL/glext.h
+nouveau_bufferobj.o: /usr/include/inttypes.h
+nouveau_bufferobj.o: ../../../../../src/mesa/main/config.h
+nouveau_bufferobj.o: ../../../../../src/mesa/main/mfeatures.h
+nouveau_bufferobj.o: ../../../../../src/mapi/glapi/glapi.h
+nouveau_bufferobj.o: ../../../../../src/mapi/glapi/glthread.h
+nouveau_bufferobj.o: ../../../../../src/mapi/mapi/u_thread.h
+nouveau_bufferobj.o: ../../../../../src/mapi/mapi/u_compiler.h
+nouveau_bufferobj.o: ../../../../../src/mesa/math/m_matrix.h
+nouveau_bufferobj.o: ../../../../../src/mesa/main/simple_list.h
+nouveau_bufferobj.o: ../../../../../src/mesa/main/formats.h
+nouveau_bufferobj.o: ../../../../../src/mesa/main/dd.h
+nouveau_bufferobj.o: ../../../../../src/mesa/main/macros.h
+nouveau_bufferobj.o: ../../../../../src/mesa/main/imports.h
+nouveau_bufferobj.o: ../../../../../src/mesa/main/state.h
+nouveau_bufferobj.o: ../../../../../src/mesa/main/mtypes.h ../common/utils.h
+nouveau_bufferobj.o: ../../../../../include/GL/internal/dri_interface.h
+nouveau_bufferobj.o: /usr/include/libdrm/drm.h /usr/include/libdrm/drm_mode.h
+nouveau_bufferobj.o: ../../../../../src/mesa/main/context.h
+nouveau_bufferobj.o: ../common/dri_util.h ../common/xmlconfig.h
+nouveau_bufferobj.o: /usr/include/nouveau/nouveau_device.h
+nouveau_bufferobj.o: /usr/include/nouveau/nouveau_grobj.h
+nouveau_bufferobj.o: /usr/include/nouveau/nouveau_channel.h
+nouveau_bufferobj.o: /usr/include/nouveau/nouveau_bo.h
+nouveau_bufferobj.o: /usr/include/nouveau/nouveau_notifier.h nouveau_screen.h
+nouveau_bufferobj.o: nouveau_state.h nouveau_surface.h
+nouveau_bufferobj.o: /usr/include/nouveau/nv04_pushbuf.h
+nouveau_bufferobj.o: /usr/include/nouveau/nouveau_pushbuf.h
+nouveau_bufferobj.o: nouveau_bufferobj.h nouveau_context.h nouveau_bo_state.h
+nouveau_bufferobj.o: nouveau_scratch.h nouveau_render.h
+nouveau_bufferobj.o: ../../../../../src/mesa/vbo/vbo_context.h
+nouveau_bufferobj.o: ../../../../../src/mesa/vbo/vbo.h
+nouveau_bufferobj.o: ../../../../../src/mesa/vbo/vbo_attrib.h
+nouveau_bufferobj.o: ../../../../../src/mesa/vbo/vbo_exec.h
+nouveau_bufferobj.o: ../../../../../src/mesa/vbo/vbo_save.h nouveau_array.h
+nouveau_bufferobj.o: ../../../../../src/mesa/main/bitset.h
+nouveau_bufferobj.o: ../../../../../src/mesa/main/bufferobj.h
+nouveau_bufferobj.o: ../../../../../src/mesa/main/mfeatures.h
+nouveau_span.o: nouveau_driver.h ../../../../../src/mesa/main/imports.h
+nouveau_span.o: ../../../../../src/mesa/main/compiler.h /usr/include/assert.h
+nouveau_span.o: /usr/include/features.h /usr/include/sys/cdefs.h
+nouveau_span.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+nouveau_span.o: /usr/include/gnu/stubs-64.h /usr/include/ctype.h
+nouveau_span.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+nouveau_span.o: /usr/include/endian.h /usr/include/bits/endian.h
+nouveau_span.o: /usr/include/bits/byteswap.h /usr/include/xlocale.h
+nouveau_span.o: /usr/include/math.h /usr/include/bits/huge_val.h
+nouveau_span.o: /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h
+nouveau_span.o: /usr/include/bits/inf.h /usr/include/bits/nan.h
+nouveau_span.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+nouveau_span.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+nouveau_span.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+nouveau_span.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+nouveau_span.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+nouveau_span.o: /usr/include/bits/posix2_lim.h /usr/include/stdlib.h
+nouveau_span.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+nouveau_span.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+nouveau_span.o: /usr/include/sys/types.h /usr/include/time.h
+nouveau_span.o: /usr/include/sys/select.h /usr/include/bits/select.h
+nouveau_span.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+nouveau_span.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+nouveau_span.o: /usr/include/alloca.h /usr/include/stdio.h
+nouveau_span.o: /usr/include/libio.h /usr/include/_G_config.h
+nouveau_span.o: /usr/include/wchar.h
+nouveau_span.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+nouveau_span.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+nouveau_span.o: /usr/include/string.h
+nouveau_span.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+nouveau_span.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+nouveau_span.o: ../../../../../src/mesa/main/glheader.h
+nouveau_span.o: ../../../../../src/mesa/main/mtypes.h
+nouveau_span.o: ../../../../../src/mesa/main/glheader.h
+nouveau_span.o: ../../../../../include/GL/gl.h
+nouveau_span.o: ../../../../../include/GL/glext.h /usr/include/inttypes.h
+nouveau_span.o: ../../../../../src/mesa/main/config.h
+nouveau_span.o: ../../../../../src/mesa/main/mfeatures.h
+nouveau_span.o: ../../../../../src/mapi/glapi/glapi.h
+nouveau_span.o: ../../../../../src/mapi/glapi/glthread.h
+nouveau_span.o: ../../../../../src/mapi/mapi/u_thread.h
+nouveau_span.o: ../../../../../src/mapi/mapi/u_compiler.h
+nouveau_span.o: ../../../../../src/mesa/math/m_matrix.h
+nouveau_span.o: ../../../../../src/mesa/main/simple_list.h
+nouveau_span.o: ../../../../../src/mesa/main/formats.h
+nouveau_span.o: ../../../../../src/mesa/main/dd.h
+nouveau_span.o: ../../../../../src/mesa/main/macros.h
+nouveau_span.o: ../../../../../src/mesa/main/imports.h
+nouveau_span.o: ../../../../../src/mesa/main/state.h
+nouveau_span.o: ../../../../../src/mesa/main/mtypes.h ../common/utils.h
+nouveau_span.o: ../../../../../include/GL/internal/dri_interface.h
+nouveau_span.o: /usr/include/libdrm/drm.h /usr/include/libdrm/drm_mode.h
+nouveau_span.o: ../../../../../src/mesa/main/context.h ../common/dri_util.h
+nouveau_span.o: ../common/xmlconfig.h /usr/include/nouveau/nouveau_device.h
+nouveau_span.o: /usr/include/nouveau/nouveau_grobj.h
+nouveau_span.o: /usr/include/nouveau/nouveau_channel.h
+nouveau_span.o: /usr/include/nouveau/nouveau_bo.h
+nouveau_span.o: /usr/include/nouveau/nouveau_notifier.h nouveau_screen.h
+nouveau_span.o: nouveau_state.h nouveau_surface.h
+nouveau_span.o: /usr/include/nouveau/nv04_pushbuf.h
+nouveau_span.o: /usr/include/nouveau/nouveau_pushbuf.h nouveau_fbo.h
+nouveau_span.o: nouveau_context.h nouveau_bo_state.h nouveau_scratch.h
+nouveau_span.o: nouveau_render.h ../../../../../src/mesa/vbo/vbo_context.h
+nouveau_span.o: ../../../../../src/mesa/vbo/vbo.h
+nouveau_span.o: ../../../../../src/mesa/vbo/vbo_attrib.h
+nouveau_span.o: ../../../../../src/mesa/vbo/vbo_exec.h
+nouveau_span.o: ../../../../../src/mesa/vbo/vbo_save.h nouveau_array.h
+nouveau_span.o: ../../../../../src/mesa/main/bitset.h
+nouveau_span.o: ../../../../../src/mesa/swrast/swrast.h
+nouveau_span.o: ../../../../../src/mesa/swrast/s_chan.h
+nouveau_bo_state.o: nouveau_driver.h ../../../../../src/mesa/main/imports.h
+nouveau_bo_state.o: ../../../../../src/mesa/main/compiler.h
+nouveau_bo_state.o: /usr/include/assert.h /usr/include/features.h
+nouveau_bo_state.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+nouveau_bo_state.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+nouveau_bo_state.o: /usr/include/ctype.h /usr/include/bits/types.h
+nouveau_bo_state.o: /usr/include/bits/typesizes.h /usr/include/endian.h
+nouveau_bo_state.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+nouveau_bo_state.o: /usr/include/xlocale.h /usr/include/math.h
+nouveau_bo_state.o: /usr/include/bits/huge_val.h
+nouveau_bo_state.o: /usr/include/bits/huge_valf.h
+nouveau_bo_state.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+nouveau_bo_state.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+nouveau_bo_state.o: /usr/include/bits/mathcalls.h
+nouveau_bo_state.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+nouveau_bo_state.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+nouveau_bo_state.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+nouveau_bo_state.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+nouveau_bo_state.o: /usr/include/bits/posix2_lim.h /usr/include/stdlib.h
+nouveau_bo_state.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+nouveau_bo_state.o: /usr/include/bits/waitflags.h
+nouveau_bo_state.o: /usr/include/bits/waitstatus.h /usr/include/sys/types.h
+nouveau_bo_state.o: /usr/include/time.h /usr/include/sys/select.h
+nouveau_bo_state.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+nouveau_bo_state.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+nouveau_bo_state.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+nouveau_bo_state.o: /usr/include/stdio.h /usr/include/libio.h
+nouveau_bo_state.o: /usr/include/_G_config.h /usr/include/wchar.h
+nouveau_bo_state.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+nouveau_bo_state.o: /usr/include/bits/stdio_lim.h
+nouveau_bo_state.o: /usr/include/bits/sys_errlist.h /usr/include/string.h
+nouveau_bo_state.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+nouveau_bo_state.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+nouveau_bo_state.o: ../../../../../src/mesa/main/glheader.h
+nouveau_bo_state.o: ../../../../../src/mesa/main/mtypes.h
+nouveau_bo_state.o: ../../../../../src/mesa/main/glheader.h
+nouveau_bo_state.o: ../../../../../include/GL/gl.h
+nouveau_bo_state.o: ../../../../../include/GL/glext.h /usr/include/inttypes.h
+nouveau_bo_state.o: ../../../../../src/mesa/main/config.h
+nouveau_bo_state.o: ../../../../../src/mesa/main/mfeatures.h
+nouveau_bo_state.o: ../../../../../src/mapi/glapi/glapi.h
+nouveau_bo_state.o: ../../../../../src/mapi/glapi/glthread.h
+nouveau_bo_state.o: ../../../../../src/mapi/mapi/u_thread.h
+nouveau_bo_state.o: ../../../../../src/mapi/mapi/u_compiler.h
+nouveau_bo_state.o: ../../../../../src/mesa/math/m_matrix.h
+nouveau_bo_state.o: ../../../../../src/mesa/main/simple_list.h
+nouveau_bo_state.o: ../../../../../src/mesa/main/formats.h
+nouveau_bo_state.o: ../../../../../src/mesa/main/dd.h
+nouveau_bo_state.o: ../../../../../src/mesa/main/macros.h
+nouveau_bo_state.o: ../../../../../src/mesa/main/imports.h
+nouveau_bo_state.o: ../../../../../src/mesa/main/state.h
+nouveau_bo_state.o: ../../../../../src/mesa/main/mtypes.h ../common/utils.h
+nouveau_bo_state.o: ../../../../../include/GL/internal/dri_interface.h
+nouveau_bo_state.o: /usr/include/libdrm/drm.h /usr/include/libdrm/drm_mode.h
+nouveau_bo_state.o: ../../../../../src/mesa/main/context.h
+nouveau_bo_state.o: ../common/dri_util.h ../common/xmlconfig.h
+nouveau_bo_state.o: /usr/include/nouveau/nouveau_device.h
+nouveau_bo_state.o: /usr/include/nouveau/nouveau_grobj.h
+nouveau_bo_state.o: /usr/include/nouveau/nouveau_channel.h
+nouveau_bo_state.o: /usr/include/nouveau/nouveau_bo.h
+nouveau_bo_state.o: /usr/include/nouveau/nouveau_notifier.h nouveau_screen.h
+nouveau_bo_state.o: nouveau_state.h nouveau_surface.h
+nouveau_bo_state.o: /usr/include/nouveau/nv04_pushbuf.h
+nouveau_bo_state.o: /usr/include/nouveau/nouveau_pushbuf.h nouveau_context.h
+nouveau_bo_state.o: nouveau_bo_state.h nouveau_scratch.h nouveau_render.h
+nouveau_bo_state.o: ../../../../../src/mesa/vbo/vbo_context.h
+nouveau_bo_state.o: ../../../../../src/mesa/vbo/vbo.h
+nouveau_bo_state.o: ../../../../../src/mesa/vbo/vbo_attrib.h
+nouveau_bo_state.o: ../../../../../src/mesa/vbo/vbo_exec.h
+nouveau_bo_state.o: ../../../../../src/mesa/vbo/vbo_save.h nouveau_array.h
+nouveau_bo_state.o: ../../../../../src/mesa/main/bitset.h
+nouveau_texture.o: nouveau_driver.h ../../../../../src/mesa/main/imports.h
+nouveau_texture.o: ../../../../../src/mesa/main/compiler.h
+nouveau_texture.o: /usr/include/assert.h /usr/include/features.h
+nouveau_texture.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+nouveau_texture.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+nouveau_texture.o: /usr/include/ctype.h /usr/include/bits/types.h
+nouveau_texture.o: /usr/include/bits/typesizes.h /usr/include/endian.h
+nouveau_texture.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+nouveau_texture.o: /usr/include/xlocale.h /usr/include/math.h
+nouveau_texture.o: /usr/include/bits/huge_val.h /usr/include/bits/huge_valf.h
+nouveau_texture.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+nouveau_texture.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+nouveau_texture.o: /usr/include/bits/mathcalls.h
+nouveau_texture.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+nouveau_texture.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+nouveau_texture.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+nouveau_texture.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+nouveau_texture.o: /usr/include/bits/posix2_lim.h /usr/include/stdlib.h
+nouveau_texture.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+nouveau_texture.o: /usr/include/bits/waitflags.h
+nouveau_texture.o: /usr/include/bits/waitstatus.h /usr/include/sys/types.h
+nouveau_texture.o: /usr/include/time.h /usr/include/sys/select.h
+nouveau_texture.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+nouveau_texture.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+nouveau_texture.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+nouveau_texture.o: /usr/include/stdio.h /usr/include/libio.h
+nouveau_texture.o: /usr/include/_G_config.h /usr/include/wchar.h
+nouveau_texture.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+nouveau_texture.o: /usr/include/bits/stdio_lim.h
+nouveau_texture.o: /usr/include/bits/sys_errlist.h /usr/include/string.h
+nouveau_texture.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+nouveau_texture.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+nouveau_texture.o: ../../../../../src/mesa/main/glheader.h
+nouveau_texture.o: ../../../../../src/mesa/main/mtypes.h
+nouveau_texture.o: ../../../../../src/mesa/main/glheader.h
+nouveau_texture.o: ../../../../../include/GL/gl.h
+nouveau_texture.o: ../../../../../include/GL/glext.h /usr/include/inttypes.h
+nouveau_texture.o: ../../../../../src/mesa/main/config.h
+nouveau_texture.o: ../../../../../src/mesa/main/mfeatures.h
+nouveau_texture.o: ../../../../../src/mapi/glapi/glapi.h
+nouveau_texture.o: ../../../../../src/mapi/glapi/glthread.h
+nouveau_texture.o: ../../../../../src/mapi/mapi/u_thread.h
+nouveau_texture.o: ../../../../../src/mapi/mapi/u_compiler.h
+nouveau_texture.o: ../../../../../src/mesa/math/m_matrix.h
+nouveau_texture.o: ../../../../../src/mesa/main/simple_list.h
+nouveau_texture.o: ../../../../../src/mesa/main/formats.h
+nouveau_texture.o: ../../../../../src/mesa/main/dd.h
+nouveau_texture.o: ../../../../../src/mesa/main/macros.h
+nouveau_texture.o: ../../../../../src/mesa/main/imports.h
+nouveau_texture.o: ../../../../../src/mesa/main/state.h
+nouveau_texture.o: ../../../../../src/mesa/main/mtypes.h ../common/utils.h
+nouveau_texture.o: ../../../../../include/GL/internal/dri_interface.h
+nouveau_texture.o: /usr/include/libdrm/drm.h /usr/include/libdrm/drm_mode.h
+nouveau_texture.o: ../../../../../src/mesa/main/context.h
+nouveau_texture.o: ../common/dri_util.h ../common/xmlconfig.h
+nouveau_texture.o: /usr/include/nouveau/nouveau_device.h
+nouveau_texture.o: /usr/include/nouveau/nouveau_grobj.h
+nouveau_texture.o: /usr/include/nouveau/nouveau_channel.h
+nouveau_texture.o: /usr/include/nouveau/nouveau_bo.h
+nouveau_texture.o: /usr/include/nouveau/nouveau_notifier.h nouveau_screen.h
+nouveau_texture.o: nouveau_state.h nouveau_surface.h
+nouveau_texture.o: /usr/include/nouveau/nv04_pushbuf.h
+nouveau_texture.o: /usr/include/nouveau/nouveau_pushbuf.h nouveau_context.h
+nouveau_texture.o: nouveau_bo_state.h nouveau_scratch.h nouveau_render.h
+nouveau_texture.o: ../../../../../src/mesa/vbo/vbo_context.h
+nouveau_texture.o: ../../../../../src/mesa/vbo/vbo.h
+nouveau_texture.o: ../../../../../src/mesa/vbo/vbo_attrib.h
+nouveau_texture.o: ../../../../../src/mesa/vbo/vbo_exec.h
+nouveau_texture.o: ../../../../../src/mesa/vbo/vbo_save.h nouveau_array.h
+nouveau_texture.o: ../../../../../src/mesa/main/bitset.h nouveau_texture.h
+nouveau_texture.o: ../../../../../src/mesa/swrast/s_context.h
+nouveau_texture.o: ../../../../../src/mesa/main/compiler.h
+nouveau_texture.o: ../../../../../src/mesa/program/prog_execute.h
+nouveau_texture.o: ../../../../../src/mesa/swrast/swrast.h
+nouveau_texture.o: ../../../../../src/mesa/swrast/s_chan.h
+nouveau_texture.o: ../../../../../src/mesa/swrast/s_span.h nouveau_fbo.h
+nouveau_texture.o: nouveau_util.h ../../../../../src/mesa/main/colormac.h
+nouveau_texture.o: ../../../../../src/mesa/main/config.h
+nouveau_texture.o: ../../../../../src/mesa/main/macros.h
+nouveau_texture.o: ../../../../../src/mesa/main/pbo.h
+nouveau_texture.o: ../../../../../src/mesa/main/texobj.h
+nouveau_texture.o: ../../../../../src/mesa/main/texstore.h
+nouveau_texture.o: ../../../../../src/mesa/main/formats.h
+nouveau_texture.o: ../../../../../src/mesa/main/texformat.h
+nouveau_texture.o: ../../../../../src/mesa/main/texcompress.h
+nouveau_texture.o: ../../../../../src/mesa/main/mfeatures.h
+nouveau_texture.o: ../../../../../src/mesa/main/texgetimage.h
+nouveau_texture.o: ../../../../../src/mesa/main/mipmap.h
+nouveau_texture.o: ../../../../../src/mesa/main/teximage.h
+nouveau_texture.o: ../../../../../src/mesa/drivers/common/meta.h
+nouveau_texture.o: ../../../../../src/mesa/swrast/s_texfetch.h
+nouveau_surface.o: nouveau_driver.h ../../../../../src/mesa/main/imports.h
+nouveau_surface.o: ../../../../../src/mesa/main/compiler.h
+nouveau_surface.o: /usr/include/assert.h /usr/include/features.h
+nouveau_surface.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+nouveau_surface.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+nouveau_surface.o: /usr/include/ctype.h /usr/include/bits/types.h
+nouveau_surface.o: /usr/include/bits/typesizes.h /usr/include/endian.h
+nouveau_surface.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+nouveau_surface.o: /usr/include/xlocale.h /usr/include/math.h
+nouveau_surface.o: /usr/include/bits/huge_val.h /usr/include/bits/huge_valf.h
+nouveau_surface.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+nouveau_surface.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+nouveau_surface.o: /usr/include/bits/mathcalls.h
+nouveau_surface.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+nouveau_surface.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+nouveau_surface.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+nouveau_surface.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+nouveau_surface.o: /usr/include/bits/posix2_lim.h /usr/include/stdlib.h
+nouveau_surface.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+nouveau_surface.o: /usr/include/bits/waitflags.h
+nouveau_surface.o: /usr/include/bits/waitstatus.h /usr/include/sys/types.h
+nouveau_surface.o: /usr/include/time.h /usr/include/sys/select.h
+nouveau_surface.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+nouveau_surface.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+nouveau_surface.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+nouveau_surface.o: /usr/include/stdio.h /usr/include/libio.h
+nouveau_surface.o: /usr/include/_G_config.h /usr/include/wchar.h
+nouveau_surface.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+nouveau_surface.o: /usr/include/bits/stdio_lim.h
+nouveau_surface.o: /usr/include/bits/sys_errlist.h /usr/include/string.h
+nouveau_surface.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+nouveau_surface.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+nouveau_surface.o: ../../../../../src/mesa/main/glheader.h
+nouveau_surface.o: ../../../../../src/mesa/main/mtypes.h
+nouveau_surface.o: ../../../../../src/mesa/main/glheader.h
+nouveau_surface.o: ../../../../../include/GL/gl.h
+nouveau_surface.o: ../../../../../include/GL/glext.h /usr/include/inttypes.h
+nouveau_surface.o: ../../../../../src/mesa/main/config.h
+nouveau_surface.o: ../../../../../src/mesa/main/mfeatures.h
+nouveau_surface.o: ../../../../../src/mapi/glapi/glapi.h
+nouveau_surface.o: ../../../../../src/mapi/glapi/glthread.h
+nouveau_surface.o: ../../../../../src/mapi/mapi/u_thread.h
+nouveau_surface.o: ../../../../../src/mapi/mapi/u_compiler.h
+nouveau_surface.o: ../../../../../src/mesa/math/m_matrix.h
+nouveau_surface.o: ../../../../../src/mesa/main/simple_list.h
+nouveau_surface.o: ../../../../../src/mesa/main/formats.h
+nouveau_surface.o: ../../../../../src/mesa/main/dd.h
+nouveau_surface.o: ../../../../../src/mesa/main/macros.h
+nouveau_surface.o: ../../../../../src/mesa/main/imports.h
+nouveau_surface.o: ../../../../../src/mesa/main/state.h
+nouveau_surface.o: ../../../../../src/mesa/main/mtypes.h ../common/utils.h
+nouveau_surface.o: ../../../../../include/GL/internal/dri_interface.h
+nouveau_surface.o: /usr/include/libdrm/drm.h /usr/include/libdrm/drm_mode.h
+nouveau_surface.o: ../../../../../src/mesa/main/context.h
+nouveau_surface.o: ../common/dri_util.h ../common/xmlconfig.h
+nouveau_surface.o: /usr/include/nouveau/nouveau_device.h
+nouveau_surface.o: /usr/include/nouveau/nouveau_grobj.h
+nouveau_surface.o: /usr/include/nouveau/nouveau_channel.h
+nouveau_surface.o: /usr/include/nouveau/nouveau_bo.h
+nouveau_surface.o: /usr/include/nouveau/nouveau_notifier.h nouveau_screen.h
+nouveau_surface.o: nouveau_state.h nouveau_surface.h
+nouveau_surface.o: /usr/include/nouveau/nv04_pushbuf.h
+nouveau_surface.o: /usr/include/nouveau/nouveau_pushbuf.h nouveau_context.h
+nouveau_surface.o: nouveau_bo_state.h nouveau_scratch.h nouveau_render.h
+nouveau_surface.o: ../../../../../src/mesa/vbo/vbo_context.h
+nouveau_surface.o: ../../../../../src/mesa/vbo/vbo.h
+nouveau_surface.o: ../../../../../src/mesa/vbo/vbo_attrib.h
+nouveau_surface.o: ../../../../../src/mesa/vbo/vbo_exec.h
+nouveau_surface.o: ../../../../../src/mesa/vbo/vbo_save.h nouveau_array.h
+nouveau_surface.o: ../../../../../src/mesa/main/bitset.h nouveau_util.h
+nouveau_surface.o: ../../../../../src/mesa/main/colormac.h
+nouveau_surface.o: ../../../../../src/mesa/main/config.h
+nouveau_surface.o: ../../../../../src/mesa/main/macros.h
+nouveau_scratch.o: nouveau_driver.h ../../../../../src/mesa/main/imports.h
+nouveau_scratch.o: ../../../../../src/mesa/main/compiler.h
+nouveau_scratch.o: /usr/include/assert.h /usr/include/features.h
+nouveau_scratch.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+nouveau_scratch.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+nouveau_scratch.o: /usr/include/ctype.h /usr/include/bits/types.h
+nouveau_scratch.o: /usr/include/bits/typesizes.h /usr/include/endian.h
+nouveau_scratch.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+nouveau_scratch.o: /usr/include/xlocale.h /usr/include/math.h
+nouveau_scratch.o: /usr/include/bits/huge_val.h /usr/include/bits/huge_valf.h
+nouveau_scratch.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+nouveau_scratch.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+nouveau_scratch.o: /usr/include/bits/mathcalls.h
+nouveau_scratch.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+nouveau_scratch.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+nouveau_scratch.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+nouveau_scratch.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+nouveau_scratch.o: /usr/include/bits/posix2_lim.h /usr/include/stdlib.h
+nouveau_scratch.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+nouveau_scratch.o: /usr/include/bits/waitflags.h
+nouveau_scratch.o: /usr/include/bits/waitstatus.h /usr/include/sys/types.h
+nouveau_scratch.o: /usr/include/time.h /usr/include/sys/select.h
+nouveau_scratch.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+nouveau_scratch.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+nouveau_scratch.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+nouveau_scratch.o: /usr/include/stdio.h /usr/include/libio.h
+nouveau_scratch.o: /usr/include/_G_config.h /usr/include/wchar.h
+nouveau_scratch.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+nouveau_scratch.o: /usr/include/bits/stdio_lim.h
+nouveau_scratch.o: /usr/include/bits/sys_errlist.h /usr/include/string.h
+nouveau_scratch.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+nouveau_scratch.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+nouveau_scratch.o: ../../../../../src/mesa/main/glheader.h
+nouveau_scratch.o: ../../../../../src/mesa/main/mtypes.h
+nouveau_scratch.o: ../../../../../src/mesa/main/glheader.h
+nouveau_scratch.o: ../../../../../include/GL/gl.h
+nouveau_scratch.o: ../../../../../include/GL/glext.h /usr/include/inttypes.h
+nouveau_scratch.o: ../../../../../src/mesa/main/config.h
+nouveau_scratch.o: ../../../../../src/mesa/main/mfeatures.h
+nouveau_scratch.o: ../../../../../src/mapi/glapi/glapi.h
+nouveau_scratch.o: ../../../../../src/mapi/glapi/glthread.h
+nouveau_scratch.o: ../../../../../src/mapi/mapi/u_thread.h
+nouveau_scratch.o: ../../../../../src/mapi/mapi/u_compiler.h
+nouveau_scratch.o: ../../../../../src/mesa/math/m_matrix.h
+nouveau_scratch.o: ../../../../../src/mesa/main/simple_list.h
+nouveau_scratch.o: ../../../../../src/mesa/main/formats.h
+nouveau_scratch.o: ../../../../../src/mesa/main/dd.h
+nouveau_scratch.o: ../../../../../src/mesa/main/macros.h
+nouveau_scratch.o: ../../../../../src/mesa/main/imports.h
+nouveau_scratch.o: ../../../../../src/mesa/main/state.h
+nouveau_scratch.o: ../../../../../src/mesa/main/mtypes.h ../common/utils.h
+nouveau_scratch.o: ../../../../../include/GL/internal/dri_interface.h
+nouveau_scratch.o: /usr/include/libdrm/drm.h /usr/include/libdrm/drm_mode.h
+nouveau_scratch.o: ../../../../../src/mesa/main/context.h
+nouveau_scratch.o: ../common/dri_util.h ../common/xmlconfig.h
+nouveau_scratch.o: /usr/include/nouveau/nouveau_device.h
+nouveau_scratch.o: /usr/include/nouveau/nouveau_grobj.h
+nouveau_scratch.o: /usr/include/nouveau/nouveau_channel.h
+nouveau_scratch.o: /usr/include/nouveau/nouveau_bo.h
+nouveau_scratch.o: /usr/include/nouveau/nouveau_notifier.h nouveau_screen.h
+nouveau_scratch.o: nouveau_state.h nouveau_surface.h
+nouveau_scratch.o: /usr/include/nouveau/nv04_pushbuf.h
+nouveau_scratch.o: /usr/include/nouveau/nouveau_pushbuf.h nouveau_context.h
+nouveau_scratch.o: nouveau_bo_state.h nouveau_scratch.h nouveau_render.h
+nouveau_scratch.o: ../../../../../src/mesa/vbo/vbo_context.h
+nouveau_scratch.o: ../../../../../src/mesa/vbo/vbo.h
+nouveau_scratch.o: ../../../../../src/mesa/vbo/vbo_attrib.h
+nouveau_scratch.o: ../../../../../src/mesa/vbo/vbo_exec.h
+nouveau_scratch.o: ../../../../../src/mesa/vbo/vbo_save.h nouveau_array.h
+nouveau_scratch.o: ../../../../../src/mesa/main/bitset.h
+nouveau_array.o: ../../../../../src/mesa/main/bufferobj.h
+nouveau_array.o: ../../../../../src/mesa/main/mfeatures.h
+nouveau_array.o: ../../../../../src/mesa/main/mtypes.h nouveau_driver.h
+nouveau_array.o: ../../../../../src/mesa/main/imports.h
+nouveau_array.o: ../../../../../src/mesa/main/compiler.h
+nouveau_array.o: /usr/include/assert.h /usr/include/features.h
+nouveau_array.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+nouveau_array.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+nouveau_array.o: /usr/include/ctype.h /usr/include/bits/types.h
+nouveau_array.o: /usr/include/bits/typesizes.h /usr/include/endian.h
+nouveau_array.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+nouveau_array.o: /usr/include/xlocale.h /usr/include/math.h
+nouveau_array.o: /usr/include/bits/huge_val.h /usr/include/bits/huge_valf.h
+nouveau_array.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+nouveau_array.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+nouveau_array.o: /usr/include/bits/mathcalls.h
+nouveau_array.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+nouveau_array.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+nouveau_array.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+nouveau_array.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+nouveau_array.o: /usr/include/bits/posix2_lim.h /usr/include/stdlib.h
+nouveau_array.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+nouveau_array.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+nouveau_array.o: /usr/include/sys/types.h /usr/include/time.h
+nouveau_array.o: /usr/include/sys/select.h /usr/include/bits/select.h
+nouveau_array.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+nouveau_array.o: /usr/include/sys/sysmacros.h
+nouveau_array.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+nouveau_array.o: /usr/include/stdio.h /usr/include/libio.h
+nouveau_array.o: /usr/include/_G_config.h /usr/include/wchar.h
+nouveau_array.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+nouveau_array.o: /usr/include/bits/stdio_lim.h
+nouveau_array.o: /usr/include/bits/sys_errlist.h /usr/include/string.h
+nouveau_array.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+nouveau_array.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+nouveau_array.o: ../../../../../src/mesa/main/glheader.h
+nouveau_array.o: ../../../../../src/mesa/main/mtypes.h
+nouveau_array.o: ../../../../../src/mesa/main/glheader.h
+nouveau_array.o: ../../../../../include/GL/gl.h
+nouveau_array.o: ../../../../../include/GL/glext.h /usr/include/inttypes.h
+nouveau_array.o: ../../../../../src/mesa/main/config.h
+nouveau_array.o: ../../../../../src/mesa/main/mfeatures.h
+nouveau_array.o: ../../../../../src/mapi/glapi/glapi.h
+nouveau_array.o: ../../../../../src/mapi/glapi/glthread.h
+nouveau_array.o: ../../../../../src/mapi/mapi/u_thread.h
+nouveau_array.o: ../../../../../src/mapi/mapi/u_compiler.h
+nouveau_array.o: ../../../../../src/mesa/math/m_matrix.h
+nouveau_array.o: ../../../../../src/mesa/main/simple_list.h
+nouveau_array.o: ../../../../../src/mesa/main/formats.h
+nouveau_array.o: ../../../../../src/mesa/main/dd.h
+nouveau_array.o: ../../../../../src/mesa/main/macros.h
+nouveau_array.o: ../../../../../src/mesa/main/imports.h
+nouveau_array.o: ../../../../../src/mesa/main/state.h ../common/utils.h
+nouveau_array.o: ../../../../../include/GL/internal/dri_interface.h
+nouveau_array.o: /usr/include/libdrm/drm.h /usr/include/libdrm/drm_mode.h
+nouveau_array.o: ../../../../../src/mesa/main/context.h ../common/dri_util.h
+nouveau_array.o: ../common/xmlconfig.h /usr/include/nouveau/nouveau_device.h
+nouveau_array.o: /usr/include/nouveau/nouveau_grobj.h
+nouveau_array.o: /usr/include/nouveau/nouveau_channel.h
+nouveau_array.o: /usr/include/nouveau/nouveau_bo.h
+nouveau_array.o: /usr/include/nouveau/nouveau_notifier.h nouveau_screen.h
+nouveau_array.o: nouveau_state.h nouveau_surface.h
+nouveau_array.o: /usr/include/nouveau/nv04_pushbuf.h
+nouveau_array.o: /usr/include/nouveau/nouveau_pushbuf.h nouveau_array.h
+nouveau_array.o: nouveau_bufferobj.h
+nv04_context.o: nouveau_driver.h ../../../../../src/mesa/main/imports.h
+nv04_context.o: ../../../../../src/mesa/main/compiler.h /usr/include/assert.h
+nv04_context.o: /usr/include/features.h /usr/include/sys/cdefs.h
+nv04_context.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+nv04_context.o: /usr/include/gnu/stubs-64.h /usr/include/ctype.h
+nv04_context.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+nv04_context.o: /usr/include/endian.h /usr/include/bits/endian.h
+nv04_context.o: /usr/include/bits/byteswap.h /usr/include/xlocale.h
+nv04_context.o: /usr/include/math.h /usr/include/bits/huge_val.h
+nv04_context.o: /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h
+nv04_context.o: /usr/include/bits/inf.h /usr/include/bits/nan.h
+nv04_context.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+nv04_context.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+nv04_context.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+nv04_context.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+nv04_context.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+nv04_context.o: /usr/include/bits/posix2_lim.h /usr/include/stdlib.h
+nv04_context.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+nv04_context.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+nv04_context.o: /usr/include/sys/types.h /usr/include/time.h
+nv04_context.o: /usr/include/sys/select.h /usr/include/bits/select.h
+nv04_context.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+nv04_context.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+nv04_context.o: /usr/include/alloca.h /usr/include/stdio.h
+nv04_context.o: /usr/include/libio.h /usr/include/_G_config.h
+nv04_context.o: /usr/include/wchar.h
+nv04_context.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+nv04_context.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+nv04_context.o: /usr/include/string.h
+nv04_context.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+nv04_context.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+nv04_context.o: ../../../../../src/mesa/main/glheader.h
+nv04_context.o: ../../../../../src/mesa/main/mtypes.h
+nv04_context.o: ../../../../../src/mesa/main/glheader.h
+nv04_context.o: ../../../../../include/GL/gl.h
+nv04_context.o: ../../../../../include/GL/glext.h /usr/include/inttypes.h
+nv04_context.o: ../../../../../src/mesa/main/config.h
+nv04_context.o: ../../../../../src/mesa/main/mfeatures.h
+nv04_context.o: ../../../../../src/mapi/glapi/glapi.h
+nv04_context.o: ../../../../../src/mapi/glapi/glthread.h
+nv04_context.o: ../../../../../src/mapi/mapi/u_thread.h
+nv04_context.o: ../../../../../src/mapi/mapi/u_compiler.h
+nv04_context.o: ../../../../../src/mesa/math/m_matrix.h
+nv04_context.o: ../../../../../src/mesa/main/simple_list.h
+nv04_context.o: ../../../../../src/mesa/main/formats.h
+nv04_context.o: ../../../../../src/mesa/main/dd.h
+nv04_context.o: ../../../../../src/mesa/main/macros.h
+nv04_context.o: ../../../../../src/mesa/main/imports.h
+nv04_context.o: ../../../../../src/mesa/main/state.h
+nv04_context.o: ../../../../../src/mesa/main/mtypes.h ../common/utils.h
+nv04_context.o: ../../../../../include/GL/internal/dri_interface.h
+nv04_context.o: /usr/include/libdrm/drm.h /usr/include/libdrm/drm_mode.h
+nv04_context.o: ../../../../../src/mesa/main/context.h ../common/dri_util.h
+nv04_context.o: ../common/xmlconfig.h /usr/include/nouveau/nouveau_device.h
+nv04_context.o: /usr/include/nouveau/nouveau_grobj.h
+nv04_context.o: /usr/include/nouveau/nouveau_channel.h
+nv04_context.o: /usr/include/nouveau/nouveau_bo.h
+nv04_context.o: /usr/include/nouveau/nouveau_notifier.h nouveau_screen.h
+nv04_context.o: nouveau_state.h nouveau_surface.h
+nv04_context.o: /usr/include/nouveau/nv04_pushbuf.h
+nv04_context.o: /usr/include/nouveau/nouveau_pushbuf.h nouveau_context.h
+nv04_context.o: nouveau_bo_state.h nouveau_scratch.h nouveau_render.h
+nv04_context.o: ../../../../../src/mesa/vbo/vbo_context.h
+nv04_context.o: ../../../../../src/mesa/vbo/vbo.h
+nv04_context.o: ../../../../../src/mesa/vbo/vbo_attrib.h
+nv04_context.o: ../../../../../src/mesa/vbo/vbo_exec.h
+nv04_context.o: ../../../../../src/mesa/vbo/vbo_save.h nouveau_array.h
+nv04_context.o: ../../../../../src/mesa/main/bitset.h nouveau_fbo.h
+nv04_context.o: nouveau_util.h ../../../../../src/mesa/main/colormac.h
+nv04_context.o: ../../../../../src/mesa/main/config.h
+nv04_context.o: ../../../../../src/mesa/main/macros.h nv04_3d.xml.h
+nv04_context.o: nv04_driver.h nv04_context.h nv_object.xml.h
+nv04_render.o: nouveau_driver.h ../../../../../src/mesa/main/imports.h
+nv04_render.o: ../../../../../src/mesa/main/compiler.h /usr/include/assert.h
+nv04_render.o: /usr/include/features.h /usr/include/sys/cdefs.h
+nv04_render.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+nv04_render.o: /usr/include/gnu/stubs-64.h /usr/include/ctype.h
+nv04_render.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+nv04_render.o: /usr/include/endian.h /usr/include/bits/endian.h
+nv04_render.o: /usr/include/bits/byteswap.h /usr/include/xlocale.h
+nv04_render.o: /usr/include/math.h /usr/include/bits/huge_val.h
+nv04_render.o: /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h
+nv04_render.o: /usr/include/bits/inf.h /usr/include/bits/nan.h
+nv04_render.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+nv04_render.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+nv04_render.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+nv04_render.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+nv04_render.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+nv04_render.o: /usr/include/bits/posix2_lim.h /usr/include/stdlib.h
+nv04_render.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+nv04_render.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+nv04_render.o: /usr/include/sys/types.h /usr/include/time.h
+nv04_render.o: /usr/include/sys/select.h /usr/include/bits/select.h
+nv04_render.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+nv04_render.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+nv04_render.o: /usr/include/alloca.h /usr/include/stdio.h
+nv04_render.o: /usr/include/libio.h /usr/include/_G_config.h
+nv04_render.o: /usr/include/wchar.h
+nv04_render.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+nv04_render.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+nv04_render.o: /usr/include/string.h
+nv04_render.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+nv04_render.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+nv04_render.o: ../../../../../src/mesa/main/glheader.h
+nv04_render.o: ../../../../../src/mesa/main/mtypes.h
+nv04_render.o: ../../../../../src/mesa/main/glheader.h
+nv04_render.o: ../../../../../include/GL/gl.h
+nv04_render.o: ../../../../../include/GL/glext.h /usr/include/inttypes.h
+nv04_render.o: ../../../../../src/mesa/main/config.h
+nv04_render.o: ../../../../../src/mesa/main/mfeatures.h
+nv04_render.o: ../../../../../src/mapi/glapi/glapi.h
+nv04_render.o: ../../../../../src/mapi/glapi/glthread.h
+nv04_render.o: ../../../../../src/mapi/mapi/u_thread.h
+nv04_render.o: ../../../../../src/mapi/mapi/u_compiler.h
+nv04_render.o: ../../../../../src/mesa/math/m_matrix.h
+nv04_render.o: ../../../../../src/mesa/main/simple_list.h
+nv04_render.o: ../../../../../src/mesa/main/formats.h
+nv04_render.o: ../../../../../src/mesa/main/dd.h
+nv04_render.o: ../../../../../src/mesa/main/macros.h
+nv04_render.o: ../../../../../src/mesa/main/imports.h
+nv04_render.o: ../../../../../src/mesa/main/state.h
+nv04_render.o: ../../../../../src/mesa/main/mtypes.h ../common/utils.h
+nv04_render.o: ../../../../../include/GL/internal/dri_interface.h
+nv04_render.o: /usr/include/libdrm/drm.h /usr/include/libdrm/drm_mode.h
+nv04_render.o: ../../../../../src/mesa/main/context.h ../common/dri_util.h
+nv04_render.o: ../common/xmlconfig.h /usr/include/nouveau/nouveau_device.h
+nv04_render.o: /usr/include/nouveau/nouveau_grobj.h
+nv04_render.o: /usr/include/nouveau/nouveau_channel.h
+nv04_render.o: /usr/include/nouveau/nouveau_bo.h
+nv04_render.o: /usr/include/nouveau/nouveau_notifier.h nouveau_screen.h
+nv04_render.o: nouveau_state.h nouveau_surface.h
+nv04_render.o: /usr/include/nouveau/nv04_pushbuf.h
+nv04_render.o: /usr/include/nouveau/nouveau_pushbuf.h nouveau_context.h
+nv04_render.o: nouveau_bo_state.h nouveau_scratch.h nouveau_render.h
+nv04_render.o: ../../../../../src/mesa/vbo/vbo_context.h
+nv04_render.o: ../../../../../src/mesa/vbo/vbo.h
+nv04_render.o: ../../../../../src/mesa/vbo/vbo_attrib.h
+nv04_render.o: ../../../../../src/mesa/vbo/vbo_exec.h
+nv04_render.o: ../../../../../src/mesa/vbo/vbo_save.h nouveau_array.h
+nv04_render.o: ../../../../../src/mesa/main/bitset.h nouveau_util.h
+nv04_render.o: ../../../../../src/mesa/main/colormac.h
+nv04_render.o: ../../../../../src/mesa/main/config.h
+nv04_render.o: ../../../../../src/mesa/main/macros.h nv04_3d.xml.h
+nv04_render.o: nv04_driver.h nv04_context.h nv_object.xml.h
+nv04_render.o: ../../../../../src/mesa/tnl/tnl.h
+nv04_render.o: ../../../../../src/mesa/tnl/t_pipeline.h
+nv04_render.o: ../../../../../src/mesa/tnl/t_context.h
+nv04_render.o: ../../../../../src/mesa/math/m_vector.h
+nv04_render.o: ../../../../../src/mesa/vbo/vbo.h
+nv04_render.o: ../../../../../src/mesa/tnl/t_vertex.h
+nv04_state_fb.o: nouveau_driver.h ../../../../../src/mesa/main/imports.h
+nv04_state_fb.o: ../../../../../src/mesa/main/compiler.h
+nv04_state_fb.o: /usr/include/assert.h /usr/include/features.h
+nv04_state_fb.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+nv04_state_fb.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+nv04_state_fb.o: /usr/include/ctype.h /usr/include/bits/types.h
+nv04_state_fb.o: /usr/include/bits/typesizes.h /usr/include/endian.h
+nv04_state_fb.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+nv04_state_fb.o: /usr/include/xlocale.h /usr/include/math.h
+nv04_state_fb.o: /usr/include/bits/huge_val.h /usr/include/bits/huge_valf.h
+nv04_state_fb.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+nv04_state_fb.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+nv04_state_fb.o: /usr/include/bits/mathcalls.h
+nv04_state_fb.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+nv04_state_fb.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+nv04_state_fb.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+nv04_state_fb.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+nv04_state_fb.o: /usr/include/bits/posix2_lim.h /usr/include/stdlib.h
+nv04_state_fb.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+nv04_state_fb.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+nv04_state_fb.o: /usr/include/sys/types.h /usr/include/time.h
+nv04_state_fb.o: /usr/include/sys/select.h /usr/include/bits/select.h
+nv04_state_fb.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+nv04_state_fb.o: /usr/include/sys/sysmacros.h
+nv04_state_fb.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+nv04_state_fb.o: /usr/include/stdio.h /usr/include/libio.h
+nv04_state_fb.o: /usr/include/_G_config.h /usr/include/wchar.h
+nv04_state_fb.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+nv04_state_fb.o: /usr/include/bits/stdio_lim.h
+nv04_state_fb.o: /usr/include/bits/sys_errlist.h /usr/include/string.h
+nv04_state_fb.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+nv04_state_fb.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+nv04_state_fb.o: ../../../../../src/mesa/main/glheader.h
+nv04_state_fb.o: ../../../../../src/mesa/main/mtypes.h
+nv04_state_fb.o: ../../../../../src/mesa/main/glheader.h
+nv04_state_fb.o: ../../../../../include/GL/gl.h
+nv04_state_fb.o: ../../../../../include/GL/glext.h /usr/include/inttypes.h
+nv04_state_fb.o: ../../../../../src/mesa/main/config.h
+nv04_state_fb.o: ../../../../../src/mesa/main/mfeatures.h
+nv04_state_fb.o: ../../../../../src/mapi/glapi/glapi.h
+nv04_state_fb.o: ../../../../../src/mapi/glapi/glthread.h
+nv04_state_fb.o: ../../../../../src/mapi/mapi/u_thread.h
+nv04_state_fb.o: ../../../../../src/mapi/mapi/u_compiler.h
+nv04_state_fb.o: ../../../../../src/mesa/math/m_matrix.h
+nv04_state_fb.o: ../../../../../src/mesa/main/simple_list.h
+nv04_state_fb.o: ../../../../../src/mesa/main/formats.h
+nv04_state_fb.o: ../../../../../src/mesa/main/dd.h
+nv04_state_fb.o: ../../../../../src/mesa/main/macros.h
+nv04_state_fb.o: ../../../../../src/mesa/main/imports.h
+nv04_state_fb.o: ../../../../../src/mesa/main/state.h
+nv04_state_fb.o: ../../../../../src/mesa/main/mtypes.h ../common/utils.h
+nv04_state_fb.o: ../../../../../include/GL/internal/dri_interface.h
+nv04_state_fb.o: /usr/include/libdrm/drm.h /usr/include/libdrm/drm_mode.h
+nv04_state_fb.o: ../../../../../src/mesa/main/context.h ../common/dri_util.h
+nv04_state_fb.o: ../common/xmlconfig.h /usr/include/nouveau/nouveau_device.h
+nv04_state_fb.o: /usr/include/nouveau/nouveau_grobj.h
+nv04_state_fb.o: /usr/include/nouveau/nouveau_channel.h
+nv04_state_fb.o: /usr/include/nouveau/nouveau_bo.h
+nv04_state_fb.o: /usr/include/nouveau/nouveau_notifier.h nouveau_screen.h
+nv04_state_fb.o: nouveau_state.h nouveau_surface.h
+nv04_state_fb.o: /usr/include/nouveau/nv04_pushbuf.h
+nv04_state_fb.o: /usr/include/nouveau/nouveau_pushbuf.h nouveau_context.h
+nv04_state_fb.o: nouveau_bo_state.h nouveau_scratch.h nouveau_render.h
+nv04_state_fb.o: ../../../../../src/mesa/vbo/vbo_context.h
+nv04_state_fb.o: ../../../../../src/mesa/vbo/vbo.h
+nv04_state_fb.o: ../../../../../src/mesa/vbo/vbo_attrib.h
+nv04_state_fb.o: ../../../../../src/mesa/vbo/vbo_exec.h
+nv04_state_fb.o: ../../../../../src/mesa/vbo/vbo_save.h nouveau_array.h
+nv04_state_fb.o: ../../../../../src/mesa/main/bitset.h nouveau_fbo.h
+nv04_state_fb.o: nouveau_util.h ../../../../../src/mesa/main/colormac.h
+nv04_state_fb.o: ../../../../../src/mesa/main/config.h
+nv04_state_fb.o: ../../../../../src/mesa/main/macros.h nv04_3d.xml.h
+nv04_state_fb.o: nv04_driver.h nv04_context.h nv_object.xml.h
+nv04_state_raster.o: nouveau_driver.h ../../../../../src/mesa/main/imports.h
+nv04_state_raster.o: ../../../../../src/mesa/main/compiler.h
+nv04_state_raster.o: /usr/include/assert.h /usr/include/features.h
+nv04_state_raster.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+nv04_state_raster.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+nv04_state_raster.o: /usr/include/ctype.h /usr/include/bits/types.h
+nv04_state_raster.o: /usr/include/bits/typesizes.h /usr/include/endian.h
+nv04_state_raster.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+nv04_state_raster.o: /usr/include/xlocale.h /usr/include/math.h
+nv04_state_raster.o: /usr/include/bits/huge_val.h
+nv04_state_raster.o: /usr/include/bits/huge_valf.h
+nv04_state_raster.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+nv04_state_raster.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+nv04_state_raster.o: /usr/include/bits/mathcalls.h
+nv04_state_raster.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+nv04_state_raster.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+nv04_state_raster.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+nv04_state_raster.o: /usr/include/bits/local_lim.h
+nv04_state_raster.o: /usr/include/linux/limits.h
+nv04_state_raster.o: /usr/include/bits/posix2_lim.h /usr/include/stdlib.h
+nv04_state_raster.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+nv04_state_raster.o: /usr/include/bits/waitflags.h
+nv04_state_raster.o: /usr/include/bits/waitstatus.h /usr/include/sys/types.h
+nv04_state_raster.o: /usr/include/time.h /usr/include/sys/select.h
+nv04_state_raster.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+nv04_state_raster.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+nv04_state_raster.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+nv04_state_raster.o: /usr/include/stdio.h /usr/include/libio.h
+nv04_state_raster.o: /usr/include/_G_config.h /usr/include/wchar.h
+nv04_state_raster.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+nv04_state_raster.o: /usr/include/bits/stdio_lim.h
+nv04_state_raster.o: /usr/include/bits/sys_errlist.h /usr/include/string.h
+nv04_state_raster.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+nv04_state_raster.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+nv04_state_raster.o: ../../../../../src/mesa/main/glheader.h
+nv04_state_raster.o: ../../../../../src/mesa/main/mtypes.h
+nv04_state_raster.o: ../../../../../src/mesa/main/glheader.h
+nv04_state_raster.o: ../../../../../include/GL/gl.h
+nv04_state_raster.o: ../../../../../include/GL/glext.h
+nv04_state_raster.o: /usr/include/inttypes.h
+nv04_state_raster.o: ../../../../../src/mesa/main/config.h
+nv04_state_raster.o: ../../../../../src/mesa/main/mfeatures.h
+nv04_state_raster.o: ../../../../../src/mapi/glapi/glapi.h
+nv04_state_raster.o: ../../../../../src/mapi/glapi/glthread.h
+nv04_state_raster.o: ../../../../../src/mapi/mapi/u_thread.h
+nv04_state_raster.o: ../../../../../src/mapi/mapi/u_compiler.h
+nv04_state_raster.o: ../../../../../src/mesa/math/m_matrix.h
+nv04_state_raster.o: ../../../../../src/mesa/main/simple_list.h
+nv04_state_raster.o: ../../../../../src/mesa/main/formats.h
+nv04_state_raster.o: ../../../../../src/mesa/main/dd.h
+nv04_state_raster.o: ../../../../../src/mesa/main/macros.h
+nv04_state_raster.o: ../../../../../src/mesa/main/imports.h
+nv04_state_raster.o: ../../../../../src/mesa/main/state.h
+nv04_state_raster.o: ../../../../../src/mesa/main/mtypes.h ../common/utils.h
+nv04_state_raster.o: ../../../../../include/GL/internal/dri_interface.h
+nv04_state_raster.o: /usr/include/libdrm/drm.h /usr/include/libdrm/drm_mode.h
+nv04_state_raster.o: ../../../../../src/mesa/main/context.h
+nv04_state_raster.o: ../common/dri_util.h ../common/xmlconfig.h
+nv04_state_raster.o: /usr/include/nouveau/nouveau_device.h
+nv04_state_raster.o: /usr/include/nouveau/nouveau_grobj.h
+nv04_state_raster.o: /usr/include/nouveau/nouveau_channel.h
+nv04_state_raster.o: /usr/include/nouveau/nouveau_bo.h
+nv04_state_raster.o: /usr/include/nouveau/nouveau_notifier.h nouveau_screen.h
+nv04_state_raster.o: nouveau_state.h nouveau_surface.h
+nv04_state_raster.o: /usr/include/nouveau/nv04_pushbuf.h
+nv04_state_raster.o: /usr/include/nouveau/nouveau_pushbuf.h nouveau_context.h
+nv04_state_raster.o: nouveau_bo_state.h nouveau_scratch.h nouveau_render.h
+nv04_state_raster.o: ../../../../../src/mesa/vbo/vbo_context.h
+nv04_state_raster.o: ../../../../../src/mesa/vbo/vbo.h
+nv04_state_raster.o: ../../../../../src/mesa/vbo/vbo_attrib.h
+nv04_state_raster.o: ../../../../../src/mesa/vbo/vbo_exec.h
+nv04_state_raster.o: ../../../../../src/mesa/vbo/vbo_save.h nouveau_array.h
+nv04_state_raster.o: ../../../../../src/mesa/main/bitset.h nouveau_util.h
+nv04_state_raster.o: ../../../../../src/mesa/main/colormac.h
+nv04_state_raster.o: ../../../../../src/mesa/main/config.h
+nv04_state_raster.o: ../../../../../src/mesa/main/macros.h nv_object.xml.h
+nv04_state_raster.o: nv04_3d.xml.h nv04_driver.h nv04_context.h
+nv04_state_tex.o: nouveau_driver.h ../../../../../src/mesa/main/imports.h
+nv04_state_tex.o: ../../../../../src/mesa/main/compiler.h
+nv04_state_tex.o: /usr/include/assert.h /usr/include/features.h
+nv04_state_tex.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+nv04_state_tex.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+nv04_state_tex.o: /usr/include/ctype.h /usr/include/bits/types.h
+nv04_state_tex.o: /usr/include/bits/typesizes.h /usr/include/endian.h
+nv04_state_tex.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+nv04_state_tex.o: /usr/include/xlocale.h /usr/include/math.h
+nv04_state_tex.o: /usr/include/bits/huge_val.h /usr/include/bits/huge_valf.h
+nv04_state_tex.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+nv04_state_tex.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+nv04_state_tex.o: /usr/include/bits/mathcalls.h
+nv04_state_tex.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+nv04_state_tex.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+nv04_state_tex.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+nv04_state_tex.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+nv04_state_tex.o: /usr/include/bits/posix2_lim.h /usr/include/stdlib.h
+nv04_state_tex.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+nv04_state_tex.o: /usr/include/bits/waitflags.h
+nv04_state_tex.o: /usr/include/bits/waitstatus.h /usr/include/sys/types.h
+nv04_state_tex.o: /usr/include/time.h /usr/include/sys/select.h
+nv04_state_tex.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+nv04_state_tex.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+nv04_state_tex.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+nv04_state_tex.o: /usr/include/stdio.h /usr/include/libio.h
+nv04_state_tex.o: /usr/include/_G_config.h /usr/include/wchar.h
+nv04_state_tex.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+nv04_state_tex.o: /usr/include/bits/stdio_lim.h
+nv04_state_tex.o: /usr/include/bits/sys_errlist.h /usr/include/string.h
+nv04_state_tex.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+nv04_state_tex.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+nv04_state_tex.o: ../../../../../src/mesa/main/glheader.h
+nv04_state_tex.o: ../../../../../src/mesa/main/mtypes.h
+nv04_state_tex.o: ../../../../../src/mesa/main/glheader.h
+nv04_state_tex.o: ../../../../../include/GL/gl.h
+nv04_state_tex.o: ../../../../../include/GL/glext.h /usr/include/inttypes.h
+nv04_state_tex.o: ../../../../../src/mesa/main/config.h
+nv04_state_tex.o: ../../../../../src/mesa/main/mfeatures.h
+nv04_state_tex.o: ../../../../../src/mapi/glapi/glapi.h
+nv04_state_tex.o: ../../../../../src/mapi/glapi/glthread.h
+nv04_state_tex.o: ../../../../../src/mapi/mapi/u_thread.h
+nv04_state_tex.o: ../../../../../src/mapi/mapi/u_compiler.h
+nv04_state_tex.o: ../../../../../src/mesa/math/m_matrix.h
+nv04_state_tex.o: ../../../../../src/mesa/main/simple_list.h
+nv04_state_tex.o: ../../../../../src/mesa/main/formats.h
+nv04_state_tex.o: ../../../../../src/mesa/main/dd.h
+nv04_state_tex.o: ../../../../../src/mesa/main/macros.h
+nv04_state_tex.o: ../../../../../src/mesa/main/imports.h
+nv04_state_tex.o: ../../../../../src/mesa/main/state.h
+nv04_state_tex.o: ../../../../../src/mesa/main/mtypes.h ../common/utils.h
+nv04_state_tex.o: ../../../../../include/GL/internal/dri_interface.h
+nv04_state_tex.o: /usr/include/libdrm/drm.h /usr/include/libdrm/drm_mode.h
+nv04_state_tex.o: ../../../../../src/mesa/main/context.h ../common/dri_util.h
+nv04_state_tex.o: ../common/xmlconfig.h /usr/include/nouveau/nouveau_device.h
+nv04_state_tex.o: /usr/include/nouveau/nouveau_grobj.h
+nv04_state_tex.o: /usr/include/nouveau/nouveau_channel.h
+nv04_state_tex.o: /usr/include/nouveau/nouveau_bo.h
+nv04_state_tex.o: /usr/include/nouveau/nouveau_notifier.h nouveau_screen.h
+nv04_state_tex.o: nouveau_state.h nouveau_surface.h
+nv04_state_tex.o: /usr/include/nouveau/nv04_pushbuf.h
+nv04_state_tex.o: /usr/include/nouveau/nouveau_pushbuf.h nouveau_context.h
+nv04_state_tex.o: nouveau_bo_state.h nouveau_scratch.h nouveau_render.h
+nv04_state_tex.o: ../../../../../src/mesa/vbo/vbo_context.h
+nv04_state_tex.o: ../../../../../src/mesa/vbo/vbo.h
+nv04_state_tex.o: ../../../../../src/mesa/vbo/vbo_attrib.h
+nv04_state_tex.o: ../../../../../src/mesa/vbo/vbo_exec.h
+nv04_state_tex.o: ../../../../../src/mesa/vbo/vbo_save.h nouveau_array.h
+nv04_state_tex.o: ../../../../../src/mesa/main/bitset.h nouveau_texture.h
+nv04_state_tex.o: ../../../../../src/mesa/swrast/s_context.h
+nv04_state_tex.o: ../../../../../src/mesa/main/compiler.h
+nv04_state_tex.o: ../../../../../src/mesa/program/prog_execute.h
+nv04_state_tex.o: ../../../../../src/mesa/swrast/swrast.h
+nv04_state_tex.o: ../../../../../src/mesa/swrast/s_chan.h
+nv04_state_tex.o: ../../../../../src/mesa/swrast/s_span.h nouveau_util.h
+nv04_state_tex.o: ../../../../../src/mesa/main/colormac.h
+nv04_state_tex.o: ../../../../../src/mesa/main/config.h
+nv04_state_tex.o: ../../../../../src/mesa/main/macros.h nouveau_gldefs.h
+nv04_state_tex.o: nv_object.xml.h nv04_3d.xml.h nv04_driver.h nv04_context.h
+nv04_state_frag.o: nouveau_driver.h ../../../../../src/mesa/main/imports.h
+nv04_state_frag.o: ../../../../../src/mesa/main/compiler.h
+nv04_state_frag.o: /usr/include/assert.h /usr/include/features.h
+nv04_state_frag.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+nv04_state_frag.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+nv04_state_frag.o: /usr/include/ctype.h /usr/include/bits/types.h
+nv04_state_frag.o: /usr/include/bits/typesizes.h /usr/include/endian.h
+nv04_state_frag.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+nv04_state_frag.o: /usr/include/xlocale.h /usr/include/math.h
+nv04_state_frag.o: /usr/include/bits/huge_val.h /usr/include/bits/huge_valf.h
+nv04_state_frag.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+nv04_state_frag.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+nv04_state_frag.o: /usr/include/bits/mathcalls.h
+nv04_state_frag.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+nv04_state_frag.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+nv04_state_frag.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+nv04_state_frag.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+nv04_state_frag.o: /usr/include/bits/posix2_lim.h /usr/include/stdlib.h
+nv04_state_frag.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+nv04_state_frag.o: /usr/include/bits/waitflags.h
+nv04_state_frag.o: /usr/include/bits/waitstatus.h /usr/include/sys/types.h
+nv04_state_frag.o: /usr/include/time.h /usr/include/sys/select.h
+nv04_state_frag.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+nv04_state_frag.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+nv04_state_frag.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+nv04_state_frag.o: /usr/include/stdio.h /usr/include/libio.h
+nv04_state_frag.o: /usr/include/_G_config.h /usr/include/wchar.h
+nv04_state_frag.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+nv04_state_frag.o: /usr/include/bits/stdio_lim.h
+nv04_state_frag.o: /usr/include/bits/sys_errlist.h /usr/include/string.h
+nv04_state_frag.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+nv04_state_frag.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+nv04_state_frag.o: ../../../../../src/mesa/main/glheader.h
+nv04_state_frag.o: ../../../../../src/mesa/main/mtypes.h
+nv04_state_frag.o: ../../../../../src/mesa/main/glheader.h
+nv04_state_frag.o: ../../../../../include/GL/gl.h
+nv04_state_frag.o: ../../../../../include/GL/glext.h /usr/include/inttypes.h
+nv04_state_frag.o: ../../../../../src/mesa/main/config.h
+nv04_state_frag.o: ../../../../../src/mesa/main/mfeatures.h
+nv04_state_frag.o: ../../../../../src/mapi/glapi/glapi.h
+nv04_state_frag.o: ../../../../../src/mapi/glapi/glthread.h
+nv04_state_frag.o: ../../../../../src/mapi/mapi/u_thread.h
+nv04_state_frag.o: ../../../../../src/mapi/mapi/u_compiler.h
+nv04_state_frag.o: ../../../../../src/mesa/math/m_matrix.h
+nv04_state_frag.o: ../../../../../src/mesa/main/simple_list.h
+nv04_state_frag.o: ../../../../../src/mesa/main/formats.h
+nv04_state_frag.o: ../../../../../src/mesa/main/dd.h
+nv04_state_frag.o: ../../../../../src/mesa/main/macros.h
+nv04_state_frag.o: ../../../../../src/mesa/main/imports.h
+nv04_state_frag.o: ../../../../../src/mesa/main/state.h
+nv04_state_frag.o: ../../../../../src/mesa/main/mtypes.h ../common/utils.h
+nv04_state_frag.o: ../../../../../include/GL/internal/dri_interface.h
+nv04_state_frag.o: /usr/include/libdrm/drm.h /usr/include/libdrm/drm_mode.h
+nv04_state_frag.o: ../../../../../src/mesa/main/context.h
+nv04_state_frag.o: ../common/dri_util.h ../common/xmlconfig.h
+nv04_state_frag.o: /usr/include/nouveau/nouveau_device.h
+nv04_state_frag.o: /usr/include/nouveau/nouveau_grobj.h
+nv04_state_frag.o: /usr/include/nouveau/nouveau_channel.h
+nv04_state_frag.o: /usr/include/nouveau/nouveau_bo.h
+nv04_state_frag.o: /usr/include/nouveau/nouveau_notifier.h nouveau_screen.h
+nv04_state_frag.o: nouveau_state.h nouveau_surface.h
+nv04_state_frag.o: /usr/include/nouveau/nv04_pushbuf.h
+nv04_state_frag.o: /usr/include/nouveau/nouveau_pushbuf.h nouveau_context.h
+nv04_state_frag.o: nouveau_bo_state.h nouveau_scratch.h nouveau_render.h
+nv04_state_frag.o: ../../../../../src/mesa/vbo/vbo_context.h
+nv04_state_frag.o: ../../../../../src/mesa/vbo/vbo.h
+nv04_state_frag.o: ../../../../../src/mesa/vbo/vbo_attrib.h
+nv04_state_frag.o: ../../../../../src/mesa/vbo/vbo_exec.h
+nv04_state_frag.o: ../../../../../src/mesa/vbo/vbo_save.h nouveau_array.h
+nv04_state_frag.o: ../../../../../src/mesa/main/bitset.h nouveau_util.h
+nv04_state_frag.o: ../../../../../src/mesa/main/colormac.h
+nv04_state_frag.o: ../../../../../src/mesa/main/config.h
+nv04_state_frag.o: ../../../../../src/mesa/main/macros.h nv_object.xml.h
+nv04_state_frag.o: nv04_3d.xml.h nv04_driver.h nv04_context.h
+nv04_surface.o: nouveau_driver.h ../../../../../src/mesa/main/imports.h
+nv04_surface.o: ../../../../../src/mesa/main/compiler.h /usr/include/assert.h
+nv04_surface.o: /usr/include/features.h /usr/include/sys/cdefs.h
+nv04_surface.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+nv04_surface.o: /usr/include/gnu/stubs-64.h /usr/include/ctype.h
+nv04_surface.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+nv04_surface.o: /usr/include/endian.h /usr/include/bits/endian.h
+nv04_surface.o: /usr/include/bits/byteswap.h /usr/include/xlocale.h
+nv04_surface.o: /usr/include/math.h /usr/include/bits/huge_val.h
+nv04_surface.o: /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h
+nv04_surface.o: /usr/include/bits/inf.h /usr/include/bits/nan.h
+nv04_surface.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+nv04_surface.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+nv04_surface.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+nv04_surface.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+nv04_surface.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+nv04_surface.o: /usr/include/bits/posix2_lim.h /usr/include/stdlib.h
+nv04_surface.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+nv04_surface.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+nv04_surface.o: /usr/include/sys/types.h /usr/include/time.h
+nv04_surface.o: /usr/include/sys/select.h /usr/include/bits/select.h
+nv04_surface.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+nv04_surface.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+nv04_surface.o: /usr/include/alloca.h /usr/include/stdio.h
+nv04_surface.o: /usr/include/libio.h /usr/include/_G_config.h
+nv04_surface.o: /usr/include/wchar.h
+nv04_surface.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+nv04_surface.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+nv04_surface.o: /usr/include/string.h
+nv04_surface.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+nv04_surface.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+nv04_surface.o: ../../../../../src/mesa/main/glheader.h
+nv04_surface.o: ../../../../../src/mesa/main/mtypes.h
+nv04_surface.o: ../../../../../src/mesa/main/glheader.h
+nv04_surface.o: ../../../../../include/GL/gl.h
+nv04_surface.o: ../../../../../include/GL/glext.h /usr/include/inttypes.h
+nv04_surface.o: ../../../../../src/mesa/main/config.h
+nv04_surface.o: ../../../../../src/mesa/main/mfeatures.h
+nv04_surface.o: ../../../../../src/mapi/glapi/glapi.h
+nv04_surface.o: ../../../../../src/mapi/glapi/glthread.h
+nv04_surface.o: ../../../../../src/mapi/mapi/u_thread.h
+nv04_surface.o: ../../../../../src/mapi/mapi/u_compiler.h
+nv04_surface.o: ../../../../../src/mesa/math/m_matrix.h
+nv04_surface.o: ../../../../../src/mesa/main/simple_list.h
+nv04_surface.o: ../../../../../src/mesa/main/formats.h
+nv04_surface.o: ../../../../../src/mesa/main/dd.h
+nv04_surface.o: ../../../../../src/mesa/main/macros.h
+nv04_surface.o: ../../../../../src/mesa/main/imports.h
+nv04_surface.o: ../../../../../src/mesa/main/state.h
+nv04_surface.o: ../../../../../src/mesa/main/mtypes.h ../common/utils.h
+nv04_surface.o: ../../../../../include/GL/internal/dri_interface.h
+nv04_surface.o: /usr/include/libdrm/drm.h /usr/include/libdrm/drm_mode.h
+nv04_surface.o: ../../../../../src/mesa/main/context.h ../common/dri_util.h
+nv04_surface.o: ../common/xmlconfig.h /usr/include/nouveau/nouveau_device.h
+nv04_surface.o: /usr/include/nouveau/nouveau_grobj.h
+nv04_surface.o: /usr/include/nouveau/nouveau_channel.h
+nv04_surface.o: /usr/include/nouveau/nouveau_bo.h
+nv04_surface.o: /usr/include/nouveau/nouveau_notifier.h nouveau_screen.h
+nv04_surface.o: nouveau_state.h nouveau_surface.h
+nv04_surface.o: /usr/include/nouveau/nv04_pushbuf.h
+nv04_surface.o: /usr/include/nouveau/nouveau_pushbuf.h nv_object.xml.h
+nv04_surface.o: nv_m2mf.xml.h nv01_2d.xml.h nv04_3d.xml.h nouveau_context.h
+nv04_surface.o: nouveau_bo_state.h nouveau_scratch.h nouveau_render.h
+nv04_surface.o: ../../../../../src/mesa/vbo/vbo_context.h
+nv04_surface.o: ../../../../../src/mesa/vbo/vbo.h
+nv04_surface.o: ../../../../../src/mesa/vbo/vbo_attrib.h
+nv04_surface.o: ../../../../../src/mesa/vbo/vbo_exec.h
+nv04_surface.o: ../../../../../src/mesa/vbo/vbo_save.h nouveau_array.h
+nv04_surface.o: ../../../../../src/mesa/main/bitset.h nouveau_util.h
+nv04_surface.o: ../../../../../src/mesa/main/colormac.h
+nv04_surface.o: ../../../../../src/mesa/main/config.h
+nv04_surface.o: ../../../../../src/mesa/main/macros.h nv04_driver.h
+nv04_surface.o: nv04_context.h
+nv10_context.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+nv10_context.o: ../../../../../src/mesa/main/state.h
+nv10_context.o: ../../../../../src/mesa/main/mtypes.h nouveau_driver.h
+nv10_context.o: ../../../../../src/mesa/main/imports.h
+nv10_context.o: ../../../../../src/mesa/main/compiler.h /usr/include/assert.h
+nv10_context.o: /usr/include/features.h /usr/include/sys/cdefs.h
+nv10_context.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+nv10_context.o: /usr/include/gnu/stubs-64.h /usr/include/ctype.h
+nv10_context.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+nv10_context.o: /usr/include/endian.h /usr/include/bits/endian.h
+nv10_context.o: /usr/include/bits/byteswap.h /usr/include/xlocale.h
+nv10_context.o: /usr/include/math.h /usr/include/bits/huge_val.h
+nv10_context.o: /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h
+nv10_context.o: /usr/include/bits/inf.h /usr/include/bits/nan.h
+nv10_context.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+nv10_context.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+nv10_context.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+nv10_context.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+nv10_context.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+nv10_context.o: /usr/include/bits/posix2_lim.h /usr/include/stdlib.h
+nv10_context.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+nv10_context.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+nv10_context.o: /usr/include/sys/types.h /usr/include/time.h
+nv10_context.o: /usr/include/sys/select.h /usr/include/bits/select.h
+nv10_context.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+nv10_context.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+nv10_context.o: /usr/include/alloca.h /usr/include/stdio.h
+nv10_context.o: /usr/include/libio.h /usr/include/_G_config.h
+nv10_context.o: /usr/include/wchar.h
+nv10_context.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+nv10_context.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+nv10_context.o: /usr/include/string.h
+nv10_context.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+nv10_context.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+nv10_context.o: ../../../../../src/mesa/main/glheader.h
+nv10_context.o: ../../../../../src/mesa/main/mtypes.h
+nv10_context.o: ../../../../../src/mesa/main/glheader.h
+nv10_context.o: ../../../../../include/GL/gl.h
+nv10_context.o: ../../../../../include/GL/glext.h /usr/include/inttypes.h
+nv10_context.o: ../../../../../src/mesa/main/config.h
+nv10_context.o: ../../../../../src/mesa/main/mfeatures.h
+nv10_context.o: ../../../../../src/mapi/glapi/glapi.h
+nv10_context.o: ../../../../../src/mapi/glapi/glthread.h
+nv10_context.o: ../../../../../src/mapi/mapi/u_thread.h
+nv10_context.o: ../../../../../src/mapi/mapi/u_compiler.h
+nv10_context.o: ../../../../../src/mesa/math/m_matrix.h
+nv10_context.o: ../../../../../src/mesa/main/simple_list.h
+nv10_context.o: ../../../../../src/mesa/main/formats.h
+nv10_context.o: ../../../../../src/mesa/main/dd.h
+nv10_context.o: ../../../../../src/mesa/main/macros.h
+nv10_context.o: ../../../../../src/mesa/main/imports.h ../common/utils.h
+nv10_context.o: ../../../../../include/GL/internal/dri_interface.h
+nv10_context.o: /usr/include/libdrm/drm.h /usr/include/libdrm/drm_mode.h
+nv10_context.o: ../../../../../src/mesa/main/context.h ../common/dri_util.h
+nv10_context.o: ../common/xmlconfig.h /usr/include/nouveau/nouveau_device.h
+nv10_context.o: /usr/include/nouveau/nouveau_grobj.h
+nv10_context.o: /usr/include/nouveau/nouveau_channel.h
+nv10_context.o: /usr/include/nouveau/nouveau_bo.h
+nv10_context.o: /usr/include/nouveau/nouveau_notifier.h nouveau_screen.h
+nv10_context.o: nouveau_state.h nouveau_surface.h
+nv10_context.o: /usr/include/nouveau/nv04_pushbuf.h
+nv10_context.o: /usr/include/nouveau/nouveau_pushbuf.h nouveau_context.h
+nv10_context.o: nouveau_bo_state.h nouveau_scratch.h nouveau_render.h
+nv10_context.o: ../../../../../src/mesa/vbo/vbo_context.h
+nv10_context.o: ../../../../../src/mesa/vbo/vbo.h
+nv10_context.o: ../../../../../src/mesa/vbo/vbo_attrib.h
+nv10_context.o: ../../../../../src/mesa/vbo/vbo_exec.h
+nv10_context.o: ../../../../../src/mesa/vbo/vbo_save.h nouveau_array.h
+nv10_context.o: ../../../../../src/mesa/main/bitset.h nouveau_fbo.h
+nv10_context.o: nouveau_util.h ../../../../../src/mesa/main/colormac.h
+nv10_context.o: ../../../../../src/mesa/main/config.h
+nv10_context.o: ../../../../../src/mesa/main/macros.h nv_object.xml.h
+nv10_context.o: nv10_3d.xml.h nv04_driver.h nv04_context.h nv10_driver.h
+nv10_render.o: nouveau_driver.h ../../../../../src/mesa/main/imports.h
+nv10_render.o: ../../../../../src/mesa/main/compiler.h /usr/include/assert.h
+nv10_render.o: /usr/include/features.h /usr/include/sys/cdefs.h
+nv10_render.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+nv10_render.o: /usr/include/gnu/stubs-64.h /usr/include/ctype.h
+nv10_render.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+nv10_render.o: /usr/include/endian.h /usr/include/bits/endian.h
+nv10_render.o: /usr/include/bits/byteswap.h /usr/include/xlocale.h
+nv10_render.o: /usr/include/math.h /usr/include/bits/huge_val.h
+nv10_render.o: /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h
+nv10_render.o: /usr/include/bits/inf.h /usr/include/bits/nan.h
+nv10_render.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+nv10_render.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+nv10_render.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+nv10_render.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+nv10_render.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+nv10_render.o: /usr/include/bits/posix2_lim.h /usr/include/stdlib.h
+nv10_render.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+nv10_render.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+nv10_render.o: /usr/include/sys/types.h /usr/include/time.h
+nv10_render.o: /usr/include/sys/select.h /usr/include/bits/select.h
+nv10_render.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+nv10_render.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+nv10_render.o: /usr/include/alloca.h /usr/include/stdio.h
+nv10_render.o: /usr/include/libio.h /usr/include/_G_config.h
+nv10_render.o: /usr/include/wchar.h
+nv10_render.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+nv10_render.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+nv10_render.o: /usr/include/string.h
+nv10_render.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+nv10_render.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+nv10_render.o: ../../../../../src/mesa/main/glheader.h
+nv10_render.o: ../../../../../src/mesa/main/mtypes.h
+nv10_render.o: ../../../../../src/mesa/main/glheader.h
+nv10_render.o: ../../../../../include/GL/gl.h
+nv10_render.o: ../../../../../include/GL/glext.h /usr/include/inttypes.h
+nv10_render.o: ../../../../../src/mesa/main/config.h
+nv10_render.o: ../../../../../src/mesa/main/mfeatures.h
+nv10_render.o: ../../../../../src/mapi/glapi/glapi.h
+nv10_render.o: ../../../../../src/mapi/glapi/glthread.h
+nv10_render.o: ../../../../../src/mapi/mapi/u_thread.h
+nv10_render.o: ../../../../../src/mapi/mapi/u_compiler.h
+nv10_render.o: ../../../../../src/mesa/math/m_matrix.h
+nv10_render.o: ../../../../../src/mesa/main/simple_list.h
+nv10_render.o: ../../../../../src/mesa/main/formats.h
+nv10_render.o: ../../../../../src/mesa/main/dd.h
+nv10_render.o: ../../../../../src/mesa/main/macros.h
+nv10_render.o: ../../../../../src/mesa/main/imports.h
+nv10_render.o: ../../../../../src/mesa/main/state.h
+nv10_render.o: ../../../../../src/mesa/main/mtypes.h ../common/utils.h
+nv10_render.o: ../../../../../include/GL/internal/dri_interface.h
+nv10_render.o: /usr/include/libdrm/drm.h /usr/include/libdrm/drm_mode.h
+nv10_render.o: ../../../../../src/mesa/main/context.h ../common/dri_util.h
+nv10_render.o: ../common/xmlconfig.h /usr/include/nouveau/nouveau_device.h
+nv10_render.o: /usr/include/nouveau/nouveau_grobj.h
+nv10_render.o: /usr/include/nouveau/nouveau_channel.h
+nv10_render.o: /usr/include/nouveau/nouveau_bo.h
+nv10_render.o: /usr/include/nouveau/nouveau_notifier.h nouveau_screen.h
+nv10_render.o: nouveau_state.h nouveau_surface.h
+nv10_render.o: /usr/include/nouveau/nv04_pushbuf.h
+nv10_render.o: /usr/include/nouveau/nouveau_pushbuf.h nouveau_context.h
+nv10_render.o: nouveau_bo_state.h nouveau_scratch.h nouveau_render.h
+nv10_render.o: ../../../../../src/mesa/vbo/vbo_context.h
+nv10_render.o: ../../../../../src/mesa/vbo/vbo.h
+nv10_render.o: ../../../../../src/mesa/vbo/vbo_attrib.h
+nv10_render.o: ../../../../../src/mesa/vbo/vbo_exec.h
+nv10_render.o: ../../../../../src/mesa/vbo/vbo_save.h nouveau_array.h
+nv10_render.o: ../../../../../src/mesa/main/bitset.h nv10_3d.xml.h
+nv10_render.o: nv10_driver.h nouveau_render_t.c nouveau_gldefs.h
+nv10_render.o: ../../../../../src/mesa/main/light.h
+nv10_render.o: ../../../../../src/mesa/main/mfeatures.h
+nv10_render.o: ../../../../../src/mesa/vbo/vbo.h
+nv10_render.o: ../../../../../src/mesa/tnl/tnl.h nouveau_vbo_t.c
+nv10_render.o: nouveau_bufferobj.h nouveau_util.h
+nv10_render.o: ../../../../../src/mesa/main/colormac.h
+nv10_render.o: ../../../../../src/mesa/main/config.h
+nv10_render.o: ../../../../../src/mesa/main/macros.h
+nv10_render.o: ../../../../../src/mesa/main/bufferobj.h
+nv10_render.o: ../../../../../src/mesa/main/image.h nouveau_swtnl_t.c
+nv10_render.o: ../../../../../src/mesa/tnl/t_context.h
+nv10_render.o: ../../../../../src/mesa/math/m_vector.h
+nv10_render.o: ../../../../../src/mesa/tnl/t_pipeline.h
+nv10_render.o: ../../../../../src/mesa/tnl/t_context.h
+nv10_render.o: ../../../../../src/mesa/tnl/t_vertex.h
+nv10_state_fb.o: nouveau_driver.h ../../../../../src/mesa/main/imports.h
+nv10_state_fb.o: ../../../../../src/mesa/main/compiler.h
+nv10_state_fb.o: /usr/include/assert.h /usr/include/features.h
+nv10_state_fb.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+nv10_state_fb.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+nv10_state_fb.o: /usr/include/ctype.h /usr/include/bits/types.h
+nv10_state_fb.o: /usr/include/bits/typesizes.h /usr/include/endian.h
+nv10_state_fb.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+nv10_state_fb.o: /usr/include/xlocale.h /usr/include/math.h
+nv10_state_fb.o: /usr/include/bits/huge_val.h /usr/include/bits/huge_valf.h
+nv10_state_fb.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+nv10_state_fb.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+nv10_state_fb.o: /usr/include/bits/mathcalls.h
+nv10_state_fb.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+nv10_state_fb.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+nv10_state_fb.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+nv10_state_fb.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+nv10_state_fb.o: /usr/include/bits/posix2_lim.h /usr/include/stdlib.h
+nv10_state_fb.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+nv10_state_fb.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+nv10_state_fb.o: /usr/include/sys/types.h /usr/include/time.h
+nv10_state_fb.o: /usr/include/sys/select.h /usr/include/bits/select.h
+nv10_state_fb.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+nv10_state_fb.o: /usr/include/sys/sysmacros.h
+nv10_state_fb.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+nv10_state_fb.o: /usr/include/stdio.h /usr/include/libio.h
+nv10_state_fb.o: /usr/include/_G_config.h /usr/include/wchar.h
+nv10_state_fb.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+nv10_state_fb.o: /usr/include/bits/stdio_lim.h
+nv10_state_fb.o: /usr/include/bits/sys_errlist.h /usr/include/string.h
+nv10_state_fb.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+nv10_state_fb.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+nv10_state_fb.o: ../../../../../src/mesa/main/glheader.h
+nv10_state_fb.o: ../../../../../src/mesa/main/mtypes.h
+nv10_state_fb.o: ../../../../../src/mesa/main/glheader.h
+nv10_state_fb.o: ../../../../../include/GL/gl.h
+nv10_state_fb.o: ../../../../../include/GL/glext.h /usr/include/inttypes.h
+nv10_state_fb.o: ../../../../../src/mesa/main/config.h
+nv10_state_fb.o: ../../../../../src/mesa/main/mfeatures.h
+nv10_state_fb.o: ../../../../../src/mapi/glapi/glapi.h
+nv10_state_fb.o: ../../../../../src/mapi/glapi/glthread.h
+nv10_state_fb.o: ../../../../../src/mapi/mapi/u_thread.h
+nv10_state_fb.o: ../../../../../src/mapi/mapi/u_compiler.h
+nv10_state_fb.o: ../../../../../src/mesa/math/m_matrix.h
+nv10_state_fb.o: ../../../../../src/mesa/main/simple_list.h
+nv10_state_fb.o: ../../../../../src/mesa/main/formats.h
+nv10_state_fb.o: ../../../../../src/mesa/main/dd.h
+nv10_state_fb.o: ../../../../../src/mesa/main/macros.h
+nv10_state_fb.o: ../../../../../src/mesa/main/imports.h
+nv10_state_fb.o: ../../../../../src/mesa/main/state.h
+nv10_state_fb.o: ../../../../../src/mesa/main/mtypes.h ../common/utils.h
+nv10_state_fb.o: ../../../../../include/GL/internal/dri_interface.h
+nv10_state_fb.o: /usr/include/libdrm/drm.h /usr/include/libdrm/drm_mode.h
+nv10_state_fb.o: ../../../../../src/mesa/main/context.h ../common/dri_util.h
+nv10_state_fb.o: ../common/xmlconfig.h /usr/include/nouveau/nouveau_device.h
+nv10_state_fb.o: /usr/include/nouveau/nouveau_grobj.h
+nv10_state_fb.o: /usr/include/nouveau/nouveau_channel.h
+nv10_state_fb.o: /usr/include/nouveau/nouveau_bo.h
+nv10_state_fb.o: /usr/include/nouveau/nouveau_notifier.h nouveau_screen.h
+nv10_state_fb.o: nouveau_state.h nouveau_surface.h
+nv10_state_fb.o: /usr/include/nouveau/nv04_pushbuf.h
+nv10_state_fb.o: /usr/include/nouveau/nouveau_pushbuf.h nouveau_context.h
+nv10_state_fb.o: nouveau_bo_state.h nouveau_scratch.h nouveau_render.h
+nv10_state_fb.o: ../../../../../src/mesa/vbo/vbo_context.h
+nv10_state_fb.o: ../../../../../src/mesa/vbo/vbo.h
+nv10_state_fb.o: ../../../../../src/mesa/vbo/vbo_attrib.h
+nv10_state_fb.o: ../../../../../src/mesa/vbo/vbo_exec.h
+nv10_state_fb.o: ../../../../../src/mesa/vbo/vbo_save.h nouveau_array.h
+nv10_state_fb.o: ../../../../../src/mesa/main/bitset.h nouveau_fbo.h
+nv10_state_fb.o: nouveau_util.h ../../../../../src/mesa/main/colormac.h
+nv10_state_fb.o: ../../../../../src/mesa/main/config.h
+nv10_state_fb.o: ../../../../../src/mesa/main/macros.h nv_object.xml.h
+nv10_state_fb.o: nv10_3d.xml.h nv10_driver.h
+nv10_state_polygon.o: nouveau_driver.h ../../../../../src/mesa/main/imports.h
+nv10_state_polygon.o: ../../../../../src/mesa/main/compiler.h
+nv10_state_polygon.o: /usr/include/assert.h /usr/include/features.h
+nv10_state_polygon.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+nv10_state_polygon.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+nv10_state_polygon.o: /usr/include/ctype.h /usr/include/bits/types.h
+nv10_state_polygon.o: /usr/include/bits/typesizes.h /usr/include/endian.h
+nv10_state_polygon.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+nv10_state_polygon.o: /usr/include/xlocale.h /usr/include/math.h
+nv10_state_polygon.o: /usr/include/bits/huge_val.h
+nv10_state_polygon.o: /usr/include/bits/huge_valf.h
+nv10_state_polygon.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+nv10_state_polygon.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+nv10_state_polygon.o: /usr/include/bits/mathcalls.h
+nv10_state_polygon.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+nv10_state_polygon.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+nv10_state_polygon.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+nv10_state_polygon.o: /usr/include/bits/local_lim.h
+nv10_state_polygon.o: /usr/include/linux/limits.h
+nv10_state_polygon.o: /usr/include/bits/posix2_lim.h /usr/include/stdlib.h
+nv10_state_polygon.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+nv10_state_polygon.o: /usr/include/bits/waitflags.h
+nv10_state_polygon.o: /usr/include/bits/waitstatus.h /usr/include/sys/types.h
+nv10_state_polygon.o: /usr/include/time.h /usr/include/sys/select.h
+nv10_state_polygon.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+nv10_state_polygon.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+nv10_state_polygon.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+nv10_state_polygon.o: /usr/include/stdio.h /usr/include/libio.h
+nv10_state_polygon.o: /usr/include/_G_config.h /usr/include/wchar.h
+nv10_state_polygon.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+nv10_state_polygon.o: /usr/include/bits/stdio_lim.h
+nv10_state_polygon.o: /usr/include/bits/sys_errlist.h /usr/include/string.h
+nv10_state_polygon.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+nv10_state_polygon.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+nv10_state_polygon.o: ../../../../../src/mesa/main/glheader.h
+nv10_state_polygon.o: ../../../../../src/mesa/main/mtypes.h
+nv10_state_polygon.o: ../../../../../src/mesa/main/glheader.h
+nv10_state_polygon.o: ../../../../../include/GL/gl.h
+nv10_state_polygon.o: ../../../../../include/GL/glext.h
+nv10_state_polygon.o: /usr/include/inttypes.h
+nv10_state_polygon.o: ../../../../../src/mesa/main/config.h
+nv10_state_polygon.o: ../../../../../src/mesa/main/mfeatures.h
+nv10_state_polygon.o: ../../../../../src/mapi/glapi/glapi.h
+nv10_state_polygon.o: ../../../../../src/mapi/glapi/glthread.h
+nv10_state_polygon.o: ../../../../../src/mapi/mapi/u_thread.h
+nv10_state_polygon.o: ../../../../../src/mapi/mapi/u_compiler.h
+nv10_state_polygon.o: ../../../../../src/mesa/math/m_matrix.h
+nv10_state_polygon.o: ../../../../../src/mesa/main/simple_list.h
+nv10_state_polygon.o: ../../../../../src/mesa/main/formats.h
+nv10_state_polygon.o: ../../../../../src/mesa/main/dd.h
+nv10_state_polygon.o: ../../../../../src/mesa/main/macros.h
+nv10_state_polygon.o: ../../../../../src/mesa/main/imports.h
+nv10_state_polygon.o: ../../../../../src/mesa/main/state.h
+nv10_state_polygon.o: ../../../../../src/mesa/main/mtypes.h ../common/utils.h
+nv10_state_polygon.o: ../../../../../include/GL/internal/dri_interface.h
+nv10_state_polygon.o: /usr/include/libdrm/drm.h
+nv10_state_polygon.o: /usr/include/libdrm/drm_mode.h
+nv10_state_polygon.o: ../../../../../src/mesa/main/context.h
+nv10_state_polygon.o: ../common/dri_util.h ../common/xmlconfig.h
+nv10_state_polygon.o: /usr/include/nouveau/nouveau_device.h
+nv10_state_polygon.o: /usr/include/nouveau/nouveau_grobj.h
+nv10_state_polygon.o: /usr/include/nouveau/nouveau_channel.h
+nv10_state_polygon.o: /usr/include/nouveau/nouveau_bo.h
+nv10_state_polygon.o: /usr/include/nouveau/nouveau_notifier.h
+nv10_state_polygon.o: nouveau_screen.h nouveau_state.h nouveau_surface.h
+nv10_state_polygon.o: /usr/include/nouveau/nv04_pushbuf.h
+nv10_state_polygon.o: /usr/include/nouveau/nouveau_pushbuf.h
+nv10_state_polygon.o: nouveau_context.h nouveau_bo_state.h nouveau_scratch.h
+nv10_state_polygon.o: nouveau_render.h
+nv10_state_polygon.o: ../../../../../src/mesa/vbo/vbo_context.h
+nv10_state_polygon.o: ../../../../../src/mesa/vbo/vbo.h
+nv10_state_polygon.o: ../../../../../src/mesa/vbo/vbo_attrib.h
+nv10_state_polygon.o: ../../../../../src/mesa/vbo/vbo_exec.h
+nv10_state_polygon.o: ../../../../../src/mesa/vbo/vbo_save.h nouveau_array.h
+nv10_state_polygon.o: ../../../../../src/mesa/main/bitset.h nouveau_gldefs.h
+nv10_state_polygon.o: nouveau_util.h ../../../../../src/mesa/main/colormac.h
+nv10_state_polygon.o: ../../../../../src/mesa/main/config.h
+nv10_state_polygon.o: ../../../../../src/mesa/main/macros.h nv10_3d.xml.h
+nv10_state_polygon.o: nv10_driver.h
+nv10_state_raster.o: nouveau_driver.h ../../../../../src/mesa/main/imports.h
+nv10_state_raster.o: ../../../../../src/mesa/main/compiler.h
+nv10_state_raster.o: /usr/include/assert.h /usr/include/features.h
+nv10_state_raster.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+nv10_state_raster.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+nv10_state_raster.o: /usr/include/ctype.h /usr/include/bits/types.h
+nv10_state_raster.o: /usr/include/bits/typesizes.h /usr/include/endian.h
+nv10_state_raster.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+nv10_state_raster.o: /usr/include/xlocale.h /usr/include/math.h
+nv10_state_raster.o: /usr/include/bits/huge_val.h
+nv10_state_raster.o: /usr/include/bits/huge_valf.h
+nv10_state_raster.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+nv10_state_raster.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+nv10_state_raster.o: /usr/include/bits/mathcalls.h
+nv10_state_raster.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+nv10_state_raster.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+nv10_state_raster.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+nv10_state_raster.o: /usr/include/bits/local_lim.h
+nv10_state_raster.o: /usr/include/linux/limits.h
+nv10_state_raster.o: /usr/include/bits/posix2_lim.h /usr/include/stdlib.h
+nv10_state_raster.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+nv10_state_raster.o: /usr/include/bits/waitflags.h
+nv10_state_raster.o: /usr/include/bits/waitstatus.h /usr/include/sys/types.h
+nv10_state_raster.o: /usr/include/time.h /usr/include/sys/select.h
+nv10_state_raster.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+nv10_state_raster.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+nv10_state_raster.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+nv10_state_raster.o: /usr/include/stdio.h /usr/include/libio.h
+nv10_state_raster.o: /usr/include/_G_config.h /usr/include/wchar.h
+nv10_state_raster.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+nv10_state_raster.o: /usr/include/bits/stdio_lim.h
+nv10_state_raster.o: /usr/include/bits/sys_errlist.h /usr/include/string.h
+nv10_state_raster.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+nv10_state_raster.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+nv10_state_raster.o: ../../../../../src/mesa/main/glheader.h
+nv10_state_raster.o: ../../../../../src/mesa/main/mtypes.h
+nv10_state_raster.o: ../../../../../src/mesa/main/glheader.h
+nv10_state_raster.o: ../../../../../include/GL/gl.h
+nv10_state_raster.o: ../../../../../include/GL/glext.h
+nv10_state_raster.o: /usr/include/inttypes.h
+nv10_state_raster.o: ../../../../../src/mesa/main/config.h
+nv10_state_raster.o: ../../../../../src/mesa/main/mfeatures.h
+nv10_state_raster.o: ../../../../../src/mapi/glapi/glapi.h
+nv10_state_raster.o: ../../../../../src/mapi/glapi/glthread.h
+nv10_state_raster.o: ../../../../../src/mapi/mapi/u_thread.h
+nv10_state_raster.o: ../../../../../src/mapi/mapi/u_compiler.h
+nv10_state_raster.o: ../../../../../src/mesa/math/m_matrix.h
+nv10_state_raster.o: ../../../../../src/mesa/main/simple_list.h
+nv10_state_raster.o: ../../../../../src/mesa/main/formats.h
+nv10_state_raster.o: ../../../../../src/mesa/main/dd.h
+nv10_state_raster.o: ../../../../../src/mesa/main/macros.h
+nv10_state_raster.o: ../../../../../src/mesa/main/imports.h
+nv10_state_raster.o: ../../../../../src/mesa/main/state.h
+nv10_state_raster.o: ../../../../../src/mesa/main/mtypes.h ../common/utils.h
+nv10_state_raster.o: ../../../../../include/GL/internal/dri_interface.h
+nv10_state_raster.o: /usr/include/libdrm/drm.h /usr/include/libdrm/drm_mode.h
+nv10_state_raster.o: ../../../../../src/mesa/main/context.h
+nv10_state_raster.o: ../common/dri_util.h ../common/xmlconfig.h
+nv10_state_raster.o: /usr/include/nouveau/nouveau_device.h
+nv10_state_raster.o: /usr/include/nouveau/nouveau_grobj.h
+nv10_state_raster.o: /usr/include/nouveau/nouveau_channel.h
+nv10_state_raster.o: /usr/include/nouveau/nouveau_bo.h
+nv10_state_raster.o: /usr/include/nouveau/nouveau_notifier.h nouveau_screen.h
+nv10_state_raster.o: nouveau_state.h nouveau_surface.h
+nv10_state_raster.o: /usr/include/nouveau/nv04_pushbuf.h
+nv10_state_raster.o: /usr/include/nouveau/nouveau_pushbuf.h nouveau_context.h
+nv10_state_raster.o: nouveau_bo_state.h nouveau_scratch.h nouveau_render.h
+nv10_state_raster.o: ../../../../../src/mesa/vbo/vbo_context.h
+nv10_state_raster.o: ../../../../../src/mesa/vbo/vbo.h
+nv10_state_raster.o: ../../../../../src/mesa/vbo/vbo_attrib.h
+nv10_state_raster.o: ../../../../../src/mesa/vbo/vbo_exec.h
+nv10_state_raster.o: ../../../../../src/mesa/vbo/vbo_save.h nouveau_array.h
+nv10_state_raster.o: ../../../../../src/mesa/main/bitset.h nouveau_gldefs.h
+nv10_state_raster.o: nouveau_util.h ../../../../../src/mesa/main/colormac.h
+nv10_state_raster.o: ../../../../../src/mesa/main/config.h
+nv10_state_raster.o: ../../../../../src/mesa/main/macros.h nv10_3d.xml.h
+nv10_state_raster.o: nv10_driver.h
+nv10_state_tex.o: nouveau_driver.h ../../../../../src/mesa/main/imports.h
+nv10_state_tex.o: ../../../../../src/mesa/main/compiler.h
+nv10_state_tex.o: /usr/include/assert.h /usr/include/features.h
+nv10_state_tex.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+nv10_state_tex.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+nv10_state_tex.o: /usr/include/ctype.h /usr/include/bits/types.h
+nv10_state_tex.o: /usr/include/bits/typesizes.h /usr/include/endian.h
+nv10_state_tex.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+nv10_state_tex.o: /usr/include/xlocale.h /usr/include/math.h
+nv10_state_tex.o: /usr/include/bits/huge_val.h /usr/include/bits/huge_valf.h
+nv10_state_tex.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+nv10_state_tex.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+nv10_state_tex.o: /usr/include/bits/mathcalls.h
+nv10_state_tex.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+nv10_state_tex.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+nv10_state_tex.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+nv10_state_tex.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+nv10_state_tex.o: /usr/include/bits/posix2_lim.h /usr/include/stdlib.h
+nv10_state_tex.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+nv10_state_tex.o: /usr/include/bits/waitflags.h
+nv10_state_tex.o: /usr/include/bits/waitstatus.h /usr/include/sys/types.h
+nv10_state_tex.o: /usr/include/time.h /usr/include/sys/select.h
+nv10_state_tex.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+nv10_state_tex.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+nv10_state_tex.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+nv10_state_tex.o: /usr/include/stdio.h /usr/include/libio.h
+nv10_state_tex.o: /usr/include/_G_config.h /usr/include/wchar.h
+nv10_state_tex.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+nv10_state_tex.o: /usr/include/bits/stdio_lim.h
+nv10_state_tex.o: /usr/include/bits/sys_errlist.h /usr/include/string.h
+nv10_state_tex.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+nv10_state_tex.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+nv10_state_tex.o: ../../../../../src/mesa/main/glheader.h
+nv10_state_tex.o: ../../../../../src/mesa/main/mtypes.h
+nv10_state_tex.o: ../../../../../src/mesa/main/glheader.h
+nv10_state_tex.o: ../../../../../include/GL/gl.h
+nv10_state_tex.o: ../../../../../include/GL/glext.h /usr/include/inttypes.h
+nv10_state_tex.o: ../../../../../src/mesa/main/config.h
+nv10_state_tex.o: ../../../../../src/mesa/main/mfeatures.h
+nv10_state_tex.o: ../../../../../src/mapi/glapi/glapi.h
+nv10_state_tex.o: ../../../../../src/mapi/glapi/glthread.h
+nv10_state_tex.o: ../../../../../src/mapi/mapi/u_thread.h
+nv10_state_tex.o: ../../../../../src/mapi/mapi/u_compiler.h
+nv10_state_tex.o: ../../../../../src/mesa/math/m_matrix.h
+nv10_state_tex.o: ../../../../../src/mesa/main/simple_list.h
+nv10_state_tex.o: ../../../../../src/mesa/main/formats.h
+nv10_state_tex.o: ../../../../../src/mesa/main/dd.h
+nv10_state_tex.o: ../../../../../src/mesa/main/macros.h
+nv10_state_tex.o: ../../../../../src/mesa/main/imports.h
+nv10_state_tex.o: ../../../../../src/mesa/main/state.h
+nv10_state_tex.o: ../../../../../src/mesa/main/mtypes.h ../common/utils.h
+nv10_state_tex.o: ../../../../../include/GL/internal/dri_interface.h
+nv10_state_tex.o: /usr/include/libdrm/drm.h /usr/include/libdrm/drm_mode.h
+nv10_state_tex.o: ../../../../../src/mesa/main/context.h ../common/dri_util.h
+nv10_state_tex.o: ../common/xmlconfig.h /usr/include/nouveau/nouveau_device.h
+nv10_state_tex.o: /usr/include/nouveau/nouveau_grobj.h
+nv10_state_tex.o: /usr/include/nouveau/nouveau_channel.h
+nv10_state_tex.o: /usr/include/nouveau/nouveau_bo.h
+nv10_state_tex.o: /usr/include/nouveau/nouveau_notifier.h nouveau_screen.h
+nv10_state_tex.o: nouveau_state.h nouveau_surface.h
+nv10_state_tex.o: /usr/include/nouveau/nv04_pushbuf.h
+nv10_state_tex.o: /usr/include/nouveau/nouveau_pushbuf.h nouveau_context.h
+nv10_state_tex.o: nouveau_bo_state.h nouveau_scratch.h nouveau_render.h
+nv10_state_tex.o: ../../../../../src/mesa/vbo/vbo_context.h
+nv10_state_tex.o: ../../../../../src/mesa/vbo/vbo.h
+nv10_state_tex.o: ../../../../../src/mesa/vbo/vbo_attrib.h
+nv10_state_tex.o: ../../../../../src/mesa/vbo/vbo_exec.h
+nv10_state_tex.o: ../../../../../src/mesa/vbo/vbo_save.h nouveau_array.h
+nv10_state_tex.o: ../../../../../src/mesa/main/bitset.h nouveau_gldefs.h
+nv10_state_tex.o: nouveau_texture.h
+nv10_state_tex.o: ../../../../../src/mesa/swrast/s_context.h
+nv10_state_tex.o: ../../../../../src/mesa/main/compiler.h
+nv10_state_tex.o: ../../../../../src/mesa/program/prog_execute.h
+nv10_state_tex.o: ../../../../../src/mesa/swrast/swrast.h
+nv10_state_tex.o: ../../../../../src/mesa/swrast/s_chan.h
+nv10_state_tex.o: ../../../../../src/mesa/swrast/s_span.h nv10_3d.xml.h
+nv10_state_tex.o: nouveau_util.h ../../../../../src/mesa/main/colormac.h
+nv10_state_tex.o: ../../../../../src/mesa/main/config.h
+nv10_state_tex.o: ../../../../../src/mesa/main/macros.h nv10_driver.h
+nv10_state_frag.o: nouveau_driver.h ../../../../../src/mesa/main/imports.h
+nv10_state_frag.o: ../../../../../src/mesa/main/compiler.h
+nv10_state_frag.o: /usr/include/assert.h /usr/include/features.h
+nv10_state_frag.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+nv10_state_frag.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+nv10_state_frag.o: /usr/include/ctype.h /usr/include/bits/types.h
+nv10_state_frag.o: /usr/include/bits/typesizes.h /usr/include/endian.h
+nv10_state_frag.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+nv10_state_frag.o: /usr/include/xlocale.h /usr/include/math.h
+nv10_state_frag.o: /usr/include/bits/huge_val.h /usr/include/bits/huge_valf.h
+nv10_state_frag.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+nv10_state_frag.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+nv10_state_frag.o: /usr/include/bits/mathcalls.h
+nv10_state_frag.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+nv10_state_frag.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+nv10_state_frag.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+nv10_state_frag.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+nv10_state_frag.o: /usr/include/bits/posix2_lim.h /usr/include/stdlib.h
+nv10_state_frag.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+nv10_state_frag.o: /usr/include/bits/waitflags.h
+nv10_state_frag.o: /usr/include/bits/waitstatus.h /usr/include/sys/types.h
+nv10_state_frag.o: /usr/include/time.h /usr/include/sys/select.h
+nv10_state_frag.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+nv10_state_frag.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+nv10_state_frag.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+nv10_state_frag.o: /usr/include/stdio.h /usr/include/libio.h
+nv10_state_frag.o: /usr/include/_G_config.h /usr/include/wchar.h
+nv10_state_frag.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+nv10_state_frag.o: /usr/include/bits/stdio_lim.h
+nv10_state_frag.o: /usr/include/bits/sys_errlist.h /usr/include/string.h
+nv10_state_frag.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+nv10_state_frag.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+nv10_state_frag.o: ../../../../../src/mesa/main/glheader.h
+nv10_state_frag.o: ../../../../../src/mesa/main/mtypes.h
+nv10_state_frag.o: ../../../../../src/mesa/main/glheader.h
+nv10_state_frag.o: ../../../../../include/GL/gl.h
+nv10_state_frag.o: ../../../../../include/GL/glext.h /usr/include/inttypes.h
+nv10_state_frag.o: ../../../../../src/mesa/main/config.h
+nv10_state_frag.o: ../../../../../src/mesa/main/mfeatures.h
+nv10_state_frag.o: ../../../../../src/mapi/glapi/glapi.h
+nv10_state_frag.o: ../../../../../src/mapi/glapi/glthread.h
+nv10_state_frag.o: ../../../../../src/mapi/mapi/u_thread.h
+nv10_state_frag.o: ../../../../../src/mapi/mapi/u_compiler.h
+nv10_state_frag.o: ../../../../../src/mesa/math/m_matrix.h
+nv10_state_frag.o: ../../../../../src/mesa/main/simple_list.h
+nv10_state_frag.o: ../../../../../src/mesa/main/formats.h
+nv10_state_frag.o: ../../../../../src/mesa/main/dd.h
+nv10_state_frag.o: ../../../../../src/mesa/main/macros.h
+nv10_state_frag.o: ../../../../../src/mesa/main/imports.h
+nv10_state_frag.o: ../../../../../src/mesa/main/state.h
+nv10_state_frag.o: ../../../../../src/mesa/main/mtypes.h ../common/utils.h
+nv10_state_frag.o: ../../../../../include/GL/internal/dri_interface.h
+nv10_state_frag.o: /usr/include/libdrm/drm.h /usr/include/libdrm/drm_mode.h
+nv10_state_frag.o: ../../../../../src/mesa/main/context.h
+nv10_state_frag.o: ../common/dri_util.h ../common/xmlconfig.h
+nv10_state_frag.o: /usr/include/nouveau/nouveau_device.h
+nv10_state_frag.o: /usr/include/nouveau/nouveau_grobj.h
+nv10_state_frag.o: /usr/include/nouveau/nouveau_channel.h
+nv10_state_frag.o: /usr/include/nouveau/nouveau_bo.h
+nv10_state_frag.o: /usr/include/nouveau/nouveau_notifier.h nouveau_screen.h
+nv10_state_frag.o: nouveau_state.h nouveau_surface.h
+nv10_state_frag.o: /usr/include/nouveau/nv04_pushbuf.h
+nv10_state_frag.o: /usr/include/nouveau/nouveau_pushbuf.h nouveau_context.h
+nv10_state_frag.o: nouveau_bo_state.h nouveau_scratch.h nouveau_render.h
+nv10_state_frag.o: ../../../../../src/mesa/vbo/vbo_context.h
+nv10_state_frag.o: ../../../../../src/mesa/vbo/vbo.h
+nv10_state_frag.o: ../../../../../src/mesa/vbo/vbo_attrib.h
+nv10_state_frag.o: ../../../../../src/mesa/vbo/vbo_exec.h
+nv10_state_frag.o: ../../../../../src/mesa/vbo/vbo_save.h nouveau_array.h
+nv10_state_frag.o: ../../../../../src/mesa/main/bitset.h nouveau_gldefs.h
+nv10_state_frag.o: nv10_3d.xml.h nouveau_util.h
+nv10_state_frag.o: ../../../../../src/mesa/main/colormac.h
+nv10_state_frag.o: ../../../../../src/mesa/main/config.h
+nv10_state_frag.o: ../../../../../src/mesa/main/macros.h nv10_driver.h
+nv10_state_frag.o: nv20_driver.h
+nv10_state_tnl.o: nouveau_driver.h ../../../../../src/mesa/main/imports.h
+nv10_state_tnl.o: ../../../../../src/mesa/main/compiler.h
+nv10_state_tnl.o: /usr/include/assert.h /usr/include/features.h
+nv10_state_tnl.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+nv10_state_tnl.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+nv10_state_tnl.o: /usr/include/ctype.h /usr/include/bits/types.h
+nv10_state_tnl.o: /usr/include/bits/typesizes.h /usr/include/endian.h
+nv10_state_tnl.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+nv10_state_tnl.o: /usr/include/xlocale.h /usr/include/math.h
+nv10_state_tnl.o: /usr/include/bits/huge_val.h /usr/include/bits/huge_valf.h
+nv10_state_tnl.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+nv10_state_tnl.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+nv10_state_tnl.o: /usr/include/bits/mathcalls.h
+nv10_state_tnl.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+nv10_state_tnl.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+nv10_state_tnl.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+nv10_state_tnl.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+nv10_state_tnl.o: /usr/include/bits/posix2_lim.h /usr/include/stdlib.h
+nv10_state_tnl.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+nv10_state_tnl.o: /usr/include/bits/waitflags.h
+nv10_state_tnl.o: /usr/include/bits/waitstatus.h /usr/include/sys/types.h
+nv10_state_tnl.o: /usr/include/time.h /usr/include/sys/select.h
+nv10_state_tnl.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+nv10_state_tnl.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+nv10_state_tnl.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+nv10_state_tnl.o: /usr/include/stdio.h /usr/include/libio.h
+nv10_state_tnl.o: /usr/include/_G_config.h /usr/include/wchar.h
+nv10_state_tnl.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+nv10_state_tnl.o: /usr/include/bits/stdio_lim.h
+nv10_state_tnl.o: /usr/include/bits/sys_errlist.h /usr/include/string.h
+nv10_state_tnl.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+nv10_state_tnl.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+nv10_state_tnl.o: ../../../../../src/mesa/main/glheader.h
+nv10_state_tnl.o: ../../../../../src/mesa/main/mtypes.h
+nv10_state_tnl.o: ../../../../../src/mesa/main/glheader.h
+nv10_state_tnl.o: ../../../../../include/GL/gl.h
+nv10_state_tnl.o: ../../../../../include/GL/glext.h /usr/include/inttypes.h
+nv10_state_tnl.o: ../../../../../src/mesa/main/config.h
+nv10_state_tnl.o: ../../../../../src/mesa/main/mfeatures.h
+nv10_state_tnl.o: ../../../../../src/mapi/glapi/glapi.h
+nv10_state_tnl.o: ../../../../../src/mapi/glapi/glthread.h
+nv10_state_tnl.o: ../../../../../src/mapi/mapi/u_thread.h
+nv10_state_tnl.o: ../../../../../src/mapi/mapi/u_compiler.h
+nv10_state_tnl.o: ../../../../../src/mesa/math/m_matrix.h
+nv10_state_tnl.o: ../../../../../src/mesa/main/simple_list.h
+nv10_state_tnl.o: ../../../../../src/mesa/main/formats.h
+nv10_state_tnl.o: ../../../../../src/mesa/main/dd.h
+nv10_state_tnl.o: ../../../../../src/mesa/main/macros.h
+nv10_state_tnl.o: ../../../../../src/mesa/main/imports.h
+nv10_state_tnl.o: ../../../../../src/mesa/main/state.h
+nv10_state_tnl.o: ../../../../../src/mesa/main/mtypes.h ../common/utils.h
+nv10_state_tnl.o: ../../../../../include/GL/internal/dri_interface.h
+nv10_state_tnl.o: /usr/include/libdrm/drm.h /usr/include/libdrm/drm_mode.h
+nv10_state_tnl.o: ../../../../../src/mesa/main/context.h ../common/dri_util.h
+nv10_state_tnl.o: ../common/xmlconfig.h /usr/include/nouveau/nouveau_device.h
+nv10_state_tnl.o: /usr/include/nouveau/nouveau_grobj.h
+nv10_state_tnl.o: /usr/include/nouveau/nouveau_channel.h
+nv10_state_tnl.o: /usr/include/nouveau/nouveau_bo.h
+nv10_state_tnl.o: /usr/include/nouveau/nouveau_notifier.h nouveau_screen.h
+nv10_state_tnl.o: nouveau_state.h nouveau_surface.h
+nv10_state_tnl.o: /usr/include/nouveau/nv04_pushbuf.h
+nv10_state_tnl.o: /usr/include/nouveau/nouveau_pushbuf.h nouveau_context.h
+nv10_state_tnl.o: nouveau_bo_state.h nouveau_scratch.h nouveau_render.h
+nv10_state_tnl.o: ../../../../../src/mesa/vbo/vbo_context.h
+nv10_state_tnl.o: ../../../../../src/mesa/vbo/vbo.h
+nv10_state_tnl.o: ../../../../../src/mesa/vbo/vbo_attrib.h
+nv10_state_tnl.o: ../../../../../src/mesa/vbo/vbo_exec.h
+nv10_state_tnl.o: ../../../../../src/mesa/vbo/vbo_save.h nouveau_array.h
+nv10_state_tnl.o: ../../../../../src/mesa/main/bitset.h nouveau_gldefs.h
+nv10_state_tnl.o: nouveau_util.h ../../../../../src/mesa/main/colormac.h
+nv10_state_tnl.o: ../../../../../src/mesa/main/config.h
+nv10_state_tnl.o: ../../../../../src/mesa/main/macros.h nv10_3d.xml.h
+nv10_state_tnl.o: nv10_driver.h
+nv20_context.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+nv20_context.o: nouveau_driver.h ../../../../../src/mesa/main/imports.h
+nv20_context.o: ../../../../../src/mesa/main/compiler.h /usr/include/assert.h
+nv20_context.o: /usr/include/features.h /usr/include/sys/cdefs.h
+nv20_context.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+nv20_context.o: /usr/include/gnu/stubs-64.h /usr/include/ctype.h
+nv20_context.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+nv20_context.o: /usr/include/endian.h /usr/include/bits/endian.h
+nv20_context.o: /usr/include/bits/byteswap.h /usr/include/xlocale.h
+nv20_context.o: /usr/include/math.h /usr/include/bits/huge_val.h
+nv20_context.o: /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h
+nv20_context.o: /usr/include/bits/inf.h /usr/include/bits/nan.h
+nv20_context.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+nv20_context.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+nv20_context.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+nv20_context.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+nv20_context.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+nv20_context.o: /usr/include/bits/posix2_lim.h /usr/include/stdlib.h
+nv20_context.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+nv20_context.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+nv20_context.o: /usr/include/sys/types.h /usr/include/time.h
+nv20_context.o: /usr/include/sys/select.h /usr/include/bits/select.h
+nv20_context.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+nv20_context.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+nv20_context.o: /usr/include/alloca.h /usr/include/stdio.h
+nv20_context.o: /usr/include/libio.h /usr/include/_G_config.h
+nv20_context.o: /usr/include/wchar.h
+nv20_context.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+nv20_context.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+nv20_context.o: /usr/include/string.h
+nv20_context.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+nv20_context.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+nv20_context.o: ../../../../../src/mesa/main/glheader.h
+nv20_context.o: ../../../../../src/mesa/main/mtypes.h
+nv20_context.o: ../../../../../src/mesa/main/glheader.h
+nv20_context.o: ../../../../../include/GL/gl.h
+nv20_context.o: ../../../../../include/GL/glext.h /usr/include/inttypes.h
+nv20_context.o: ../../../../../src/mesa/main/config.h
+nv20_context.o: ../../../../../src/mesa/main/mfeatures.h
+nv20_context.o: ../../../../../src/mapi/glapi/glapi.h
+nv20_context.o: ../../../../../src/mapi/glapi/glthread.h
+nv20_context.o: ../../../../../src/mapi/mapi/u_thread.h
+nv20_context.o: ../../../../../src/mapi/mapi/u_compiler.h
+nv20_context.o: ../../../../../src/mesa/math/m_matrix.h
+nv20_context.o: ../../../../../src/mesa/main/simple_list.h
+nv20_context.o: ../../../../../src/mesa/main/formats.h
+nv20_context.o: ../../../../../src/mesa/main/dd.h
+nv20_context.o: ../../../../../src/mesa/main/macros.h
+nv20_context.o: ../../../../../src/mesa/main/imports.h
+nv20_context.o: ../../../../../src/mesa/main/state.h
+nv20_context.o: ../../../../../src/mesa/main/mtypes.h ../common/utils.h
+nv20_context.o: ../../../../../include/GL/internal/dri_interface.h
+nv20_context.o: /usr/include/libdrm/drm.h /usr/include/libdrm/drm_mode.h
+nv20_context.o: ../../../../../src/mesa/main/context.h ../common/dri_util.h
+nv20_context.o: ../common/xmlconfig.h /usr/include/nouveau/nouveau_device.h
+nv20_context.o: /usr/include/nouveau/nouveau_grobj.h
+nv20_context.o: /usr/include/nouveau/nouveau_channel.h
+nv20_context.o: /usr/include/nouveau/nouveau_bo.h
+nv20_context.o: /usr/include/nouveau/nouveau_notifier.h nouveau_screen.h
+nv20_context.o: nouveau_state.h nouveau_surface.h
+nv20_context.o: /usr/include/nouveau/nv04_pushbuf.h
+nv20_context.o: /usr/include/nouveau/nouveau_pushbuf.h nouveau_context.h
+nv20_context.o: nouveau_bo_state.h nouveau_scratch.h nouveau_render.h
+nv20_context.o: ../../../../../src/mesa/vbo/vbo_context.h
+nv20_context.o: ../../../../../src/mesa/vbo/vbo.h
+nv20_context.o: ../../../../../src/mesa/vbo/vbo_attrib.h
+nv20_context.o: ../../../../../src/mesa/vbo/vbo_exec.h
+nv20_context.o: ../../../../../src/mesa/vbo/vbo_save.h nouveau_array.h
+nv20_context.o: ../../../../../src/mesa/main/bitset.h nouveau_fbo.h
+nv20_context.o: nouveau_util.h ../../../../../src/mesa/main/colormac.h
+nv20_context.o: ../../../../../src/mesa/main/config.h
+nv20_context.o: ../../../../../src/mesa/main/macros.h nv_object.xml.h
+nv20_context.o: nv20_3d.xml.h nv04_driver.h nv04_context.h nv10_driver.h
+nv20_context.o: nv20_driver.h
+nv20_render.o: nouveau_driver.h ../../../../../src/mesa/main/imports.h
+nv20_render.o: ../../../../../src/mesa/main/compiler.h /usr/include/assert.h
+nv20_render.o: /usr/include/features.h /usr/include/sys/cdefs.h
+nv20_render.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+nv20_render.o: /usr/include/gnu/stubs-64.h /usr/include/ctype.h
+nv20_render.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+nv20_render.o: /usr/include/endian.h /usr/include/bits/endian.h
+nv20_render.o: /usr/include/bits/byteswap.h /usr/include/xlocale.h
+nv20_render.o: /usr/include/math.h /usr/include/bits/huge_val.h
+nv20_render.o: /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h
+nv20_render.o: /usr/include/bits/inf.h /usr/include/bits/nan.h
+nv20_render.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+nv20_render.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+nv20_render.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+nv20_render.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+nv20_render.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+nv20_render.o: /usr/include/bits/posix2_lim.h /usr/include/stdlib.h
+nv20_render.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+nv20_render.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+nv20_render.o: /usr/include/sys/types.h /usr/include/time.h
+nv20_render.o: /usr/include/sys/select.h /usr/include/bits/select.h
+nv20_render.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+nv20_render.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+nv20_render.o: /usr/include/alloca.h /usr/include/stdio.h
+nv20_render.o: /usr/include/libio.h /usr/include/_G_config.h
+nv20_render.o: /usr/include/wchar.h
+nv20_render.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+nv20_render.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+nv20_render.o: /usr/include/string.h
+nv20_render.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+nv20_render.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+nv20_render.o: ../../../../../src/mesa/main/glheader.h
+nv20_render.o: ../../../../../src/mesa/main/mtypes.h
+nv20_render.o: ../../../../../src/mesa/main/glheader.h
+nv20_render.o: ../../../../../include/GL/gl.h
+nv20_render.o: ../../../../../include/GL/glext.h /usr/include/inttypes.h
+nv20_render.o: ../../../../../src/mesa/main/config.h
+nv20_render.o: ../../../../../src/mesa/main/mfeatures.h
+nv20_render.o: ../../../../../src/mapi/glapi/glapi.h
+nv20_render.o: ../../../../../src/mapi/glapi/glthread.h
+nv20_render.o: ../../../../../src/mapi/mapi/u_thread.h
+nv20_render.o: ../../../../../src/mapi/mapi/u_compiler.h
+nv20_render.o: ../../../../../src/mesa/math/m_matrix.h
+nv20_render.o: ../../../../../src/mesa/main/simple_list.h
+nv20_render.o: ../../../../../src/mesa/main/formats.h
+nv20_render.o: ../../../../../src/mesa/main/dd.h
+nv20_render.o: ../../../../../src/mesa/main/macros.h
+nv20_render.o: ../../../../../src/mesa/main/imports.h
+nv20_render.o: ../../../../../src/mesa/main/state.h
+nv20_render.o: ../../../../../src/mesa/main/mtypes.h ../common/utils.h
+nv20_render.o: ../../../../../include/GL/internal/dri_interface.h
+nv20_render.o: /usr/include/libdrm/drm.h /usr/include/libdrm/drm_mode.h
+nv20_render.o: ../../../../../src/mesa/main/context.h ../common/dri_util.h
+nv20_render.o: ../common/xmlconfig.h /usr/include/nouveau/nouveau_device.h
+nv20_render.o: /usr/include/nouveau/nouveau_grobj.h
+nv20_render.o: /usr/include/nouveau/nouveau_channel.h
+nv20_render.o: /usr/include/nouveau/nouveau_bo.h
+nv20_render.o: /usr/include/nouveau/nouveau_notifier.h nouveau_screen.h
+nv20_render.o: nouveau_state.h nouveau_surface.h
+nv20_render.o: /usr/include/nouveau/nv04_pushbuf.h
+nv20_render.o: /usr/include/nouveau/nouveau_pushbuf.h nouveau_context.h
+nv20_render.o: nouveau_bo_state.h nouveau_scratch.h nouveau_render.h
+nv20_render.o: ../../../../../src/mesa/vbo/vbo_context.h
+nv20_render.o: ../../../../../src/mesa/vbo/vbo.h
+nv20_render.o: ../../../../../src/mesa/vbo/vbo_attrib.h
+nv20_render.o: ../../../../../src/mesa/vbo/vbo_exec.h
+nv20_render.o: ../../../../../src/mesa/vbo/vbo_save.h nouveau_array.h
+nv20_render.o: ../../../../../src/mesa/main/bitset.h nv20_3d.xml.h
+nv20_render.o: nv20_driver.h nouveau_render_t.c nouveau_gldefs.h
+nv20_render.o: ../../../../../src/mesa/main/light.h
+nv20_render.o: ../../../../../src/mesa/main/mfeatures.h
+nv20_render.o: ../../../../../src/mesa/vbo/vbo.h
+nv20_render.o: ../../../../../src/mesa/tnl/tnl.h nouveau_vbo_t.c
+nv20_render.o: nouveau_bufferobj.h nouveau_util.h
+nv20_render.o: ../../../../../src/mesa/main/colormac.h
+nv20_render.o: ../../../../../src/mesa/main/config.h
+nv20_render.o: ../../../../../src/mesa/main/macros.h
+nv20_render.o: ../../../../../src/mesa/main/bufferobj.h
+nv20_render.o: ../../../../../src/mesa/main/image.h nouveau_swtnl_t.c
+nv20_render.o: ../../../../../src/mesa/tnl/t_context.h
+nv20_render.o: ../../../../../src/mesa/math/m_vector.h
+nv20_render.o: ../../../../../src/mesa/tnl/t_pipeline.h
+nv20_render.o: ../../../../../src/mesa/tnl/t_context.h
+nv20_render.o: ../../../../../src/mesa/tnl/t_vertex.h
+nv20_state_fb.o: nouveau_driver.h ../../../../../src/mesa/main/imports.h
+nv20_state_fb.o: ../../../../../src/mesa/main/compiler.h
+nv20_state_fb.o: /usr/include/assert.h /usr/include/features.h
+nv20_state_fb.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+nv20_state_fb.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+nv20_state_fb.o: /usr/include/ctype.h /usr/include/bits/types.h
+nv20_state_fb.o: /usr/include/bits/typesizes.h /usr/include/endian.h
+nv20_state_fb.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+nv20_state_fb.o: /usr/include/xlocale.h /usr/include/math.h
+nv20_state_fb.o: /usr/include/bits/huge_val.h /usr/include/bits/huge_valf.h
+nv20_state_fb.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+nv20_state_fb.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+nv20_state_fb.o: /usr/include/bits/mathcalls.h
+nv20_state_fb.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+nv20_state_fb.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+nv20_state_fb.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+nv20_state_fb.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+nv20_state_fb.o: /usr/include/bits/posix2_lim.h /usr/include/stdlib.h
+nv20_state_fb.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+nv20_state_fb.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+nv20_state_fb.o: /usr/include/sys/types.h /usr/include/time.h
+nv20_state_fb.o: /usr/include/sys/select.h /usr/include/bits/select.h
+nv20_state_fb.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+nv20_state_fb.o: /usr/include/sys/sysmacros.h
+nv20_state_fb.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+nv20_state_fb.o: /usr/include/stdio.h /usr/include/libio.h
+nv20_state_fb.o: /usr/include/_G_config.h /usr/include/wchar.h
+nv20_state_fb.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+nv20_state_fb.o: /usr/include/bits/stdio_lim.h
+nv20_state_fb.o: /usr/include/bits/sys_errlist.h /usr/include/string.h
+nv20_state_fb.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+nv20_state_fb.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+nv20_state_fb.o: ../../../../../src/mesa/main/glheader.h
+nv20_state_fb.o: ../../../../../src/mesa/main/mtypes.h
+nv20_state_fb.o: ../../../../../src/mesa/main/glheader.h
+nv20_state_fb.o: ../../../../../include/GL/gl.h
+nv20_state_fb.o: ../../../../../include/GL/glext.h /usr/include/inttypes.h
+nv20_state_fb.o: ../../../../../src/mesa/main/config.h
+nv20_state_fb.o: ../../../../../src/mesa/main/mfeatures.h
+nv20_state_fb.o: ../../../../../src/mapi/glapi/glapi.h
+nv20_state_fb.o: ../../../../../src/mapi/glapi/glthread.h
+nv20_state_fb.o: ../../../../../src/mapi/mapi/u_thread.h
+nv20_state_fb.o: ../../../../../src/mapi/mapi/u_compiler.h
+nv20_state_fb.o: ../../../../../src/mesa/math/m_matrix.h
+nv20_state_fb.o: ../../../../../src/mesa/main/simple_list.h
+nv20_state_fb.o: ../../../../../src/mesa/main/formats.h
+nv20_state_fb.o: ../../../../../src/mesa/main/dd.h
+nv20_state_fb.o: ../../../../../src/mesa/main/macros.h
+nv20_state_fb.o: ../../../../../src/mesa/main/imports.h
+nv20_state_fb.o: ../../../../../src/mesa/main/state.h
+nv20_state_fb.o: ../../../../../src/mesa/main/mtypes.h ../common/utils.h
+nv20_state_fb.o: ../../../../../include/GL/internal/dri_interface.h
+nv20_state_fb.o: /usr/include/libdrm/drm.h /usr/include/libdrm/drm_mode.h
+nv20_state_fb.o: ../../../../../src/mesa/main/context.h ../common/dri_util.h
+nv20_state_fb.o: ../common/xmlconfig.h /usr/include/nouveau/nouveau_device.h
+nv20_state_fb.o: /usr/include/nouveau/nouveau_grobj.h
+nv20_state_fb.o: /usr/include/nouveau/nouveau_channel.h
+nv20_state_fb.o: /usr/include/nouveau/nouveau_bo.h
+nv20_state_fb.o: /usr/include/nouveau/nouveau_notifier.h nouveau_screen.h
+nv20_state_fb.o: nouveau_state.h nouveau_surface.h
+nv20_state_fb.o: /usr/include/nouveau/nv04_pushbuf.h
+nv20_state_fb.o: /usr/include/nouveau/nouveau_pushbuf.h nouveau_context.h
+nv20_state_fb.o: nouveau_bo_state.h nouveau_scratch.h nouveau_render.h
+nv20_state_fb.o: ../../../../../src/mesa/vbo/vbo_context.h
+nv20_state_fb.o: ../../../../../src/mesa/vbo/vbo.h
+nv20_state_fb.o: ../../../../../src/mesa/vbo/vbo_attrib.h
+nv20_state_fb.o: ../../../../../src/mesa/vbo/vbo_exec.h
+nv20_state_fb.o: ../../../../../src/mesa/vbo/vbo_save.h nouveau_array.h
+nv20_state_fb.o: ../../../../../src/mesa/main/bitset.h nouveau_fbo.h
+nv20_state_fb.o: nouveau_gldefs.h nouveau_util.h
+nv20_state_fb.o: ../../../../../src/mesa/main/colormac.h
+nv20_state_fb.o: ../../../../../src/mesa/main/config.h
+nv20_state_fb.o: ../../../../../src/mesa/main/macros.h nv20_3d.xml.h
+nv20_state_fb.o: nv20_driver.h
+nv20_state_polygon.o: nouveau_driver.h ../../../../../src/mesa/main/imports.h
+nv20_state_polygon.o: ../../../../../src/mesa/main/compiler.h
+nv20_state_polygon.o: /usr/include/assert.h /usr/include/features.h
+nv20_state_polygon.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+nv20_state_polygon.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+nv20_state_polygon.o: /usr/include/ctype.h /usr/include/bits/types.h
+nv20_state_polygon.o: /usr/include/bits/typesizes.h /usr/include/endian.h
+nv20_state_polygon.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+nv20_state_polygon.o: /usr/include/xlocale.h /usr/include/math.h
+nv20_state_polygon.o: /usr/include/bits/huge_val.h
+nv20_state_polygon.o: /usr/include/bits/huge_valf.h
+nv20_state_polygon.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+nv20_state_polygon.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+nv20_state_polygon.o: /usr/include/bits/mathcalls.h
+nv20_state_polygon.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+nv20_state_polygon.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+nv20_state_polygon.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+nv20_state_polygon.o: /usr/include/bits/local_lim.h
+nv20_state_polygon.o: /usr/include/linux/limits.h
+nv20_state_polygon.o: /usr/include/bits/posix2_lim.h /usr/include/stdlib.h
+nv20_state_polygon.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+nv20_state_polygon.o: /usr/include/bits/waitflags.h
+nv20_state_polygon.o: /usr/include/bits/waitstatus.h /usr/include/sys/types.h
+nv20_state_polygon.o: /usr/include/time.h /usr/include/sys/select.h
+nv20_state_polygon.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+nv20_state_polygon.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+nv20_state_polygon.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+nv20_state_polygon.o: /usr/include/stdio.h /usr/include/libio.h
+nv20_state_polygon.o: /usr/include/_G_config.h /usr/include/wchar.h
+nv20_state_polygon.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+nv20_state_polygon.o: /usr/include/bits/stdio_lim.h
+nv20_state_polygon.o: /usr/include/bits/sys_errlist.h /usr/include/string.h
+nv20_state_polygon.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+nv20_state_polygon.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+nv20_state_polygon.o: ../../../../../src/mesa/main/glheader.h
+nv20_state_polygon.o: ../../../../../src/mesa/main/mtypes.h
+nv20_state_polygon.o: ../../../../../src/mesa/main/glheader.h
+nv20_state_polygon.o: ../../../../../include/GL/gl.h
+nv20_state_polygon.o: ../../../../../include/GL/glext.h
+nv20_state_polygon.o: /usr/include/inttypes.h
+nv20_state_polygon.o: ../../../../../src/mesa/main/config.h
+nv20_state_polygon.o: ../../../../../src/mesa/main/mfeatures.h
+nv20_state_polygon.o: ../../../../../src/mapi/glapi/glapi.h
+nv20_state_polygon.o: ../../../../../src/mapi/glapi/glthread.h
+nv20_state_polygon.o: ../../../../../src/mapi/mapi/u_thread.h
+nv20_state_polygon.o: ../../../../../src/mapi/mapi/u_compiler.h
+nv20_state_polygon.o: ../../../../../src/mesa/math/m_matrix.h
+nv20_state_polygon.o: ../../../../../src/mesa/main/simple_list.h
+nv20_state_polygon.o: ../../../../../src/mesa/main/formats.h
+nv20_state_polygon.o: ../../../../../src/mesa/main/dd.h
+nv20_state_polygon.o: ../../../../../src/mesa/main/macros.h
+nv20_state_polygon.o: ../../../../../src/mesa/main/imports.h
+nv20_state_polygon.o: ../../../../../src/mesa/main/state.h
+nv20_state_polygon.o: ../../../../../src/mesa/main/mtypes.h ../common/utils.h
+nv20_state_polygon.o: ../../../../../include/GL/internal/dri_interface.h
+nv20_state_polygon.o: /usr/include/libdrm/drm.h
+nv20_state_polygon.o: /usr/include/libdrm/drm_mode.h
+nv20_state_polygon.o: ../../../../../src/mesa/main/context.h
+nv20_state_polygon.o: ../common/dri_util.h ../common/xmlconfig.h
+nv20_state_polygon.o: /usr/include/nouveau/nouveau_device.h
+nv20_state_polygon.o: /usr/include/nouveau/nouveau_grobj.h
+nv20_state_polygon.o: /usr/include/nouveau/nouveau_channel.h
+nv20_state_polygon.o: /usr/include/nouveau/nouveau_bo.h
+nv20_state_polygon.o: /usr/include/nouveau/nouveau_notifier.h
+nv20_state_polygon.o: nouveau_screen.h nouveau_state.h nouveau_surface.h
+nv20_state_polygon.o: /usr/include/nouveau/nv04_pushbuf.h
+nv20_state_polygon.o: /usr/include/nouveau/nouveau_pushbuf.h
+nv20_state_polygon.o: nouveau_context.h nouveau_bo_state.h nouveau_scratch.h
+nv20_state_polygon.o: nouveau_render.h
+nv20_state_polygon.o: ../../../../../src/mesa/vbo/vbo_context.h
+nv20_state_polygon.o: ../../../../../src/mesa/vbo/vbo.h
+nv20_state_polygon.o: ../../../../../src/mesa/vbo/vbo_attrib.h
+nv20_state_polygon.o: ../../../../../src/mesa/vbo/vbo_exec.h
+nv20_state_polygon.o: ../../../../../src/mesa/vbo/vbo_save.h nouveau_array.h
+nv20_state_polygon.o: ../../../../../src/mesa/main/bitset.h nouveau_gldefs.h
+nv20_state_polygon.o: nv20_3d.xml.h nv20_driver.h
+nv20_state_raster.o: nouveau_driver.h ../../../../../src/mesa/main/imports.h
+nv20_state_raster.o: ../../../../../src/mesa/main/compiler.h
+nv20_state_raster.o: /usr/include/assert.h /usr/include/features.h
+nv20_state_raster.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+nv20_state_raster.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+nv20_state_raster.o: /usr/include/ctype.h /usr/include/bits/types.h
+nv20_state_raster.o: /usr/include/bits/typesizes.h /usr/include/endian.h
+nv20_state_raster.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+nv20_state_raster.o: /usr/include/xlocale.h /usr/include/math.h
+nv20_state_raster.o: /usr/include/bits/huge_val.h
+nv20_state_raster.o: /usr/include/bits/huge_valf.h
+nv20_state_raster.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+nv20_state_raster.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+nv20_state_raster.o: /usr/include/bits/mathcalls.h
+nv20_state_raster.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+nv20_state_raster.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+nv20_state_raster.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+nv20_state_raster.o: /usr/include/bits/local_lim.h
+nv20_state_raster.o: /usr/include/linux/limits.h
+nv20_state_raster.o: /usr/include/bits/posix2_lim.h /usr/include/stdlib.h
+nv20_state_raster.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+nv20_state_raster.o: /usr/include/bits/waitflags.h
+nv20_state_raster.o: /usr/include/bits/waitstatus.h /usr/include/sys/types.h
+nv20_state_raster.o: /usr/include/time.h /usr/include/sys/select.h
+nv20_state_raster.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+nv20_state_raster.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+nv20_state_raster.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+nv20_state_raster.o: /usr/include/stdio.h /usr/include/libio.h
+nv20_state_raster.o: /usr/include/_G_config.h /usr/include/wchar.h
+nv20_state_raster.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+nv20_state_raster.o: /usr/include/bits/stdio_lim.h
+nv20_state_raster.o: /usr/include/bits/sys_errlist.h /usr/include/string.h
+nv20_state_raster.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+nv20_state_raster.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+nv20_state_raster.o: ../../../../../src/mesa/main/glheader.h
+nv20_state_raster.o: ../../../../../src/mesa/main/mtypes.h
+nv20_state_raster.o: ../../../../../src/mesa/main/glheader.h
+nv20_state_raster.o: ../../../../../include/GL/gl.h
+nv20_state_raster.o: ../../../../../include/GL/glext.h
+nv20_state_raster.o: /usr/include/inttypes.h
+nv20_state_raster.o: ../../../../../src/mesa/main/config.h
+nv20_state_raster.o: ../../../../../src/mesa/main/mfeatures.h
+nv20_state_raster.o: ../../../../../src/mapi/glapi/glapi.h
+nv20_state_raster.o: ../../../../../src/mapi/glapi/glthread.h
+nv20_state_raster.o: ../../../../../src/mapi/mapi/u_thread.h
+nv20_state_raster.o: ../../../../../src/mapi/mapi/u_compiler.h
+nv20_state_raster.o: ../../../../../src/mesa/math/m_matrix.h
+nv20_state_raster.o: ../../../../../src/mesa/main/simple_list.h
+nv20_state_raster.o: ../../../../../src/mesa/main/formats.h
+nv20_state_raster.o: ../../../../../src/mesa/main/dd.h
+nv20_state_raster.o: ../../../../../src/mesa/main/macros.h
+nv20_state_raster.o: ../../../../../src/mesa/main/imports.h
+nv20_state_raster.o: ../../../../../src/mesa/main/state.h
+nv20_state_raster.o: ../../../../../src/mesa/main/mtypes.h ../common/utils.h
+nv20_state_raster.o: ../../../../../include/GL/internal/dri_interface.h
+nv20_state_raster.o: /usr/include/libdrm/drm.h /usr/include/libdrm/drm_mode.h
+nv20_state_raster.o: ../../../../../src/mesa/main/context.h
+nv20_state_raster.o: ../common/dri_util.h ../common/xmlconfig.h
+nv20_state_raster.o: /usr/include/nouveau/nouveau_device.h
+nv20_state_raster.o: /usr/include/nouveau/nouveau_grobj.h
+nv20_state_raster.o: /usr/include/nouveau/nouveau_channel.h
+nv20_state_raster.o: /usr/include/nouveau/nouveau_bo.h
+nv20_state_raster.o: /usr/include/nouveau/nouveau_notifier.h nouveau_screen.h
+nv20_state_raster.o: nouveau_state.h nouveau_surface.h
+nv20_state_raster.o: /usr/include/nouveau/nv04_pushbuf.h
+nv20_state_raster.o: /usr/include/nouveau/nouveau_pushbuf.h nouveau_context.h
+nv20_state_raster.o: nouveau_bo_state.h nouveau_scratch.h nouveau_render.h
+nv20_state_raster.o: ../../../../../src/mesa/vbo/vbo_context.h
+nv20_state_raster.o: ../../../../../src/mesa/vbo/vbo.h
+nv20_state_raster.o: ../../../../../src/mesa/vbo/vbo_attrib.h
+nv20_state_raster.o: ../../../../../src/mesa/vbo/vbo_exec.h
+nv20_state_raster.o: ../../../../../src/mesa/vbo/vbo_save.h nouveau_array.h
+nv20_state_raster.o: ../../../../../src/mesa/main/bitset.h nouveau_gldefs.h
+nv20_state_raster.o: nouveau_util.h ../../../../../src/mesa/main/colormac.h
+nv20_state_raster.o: ../../../../../src/mesa/main/config.h
+nv20_state_raster.o: ../../../../../src/mesa/main/macros.h nv20_3d.xml.h
+nv20_state_raster.o: nv20_driver.h
+nv20_state_tex.o: nouveau_driver.h ../../../../../src/mesa/main/imports.h
+nv20_state_tex.o: ../../../../../src/mesa/main/compiler.h
+nv20_state_tex.o: /usr/include/assert.h /usr/include/features.h
+nv20_state_tex.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+nv20_state_tex.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+nv20_state_tex.o: /usr/include/ctype.h /usr/include/bits/types.h
+nv20_state_tex.o: /usr/include/bits/typesizes.h /usr/include/endian.h
+nv20_state_tex.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+nv20_state_tex.o: /usr/include/xlocale.h /usr/include/math.h
+nv20_state_tex.o: /usr/include/bits/huge_val.h /usr/include/bits/huge_valf.h
+nv20_state_tex.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+nv20_state_tex.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+nv20_state_tex.o: /usr/include/bits/mathcalls.h
+nv20_state_tex.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+nv20_state_tex.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+nv20_state_tex.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+nv20_state_tex.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+nv20_state_tex.o: /usr/include/bits/posix2_lim.h /usr/include/stdlib.h
+nv20_state_tex.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+nv20_state_tex.o: /usr/include/bits/waitflags.h
+nv20_state_tex.o: /usr/include/bits/waitstatus.h /usr/include/sys/types.h
+nv20_state_tex.o: /usr/include/time.h /usr/include/sys/select.h
+nv20_state_tex.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+nv20_state_tex.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+nv20_state_tex.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+nv20_state_tex.o: /usr/include/stdio.h /usr/include/libio.h
+nv20_state_tex.o: /usr/include/_G_config.h /usr/include/wchar.h
+nv20_state_tex.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+nv20_state_tex.o: /usr/include/bits/stdio_lim.h
+nv20_state_tex.o: /usr/include/bits/sys_errlist.h /usr/include/string.h
+nv20_state_tex.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+nv20_state_tex.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+nv20_state_tex.o: ../../../../../src/mesa/main/glheader.h
+nv20_state_tex.o: ../../../../../src/mesa/main/mtypes.h
+nv20_state_tex.o: ../../../../../src/mesa/main/glheader.h
+nv20_state_tex.o: ../../../../../include/GL/gl.h
+nv20_state_tex.o: ../../../../../include/GL/glext.h /usr/include/inttypes.h
+nv20_state_tex.o: ../../../../../src/mesa/main/config.h
+nv20_state_tex.o: ../../../../../src/mesa/main/mfeatures.h
+nv20_state_tex.o: ../../../../../src/mapi/glapi/glapi.h
+nv20_state_tex.o: ../../../../../src/mapi/glapi/glthread.h
+nv20_state_tex.o: ../../../../../src/mapi/mapi/u_thread.h
+nv20_state_tex.o: ../../../../../src/mapi/mapi/u_compiler.h
+nv20_state_tex.o: ../../../../../src/mesa/math/m_matrix.h
+nv20_state_tex.o: ../../../../../src/mesa/main/simple_list.h
+nv20_state_tex.o: ../../../../../src/mesa/main/formats.h
+nv20_state_tex.o: ../../../../../src/mesa/main/dd.h
+nv20_state_tex.o: ../../../../../src/mesa/main/macros.h
+nv20_state_tex.o: ../../../../../src/mesa/main/imports.h
+nv20_state_tex.o: ../../../../../src/mesa/main/state.h
+nv20_state_tex.o: ../../../../../src/mesa/main/mtypes.h ../common/utils.h
+nv20_state_tex.o: ../../../../../include/GL/internal/dri_interface.h
+nv20_state_tex.o: /usr/include/libdrm/drm.h /usr/include/libdrm/drm_mode.h
+nv20_state_tex.o: ../../../../../src/mesa/main/context.h ../common/dri_util.h
+nv20_state_tex.o: ../common/xmlconfig.h /usr/include/nouveau/nouveau_device.h
+nv20_state_tex.o: /usr/include/nouveau/nouveau_grobj.h
+nv20_state_tex.o: /usr/include/nouveau/nouveau_channel.h
+nv20_state_tex.o: /usr/include/nouveau/nouveau_bo.h
+nv20_state_tex.o: /usr/include/nouveau/nouveau_notifier.h nouveau_screen.h
+nv20_state_tex.o: nouveau_state.h nouveau_surface.h
+nv20_state_tex.o: /usr/include/nouveau/nv04_pushbuf.h
+nv20_state_tex.o: /usr/include/nouveau/nouveau_pushbuf.h nouveau_context.h
+nv20_state_tex.o: nouveau_bo_state.h nouveau_scratch.h nouveau_render.h
+nv20_state_tex.o: ../../../../../src/mesa/vbo/vbo_context.h
+nv20_state_tex.o: ../../../../../src/mesa/vbo/vbo.h
+nv20_state_tex.o: ../../../../../src/mesa/vbo/vbo_attrib.h
+nv20_state_tex.o: ../../../../../src/mesa/vbo/vbo_exec.h
+nv20_state_tex.o: ../../../../../src/mesa/vbo/vbo_save.h nouveau_array.h
+nv20_state_tex.o: ../../../../../src/mesa/main/bitset.h nouveau_gldefs.h
+nv20_state_tex.o: nouveau_texture.h
+nv20_state_tex.o: ../../../../../src/mesa/swrast/s_context.h
+nv20_state_tex.o: ../../../../../src/mesa/main/compiler.h
+nv20_state_tex.o: ../../../../../src/mesa/program/prog_execute.h
+nv20_state_tex.o: ../../../../../src/mesa/swrast/swrast.h
+nv20_state_tex.o: ../../../../../src/mesa/swrast/s_chan.h
+nv20_state_tex.o: ../../../../../src/mesa/swrast/s_span.h nv20_3d.xml.h
+nv20_state_tex.o: nouveau_util.h ../../../../../src/mesa/main/colormac.h
+nv20_state_tex.o: ../../../../../src/mesa/main/config.h
+nv20_state_tex.o: ../../../../../src/mesa/main/macros.h nv20_driver.h
+nv20_state_frag.o: nouveau_driver.h ../../../../../src/mesa/main/imports.h
+nv20_state_frag.o: ../../../../../src/mesa/main/compiler.h
+nv20_state_frag.o: /usr/include/assert.h /usr/include/features.h
+nv20_state_frag.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+nv20_state_frag.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+nv20_state_frag.o: /usr/include/ctype.h /usr/include/bits/types.h
+nv20_state_frag.o: /usr/include/bits/typesizes.h /usr/include/endian.h
+nv20_state_frag.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+nv20_state_frag.o: /usr/include/xlocale.h /usr/include/math.h
+nv20_state_frag.o: /usr/include/bits/huge_val.h /usr/include/bits/huge_valf.h
+nv20_state_frag.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+nv20_state_frag.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+nv20_state_frag.o: /usr/include/bits/mathcalls.h
+nv20_state_frag.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+nv20_state_frag.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+nv20_state_frag.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+nv20_state_frag.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+nv20_state_frag.o: /usr/include/bits/posix2_lim.h /usr/include/stdlib.h
+nv20_state_frag.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+nv20_state_frag.o: /usr/include/bits/waitflags.h
+nv20_state_frag.o: /usr/include/bits/waitstatus.h /usr/include/sys/types.h
+nv20_state_frag.o: /usr/include/time.h /usr/include/sys/select.h
+nv20_state_frag.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+nv20_state_frag.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+nv20_state_frag.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+nv20_state_frag.o: /usr/include/stdio.h /usr/include/libio.h
+nv20_state_frag.o: /usr/include/_G_config.h /usr/include/wchar.h
+nv20_state_frag.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+nv20_state_frag.o: /usr/include/bits/stdio_lim.h
+nv20_state_frag.o: /usr/include/bits/sys_errlist.h /usr/include/string.h
+nv20_state_frag.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+nv20_state_frag.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+nv20_state_frag.o: ../../../../../src/mesa/main/glheader.h
+nv20_state_frag.o: ../../../../../src/mesa/main/mtypes.h
+nv20_state_frag.o: ../../../../../src/mesa/main/glheader.h
+nv20_state_frag.o: ../../../../../include/GL/gl.h
+nv20_state_frag.o: ../../../../../include/GL/glext.h /usr/include/inttypes.h
+nv20_state_frag.o: ../../../../../src/mesa/main/config.h
+nv20_state_frag.o: ../../../../../src/mesa/main/mfeatures.h
+nv20_state_frag.o: ../../../../../src/mapi/glapi/glapi.h
+nv20_state_frag.o: ../../../../../src/mapi/glapi/glthread.h
+nv20_state_frag.o: ../../../../../src/mapi/mapi/u_thread.h
+nv20_state_frag.o: ../../../../../src/mapi/mapi/u_compiler.h
+nv20_state_frag.o: ../../../../../src/mesa/math/m_matrix.h
+nv20_state_frag.o: ../../../../../src/mesa/main/simple_list.h
+nv20_state_frag.o: ../../../../../src/mesa/main/formats.h
+nv20_state_frag.o: ../../../../../src/mesa/main/dd.h
+nv20_state_frag.o: ../../../../../src/mesa/main/macros.h
+nv20_state_frag.o: ../../../../../src/mesa/main/imports.h
+nv20_state_frag.o: ../../../../../src/mesa/main/state.h
+nv20_state_frag.o: ../../../../../src/mesa/main/mtypes.h ../common/utils.h
+nv20_state_frag.o: ../../../../../include/GL/internal/dri_interface.h
+nv20_state_frag.o: /usr/include/libdrm/drm.h /usr/include/libdrm/drm_mode.h
+nv20_state_frag.o: ../../../../../src/mesa/main/context.h
+nv20_state_frag.o: ../common/dri_util.h ../common/xmlconfig.h
+nv20_state_frag.o: /usr/include/nouveau/nouveau_device.h
+nv20_state_frag.o: /usr/include/nouveau/nouveau_grobj.h
+nv20_state_frag.o: /usr/include/nouveau/nouveau_channel.h
+nv20_state_frag.o: /usr/include/nouveau/nouveau_bo.h
+nv20_state_frag.o: /usr/include/nouveau/nouveau_notifier.h nouveau_screen.h
+nv20_state_frag.o: nouveau_state.h nouveau_surface.h
+nv20_state_frag.o: /usr/include/nouveau/nv04_pushbuf.h
+nv20_state_frag.o: /usr/include/nouveau/nouveau_pushbuf.h nouveau_context.h
+nv20_state_frag.o: nouveau_bo_state.h nouveau_scratch.h nouveau_render.h
+nv20_state_frag.o: ../../../../../src/mesa/vbo/vbo_context.h
+nv20_state_frag.o: ../../../../../src/mesa/vbo/vbo.h
+nv20_state_frag.o: ../../../../../src/mesa/vbo/vbo_attrib.h
+nv20_state_frag.o: ../../../../../src/mesa/vbo/vbo_exec.h
+nv20_state_frag.o: ../../../../../src/mesa/vbo/vbo_save.h nouveau_array.h
+nv20_state_frag.o: ../../../../../src/mesa/main/bitset.h nv20_3d.xml.h
+nv20_state_frag.o: nv10_driver.h nv20_driver.h
+nv20_state_tnl.o: nouveau_driver.h ../../../../../src/mesa/main/imports.h
+nv20_state_tnl.o: ../../../../../src/mesa/main/compiler.h
+nv20_state_tnl.o: /usr/include/assert.h /usr/include/features.h
+nv20_state_tnl.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+nv20_state_tnl.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+nv20_state_tnl.o: /usr/include/ctype.h /usr/include/bits/types.h
+nv20_state_tnl.o: /usr/include/bits/typesizes.h /usr/include/endian.h
+nv20_state_tnl.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+nv20_state_tnl.o: /usr/include/xlocale.h /usr/include/math.h
+nv20_state_tnl.o: /usr/include/bits/huge_val.h /usr/include/bits/huge_valf.h
+nv20_state_tnl.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+nv20_state_tnl.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+nv20_state_tnl.o: /usr/include/bits/mathcalls.h
+nv20_state_tnl.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+nv20_state_tnl.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+nv20_state_tnl.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+nv20_state_tnl.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+nv20_state_tnl.o: /usr/include/bits/posix2_lim.h /usr/include/stdlib.h
+nv20_state_tnl.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+nv20_state_tnl.o: /usr/include/bits/waitflags.h
+nv20_state_tnl.o: /usr/include/bits/waitstatus.h /usr/include/sys/types.h
+nv20_state_tnl.o: /usr/include/time.h /usr/include/sys/select.h
+nv20_state_tnl.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+nv20_state_tnl.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+nv20_state_tnl.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+nv20_state_tnl.o: /usr/include/stdio.h /usr/include/libio.h
+nv20_state_tnl.o: /usr/include/_G_config.h /usr/include/wchar.h
+nv20_state_tnl.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+nv20_state_tnl.o: /usr/include/bits/stdio_lim.h
+nv20_state_tnl.o: /usr/include/bits/sys_errlist.h /usr/include/string.h
+nv20_state_tnl.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+nv20_state_tnl.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+nv20_state_tnl.o: ../../../../../src/mesa/main/glheader.h
+nv20_state_tnl.o: ../../../../../src/mesa/main/mtypes.h
+nv20_state_tnl.o: ../../../../../src/mesa/main/glheader.h
+nv20_state_tnl.o: ../../../../../include/GL/gl.h
+nv20_state_tnl.o: ../../../../../include/GL/glext.h /usr/include/inttypes.h
+nv20_state_tnl.o: ../../../../../src/mesa/main/config.h
+nv20_state_tnl.o: ../../../../../src/mesa/main/mfeatures.h
+nv20_state_tnl.o: ../../../../../src/mapi/glapi/glapi.h
+nv20_state_tnl.o: ../../../../../src/mapi/glapi/glthread.h
+nv20_state_tnl.o: ../../../../../src/mapi/mapi/u_thread.h
+nv20_state_tnl.o: ../../../../../src/mapi/mapi/u_compiler.h
+nv20_state_tnl.o: ../../../../../src/mesa/math/m_matrix.h
+nv20_state_tnl.o: ../../../../../src/mesa/main/simple_list.h
+nv20_state_tnl.o: ../../../../../src/mesa/main/formats.h
+nv20_state_tnl.o: ../../../../../src/mesa/main/dd.h
+nv20_state_tnl.o: ../../../../../src/mesa/main/macros.h
+nv20_state_tnl.o: ../../../../../src/mesa/main/imports.h
+nv20_state_tnl.o: ../../../../../src/mesa/main/state.h
+nv20_state_tnl.o: ../../../../../src/mesa/main/mtypes.h ../common/utils.h
+nv20_state_tnl.o: ../../../../../include/GL/internal/dri_interface.h
+nv20_state_tnl.o: /usr/include/libdrm/drm.h /usr/include/libdrm/drm_mode.h
+nv20_state_tnl.o: ../../../../../src/mesa/main/context.h ../common/dri_util.h
+nv20_state_tnl.o: ../common/xmlconfig.h /usr/include/nouveau/nouveau_device.h
+nv20_state_tnl.o: /usr/include/nouveau/nouveau_grobj.h
+nv20_state_tnl.o: /usr/include/nouveau/nouveau_channel.h
+nv20_state_tnl.o: /usr/include/nouveau/nouveau_bo.h
+nv20_state_tnl.o: /usr/include/nouveau/nouveau_notifier.h nouveau_screen.h
+nv20_state_tnl.o: nouveau_state.h nouveau_surface.h
+nv20_state_tnl.o: /usr/include/nouveau/nv04_pushbuf.h
+nv20_state_tnl.o: /usr/include/nouveau/nouveau_pushbuf.h nouveau_context.h
+nv20_state_tnl.o: nouveau_bo_state.h nouveau_scratch.h nouveau_render.h
+nv20_state_tnl.o: ../../../../../src/mesa/vbo/vbo_context.h
+nv20_state_tnl.o: ../../../../../src/mesa/vbo/vbo.h
+nv20_state_tnl.o: ../../../../../src/mesa/vbo/vbo_attrib.h
+nv20_state_tnl.o: ../../../../../src/mesa/vbo/vbo_exec.h
+nv20_state_tnl.o: ../../../../../src/mesa/vbo/vbo_save.h nouveau_array.h
+nv20_state_tnl.o: ../../../../../src/mesa/main/bitset.h nouveau_gldefs.h
+nv20_state_tnl.o: nouveau_util.h ../../../../../src/mesa/main/colormac.h
+nv20_state_tnl.o: ../../../../../src/mesa/main/config.h
+nv20_state_tnl.o: ../../../../../src/mesa/main/macros.h nv20_3d.xml.h
+nv20_state_tnl.o: nv10_driver.h nv20_driver.h

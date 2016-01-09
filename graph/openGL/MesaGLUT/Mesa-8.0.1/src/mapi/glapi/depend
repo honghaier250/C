@@ -1,0 +1,263 @@
+# DO NOT DELETE
+
+glapi_dispatch.o: ../../../src/mapi/glapi/glapi_priv.h /usr/include/stdlib.h
+glapi_dispatch.o: /usr/include/features.h /usr/include/sys/cdefs.h
+glapi_dispatch.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+glapi_dispatch.o: /usr/include/gnu/stubs-64.h
+glapi_dispatch.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+glapi_dispatch.o: /usr/include/bits/waitflags.h
+glapi_dispatch.o: /usr/include/bits/waitstatus.h /usr/include/endian.h
+glapi_dispatch.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+glapi_dispatch.o: /usr/include/xlocale.h /usr/include/sys/types.h
+glapi_dispatch.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+glapi_dispatch.o: /usr/include/time.h /usr/include/sys/select.h
+glapi_dispatch.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+glapi_dispatch.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+glapi_dispatch.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+glapi_dispatch.o: /usr/include/string.h /usr/include/stdio.h
+glapi_dispatch.o: /usr/include/libio.h /usr/include/_G_config.h
+glapi_dispatch.o: /usr/include/wchar.h
+glapi_dispatch.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+glapi_dispatch.o: /usr/include/bits/stdio_lim.h
+glapi_dispatch.o: /usr/include/bits/sys_errlist.h ../../../include/GL/gl.h
+glapi_dispatch.o: ../../../include/GL/glext.h /usr/include/inttypes.h
+glapi_dispatch.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+glapi_dispatch.o: ../../../include/GLES2/gl2platform.h
+glapi_dispatch.o: ../../../include/KHR/khrplatform.h
+glapi_dispatch.o: ../../../include/GLES2/gl2ext.h
+glapi_dispatch.o: ../../../src/mapi/glapi/glapi.h
+glapi_dispatch.o: ../../../src/mapi/glapi/glthread.h
+glapi_dispatch.o: ../../../src/mapi/mapi/u_thread.h
+glapi_dispatch.o: ../../../src/mapi/mapi/u_compiler.h /usr/include/pthread.h
+glapi_dispatch.o: /usr/include/sched.h /usr/include/bits/sched.h
+glapi_dispatch.o: /usr/include/bits/setjmp.h
+glapi_dispatch.o: ../../../src/mapi/glapi/glapitable.h
+glapi_dispatch.o: ../../../src/mapi/glapi/glapitemp.h
+glapi_entrypoint.o: ../../../src/mapi/glapi/glapi_priv.h
+glapi_entrypoint.o: /usr/include/stdlib.h /usr/include/features.h
+glapi_entrypoint.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+glapi_entrypoint.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+glapi_entrypoint.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+glapi_entrypoint.o: /usr/include/bits/waitflags.h
+glapi_entrypoint.o: /usr/include/bits/waitstatus.h /usr/include/endian.h
+glapi_entrypoint.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+glapi_entrypoint.o: /usr/include/xlocale.h /usr/include/sys/types.h
+glapi_entrypoint.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+glapi_entrypoint.o: /usr/include/time.h /usr/include/sys/select.h
+glapi_entrypoint.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+glapi_entrypoint.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+glapi_entrypoint.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+glapi_entrypoint.o: /usr/include/string.h /usr/include/stdio.h
+glapi_entrypoint.o: /usr/include/libio.h /usr/include/_G_config.h
+glapi_entrypoint.o: /usr/include/wchar.h
+glapi_entrypoint.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+glapi_entrypoint.o: /usr/include/bits/stdio_lim.h
+glapi_entrypoint.o: /usr/include/bits/sys_errlist.h ../../../include/GL/gl.h
+glapi_entrypoint.o: ../../../include/GL/glext.h /usr/include/inttypes.h
+glapi_entrypoint.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+glapi_entrypoint.o: ../../../include/GLES2/gl2platform.h
+glapi_entrypoint.o: ../../../include/KHR/khrplatform.h
+glapi_entrypoint.o: ../../../include/GLES2/gl2ext.h
+glapi_entrypoint.o: ../../../src/mapi/glapi/glapi.h
+glapi_entrypoint.o: ../../../src/mapi/glapi/glthread.h
+glapi_entrypoint.o: ../../../src/mapi/mapi/u_thread.h
+glapi_entrypoint.o: ../../../src/mapi/mapi/u_compiler.h
+glapi_entrypoint.o: /usr/include/pthread.h /usr/include/sched.h
+glapi_entrypoint.o: /usr/include/bits/sched.h /usr/include/bits/setjmp.h
+glapi_entrypoint.o: ../../../src/mapi/mapi/u_execmem.h
+glapi_gentable.o: /usr/include/dlfcn.h /usr/include/features.h
+glapi_gentable.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+glapi_gentable.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+glapi_gentable.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+glapi_gentable.o: /usr/include/bits/dlfcn.h /usr/include/stdlib.h
+glapi_gentable.o: /usr/include/bits/waitflags.h
+glapi_gentable.o: /usr/include/bits/waitstatus.h /usr/include/endian.h
+glapi_gentable.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+glapi_gentable.o: /usr/include/xlocale.h /usr/include/sys/types.h
+glapi_gentable.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+glapi_gentable.o: /usr/include/time.h /usr/include/sys/select.h
+glapi_gentable.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+glapi_gentable.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+glapi_gentable.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+glapi_gentable.o: /usr/include/stdio.h /usr/include/libio.h
+glapi_gentable.o: /usr/include/_G_config.h /usr/include/wchar.h
+glapi_gentable.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+glapi_gentable.o: /usr/include/bits/stdio_lim.h
+glapi_gentable.o: /usr/include/bits/sys_errlist.h ../../../include/GL/gl.h
+glapi_gentable.o: ../../../include/GL/glext.h /usr/include/inttypes.h
+glapi_gentable.o: /usr/include/stdint.h /usr/include/bits/wchar.h glapi.h
+glapi_gentable.o: ../../../src/mapi/glapi/glthread.h
+glapi_gentable.o: ../../../src/mapi/mapi/u_thread.h
+glapi_gentable.o: ../../../src/mapi/mapi/u_compiler.h /usr/include/pthread.h
+glapi_gentable.o: /usr/include/sched.h /usr/include/bits/sched.h
+glapi_gentable.o: /usr/include/bits/setjmp.h glapitable.h
+glapi_getproc.o: ../../../src/mapi/glapi/glapi_priv.h /usr/include/stdlib.h
+glapi_getproc.o: /usr/include/features.h /usr/include/sys/cdefs.h
+glapi_getproc.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+glapi_getproc.o: /usr/include/gnu/stubs-64.h
+glapi_getproc.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+glapi_getproc.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+glapi_getproc.o: /usr/include/endian.h /usr/include/bits/endian.h
+glapi_getproc.o: /usr/include/bits/byteswap.h /usr/include/xlocale.h
+glapi_getproc.o: /usr/include/sys/types.h /usr/include/bits/types.h
+glapi_getproc.o: /usr/include/bits/typesizes.h /usr/include/time.h
+glapi_getproc.o: /usr/include/sys/select.h /usr/include/bits/select.h
+glapi_getproc.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+glapi_getproc.o: /usr/include/sys/sysmacros.h
+glapi_getproc.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+glapi_getproc.o: /usr/include/string.h /usr/include/stdio.h
+glapi_getproc.o: /usr/include/libio.h /usr/include/_G_config.h
+glapi_getproc.o: /usr/include/wchar.h
+glapi_getproc.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+glapi_getproc.o: /usr/include/bits/stdio_lim.h
+glapi_getproc.o: /usr/include/bits/sys_errlist.h ../../../include/GL/gl.h
+glapi_getproc.o: ../../../include/GL/glext.h /usr/include/inttypes.h
+glapi_getproc.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+glapi_getproc.o: ../../../include/GLES2/gl2platform.h
+glapi_getproc.o: ../../../include/KHR/khrplatform.h
+glapi_getproc.o: ../../../include/GLES2/gl2ext.h
+glapi_getproc.o: ../../../src/mapi/glapi/glapi.h
+glapi_getproc.o: ../../../src/mapi/glapi/glthread.h
+glapi_getproc.o: ../../../src/mapi/mapi/u_thread.h
+glapi_getproc.o: ../../../src/mapi/mapi/u_compiler.h /usr/include/pthread.h
+glapi_getproc.o: /usr/include/sched.h /usr/include/bits/sched.h
+glapi_getproc.o: /usr/include/bits/setjmp.h
+glapi_getproc.o: ../../../src/mapi/glapi/glapitable.h
+glapi_getproc.o: ../../../src/mapi/glapi/glprocs.h
+glapi_nop.o: ../../../src/mapi/glapi/glapi_priv.h /usr/include/stdlib.h
+glapi_nop.o: /usr/include/features.h /usr/include/sys/cdefs.h
+glapi_nop.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+glapi_nop.o: /usr/include/gnu/stubs-64.h
+glapi_nop.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+glapi_nop.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+glapi_nop.o: /usr/include/endian.h /usr/include/bits/endian.h
+glapi_nop.o: /usr/include/bits/byteswap.h /usr/include/xlocale.h
+glapi_nop.o: /usr/include/sys/types.h /usr/include/bits/types.h
+glapi_nop.o: /usr/include/bits/typesizes.h /usr/include/time.h
+glapi_nop.o: /usr/include/sys/select.h /usr/include/bits/select.h
+glapi_nop.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+glapi_nop.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+glapi_nop.o: /usr/include/alloca.h /usr/include/string.h /usr/include/stdio.h
+glapi_nop.o: /usr/include/libio.h /usr/include/_G_config.h
+glapi_nop.o: /usr/include/wchar.h
+glapi_nop.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+glapi_nop.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+glapi_nop.o: ../../../include/GL/gl.h ../../../include/GL/glext.h
+glapi_nop.o: /usr/include/inttypes.h /usr/include/stdint.h
+glapi_nop.o: /usr/include/bits/wchar.h ../../../include/GLES2/gl2platform.h
+glapi_nop.o: ../../../include/KHR/khrplatform.h
+glapi_nop.o: ../../../include/GLES2/gl2ext.h ../../../src/mapi/glapi/glapi.h
+glapi_nop.o: ../../../src/mapi/glapi/glthread.h
+glapi_nop.o: ../../../src/mapi/mapi/u_thread.h
+glapi_nop.o: ../../../src/mapi/mapi/u_compiler.h /usr/include/pthread.h
+glapi_nop.o: /usr/include/sched.h /usr/include/bits/sched.h
+glapi_nop.o: /usr/include/bits/setjmp.h ../../../src/mapi/glapi/glapitemp.h
+glthread.o: ../../../src/mapi/glapi/glapi.h
+glthread.o: ../../../src/mapi/glapi/glthread.h
+glthread.o: ../../../src/mapi/mapi/u_thread.h
+glthread.o: ../../../src/mapi/mapi/u_compiler.h /usr/include/pthread.h
+glthread.o: /usr/include/features.h /usr/include/sys/cdefs.h
+glthread.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+glthread.o: /usr/include/gnu/stubs-64.h /usr/include/endian.h
+glthread.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+glthread.o: /usr/include/sched.h /usr/include/bits/types.h
+glthread.o: /usr/include/bits/typesizes.h
+glthread.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+glthread.o: /usr/include/time.h /usr/include/bits/sched.h
+glthread.o: /usr/include/bits/pthreadtypes.h /usr/include/bits/setjmp.h
+glapi.o: ../../../src/mapi/glapi/glapi.h ../../../src/mapi/glapi/glthread.h
+glapi.o: ../../../src/mapi/mapi/u_thread.h
+glapi.o: ../../../src/mapi/mapi/u_compiler.h /usr/include/pthread.h
+glapi.o: /usr/include/features.h /usr/include/sys/cdefs.h
+glapi.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+glapi.o: /usr/include/gnu/stubs-64.h /usr/include/endian.h
+glapi.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+glapi.o: /usr/include/sched.h /usr/include/bits/types.h
+glapi.o: /usr/include/bits/typesizes.h
+glapi.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+glapi.o: /usr/include/time.h /usr/include/bits/sched.h
+glapi.o: /usr/include/bits/pthreadtypes.h /usr/include/bits/setjmp.h
+glapi.o: ../../../src/mapi/mapi/u_current.h
+u_current.o: ../../../src/mapi/mapi/u_current.h
+u_current.o: ../../../src/mapi/glapi/glapi.h
+u_current.o: ../../../src/mapi/glapi/glthread.h
+u_current.o: ../../../src/mapi/mapi/u_thread.h
+u_current.o: ../../../src/mapi/mapi/u_compiler.h
+u_current.o: /usr/include/pthread.h
+u_current.o: /usr/include/features.h
+u_current.o: /usr/include/sys/cdefs.h
+u_current.o: /usr/include/bits/wordsize.h
+u_current.o: /usr/include/gnu/stubs.h
+u_current.o: /usr/include/gnu/stubs-64.h
+u_current.o: /usr/include/endian.h
+u_current.o: /usr/include/bits/endian.h
+u_current.o: /usr/include/bits/byteswap.h
+u_current.o: /usr/include/sched.h
+u_current.o: /usr/include/bits/types.h
+u_current.o: /usr/include/bits/typesizes.h
+u_current.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+u_current.o: /usr/include/time.h
+u_current.o: /usr/include/bits/sched.h
+u_current.o: /usr/include/bits/pthreadtypes.h
+u_current.o: /usr/include/bits/setjmp.h
+u_current.o: ../../../src/mapi/mapi/u_thread.h
+u_execmem.o: ../../../src/mapi/mapi/u_compiler.h
+u_execmem.o: ../../../src/mapi/mapi/u_thread.h
+u_execmem.o: ../../../src/mapi/mapi/u_execmem.h
+u_execmem.o: /usr/include/stdlib.h
+u_execmem.o: /usr/include/features.h
+u_execmem.o: /usr/include/sys/cdefs.h
+u_execmem.o: /usr/include/bits/wordsize.h
+u_execmem.o: /usr/include/gnu/stubs.h
+u_execmem.o: /usr/include/gnu/stubs-64.h
+u_execmem.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+u_execmem.o: /usr/include/bits/waitflags.h
+u_execmem.o: /usr/include/bits/waitstatus.h
+u_execmem.o: /usr/include/endian.h
+u_execmem.o: /usr/include/bits/endian.h
+u_execmem.o: /usr/include/bits/byteswap.h
+u_execmem.o: /usr/include/xlocale.h
+u_execmem.o: /usr/include/sys/types.h
+u_execmem.o: /usr/include/bits/types.h
+u_execmem.o: /usr/include/bits/typesizes.h
+u_execmem.o: /usr/include/time.h
+u_execmem.o: /usr/include/sys/select.h
+u_execmem.o: /usr/include/bits/select.h
+u_execmem.o: /usr/include/bits/sigset.h
+u_execmem.o: /usr/include/bits/time.h
+u_execmem.o: /usr/include/sys/sysmacros.h
+u_execmem.o: /usr/include/bits/pthreadtypes.h
+u_execmem.o: /usr/include/alloca.h
+u_thread.o: /usr/include/stdio.h
+u_thread.o: /usr/include/features.h
+u_thread.o: /usr/include/sys/cdefs.h
+u_thread.o: /usr/include/bits/wordsize.h
+u_thread.o: /usr/include/gnu/stubs.h
+u_thread.o: /usr/include/gnu/stubs-64.h
+u_thread.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+u_thread.o: /usr/include/bits/types.h
+u_thread.o: /usr/include/bits/typesizes.h
+u_thread.o: /usr/include/libio.h
+u_thread.o: /usr/include/_G_config.h
+u_thread.o: /usr/include/wchar.h
+u_thread.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+u_thread.o: /usr/include/bits/stdio_lim.h
+u_thread.o: /usr/include/bits/sys_errlist.h
+u_thread.o: /usr/include/stdlib.h
+u_thread.o: /usr/include/bits/waitflags.h
+u_thread.o: /usr/include/bits/waitstatus.h
+u_thread.o: /usr/include/endian.h
+u_thread.o: /usr/include/bits/endian.h
+u_thread.o: /usr/include/bits/byteswap.h
+u_thread.o: /usr/include/xlocale.h
+u_thread.o: /usr/include/sys/types.h
+u_thread.o: /usr/include/time.h
+u_thread.o: /usr/include/sys/select.h
+u_thread.o: /usr/include/bits/select.h
+u_thread.o: /usr/include/bits/sigset.h
+u_thread.o: /usr/include/bits/time.h
+u_thread.o: /usr/include/sys/sysmacros.h
+u_thread.o: /usr/include/bits/pthreadtypes.h
+u_thread.o: /usr/include/alloca.h
+u_thread.o: ../../../src/mapi/mapi/u_compiler.h
+u_thread.o: ../../../src/mapi/mapi/u_thread.h

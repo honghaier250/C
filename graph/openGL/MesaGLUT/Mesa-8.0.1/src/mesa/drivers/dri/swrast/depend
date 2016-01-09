@@ -1,0 +1,187 @@
+# DO NOT DELETE
+
+../common/utils.o: /usr/include/string.h /usr/include/features.h
+../common/utils.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+../common/utils.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+../common/utils.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+../common/utils.o: /usr/include/xlocale.h /usr/include/stdlib.h
+../common/utils.o: /usr/include/bits/waitflags.h
+../common/utils.o: /usr/include/bits/waitstatus.h /usr/include/endian.h
+../common/utils.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+../common/utils.o: /usr/include/sys/types.h /usr/include/bits/types.h
+../common/utils.o: /usr/include/bits/typesizes.h /usr/include/time.h
+../common/utils.o: /usr/include/sys/select.h /usr/include/bits/select.h
+../common/utils.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+../common/utils.o: /usr/include/sys/sysmacros.h
+../common/utils.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+../common/utils.o: ../../../../../src/mesa/main/mtypes.h
+../common/utils.o: ../../../../../src/mesa/main/glheader.h
+../common/utils.o: ../../../../../include/GL/gl.h
+../common/utils.o: ../../../../../include/GL/glext.h /usr/include/inttypes.h
+../common/utils.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+../common/utils.o: ../../../../../src/mesa/main/config.h
+../common/utils.o: ../../../../../src/mesa/main/mfeatures.h
+../common/utils.o: ../../../../../src/mapi/glapi/glapi.h
+../common/utils.o: ../../../../../src/mapi/glapi/glthread.h
+../common/utils.o: ../../../../../src/mapi/mapi/u_thread.h
+../common/utils.o: ../../../../../src/mapi/mapi/u_compiler.h
+../common/utils.o: ../../../../../src/mesa/math/m_matrix.h
+../common/utils.o: ../../../../../src/mesa/main/simple_list.h
+../common/utils.o: ../../../../../src/mesa/main/formats.h
+../common/utils.o: ../../../../../src/mesa/main/dd.h
+../common/utils.o: ../../../../../src/mesa/main/glheader.h
+../common/utils.o: ../../../../../src/mesa/main/cpuinfo.h
+../common/utils.o: ../../../../../src/mesa/main/extensions.h
+../common/utils.o: ../../../../../src/mesa/main/mfeatures.h ../common/utils.h
+../common/utils.o: ../../../../../include/GL/internal/dri_interface.h
+../common/utils.o: ../../../../../src/mesa/main/context.h
+../common/utils.o: ../../../../../src/mesa/main/imports.h
+../common/utils.o: ../../../../../src/mesa/main/compiler.h
+../common/utils.o: /usr/include/assert.h /usr/include/ctype.h
+../common/utils.o: /usr/include/math.h /usr/include/bits/huge_val.h
+../common/utils.o: /usr/include/bits/huge_valf.h
+../common/utils.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+../common/utils.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+../common/utils.o: /usr/include/bits/mathcalls.h
+../common/utils.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+../common/utils.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+../common/utils.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+../common/utils.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+../common/utils.o: /usr/include/bits/posix2_lim.h /usr/include/stdio.h
+../common/utils.o: /usr/include/libio.h /usr/include/_G_config.h
+../common/utils.o: /usr/include/wchar.h
+../common/utils.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+../common/utils.o: /usr/include/bits/stdio_lim.h
+../common/utils.o: /usr/include/bits/sys_errlist.h
+../common/utils.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+../common/utils.o: ../../../../../src/mesa/main/mtypes.h
+../common/drisw_util.o: ../common/dri_util.h ../../../../../include/GL/gl.h
+../common/drisw_util.o: ../../../../../include/GL/glext.h
+../common/drisw_util.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+../common/drisw_util.o: /usr/include/inttypes.h /usr/include/features.h
+../common/drisw_util.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+../common/drisw_util.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+../common/drisw_util.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+../common/drisw_util.o: ../../../../../include/GL/internal/dri_interface.h
+../common/drisw_util.o: ../../../../../src/mesa/main/mtypes.h
+../common/drisw_util.o: ../../../../../src/mesa/main/glheader.h
+../common/drisw_util.o: ../../../../../src/mesa/main/config.h
+../common/drisw_util.o: ../../../../../src/mesa/main/mfeatures.h
+../common/drisw_util.o: ../../../../../src/mapi/glapi/glapi.h
+../common/drisw_util.o: ../../../../../src/mapi/glapi/glthread.h
+../common/drisw_util.o: ../../../../../src/mapi/mapi/u_thread.h
+../common/drisw_util.o: ../../../../../src/mapi/mapi/u_compiler.h
+../common/drisw_util.o: ../../../../../src/mesa/math/m_matrix.h
+../common/drisw_util.o: ../../../../../src/mesa/main/simple_list.h
+../common/drisw_util.o: ../../../../../src/mesa/main/formats.h
+../common/drisw_util.o: ../../../../../src/mesa/main/dd.h
+../common/drisw_util.o: ../../../../../src/mesa/main/glheader.h
+../common/drisw_util.o: ../common/xmlconfig.h ../common/utils.h
+../common/drisw_util.o: ../../../../../src/mesa/main/context.h
+../common/drisw_util.o: ../../../../../src/mesa/main/imports.h
+../common/drisw_util.o: ../../../../../src/mesa/main/compiler.h
+../common/drisw_util.o: /usr/include/assert.h /usr/include/ctype.h
+../common/drisw_util.o: /usr/include/bits/types.h
+../common/drisw_util.o: /usr/include/bits/typesizes.h /usr/include/endian.h
+../common/drisw_util.o: /usr/include/bits/endian.h
+../common/drisw_util.o: /usr/include/bits/byteswap.h /usr/include/xlocale.h
+../common/drisw_util.o: /usr/include/math.h /usr/include/bits/huge_val.h
+../common/drisw_util.o: /usr/include/bits/huge_valf.h
+../common/drisw_util.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+../common/drisw_util.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+../common/drisw_util.o: /usr/include/bits/mathcalls.h
+../common/drisw_util.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+../common/drisw_util.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+../common/drisw_util.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+../common/drisw_util.o: /usr/include/bits/local_lim.h
+../common/drisw_util.o: /usr/include/linux/limits.h
+../common/drisw_util.o: /usr/include/bits/posix2_lim.h /usr/include/stdlib.h
+../common/drisw_util.o: /usr/include/bits/waitflags.h
+../common/drisw_util.o: /usr/include/bits/waitstatus.h
+../common/drisw_util.o: /usr/include/sys/types.h /usr/include/time.h
+../common/drisw_util.o: /usr/include/sys/select.h /usr/include/bits/select.h
+../common/drisw_util.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+../common/drisw_util.o: /usr/include/sys/sysmacros.h
+../common/drisw_util.o: /usr/include/bits/pthreadtypes.h
+../common/drisw_util.o: /usr/include/alloca.h /usr/include/stdio.h
+../common/drisw_util.o: /usr/include/libio.h /usr/include/_G_config.h
+../common/drisw_util.o: /usr/include/wchar.h
+../common/drisw_util.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+../common/drisw_util.o: /usr/include/bits/stdio_lim.h
+../common/drisw_util.o: /usr/include/bits/sys_errlist.h /usr/include/string.h
+../common/drisw_util.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+../common/drisw_util.o: ../../../../../src/mesa/main/mtypes.h
+swrast.o: ../../../../../src/mesa/main/context.h
+swrast.o: ../../../../../src/mesa/main/imports.h
+swrast.o: ../../../../../src/mesa/main/compiler.h /usr/include/assert.h
+swrast.o: /usr/include/features.h /usr/include/sys/cdefs.h
+swrast.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+swrast.o: /usr/include/gnu/stubs-64.h /usr/include/ctype.h
+swrast.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+swrast.o: /usr/include/endian.h /usr/include/bits/endian.h
+swrast.o: /usr/include/bits/byteswap.h /usr/include/xlocale.h
+swrast.o: /usr/include/math.h /usr/include/bits/huge_val.h
+swrast.o: /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h
+swrast.o: /usr/include/bits/inf.h /usr/include/bits/nan.h
+swrast.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+swrast.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+swrast.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+swrast.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+swrast.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+swrast.o: /usr/include/bits/posix2_lim.h /usr/include/stdlib.h
+swrast.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+swrast.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+swrast.o: /usr/include/sys/types.h /usr/include/time.h
+swrast.o: /usr/include/sys/select.h /usr/include/bits/select.h
+swrast.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+swrast.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+swrast.o: /usr/include/alloca.h /usr/include/stdio.h /usr/include/libio.h
+swrast.o: /usr/include/_G_config.h /usr/include/wchar.h
+swrast.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+swrast.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+swrast.o: /usr/include/string.h
+swrast.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+swrast.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+swrast.o: ../../../../../src/mesa/main/glheader.h
+swrast.o: ../../../../../src/mesa/main/mtypes.h
+swrast.o: ../../../../../src/mesa/main/extensions.h
+swrast.o: ../../../../../src/mesa/main/mfeatures.h
+swrast.o: ../../../../../src/mesa/main/formats.h
+swrast.o: ../../../../../include/GL/gl.h ../../../../../include/GL/glext.h
+swrast.o: /usr/include/inttypes.h ../../../../../src/mesa/main/framebuffer.h
+swrast.o: ../../../../../src/mesa/main/imports.h
+swrast.o: ../../../../../src/mesa/main/renderbuffer.h
+swrast.o: ../../../../../src/mesa/swrast/swrast.h
+swrast.o: ../../../../../src/mesa/main/mtypes.h
+swrast.o: ../../../../../src/mesa/main/glheader.h
+swrast.o: ../../../../../src/mesa/main/config.h
+swrast.o: ../../../../../src/mesa/main/mfeatures.h
+swrast.o: ../../../../../src/mapi/glapi/glapi.h
+swrast.o: ../../../../../src/mapi/glapi/glthread.h
+swrast.o: ../../../../../src/mapi/mapi/u_thread.h
+swrast.o: ../../../../../src/mapi/mapi/u_compiler.h
+swrast.o: ../../../../../src/mesa/math/m_matrix.h
+swrast.o: ../../../../../src/mesa/main/simple_list.h
+swrast.o: ../../../../../src/mesa/main/dd.h
+swrast.o: ../../../../../src/mesa/swrast/s_chan.h
+swrast.o: ../../../../../src/mesa/swrast/s_renderbuffer.h
+swrast.o: ../../../../../src/mesa/swrast_setup/swrast_setup.h
+swrast.o: ../../../../../src/mesa/tnl/tnl.h
+swrast.o: ../../../../../src/mesa/tnl/t_context.h
+swrast.o: ../../../../../src/mesa/math/m_vector.h
+swrast.o: ../../../../../src/mesa/vbo/vbo.h
+swrast.o: ../../../../../src/mesa/tnl/t_pipeline.h
+swrast.o: ../../../../../src/mesa/tnl/t_context.h
+swrast.o: ../../../../../src/mesa/drivers/common/driverfuncs.h
+swrast.o: ../../../../../src/mesa/drivers/common/meta.h ../common/utils.h
+swrast.o: ../../../../../include/GL/internal/dri_interface.h
+swrast.o: ../../../../../src/mesa/main/teximage.h
+swrast.o: ../../../../../src/mesa/main/formats.h
+swrast.o: ../../../../../src/mesa/main/texformat.h
+swrast.o: ../../../../../src/mesa/main/texstate.h swrast_priv.h
+swrast.o: ../common/dri_util.h ../common/xmlconfig.h
+swrast.o: ../../../../../src/mesa/swrast/s_context.h
+swrast.o: ../../../../../src/mesa/main/compiler.h
+swrast.o: ../../../../../src/mesa/program/prog_execute.h
+swrast.o: ../../../../../src/mesa/swrast/swrast.h
+swrast.o: ../../../../../src/mesa/swrast/s_span.h

@@ -1,0 +1,2938 @@
+# DO NOT DELETE
+
+glcpp/glcpp-lex.o: /usr/include/stdio.h /usr/include/features.h
+glcpp/glcpp-lex.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+glcpp/glcpp-lex.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+glcpp/glcpp-lex.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+glcpp/glcpp-lex.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+glcpp/glcpp-lex.o: /usr/include/libio.h /usr/include/_G_config.h
+glcpp/glcpp-lex.o: /usr/include/wchar.h
+glcpp/glcpp-lex.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+glcpp/glcpp-lex.o: /usr/include/bits/stdio_lim.h
+glcpp/glcpp-lex.o: /usr/include/bits/sys_errlist.h /usr/include/string.h
+glcpp/glcpp-lex.o: /usr/include/xlocale.h /usr/include/errno.h
+glcpp/glcpp-lex.o: /usr/include/bits/errno.h /usr/include/linux/errno.h
+glcpp/glcpp-lex.o: /usr/include/asm/errno.h /usr/include/asm-generic/errno.h
+glcpp/glcpp-lex.o: /usr/include/asm-generic/errno-base.h
+glcpp/glcpp-lex.o: /usr/include/stdlib.h /usr/include/bits/waitflags.h
+glcpp/glcpp-lex.o: /usr/include/bits/waitstatus.h /usr/include/endian.h
+glcpp/glcpp-lex.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+glcpp/glcpp-lex.o: /usr/include/sys/types.h /usr/include/time.h
+glcpp/glcpp-lex.o: /usr/include/sys/select.h /usr/include/bits/select.h
+glcpp/glcpp-lex.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+glcpp/glcpp-lex.o: /usr/include/sys/sysmacros.h
+glcpp/glcpp-lex.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+glcpp/glcpp-lex.o: /usr/include/ctype.h glcpp/glcpp.h /usr/include/stdint.h
+glcpp/glcpp-lex.o: /usr/include/bits/wchar.h ralloc.h
+glcpp/glcpp-lex.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+glcpp/glcpp-lex.o: ../mesa/program/hash_table.h
+glcpp/glcpp-lex.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+glcpp/glcpp-lex.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+glcpp/glcpp-lex.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+glcpp/glcpp-lex.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+glcpp/glcpp-lex.o: /usr/include/bits/posix2_lim.h /usr/include/assert.h
+glcpp/glcpp-lex.o: glcpp/glcpp-parse.h
+glcpp/glcpp-parse.o: /usr/include/stdio.h /usr/include/features.h
+glcpp/glcpp-parse.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+glcpp/glcpp-parse.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+glcpp/glcpp-parse.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+glcpp/glcpp-parse.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+glcpp/glcpp-parse.o: /usr/include/libio.h /usr/include/_G_config.h
+glcpp/glcpp-parse.o: /usr/include/wchar.h
+glcpp/glcpp-parse.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+glcpp/glcpp-parse.o: /usr/include/bits/stdio_lim.h
+glcpp/glcpp-parse.o: /usr/include/bits/sys_errlist.h /usr/include/stdlib.h
+glcpp/glcpp-parse.o: /usr/include/bits/waitflags.h
+glcpp/glcpp-parse.o: /usr/include/bits/waitstatus.h /usr/include/endian.h
+glcpp/glcpp-parse.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+glcpp/glcpp-parse.o: /usr/include/sys/types.h /usr/include/time.h
+glcpp/glcpp-parse.o: /usr/include/sys/select.h /usr/include/bits/select.h
+glcpp/glcpp-parse.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+glcpp/glcpp-parse.o: /usr/include/sys/sysmacros.h
+glcpp/glcpp-parse.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+glcpp/glcpp-parse.o: /usr/include/string.h /usr/include/xlocale.h
+glcpp/glcpp-parse.o: /usr/include/assert.h /usr/include/inttypes.h
+glcpp/glcpp-parse.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+glcpp/glcpp-parse.o: glcpp/glcpp.h ralloc.h
+glcpp/glcpp-parse.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+glcpp/glcpp-parse.o: ../mesa/program/hash_table.h
+glcpp/glcpp-parse.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+glcpp/glcpp-parse.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+glcpp/glcpp-parse.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+glcpp/glcpp-parse.o: /usr/include/bits/local_lim.h
+glcpp/glcpp-parse.o: /usr/include/linux/limits.h
+glcpp/glcpp-parse.o: /usr/include/bits/posix2_lim.h ../mesa/main/core.h
+glcpp/glcpp-parse.o: ../mesa/main/glheader.h ../../include/GL/gl.h
+glcpp/glcpp-parse.o: ../../include/GL/glext.h ../mesa/main/compiler.h
+glcpp/glcpp-parse.o: /usr/include/ctype.h /usr/include/math.h
+glcpp/glcpp-parse.o: /usr/include/bits/huge_val.h
+glcpp/glcpp-parse.o: /usr/include/bits/huge_valf.h
+glcpp/glcpp-parse.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+glcpp/glcpp-parse.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+glcpp/glcpp-parse.o: /usr/include/bits/mathcalls.h
+glcpp/glcpp-parse.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+glcpp/glcpp-parse.o: ../mesa/main/imports.h ../mesa/main/compiler.h
+glcpp/glcpp-parse.o: ../mesa/main/glheader.h ../mesa/main/macros.h
+glcpp/glcpp-parse.o: ../mesa/main/imports.h ../mesa/main/mtypes.h
+glcpp/glcpp-parse.o: ../mesa/main/config.h ../mesa/main/mfeatures.h
+glcpp/glcpp-parse.o: ../mapi/glapi/glapi.h ../mapi/glapi/glthread.h
+glcpp/glcpp-parse.o: ../mapi/mapi/u_thread.h ../mapi/mapi/u_compiler.h
+glcpp/glcpp-parse.o: ../mesa/math/m_matrix.h ../mesa/main/simple_list.h
+glcpp/glcpp-parse.o: ../mesa/main/formats.h ../mesa/main/dd.h
+glcpp/glcpp-parse.o: ../mesa/program/prog_parameter.h
+glcpp/glcpp-parse.o: ../mesa/program/prog_statevars.h
+glcpp/pp.o: /usr/include/assert.h /usr/include/features.h
+glcpp/pp.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+glcpp/pp.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+glcpp/pp.o: /usr/include/string.h
+glcpp/pp.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+glcpp/pp.o: /usr/include/xlocale.h /usr/include/ctype.h
+glcpp/pp.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+glcpp/pp.o: /usr/include/endian.h /usr/include/bits/endian.h
+glcpp/pp.o: /usr/include/bits/byteswap.h glcpp/glcpp.h /usr/include/stdint.h
+glcpp/pp.o: /usr/include/bits/wchar.h ralloc.h
+glcpp/pp.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+glcpp/pp.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+glcpp/pp.o: ../mesa/program/hash_table.h /usr/include/stdlib.h
+glcpp/pp.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+glcpp/pp.o: /usr/include/sys/types.h /usr/include/time.h
+glcpp/pp.o: /usr/include/sys/select.h /usr/include/bits/select.h
+glcpp/pp.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+glcpp/pp.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+glcpp/pp.o: /usr/include/alloca.h
+glcpp/pp.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+glcpp/pp.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+glcpp/pp.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+glcpp/pp.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+glcpp/pp.o: /usr/include/bits/posix2_lim.h ../mesa/main/core.h
+glcpp/pp.o: ../mesa/main/glheader.h ../../include/GL/gl.h
+glcpp/pp.o: ../../include/GL/glext.h /usr/include/inttypes.h
+glcpp/pp.o: ../mesa/main/compiler.h /usr/include/math.h
+glcpp/pp.o: /usr/include/bits/huge_val.h /usr/include/bits/huge_valf.h
+glcpp/pp.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+glcpp/pp.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+glcpp/pp.o: /usr/include/bits/mathcalls.h /usr/include/stdio.h
+glcpp/pp.o: /usr/include/libio.h /usr/include/_G_config.h
+glcpp/pp.o: /usr/include/wchar.h /usr/include/bits/stdio_lim.h
+glcpp/pp.o: /usr/include/bits/sys_errlist.h
+glcpp/pp.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+glcpp/pp.o: ../mesa/main/imports.h ../mesa/main/compiler.h
+glcpp/pp.o: ../mesa/main/glheader.h ../mesa/main/macros.h
+glcpp/pp.o: ../mesa/main/imports.h ../mesa/main/mtypes.h
+glcpp/pp.o: ../mesa/main/config.h ../mesa/main/mfeatures.h
+glcpp/pp.o: ../mapi/glapi/glapi.h ../mapi/glapi/glthread.h
+glcpp/pp.o: ../mapi/mapi/u_thread.h ../mapi/mapi/u_compiler.h
+glcpp/pp.o: ../mesa/math/m_matrix.h ../mesa/main/simple_list.h
+glcpp/pp.o: ../mesa/main/formats.h ../mesa/main/dd.h
+glcpp/pp.o: ../mesa/program/prog_parameter.h ../mesa/program/prog_statevars.h
+strtod.o: /usr/include/stdlib.h /usr/include/features.h
+strtod.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+strtod.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+strtod.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+strtod.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+strtod.o: /usr/include/endian.h /usr/include/bits/endian.h
+strtod.o: /usr/include/bits/byteswap.h /usr/include/sys/types.h
+strtod.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+strtod.o: /usr/include/time.h /usr/include/sys/select.h
+strtod.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+strtod.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+strtod.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h strtod.h
+ralloc.o: /usr/include/assert.h /usr/include/features.h
+ralloc.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+ralloc.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+ralloc.o: /usr/include/stdlib.h
+ralloc.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+ralloc.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+ralloc.o: /usr/include/endian.h /usr/include/bits/endian.h
+ralloc.o: /usr/include/bits/byteswap.h /usr/include/sys/types.h
+ralloc.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+ralloc.o: /usr/include/time.h /usr/include/sys/select.h
+ralloc.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+ralloc.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+ralloc.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+ralloc.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+ralloc.o: /usr/include/stdio.h /usr/include/libio.h /usr/include/_G_config.h
+ralloc.o: /usr/include/wchar.h /usr/include/bits/stdio_lim.h
+ralloc.o: /usr/include/bits/sys_errlist.h /usr/include/string.h
+ralloc.o: /usr/include/xlocale.h /usr/include/stdint.h
+ralloc.o: /usr/include/bits/wchar.h ralloc.h
+ralloc.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+glsl_lexer.o: /usr/include/stdio.h /usr/include/features.h
+glsl_lexer.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+glsl_lexer.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+glsl_lexer.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+glsl_lexer.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+glsl_lexer.o: /usr/include/libio.h /usr/include/_G_config.h
+glsl_lexer.o: /usr/include/wchar.h
+glsl_lexer.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+glsl_lexer.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+glsl_lexer.o: /usr/include/string.h /usr/include/xlocale.h
+glsl_lexer.o: /usr/include/errno.h /usr/include/bits/errno.h
+glsl_lexer.o: /usr/include/linux/errno.h /usr/include/asm/errno.h
+glsl_lexer.o: /usr/include/asm-generic/errno.h
+glsl_lexer.o: /usr/include/asm-generic/errno-base.h /usr/include/stdlib.h
+glsl_lexer.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+glsl_lexer.o: /usr/include/endian.h /usr/include/bits/endian.h
+glsl_lexer.o: /usr/include/bits/byteswap.h /usr/include/sys/types.h
+glsl_lexer.o: /usr/include/time.h /usr/include/sys/select.h
+glsl_lexer.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+glsl_lexer.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+glsl_lexer.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+glsl_lexer.o: /usr/include/ctype.h
+glsl_lexer.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+glsl_lexer.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+glsl_lexer.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+glsl_lexer.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+glsl_lexer.o: /usr/include/bits/posix2_lim.h strtod.h ast.h list.h
+glsl_lexer.o: /usr/include/assert.h ralloc.h
+glsl_lexer.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+glsl_lexer.o: glsl_parser_extras.h glsl_parser.h
+glsl_parser.o: /usr/include/stdio.h /usr/include/features.h
+glsl_parser.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+glsl_parser.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+glsl_parser.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+glsl_parser.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+glsl_parser.o: /usr/include/libio.h /usr/include/_G_config.h
+glsl_parser.o: /usr/include/wchar.h
+glsl_parser.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+glsl_parser.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+glsl_parser.o: /usr/include/stdlib.h /usr/include/bits/waitflags.h
+glsl_parser.o: /usr/include/bits/waitstatus.h /usr/include/endian.h
+glsl_parser.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+glsl_parser.o: /usr/include/sys/types.h /usr/include/time.h
+glsl_parser.o: /usr/include/sys/select.h /usr/include/bits/select.h
+glsl_parser.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+glsl_parser.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+glsl_parser.o: /usr/include/alloca.h /usr/include/string.h
+glsl_parser.o: /usr/include/xlocale.h /usr/include/assert.h ast.h list.h
+glsl_parser.o: ralloc.h
+glsl_parser.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+glsl_parser.o: glsl_parser_extras.h glsl_types.h ../mesa/main/mtypes.h
+glsl_parser.o: ../mesa/main/glheader.h ../../include/GL/gl.h
+glsl_parser.o: ../../include/GL/glext.h /usr/include/inttypes.h
+glsl_parser.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+glsl_parser.o: ../mesa/main/config.h ../mesa/main/mfeatures.h
+glsl_parser.o: ../mapi/glapi/glapi.h ../mapi/glapi/glthread.h
+glsl_parser.o: ../mapi/mapi/u_thread.h ../mapi/mapi/u_compiler.h
+glsl_parser.o: ../mesa/math/m_matrix.h ../mesa/main/simple_list.h
+glsl_parser.o: ../mesa/main/formats.h ../mesa/main/dd.h
+glsl_parser.o: ../mesa/main/glheader.h
+ast_expr.o: /usr/include/assert.h /usr/include/features.h
+ast_expr.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+ast_expr.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h ast.h list.h
+ast_expr.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h ralloc.h
+ast_expr.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+ast_expr.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+ast_expr.o: glsl_parser_extras.h
+ast_function.o: glsl_symbol_table.h ../mesa/program/symbol_table.h ir.h
+ast_function.o: /usr/include/stdio.h /usr/include/features.h
+ast_function.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+ast_function.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+ast_function.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+ast_function.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+ast_function.o: /usr/include/libio.h /usr/include/_G_config.h
+ast_function.o: /usr/include/wchar.h
+ast_function.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+ast_function.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+ast_function.o: /usr/include/stdlib.h /usr/include/bits/waitflags.h
+ast_function.o: /usr/include/bits/waitstatus.h /usr/include/endian.h
+ast_function.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+ast_function.o: /usr/include/sys/types.h /usr/include/time.h
+ast_function.o: /usr/include/sys/select.h /usr/include/bits/select.h
+ast_function.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+ast_function.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+ast_function.o: /usr/include/alloca.h ralloc.h
+ast_function.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+ast_function.o: glsl_types.h /usr/include/string.h /usr/include/xlocale.h
+ast_function.o: /usr/include/assert.h ../mesa/main/mtypes.h
+ast_function.o: ../mesa/main/glheader.h ../../include/GL/gl.h
+ast_function.o: ../../include/GL/glext.h /usr/include/inttypes.h
+ast_function.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+ast_function.o: ../mesa/main/config.h ../mesa/main/mfeatures.h
+ast_function.o: ../mapi/glapi/glapi.h ../mapi/glapi/glthread.h
+ast_function.o: ../mapi/mapi/u_thread.h ../mapi/mapi/u_compiler.h
+ast_function.o: ../mesa/math/m_matrix.h ../mesa/main/simple_list.h
+ast_function.o: ../mesa/main/formats.h ../mesa/main/dd.h
+ast_function.o: ../mesa/main/glheader.h list.h ir_visitor.h
+ast_function.o: ir_hierarchical_visitor.h ast.h glsl_parser_extras.h
+ast_function.o: ../mesa/main/core.h ../mesa/main/compiler.h
+ast_function.o: /usr/include/ctype.h /usr/include/math.h
+ast_function.o: /usr/include/bits/huge_val.h /usr/include/bits/huge_valf.h
+ast_function.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+ast_function.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+ast_function.o: /usr/include/bits/mathcalls.h
+ast_function.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+ast_function.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+ast_function.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+ast_function.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+ast_function.o: /usr/include/bits/posix2_lim.h
+ast_function.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+ast_function.o: ../mesa/main/imports.h ../mesa/main/compiler.h
+ast_function.o: ../mesa/main/macros.h ../mesa/main/imports.h
+ast_function.o: ../mesa/program/prog_parameter.h
+ast_function.o: ../mesa/program/prog_statevars.h
+ast_to_hir.o: ../mesa/main/core.h ../mesa/main/glheader.h
+ast_to_hir.o: ../../include/GL/gl.h ../../include/GL/glext.h
+ast_to_hir.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+ast_to_hir.o: /usr/include/inttypes.h /usr/include/features.h
+ast_to_hir.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+ast_to_hir.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+ast_to_hir.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+ast_to_hir.o: ../mesa/main/compiler.h /usr/include/assert.h
+ast_to_hir.o: /usr/include/ctype.h /usr/include/bits/types.h
+ast_to_hir.o: /usr/include/bits/typesizes.h /usr/include/endian.h
+ast_to_hir.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+ast_to_hir.o: /usr/include/xlocale.h /usr/include/math.h
+ast_to_hir.o: /usr/include/bits/huge_val.h /usr/include/bits/huge_valf.h
+ast_to_hir.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+ast_to_hir.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+ast_to_hir.o: /usr/include/bits/mathcalls.h
+ast_to_hir.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+ast_to_hir.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+ast_to_hir.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+ast_to_hir.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+ast_to_hir.o: /usr/include/bits/posix2_lim.h /usr/include/stdlib.h
+ast_to_hir.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+ast_to_hir.o: /usr/include/sys/types.h /usr/include/time.h
+ast_to_hir.o: /usr/include/sys/select.h /usr/include/bits/select.h
+ast_to_hir.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+ast_to_hir.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+ast_to_hir.o: /usr/include/alloca.h /usr/include/stdio.h /usr/include/libio.h
+ast_to_hir.o: /usr/include/_G_config.h /usr/include/wchar.h
+ast_to_hir.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+ast_to_hir.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+ast_to_hir.o: /usr/include/string.h
+ast_to_hir.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+ast_to_hir.o: ../mesa/main/imports.h ../mesa/main/compiler.h
+ast_to_hir.o: ../mesa/main/glheader.h ../mesa/main/macros.h
+ast_to_hir.o: ../mesa/main/imports.h ../mesa/main/mtypes.h
+ast_to_hir.o: ../mesa/main/config.h ../mesa/main/mfeatures.h
+ast_to_hir.o: ../mapi/glapi/glapi.h ../mapi/glapi/glthread.h
+ast_to_hir.o: ../mapi/mapi/u_thread.h ../mapi/mapi/u_compiler.h
+ast_to_hir.o: ../mesa/math/m_matrix.h ../mesa/main/simple_list.h
+ast_to_hir.o: ../mesa/main/formats.h ../mesa/main/dd.h
+ast_to_hir.o: ../mesa/program/prog_parameter.h
+ast_to_hir.o: ../mesa/program/prog_statevars.h glsl_symbol_table.h
+ast_to_hir.o: ../mesa/program/symbol_table.h ir.h ralloc.h
+ast_to_hir.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+ast_to_hir.o: glsl_types.h list.h ir_visitor.h ir_hierarchical_visitor.h
+ast_to_hir.o: glsl_parser_extras.h ast.h ../mesa/program/hash_table.h
+ast_type.o: ast.h list.h
+ast_type.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+ast_type.o: /usr/include/assert.h /usr/include/features.h
+ast_type.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+ast_type.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h ralloc.h
+ast_type.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+ast_type.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+ast_type.o: glsl_parser_extras.h ../mesa/program/symbol_table.h
+builtin_variables.o: ir.h /usr/include/stdio.h /usr/include/features.h
+builtin_variables.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+builtin_variables.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+builtin_variables.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+builtin_variables.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+builtin_variables.o: /usr/include/libio.h /usr/include/_G_config.h
+builtin_variables.o: /usr/include/wchar.h
+builtin_variables.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+builtin_variables.o: /usr/include/bits/stdio_lim.h
+builtin_variables.o: /usr/include/bits/sys_errlist.h /usr/include/stdlib.h
+builtin_variables.o: /usr/include/bits/waitflags.h
+builtin_variables.o: /usr/include/bits/waitstatus.h /usr/include/endian.h
+builtin_variables.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+builtin_variables.o: /usr/include/sys/types.h /usr/include/time.h
+builtin_variables.o: /usr/include/sys/select.h /usr/include/bits/select.h
+builtin_variables.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+builtin_variables.o: /usr/include/sys/sysmacros.h
+builtin_variables.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+builtin_variables.o: ralloc.h
+builtin_variables.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+builtin_variables.o: glsl_types.h /usr/include/string.h
+builtin_variables.o: /usr/include/xlocale.h /usr/include/assert.h
+builtin_variables.o: ../mesa/main/mtypes.h ../mesa/main/glheader.h
+builtin_variables.o: ../../include/GL/gl.h ../../include/GL/glext.h
+builtin_variables.o: /usr/include/inttypes.h /usr/include/stdint.h
+builtin_variables.o: /usr/include/bits/wchar.h ../mesa/main/config.h
+builtin_variables.o: ../mesa/main/mfeatures.h ../mapi/glapi/glapi.h
+builtin_variables.o: ../mapi/glapi/glthread.h ../mapi/mapi/u_thread.h
+builtin_variables.o: ../mapi/mapi/u_compiler.h ../mesa/math/m_matrix.h
+builtin_variables.o: ../mesa/main/simple_list.h ../mesa/main/formats.h
+builtin_variables.o: ../mesa/main/dd.h ../mesa/main/glheader.h list.h
+builtin_variables.o: ir_visitor.h ir_hierarchical_visitor.h
+builtin_variables.o: glsl_parser_extras.h glsl_symbol_table.h
+builtin_variables.o: ../mesa/program/symbol_table.h ../mesa/main/core.h
+builtin_variables.o: ../mesa/main/compiler.h /usr/include/ctype.h
+builtin_variables.o: /usr/include/math.h /usr/include/bits/huge_val.h
+builtin_variables.o: /usr/include/bits/huge_valf.h
+builtin_variables.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+builtin_variables.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+builtin_variables.o: /usr/include/bits/mathcalls.h
+builtin_variables.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+builtin_variables.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+builtin_variables.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+builtin_variables.o: /usr/include/bits/local_lim.h
+builtin_variables.o: /usr/include/linux/limits.h
+builtin_variables.o: /usr/include/bits/posix2_lim.h
+builtin_variables.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+builtin_variables.o: ../mesa/main/imports.h ../mesa/main/compiler.h
+builtin_variables.o: ../mesa/main/macros.h ../mesa/main/imports.h
+builtin_variables.o: ../mesa/program/prog_parameter.h
+builtin_variables.o: ../mesa/program/prog_statevars.h ../mesa/main/uniforms.h
+builtin_variables.o: ../glsl/glsl_types.h ../glsl/ir_uniform.h
+builtin_variables.o: ../mesa/program/prog_statevars.h
+builtin_variables.o: ../mesa/program/prog_instruction.h
+glsl_parser_extras.o: /usr/include/stdio.h /usr/include/features.h
+glsl_parser_extras.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+glsl_parser_extras.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+glsl_parser_extras.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+glsl_parser_extras.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+glsl_parser_extras.o: /usr/include/libio.h /usr/include/_G_config.h
+glsl_parser_extras.o: /usr/include/wchar.h
+glsl_parser_extras.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+glsl_parser_extras.o: /usr/include/bits/stdio_lim.h
+glsl_parser_extras.o: /usr/include/bits/sys_errlist.h /usr/include/string.h
+glsl_parser_extras.o: /usr/include/xlocale.h /usr/include/assert.h
+glsl_parser_extras.o: ../mesa/main/core.h ../mesa/main/glheader.h
+glsl_parser_extras.o: ../../include/GL/gl.h ../../include/GL/glext.h
+glsl_parser_extras.o: /usr/include/inttypes.h /usr/include/stdint.h
+glsl_parser_extras.o: /usr/include/bits/wchar.h ../mesa/main/compiler.h
+glsl_parser_extras.o: /usr/include/ctype.h /usr/include/endian.h
+glsl_parser_extras.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+glsl_parser_extras.o: /usr/include/math.h /usr/include/bits/huge_val.h
+glsl_parser_extras.o: /usr/include/bits/huge_valf.h
+glsl_parser_extras.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+glsl_parser_extras.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+glsl_parser_extras.o: /usr/include/bits/mathcalls.h
+glsl_parser_extras.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+glsl_parser_extras.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+glsl_parser_extras.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+glsl_parser_extras.o: /usr/include/bits/local_lim.h
+glsl_parser_extras.o: /usr/include/linux/limits.h
+glsl_parser_extras.o: /usr/include/bits/posix2_lim.h /usr/include/stdlib.h
+glsl_parser_extras.o: /usr/include/bits/waitflags.h
+glsl_parser_extras.o: /usr/include/bits/waitstatus.h /usr/include/sys/types.h
+glsl_parser_extras.o: /usr/include/time.h /usr/include/sys/select.h
+glsl_parser_extras.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+glsl_parser_extras.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+glsl_parser_extras.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+glsl_parser_extras.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+glsl_parser_extras.o: ../mesa/main/imports.h ../mesa/main/compiler.h
+glsl_parser_extras.o: ../mesa/main/glheader.h ../mesa/main/macros.h
+glsl_parser_extras.o: ../mesa/main/imports.h ../mesa/main/mtypes.h
+glsl_parser_extras.o: ../mesa/main/config.h ../mesa/main/mfeatures.h
+glsl_parser_extras.o: ../mapi/glapi/glapi.h ../mapi/glapi/glthread.h
+glsl_parser_extras.o: ../mapi/mapi/u_thread.h ../mapi/mapi/u_compiler.h
+glsl_parser_extras.o: ../mesa/math/m_matrix.h ../mesa/main/simple_list.h
+glsl_parser_extras.o: ../mesa/main/formats.h ../mesa/main/dd.h
+glsl_parser_extras.o: ../mesa/program/prog_parameter.h
+glsl_parser_extras.o: ../mesa/program/prog_statevars.h ralloc.h
+glsl_parser_extras.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+glsl_parser_extras.o: ast.h list.h glsl_parser_extras.h glsl_parser.h
+glsl_parser_extras.o: ir_optimization.h loop_analysis.h ir.h glsl_types.h
+glsl_parser_extras.o: ir_visitor.h ir_hierarchical_visitor.h
+glsl_parser_extras.o: ../mesa/program/hash_table.h
+glsl_types.o: /usr/include/stdio.h /usr/include/features.h
+glsl_types.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+glsl_types.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+glsl_types.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+glsl_types.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+glsl_types.o: /usr/include/libio.h /usr/include/_G_config.h
+glsl_types.o: /usr/include/wchar.h
+glsl_types.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+glsl_types.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+glsl_types.o: /usr/include/stdlib.h /usr/include/bits/waitflags.h
+glsl_types.o: /usr/include/bits/waitstatus.h /usr/include/endian.h
+glsl_types.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+glsl_types.o: /usr/include/sys/types.h /usr/include/time.h
+glsl_types.o: /usr/include/sys/select.h /usr/include/bits/select.h
+glsl_types.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+glsl_types.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+glsl_types.o: /usr/include/alloca.h ../mesa/main/core.h
+glsl_types.o: ../mesa/main/glheader.h ../../include/GL/gl.h
+glsl_types.o: ../../include/GL/glext.h /usr/include/inttypes.h
+glsl_types.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+glsl_types.o: ../mesa/main/compiler.h /usr/include/assert.h
+glsl_types.o: /usr/include/ctype.h /usr/include/xlocale.h /usr/include/math.h
+glsl_types.o: /usr/include/bits/huge_val.h /usr/include/bits/huge_valf.h
+glsl_types.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+glsl_types.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+glsl_types.o: /usr/include/bits/mathcalls.h
+glsl_types.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+glsl_types.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+glsl_types.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+glsl_types.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+glsl_types.o: /usr/include/bits/posix2_lim.h /usr/include/string.h
+glsl_types.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+glsl_types.o: ../mesa/main/imports.h ../mesa/main/compiler.h
+glsl_types.o: ../mesa/main/glheader.h ../mesa/main/macros.h
+glsl_types.o: ../mesa/main/imports.h ../mesa/main/mtypes.h
+glsl_types.o: ../mesa/main/config.h ../mesa/main/mfeatures.h
+glsl_types.o: ../mapi/glapi/glapi.h ../mapi/glapi/glthread.h
+glsl_types.o: ../mapi/mapi/u_thread.h ../mapi/mapi/u_compiler.h
+glsl_types.o: ../mesa/math/m_matrix.h ../mesa/main/simple_list.h
+glsl_types.o: ../mesa/main/formats.h ../mesa/main/dd.h
+glsl_types.o: ../mesa/program/prog_parameter.h
+glsl_types.o: ../mesa/program/prog_statevars.h glsl_symbol_table.h
+glsl_types.o: ../mesa/program/symbol_table.h ir.h ralloc.h
+glsl_types.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+glsl_types.o: glsl_types.h list.h ir_visitor.h ir_hierarchical_visitor.h
+glsl_types.o: glsl_parser_extras.h builtin_types.h
+glsl_types.o: ../mesa/program/hash_table.h
+glsl_symbol_table.o: glsl_symbol_table.h ../mesa/program/symbol_table.h ir.h
+glsl_symbol_table.o: /usr/include/stdio.h /usr/include/features.h
+glsl_symbol_table.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+glsl_symbol_table.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+glsl_symbol_table.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+glsl_symbol_table.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+glsl_symbol_table.o: /usr/include/libio.h /usr/include/_G_config.h
+glsl_symbol_table.o: /usr/include/wchar.h
+glsl_symbol_table.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+glsl_symbol_table.o: /usr/include/bits/stdio_lim.h
+glsl_symbol_table.o: /usr/include/bits/sys_errlist.h /usr/include/stdlib.h
+glsl_symbol_table.o: /usr/include/bits/waitflags.h
+glsl_symbol_table.o: /usr/include/bits/waitstatus.h /usr/include/endian.h
+glsl_symbol_table.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+glsl_symbol_table.o: /usr/include/sys/types.h /usr/include/time.h
+glsl_symbol_table.o: /usr/include/sys/select.h /usr/include/bits/select.h
+glsl_symbol_table.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+glsl_symbol_table.o: /usr/include/sys/sysmacros.h
+glsl_symbol_table.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+glsl_symbol_table.o: ralloc.h
+glsl_symbol_table.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+glsl_symbol_table.o: glsl_types.h /usr/include/string.h
+glsl_symbol_table.o: /usr/include/xlocale.h /usr/include/assert.h
+glsl_symbol_table.o: ../mesa/main/mtypes.h ../mesa/main/glheader.h
+glsl_symbol_table.o: ../../include/GL/gl.h ../../include/GL/glext.h
+glsl_symbol_table.o: /usr/include/inttypes.h /usr/include/stdint.h
+glsl_symbol_table.o: /usr/include/bits/wchar.h ../mesa/main/config.h
+glsl_symbol_table.o: ../mesa/main/mfeatures.h ../mapi/glapi/glapi.h
+glsl_symbol_table.o: ../mapi/glapi/glthread.h ../mapi/mapi/u_thread.h
+glsl_symbol_table.o: ../mapi/mapi/u_compiler.h ../mesa/math/m_matrix.h
+glsl_symbol_table.o: ../mesa/main/simple_list.h ../mesa/main/formats.h
+glsl_symbol_table.o: ../mesa/main/dd.h ../mesa/main/glheader.h list.h
+glsl_symbol_table.o: ir_visitor.h ir_hierarchical_visitor.h
+hir_field_selection.o: ir.h /usr/include/stdio.h /usr/include/features.h
+hir_field_selection.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+hir_field_selection.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+hir_field_selection.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+hir_field_selection.o: /usr/include/bits/types.h
+hir_field_selection.o: /usr/include/bits/typesizes.h /usr/include/libio.h
+hir_field_selection.o: /usr/include/_G_config.h /usr/include/wchar.h
+hir_field_selection.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+hir_field_selection.o: /usr/include/bits/stdio_lim.h
+hir_field_selection.o: /usr/include/bits/sys_errlist.h /usr/include/stdlib.h
+hir_field_selection.o: /usr/include/bits/waitflags.h
+hir_field_selection.o: /usr/include/bits/waitstatus.h /usr/include/endian.h
+hir_field_selection.o: /usr/include/bits/endian.h
+hir_field_selection.o: /usr/include/bits/byteswap.h /usr/include/sys/types.h
+hir_field_selection.o: /usr/include/time.h /usr/include/sys/select.h
+hir_field_selection.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+hir_field_selection.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+hir_field_selection.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+hir_field_selection.o: ralloc.h
+hir_field_selection.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+hir_field_selection.o: glsl_types.h /usr/include/string.h
+hir_field_selection.o: /usr/include/xlocale.h /usr/include/assert.h
+hir_field_selection.o: ../mesa/main/mtypes.h ../mesa/main/glheader.h
+hir_field_selection.o: ../../include/GL/gl.h ../../include/GL/glext.h
+hir_field_selection.o: /usr/include/inttypes.h /usr/include/stdint.h
+hir_field_selection.o: /usr/include/bits/wchar.h ../mesa/main/config.h
+hir_field_selection.o: ../mesa/main/mfeatures.h ../mapi/glapi/glapi.h
+hir_field_selection.o: ../mapi/glapi/glthread.h ../mapi/mapi/u_thread.h
+hir_field_selection.o: ../mapi/mapi/u_compiler.h ../mesa/math/m_matrix.h
+hir_field_selection.o: ../mesa/main/simple_list.h ../mesa/main/formats.h
+hir_field_selection.o: ../mesa/main/dd.h ../mesa/main/glheader.h list.h
+hir_field_selection.o: ir_visitor.h ir_hierarchical_visitor.h
+hir_field_selection.o: ../mesa/program/symbol_table.h glsl_parser_extras.h
+hir_field_selection.o: ast.h
+ir_basic_block.o: ir.h /usr/include/stdio.h /usr/include/features.h
+ir_basic_block.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+ir_basic_block.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+ir_basic_block.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+ir_basic_block.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+ir_basic_block.o: /usr/include/libio.h /usr/include/_G_config.h
+ir_basic_block.o: /usr/include/wchar.h
+ir_basic_block.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+ir_basic_block.o: /usr/include/bits/stdio_lim.h
+ir_basic_block.o: /usr/include/bits/sys_errlist.h /usr/include/stdlib.h
+ir_basic_block.o: /usr/include/bits/waitflags.h
+ir_basic_block.o: /usr/include/bits/waitstatus.h /usr/include/endian.h
+ir_basic_block.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+ir_basic_block.o: /usr/include/sys/types.h /usr/include/time.h
+ir_basic_block.o: /usr/include/sys/select.h /usr/include/bits/select.h
+ir_basic_block.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+ir_basic_block.o: /usr/include/sys/sysmacros.h
+ir_basic_block.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+ir_basic_block.o: ralloc.h
+ir_basic_block.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+ir_basic_block.o: glsl_types.h /usr/include/string.h /usr/include/xlocale.h
+ir_basic_block.o: /usr/include/assert.h ../mesa/main/mtypes.h
+ir_basic_block.o: ../mesa/main/glheader.h ../../include/GL/gl.h
+ir_basic_block.o: ../../include/GL/glext.h /usr/include/inttypes.h
+ir_basic_block.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+ir_basic_block.o: ../mesa/main/config.h ../mesa/main/mfeatures.h
+ir_basic_block.o: ../mapi/glapi/glapi.h ../mapi/glapi/glthread.h
+ir_basic_block.o: ../mapi/mapi/u_thread.h ../mapi/mapi/u_compiler.h
+ir_basic_block.o: ../mesa/math/m_matrix.h ../mesa/main/simple_list.h
+ir_basic_block.o: ../mesa/main/formats.h ../mesa/main/dd.h
+ir_basic_block.o: ../mesa/main/glheader.h list.h ir_visitor.h
+ir_basic_block.o: ir_hierarchical_visitor.h ir_basic_block.h
+ir_clone.o: /usr/include/string.h /usr/include/features.h
+ir_clone.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+ir_clone.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+ir_clone.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+ir_clone.o: /usr/include/xlocale.h ../mesa/main/compiler.h
+ir_clone.o: /usr/include/assert.h /usr/include/ctype.h
+ir_clone.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+ir_clone.o: /usr/include/endian.h /usr/include/bits/endian.h
+ir_clone.o: /usr/include/bits/byteswap.h /usr/include/math.h
+ir_clone.o: /usr/include/bits/huge_val.h /usr/include/bits/huge_valf.h
+ir_clone.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+ir_clone.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+ir_clone.o: /usr/include/bits/mathcalls.h
+ir_clone.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+ir_clone.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+ir_clone.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+ir_clone.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+ir_clone.o: /usr/include/bits/posix2_lim.h /usr/include/stdlib.h
+ir_clone.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+ir_clone.o: /usr/include/sys/types.h /usr/include/time.h
+ir_clone.o: /usr/include/sys/select.h /usr/include/bits/select.h
+ir_clone.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+ir_clone.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+ir_clone.o: /usr/include/alloca.h /usr/include/stdio.h /usr/include/libio.h
+ir_clone.o: /usr/include/_G_config.h /usr/include/wchar.h
+ir_clone.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+ir_clone.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+ir_clone.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+ir_clone.o: /usr/include/stdint.h /usr/include/bits/wchar.h ir.h ralloc.h
+ir_clone.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+ir_clone.o: glsl_types.h ../mesa/main/mtypes.h ../mesa/main/glheader.h
+ir_clone.o: ../../include/GL/gl.h ../../include/GL/glext.h
+ir_clone.o: /usr/include/inttypes.h ../mesa/main/config.h
+ir_clone.o: ../mesa/main/mfeatures.h ../mapi/glapi/glapi.h
+ir_clone.o: ../mapi/glapi/glthread.h ../mapi/mapi/u_thread.h
+ir_clone.o: ../mapi/mapi/u_compiler.h ../mesa/math/m_matrix.h
+ir_clone.o: ../mesa/main/simple_list.h ../mesa/main/formats.h
+ir_clone.o: ../mesa/main/dd.h ../mesa/main/glheader.h list.h ir_visitor.h
+ir_clone.o: ir_hierarchical_visitor.h ../mesa/program/hash_table.h
+ir_constant_expression.o: /usr/include/math.h /usr/include/features.h
+ir_constant_expression.o: /usr/include/sys/cdefs.h
+ir_constant_expression.o: /usr/include/bits/wordsize.h
+ir_constant_expression.o: /usr/include/gnu/stubs.h
+ir_constant_expression.o: /usr/include/gnu/stubs-64.h
+ir_constant_expression.o: /usr/include/bits/huge_val.h
+ir_constant_expression.o: /usr/include/bits/huge_valf.h
+ir_constant_expression.o: /usr/include/bits/huge_vall.h
+ir_constant_expression.o: /usr/include/bits/inf.h /usr/include/bits/nan.h
+ir_constant_expression.o: /usr/include/bits/mathdef.h
+ir_constant_expression.o: /usr/include/bits/mathcalls.h ../mesa/main/core.h
+ir_constant_expression.o: ../mesa/main/glheader.h ../../include/GL/gl.h
+ir_constant_expression.o: ../../include/GL/glext.h
+ir_constant_expression.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+ir_constant_expression.o: /usr/include/inttypes.h /usr/include/stdint.h
+ir_constant_expression.o: /usr/include/bits/wchar.h ../mesa/main/compiler.h
+ir_constant_expression.o: /usr/include/assert.h /usr/include/ctype.h
+ir_constant_expression.o: /usr/include/bits/types.h
+ir_constant_expression.o: /usr/include/bits/typesizes.h /usr/include/endian.h
+ir_constant_expression.o: /usr/include/bits/endian.h
+ir_constant_expression.o: /usr/include/bits/byteswap.h /usr/include/xlocale.h
+ir_constant_expression.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+ir_constant_expression.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+ir_constant_expression.o: /usr/include/limits.h
+ir_constant_expression.o: /usr/include/bits/posix1_lim.h
+ir_constant_expression.o: /usr/include/bits/local_lim.h
+ir_constant_expression.o: /usr/include/linux/limits.h
+ir_constant_expression.o: /usr/include/bits/posix2_lim.h
+ir_constant_expression.o: /usr/include/stdlib.h /usr/include/bits/waitflags.h
+ir_constant_expression.o: /usr/include/bits/waitstatus.h
+ir_constant_expression.o: /usr/include/sys/types.h /usr/include/time.h
+ir_constant_expression.o: /usr/include/sys/select.h
+ir_constant_expression.o: /usr/include/bits/select.h
+ir_constant_expression.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+ir_constant_expression.o: /usr/include/sys/sysmacros.h
+ir_constant_expression.o: /usr/include/bits/pthreadtypes.h
+ir_constant_expression.o: /usr/include/alloca.h /usr/include/stdio.h
+ir_constant_expression.o: /usr/include/libio.h /usr/include/_G_config.h
+ir_constant_expression.o: /usr/include/wchar.h
+ir_constant_expression.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+ir_constant_expression.o: /usr/include/bits/stdio_lim.h
+ir_constant_expression.o: /usr/include/bits/sys_errlist.h
+ir_constant_expression.o: /usr/include/string.h
+ir_constant_expression.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+ir_constant_expression.o: ../mesa/main/imports.h ../mesa/main/compiler.h
+ir_constant_expression.o: ../mesa/main/glheader.h ../mesa/main/macros.h
+ir_constant_expression.o: ../mesa/main/imports.h ../mesa/main/mtypes.h
+ir_constant_expression.o: ../mesa/main/config.h ../mesa/main/mfeatures.h
+ir_constant_expression.o: ../mapi/glapi/glapi.h ../mapi/glapi/glthread.h
+ir_constant_expression.o: ../mapi/mapi/u_thread.h ../mapi/mapi/u_compiler.h
+ir_constant_expression.o: ../mesa/math/m_matrix.h ../mesa/main/simple_list.h
+ir_constant_expression.o: ../mesa/main/formats.h ../mesa/main/dd.h
+ir_constant_expression.o: ../mesa/program/prog_parameter.h
+ir_constant_expression.o: ../mesa/program/prog_statevars.h ir.h ralloc.h
+ir_constant_expression.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+ir_constant_expression.o: glsl_types.h list.h ir_visitor.h
+ir_constant_expression.o: ir_hierarchical_visitor.h
+ir.o: /usr/include/string.h /usr/include/features.h /usr/include/sys/cdefs.h
+ir.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+ir.o: /usr/include/gnu/stubs-64.h
+ir.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+ir.o: /usr/include/xlocale.h ../mesa/main/core.h ../mesa/main/glheader.h
+ir.o: ../../include/GL/gl.h ../../include/GL/glext.h /usr/include/inttypes.h
+ir.o: /usr/include/stdint.h /usr/include/bits/wchar.h ../mesa/main/compiler.h
+ir.o: /usr/include/assert.h /usr/include/ctype.h /usr/include/bits/types.h
+ir.o: /usr/include/bits/typesizes.h /usr/include/endian.h
+ir.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+ir.o: /usr/include/math.h /usr/include/bits/huge_val.h
+ir.o: /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h
+ir.o: /usr/include/bits/inf.h /usr/include/bits/nan.h
+ir.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+ir.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+ir.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+ir.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+ir.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+ir.o: /usr/include/bits/posix2_lim.h /usr/include/stdlib.h
+ir.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+ir.o: /usr/include/sys/types.h /usr/include/time.h /usr/include/sys/select.h
+ir.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+ir.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+ir.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+ir.o: /usr/include/stdio.h /usr/include/libio.h /usr/include/_G_config.h
+ir.o: /usr/include/wchar.h
+ir.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+ir.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+ir.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+ir.o: ../mesa/main/imports.h ../mesa/main/compiler.h ../mesa/main/glheader.h
+ir.o: ../mesa/main/macros.h ../mesa/main/imports.h ../mesa/main/mtypes.h
+ir.o: ../mesa/main/config.h ../mesa/main/mfeatures.h ../mapi/glapi/glapi.h
+ir.o: ../mapi/glapi/glthread.h ../mapi/mapi/u_thread.h
+ir.o: ../mapi/mapi/u_compiler.h ../mesa/math/m_matrix.h
+ir.o: ../mesa/main/simple_list.h ../mesa/main/formats.h ../mesa/main/dd.h
+ir.o: ../mesa/program/prog_parameter.h ../mesa/program/prog_statevars.h ir.h
+ir.o: ralloc.h /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+ir.o: glsl_types.h list.h ir_visitor.h ir_hierarchical_visitor.h
+ir_expression_flattening.o: ir.h /usr/include/stdio.h /usr/include/features.h
+ir_expression_flattening.o: /usr/include/sys/cdefs.h
+ir_expression_flattening.o: /usr/include/bits/wordsize.h
+ir_expression_flattening.o: /usr/include/gnu/stubs.h
+ir_expression_flattening.o: /usr/include/gnu/stubs-64.h
+ir_expression_flattening.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+ir_expression_flattening.o: /usr/include/bits/types.h
+ir_expression_flattening.o: /usr/include/bits/typesizes.h
+ir_expression_flattening.o: /usr/include/libio.h /usr/include/_G_config.h
+ir_expression_flattening.o: /usr/include/wchar.h
+ir_expression_flattening.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+ir_expression_flattening.o: /usr/include/bits/stdio_lim.h
+ir_expression_flattening.o: /usr/include/bits/sys_errlist.h
+ir_expression_flattening.o: /usr/include/stdlib.h
+ir_expression_flattening.o: /usr/include/bits/waitflags.h
+ir_expression_flattening.o: /usr/include/bits/waitstatus.h
+ir_expression_flattening.o: /usr/include/endian.h /usr/include/bits/endian.h
+ir_expression_flattening.o: /usr/include/bits/byteswap.h
+ir_expression_flattening.o: /usr/include/sys/types.h /usr/include/time.h
+ir_expression_flattening.o: /usr/include/sys/select.h
+ir_expression_flattening.o: /usr/include/bits/select.h
+ir_expression_flattening.o: /usr/include/bits/sigset.h
+ir_expression_flattening.o: /usr/include/bits/time.h
+ir_expression_flattening.o: /usr/include/sys/sysmacros.h
+ir_expression_flattening.o: /usr/include/bits/pthreadtypes.h
+ir_expression_flattening.o: /usr/include/alloca.h ralloc.h
+ir_expression_flattening.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+ir_expression_flattening.o: glsl_types.h /usr/include/string.h
+ir_expression_flattening.o: /usr/include/xlocale.h /usr/include/assert.h
+ir_expression_flattening.o: ../mesa/main/mtypes.h ../mesa/main/glheader.h
+ir_expression_flattening.o: ../../include/GL/gl.h ../../include/GL/glext.h
+ir_expression_flattening.o: /usr/include/inttypes.h /usr/include/stdint.h
+ir_expression_flattening.o: /usr/include/bits/wchar.h ../mesa/main/config.h
+ir_expression_flattening.o: ../mesa/main/mfeatures.h ../mapi/glapi/glapi.h
+ir_expression_flattening.o: ../mapi/glapi/glthread.h ../mapi/mapi/u_thread.h
+ir_expression_flattening.o: ../mapi/mapi/u_compiler.h ../mesa/math/m_matrix.h
+ir_expression_flattening.o: ../mesa/main/simple_list.h ../mesa/main/formats.h
+ir_expression_flattening.o: ../mesa/main/dd.h ../mesa/main/glheader.h list.h
+ir_expression_flattening.o: ir_visitor.h ir_hierarchical_visitor.h
+ir_expression_flattening.o: ir_rvalue_visitor.h ir_expression_flattening.h
+ir_function_can_inline.o: ir.h /usr/include/stdio.h /usr/include/features.h
+ir_function_can_inline.o: /usr/include/sys/cdefs.h
+ir_function_can_inline.o: /usr/include/bits/wordsize.h
+ir_function_can_inline.o: /usr/include/gnu/stubs.h
+ir_function_can_inline.o: /usr/include/gnu/stubs-64.h
+ir_function_can_inline.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+ir_function_can_inline.o: /usr/include/bits/types.h
+ir_function_can_inline.o: /usr/include/bits/typesizes.h /usr/include/libio.h
+ir_function_can_inline.o: /usr/include/_G_config.h /usr/include/wchar.h
+ir_function_can_inline.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+ir_function_can_inline.o: /usr/include/bits/stdio_lim.h
+ir_function_can_inline.o: /usr/include/bits/sys_errlist.h
+ir_function_can_inline.o: /usr/include/stdlib.h /usr/include/bits/waitflags.h
+ir_function_can_inline.o: /usr/include/bits/waitstatus.h
+ir_function_can_inline.o: /usr/include/endian.h /usr/include/bits/endian.h
+ir_function_can_inline.o: /usr/include/bits/byteswap.h
+ir_function_can_inline.o: /usr/include/sys/types.h /usr/include/time.h
+ir_function_can_inline.o: /usr/include/sys/select.h
+ir_function_can_inline.o: /usr/include/bits/select.h
+ir_function_can_inline.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+ir_function_can_inline.o: /usr/include/sys/sysmacros.h
+ir_function_can_inline.o: /usr/include/bits/pthreadtypes.h
+ir_function_can_inline.o: /usr/include/alloca.h ralloc.h
+ir_function_can_inline.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+ir_function_can_inline.o: glsl_types.h /usr/include/string.h
+ir_function_can_inline.o: /usr/include/xlocale.h /usr/include/assert.h
+ir_function_can_inline.o: ../mesa/main/mtypes.h ../mesa/main/glheader.h
+ir_function_can_inline.o: ../../include/GL/gl.h ../../include/GL/glext.h
+ir_function_can_inline.o: /usr/include/inttypes.h /usr/include/stdint.h
+ir_function_can_inline.o: /usr/include/bits/wchar.h ../mesa/main/config.h
+ir_function_can_inline.o: ../mesa/main/mfeatures.h ../mapi/glapi/glapi.h
+ir_function_can_inline.o: ../mapi/glapi/glthread.h ../mapi/mapi/u_thread.h
+ir_function_can_inline.o: ../mapi/mapi/u_compiler.h ../mesa/math/m_matrix.h
+ir_function_can_inline.o: ../mesa/main/simple_list.h ../mesa/main/formats.h
+ir_function_can_inline.o: ../mesa/main/dd.h ../mesa/main/glheader.h list.h
+ir_function_can_inline.o: ir_visitor.h ir_hierarchical_visitor.h
+ir_function_detect_recursion.o: ../mesa/main/core.h ../mesa/main/glheader.h
+ir_function_detect_recursion.o: ../../include/GL/gl.h
+ir_function_detect_recursion.o: ../../include/GL/glext.h
+ir_function_detect_recursion.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+ir_function_detect_recursion.o: /usr/include/inttypes.h
+ir_function_detect_recursion.o: /usr/include/features.h
+ir_function_detect_recursion.o: /usr/include/sys/cdefs.h
+ir_function_detect_recursion.o: /usr/include/bits/wordsize.h
+ir_function_detect_recursion.o: /usr/include/gnu/stubs.h
+ir_function_detect_recursion.o: /usr/include/gnu/stubs-64.h
+ir_function_detect_recursion.o: /usr/include/stdint.h
+ir_function_detect_recursion.o: /usr/include/bits/wchar.h
+ir_function_detect_recursion.o: ../mesa/main/compiler.h /usr/include/assert.h
+ir_function_detect_recursion.o: /usr/include/ctype.h
+ir_function_detect_recursion.o: /usr/include/bits/types.h
+ir_function_detect_recursion.o: /usr/include/bits/typesizes.h
+ir_function_detect_recursion.o: /usr/include/endian.h
+ir_function_detect_recursion.o: /usr/include/bits/endian.h
+ir_function_detect_recursion.o: /usr/include/bits/byteswap.h
+ir_function_detect_recursion.o: /usr/include/xlocale.h /usr/include/math.h
+ir_function_detect_recursion.o: /usr/include/bits/huge_val.h
+ir_function_detect_recursion.o: /usr/include/bits/huge_valf.h
+ir_function_detect_recursion.o: /usr/include/bits/huge_vall.h
+ir_function_detect_recursion.o: /usr/include/bits/inf.h
+ir_function_detect_recursion.o: /usr/include/bits/nan.h
+ir_function_detect_recursion.o: /usr/include/bits/mathdef.h
+ir_function_detect_recursion.o: /usr/include/bits/mathcalls.h
+ir_function_detect_recursion.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+ir_function_detect_recursion.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+ir_function_detect_recursion.o: /usr/include/limits.h
+ir_function_detect_recursion.o: /usr/include/bits/posix1_lim.h
+ir_function_detect_recursion.o: /usr/include/bits/local_lim.h
+ir_function_detect_recursion.o: /usr/include/linux/limits.h
+ir_function_detect_recursion.o: /usr/include/bits/posix2_lim.h
+ir_function_detect_recursion.o: /usr/include/stdlib.h
+ir_function_detect_recursion.o: /usr/include/bits/waitflags.h
+ir_function_detect_recursion.o: /usr/include/bits/waitstatus.h
+ir_function_detect_recursion.o: /usr/include/sys/types.h /usr/include/time.h
+ir_function_detect_recursion.o: /usr/include/sys/select.h
+ir_function_detect_recursion.o: /usr/include/bits/select.h
+ir_function_detect_recursion.o: /usr/include/bits/sigset.h
+ir_function_detect_recursion.o: /usr/include/bits/time.h
+ir_function_detect_recursion.o: /usr/include/sys/sysmacros.h
+ir_function_detect_recursion.o: /usr/include/bits/pthreadtypes.h
+ir_function_detect_recursion.o: /usr/include/alloca.h /usr/include/stdio.h
+ir_function_detect_recursion.o: /usr/include/libio.h /usr/include/_G_config.h
+ir_function_detect_recursion.o: /usr/include/wchar.h
+ir_function_detect_recursion.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+ir_function_detect_recursion.o: /usr/include/bits/stdio_lim.h
+ir_function_detect_recursion.o: /usr/include/bits/sys_errlist.h
+ir_function_detect_recursion.o: /usr/include/string.h
+ir_function_detect_recursion.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+ir_function_detect_recursion.o: ../mesa/main/imports.h
+ir_function_detect_recursion.o: ../mesa/main/compiler.h
+ir_function_detect_recursion.o: ../mesa/main/glheader.h ../mesa/main/macros.h
+ir_function_detect_recursion.o: ../mesa/main/imports.h ../mesa/main/mtypes.h
+ir_function_detect_recursion.o: ../mesa/main/config.h
+ir_function_detect_recursion.o: ../mesa/main/mfeatures.h
+ir_function_detect_recursion.o: ../mapi/glapi/glapi.h
+ir_function_detect_recursion.o: ../mapi/glapi/glthread.h
+ir_function_detect_recursion.o: ../mapi/mapi/u_thread.h
+ir_function_detect_recursion.o: ../mapi/mapi/u_compiler.h
+ir_function_detect_recursion.o: ../mesa/math/m_matrix.h
+ir_function_detect_recursion.o: ../mesa/main/simple_list.h
+ir_function_detect_recursion.o: ../mesa/main/formats.h ../mesa/main/dd.h
+ir_function_detect_recursion.o: ../mesa/program/prog_parameter.h
+ir_function_detect_recursion.o: ../mesa/program/prog_statevars.h ir.h
+ir_function_detect_recursion.o: ralloc.h
+ir_function_detect_recursion.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+ir_function_detect_recursion.o: glsl_types.h list.h ir_visitor.h
+ir_function_detect_recursion.o: ir_hierarchical_visitor.h
+ir_function_detect_recursion.o: glsl_parser_extras.h linker.h
+ir_function_detect_recursion.o: ../mesa/program/hash_table.h program.h
+ir_function.o: glsl_types.h /usr/include/string.h /usr/include/features.h
+ir_function.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+ir_function.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+ir_function.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+ir_function.o: /usr/include/xlocale.h /usr/include/assert.h
+ir_function.o: ../mesa/main/mtypes.h ../mesa/main/glheader.h
+ir_function.o: ../../include/GL/gl.h ../../include/GL/glext.h
+ir_function.o: /usr/include/inttypes.h /usr/include/stdint.h
+ir_function.o: /usr/include/bits/wchar.h ../mesa/main/config.h
+ir_function.o: ../mesa/main/mfeatures.h ../mapi/glapi/glapi.h
+ir_function.o: ../mapi/glapi/glthread.h ../mapi/mapi/u_thread.h
+ir_function.o: ../mapi/mapi/u_compiler.h ../mesa/math/m_matrix.h
+ir_function.o: ../mesa/main/simple_list.h ../mesa/main/formats.h
+ir_function.o: ../mesa/main/dd.h ../mesa/main/glheader.h ir.h
+ir_function.o: /usr/include/stdio.h /usr/include/bits/types.h
+ir_function.o: /usr/include/bits/typesizes.h /usr/include/libio.h
+ir_function.o: /usr/include/_G_config.h /usr/include/wchar.h
+ir_function.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+ir_function.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+ir_function.o: /usr/include/stdlib.h /usr/include/bits/waitflags.h
+ir_function.o: /usr/include/bits/waitstatus.h /usr/include/endian.h
+ir_function.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+ir_function.o: /usr/include/sys/types.h /usr/include/time.h
+ir_function.o: /usr/include/sys/select.h /usr/include/bits/select.h
+ir_function.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+ir_function.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+ir_function.o: /usr/include/alloca.h ralloc.h
+ir_function.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h list.h
+ir_function.o: ir_visitor.h ir_hierarchical_visitor.h
+ir_hierarchical_visitor.o: ir.h /usr/include/stdio.h /usr/include/features.h
+ir_hierarchical_visitor.o: /usr/include/sys/cdefs.h
+ir_hierarchical_visitor.o: /usr/include/bits/wordsize.h
+ir_hierarchical_visitor.o: /usr/include/gnu/stubs.h
+ir_hierarchical_visitor.o: /usr/include/gnu/stubs-64.h
+ir_hierarchical_visitor.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+ir_hierarchical_visitor.o: /usr/include/bits/types.h
+ir_hierarchical_visitor.o: /usr/include/bits/typesizes.h /usr/include/libio.h
+ir_hierarchical_visitor.o: /usr/include/_G_config.h /usr/include/wchar.h
+ir_hierarchical_visitor.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+ir_hierarchical_visitor.o: /usr/include/bits/stdio_lim.h
+ir_hierarchical_visitor.o: /usr/include/bits/sys_errlist.h
+ir_hierarchical_visitor.o: /usr/include/stdlib.h
+ir_hierarchical_visitor.o: /usr/include/bits/waitflags.h
+ir_hierarchical_visitor.o: /usr/include/bits/waitstatus.h
+ir_hierarchical_visitor.o: /usr/include/endian.h /usr/include/bits/endian.h
+ir_hierarchical_visitor.o: /usr/include/bits/byteswap.h
+ir_hierarchical_visitor.o: /usr/include/sys/types.h /usr/include/time.h
+ir_hierarchical_visitor.o: /usr/include/sys/select.h
+ir_hierarchical_visitor.o: /usr/include/bits/select.h
+ir_hierarchical_visitor.o: /usr/include/bits/sigset.h
+ir_hierarchical_visitor.o: /usr/include/bits/time.h
+ir_hierarchical_visitor.o: /usr/include/sys/sysmacros.h
+ir_hierarchical_visitor.o: /usr/include/bits/pthreadtypes.h
+ir_hierarchical_visitor.o: /usr/include/alloca.h ralloc.h
+ir_hierarchical_visitor.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+ir_hierarchical_visitor.o: glsl_types.h /usr/include/string.h
+ir_hierarchical_visitor.o: /usr/include/xlocale.h /usr/include/assert.h
+ir_hierarchical_visitor.o: ../mesa/main/mtypes.h ../mesa/main/glheader.h
+ir_hierarchical_visitor.o: ../../include/GL/gl.h ../../include/GL/glext.h
+ir_hierarchical_visitor.o: /usr/include/inttypes.h /usr/include/stdint.h
+ir_hierarchical_visitor.o: /usr/include/bits/wchar.h ../mesa/main/config.h
+ir_hierarchical_visitor.o: ../mesa/main/mfeatures.h ../mapi/glapi/glapi.h
+ir_hierarchical_visitor.o: ../mapi/glapi/glthread.h ../mapi/mapi/u_thread.h
+ir_hierarchical_visitor.o: ../mapi/mapi/u_compiler.h ../mesa/math/m_matrix.h
+ir_hierarchical_visitor.o: ../mesa/main/simple_list.h ../mesa/main/formats.h
+ir_hierarchical_visitor.o: ../mesa/main/dd.h ../mesa/main/glheader.h list.h
+ir_hierarchical_visitor.o: ir_visitor.h ir_hierarchical_visitor.h
+ir_hv_accept.o: ir.h /usr/include/stdio.h /usr/include/features.h
+ir_hv_accept.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+ir_hv_accept.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+ir_hv_accept.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+ir_hv_accept.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+ir_hv_accept.o: /usr/include/libio.h /usr/include/_G_config.h
+ir_hv_accept.o: /usr/include/wchar.h
+ir_hv_accept.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+ir_hv_accept.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+ir_hv_accept.o: /usr/include/stdlib.h /usr/include/bits/waitflags.h
+ir_hv_accept.o: /usr/include/bits/waitstatus.h /usr/include/endian.h
+ir_hv_accept.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+ir_hv_accept.o: /usr/include/sys/types.h /usr/include/time.h
+ir_hv_accept.o: /usr/include/sys/select.h /usr/include/bits/select.h
+ir_hv_accept.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+ir_hv_accept.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+ir_hv_accept.o: /usr/include/alloca.h ralloc.h
+ir_hv_accept.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+ir_hv_accept.o: glsl_types.h /usr/include/string.h /usr/include/xlocale.h
+ir_hv_accept.o: /usr/include/assert.h ../mesa/main/mtypes.h
+ir_hv_accept.o: ../mesa/main/glheader.h ../../include/GL/gl.h
+ir_hv_accept.o: ../../include/GL/glext.h /usr/include/inttypes.h
+ir_hv_accept.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+ir_hv_accept.o: ../mesa/main/config.h ../mesa/main/mfeatures.h
+ir_hv_accept.o: ../mapi/glapi/glapi.h ../mapi/glapi/glthread.h
+ir_hv_accept.o: ../mapi/mapi/u_thread.h ../mapi/mapi/u_compiler.h
+ir_hv_accept.o: ../mesa/math/m_matrix.h ../mesa/main/simple_list.h
+ir_hv_accept.o: ../mesa/main/formats.h ../mesa/main/dd.h
+ir_hv_accept.o: ../mesa/main/glheader.h list.h ir_visitor.h
+ir_hv_accept.o: ir_hierarchical_visitor.h
+ir_import_prototypes.o: ir.h /usr/include/stdio.h /usr/include/features.h
+ir_import_prototypes.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+ir_import_prototypes.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+ir_import_prototypes.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+ir_import_prototypes.o: /usr/include/bits/types.h
+ir_import_prototypes.o: /usr/include/bits/typesizes.h /usr/include/libio.h
+ir_import_prototypes.o: /usr/include/_G_config.h /usr/include/wchar.h
+ir_import_prototypes.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+ir_import_prototypes.o: /usr/include/bits/stdio_lim.h
+ir_import_prototypes.o: /usr/include/bits/sys_errlist.h /usr/include/stdlib.h
+ir_import_prototypes.o: /usr/include/bits/waitflags.h
+ir_import_prototypes.o: /usr/include/bits/waitstatus.h /usr/include/endian.h
+ir_import_prototypes.o: /usr/include/bits/endian.h
+ir_import_prototypes.o: /usr/include/bits/byteswap.h /usr/include/sys/types.h
+ir_import_prototypes.o: /usr/include/time.h /usr/include/sys/select.h
+ir_import_prototypes.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+ir_import_prototypes.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+ir_import_prototypes.o: /usr/include/bits/pthreadtypes.h
+ir_import_prototypes.o: /usr/include/alloca.h ralloc.h
+ir_import_prototypes.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+ir_import_prototypes.o: glsl_types.h /usr/include/string.h
+ir_import_prototypes.o: /usr/include/xlocale.h /usr/include/assert.h
+ir_import_prototypes.o: ../mesa/main/mtypes.h ../mesa/main/glheader.h
+ir_import_prototypes.o: ../../include/GL/gl.h ../../include/GL/glext.h
+ir_import_prototypes.o: /usr/include/inttypes.h /usr/include/stdint.h
+ir_import_prototypes.o: /usr/include/bits/wchar.h ../mesa/main/config.h
+ir_import_prototypes.o: ../mesa/main/mfeatures.h ../mapi/glapi/glapi.h
+ir_import_prototypes.o: ../mapi/glapi/glthread.h ../mapi/mapi/u_thread.h
+ir_import_prototypes.o: ../mapi/mapi/u_compiler.h ../mesa/math/m_matrix.h
+ir_import_prototypes.o: ../mesa/main/simple_list.h ../mesa/main/formats.h
+ir_import_prototypes.o: ../mesa/main/dd.h ../mesa/main/glheader.h list.h
+ir_import_prototypes.o: ir_visitor.h ir_hierarchical_visitor.h
+ir_import_prototypes.o: glsl_symbol_table.h ../mesa/program/symbol_table.h
+ir_print_visitor.o: ir_print_visitor.h ir.h /usr/include/stdio.h
+ir_print_visitor.o: /usr/include/features.h /usr/include/sys/cdefs.h
+ir_print_visitor.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+ir_print_visitor.o: /usr/include/gnu/stubs-64.h
+ir_print_visitor.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+ir_print_visitor.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+ir_print_visitor.o: /usr/include/libio.h /usr/include/_G_config.h
+ir_print_visitor.o: /usr/include/wchar.h
+ir_print_visitor.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+ir_print_visitor.o: /usr/include/bits/stdio_lim.h
+ir_print_visitor.o: /usr/include/bits/sys_errlist.h /usr/include/stdlib.h
+ir_print_visitor.o: /usr/include/bits/waitflags.h
+ir_print_visitor.o: /usr/include/bits/waitstatus.h /usr/include/endian.h
+ir_print_visitor.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+ir_print_visitor.o: /usr/include/sys/types.h /usr/include/time.h
+ir_print_visitor.o: /usr/include/sys/select.h /usr/include/bits/select.h
+ir_print_visitor.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+ir_print_visitor.o: /usr/include/sys/sysmacros.h
+ir_print_visitor.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+ir_print_visitor.o: ralloc.h
+ir_print_visitor.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+ir_print_visitor.o: glsl_types.h /usr/include/string.h /usr/include/xlocale.h
+ir_print_visitor.o: /usr/include/assert.h ../mesa/main/mtypes.h
+ir_print_visitor.o: ../mesa/main/glheader.h ../../include/GL/gl.h
+ir_print_visitor.o: ../../include/GL/glext.h /usr/include/inttypes.h
+ir_print_visitor.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+ir_print_visitor.o: ../mesa/main/config.h ../mesa/main/mfeatures.h
+ir_print_visitor.o: ../mapi/glapi/glapi.h ../mapi/glapi/glthread.h
+ir_print_visitor.o: ../mapi/mapi/u_thread.h ../mapi/mapi/u_compiler.h
+ir_print_visitor.o: ../mesa/math/m_matrix.h ../mesa/main/simple_list.h
+ir_print_visitor.o: ../mesa/main/formats.h ../mesa/main/dd.h
+ir_print_visitor.o: ../mesa/main/glheader.h list.h ir_visitor.h
+ir_print_visitor.o: ir_hierarchical_visitor.h ../mesa/program/symbol_table.h
+ir_print_visitor.o: glsl_parser_extras.h ../mesa/program/hash_table.h
+ir_print_visitor.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+ir_print_visitor.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+ir_print_visitor.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+ir_print_visitor.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+ir_print_visitor.o: /usr/include/bits/posix2_lim.h
+ir_reader.o: ir_reader.h ir.h /usr/include/stdio.h /usr/include/features.h
+ir_reader.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+ir_reader.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+ir_reader.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+ir_reader.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+ir_reader.o: /usr/include/libio.h /usr/include/_G_config.h
+ir_reader.o: /usr/include/wchar.h
+ir_reader.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+ir_reader.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+ir_reader.o: /usr/include/stdlib.h /usr/include/bits/waitflags.h
+ir_reader.o: /usr/include/bits/waitstatus.h /usr/include/endian.h
+ir_reader.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+ir_reader.o: /usr/include/sys/types.h /usr/include/time.h
+ir_reader.o: /usr/include/sys/select.h /usr/include/bits/select.h
+ir_reader.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+ir_reader.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+ir_reader.o: /usr/include/alloca.h ralloc.h
+ir_reader.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+ir_reader.o: glsl_types.h /usr/include/string.h /usr/include/xlocale.h
+ir_reader.o: /usr/include/assert.h ../mesa/main/mtypes.h
+ir_reader.o: ../mesa/main/glheader.h ../../include/GL/gl.h
+ir_reader.o: ../../include/GL/glext.h /usr/include/inttypes.h
+ir_reader.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+ir_reader.o: ../mesa/main/config.h ../mesa/main/mfeatures.h
+ir_reader.o: ../mapi/glapi/glapi.h ../mapi/glapi/glthread.h
+ir_reader.o: ../mapi/mapi/u_thread.h ../mapi/mapi/u_compiler.h
+ir_reader.o: ../mesa/math/m_matrix.h ../mesa/main/simple_list.h
+ir_reader.o: ../mesa/main/formats.h ../mesa/main/dd.h ../mesa/main/glheader.h
+ir_reader.o: list.h ir_visitor.h ir_hierarchical_visitor.h
+ir_reader.o: glsl_parser_extras.h s_expression.h ../mesa/main/core.h
+ir_reader.o: ../mesa/main/compiler.h /usr/include/ctype.h /usr/include/math.h
+ir_reader.o: /usr/include/bits/huge_val.h /usr/include/bits/huge_valf.h
+ir_reader.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+ir_reader.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+ir_reader.o: /usr/include/bits/mathcalls.h
+ir_reader.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+ir_reader.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+ir_reader.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+ir_reader.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+ir_reader.o: /usr/include/bits/posix2_lim.h
+ir_reader.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+ir_reader.o: ../mesa/main/imports.h ../mesa/main/compiler.h
+ir_reader.o: ../mesa/main/macros.h ../mesa/main/imports.h
+ir_reader.o: ../mesa/program/prog_parameter.h
+ir_reader.o: ../mesa/program/prog_statevars.h strtod.h
+ir_rvalue_visitor.o: ir.h /usr/include/stdio.h /usr/include/features.h
+ir_rvalue_visitor.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+ir_rvalue_visitor.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+ir_rvalue_visitor.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+ir_rvalue_visitor.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+ir_rvalue_visitor.o: /usr/include/libio.h /usr/include/_G_config.h
+ir_rvalue_visitor.o: /usr/include/wchar.h
+ir_rvalue_visitor.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+ir_rvalue_visitor.o: /usr/include/bits/stdio_lim.h
+ir_rvalue_visitor.o: /usr/include/bits/sys_errlist.h /usr/include/stdlib.h
+ir_rvalue_visitor.o: /usr/include/bits/waitflags.h
+ir_rvalue_visitor.o: /usr/include/bits/waitstatus.h /usr/include/endian.h
+ir_rvalue_visitor.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+ir_rvalue_visitor.o: /usr/include/sys/types.h /usr/include/time.h
+ir_rvalue_visitor.o: /usr/include/sys/select.h /usr/include/bits/select.h
+ir_rvalue_visitor.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+ir_rvalue_visitor.o: /usr/include/sys/sysmacros.h
+ir_rvalue_visitor.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+ir_rvalue_visitor.o: ralloc.h
+ir_rvalue_visitor.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+ir_rvalue_visitor.o: glsl_types.h /usr/include/string.h
+ir_rvalue_visitor.o: /usr/include/xlocale.h /usr/include/assert.h
+ir_rvalue_visitor.o: ../mesa/main/mtypes.h ../mesa/main/glheader.h
+ir_rvalue_visitor.o: ../../include/GL/gl.h ../../include/GL/glext.h
+ir_rvalue_visitor.o: /usr/include/inttypes.h /usr/include/stdint.h
+ir_rvalue_visitor.o: /usr/include/bits/wchar.h ../mesa/main/config.h
+ir_rvalue_visitor.o: ../mesa/main/mfeatures.h ../mapi/glapi/glapi.h
+ir_rvalue_visitor.o: ../mapi/glapi/glthread.h ../mapi/mapi/u_thread.h
+ir_rvalue_visitor.o: ../mapi/mapi/u_compiler.h ../mesa/math/m_matrix.h
+ir_rvalue_visitor.o: ../mesa/main/simple_list.h ../mesa/main/formats.h
+ir_rvalue_visitor.o: ../mesa/main/dd.h ../mesa/main/glheader.h list.h
+ir_rvalue_visitor.o: ir_visitor.h ir_hierarchical_visitor.h
+ir_rvalue_visitor.o: ir_rvalue_visitor.h ir_print_visitor.h
+ir_rvalue_visitor.o: ../mesa/program/symbol_table.h
+ir_set_program_inouts.o: ../mesa/main/core.h ../mesa/main/glheader.h
+ir_set_program_inouts.o: ../../include/GL/gl.h ../../include/GL/glext.h
+ir_set_program_inouts.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+ir_set_program_inouts.o: /usr/include/inttypes.h /usr/include/features.h
+ir_set_program_inouts.o: /usr/include/sys/cdefs.h
+ir_set_program_inouts.o: /usr/include/bits/wordsize.h
+ir_set_program_inouts.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+ir_set_program_inouts.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+ir_set_program_inouts.o: ../mesa/main/compiler.h /usr/include/assert.h
+ir_set_program_inouts.o: /usr/include/ctype.h /usr/include/bits/types.h
+ir_set_program_inouts.o: /usr/include/bits/typesizes.h /usr/include/endian.h
+ir_set_program_inouts.o: /usr/include/bits/endian.h
+ir_set_program_inouts.o: /usr/include/bits/byteswap.h /usr/include/xlocale.h
+ir_set_program_inouts.o: /usr/include/math.h /usr/include/bits/huge_val.h
+ir_set_program_inouts.o: /usr/include/bits/huge_valf.h
+ir_set_program_inouts.o: /usr/include/bits/huge_vall.h
+ir_set_program_inouts.o: /usr/include/bits/inf.h /usr/include/bits/nan.h
+ir_set_program_inouts.o: /usr/include/bits/mathdef.h
+ir_set_program_inouts.o: /usr/include/bits/mathcalls.h
+ir_set_program_inouts.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+ir_set_program_inouts.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+ir_set_program_inouts.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+ir_set_program_inouts.o: /usr/include/bits/local_lim.h
+ir_set_program_inouts.o: /usr/include/linux/limits.h
+ir_set_program_inouts.o: /usr/include/bits/posix2_lim.h /usr/include/stdlib.h
+ir_set_program_inouts.o: /usr/include/bits/waitflags.h
+ir_set_program_inouts.o: /usr/include/bits/waitstatus.h
+ir_set_program_inouts.o: /usr/include/sys/types.h /usr/include/time.h
+ir_set_program_inouts.o: /usr/include/sys/select.h /usr/include/bits/select.h
+ir_set_program_inouts.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+ir_set_program_inouts.o: /usr/include/sys/sysmacros.h
+ir_set_program_inouts.o: /usr/include/bits/pthreadtypes.h
+ir_set_program_inouts.o: /usr/include/alloca.h /usr/include/stdio.h
+ir_set_program_inouts.o: /usr/include/libio.h /usr/include/_G_config.h
+ir_set_program_inouts.o: /usr/include/wchar.h
+ir_set_program_inouts.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+ir_set_program_inouts.o: /usr/include/bits/stdio_lim.h
+ir_set_program_inouts.o: /usr/include/bits/sys_errlist.h
+ir_set_program_inouts.o: /usr/include/string.h
+ir_set_program_inouts.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+ir_set_program_inouts.o: ../mesa/main/imports.h ../mesa/main/compiler.h
+ir_set_program_inouts.o: ../mesa/main/glheader.h ../mesa/main/macros.h
+ir_set_program_inouts.o: ../mesa/main/imports.h ../mesa/main/mtypes.h
+ir_set_program_inouts.o: ../mesa/main/config.h ../mesa/main/mfeatures.h
+ir_set_program_inouts.o: ../mapi/glapi/glapi.h ../mapi/glapi/glthread.h
+ir_set_program_inouts.o: ../mapi/mapi/u_thread.h ../mapi/mapi/u_compiler.h
+ir_set_program_inouts.o: ../mesa/math/m_matrix.h ../mesa/main/simple_list.h
+ir_set_program_inouts.o: ../mesa/main/formats.h ../mesa/main/dd.h
+ir_set_program_inouts.o: ../mesa/program/prog_parameter.h
+ir_set_program_inouts.o: ../mesa/program/prog_statevars.h
+ir_set_program_inouts.o: ../mesa/program/hash_table.h ir.h ralloc.h
+ir_set_program_inouts.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+ir_set_program_inouts.o: glsl_types.h list.h ir_visitor.h
+ir_set_program_inouts.o: ir_hierarchical_visitor.h
+ir_validate.o: ir.h /usr/include/stdio.h /usr/include/features.h
+ir_validate.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+ir_validate.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+ir_validate.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+ir_validate.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+ir_validate.o: /usr/include/libio.h /usr/include/_G_config.h
+ir_validate.o: /usr/include/wchar.h
+ir_validate.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+ir_validate.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+ir_validate.o: /usr/include/stdlib.h /usr/include/bits/waitflags.h
+ir_validate.o: /usr/include/bits/waitstatus.h /usr/include/endian.h
+ir_validate.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+ir_validate.o: /usr/include/sys/types.h /usr/include/time.h
+ir_validate.o: /usr/include/sys/select.h /usr/include/bits/select.h
+ir_validate.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+ir_validate.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+ir_validate.o: /usr/include/alloca.h ralloc.h
+ir_validate.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+ir_validate.o: glsl_types.h /usr/include/string.h /usr/include/xlocale.h
+ir_validate.o: /usr/include/assert.h ../mesa/main/mtypes.h
+ir_validate.o: ../mesa/main/glheader.h ../../include/GL/gl.h
+ir_validate.o: ../../include/GL/glext.h /usr/include/inttypes.h
+ir_validate.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+ir_validate.o: ../mesa/main/config.h ../mesa/main/mfeatures.h
+ir_validate.o: ../mapi/glapi/glapi.h ../mapi/glapi/glthread.h
+ir_validate.o: ../mapi/mapi/u_thread.h ../mapi/mapi/u_compiler.h
+ir_validate.o: ../mesa/math/m_matrix.h ../mesa/main/simple_list.h
+ir_validate.o: ../mesa/main/formats.h ../mesa/main/dd.h
+ir_validate.o: ../mesa/main/glheader.h list.h ir_visitor.h
+ir_validate.o: ir_hierarchical_visitor.h ../mesa/program/hash_table.h
+ir_validate.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+ir_validate.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+ir_validate.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+ir_validate.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+ir_validate.o: /usr/include/bits/posix2_lim.h
+ir_variable_refcount.o: ir.h /usr/include/stdio.h /usr/include/features.h
+ir_variable_refcount.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+ir_variable_refcount.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+ir_variable_refcount.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+ir_variable_refcount.o: /usr/include/bits/types.h
+ir_variable_refcount.o: /usr/include/bits/typesizes.h /usr/include/libio.h
+ir_variable_refcount.o: /usr/include/_G_config.h /usr/include/wchar.h
+ir_variable_refcount.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+ir_variable_refcount.o: /usr/include/bits/stdio_lim.h
+ir_variable_refcount.o: /usr/include/bits/sys_errlist.h /usr/include/stdlib.h
+ir_variable_refcount.o: /usr/include/bits/waitflags.h
+ir_variable_refcount.o: /usr/include/bits/waitstatus.h /usr/include/endian.h
+ir_variable_refcount.o: /usr/include/bits/endian.h
+ir_variable_refcount.o: /usr/include/bits/byteswap.h /usr/include/sys/types.h
+ir_variable_refcount.o: /usr/include/time.h /usr/include/sys/select.h
+ir_variable_refcount.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+ir_variable_refcount.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+ir_variable_refcount.o: /usr/include/bits/pthreadtypes.h
+ir_variable_refcount.o: /usr/include/alloca.h ralloc.h
+ir_variable_refcount.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+ir_variable_refcount.o: glsl_types.h /usr/include/string.h
+ir_variable_refcount.o: /usr/include/xlocale.h /usr/include/assert.h
+ir_variable_refcount.o: ../mesa/main/mtypes.h ../mesa/main/glheader.h
+ir_variable_refcount.o: ../../include/GL/gl.h ../../include/GL/glext.h
+ir_variable_refcount.o: /usr/include/inttypes.h /usr/include/stdint.h
+ir_variable_refcount.o: /usr/include/bits/wchar.h ../mesa/main/config.h
+ir_variable_refcount.o: ../mesa/main/mfeatures.h ../mapi/glapi/glapi.h
+ir_variable_refcount.o: ../mapi/glapi/glthread.h ../mapi/mapi/u_thread.h
+ir_variable_refcount.o: ../mapi/mapi/u_compiler.h ../mesa/math/m_matrix.h
+ir_variable_refcount.o: ../mesa/main/simple_list.h ../mesa/main/formats.h
+ir_variable_refcount.o: ../mesa/main/dd.h ../mesa/main/glheader.h list.h
+ir_variable_refcount.o: ir_visitor.h ir_hierarchical_visitor.h
+ir_variable_refcount.o: ir_variable_refcount.h
+linker.o: ../mesa/main/core.h ../mesa/main/glheader.h ../../include/GL/gl.h
+linker.o: ../../include/GL/glext.h
+linker.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+linker.o: /usr/include/inttypes.h /usr/include/features.h
+linker.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+linker.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+linker.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+linker.o: ../mesa/main/compiler.h /usr/include/assert.h /usr/include/ctype.h
+linker.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+linker.o: /usr/include/endian.h /usr/include/bits/endian.h
+linker.o: /usr/include/bits/byteswap.h /usr/include/xlocale.h
+linker.o: /usr/include/math.h /usr/include/bits/huge_val.h
+linker.o: /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h
+linker.o: /usr/include/bits/inf.h /usr/include/bits/nan.h
+linker.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+linker.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+linker.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+linker.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+linker.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+linker.o: /usr/include/bits/posix2_lim.h /usr/include/stdlib.h
+linker.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+linker.o: /usr/include/sys/types.h /usr/include/time.h
+linker.o: /usr/include/sys/select.h /usr/include/bits/select.h
+linker.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+linker.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+linker.o: /usr/include/alloca.h /usr/include/stdio.h /usr/include/libio.h
+linker.o: /usr/include/_G_config.h /usr/include/wchar.h
+linker.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+linker.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+linker.o: /usr/include/string.h
+linker.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+linker.o: ../mesa/main/imports.h ../mesa/main/compiler.h
+linker.o: ../mesa/main/glheader.h ../mesa/main/macros.h
+linker.o: ../mesa/main/imports.h ../mesa/main/mtypes.h ../mesa/main/config.h
+linker.o: ../mesa/main/mfeatures.h ../mapi/glapi/glapi.h
+linker.o: ../mapi/glapi/glthread.h ../mapi/mapi/u_thread.h
+linker.o: ../mapi/mapi/u_compiler.h ../mesa/math/m_matrix.h
+linker.o: ../mesa/main/simple_list.h ../mesa/main/formats.h ../mesa/main/dd.h
+linker.o: ../mesa/program/prog_parameter.h ../mesa/program/prog_statevars.h
+linker.o: glsl_symbol_table.h ../mesa/program/symbol_table.h ir.h ralloc.h
+linker.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+linker.o: glsl_types.h list.h ir_visitor.h ir_hierarchical_visitor.h
+linker.o: program.h ../mesa/program/hash_table.h linker.h ir_optimization.h
+linker.o: ../mesa/main/shaderobj.h ../mesa/program/ir_to_mesa.h
+link_functions.o: ../mesa/main/core.h ../mesa/main/glheader.h
+link_functions.o: ../../include/GL/gl.h ../../include/GL/glext.h
+link_functions.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+link_functions.o: /usr/include/inttypes.h /usr/include/features.h
+link_functions.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+link_functions.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+link_functions.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+link_functions.o: ../mesa/main/compiler.h /usr/include/assert.h
+link_functions.o: /usr/include/ctype.h /usr/include/bits/types.h
+link_functions.o: /usr/include/bits/typesizes.h /usr/include/endian.h
+link_functions.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+link_functions.o: /usr/include/xlocale.h /usr/include/math.h
+link_functions.o: /usr/include/bits/huge_val.h /usr/include/bits/huge_valf.h
+link_functions.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+link_functions.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+link_functions.o: /usr/include/bits/mathcalls.h
+link_functions.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+link_functions.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+link_functions.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+link_functions.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+link_functions.o: /usr/include/bits/posix2_lim.h /usr/include/stdlib.h
+link_functions.o: /usr/include/bits/waitflags.h
+link_functions.o: /usr/include/bits/waitstatus.h /usr/include/sys/types.h
+link_functions.o: /usr/include/time.h /usr/include/sys/select.h
+link_functions.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+link_functions.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+link_functions.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+link_functions.o: /usr/include/stdio.h /usr/include/libio.h
+link_functions.o: /usr/include/_G_config.h /usr/include/wchar.h
+link_functions.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+link_functions.o: /usr/include/bits/stdio_lim.h
+link_functions.o: /usr/include/bits/sys_errlist.h /usr/include/string.h
+link_functions.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+link_functions.o: ../mesa/main/imports.h ../mesa/main/compiler.h
+link_functions.o: ../mesa/main/glheader.h ../mesa/main/macros.h
+link_functions.o: ../mesa/main/imports.h ../mesa/main/mtypes.h
+link_functions.o: ../mesa/main/config.h ../mesa/main/mfeatures.h
+link_functions.o: ../mapi/glapi/glapi.h ../mapi/glapi/glthread.h
+link_functions.o: ../mapi/mapi/u_thread.h ../mapi/mapi/u_compiler.h
+link_functions.o: ../mesa/math/m_matrix.h ../mesa/main/simple_list.h
+link_functions.o: ../mesa/main/formats.h ../mesa/main/dd.h
+link_functions.o: ../mesa/program/prog_parameter.h
+link_functions.o: ../mesa/program/prog_statevars.h glsl_symbol_table.h
+link_functions.o: ../mesa/program/symbol_table.h ir.h ralloc.h
+link_functions.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+link_functions.o: glsl_types.h list.h ir_visitor.h ir_hierarchical_visitor.h
+link_functions.o: glsl_parser_extras.h program.h ../mesa/program/hash_table.h
+link_functions.o: linker.h
+link_uniforms.o: ../mesa/main/core.h ../mesa/main/glheader.h
+link_uniforms.o: ../../include/GL/gl.h ../../include/GL/glext.h
+link_uniforms.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+link_uniforms.o: /usr/include/inttypes.h /usr/include/features.h
+link_uniforms.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+link_uniforms.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+link_uniforms.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+link_uniforms.o: ../mesa/main/compiler.h /usr/include/assert.h
+link_uniforms.o: /usr/include/ctype.h /usr/include/bits/types.h
+link_uniforms.o: /usr/include/bits/typesizes.h /usr/include/endian.h
+link_uniforms.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+link_uniforms.o: /usr/include/xlocale.h /usr/include/math.h
+link_uniforms.o: /usr/include/bits/huge_val.h /usr/include/bits/huge_valf.h
+link_uniforms.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+link_uniforms.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+link_uniforms.o: /usr/include/bits/mathcalls.h
+link_uniforms.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+link_uniforms.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+link_uniforms.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+link_uniforms.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+link_uniforms.o: /usr/include/bits/posix2_lim.h /usr/include/stdlib.h
+link_uniforms.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+link_uniforms.o: /usr/include/sys/types.h /usr/include/time.h
+link_uniforms.o: /usr/include/sys/select.h /usr/include/bits/select.h
+link_uniforms.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+link_uniforms.o: /usr/include/sys/sysmacros.h
+link_uniforms.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+link_uniforms.o: /usr/include/stdio.h /usr/include/libio.h
+link_uniforms.o: /usr/include/_G_config.h /usr/include/wchar.h
+link_uniforms.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+link_uniforms.o: /usr/include/bits/stdio_lim.h
+link_uniforms.o: /usr/include/bits/sys_errlist.h /usr/include/string.h
+link_uniforms.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+link_uniforms.o: ../mesa/main/imports.h ../mesa/main/compiler.h
+link_uniforms.o: ../mesa/main/glheader.h ../mesa/main/macros.h
+link_uniforms.o: ../mesa/main/imports.h ../mesa/main/mtypes.h
+link_uniforms.o: ../mesa/main/config.h ../mesa/main/mfeatures.h
+link_uniforms.o: ../mapi/glapi/glapi.h ../mapi/glapi/glthread.h
+link_uniforms.o: ../mapi/mapi/u_thread.h ../mapi/mapi/u_compiler.h
+link_uniforms.o: ../mesa/math/m_matrix.h ../mesa/main/simple_list.h
+link_uniforms.o: ../mesa/main/formats.h ../mesa/main/dd.h
+link_uniforms.o: ../mesa/program/prog_parameter.h
+link_uniforms.o: ../mesa/program/prog_statevars.h ir.h ralloc.h
+link_uniforms.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+link_uniforms.o: glsl_types.h list.h ir_visitor.h ir_hierarchical_visitor.h
+link_uniforms.o: linker.h ir_uniform.h glsl_symbol_table.h
+link_uniforms.o: ../mesa/program/symbol_table.h ../mesa/program/hash_table.h
+loop_analysis.o: glsl_types.h /usr/include/string.h /usr/include/features.h
+loop_analysis.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+loop_analysis.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+loop_analysis.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+loop_analysis.o: /usr/include/xlocale.h /usr/include/assert.h
+loop_analysis.o: ../mesa/main/mtypes.h ../mesa/main/glheader.h
+loop_analysis.o: ../../include/GL/gl.h ../../include/GL/glext.h
+loop_analysis.o: /usr/include/inttypes.h /usr/include/stdint.h
+loop_analysis.o: /usr/include/bits/wchar.h ../mesa/main/config.h
+loop_analysis.o: ../mesa/main/mfeatures.h ../mapi/glapi/glapi.h
+loop_analysis.o: ../mapi/glapi/glthread.h ../mapi/mapi/u_thread.h
+loop_analysis.o: ../mapi/mapi/u_compiler.h ../mesa/math/m_matrix.h
+loop_analysis.o: ../mesa/main/simple_list.h ../mesa/main/formats.h
+loop_analysis.o: ../mesa/main/dd.h ../mesa/main/glheader.h loop_analysis.h
+loop_analysis.o: ir.h /usr/include/stdio.h /usr/include/bits/types.h
+loop_analysis.o: /usr/include/bits/typesizes.h /usr/include/libio.h
+loop_analysis.o: /usr/include/_G_config.h /usr/include/wchar.h
+loop_analysis.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+loop_analysis.o: /usr/include/bits/stdio_lim.h
+loop_analysis.o: /usr/include/bits/sys_errlist.h /usr/include/stdlib.h
+loop_analysis.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+loop_analysis.o: /usr/include/endian.h /usr/include/bits/endian.h
+loop_analysis.o: /usr/include/bits/byteswap.h /usr/include/sys/types.h
+loop_analysis.o: /usr/include/time.h /usr/include/sys/select.h
+loop_analysis.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+loop_analysis.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+loop_analysis.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+loop_analysis.o: ralloc.h
+loop_analysis.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+loop_analysis.o: list.h ir_visitor.h ir_hierarchical_visitor.h
+loop_analysis.o: ../mesa/program/hash_table.h
+loop_analysis.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+loop_analysis.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+loop_analysis.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+loop_analysis.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+loop_analysis.o: /usr/include/bits/posix2_lim.h
+loop_controls.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+loop_controls.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+loop_controls.o: /usr/include/limits.h /usr/include/features.h
+loop_controls.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+loop_controls.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+loop_controls.o: /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h
+loop_controls.o: /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h
+loop_controls.o: ../mesa/main/compiler.h /usr/include/assert.h
+loop_controls.o: /usr/include/ctype.h /usr/include/bits/types.h
+loop_controls.o: /usr/include/bits/typesizes.h /usr/include/endian.h
+loop_controls.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+loop_controls.o: /usr/include/xlocale.h /usr/include/math.h
+loop_controls.o: /usr/include/bits/huge_val.h /usr/include/bits/huge_valf.h
+loop_controls.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+loop_controls.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+loop_controls.o: /usr/include/bits/mathcalls.h /usr/include/stdlib.h
+loop_controls.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+loop_controls.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+loop_controls.o: /usr/include/sys/types.h /usr/include/time.h
+loop_controls.o: /usr/include/sys/select.h /usr/include/bits/select.h
+loop_controls.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+loop_controls.o: /usr/include/sys/sysmacros.h
+loop_controls.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+loop_controls.o: /usr/include/stdio.h /usr/include/libio.h
+loop_controls.o: /usr/include/_G_config.h /usr/include/wchar.h
+loop_controls.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+loop_controls.o: /usr/include/bits/stdio_lim.h
+loop_controls.o: /usr/include/bits/sys_errlist.h /usr/include/string.h
+loop_controls.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+loop_controls.o: /usr/include/stdint.h /usr/include/bits/wchar.h glsl_types.h
+loop_controls.o: ../mesa/main/mtypes.h ../mesa/main/glheader.h
+loop_controls.o: ../../include/GL/gl.h ../../include/GL/glext.h
+loop_controls.o: /usr/include/inttypes.h ../mesa/main/config.h
+loop_controls.o: ../mesa/main/mfeatures.h ../mapi/glapi/glapi.h
+loop_controls.o: ../mapi/glapi/glthread.h ../mapi/mapi/u_thread.h
+loop_controls.o: ../mapi/mapi/u_compiler.h ../mesa/math/m_matrix.h
+loop_controls.o: ../mesa/main/simple_list.h ../mesa/main/formats.h
+loop_controls.o: ../mesa/main/dd.h ../mesa/main/glheader.h loop_analysis.h
+loop_controls.o: ir.h ralloc.h
+loop_controls.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+loop_controls.o: list.h ir_visitor.h ir_hierarchical_visitor.h
+loop_controls.o: ../mesa/program/hash_table.h
+loop_unroll.o: glsl_types.h /usr/include/string.h /usr/include/features.h
+loop_unroll.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+loop_unroll.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+loop_unroll.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+loop_unroll.o: /usr/include/xlocale.h /usr/include/assert.h
+loop_unroll.o: ../mesa/main/mtypes.h ../mesa/main/glheader.h
+loop_unroll.o: ../../include/GL/gl.h ../../include/GL/glext.h
+loop_unroll.o: /usr/include/inttypes.h /usr/include/stdint.h
+loop_unroll.o: /usr/include/bits/wchar.h ../mesa/main/config.h
+loop_unroll.o: ../mesa/main/mfeatures.h ../mapi/glapi/glapi.h
+loop_unroll.o: ../mapi/glapi/glthread.h ../mapi/mapi/u_thread.h
+loop_unroll.o: ../mapi/mapi/u_compiler.h ../mesa/math/m_matrix.h
+loop_unroll.o: ../mesa/main/simple_list.h ../mesa/main/formats.h
+loop_unroll.o: ../mesa/main/dd.h ../mesa/main/glheader.h loop_analysis.h ir.h
+loop_unroll.o: /usr/include/stdio.h /usr/include/bits/types.h
+loop_unroll.o: /usr/include/bits/typesizes.h /usr/include/libio.h
+loop_unroll.o: /usr/include/_G_config.h /usr/include/wchar.h
+loop_unroll.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+loop_unroll.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+loop_unroll.o: /usr/include/stdlib.h /usr/include/bits/waitflags.h
+loop_unroll.o: /usr/include/bits/waitstatus.h /usr/include/endian.h
+loop_unroll.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+loop_unroll.o: /usr/include/sys/types.h /usr/include/time.h
+loop_unroll.o: /usr/include/sys/select.h /usr/include/bits/select.h
+loop_unroll.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+loop_unroll.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+loop_unroll.o: /usr/include/alloca.h ralloc.h
+loop_unroll.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h list.h
+loop_unroll.o: ir_visitor.h ir_hierarchical_visitor.h
+loop_unroll.o: ../mesa/program/hash_table.h
+loop_unroll.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+loop_unroll.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+loop_unroll.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+loop_unroll.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+loop_unroll.o: /usr/include/bits/posix2_lim.h
+lower_clip_distance.o: ir_hierarchical_visitor.h ir.h /usr/include/stdio.h
+lower_clip_distance.o: /usr/include/features.h /usr/include/sys/cdefs.h
+lower_clip_distance.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+lower_clip_distance.o: /usr/include/gnu/stubs-64.h
+lower_clip_distance.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+lower_clip_distance.o: /usr/include/bits/types.h
+lower_clip_distance.o: /usr/include/bits/typesizes.h /usr/include/libio.h
+lower_clip_distance.o: /usr/include/_G_config.h /usr/include/wchar.h
+lower_clip_distance.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+lower_clip_distance.o: /usr/include/bits/stdio_lim.h
+lower_clip_distance.o: /usr/include/bits/sys_errlist.h /usr/include/stdlib.h
+lower_clip_distance.o: /usr/include/bits/waitflags.h
+lower_clip_distance.o: /usr/include/bits/waitstatus.h /usr/include/endian.h
+lower_clip_distance.o: /usr/include/bits/endian.h
+lower_clip_distance.o: /usr/include/bits/byteswap.h /usr/include/sys/types.h
+lower_clip_distance.o: /usr/include/time.h /usr/include/sys/select.h
+lower_clip_distance.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+lower_clip_distance.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+lower_clip_distance.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+lower_clip_distance.o: ralloc.h
+lower_clip_distance.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+lower_clip_distance.o: glsl_types.h /usr/include/string.h
+lower_clip_distance.o: /usr/include/xlocale.h /usr/include/assert.h
+lower_clip_distance.o: ../mesa/main/mtypes.h ../mesa/main/glheader.h
+lower_clip_distance.o: ../../include/GL/gl.h ../../include/GL/glext.h
+lower_clip_distance.o: /usr/include/inttypes.h /usr/include/stdint.h
+lower_clip_distance.o: /usr/include/bits/wchar.h ../mesa/main/config.h
+lower_clip_distance.o: ../mesa/main/mfeatures.h ../mapi/glapi/glapi.h
+lower_clip_distance.o: ../mapi/glapi/glthread.h ../mapi/mapi/u_thread.h
+lower_clip_distance.o: ../mapi/mapi/u_compiler.h ../mesa/math/m_matrix.h
+lower_clip_distance.o: ../mesa/main/simple_list.h ../mesa/main/formats.h
+lower_clip_distance.o: ../mesa/main/dd.h ../mesa/main/glheader.h list.h
+lower_clip_distance.o: ir_visitor.h
+lower_discard.o: glsl_types.h /usr/include/string.h /usr/include/features.h
+lower_discard.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+lower_discard.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+lower_discard.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+lower_discard.o: /usr/include/xlocale.h /usr/include/assert.h
+lower_discard.o: ../mesa/main/mtypes.h ../mesa/main/glheader.h
+lower_discard.o: ../../include/GL/gl.h ../../include/GL/glext.h
+lower_discard.o: /usr/include/inttypes.h /usr/include/stdint.h
+lower_discard.o: /usr/include/bits/wchar.h ../mesa/main/config.h
+lower_discard.o: ../mesa/main/mfeatures.h ../mapi/glapi/glapi.h
+lower_discard.o: ../mapi/glapi/glthread.h ../mapi/mapi/u_thread.h
+lower_discard.o: ../mapi/mapi/u_compiler.h ../mesa/math/m_matrix.h
+lower_discard.o: ../mesa/main/simple_list.h ../mesa/main/formats.h
+lower_discard.o: ../mesa/main/dd.h ../mesa/main/glheader.h ir.h
+lower_discard.o: /usr/include/stdio.h /usr/include/bits/types.h
+lower_discard.o: /usr/include/bits/typesizes.h /usr/include/libio.h
+lower_discard.o: /usr/include/_G_config.h /usr/include/wchar.h
+lower_discard.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+lower_discard.o: /usr/include/bits/stdio_lim.h
+lower_discard.o: /usr/include/bits/sys_errlist.h /usr/include/stdlib.h
+lower_discard.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+lower_discard.o: /usr/include/endian.h /usr/include/bits/endian.h
+lower_discard.o: /usr/include/bits/byteswap.h /usr/include/sys/types.h
+lower_discard.o: /usr/include/time.h /usr/include/sys/select.h
+lower_discard.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+lower_discard.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+lower_discard.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+lower_discard.o: ralloc.h
+lower_discard.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+lower_discard.o: list.h ir_visitor.h ir_hierarchical_visitor.h
+lower_if_to_cond_assign.o: glsl_types.h /usr/include/string.h
+lower_if_to_cond_assign.o: /usr/include/features.h /usr/include/sys/cdefs.h
+lower_if_to_cond_assign.o: /usr/include/bits/wordsize.h
+lower_if_to_cond_assign.o: /usr/include/gnu/stubs.h
+lower_if_to_cond_assign.o: /usr/include/gnu/stubs-64.h
+lower_if_to_cond_assign.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+lower_if_to_cond_assign.o: /usr/include/xlocale.h /usr/include/assert.h
+lower_if_to_cond_assign.o: ../mesa/main/mtypes.h ../mesa/main/glheader.h
+lower_if_to_cond_assign.o: ../../include/GL/gl.h ../../include/GL/glext.h
+lower_if_to_cond_assign.o: /usr/include/inttypes.h /usr/include/stdint.h
+lower_if_to_cond_assign.o: /usr/include/bits/wchar.h ../mesa/main/config.h
+lower_if_to_cond_assign.o: ../mesa/main/mfeatures.h ../mapi/glapi/glapi.h
+lower_if_to_cond_assign.o: ../mapi/glapi/glthread.h ../mapi/mapi/u_thread.h
+lower_if_to_cond_assign.o: ../mapi/mapi/u_compiler.h ../mesa/math/m_matrix.h
+lower_if_to_cond_assign.o: ../mesa/main/simple_list.h ../mesa/main/formats.h
+lower_if_to_cond_assign.o: ../mesa/main/dd.h ../mesa/main/glheader.h ir.h
+lower_if_to_cond_assign.o: /usr/include/stdio.h /usr/include/bits/types.h
+lower_if_to_cond_assign.o: /usr/include/bits/typesizes.h /usr/include/libio.h
+lower_if_to_cond_assign.o: /usr/include/_G_config.h /usr/include/wchar.h
+lower_if_to_cond_assign.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+lower_if_to_cond_assign.o: /usr/include/bits/stdio_lim.h
+lower_if_to_cond_assign.o: /usr/include/bits/sys_errlist.h
+lower_if_to_cond_assign.o: /usr/include/stdlib.h
+lower_if_to_cond_assign.o: /usr/include/bits/waitflags.h
+lower_if_to_cond_assign.o: /usr/include/bits/waitstatus.h
+lower_if_to_cond_assign.o: /usr/include/endian.h /usr/include/bits/endian.h
+lower_if_to_cond_assign.o: /usr/include/bits/byteswap.h
+lower_if_to_cond_assign.o: /usr/include/sys/types.h /usr/include/time.h
+lower_if_to_cond_assign.o: /usr/include/sys/select.h
+lower_if_to_cond_assign.o: /usr/include/bits/select.h
+lower_if_to_cond_assign.o: /usr/include/bits/sigset.h
+lower_if_to_cond_assign.o: /usr/include/bits/time.h
+lower_if_to_cond_assign.o: /usr/include/sys/sysmacros.h
+lower_if_to_cond_assign.o: /usr/include/bits/pthreadtypes.h
+lower_if_to_cond_assign.o: /usr/include/alloca.h ralloc.h
+lower_if_to_cond_assign.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+lower_if_to_cond_assign.o: list.h ir_visitor.h ir_hierarchical_visitor.h
+lower_if_to_cond_assign.o: ../mesa/program/hash_table.h
+lower_if_to_cond_assign.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+lower_if_to_cond_assign.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+lower_if_to_cond_assign.o: /usr/include/limits.h
+lower_if_to_cond_assign.o: /usr/include/bits/posix1_lim.h
+lower_if_to_cond_assign.o: /usr/include/bits/local_lim.h
+lower_if_to_cond_assign.o: /usr/include/linux/limits.h
+lower_if_to_cond_assign.o: /usr/include/bits/posix2_lim.h
+lower_instructions.o: ../mesa/main/core.h ../mesa/main/glheader.h
+lower_instructions.o: ../../include/GL/gl.h ../../include/GL/glext.h
+lower_instructions.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+lower_instructions.o: /usr/include/inttypes.h /usr/include/features.h
+lower_instructions.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+lower_instructions.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+lower_instructions.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+lower_instructions.o: ../mesa/main/compiler.h /usr/include/assert.h
+lower_instructions.o: /usr/include/ctype.h /usr/include/bits/types.h
+lower_instructions.o: /usr/include/bits/typesizes.h /usr/include/endian.h
+lower_instructions.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+lower_instructions.o: /usr/include/xlocale.h /usr/include/math.h
+lower_instructions.o: /usr/include/bits/huge_val.h
+lower_instructions.o: /usr/include/bits/huge_valf.h
+lower_instructions.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+lower_instructions.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+lower_instructions.o: /usr/include/bits/mathcalls.h
+lower_instructions.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+lower_instructions.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+lower_instructions.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+lower_instructions.o: /usr/include/bits/local_lim.h
+lower_instructions.o: /usr/include/linux/limits.h
+lower_instructions.o: /usr/include/bits/posix2_lim.h /usr/include/stdlib.h
+lower_instructions.o: /usr/include/bits/waitflags.h
+lower_instructions.o: /usr/include/bits/waitstatus.h /usr/include/sys/types.h
+lower_instructions.o: /usr/include/time.h /usr/include/sys/select.h
+lower_instructions.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+lower_instructions.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+lower_instructions.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+lower_instructions.o: /usr/include/stdio.h /usr/include/libio.h
+lower_instructions.o: /usr/include/_G_config.h /usr/include/wchar.h
+lower_instructions.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+lower_instructions.o: /usr/include/bits/stdio_lim.h
+lower_instructions.o: /usr/include/bits/sys_errlist.h /usr/include/string.h
+lower_instructions.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+lower_instructions.o: ../mesa/main/imports.h ../mesa/main/compiler.h
+lower_instructions.o: ../mesa/main/glheader.h ../mesa/main/macros.h
+lower_instructions.o: ../mesa/main/imports.h ../mesa/main/mtypes.h
+lower_instructions.o: ../mesa/main/config.h ../mesa/main/mfeatures.h
+lower_instructions.o: ../mapi/glapi/glapi.h ../mapi/glapi/glthread.h
+lower_instructions.o: ../mapi/mapi/u_thread.h ../mapi/mapi/u_compiler.h
+lower_instructions.o: ../mesa/math/m_matrix.h ../mesa/main/simple_list.h
+lower_instructions.o: ../mesa/main/formats.h ../mesa/main/dd.h
+lower_instructions.o: ../mesa/program/prog_parameter.h
+lower_instructions.o: ../mesa/program/prog_statevars.h glsl_types.h ir.h
+lower_instructions.o: ralloc.h
+lower_instructions.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+lower_instructions.o: list.h ir_visitor.h ir_hierarchical_visitor.h
+lower_instructions.o: ir_optimization.h
+lower_jumps.o: glsl_types.h /usr/include/string.h /usr/include/features.h
+lower_jumps.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+lower_jumps.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+lower_jumps.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+lower_jumps.o: /usr/include/xlocale.h /usr/include/assert.h
+lower_jumps.o: ../mesa/main/mtypes.h ../mesa/main/glheader.h
+lower_jumps.o: ../../include/GL/gl.h ../../include/GL/glext.h
+lower_jumps.o: /usr/include/inttypes.h /usr/include/stdint.h
+lower_jumps.o: /usr/include/bits/wchar.h ../mesa/main/config.h
+lower_jumps.o: ../mesa/main/mfeatures.h ../mapi/glapi/glapi.h
+lower_jumps.o: ../mapi/glapi/glthread.h ../mapi/mapi/u_thread.h
+lower_jumps.o: ../mapi/mapi/u_compiler.h ../mesa/math/m_matrix.h
+lower_jumps.o: ../mesa/main/simple_list.h ../mesa/main/formats.h
+lower_jumps.o: ../mesa/main/dd.h ../mesa/main/glheader.h ir.h
+lower_jumps.o: /usr/include/stdio.h /usr/include/bits/types.h
+lower_jumps.o: /usr/include/bits/typesizes.h /usr/include/libio.h
+lower_jumps.o: /usr/include/_G_config.h /usr/include/wchar.h
+lower_jumps.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+lower_jumps.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+lower_jumps.o: /usr/include/stdlib.h /usr/include/bits/waitflags.h
+lower_jumps.o: /usr/include/bits/waitstatus.h /usr/include/endian.h
+lower_jumps.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+lower_jumps.o: /usr/include/sys/types.h /usr/include/time.h
+lower_jumps.o: /usr/include/sys/select.h /usr/include/bits/select.h
+lower_jumps.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+lower_jumps.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+lower_jumps.o: /usr/include/alloca.h ralloc.h
+lower_jumps.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h list.h
+lower_jumps.o: ir_visitor.h ir_hierarchical_visitor.h
+lower_mat_op_to_vec.o: ir.h /usr/include/stdio.h /usr/include/features.h
+lower_mat_op_to_vec.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+lower_mat_op_to_vec.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+lower_mat_op_to_vec.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+lower_mat_op_to_vec.o: /usr/include/bits/types.h
+lower_mat_op_to_vec.o: /usr/include/bits/typesizes.h /usr/include/libio.h
+lower_mat_op_to_vec.o: /usr/include/_G_config.h /usr/include/wchar.h
+lower_mat_op_to_vec.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+lower_mat_op_to_vec.o: /usr/include/bits/stdio_lim.h
+lower_mat_op_to_vec.o: /usr/include/bits/sys_errlist.h /usr/include/stdlib.h
+lower_mat_op_to_vec.o: /usr/include/bits/waitflags.h
+lower_mat_op_to_vec.o: /usr/include/bits/waitstatus.h /usr/include/endian.h
+lower_mat_op_to_vec.o: /usr/include/bits/endian.h
+lower_mat_op_to_vec.o: /usr/include/bits/byteswap.h /usr/include/sys/types.h
+lower_mat_op_to_vec.o: /usr/include/time.h /usr/include/sys/select.h
+lower_mat_op_to_vec.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+lower_mat_op_to_vec.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+lower_mat_op_to_vec.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+lower_mat_op_to_vec.o: ralloc.h
+lower_mat_op_to_vec.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+lower_mat_op_to_vec.o: glsl_types.h /usr/include/string.h
+lower_mat_op_to_vec.o: /usr/include/xlocale.h /usr/include/assert.h
+lower_mat_op_to_vec.o: ../mesa/main/mtypes.h ../mesa/main/glheader.h
+lower_mat_op_to_vec.o: ../../include/GL/gl.h ../../include/GL/glext.h
+lower_mat_op_to_vec.o: /usr/include/inttypes.h /usr/include/stdint.h
+lower_mat_op_to_vec.o: /usr/include/bits/wchar.h ../mesa/main/config.h
+lower_mat_op_to_vec.o: ../mesa/main/mfeatures.h ../mapi/glapi/glapi.h
+lower_mat_op_to_vec.o: ../mapi/glapi/glthread.h ../mapi/mapi/u_thread.h
+lower_mat_op_to_vec.o: ../mapi/mapi/u_compiler.h ../mesa/math/m_matrix.h
+lower_mat_op_to_vec.o: ../mesa/main/simple_list.h ../mesa/main/formats.h
+lower_mat_op_to_vec.o: ../mesa/main/dd.h ../mesa/main/glheader.h list.h
+lower_mat_op_to_vec.o: ir_visitor.h ir_hierarchical_visitor.h
+lower_mat_op_to_vec.o: ir_expression_flattening.h
+lower_noise.o: ir.h /usr/include/stdio.h /usr/include/features.h
+lower_noise.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+lower_noise.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+lower_noise.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+lower_noise.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+lower_noise.o: /usr/include/libio.h /usr/include/_G_config.h
+lower_noise.o: /usr/include/wchar.h
+lower_noise.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+lower_noise.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+lower_noise.o: /usr/include/stdlib.h /usr/include/bits/waitflags.h
+lower_noise.o: /usr/include/bits/waitstatus.h /usr/include/endian.h
+lower_noise.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+lower_noise.o: /usr/include/sys/types.h /usr/include/time.h
+lower_noise.o: /usr/include/sys/select.h /usr/include/bits/select.h
+lower_noise.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+lower_noise.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+lower_noise.o: /usr/include/alloca.h ralloc.h
+lower_noise.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+lower_noise.o: glsl_types.h /usr/include/string.h /usr/include/xlocale.h
+lower_noise.o: /usr/include/assert.h ../mesa/main/mtypes.h
+lower_noise.o: ../mesa/main/glheader.h ../../include/GL/gl.h
+lower_noise.o: ../../include/GL/glext.h /usr/include/inttypes.h
+lower_noise.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+lower_noise.o: ../mesa/main/config.h ../mesa/main/mfeatures.h
+lower_noise.o: ../mapi/glapi/glapi.h ../mapi/glapi/glthread.h
+lower_noise.o: ../mapi/mapi/u_thread.h ../mapi/mapi/u_compiler.h
+lower_noise.o: ../mesa/math/m_matrix.h ../mesa/main/simple_list.h
+lower_noise.o: ../mesa/main/formats.h ../mesa/main/dd.h
+lower_noise.o: ../mesa/main/glheader.h list.h ir_visitor.h
+lower_noise.o: ir_hierarchical_visitor.h ir_rvalue_visitor.h
+lower_texture_projection.o: ir.h /usr/include/stdio.h /usr/include/features.h
+lower_texture_projection.o: /usr/include/sys/cdefs.h
+lower_texture_projection.o: /usr/include/bits/wordsize.h
+lower_texture_projection.o: /usr/include/gnu/stubs.h
+lower_texture_projection.o: /usr/include/gnu/stubs-64.h
+lower_texture_projection.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+lower_texture_projection.o: /usr/include/bits/types.h
+lower_texture_projection.o: /usr/include/bits/typesizes.h
+lower_texture_projection.o: /usr/include/libio.h /usr/include/_G_config.h
+lower_texture_projection.o: /usr/include/wchar.h
+lower_texture_projection.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+lower_texture_projection.o: /usr/include/bits/stdio_lim.h
+lower_texture_projection.o: /usr/include/bits/sys_errlist.h
+lower_texture_projection.o: /usr/include/stdlib.h
+lower_texture_projection.o: /usr/include/bits/waitflags.h
+lower_texture_projection.o: /usr/include/bits/waitstatus.h
+lower_texture_projection.o: /usr/include/endian.h /usr/include/bits/endian.h
+lower_texture_projection.o: /usr/include/bits/byteswap.h
+lower_texture_projection.o: /usr/include/sys/types.h /usr/include/time.h
+lower_texture_projection.o: /usr/include/sys/select.h
+lower_texture_projection.o: /usr/include/bits/select.h
+lower_texture_projection.o: /usr/include/bits/sigset.h
+lower_texture_projection.o: /usr/include/bits/time.h
+lower_texture_projection.o: /usr/include/sys/sysmacros.h
+lower_texture_projection.o: /usr/include/bits/pthreadtypes.h
+lower_texture_projection.o: /usr/include/alloca.h ralloc.h
+lower_texture_projection.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+lower_texture_projection.o: glsl_types.h /usr/include/string.h
+lower_texture_projection.o: /usr/include/xlocale.h /usr/include/assert.h
+lower_texture_projection.o: ../mesa/main/mtypes.h ../mesa/main/glheader.h
+lower_texture_projection.o: ../../include/GL/gl.h ../../include/GL/glext.h
+lower_texture_projection.o: /usr/include/inttypes.h /usr/include/stdint.h
+lower_texture_projection.o: /usr/include/bits/wchar.h ../mesa/main/config.h
+lower_texture_projection.o: ../mesa/main/mfeatures.h ../mapi/glapi/glapi.h
+lower_texture_projection.o: ../mapi/glapi/glthread.h ../mapi/mapi/u_thread.h
+lower_texture_projection.o: ../mapi/mapi/u_compiler.h ../mesa/math/m_matrix.h
+lower_texture_projection.o: ../mesa/main/simple_list.h ../mesa/main/formats.h
+lower_texture_projection.o: ../mesa/main/dd.h ../mesa/main/glheader.h list.h
+lower_texture_projection.o: ir_visitor.h ir_hierarchical_visitor.h
+lower_variable_index_to_cond_assign.o: ir.h /usr/include/stdio.h
+lower_variable_index_to_cond_assign.o: /usr/include/features.h
+lower_variable_index_to_cond_assign.o: /usr/include/sys/cdefs.h
+lower_variable_index_to_cond_assign.o: /usr/include/bits/wordsize.h
+lower_variable_index_to_cond_assign.o: /usr/include/gnu/stubs.h
+lower_variable_index_to_cond_assign.o: /usr/include/gnu/stubs-64.h
+lower_variable_index_to_cond_assign.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+lower_variable_index_to_cond_assign.o: /usr/include/bits/types.h
+lower_variable_index_to_cond_assign.o: /usr/include/bits/typesizes.h
+lower_variable_index_to_cond_assign.o: /usr/include/libio.h
+lower_variable_index_to_cond_assign.o: /usr/include/_G_config.h
+lower_variable_index_to_cond_assign.o: /usr/include/wchar.h
+lower_variable_index_to_cond_assign.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+lower_variable_index_to_cond_assign.o: /usr/include/bits/stdio_lim.h
+lower_variable_index_to_cond_assign.o: /usr/include/bits/sys_errlist.h
+lower_variable_index_to_cond_assign.o: /usr/include/stdlib.h
+lower_variable_index_to_cond_assign.o: /usr/include/bits/waitflags.h
+lower_variable_index_to_cond_assign.o: /usr/include/bits/waitstatus.h
+lower_variable_index_to_cond_assign.o: /usr/include/endian.h
+lower_variable_index_to_cond_assign.o: /usr/include/bits/endian.h
+lower_variable_index_to_cond_assign.o: /usr/include/bits/byteswap.h
+lower_variable_index_to_cond_assign.o: /usr/include/sys/types.h
+lower_variable_index_to_cond_assign.o: /usr/include/time.h
+lower_variable_index_to_cond_assign.o: /usr/include/sys/select.h
+lower_variable_index_to_cond_assign.o: /usr/include/bits/select.h
+lower_variable_index_to_cond_assign.o: /usr/include/bits/sigset.h
+lower_variable_index_to_cond_assign.o: /usr/include/bits/time.h
+lower_variable_index_to_cond_assign.o: /usr/include/sys/sysmacros.h
+lower_variable_index_to_cond_assign.o: /usr/include/bits/pthreadtypes.h
+lower_variable_index_to_cond_assign.o: /usr/include/alloca.h ralloc.h
+lower_variable_index_to_cond_assign.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+lower_variable_index_to_cond_assign.o: glsl_types.h /usr/include/string.h
+lower_variable_index_to_cond_assign.o: /usr/include/xlocale.h
+lower_variable_index_to_cond_assign.o: /usr/include/assert.h
+lower_variable_index_to_cond_assign.o: ../mesa/main/mtypes.h
+lower_variable_index_to_cond_assign.o: ../mesa/main/glheader.h
+lower_variable_index_to_cond_assign.o: ../../include/GL/gl.h
+lower_variable_index_to_cond_assign.o: ../../include/GL/glext.h
+lower_variable_index_to_cond_assign.o: /usr/include/inttypes.h
+lower_variable_index_to_cond_assign.o: /usr/include/stdint.h
+lower_variable_index_to_cond_assign.o: /usr/include/bits/wchar.h
+lower_variable_index_to_cond_assign.o: ../mesa/main/config.h
+lower_variable_index_to_cond_assign.o: ../mesa/main/mfeatures.h
+lower_variable_index_to_cond_assign.o: ../mapi/glapi/glapi.h
+lower_variable_index_to_cond_assign.o: ../mapi/glapi/glthread.h
+lower_variable_index_to_cond_assign.o: ../mapi/mapi/u_thread.h
+lower_variable_index_to_cond_assign.o: ../mapi/mapi/u_compiler.h
+lower_variable_index_to_cond_assign.o: ../mesa/math/m_matrix.h
+lower_variable_index_to_cond_assign.o: ../mesa/main/simple_list.h
+lower_variable_index_to_cond_assign.o: ../mesa/main/formats.h
+lower_variable_index_to_cond_assign.o: ../mesa/main/dd.h
+lower_variable_index_to_cond_assign.o: ../mesa/main/glheader.h list.h
+lower_variable_index_to_cond_assign.o: ir_visitor.h ir_hierarchical_visitor.h
+lower_variable_index_to_cond_assign.o: ir_rvalue_visitor.h ir_optimization.h
+lower_variable_index_to_cond_assign.o: ../mesa/main/macros.h
+lower_variable_index_to_cond_assign.o: ../mesa/main/imports.h
+lower_vec_index_to_cond_assign.o: ir.h /usr/include/stdio.h
+lower_vec_index_to_cond_assign.o: /usr/include/features.h
+lower_vec_index_to_cond_assign.o: /usr/include/sys/cdefs.h
+lower_vec_index_to_cond_assign.o: /usr/include/bits/wordsize.h
+lower_vec_index_to_cond_assign.o: /usr/include/gnu/stubs.h
+lower_vec_index_to_cond_assign.o: /usr/include/gnu/stubs-64.h
+lower_vec_index_to_cond_assign.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+lower_vec_index_to_cond_assign.o: /usr/include/bits/types.h
+lower_vec_index_to_cond_assign.o: /usr/include/bits/typesizes.h
+lower_vec_index_to_cond_assign.o: /usr/include/libio.h
+lower_vec_index_to_cond_assign.o: /usr/include/_G_config.h
+lower_vec_index_to_cond_assign.o: /usr/include/wchar.h
+lower_vec_index_to_cond_assign.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+lower_vec_index_to_cond_assign.o: /usr/include/bits/stdio_lim.h
+lower_vec_index_to_cond_assign.o: /usr/include/bits/sys_errlist.h
+lower_vec_index_to_cond_assign.o: /usr/include/stdlib.h
+lower_vec_index_to_cond_assign.o: /usr/include/bits/waitflags.h
+lower_vec_index_to_cond_assign.o: /usr/include/bits/waitstatus.h
+lower_vec_index_to_cond_assign.o: /usr/include/endian.h
+lower_vec_index_to_cond_assign.o: /usr/include/bits/endian.h
+lower_vec_index_to_cond_assign.o: /usr/include/bits/byteswap.h
+lower_vec_index_to_cond_assign.o: /usr/include/sys/types.h
+lower_vec_index_to_cond_assign.o: /usr/include/time.h
+lower_vec_index_to_cond_assign.o: /usr/include/sys/select.h
+lower_vec_index_to_cond_assign.o: /usr/include/bits/select.h
+lower_vec_index_to_cond_assign.o: /usr/include/bits/sigset.h
+lower_vec_index_to_cond_assign.o: /usr/include/bits/time.h
+lower_vec_index_to_cond_assign.o: /usr/include/sys/sysmacros.h
+lower_vec_index_to_cond_assign.o: /usr/include/bits/pthreadtypes.h
+lower_vec_index_to_cond_assign.o: /usr/include/alloca.h ralloc.h
+lower_vec_index_to_cond_assign.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+lower_vec_index_to_cond_assign.o: glsl_types.h /usr/include/string.h
+lower_vec_index_to_cond_assign.o: /usr/include/xlocale.h
+lower_vec_index_to_cond_assign.o: /usr/include/assert.h ../mesa/main/mtypes.h
+lower_vec_index_to_cond_assign.o: ../mesa/main/glheader.h
+lower_vec_index_to_cond_assign.o: ../../include/GL/gl.h
+lower_vec_index_to_cond_assign.o: ../../include/GL/glext.h
+lower_vec_index_to_cond_assign.o: /usr/include/inttypes.h
+lower_vec_index_to_cond_assign.o: /usr/include/stdint.h
+lower_vec_index_to_cond_assign.o: /usr/include/bits/wchar.h
+lower_vec_index_to_cond_assign.o: ../mesa/main/config.h
+lower_vec_index_to_cond_assign.o: ../mesa/main/mfeatures.h
+lower_vec_index_to_cond_assign.o: ../mapi/glapi/glapi.h
+lower_vec_index_to_cond_assign.o: ../mapi/glapi/glthread.h
+lower_vec_index_to_cond_assign.o: ../mapi/mapi/u_thread.h
+lower_vec_index_to_cond_assign.o: ../mapi/mapi/u_compiler.h
+lower_vec_index_to_cond_assign.o: ../mesa/math/m_matrix.h
+lower_vec_index_to_cond_assign.o: ../mesa/main/simple_list.h
+lower_vec_index_to_cond_assign.o: ../mesa/main/formats.h ../mesa/main/dd.h
+lower_vec_index_to_cond_assign.o: ../mesa/main/glheader.h list.h ir_visitor.h
+lower_vec_index_to_cond_assign.o: ir_hierarchical_visitor.h ir_optimization.h
+lower_vec_index_to_swizzle.o: ir.h /usr/include/stdio.h
+lower_vec_index_to_swizzle.o: /usr/include/features.h
+lower_vec_index_to_swizzle.o: /usr/include/sys/cdefs.h
+lower_vec_index_to_swizzle.o: /usr/include/bits/wordsize.h
+lower_vec_index_to_swizzle.o: /usr/include/gnu/stubs.h
+lower_vec_index_to_swizzle.o: /usr/include/gnu/stubs-64.h
+lower_vec_index_to_swizzle.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+lower_vec_index_to_swizzle.o: /usr/include/bits/types.h
+lower_vec_index_to_swizzle.o: /usr/include/bits/typesizes.h
+lower_vec_index_to_swizzle.o: /usr/include/libio.h /usr/include/_G_config.h
+lower_vec_index_to_swizzle.o: /usr/include/wchar.h
+lower_vec_index_to_swizzle.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+lower_vec_index_to_swizzle.o: /usr/include/bits/stdio_lim.h
+lower_vec_index_to_swizzle.o: /usr/include/bits/sys_errlist.h
+lower_vec_index_to_swizzle.o: /usr/include/stdlib.h
+lower_vec_index_to_swizzle.o: /usr/include/bits/waitflags.h
+lower_vec_index_to_swizzle.o: /usr/include/bits/waitstatus.h
+lower_vec_index_to_swizzle.o: /usr/include/endian.h
+lower_vec_index_to_swizzle.o: /usr/include/bits/endian.h
+lower_vec_index_to_swizzle.o: /usr/include/bits/byteswap.h
+lower_vec_index_to_swizzle.o: /usr/include/sys/types.h /usr/include/time.h
+lower_vec_index_to_swizzle.o: /usr/include/sys/select.h
+lower_vec_index_to_swizzle.o: /usr/include/bits/select.h
+lower_vec_index_to_swizzle.o: /usr/include/bits/sigset.h
+lower_vec_index_to_swizzle.o: /usr/include/bits/time.h
+lower_vec_index_to_swizzle.o: /usr/include/sys/sysmacros.h
+lower_vec_index_to_swizzle.o: /usr/include/bits/pthreadtypes.h
+lower_vec_index_to_swizzle.o: /usr/include/alloca.h ralloc.h
+lower_vec_index_to_swizzle.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+lower_vec_index_to_swizzle.o: glsl_types.h /usr/include/string.h
+lower_vec_index_to_swizzle.o: /usr/include/xlocale.h /usr/include/assert.h
+lower_vec_index_to_swizzle.o: ../mesa/main/mtypes.h ../mesa/main/glheader.h
+lower_vec_index_to_swizzle.o: ../../include/GL/gl.h ../../include/GL/glext.h
+lower_vec_index_to_swizzle.o: /usr/include/inttypes.h /usr/include/stdint.h
+lower_vec_index_to_swizzle.o: /usr/include/bits/wchar.h ../mesa/main/config.h
+lower_vec_index_to_swizzle.o: ../mesa/main/mfeatures.h ../mapi/glapi/glapi.h
+lower_vec_index_to_swizzle.o: ../mapi/glapi/glthread.h
+lower_vec_index_to_swizzle.o: ../mapi/mapi/u_thread.h
+lower_vec_index_to_swizzle.o: ../mapi/mapi/u_compiler.h
+lower_vec_index_to_swizzle.o: ../mesa/math/m_matrix.h
+lower_vec_index_to_swizzle.o: ../mesa/main/simple_list.h
+lower_vec_index_to_swizzle.o: ../mesa/main/formats.h ../mesa/main/dd.h
+lower_vec_index_to_swizzle.o: ../mesa/main/glheader.h list.h ir_visitor.h
+lower_vec_index_to_swizzle.o: ir_hierarchical_visitor.h ir_optimization.h
+lower_vec_index_to_swizzle.o: ../mesa/main/macros.h ../mesa/main/imports.h
+lower_vector.o: ir.h /usr/include/stdio.h /usr/include/features.h
+lower_vector.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+lower_vector.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+lower_vector.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+lower_vector.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+lower_vector.o: /usr/include/libio.h /usr/include/_G_config.h
+lower_vector.o: /usr/include/wchar.h
+lower_vector.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+lower_vector.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+lower_vector.o: /usr/include/stdlib.h /usr/include/bits/waitflags.h
+lower_vector.o: /usr/include/bits/waitstatus.h /usr/include/endian.h
+lower_vector.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+lower_vector.o: /usr/include/sys/types.h /usr/include/time.h
+lower_vector.o: /usr/include/sys/select.h /usr/include/bits/select.h
+lower_vector.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+lower_vector.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+lower_vector.o: /usr/include/alloca.h ralloc.h
+lower_vector.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+lower_vector.o: glsl_types.h /usr/include/string.h /usr/include/xlocale.h
+lower_vector.o: /usr/include/assert.h ../mesa/main/mtypes.h
+lower_vector.o: ../mesa/main/glheader.h ../../include/GL/gl.h
+lower_vector.o: ../../include/GL/glext.h /usr/include/inttypes.h
+lower_vector.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+lower_vector.o: ../mesa/main/config.h ../mesa/main/mfeatures.h
+lower_vector.o: ../mapi/glapi/glapi.h ../mapi/glapi/glthread.h
+lower_vector.o: ../mapi/mapi/u_thread.h ../mapi/mapi/u_compiler.h
+lower_vector.o: ../mesa/math/m_matrix.h ../mesa/main/simple_list.h
+lower_vector.o: ../mesa/main/formats.h ../mesa/main/dd.h
+lower_vector.o: ../mesa/main/glheader.h list.h ir_visitor.h
+lower_vector.o: ir_hierarchical_visitor.h ir_rvalue_visitor.h
+lower_output_reads.o: ir.h /usr/include/stdio.h /usr/include/features.h
+lower_output_reads.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+lower_output_reads.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+lower_output_reads.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+lower_output_reads.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+lower_output_reads.o: /usr/include/libio.h /usr/include/_G_config.h
+lower_output_reads.o: /usr/include/wchar.h
+lower_output_reads.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+lower_output_reads.o: /usr/include/bits/stdio_lim.h
+lower_output_reads.o: /usr/include/bits/sys_errlist.h /usr/include/stdlib.h
+lower_output_reads.o: /usr/include/bits/waitflags.h
+lower_output_reads.o: /usr/include/bits/waitstatus.h /usr/include/endian.h
+lower_output_reads.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+lower_output_reads.o: /usr/include/sys/types.h /usr/include/time.h
+lower_output_reads.o: /usr/include/sys/select.h /usr/include/bits/select.h
+lower_output_reads.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+lower_output_reads.o: /usr/include/sys/sysmacros.h
+lower_output_reads.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+lower_output_reads.o: ralloc.h
+lower_output_reads.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+lower_output_reads.o: glsl_types.h /usr/include/string.h
+lower_output_reads.o: /usr/include/xlocale.h /usr/include/assert.h
+lower_output_reads.o: ../mesa/main/mtypes.h ../mesa/main/glheader.h
+lower_output_reads.o: ../../include/GL/gl.h ../../include/GL/glext.h
+lower_output_reads.o: /usr/include/inttypes.h /usr/include/stdint.h
+lower_output_reads.o: /usr/include/bits/wchar.h ../mesa/main/config.h
+lower_output_reads.o: ../mesa/main/mfeatures.h ../mapi/glapi/glapi.h
+lower_output_reads.o: ../mapi/glapi/glthread.h ../mapi/mapi/u_thread.h
+lower_output_reads.o: ../mapi/mapi/u_compiler.h ../mesa/math/m_matrix.h
+lower_output_reads.o: ../mesa/main/simple_list.h ../mesa/main/formats.h
+lower_output_reads.o: ../mesa/main/dd.h ../mesa/main/glheader.h list.h
+lower_output_reads.o: ir_visitor.h ir_hierarchical_visitor.h
+lower_output_reads.o: ../mesa/program/hash_table.h
+lower_output_reads.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+lower_output_reads.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+lower_output_reads.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+lower_output_reads.o: /usr/include/bits/local_lim.h
+lower_output_reads.o: /usr/include/linux/limits.h
+lower_output_reads.o: /usr/include/bits/posix2_lim.h
+opt_algebraic.o: ir.h /usr/include/stdio.h /usr/include/features.h
+opt_algebraic.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+opt_algebraic.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+opt_algebraic.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+opt_algebraic.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+opt_algebraic.o: /usr/include/libio.h /usr/include/_G_config.h
+opt_algebraic.o: /usr/include/wchar.h
+opt_algebraic.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+opt_algebraic.o: /usr/include/bits/stdio_lim.h
+opt_algebraic.o: /usr/include/bits/sys_errlist.h /usr/include/stdlib.h
+opt_algebraic.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+opt_algebraic.o: /usr/include/endian.h /usr/include/bits/endian.h
+opt_algebraic.o: /usr/include/bits/byteswap.h /usr/include/sys/types.h
+opt_algebraic.o: /usr/include/time.h /usr/include/sys/select.h
+opt_algebraic.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+opt_algebraic.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+opt_algebraic.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+opt_algebraic.o: ralloc.h
+opt_algebraic.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+opt_algebraic.o: glsl_types.h /usr/include/string.h /usr/include/xlocale.h
+opt_algebraic.o: /usr/include/assert.h ../mesa/main/mtypes.h
+opt_algebraic.o: ../mesa/main/glheader.h ../../include/GL/gl.h
+opt_algebraic.o: ../../include/GL/glext.h /usr/include/inttypes.h
+opt_algebraic.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+opt_algebraic.o: ../mesa/main/config.h ../mesa/main/mfeatures.h
+opt_algebraic.o: ../mapi/glapi/glapi.h ../mapi/glapi/glthread.h
+opt_algebraic.o: ../mapi/mapi/u_thread.h ../mapi/mapi/u_compiler.h
+opt_algebraic.o: ../mesa/math/m_matrix.h ../mesa/main/simple_list.h
+opt_algebraic.o: ../mesa/main/formats.h ../mesa/main/dd.h
+opt_algebraic.o: ../mesa/main/glheader.h list.h ir_visitor.h
+opt_algebraic.o: ir_hierarchical_visitor.h ir_rvalue_visitor.h
+opt_algebraic.o: ir_optimization.h
+opt_constant_folding.o: ir.h /usr/include/stdio.h /usr/include/features.h
+opt_constant_folding.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+opt_constant_folding.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+opt_constant_folding.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+opt_constant_folding.o: /usr/include/bits/types.h
+opt_constant_folding.o: /usr/include/bits/typesizes.h /usr/include/libio.h
+opt_constant_folding.o: /usr/include/_G_config.h /usr/include/wchar.h
+opt_constant_folding.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+opt_constant_folding.o: /usr/include/bits/stdio_lim.h
+opt_constant_folding.o: /usr/include/bits/sys_errlist.h /usr/include/stdlib.h
+opt_constant_folding.o: /usr/include/bits/waitflags.h
+opt_constant_folding.o: /usr/include/bits/waitstatus.h /usr/include/endian.h
+opt_constant_folding.o: /usr/include/bits/endian.h
+opt_constant_folding.o: /usr/include/bits/byteswap.h /usr/include/sys/types.h
+opt_constant_folding.o: /usr/include/time.h /usr/include/sys/select.h
+opt_constant_folding.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+opt_constant_folding.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+opt_constant_folding.o: /usr/include/bits/pthreadtypes.h
+opt_constant_folding.o: /usr/include/alloca.h ralloc.h
+opt_constant_folding.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+opt_constant_folding.o: glsl_types.h /usr/include/string.h
+opt_constant_folding.o: /usr/include/xlocale.h /usr/include/assert.h
+opt_constant_folding.o: ../mesa/main/mtypes.h ../mesa/main/glheader.h
+opt_constant_folding.o: ../../include/GL/gl.h ../../include/GL/glext.h
+opt_constant_folding.o: /usr/include/inttypes.h /usr/include/stdint.h
+opt_constant_folding.o: /usr/include/bits/wchar.h ../mesa/main/config.h
+opt_constant_folding.o: ../mesa/main/mfeatures.h ../mapi/glapi/glapi.h
+opt_constant_folding.o: ../mapi/glapi/glthread.h ../mapi/mapi/u_thread.h
+opt_constant_folding.o: ../mapi/mapi/u_compiler.h ../mesa/math/m_matrix.h
+opt_constant_folding.o: ../mesa/main/simple_list.h ../mesa/main/formats.h
+opt_constant_folding.o: ../mesa/main/dd.h ../mesa/main/glheader.h list.h
+opt_constant_folding.o: ir_visitor.h ir_hierarchical_visitor.h
+opt_constant_folding.o: ir_rvalue_visitor.h ir_optimization.h
+opt_constant_propagation.o: ir.h /usr/include/stdio.h /usr/include/features.h
+opt_constant_propagation.o: /usr/include/sys/cdefs.h
+opt_constant_propagation.o: /usr/include/bits/wordsize.h
+opt_constant_propagation.o: /usr/include/gnu/stubs.h
+opt_constant_propagation.o: /usr/include/gnu/stubs-64.h
+opt_constant_propagation.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+opt_constant_propagation.o: /usr/include/bits/types.h
+opt_constant_propagation.o: /usr/include/bits/typesizes.h
+opt_constant_propagation.o: /usr/include/libio.h /usr/include/_G_config.h
+opt_constant_propagation.o: /usr/include/wchar.h
+opt_constant_propagation.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+opt_constant_propagation.o: /usr/include/bits/stdio_lim.h
+opt_constant_propagation.o: /usr/include/bits/sys_errlist.h
+opt_constant_propagation.o: /usr/include/stdlib.h
+opt_constant_propagation.o: /usr/include/bits/waitflags.h
+opt_constant_propagation.o: /usr/include/bits/waitstatus.h
+opt_constant_propagation.o: /usr/include/endian.h /usr/include/bits/endian.h
+opt_constant_propagation.o: /usr/include/bits/byteswap.h
+opt_constant_propagation.o: /usr/include/sys/types.h /usr/include/time.h
+opt_constant_propagation.o: /usr/include/sys/select.h
+opt_constant_propagation.o: /usr/include/bits/select.h
+opt_constant_propagation.o: /usr/include/bits/sigset.h
+opt_constant_propagation.o: /usr/include/bits/time.h
+opt_constant_propagation.o: /usr/include/sys/sysmacros.h
+opt_constant_propagation.o: /usr/include/bits/pthreadtypes.h
+opt_constant_propagation.o: /usr/include/alloca.h ralloc.h
+opt_constant_propagation.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+opt_constant_propagation.o: glsl_types.h /usr/include/string.h
+opt_constant_propagation.o: /usr/include/xlocale.h /usr/include/assert.h
+opt_constant_propagation.o: ../mesa/main/mtypes.h ../mesa/main/glheader.h
+opt_constant_propagation.o: ../../include/GL/gl.h ../../include/GL/glext.h
+opt_constant_propagation.o: /usr/include/inttypes.h /usr/include/stdint.h
+opt_constant_propagation.o: /usr/include/bits/wchar.h ../mesa/main/config.h
+opt_constant_propagation.o: ../mesa/main/mfeatures.h ../mapi/glapi/glapi.h
+opt_constant_propagation.o: ../mapi/glapi/glthread.h ../mapi/mapi/u_thread.h
+opt_constant_propagation.o: ../mapi/mapi/u_compiler.h ../mesa/math/m_matrix.h
+opt_constant_propagation.o: ../mesa/main/simple_list.h ../mesa/main/formats.h
+opt_constant_propagation.o: ../mesa/main/dd.h ../mesa/main/glheader.h list.h
+opt_constant_propagation.o: ir_visitor.h ir_hierarchical_visitor.h
+opt_constant_propagation.o: ir_rvalue_visitor.h ir_basic_block.h
+opt_constant_propagation.o: ir_optimization.h
+opt_constant_variable.o: ir.h /usr/include/stdio.h /usr/include/features.h
+opt_constant_variable.o: /usr/include/sys/cdefs.h
+opt_constant_variable.o: /usr/include/bits/wordsize.h
+opt_constant_variable.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+opt_constant_variable.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+opt_constant_variable.o: /usr/include/bits/types.h
+opt_constant_variable.o: /usr/include/bits/typesizes.h /usr/include/libio.h
+opt_constant_variable.o: /usr/include/_G_config.h /usr/include/wchar.h
+opt_constant_variable.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+opt_constant_variable.o: /usr/include/bits/stdio_lim.h
+opt_constant_variable.o: /usr/include/bits/sys_errlist.h
+opt_constant_variable.o: /usr/include/stdlib.h /usr/include/bits/waitflags.h
+opt_constant_variable.o: /usr/include/bits/waitstatus.h /usr/include/endian.h
+opt_constant_variable.o: /usr/include/bits/endian.h
+opt_constant_variable.o: /usr/include/bits/byteswap.h
+opt_constant_variable.o: /usr/include/sys/types.h /usr/include/time.h
+opt_constant_variable.o: /usr/include/sys/select.h /usr/include/bits/select.h
+opt_constant_variable.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+opt_constant_variable.o: /usr/include/sys/sysmacros.h
+opt_constant_variable.o: /usr/include/bits/pthreadtypes.h
+opt_constant_variable.o: /usr/include/alloca.h ralloc.h
+opt_constant_variable.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+opt_constant_variable.o: glsl_types.h /usr/include/string.h
+opt_constant_variable.o: /usr/include/xlocale.h /usr/include/assert.h
+opt_constant_variable.o: ../mesa/main/mtypes.h ../mesa/main/glheader.h
+opt_constant_variable.o: ../../include/GL/gl.h ../../include/GL/glext.h
+opt_constant_variable.o: /usr/include/inttypes.h /usr/include/stdint.h
+opt_constant_variable.o: /usr/include/bits/wchar.h ../mesa/main/config.h
+opt_constant_variable.o: ../mesa/main/mfeatures.h ../mapi/glapi/glapi.h
+opt_constant_variable.o: ../mapi/glapi/glthread.h ../mapi/mapi/u_thread.h
+opt_constant_variable.o: ../mapi/mapi/u_compiler.h ../mesa/math/m_matrix.h
+opt_constant_variable.o: ../mesa/main/simple_list.h ../mesa/main/formats.h
+opt_constant_variable.o: ../mesa/main/dd.h ../mesa/main/glheader.h list.h
+opt_constant_variable.o: ir_visitor.h ir_hierarchical_visitor.h
+opt_constant_variable.o: ir_optimization.h
+opt_copy_propagation.o: ir.h /usr/include/stdio.h /usr/include/features.h
+opt_copy_propagation.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+opt_copy_propagation.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+opt_copy_propagation.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+opt_copy_propagation.o: /usr/include/bits/types.h
+opt_copy_propagation.o: /usr/include/bits/typesizes.h /usr/include/libio.h
+opt_copy_propagation.o: /usr/include/_G_config.h /usr/include/wchar.h
+opt_copy_propagation.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+opt_copy_propagation.o: /usr/include/bits/stdio_lim.h
+opt_copy_propagation.o: /usr/include/bits/sys_errlist.h /usr/include/stdlib.h
+opt_copy_propagation.o: /usr/include/bits/waitflags.h
+opt_copy_propagation.o: /usr/include/bits/waitstatus.h /usr/include/endian.h
+opt_copy_propagation.o: /usr/include/bits/endian.h
+opt_copy_propagation.o: /usr/include/bits/byteswap.h /usr/include/sys/types.h
+opt_copy_propagation.o: /usr/include/time.h /usr/include/sys/select.h
+opt_copy_propagation.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+opt_copy_propagation.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+opt_copy_propagation.o: /usr/include/bits/pthreadtypes.h
+opt_copy_propagation.o: /usr/include/alloca.h ralloc.h
+opt_copy_propagation.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+opt_copy_propagation.o: glsl_types.h /usr/include/string.h
+opt_copy_propagation.o: /usr/include/xlocale.h /usr/include/assert.h
+opt_copy_propagation.o: ../mesa/main/mtypes.h ../mesa/main/glheader.h
+opt_copy_propagation.o: ../../include/GL/gl.h ../../include/GL/glext.h
+opt_copy_propagation.o: /usr/include/inttypes.h /usr/include/stdint.h
+opt_copy_propagation.o: /usr/include/bits/wchar.h ../mesa/main/config.h
+opt_copy_propagation.o: ../mesa/main/mfeatures.h ../mapi/glapi/glapi.h
+opt_copy_propagation.o: ../mapi/glapi/glthread.h ../mapi/mapi/u_thread.h
+opt_copy_propagation.o: ../mapi/mapi/u_compiler.h ../mesa/math/m_matrix.h
+opt_copy_propagation.o: ../mesa/main/simple_list.h ../mesa/main/formats.h
+opt_copy_propagation.o: ../mesa/main/dd.h ../mesa/main/glheader.h list.h
+opt_copy_propagation.o: ir_visitor.h ir_hierarchical_visitor.h
+opt_copy_propagation.o: ir_basic_block.h ir_optimization.h
+opt_copy_propagation_elements.o: ir.h /usr/include/stdio.h
+opt_copy_propagation_elements.o: /usr/include/features.h
+opt_copy_propagation_elements.o: /usr/include/sys/cdefs.h
+opt_copy_propagation_elements.o: /usr/include/bits/wordsize.h
+opt_copy_propagation_elements.o: /usr/include/gnu/stubs.h
+opt_copy_propagation_elements.o: /usr/include/gnu/stubs-64.h
+opt_copy_propagation_elements.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+opt_copy_propagation_elements.o: /usr/include/bits/types.h
+opt_copy_propagation_elements.o: /usr/include/bits/typesizes.h
+opt_copy_propagation_elements.o: /usr/include/libio.h
+opt_copy_propagation_elements.o: /usr/include/_G_config.h
+opt_copy_propagation_elements.o: /usr/include/wchar.h
+opt_copy_propagation_elements.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+opt_copy_propagation_elements.o: /usr/include/bits/stdio_lim.h
+opt_copy_propagation_elements.o: /usr/include/bits/sys_errlist.h
+opt_copy_propagation_elements.o: /usr/include/stdlib.h
+opt_copy_propagation_elements.o: /usr/include/bits/waitflags.h
+opt_copy_propagation_elements.o: /usr/include/bits/waitstatus.h
+opt_copy_propagation_elements.o: /usr/include/endian.h
+opt_copy_propagation_elements.o: /usr/include/bits/endian.h
+opt_copy_propagation_elements.o: /usr/include/bits/byteswap.h
+opt_copy_propagation_elements.o: /usr/include/sys/types.h /usr/include/time.h
+opt_copy_propagation_elements.o: /usr/include/sys/select.h
+opt_copy_propagation_elements.o: /usr/include/bits/select.h
+opt_copy_propagation_elements.o: /usr/include/bits/sigset.h
+opt_copy_propagation_elements.o: /usr/include/bits/time.h
+opt_copy_propagation_elements.o: /usr/include/sys/sysmacros.h
+opt_copy_propagation_elements.o: /usr/include/bits/pthreadtypes.h
+opt_copy_propagation_elements.o: /usr/include/alloca.h ralloc.h
+opt_copy_propagation_elements.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+opt_copy_propagation_elements.o: glsl_types.h /usr/include/string.h
+opt_copy_propagation_elements.o: /usr/include/xlocale.h /usr/include/assert.h
+opt_copy_propagation_elements.o: ../mesa/main/mtypes.h
+opt_copy_propagation_elements.o: ../mesa/main/glheader.h
+opt_copy_propagation_elements.o: ../../include/GL/gl.h
+opt_copy_propagation_elements.o: ../../include/GL/glext.h
+opt_copy_propagation_elements.o: /usr/include/inttypes.h
+opt_copy_propagation_elements.o: /usr/include/stdint.h
+opt_copy_propagation_elements.o: /usr/include/bits/wchar.h
+opt_copy_propagation_elements.o: ../mesa/main/config.h
+opt_copy_propagation_elements.o: ../mesa/main/mfeatures.h
+opt_copy_propagation_elements.o: ../mapi/glapi/glapi.h
+opt_copy_propagation_elements.o: ../mapi/glapi/glthread.h
+opt_copy_propagation_elements.o: ../mapi/mapi/u_thread.h
+opt_copy_propagation_elements.o: ../mapi/mapi/u_compiler.h
+opt_copy_propagation_elements.o: ../mesa/math/m_matrix.h
+opt_copy_propagation_elements.o: ../mesa/main/simple_list.h
+opt_copy_propagation_elements.o: ../mesa/main/formats.h ../mesa/main/dd.h
+opt_copy_propagation_elements.o: ../mesa/main/glheader.h list.h ir_visitor.h
+opt_copy_propagation_elements.o: ir_hierarchical_visitor.h
+opt_copy_propagation_elements.o: ir_rvalue_visitor.h ir_basic_block.h
+opt_copy_propagation_elements.o: ir_optimization.h
+opt_dead_code.o: ir.h /usr/include/stdio.h /usr/include/features.h
+opt_dead_code.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+opt_dead_code.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+opt_dead_code.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+opt_dead_code.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+opt_dead_code.o: /usr/include/libio.h /usr/include/_G_config.h
+opt_dead_code.o: /usr/include/wchar.h
+opt_dead_code.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+opt_dead_code.o: /usr/include/bits/stdio_lim.h
+opt_dead_code.o: /usr/include/bits/sys_errlist.h /usr/include/stdlib.h
+opt_dead_code.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+opt_dead_code.o: /usr/include/endian.h /usr/include/bits/endian.h
+opt_dead_code.o: /usr/include/bits/byteswap.h /usr/include/sys/types.h
+opt_dead_code.o: /usr/include/time.h /usr/include/sys/select.h
+opt_dead_code.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+opt_dead_code.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+opt_dead_code.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+opt_dead_code.o: ralloc.h
+opt_dead_code.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+opt_dead_code.o: glsl_types.h /usr/include/string.h /usr/include/xlocale.h
+opt_dead_code.o: /usr/include/assert.h ../mesa/main/mtypes.h
+opt_dead_code.o: ../mesa/main/glheader.h ../../include/GL/gl.h
+opt_dead_code.o: ../../include/GL/glext.h /usr/include/inttypes.h
+opt_dead_code.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+opt_dead_code.o: ../mesa/main/config.h ../mesa/main/mfeatures.h
+opt_dead_code.o: ../mapi/glapi/glapi.h ../mapi/glapi/glthread.h
+opt_dead_code.o: ../mapi/mapi/u_thread.h ../mapi/mapi/u_compiler.h
+opt_dead_code.o: ../mesa/math/m_matrix.h ../mesa/main/simple_list.h
+opt_dead_code.o: ../mesa/main/formats.h ../mesa/main/dd.h
+opt_dead_code.o: ../mesa/main/glheader.h list.h ir_visitor.h
+opt_dead_code.o: ir_hierarchical_visitor.h ir_variable_refcount.h
+opt_dead_code_local.o: ir.h /usr/include/stdio.h /usr/include/features.h
+opt_dead_code_local.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+opt_dead_code_local.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+opt_dead_code_local.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+opt_dead_code_local.o: /usr/include/bits/types.h
+opt_dead_code_local.o: /usr/include/bits/typesizes.h /usr/include/libio.h
+opt_dead_code_local.o: /usr/include/_G_config.h /usr/include/wchar.h
+opt_dead_code_local.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+opt_dead_code_local.o: /usr/include/bits/stdio_lim.h
+opt_dead_code_local.o: /usr/include/bits/sys_errlist.h /usr/include/stdlib.h
+opt_dead_code_local.o: /usr/include/bits/waitflags.h
+opt_dead_code_local.o: /usr/include/bits/waitstatus.h /usr/include/endian.h
+opt_dead_code_local.o: /usr/include/bits/endian.h
+opt_dead_code_local.o: /usr/include/bits/byteswap.h /usr/include/sys/types.h
+opt_dead_code_local.o: /usr/include/time.h /usr/include/sys/select.h
+opt_dead_code_local.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+opt_dead_code_local.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+opt_dead_code_local.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+opt_dead_code_local.o: ralloc.h
+opt_dead_code_local.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+opt_dead_code_local.o: glsl_types.h /usr/include/string.h
+opt_dead_code_local.o: /usr/include/xlocale.h /usr/include/assert.h
+opt_dead_code_local.o: ../mesa/main/mtypes.h ../mesa/main/glheader.h
+opt_dead_code_local.o: ../../include/GL/gl.h ../../include/GL/glext.h
+opt_dead_code_local.o: /usr/include/inttypes.h /usr/include/stdint.h
+opt_dead_code_local.o: /usr/include/bits/wchar.h ../mesa/main/config.h
+opt_dead_code_local.o: ../mesa/main/mfeatures.h ../mapi/glapi/glapi.h
+opt_dead_code_local.o: ../mapi/glapi/glthread.h ../mapi/mapi/u_thread.h
+opt_dead_code_local.o: ../mapi/mapi/u_compiler.h ../mesa/math/m_matrix.h
+opt_dead_code_local.o: ../mesa/main/simple_list.h ../mesa/main/formats.h
+opt_dead_code_local.o: ../mesa/main/dd.h ../mesa/main/glheader.h list.h
+opt_dead_code_local.o: ir_visitor.h ir_hierarchical_visitor.h
+opt_dead_code_local.o: ir_basic_block.h ir_optimization.h
+opt_dead_functions.o: ir.h /usr/include/stdio.h /usr/include/features.h
+opt_dead_functions.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+opt_dead_functions.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+opt_dead_functions.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+opt_dead_functions.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+opt_dead_functions.o: /usr/include/libio.h /usr/include/_G_config.h
+opt_dead_functions.o: /usr/include/wchar.h
+opt_dead_functions.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+opt_dead_functions.o: /usr/include/bits/stdio_lim.h
+opt_dead_functions.o: /usr/include/bits/sys_errlist.h /usr/include/stdlib.h
+opt_dead_functions.o: /usr/include/bits/waitflags.h
+opt_dead_functions.o: /usr/include/bits/waitstatus.h /usr/include/endian.h
+opt_dead_functions.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+opt_dead_functions.o: /usr/include/sys/types.h /usr/include/time.h
+opt_dead_functions.o: /usr/include/sys/select.h /usr/include/bits/select.h
+opt_dead_functions.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+opt_dead_functions.o: /usr/include/sys/sysmacros.h
+opt_dead_functions.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+opt_dead_functions.o: ralloc.h
+opt_dead_functions.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+opt_dead_functions.o: glsl_types.h /usr/include/string.h
+opt_dead_functions.o: /usr/include/xlocale.h /usr/include/assert.h
+opt_dead_functions.o: ../mesa/main/mtypes.h ../mesa/main/glheader.h
+opt_dead_functions.o: ../../include/GL/gl.h ../../include/GL/glext.h
+opt_dead_functions.o: /usr/include/inttypes.h /usr/include/stdint.h
+opt_dead_functions.o: /usr/include/bits/wchar.h ../mesa/main/config.h
+opt_dead_functions.o: ../mesa/main/mfeatures.h ../mapi/glapi/glapi.h
+opt_dead_functions.o: ../mapi/glapi/glthread.h ../mapi/mapi/u_thread.h
+opt_dead_functions.o: ../mapi/mapi/u_compiler.h ../mesa/math/m_matrix.h
+opt_dead_functions.o: ../mesa/main/simple_list.h ../mesa/main/formats.h
+opt_dead_functions.o: ../mesa/main/dd.h ../mesa/main/glheader.h list.h
+opt_dead_functions.o: ir_visitor.h ir_hierarchical_visitor.h
+opt_dead_functions.o: ir_expression_flattening.h
+opt_discard_simplification.o: glsl_types.h /usr/include/string.h
+opt_discard_simplification.o: /usr/include/features.h
+opt_discard_simplification.o: /usr/include/sys/cdefs.h
+opt_discard_simplification.o: /usr/include/bits/wordsize.h
+opt_discard_simplification.o: /usr/include/gnu/stubs.h
+opt_discard_simplification.o: /usr/include/gnu/stubs-64.h
+opt_discard_simplification.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+opt_discard_simplification.o: /usr/include/xlocale.h /usr/include/assert.h
+opt_discard_simplification.o: ../mesa/main/mtypes.h ../mesa/main/glheader.h
+opt_discard_simplification.o: ../../include/GL/gl.h ../../include/GL/glext.h
+opt_discard_simplification.o: /usr/include/inttypes.h /usr/include/stdint.h
+opt_discard_simplification.o: /usr/include/bits/wchar.h ../mesa/main/config.h
+opt_discard_simplification.o: ../mesa/main/mfeatures.h ../mapi/glapi/glapi.h
+opt_discard_simplification.o: ../mapi/glapi/glthread.h
+opt_discard_simplification.o: ../mapi/mapi/u_thread.h
+opt_discard_simplification.o: ../mapi/mapi/u_compiler.h
+opt_discard_simplification.o: ../mesa/math/m_matrix.h
+opt_discard_simplification.o: ../mesa/main/simple_list.h
+opt_discard_simplification.o: ../mesa/main/formats.h ../mesa/main/dd.h
+opt_discard_simplification.o: ../mesa/main/glheader.h ir.h
+opt_discard_simplification.o: /usr/include/stdio.h /usr/include/bits/types.h
+opt_discard_simplification.o: /usr/include/bits/typesizes.h
+opt_discard_simplification.o: /usr/include/libio.h /usr/include/_G_config.h
+opt_discard_simplification.o: /usr/include/wchar.h
+opt_discard_simplification.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+opt_discard_simplification.o: /usr/include/bits/stdio_lim.h
+opt_discard_simplification.o: /usr/include/bits/sys_errlist.h
+opt_discard_simplification.o: /usr/include/stdlib.h
+opt_discard_simplification.o: /usr/include/bits/waitflags.h
+opt_discard_simplification.o: /usr/include/bits/waitstatus.h
+opt_discard_simplification.o: /usr/include/endian.h
+opt_discard_simplification.o: /usr/include/bits/endian.h
+opt_discard_simplification.o: /usr/include/bits/byteswap.h
+opt_discard_simplification.o: /usr/include/sys/types.h /usr/include/time.h
+opt_discard_simplification.o: /usr/include/sys/select.h
+opt_discard_simplification.o: /usr/include/bits/select.h
+opt_discard_simplification.o: /usr/include/bits/sigset.h
+opt_discard_simplification.o: /usr/include/bits/time.h
+opt_discard_simplification.o: /usr/include/sys/sysmacros.h
+opt_discard_simplification.o: /usr/include/bits/pthreadtypes.h
+opt_discard_simplification.o: /usr/include/alloca.h ralloc.h
+opt_discard_simplification.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+opt_discard_simplification.o: list.h ir_visitor.h ir_hierarchical_visitor.h
+opt_function_inlining.o: ir.h /usr/include/stdio.h /usr/include/features.h
+opt_function_inlining.o: /usr/include/sys/cdefs.h
+opt_function_inlining.o: /usr/include/bits/wordsize.h
+opt_function_inlining.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+opt_function_inlining.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+opt_function_inlining.o: /usr/include/bits/types.h
+opt_function_inlining.o: /usr/include/bits/typesizes.h /usr/include/libio.h
+opt_function_inlining.o: /usr/include/_G_config.h /usr/include/wchar.h
+opt_function_inlining.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+opt_function_inlining.o: /usr/include/bits/stdio_lim.h
+opt_function_inlining.o: /usr/include/bits/sys_errlist.h
+opt_function_inlining.o: /usr/include/stdlib.h /usr/include/bits/waitflags.h
+opt_function_inlining.o: /usr/include/bits/waitstatus.h /usr/include/endian.h
+opt_function_inlining.o: /usr/include/bits/endian.h
+opt_function_inlining.o: /usr/include/bits/byteswap.h
+opt_function_inlining.o: /usr/include/sys/types.h /usr/include/time.h
+opt_function_inlining.o: /usr/include/sys/select.h /usr/include/bits/select.h
+opt_function_inlining.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+opt_function_inlining.o: /usr/include/sys/sysmacros.h
+opt_function_inlining.o: /usr/include/bits/pthreadtypes.h
+opt_function_inlining.o: /usr/include/alloca.h ralloc.h
+opt_function_inlining.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+opt_function_inlining.o: glsl_types.h /usr/include/string.h
+opt_function_inlining.o: /usr/include/xlocale.h /usr/include/assert.h
+opt_function_inlining.o: ../mesa/main/mtypes.h ../mesa/main/glheader.h
+opt_function_inlining.o: ../../include/GL/gl.h ../../include/GL/glext.h
+opt_function_inlining.o: /usr/include/inttypes.h /usr/include/stdint.h
+opt_function_inlining.o: /usr/include/bits/wchar.h ../mesa/main/config.h
+opt_function_inlining.o: ../mesa/main/mfeatures.h ../mapi/glapi/glapi.h
+opt_function_inlining.o: ../mapi/glapi/glthread.h ../mapi/mapi/u_thread.h
+opt_function_inlining.o: ../mapi/mapi/u_compiler.h ../mesa/math/m_matrix.h
+opt_function_inlining.o: ../mesa/main/simple_list.h ../mesa/main/formats.h
+opt_function_inlining.o: ../mesa/main/dd.h ../mesa/main/glheader.h list.h
+opt_function_inlining.o: ir_visitor.h ir_hierarchical_visitor.h
+opt_function_inlining.o: ir_function_inlining.h ir_expression_flattening.h
+opt_function_inlining.o: ../mesa/program/hash_table.h
+opt_function_inlining.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+opt_function_inlining.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+opt_function_inlining.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+opt_function_inlining.o: /usr/include/bits/local_lim.h
+opt_function_inlining.o: /usr/include/linux/limits.h
+opt_function_inlining.o: /usr/include/bits/posix2_lim.h
+opt_if_simplification.o: ir.h /usr/include/stdio.h /usr/include/features.h
+opt_if_simplification.o: /usr/include/sys/cdefs.h
+opt_if_simplification.o: /usr/include/bits/wordsize.h
+opt_if_simplification.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+opt_if_simplification.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+opt_if_simplification.o: /usr/include/bits/types.h
+opt_if_simplification.o: /usr/include/bits/typesizes.h /usr/include/libio.h
+opt_if_simplification.o: /usr/include/_G_config.h /usr/include/wchar.h
+opt_if_simplification.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+opt_if_simplification.o: /usr/include/bits/stdio_lim.h
+opt_if_simplification.o: /usr/include/bits/sys_errlist.h
+opt_if_simplification.o: /usr/include/stdlib.h /usr/include/bits/waitflags.h
+opt_if_simplification.o: /usr/include/bits/waitstatus.h /usr/include/endian.h
+opt_if_simplification.o: /usr/include/bits/endian.h
+opt_if_simplification.o: /usr/include/bits/byteswap.h
+opt_if_simplification.o: /usr/include/sys/types.h /usr/include/time.h
+opt_if_simplification.o: /usr/include/sys/select.h /usr/include/bits/select.h
+opt_if_simplification.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+opt_if_simplification.o: /usr/include/sys/sysmacros.h
+opt_if_simplification.o: /usr/include/bits/pthreadtypes.h
+opt_if_simplification.o: /usr/include/alloca.h ralloc.h
+opt_if_simplification.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+opt_if_simplification.o: glsl_types.h /usr/include/string.h
+opt_if_simplification.o: /usr/include/xlocale.h /usr/include/assert.h
+opt_if_simplification.o: ../mesa/main/mtypes.h ../mesa/main/glheader.h
+opt_if_simplification.o: ../../include/GL/gl.h ../../include/GL/glext.h
+opt_if_simplification.o: /usr/include/inttypes.h /usr/include/stdint.h
+opt_if_simplification.o: /usr/include/bits/wchar.h ../mesa/main/config.h
+opt_if_simplification.o: ../mesa/main/mfeatures.h ../mapi/glapi/glapi.h
+opt_if_simplification.o: ../mapi/glapi/glthread.h ../mapi/mapi/u_thread.h
+opt_if_simplification.o: ../mapi/mapi/u_compiler.h ../mesa/math/m_matrix.h
+opt_if_simplification.o: ../mesa/main/simple_list.h ../mesa/main/formats.h
+opt_if_simplification.o: ../mesa/main/dd.h ../mesa/main/glheader.h list.h
+opt_if_simplification.o: ir_visitor.h ir_hierarchical_visitor.h
+opt_noop_swizzle.o: ir.h /usr/include/stdio.h /usr/include/features.h
+opt_noop_swizzle.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+opt_noop_swizzle.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+opt_noop_swizzle.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+opt_noop_swizzle.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+opt_noop_swizzle.o: /usr/include/libio.h /usr/include/_G_config.h
+opt_noop_swizzle.o: /usr/include/wchar.h
+opt_noop_swizzle.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+opt_noop_swizzle.o: /usr/include/bits/stdio_lim.h
+opt_noop_swizzle.o: /usr/include/bits/sys_errlist.h /usr/include/stdlib.h
+opt_noop_swizzle.o: /usr/include/bits/waitflags.h
+opt_noop_swizzle.o: /usr/include/bits/waitstatus.h /usr/include/endian.h
+opt_noop_swizzle.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+opt_noop_swizzle.o: /usr/include/sys/types.h /usr/include/time.h
+opt_noop_swizzle.o: /usr/include/sys/select.h /usr/include/bits/select.h
+opt_noop_swizzle.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+opt_noop_swizzle.o: /usr/include/sys/sysmacros.h
+opt_noop_swizzle.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+opt_noop_swizzle.o: ralloc.h
+opt_noop_swizzle.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+opt_noop_swizzle.o: glsl_types.h /usr/include/string.h /usr/include/xlocale.h
+opt_noop_swizzle.o: /usr/include/assert.h ../mesa/main/mtypes.h
+opt_noop_swizzle.o: ../mesa/main/glheader.h ../../include/GL/gl.h
+opt_noop_swizzle.o: ../../include/GL/glext.h /usr/include/inttypes.h
+opt_noop_swizzle.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+opt_noop_swizzle.o: ../mesa/main/config.h ../mesa/main/mfeatures.h
+opt_noop_swizzle.o: ../mapi/glapi/glapi.h ../mapi/glapi/glthread.h
+opt_noop_swizzle.o: ../mapi/mapi/u_thread.h ../mapi/mapi/u_compiler.h
+opt_noop_swizzle.o: ../mesa/math/m_matrix.h ../mesa/main/simple_list.h
+opt_noop_swizzle.o: ../mesa/main/formats.h ../mesa/main/dd.h
+opt_noop_swizzle.o: ../mesa/main/glheader.h list.h ir_visitor.h
+opt_noop_swizzle.o: ir_hierarchical_visitor.h ir_rvalue_visitor.h
+opt_noop_swizzle.o: ir_print_visitor.h ../mesa/program/symbol_table.h
+opt_redundant_jumps.o: ir.h /usr/include/stdio.h /usr/include/features.h
+opt_redundant_jumps.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+opt_redundant_jumps.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+opt_redundant_jumps.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+opt_redundant_jumps.o: /usr/include/bits/types.h
+opt_redundant_jumps.o: /usr/include/bits/typesizes.h /usr/include/libio.h
+opt_redundant_jumps.o: /usr/include/_G_config.h /usr/include/wchar.h
+opt_redundant_jumps.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+opt_redundant_jumps.o: /usr/include/bits/stdio_lim.h
+opt_redundant_jumps.o: /usr/include/bits/sys_errlist.h /usr/include/stdlib.h
+opt_redundant_jumps.o: /usr/include/bits/waitflags.h
+opt_redundant_jumps.o: /usr/include/bits/waitstatus.h /usr/include/endian.h
+opt_redundant_jumps.o: /usr/include/bits/endian.h
+opt_redundant_jumps.o: /usr/include/bits/byteswap.h /usr/include/sys/types.h
+opt_redundant_jumps.o: /usr/include/time.h /usr/include/sys/select.h
+opt_redundant_jumps.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+opt_redundant_jumps.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+opt_redundant_jumps.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+opt_redundant_jumps.o: ralloc.h
+opt_redundant_jumps.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+opt_redundant_jumps.o: glsl_types.h /usr/include/string.h
+opt_redundant_jumps.o: /usr/include/xlocale.h /usr/include/assert.h
+opt_redundant_jumps.o: ../mesa/main/mtypes.h ../mesa/main/glheader.h
+opt_redundant_jumps.o: ../../include/GL/gl.h ../../include/GL/glext.h
+opt_redundant_jumps.o: /usr/include/inttypes.h /usr/include/stdint.h
+opt_redundant_jumps.o: /usr/include/bits/wchar.h ../mesa/main/config.h
+opt_redundant_jumps.o: ../mesa/main/mfeatures.h ../mapi/glapi/glapi.h
+opt_redundant_jumps.o: ../mapi/glapi/glthread.h ../mapi/mapi/u_thread.h
+opt_redundant_jumps.o: ../mapi/mapi/u_compiler.h ../mesa/math/m_matrix.h
+opt_redundant_jumps.o: ../mesa/main/simple_list.h ../mesa/main/formats.h
+opt_redundant_jumps.o: ../mesa/main/dd.h ../mesa/main/glheader.h list.h
+opt_redundant_jumps.o: ir_visitor.h ir_hierarchical_visitor.h
+opt_structure_splitting.o: ir.h /usr/include/stdio.h /usr/include/features.h
+opt_structure_splitting.o: /usr/include/sys/cdefs.h
+opt_structure_splitting.o: /usr/include/bits/wordsize.h
+opt_structure_splitting.o: /usr/include/gnu/stubs.h
+opt_structure_splitting.o: /usr/include/gnu/stubs-64.h
+opt_structure_splitting.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+opt_structure_splitting.o: /usr/include/bits/types.h
+opt_structure_splitting.o: /usr/include/bits/typesizes.h /usr/include/libio.h
+opt_structure_splitting.o: /usr/include/_G_config.h /usr/include/wchar.h
+opt_structure_splitting.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+opt_structure_splitting.o: /usr/include/bits/stdio_lim.h
+opt_structure_splitting.o: /usr/include/bits/sys_errlist.h
+opt_structure_splitting.o: /usr/include/stdlib.h
+opt_structure_splitting.o: /usr/include/bits/waitflags.h
+opt_structure_splitting.o: /usr/include/bits/waitstatus.h
+opt_structure_splitting.o: /usr/include/endian.h /usr/include/bits/endian.h
+opt_structure_splitting.o: /usr/include/bits/byteswap.h
+opt_structure_splitting.o: /usr/include/sys/types.h /usr/include/time.h
+opt_structure_splitting.o: /usr/include/sys/select.h
+opt_structure_splitting.o: /usr/include/bits/select.h
+opt_structure_splitting.o: /usr/include/bits/sigset.h
+opt_structure_splitting.o: /usr/include/bits/time.h
+opt_structure_splitting.o: /usr/include/sys/sysmacros.h
+opt_structure_splitting.o: /usr/include/bits/pthreadtypes.h
+opt_structure_splitting.o: /usr/include/alloca.h ralloc.h
+opt_structure_splitting.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+opt_structure_splitting.o: glsl_types.h /usr/include/string.h
+opt_structure_splitting.o: /usr/include/xlocale.h /usr/include/assert.h
+opt_structure_splitting.o: ../mesa/main/mtypes.h ../mesa/main/glheader.h
+opt_structure_splitting.o: ../../include/GL/gl.h ../../include/GL/glext.h
+opt_structure_splitting.o: /usr/include/inttypes.h /usr/include/stdint.h
+opt_structure_splitting.o: /usr/include/bits/wchar.h ../mesa/main/config.h
+opt_structure_splitting.o: ../mesa/main/mfeatures.h ../mapi/glapi/glapi.h
+opt_structure_splitting.o: ../mapi/glapi/glthread.h ../mapi/mapi/u_thread.h
+opt_structure_splitting.o: ../mapi/mapi/u_compiler.h ../mesa/math/m_matrix.h
+opt_structure_splitting.o: ../mesa/main/simple_list.h ../mesa/main/formats.h
+opt_structure_splitting.o: ../mesa/main/dd.h ../mesa/main/glheader.h list.h
+opt_structure_splitting.o: ir_visitor.h ir_hierarchical_visitor.h
+opt_structure_splitting.o: ir_print_visitor.h ../mesa/program/symbol_table.h
+opt_structure_splitting.o: ir_rvalue_visitor.h
+opt_swizzle_swizzle.o: ir.h /usr/include/stdio.h /usr/include/features.h
+opt_swizzle_swizzle.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+opt_swizzle_swizzle.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+opt_swizzle_swizzle.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+opt_swizzle_swizzle.o: /usr/include/bits/types.h
+opt_swizzle_swizzle.o: /usr/include/bits/typesizes.h /usr/include/libio.h
+opt_swizzle_swizzle.o: /usr/include/_G_config.h /usr/include/wchar.h
+opt_swizzle_swizzle.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+opt_swizzle_swizzle.o: /usr/include/bits/stdio_lim.h
+opt_swizzle_swizzle.o: /usr/include/bits/sys_errlist.h /usr/include/stdlib.h
+opt_swizzle_swizzle.o: /usr/include/bits/waitflags.h
+opt_swizzle_swizzle.o: /usr/include/bits/waitstatus.h /usr/include/endian.h
+opt_swizzle_swizzle.o: /usr/include/bits/endian.h
+opt_swizzle_swizzle.o: /usr/include/bits/byteswap.h /usr/include/sys/types.h
+opt_swizzle_swizzle.o: /usr/include/time.h /usr/include/sys/select.h
+opt_swizzle_swizzle.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+opt_swizzle_swizzle.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+opt_swizzle_swizzle.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+opt_swizzle_swizzle.o: ralloc.h
+opt_swizzle_swizzle.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+opt_swizzle_swizzle.o: glsl_types.h /usr/include/string.h
+opt_swizzle_swizzle.o: /usr/include/xlocale.h /usr/include/assert.h
+opt_swizzle_swizzle.o: ../mesa/main/mtypes.h ../mesa/main/glheader.h
+opt_swizzle_swizzle.o: ../../include/GL/gl.h ../../include/GL/glext.h
+opt_swizzle_swizzle.o: /usr/include/inttypes.h /usr/include/stdint.h
+opt_swizzle_swizzle.o: /usr/include/bits/wchar.h ../mesa/main/config.h
+opt_swizzle_swizzle.o: ../mesa/main/mfeatures.h ../mapi/glapi/glapi.h
+opt_swizzle_swizzle.o: ../mapi/glapi/glthread.h ../mapi/mapi/u_thread.h
+opt_swizzle_swizzle.o: ../mapi/mapi/u_compiler.h ../mesa/math/m_matrix.h
+opt_swizzle_swizzle.o: ../mesa/main/simple_list.h ../mesa/main/formats.h
+opt_swizzle_swizzle.o: ../mesa/main/dd.h ../mesa/main/glheader.h list.h
+opt_swizzle_swizzle.o: ir_visitor.h ir_hierarchical_visitor.h
+opt_swizzle_swizzle.o: ir_optimization.h
+opt_tree_grafting.o: ir.h /usr/include/stdio.h /usr/include/features.h
+opt_tree_grafting.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+opt_tree_grafting.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+opt_tree_grafting.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+opt_tree_grafting.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+opt_tree_grafting.o: /usr/include/libio.h /usr/include/_G_config.h
+opt_tree_grafting.o: /usr/include/wchar.h
+opt_tree_grafting.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+opt_tree_grafting.o: /usr/include/bits/stdio_lim.h
+opt_tree_grafting.o: /usr/include/bits/sys_errlist.h /usr/include/stdlib.h
+opt_tree_grafting.o: /usr/include/bits/waitflags.h
+opt_tree_grafting.o: /usr/include/bits/waitstatus.h /usr/include/endian.h
+opt_tree_grafting.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+opt_tree_grafting.o: /usr/include/sys/types.h /usr/include/time.h
+opt_tree_grafting.o: /usr/include/sys/select.h /usr/include/bits/select.h
+opt_tree_grafting.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+opt_tree_grafting.o: /usr/include/sys/sysmacros.h
+opt_tree_grafting.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+opt_tree_grafting.o: ralloc.h
+opt_tree_grafting.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+opt_tree_grafting.o: glsl_types.h /usr/include/string.h
+opt_tree_grafting.o: /usr/include/xlocale.h /usr/include/assert.h
+opt_tree_grafting.o: ../mesa/main/mtypes.h ../mesa/main/glheader.h
+opt_tree_grafting.o: ../../include/GL/gl.h ../../include/GL/glext.h
+opt_tree_grafting.o: /usr/include/inttypes.h /usr/include/stdint.h
+opt_tree_grafting.o: /usr/include/bits/wchar.h ../mesa/main/config.h
+opt_tree_grafting.o: ../mesa/main/mfeatures.h ../mapi/glapi/glapi.h
+opt_tree_grafting.o: ../mapi/glapi/glthread.h ../mapi/mapi/u_thread.h
+opt_tree_grafting.o: ../mapi/mapi/u_compiler.h ../mesa/math/m_matrix.h
+opt_tree_grafting.o: ../mesa/main/simple_list.h ../mesa/main/formats.h
+opt_tree_grafting.o: ../mesa/main/dd.h ../mesa/main/glheader.h list.h
+opt_tree_grafting.o: ir_visitor.h ir_hierarchical_visitor.h
+opt_tree_grafting.o: ir_variable_refcount.h ir_basic_block.h
+opt_tree_grafting.o: ir_optimization.h
+s_expression.o: /usr/include/assert.h /usr/include/features.h
+s_expression.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+s_expression.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+s_expression.o: s_expression.h ../mesa/main/core.h ../mesa/main/glheader.h
+s_expression.o: ../../include/GL/gl.h ../../include/GL/glext.h
+s_expression.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+s_expression.o: /usr/include/inttypes.h /usr/include/stdint.h
+s_expression.o: /usr/include/bits/wchar.h ../mesa/main/compiler.h
+s_expression.o: /usr/include/ctype.h /usr/include/bits/types.h
+s_expression.o: /usr/include/bits/typesizes.h /usr/include/endian.h
+s_expression.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+s_expression.o: /usr/include/xlocale.h /usr/include/math.h
+s_expression.o: /usr/include/bits/huge_val.h /usr/include/bits/huge_valf.h
+s_expression.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+s_expression.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+s_expression.o: /usr/include/bits/mathcalls.h
+s_expression.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+s_expression.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+s_expression.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+s_expression.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+s_expression.o: /usr/include/bits/posix2_lim.h /usr/include/stdlib.h
+s_expression.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+s_expression.o: /usr/include/sys/types.h /usr/include/time.h
+s_expression.o: /usr/include/sys/select.h /usr/include/bits/select.h
+s_expression.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+s_expression.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+s_expression.o: /usr/include/alloca.h /usr/include/stdio.h
+s_expression.o: /usr/include/libio.h /usr/include/_G_config.h
+s_expression.o: /usr/include/wchar.h
+s_expression.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+s_expression.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+s_expression.o: /usr/include/string.h
+s_expression.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+s_expression.o: ../mesa/main/imports.h ../mesa/main/compiler.h
+s_expression.o: ../mesa/main/glheader.h ../mesa/main/macros.h
+s_expression.o: ../mesa/main/imports.h ../mesa/main/mtypes.h
+s_expression.o: ../mesa/main/config.h ../mesa/main/mfeatures.h
+s_expression.o: ../mapi/glapi/glapi.h ../mapi/glapi/glthread.h
+s_expression.o: ../mapi/mapi/u_thread.h ../mapi/mapi/u_compiler.h
+s_expression.o: ../mesa/math/m_matrix.h ../mesa/main/simple_list.h
+s_expression.o: ../mesa/main/formats.h ../mesa/main/dd.h
+s_expression.o: ../mesa/program/prog_parameter.h
+s_expression.o: ../mesa/program/prog_statevars.h strtod.h list.h ralloc.h
+s_expression.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+standalone_scaffolding.o: standalone_scaffolding.h ../mesa/main/mtypes.h
+standalone_scaffolding.o: ../mesa/main/glheader.h ../../include/GL/gl.h
+standalone_scaffolding.o: ../../include/GL/glext.h
+standalone_scaffolding.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+standalone_scaffolding.o: /usr/include/inttypes.h /usr/include/features.h
+standalone_scaffolding.o: /usr/include/sys/cdefs.h
+standalone_scaffolding.o: /usr/include/bits/wordsize.h
+standalone_scaffolding.o: /usr/include/gnu/stubs.h
+standalone_scaffolding.o: /usr/include/gnu/stubs-64.h /usr/include/stdint.h
+standalone_scaffolding.o: /usr/include/bits/wchar.h ../mesa/main/config.h
+standalone_scaffolding.o: ../mesa/main/mfeatures.h ../mapi/glapi/glapi.h
+standalone_scaffolding.o: ../mapi/glapi/glthread.h ../mapi/mapi/u_thread.h
+standalone_scaffolding.o: ../mapi/mapi/u_compiler.h ../mesa/math/m_matrix.h
+standalone_scaffolding.o: ../mesa/main/simple_list.h ../mesa/main/formats.h
+standalone_scaffolding.o: ../mesa/main/dd.h ../mesa/main/glheader.h
+standalone_scaffolding.o: /usr/include/assert.h /usr/include/string.h
+standalone_scaffolding.o: /usr/include/xlocale.h ralloc.h
+standalone_scaffolding.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+standalone_scaffolding.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+main.o: /usr/include/getopt.h /usr/include/ctype.h /usr/include/features.h
+main.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+main.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+main.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+main.o: /usr/include/endian.h /usr/include/bits/endian.h
+main.o: /usr/include/bits/byteswap.h /usr/include/xlocale.h ast.h list.h
+main.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+main.o: /usr/include/assert.h ralloc.h
+main.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+main.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+main.o: glsl_parser_extras.h ir_optimization.h ir_print_visitor.h ir.h
+main.o: /usr/include/stdio.h /usr/include/libio.h /usr/include/_G_config.h
+main.o: /usr/include/wchar.h /usr/include/bits/stdio_lim.h
+main.o: /usr/include/bits/sys_errlist.h /usr/include/stdlib.h
+main.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+main.o: /usr/include/sys/types.h /usr/include/time.h
+main.o: /usr/include/sys/select.h /usr/include/bits/select.h
+main.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+main.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+main.o: /usr/include/alloca.h glsl_types.h /usr/include/string.h
+main.o: ../mesa/main/mtypes.h ../mesa/main/glheader.h ../../include/GL/gl.h
+main.o: ../../include/GL/glext.h /usr/include/inttypes.h
+main.o: /usr/include/stdint.h /usr/include/bits/wchar.h ../mesa/main/config.h
+main.o: ../mesa/main/mfeatures.h ../mapi/glapi/glapi.h
+main.o: ../mapi/glapi/glthread.h ../mapi/mapi/u_thread.h
+main.o: ../mapi/mapi/u_compiler.h ../mesa/math/m_matrix.h
+main.o: ../mesa/main/simple_list.h ../mesa/main/formats.h ../mesa/main/dd.h
+main.o: ../mesa/main/glheader.h ir_visitor.h ir_hierarchical_visitor.h
+main.o: ../mesa/program/symbol_table.h program.h ../mesa/main/core.h
+main.o: ../mesa/main/compiler.h /usr/include/math.h
+main.o: /usr/include/bits/huge_val.h /usr/include/bits/huge_valf.h
+main.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+main.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+main.o: /usr/include/bits/mathcalls.h
+main.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+main.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+main.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+main.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+main.o: /usr/include/bits/posix2_lim.h
+main.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+main.o: ../mesa/main/imports.h ../mesa/main/compiler.h ../mesa/main/macros.h
+main.o: ../mesa/main/imports.h ../mesa/program/prog_parameter.h
+main.o: ../mesa/program/prog_statevars.h loop_analysis.h
+main.o: ../mesa/program/hash_table.h standalone_scaffolding.h
+../mesa/program/hash_table.o: ../mesa/main/imports.h ../mesa/main/compiler.h
+../mesa/program/hash_table.o: ../mesa/main/glheader.h
+../mesa/program/hash_table.o: ../mesa/main/simple_list.h
+../mesa/program/hash_table.o: ../mesa/program/hash_table.h
+../mesa/program/hash_table.o: /usr/include/string.h /usr/include/features.h
+../mesa/program/hash_table.o: /usr/include/sys/cdefs.h
+../mesa/program/hash_table.o: /usr/include/bits/wordsize.h
+../mesa/program/hash_table.o: /usr/include/gnu/stubs.h
+../mesa/program/hash_table.o: /usr/include/gnu/stubs-64.h
+../mesa/program/hash_table.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+../mesa/program/hash_table.o: /usr/include/xlocale.h /usr/include/stdlib.h
+../mesa/program/hash_table.o: /usr/include/bits/waitflags.h
+../mesa/program/hash_table.o: /usr/include/bits/waitstatus.h
+../mesa/program/hash_table.o: /usr/include/endian.h
+../mesa/program/hash_table.o: /usr/include/bits/endian.h
+../mesa/program/hash_table.o: /usr/include/bits/byteswap.h
+../mesa/program/hash_table.o: /usr/include/sys/types.h
+../mesa/program/hash_table.o: /usr/include/bits/types.h
+../mesa/program/hash_table.o: /usr/include/bits/typesizes.h
+../mesa/program/hash_table.o: /usr/include/time.h /usr/include/sys/select.h
+../mesa/program/hash_table.o: /usr/include/bits/select.h
+../mesa/program/hash_table.o: /usr/include/bits/sigset.h
+../mesa/program/hash_table.o: /usr/include/bits/time.h
+../mesa/program/hash_table.o: /usr/include/sys/sysmacros.h
+../mesa/program/hash_table.o: /usr/include/bits/pthreadtypes.h
+../mesa/program/hash_table.o: /usr/include/alloca.h /usr/include/stdint.h
+../mesa/program/hash_table.o: /usr/include/bits/wchar.h
+../mesa/program/hash_table.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+../mesa/program/hash_table.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+../mesa/program/hash_table.o: /usr/include/limits.h
+../mesa/program/hash_table.o: /usr/include/bits/posix1_lim.h
+../mesa/program/hash_table.o: /usr/include/bits/local_lim.h
+../mesa/program/hash_table.o: /usr/include/linux/limits.h
+../mesa/program/hash_table.o: /usr/include/bits/posix2_lim.h
+../mesa/program/hash_table.o: /usr/include/assert.h
+../mesa/program/symbol_table.o: ../mesa/main/imports.h
+../mesa/program/symbol_table.o: ../mesa/main/compiler.h
+../mesa/program/symbol_table.o: ../mesa/main/glheader.h
+../mesa/program/symbol_table.o: ../mesa/program/symbol_table.h
+../mesa/program/symbol_table.o: ../mesa/program/hash_table.h
+../mesa/program/symbol_table.o: /usr/include/string.h /usr/include/features.h
+../mesa/program/symbol_table.o: /usr/include/sys/cdefs.h
+../mesa/program/symbol_table.o: /usr/include/bits/wordsize.h
+../mesa/program/symbol_table.o: /usr/include/gnu/stubs.h
+../mesa/program/symbol_table.o: /usr/include/gnu/stubs-64.h
+../mesa/program/symbol_table.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+../mesa/program/symbol_table.o: /usr/include/xlocale.h /usr/include/stdlib.h
+../mesa/program/symbol_table.o: /usr/include/bits/waitflags.h
+../mesa/program/symbol_table.o: /usr/include/bits/waitstatus.h
+../mesa/program/symbol_table.o: /usr/include/endian.h
+../mesa/program/symbol_table.o: /usr/include/bits/endian.h
+../mesa/program/symbol_table.o: /usr/include/bits/byteswap.h
+../mesa/program/symbol_table.o: /usr/include/sys/types.h
+../mesa/program/symbol_table.o: /usr/include/bits/types.h
+../mesa/program/symbol_table.o: /usr/include/bits/typesizes.h
+../mesa/program/symbol_table.o: /usr/include/time.h /usr/include/sys/select.h
+../mesa/program/symbol_table.o: /usr/include/bits/select.h
+../mesa/program/symbol_table.o: /usr/include/bits/sigset.h
+../mesa/program/symbol_table.o: /usr/include/bits/time.h
+../mesa/program/symbol_table.o: /usr/include/sys/sysmacros.h
+../mesa/program/symbol_table.o: /usr/include/bits/pthreadtypes.h
+../mesa/program/symbol_table.o: /usr/include/alloca.h /usr/include/stdint.h
+../mesa/program/symbol_table.o: /usr/include/bits/wchar.h
+../mesa/program/symbol_table.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+../mesa/program/symbol_table.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+../mesa/program/symbol_table.o: /usr/include/limits.h
+../mesa/program/symbol_table.o: /usr/include/bits/posix1_lim.h
+../mesa/program/symbol_table.o: /usr/include/bits/local_lim.h
+../mesa/program/symbol_table.o: /usr/include/linux/limits.h
+../mesa/program/symbol_table.o: /usr/include/bits/posix2_lim.h
+../mesa/program/symbol_table.o: /usr/include/assert.h
+standalone_scaffolding.o: standalone_scaffolding.h ../mesa/main/mtypes.h
+standalone_scaffolding.o: ../mesa/main/glheader.h ../../include/GL/gl.h
+standalone_scaffolding.o: ../../include/GL/glext.h
+standalone_scaffolding.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+standalone_scaffolding.o: /usr/include/inttypes.h /usr/include/features.h
+standalone_scaffolding.o: /usr/include/sys/cdefs.h
+standalone_scaffolding.o: /usr/include/bits/wordsize.h
+standalone_scaffolding.o: /usr/include/gnu/stubs.h
+standalone_scaffolding.o: /usr/include/gnu/stubs-64.h /usr/include/stdint.h
+standalone_scaffolding.o: /usr/include/bits/wchar.h ../mesa/main/config.h
+standalone_scaffolding.o: ../mesa/main/mfeatures.h ../mapi/glapi/glapi.h
+standalone_scaffolding.o: ../mapi/glapi/glthread.h ../mapi/mapi/u_thread.h
+standalone_scaffolding.o: ../mapi/mapi/u_compiler.h ../mesa/math/m_matrix.h
+standalone_scaffolding.o: ../mesa/main/simple_list.h ../mesa/main/formats.h
+standalone_scaffolding.o: ../mesa/main/dd.h ../mesa/main/glheader.h
+standalone_scaffolding.o: /usr/include/assert.h /usr/include/string.h
+standalone_scaffolding.o: /usr/include/xlocale.h ralloc.h
+standalone_scaffolding.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+standalone_scaffolding.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+test.o: /usr/include/stdio.h /usr/include/features.h /usr/include/sys/cdefs.h
+test.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+test.o: /usr/include/gnu/stubs-64.h
+test.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+test.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+test.o: /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h
+test.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+test.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+test.o: /usr/include/stdlib.h /usr/include/bits/waitflags.h
+test.o: /usr/include/bits/waitstatus.h /usr/include/endian.h
+test.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+test.o: /usr/include/sys/types.h /usr/include/time.h
+test.o: /usr/include/sys/select.h /usr/include/bits/select.h
+test.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+test.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+test.o: /usr/include/alloca.h /usr/include/string.h /usr/include/xlocale.h
+test.o: test_optpass.h
+test_optpass.o: /usr/include/getopt.h /usr/include/ctype.h
+test_optpass.o: /usr/include/features.h /usr/include/sys/cdefs.h
+test_optpass.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+test_optpass.o: /usr/include/gnu/stubs-64.h /usr/include/bits/types.h
+test_optpass.o: /usr/include/bits/typesizes.h /usr/include/endian.h
+test_optpass.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+test_optpass.o: /usr/include/xlocale.h ast.h list.h
+test_optpass.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+test_optpass.o: /usr/include/assert.h ralloc.h
+test_optpass.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+test_optpass.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+test_optpass.o: glsl_parser_extras.h ir_optimization.h ir_print_visitor.h
+test_optpass.o: ir.h /usr/include/stdio.h /usr/include/libio.h
+test_optpass.o: /usr/include/_G_config.h /usr/include/wchar.h
+test_optpass.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+test_optpass.o: /usr/include/stdlib.h /usr/include/bits/waitflags.h
+test_optpass.o: /usr/include/bits/waitstatus.h /usr/include/sys/types.h
+test_optpass.o: /usr/include/time.h /usr/include/sys/select.h
+test_optpass.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+test_optpass.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+test_optpass.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+test_optpass.o: glsl_types.h /usr/include/string.h ../mesa/main/mtypes.h
+test_optpass.o: ../mesa/main/glheader.h ../../include/GL/gl.h
+test_optpass.o: ../../include/GL/glext.h /usr/include/inttypes.h
+test_optpass.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+test_optpass.o: ../mesa/main/config.h ../mesa/main/mfeatures.h
+test_optpass.o: ../mapi/glapi/glapi.h ../mapi/glapi/glthread.h
+test_optpass.o: ../mapi/mapi/u_thread.h ../mapi/mapi/u_compiler.h
+test_optpass.o: ../mesa/math/m_matrix.h ../mesa/main/simple_list.h
+test_optpass.o: ../mesa/main/formats.h ../mesa/main/dd.h
+test_optpass.o: ../mesa/main/glheader.h ir_visitor.h
+test_optpass.o: ir_hierarchical_visitor.h ../mesa/program/symbol_table.h
+test_optpass.o: program.h ../mesa/main/core.h ../mesa/main/compiler.h
+test_optpass.o: /usr/include/math.h /usr/include/bits/huge_val.h
+test_optpass.o: /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h
+test_optpass.o: /usr/include/bits/inf.h /usr/include/bits/nan.h
+test_optpass.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+test_optpass.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+test_optpass.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+test_optpass.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+test_optpass.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+test_optpass.o: /usr/include/bits/posix2_lim.h
+test_optpass.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/float.h
+test_optpass.o: ../mesa/main/imports.h ../mesa/main/compiler.h
+test_optpass.o: ../mesa/main/macros.h ../mesa/main/imports.h
+test_optpass.o: ../mesa/program/prog_parameter.h
+test_optpass.o: ../mesa/program/prog_statevars.h ir_reader.h
+test_optpass.o: standalone_scaffolding.h
+../mesa/program/hash_table.o: ../mesa/main/imports.h ../mesa/main/compiler.h
+../mesa/program/hash_table.o: ../mesa/main/glheader.h
+../mesa/program/hash_table.o: ../mesa/main/simple_list.h
+../mesa/program/hash_table.o: ../mesa/program/hash_table.h
+../mesa/program/hash_table.o: /usr/include/string.h /usr/include/features.h
+../mesa/program/hash_table.o: /usr/include/sys/cdefs.h
+../mesa/program/hash_table.o: /usr/include/bits/wordsize.h
+../mesa/program/hash_table.o: /usr/include/gnu/stubs.h
+../mesa/program/hash_table.o: /usr/include/gnu/stubs-64.h
+../mesa/program/hash_table.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+../mesa/program/hash_table.o: /usr/include/xlocale.h /usr/include/stdlib.h
+../mesa/program/hash_table.o: /usr/include/bits/waitflags.h
+../mesa/program/hash_table.o: /usr/include/bits/waitstatus.h
+../mesa/program/hash_table.o: /usr/include/endian.h
+../mesa/program/hash_table.o: /usr/include/bits/endian.h
+../mesa/program/hash_table.o: /usr/include/bits/byteswap.h
+../mesa/program/hash_table.o: /usr/include/sys/types.h
+../mesa/program/hash_table.o: /usr/include/bits/types.h
+../mesa/program/hash_table.o: /usr/include/bits/typesizes.h
+../mesa/program/hash_table.o: /usr/include/time.h /usr/include/sys/select.h
+../mesa/program/hash_table.o: /usr/include/bits/select.h
+../mesa/program/hash_table.o: /usr/include/bits/sigset.h
+../mesa/program/hash_table.o: /usr/include/bits/time.h
+../mesa/program/hash_table.o: /usr/include/sys/sysmacros.h
+../mesa/program/hash_table.o: /usr/include/bits/pthreadtypes.h
+../mesa/program/hash_table.o: /usr/include/alloca.h /usr/include/stdint.h
+../mesa/program/hash_table.o: /usr/include/bits/wchar.h
+../mesa/program/hash_table.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+../mesa/program/hash_table.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+../mesa/program/hash_table.o: /usr/include/limits.h
+../mesa/program/hash_table.o: /usr/include/bits/posix1_lim.h
+../mesa/program/hash_table.o: /usr/include/bits/local_lim.h
+../mesa/program/hash_table.o: /usr/include/linux/limits.h
+../mesa/program/hash_table.o: /usr/include/bits/posix2_lim.h
+../mesa/program/hash_table.o: /usr/include/assert.h
+../mesa/program/symbol_table.o: ../mesa/main/imports.h
+../mesa/program/symbol_table.o: ../mesa/main/compiler.h
+../mesa/program/symbol_table.o: ../mesa/main/glheader.h
+../mesa/program/symbol_table.o: ../mesa/program/symbol_table.h
+../mesa/program/symbol_table.o: ../mesa/program/hash_table.h
+../mesa/program/symbol_table.o: /usr/include/string.h /usr/include/features.h
+../mesa/program/symbol_table.o: /usr/include/sys/cdefs.h
+../mesa/program/symbol_table.o: /usr/include/bits/wordsize.h
+../mesa/program/symbol_table.o: /usr/include/gnu/stubs.h
+../mesa/program/symbol_table.o: /usr/include/gnu/stubs-64.h
+../mesa/program/symbol_table.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+../mesa/program/symbol_table.o: /usr/include/xlocale.h /usr/include/stdlib.h
+../mesa/program/symbol_table.o: /usr/include/bits/waitflags.h
+../mesa/program/symbol_table.o: /usr/include/bits/waitstatus.h
+../mesa/program/symbol_table.o: /usr/include/endian.h
+../mesa/program/symbol_table.o: /usr/include/bits/endian.h
+../mesa/program/symbol_table.o: /usr/include/bits/byteswap.h
+../mesa/program/symbol_table.o: /usr/include/sys/types.h
+../mesa/program/symbol_table.o: /usr/include/bits/types.h
+../mesa/program/symbol_table.o: /usr/include/bits/typesizes.h
+../mesa/program/symbol_table.o: /usr/include/time.h /usr/include/sys/select.h
+../mesa/program/symbol_table.o: /usr/include/bits/select.h
+../mesa/program/symbol_table.o: /usr/include/bits/sigset.h
+../mesa/program/symbol_table.o: /usr/include/bits/time.h
+../mesa/program/symbol_table.o: /usr/include/sys/sysmacros.h
+../mesa/program/symbol_table.o: /usr/include/bits/pthreadtypes.h
+../mesa/program/symbol_table.o: /usr/include/alloca.h /usr/include/stdint.h
+../mesa/program/symbol_table.o: /usr/include/bits/wchar.h
+../mesa/program/symbol_table.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+../mesa/program/symbol_table.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+../mesa/program/symbol_table.o: /usr/include/limits.h
+../mesa/program/symbol_table.o: /usr/include/bits/posix1_lim.h
+../mesa/program/symbol_table.o: /usr/include/bits/local_lim.h
+../mesa/program/symbol_table.o: /usr/include/linux/limits.h
+../mesa/program/symbol_table.o: /usr/include/bits/posix2_lim.h
+../mesa/program/symbol_table.o: /usr/include/assert.h

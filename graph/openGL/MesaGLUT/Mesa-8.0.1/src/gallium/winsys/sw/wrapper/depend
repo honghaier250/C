@@ -1,0 +1,58 @@
+# DO NOT DELETE
+
+wrapper_sw_winsys.o: wrapper_sw_winsys.h
+wrapper_sw_winsys.o: ../../../../../src/gallium/include/pipe/p_format.h
+wrapper_sw_winsys.o: ../../../../../src/gallium/include/pipe/p_state.h
+wrapper_sw_winsys.o: ../../../../../src/gallium/include/pipe/p_compiler.h
+wrapper_sw_winsys.o: ../../../../../src/gallium/include/pipe/p_config.h
+wrapper_sw_winsys.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/limits.h
+wrapper_sw_winsys.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/syslimits.h
+wrapper_sw_winsys.o: /usr/include/limits.h /usr/include/features.h
+wrapper_sw_winsys.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+wrapper_sw_winsys.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+wrapper_sw_winsys.o: /usr/include/bits/posix1_lim.h
+wrapper_sw_winsys.o: /usr/include/bits/local_lim.h
+wrapper_sw_winsys.o: /usr/include/linux/limits.h
+wrapper_sw_winsys.o: /usr/include/bits/posix2_lim.h /usr/include/endian.h
+wrapper_sw_winsys.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+wrapper_sw_winsys.o: /usr/include/stdlib.h
+wrapper_sw_winsys.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+wrapper_sw_winsys.o: /usr/include/bits/waitflags.h
+wrapper_sw_winsys.o: /usr/include/bits/waitstatus.h /usr/include/sys/types.h
+wrapper_sw_winsys.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+wrapper_sw_winsys.o: /usr/include/time.h /usr/include/sys/select.h
+wrapper_sw_winsys.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+wrapper_sw_winsys.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+wrapper_sw_winsys.o: /usr/include/bits/pthreadtypes.h /usr/include/alloca.h
+wrapper_sw_winsys.o: /usr/include/string.h /usr/include/xlocale.h
+wrapper_sw_winsys.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+wrapper_sw_winsys.o: /usr/include/stdint.h /usr/include/bits/wchar.h
+wrapper_sw_winsys.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdbool.h
+wrapper_sw_winsys.o: ../../../../../src/gallium/include/pipe/p_defines.h
+wrapper_sw_winsys.o: ../../../../../src/gallium/include/pipe/p_format.h
+wrapper_sw_winsys.o: ../../../../../src/gallium/include/state_tracker/sw_winsys.h
+wrapper_sw_winsys.o: ../../../../../src/gallium/include/pipe/p_compiler.h
+wrapper_sw_winsys.o: ../../../../../src/gallium/auxiliary/util/u_memory.h
+wrapper_sw_winsys.o: ../../../../../src/gallium/auxiliary/util/u_pointer.h
+wrapper_sw_winsys.o: ../../../../../src/gallium/auxiliary/util/u_debug.h
+wrapper_sw_winsys.o: ../../../../../src/gallium/auxiliary/os/os_misc.h
+wrapper_sw_winsys.o: ../../../../../src/gallium/auxiliary/os/os_memory.h
+wrapper_sw_winsys.o: ../../../../../src/gallium/include/pipe/p_config.h
+wrapper_sw_winsys.o: ../../../../../src/gallium/auxiliary/os/os_memory_stdc.h
+wrapper_sw_winsys.o: ../../../../../src/gallium/auxiliary/os/os_memory_aligned.h
+wrapper_sw_winsys.o: ../../../../../src/gallium/auxiliary/util/u_inlines.h
+wrapper_sw_winsys.o: ../../../../../src/gallium/include/pipe/p_context.h
+wrapper_sw_winsys.o: ../../../../../src/gallium/include/pipe/p_video_enums.h
+wrapper_sw_winsys.o: ../../../../../src/gallium/include/pipe/p_defines.h
+wrapper_sw_winsys.o: ../../../../../src/gallium/include/pipe/p_screen.h
+wrapper_sw_winsys.o: ../../../../../src/gallium/include/pipe/p_video_enums.h
+wrapper_sw_winsys.o: ../../../../../src/gallium/auxiliary/util/u_debug_describe.h
+wrapper_sw_winsys.o: ../../../../../src/gallium/auxiliary/util/u_debug_refcnt.h
+wrapper_sw_winsys.o: ../../../../../src/gallium/auxiliary/util/u_atomic.h
+wrapper_sw_winsys.o: ../../../../../src/gallium/auxiliary/util/u_box.h
+wrapper_sw_winsys.o: ../../../../../src/gallium/auxiliary/util/u_math.h
+wrapper_sw_winsys.o: /usr/include/math.h /usr/include/bits/huge_val.h
+wrapper_sw_winsys.o: /usr/include/bits/huge_valf.h
+wrapper_sw_winsys.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+wrapper_sw_winsys.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+wrapper_sw_winsys.o: /usr/include/bits/mathcalls.h

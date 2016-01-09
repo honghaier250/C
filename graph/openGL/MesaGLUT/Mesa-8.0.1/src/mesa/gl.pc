@@ -1,0 +1,13 @@
+prefix=/usr/local/mesa
+exec_prefix=${prefix}
+libdir=/usr/local/mesa/lib
+includedir=/usr/local/mesa/include
+
+Name: gl
+Description: Mesa OpenGL library
+Requires.private: glproto >= 1.4.14 libdrm >= 2.4.24 dri2proto >= 2.6 x11 xext xdamage xfixes x11-xcb xcb-glx xxf86vm
+Version: 8.0.0
+Libs: -L${libdir} -lGL
+Libs.private: -lm -lpthread -ldl
+Cflags: -I${includedir} 
+glx_tls: no

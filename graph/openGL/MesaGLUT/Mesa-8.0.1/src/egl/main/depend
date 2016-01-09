@@ -1,0 +1,718 @@
+# DO NOT DELETE
+
+eglapi.o: /usr/include/stdio.h /usr/include/features.h
+eglapi.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+eglapi.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+eglapi.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+eglapi.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+eglapi.o: /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h
+eglapi.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+eglapi.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+eglapi.o: /usr/include/stdlib.h /usr/include/bits/waitflags.h
+eglapi.o: /usr/include/bits/waitstatus.h /usr/include/endian.h
+eglapi.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+eglapi.o: /usr/include/xlocale.h /usr/include/sys/types.h /usr/include/time.h
+eglapi.o: /usr/include/sys/select.h /usr/include/bits/select.h
+eglapi.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+eglapi.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+eglapi.o: /usr/include/alloca.h /usr/include/string.h eglcontext.h
+eglapi.o: egltypedefs.h ../../../include/EGL/egl.h
+eglapi.o: ../../../include/EGL/eglplatform.h
+eglapi.o: ../../../include/KHR/khrplatform.h /usr/include/stdint.h
+eglapi.o: /usr/include/bits/wchar.h /usr/include/X11/Xlib.h
+eglapi.o: /usr/include/X11/X.h /usr/include/X11/Xfuncproto.h
+eglapi.o: /usr/include/X11/Xosdefs.h /usr/include/X11/Xutil.h
+eglapi.o: /usr/include/X11/keysym.h /usr/include/X11/keysymdef.h
+eglapi.o: ../../../include/EGL/eglext.h ../../../include/EGL/eglmesaext.h
+eglapi.o: eglcompiler.h egldisplay.h egldefines.h eglmutex.h
+eglapi.o: /usr/include/pthread.h /usr/include/sched.h
+eglapi.o: /usr/include/bits/sched.h /usr/include/bits/setjmp.h eglarray.h
+eglapi.o: eglcurrent.h egldriver.h eglapi.h eglsurface.h eglconfig.h
+eglapi.o: /usr/include/assert.h eglscreen.h eglmode.h eglimage.h eglsync.h
+eglarray.o: /usr/include/stdlib.h /usr/include/features.h
+eglarray.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+eglarray.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+eglarray.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+eglarray.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+eglarray.o: /usr/include/endian.h /usr/include/bits/endian.h
+eglarray.o: /usr/include/bits/byteswap.h /usr/include/xlocale.h
+eglarray.o: /usr/include/sys/types.h /usr/include/bits/types.h
+eglarray.o: /usr/include/bits/typesizes.h /usr/include/time.h
+eglarray.o: /usr/include/sys/select.h /usr/include/bits/select.h
+eglarray.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+eglarray.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+eglarray.o: /usr/include/alloca.h /usr/include/string.h egllog.h
+eglarray.o: egltypedefs.h ../../../include/EGL/egl.h
+eglarray.o: ../../../include/EGL/eglplatform.h
+eglarray.o: ../../../include/KHR/khrplatform.h /usr/include/stdint.h
+eglarray.o: /usr/include/bits/wchar.h /usr/include/X11/Xlib.h
+eglarray.o: /usr/include/X11/X.h /usr/include/X11/Xfuncproto.h
+eglarray.o: /usr/include/X11/Xosdefs.h /usr/include/X11/Xutil.h
+eglarray.o: /usr/include/X11/keysym.h /usr/include/X11/keysymdef.h
+eglarray.o: ../../../include/EGL/eglext.h ../../../include/EGL/eglmesaext.h
+eglarray.o: eglcompiler.h eglarray.h
+eglconfig.o: /usr/include/stdlib.h /usr/include/features.h
+eglconfig.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+eglconfig.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+eglconfig.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+eglconfig.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+eglconfig.o: /usr/include/endian.h /usr/include/bits/endian.h
+eglconfig.o: /usr/include/bits/byteswap.h /usr/include/xlocale.h
+eglconfig.o: /usr/include/sys/types.h /usr/include/bits/types.h
+eglconfig.o: /usr/include/bits/typesizes.h /usr/include/time.h
+eglconfig.o: /usr/include/sys/select.h /usr/include/bits/select.h
+eglconfig.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+eglconfig.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+eglconfig.o: /usr/include/alloca.h /usr/include/string.h
+eglconfig.o: /usr/include/assert.h eglconfig.h egltypedefs.h
+eglconfig.o: ../../../include/EGL/egl.h ../../../include/EGL/eglplatform.h
+eglconfig.o: ../../../include/KHR/khrplatform.h /usr/include/stdint.h
+eglconfig.o: /usr/include/bits/wchar.h /usr/include/X11/Xlib.h
+eglconfig.o: /usr/include/X11/X.h /usr/include/X11/Xfuncproto.h
+eglconfig.o: /usr/include/X11/Xosdefs.h /usr/include/X11/Xutil.h
+eglconfig.o: /usr/include/X11/keysym.h /usr/include/X11/keysymdef.h
+eglconfig.o: ../../../include/EGL/eglext.h ../../../include/EGL/eglmesaext.h
+eglconfig.o: eglcompiler.h egldisplay.h egldefines.h eglmutex.h
+eglconfig.o: /usr/include/pthread.h /usr/include/sched.h
+eglconfig.o: /usr/include/bits/sched.h /usr/include/bits/setjmp.h eglarray.h
+eglconfig.o: eglcurrent.h egllog.h
+eglcontext.o: /usr/include/assert.h /usr/include/features.h
+eglcontext.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+eglcontext.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+eglcontext.o: /usr/include/stdlib.h
+eglcontext.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+eglcontext.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+eglcontext.o: /usr/include/endian.h /usr/include/bits/endian.h
+eglcontext.o: /usr/include/bits/byteswap.h /usr/include/xlocale.h
+eglcontext.o: /usr/include/sys/types.h /usr/include/bits/types.h
+eglcontext.o: /usr/include/bits/typesizes.h /usr/include/time.h
+eglcontext.o: /usr/include/sys/select.h /usr/include/bits/select.h
+eglcontext.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+eglcontext.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+eglcontext.o: /usr/include/alloca.h /usr/include/string.h eglconfig.h
+eglcontext.o: egltypedefs.h ../../../include/EGL/egl.h
+eglcontext.o: ../../../include/EGL/eglplatform.h
+eglcontext.o: ../../../include/KHR/khrplatform.h /usr/include/stdint.h
+eglcontext.o: /usr/include/bits/wchar.h /usr/include/X11/Xlib.h
+eglcontext.o: /usr/include/X11/X.h /usr/include/X11/Xfuncproto.h
+eglcontext.o: /usr/include/X11/Xosdefs.h /usr/include/X11/Xutil.h
+eglcontext.o: /usr/include/X11/keysym.h /usr/include/X11/keysymdef.h
+eglcontext.o: ../../../include/EGL/eglext.h ../../../include/EGL/eglmesaext.h
+eglcontext.o: eglcompiler.h eglcontext.h egldisplay.h egldefines.h eglmutex.h
+eglcontext.o: /usr/include/pthread.h /usr/include/sched.h
+eglcontext.o: /usr/include/bits/sched.h /usr/include/bits/setjmp.h eglarray.h
+eglcontext.o: eglcurrent.h eglsurface.h egllog.h
+eglcurrent.o: /usr/include/stdlib.h /usr/include/features.h
+eglcurrent.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+eglcurrent.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+eglcurrent.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+eglcurrent.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+eglcurrent.o: /usr/include/endian.h /usr/include/bits/endian.h
+eglcurrent.o: /usr/include/bits/byteswap.h /usr/include/xlocale.h
+eglcurrent.o: /usr/include/sys/types.h /usr/include/bits/types.h
+eglcurrent.o: /usr/include/bits/typesizes.h /usr/include/time.h
+eglcurrent.o: /usr/include/sys/select.h /usr/include/bits/select.h
+eglcurrent.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+eglcurrent.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+eglcurrent.o: /usr/include/alloca.h /usr/include/string.h egllog.h
+eglcurrent.o: egltypedefs.h ../../../include/EGL/egl.h
+eglcurrent.o: ../../../include/EGL/eglplatform.h
+eglcurrent.o: ../../../include/KHR/khrplatform.h /usr/include/stdint.h
+eglcurrent.o: /usr/include/bits/wchar.h /usr/include/X11/Xlib.h
+eglcurrent.o: /usr/include/X11/X.h /usr/include/X11/Xfuncproto.h
+eglcurrent.o: /usr/include/X11/Xosdefs.h /usr/include/X11/Xutil.h
+eglcurrent.o: /usr/include/X11/keysym.h /usr/include/X11/keysymdef.h
+eglcurrent.o: ../../../include/EGL/eglext.h ../../../include/EGL/eglmesaext.h
+eglcurrent.o: eglcompiler.h eglmutex.h /usr/include/pthread.h
+eglcurrent.o: /usr/include/sched.h /usr/include/bits/sched.h
+eglcurrent.o: /usr/include/bits/setjmp.h eglcurrent.h eglglobals.h
+egldisplay.o: /usr/include/assert.h /usr/include/features.h
+egldisplay.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+egldisplay.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+egldisplay.o: /usr/include/stdlib.h
+egldisplay.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+egldisplay.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+egldisplay.o: /usr/include/endian.h /usr/include/bits/endian.h
+egldisplay.o: /usr/include/bits/byteswap.h /usr/include/xlocale.h
+egldisplay.o: /usr/include/sys/types.h /usr/include/bits/types.h
+egldisplay.o: /usr/include/bits/typesizes.h /usr/include/time.h
+egldisplay.o: /usr/include/sys/select.h /usr/include/bits/select.h
+egldisplay.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+egldisplay.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+egldisplay.o: /usr/include/alloca.h /usr/include/string.h eglcontext.h
+egldisplay.o: egltypedefs.h ../../../include/EGL/egl.h
+egldisplay.o: ../../../include/EGL/eglplatform.h
+egldisplay.o: ../../../include/KHR/khrplatform.h /usr/include/stdint.h
+egldisplay.o: /usr/include/bits/wchar.h /usr/include/X11/Xlib.h
+egldisplay.o: /usr/include/X11/X.h /usr/include/X11/Xfuncproto.h
+egldisplay.o: /usr/include/X11/Xosdefs.h /usr/include/X11/Xutil.h
+egldisplay.o: /usr/include/X11/keysym.h /usr/include/X11/keysymdef.h
+egldisplay.o: ../../../include/EGL/eglext.h ../../../include/EGL/eglmesaext.h
+egldisplay.o: eglcompiler.h egldisplay.h egldefines.h eglmutex.h
+egldisplay.o: /usr/include/pthread.h /usr/include/sched.h
+egldisplay.o: /usr/include/bits/sched.h /usr/include/bits/setjmp.h eglarray.h
+egldisplay.o: eglsurface.h egldriver.h eglapi.h eglglobals.h egllog.h
+egldisplay.o: /usr/include/unistd.h /usr/include/bits/posix_opt.h
+egldisplay.o: /usr/include/bits/environments.h /usr/include/bits/confname.h
+egldisplay.o: /usr/include/getopt.h /usr/include/sys/mman.h
+egldisplay.o: /usr/include/bits/mman.h
+egldriver.o: /usr/include/assert.h /usr/include/features.h
+egldriver.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+egldriver.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+egldriver.o: /usr/include/string.h
+egldriver.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+egldriver.o: /usr/include/xlocale.h /usr/include/stdio.h
+egldriver.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+egldriver.o: /usr/include/libio.h /usr/include/_G_config.h
+egldriver.o: /usr/include/wchar.h
+egldriver.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+egldriver.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+egldriver.o: /usr/include/stdlib.h /usr/include/bits/waitflags.h
+egldriver.o: /usr/include/bits/waitstatus.h /usr/include/endian.h
+egldriver.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+egldriver.o: /usr/include/sys/types.h /usr/include/time.h
+egldriver.o: /usr/include/sys/select.h /usr/include/bits/select.h
+egldriver.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+egldriver.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+egldriver.o: /usr/include/alloca.h eglstring.h egldefines.h egldisplay.h
+egldriver.o: egltypedefs.h ../../../include/EGL/egl.h
+egldriver.o: ../../../include/EGL/eglplatform.h
+egldriver.o: ../../../include/KHR/khrplatform.h /usr/include/stdint.h
+egldriver.o: /usr/include/bits/wchar.h /usr/include/X11/Xlib.h
+egldriver.o: /usr/include/X11/X.h /usr/include/X11/Xfuncproto.h
+egldriver.o: /usr/include/X11/Xosdefs.h /usr/include/X11/Xutil.h
+egldriver.o: /usr/include/X11/keysym.h /usr/include/X11/keysymdef.h
+egldriver.o: ../../../include/EGL/eglext.h ../../../include/EGL/eglmesaext.h
+egldriver.o: eglcompiler.h eglmutex.h /usr/include/pthread.h
+egldriver.o: /usr/include/sched.h /usr/include/bits/sched.h
+egldriver.o: /usr/include/bits/setjmp.h eglarray.h egldriver.h eglapi.h
+egldriver.o: egllog.h
+eglfallbacks.o: /usr/include/string.h /usr/include/features.h
+eglfallbacks.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+eglfallbacks.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+eglfallbacks.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+eglfallbacks.o: /usr/include/xlocale.h egltypedefs.h
+eglfallbacks.o: ../../../include/EGL/egl.h ../../../include/EGL/eglplatform.h
+eglfallbacks.o: ../../../include/KHR/khrplatform.h /usr/include/stdint.h
+eglfallbacks.o: /usr/include/bits/wchar.h /usr/include/X11/Xlib.h
+eglfallbacks.o: /usr/include/sys/types.h /usr/include/bits/types.h
+eglfallbacks.o: /usr/include/bits/typesizes.h /usr/include/time.h
+eglfallbacks.o: /usr/include/endian.h /usr/include/bits/endian.h
+eglfallbacks.o: /usr/include/bits/byteswap.h /usr/include/sys/select.h
+eglfallbacks.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+eglfallbacks.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+eglfallbacks.o: /usr/include/bits/pthreadtypes.h /usr/include/X11/X.h
+eglfallbacks.o: /usr/include/X11/Xfuncproto.h /usr/include/X11/Xosdefs.h
+eglfallbacks.o: /usr/include/X11/Xutil.h /usr/include/X11/keysym.h
+eglfallbacks.o: /usr/include/X11/keysymdef.h ../../../include/EGL/eglext.h
+eglfallbacks.o: ../../../include/EGL/eglmesaext.h eglcompiler.h egldriver.h
+eglfallbacks.o: eglapi.h eglconfig.h /usr/include/assert.h eglcontext.h
+eglfallbacks.o: egldisplay.h egldefines.h eglmutex.h /usr/include/pthread.h
+eglfallbacks.o: /usr/include/sched.h /usr/include/bits/sched.h
+eglfallbacks.o: /usr/include/bits/setjmp.h eglarray.h eglsurface.h eglmisc.h
+eglfallbacks.o: eglscreen.h eglmode.h eglsync.h
+eglglobals.o: /usr/include/stdlib.h /usr/include/features.h
+eglglobals.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+eglglobals.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+eglglobals.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+eglglobals.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+eglglobals.o: /usr/include/endian.h /usr/include/bits/endian.h
+eglglobals.o: /usr/include/bits/byteswap.h /usr/include/xlocale.h
+eglglobals.o: /usr/include/sys/types.h /usr/include/bits/types.h
+eglglobals.o: /usr/include/bits/typesizes.h /usr/include/time.h
+eglglobals.o: /usr/include/sys/select.h /usr/include/bits/select.h
+eglglobals.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+eglglobals.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+eglglobals.o: /usr/include/alloca.h /usr/include/assert.h eglglobals.h
+eglglobals.o: egltypedefs.h ../../../include/EGL/egl.h
+eglglobals.o: ../../../include/EGL/eglplatform.h
+eglglobals.o: ../../../include/KHR/khrplatform.h /usr/include/stdint.h
+eglglobals.o: /usr/include/bits/wchar.h /usr/include/X11/Xlib.h
+eglglobals.o: /usr/include/X11/X.h /usr/include/X11/Xfuncproto.h
+eglglobals.o: /usr/include/X11/Xosdefs.h /usr/include/X11/Xutil.h
+eglglobals.o: /usr/include/X11/keysym.h /usr/include/X11/keysymdef.h
+eglglobals.o: ../../../include/EGL/eglext.h ../../../include/EGL/eglmesaext.h
+eglglobals.o: eglcompiler.h eglmutex.h /usr/include/pthread.h
+eglglobals.o: /usr/include/sched.h /usr/include/bits/sched.h
+eglglobals.o: /usr/include/bits/setjmp.h egldisplay.h egldefines.h eglarray.h
+eglglobals.o: egldriver.h eglapi.h
+eglimage.o: /usr/include/assert.h /usr/include/features.h
+eglimage.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+eglimage.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+eglimage.o: /usr/include/string.h
+eglimage.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+eglimage.o: /usr/include/xlocale.h eglimage.h egltypedefs.h
+eglimage.o: ../../../include/EGL/egl.h ../../../include/EGL/eglplatform.h
+eglimage.o: ../../../include/KHR/khrplatform.h /usr/include/stdint.h
+eglimage.o: /usr/include/bits/wchar.h /usr/include/X11/Xlib.h
+eglimage.o: /usr/include/sys/types.h /usr/include/bits/types.h
+eglimage.o: /usr/include/bits/typesizes.h /usr/include/time.h
+eglimage.o: /usr/include/endian.h /usr/include/bits/endian.h
+eglimage.o: /usr/include/bits/byteswap.h /usr/include/sys/select.h
+eglimage.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+eglimage.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+eglimage.o: /usr/include/bits/pthreadtypes.h /usr/include/X11/X.h
+eglimage.o: /usr/include/X11/Xfuncproto.h /usr/include/X11/Xosdefs.h
+eglimage.o: /usr/include/X11/Xutil.h /usr/include/X11/keysym.h
+eglimage.o: /usr/include/X11/keysymdef.h ../../../include/EGL/eglext.h
+eglimage.o: ../../../include/EGL/eglmesaext.h eglcompiler.h egldisplay.h
+eglimage.o: egldefines.h eglmutex.h /usr/include/pthread.h
+eglimage.o: /usr/include/sched.h /usr/include/bits/sched.h
+eglimage.o: /usr/include/bits/setjmp.h eglarray.h egllog.h
+egllog.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+egllog.o: /usr/include/stdio.h /usr/include/features.h
+egllog.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+egllog.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+egllog.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+egllog.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+egllog.o: /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h
+egllog.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+egllog.o: /usr/include/stdlib.h /usr/include/bits/waitflags.h
+egllog.o: /usr/include/bits/waitstatus.h /usr/include/endian.h
+egllog.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+egllog.o: /usr/include/xlocale.h /usr/include/sys/types.h /usr/include/time.h
+egllog.o: /usr/include/sys/select.h /usr/include/bits/select.h
+egllog.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+egllog.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+egllog.o: /usr/include/alloca.h /usr/include/string.h egllog.h egltypedefs.h
+egllog.o: ../../../include/EGL/egl.h ../../../include/EGL/eglplatform.h
+egllog.o: ../../../include/KHR/khrplatform.h /usr/include/stdint.h
+egllog.o: /usr/include/bits/wchar.h /usr/include/X11/Xlib.h
+egllog.o: /usr/include/X11/X.h /usr/include/X11/Xfuncproto.h
+egllog.o: /usr/include/X11/Xosdefs.h /usr/include/X11/Xutil.h
+egllog.o: /usr/include/X11/keysym.h /usr/include/X11/keysymdef.h
+egllog.o: ../../../include/EGL/eglext.h ../../../include/EGL/eglmesaext.h
+egllog.o: eglcompiler.h eglstring.h eglmutex.h /usr/include/pthread.h
+egllog.o: /usr/include/sched.h /usr/include/bits/sched.h
+egllog.o: /usr/include/bits/setjmp.h
+eglmisc.o: /usr/include/assert.h /usr/include/features.h
+eglmisc.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+eglmisc.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+eglmisc.o: /usr/include/string.h
+eglmisc.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+eglmisc.o: /usr/include/xlocale.h eglcurrent.h egltypedefs.h
+eglmisc.o: ../../../include/EGL/egl.h ../../../include/EGL/eglplatform.h
+eglmisc.o: ../../../include/KHR/khrplatform.h /usr/include/stdint.h
+eglmisc.o: /usr/include/bits/wchar.h /usr/include/X11/Xlib.h
+eglmisc.o: /usr/include/sys/types.h /usr/include/bits/types.h
+eglmisc.o: /usr/include/bits/typesizes.h /usr/include/time.h
+eglmisc.o: /usr/include/endian.h /usr/include/bits/endian.h
+eglmisc.o: /usr/include/bits/byteswap.h /usr/include/sys/select.h
+eglmisc.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+eglmisc.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+eglmisc.o: /usr/include/bits/pthreadtypes.h /usr/include/X11/X.h
+eglmisc.o: /usr/include/X11/Xfuncproto.h /usr/include/X11/Xosdefs.h
+eglmisc.o: /usr/include/X11/Xutil.h /usr/include/X11/keysym.h
+eglmisc.o: /usr/include/X11/keysymdef.h ../../../include/EGL/eglext.h
+eglmisc.o: ../../../include/EGL/eglmesaext.h eglcompiler.h eglmisc.h
+eglmisc.o: egldisplay.h egldefines.h eglmutex.h /usr/include/pthread.h
+eglmisc.o: /usr/include/sched.h /usr/include/bits/sched.h
+eglmisc.o: /usr/include/bits/setjmp.h eglarray.h egldriver.h eglapi.h
+eglmisc.o: eglstring.h /usr/include/stdio.h /usr/include/libio.h
+eglmisc.o: /usr/include/_G_config.h /usr/include/wchar.h
+eglmisc.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+eglmisc.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+eglmode.o: /usr/include/assert.h /usr/include/features.h
+eglmode.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+eglmode.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+eglmode.o: /usr/include/stdlib.h
+eglmode.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+eglmode.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+eglmode.o: /usr/include/endian.h /usr/include/bits/endian.h
+eglmode.o: /usr/include/bits/byteswap.h /usr/include/xlocale.h
+eglmode.o: /usr/include/sys/types.h /usr/include/bits/types.h
+eglmode.o: /usr/include/bits/typesizes.h /usr/include/time.h
+eglmode.o: /usr/include/sys/select.h /usr/include/bits/select.h
+eglmode.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+eglmode.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+eglmode.o: /usr/include/alloca.h /usr/include/string.h egldisplay.h
+eglmode.o: egltypedefs.h ../../../include/EGL/egl.h
+eglmode.o: ../../../include/EGL/eglplatform.h
+eglmode.o: ../../../include/KHR/khrplatform.h /usr/include/stdint.h
+eglmode.o: /usr/include/bits/wchar.h /usr/include/X11/Xlib.h
+eglmode.o: /usr/include/X11/X.h /usr/include/X11/Xfuncproto.h
+eglmode.o: /usr/include/X11/Xosdefs.h /usr/include/X11/Xutil.h
+eglmode.o: /usr/include/X11/keysym.h /usr/include/X11/keysymdef.h
+eglmode.o: ../../../include/EGL/eglext.h ../../../include/EGL/eglmesaext.h
+eglmode.o: eglcompiler.h egldefines.h eglmutex.h /usr/include/pthread.h
+eglmode.o: /usr/include/sched.h /usr/include/bits/sched.h
+eglmode.o: /usr/include/bits/setjmp.h eglarray.h eglmode.h eglcurrent.h
+eglmode.o: eglscreen.h
+eglscreen.o: /usr/include/assert.h /usr/include/features.h
+eglscreen.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+eglscreen.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+eglscreen.o: /usr/include/stdlib.h
+eglscreen.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+eglscreen.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+eglscreen.o: /usr/include/endian.h /usr/include/bits/endian.h
+eglscreen.o: /usr/include/bits/byteswap.h /usr/include/xlocale.h
+eglscreen.o: /usr/include/sys/types.h /usr/include/bits/types.h
+eglscreen.o: /usr/include/bits/typesizes.h /usr/include/time.h
+eglscreen.o: /usr/include/sys/select.h /usr/include/bits/select.h
+eglscreen.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+eglscreen.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+eglscreen.o: /usr/include/alloca.h /usr/include/string.h egldisplay.h
+eglscreen.o: egltypedefs.h ../../../include/EGL/egl.h
+eglscreen.o: ../../../include/EGL/eglplatform.h
+eglscreen.o: ../../../include/KHR/khrplatform.h /usr/include/stdint.h
+eglscreen.o: /usr/include/bits/wchar.h /usr/include/X11/Xlib.h
+eglscreen.o: /usr/include/X11/X.h /usr/include/X11/Xfuncproto.h
+eglscreen.o: /usr/include/X11/Xosdefs.h /usr/include/X11/Xutil.h
+eglscreen.o: /usr/include/X11/keysym.h /usr/include/X11/keysymdef.h
+eglscreen.o: ../../../include/EGL/eglext.h ../../../include/EGL/eglmesaext.h
+eglscreen.o: eglcompiler.h egldefines.h eglmutex.h /usr/include/pthread.h
+eglscreen.o: /usr/include/sched.h /usr/include/bits/sched.h
+eglscreen.o: /usr/include/bits/setjmp.h eglarray.h eglcurrent.h eglmode.h
+eglscreen.o: eglsurface.h eglscreen.h
+eglstring.o: /usr/include/stdlib.h /usr/include/features.h
+eglstring.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+eglstring.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+eglstring.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+eglstring.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+eglstring.o: /usr/include/endian.h /usr/include/bits/endian.h
+eglstring.o: /usr/include/bits/byteswap.h /usr/include/xlocale.h
+eglstring.o: /usr/include/sys/types.h /usr/include/bits/types.h
+eglstring.o: /usr/include/bits/typesizes.h /usr/include/time.h
+eglstring.o: /usr/include/sys/select.h /usr/include/bits/select.h
+eglstring.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+eglstring.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+eglstring.o: /usr/include/alloca.h /usr/include/string.h eglstring.h
+eglstring.o: /usr/include/stdio.h /usr/include/libio.h
+eglstring.o: /usr/include/_G_config.h /usr/include/wchar.h
+eglstring.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+eglstring.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+eglsurface.o: /usr/include/assert.h /usr/include/features.h
+eglsurface.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+eglsurface.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+eglsurface.o: /usr/include/stdlib.h
+eglsurface.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+eglsurface.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+eglsurface.o: /usr/include/endian.h /usr/include/bits/endian.h
+eglsurface.o: /usr/include/bits/byteswap.h /usr/include/xlocale.h
+eglsurface.o: /usr/include/sys/types.h /usr/include/bits/types.h
+eglsurface.o: /usr/include/bits/typesizes.h /usr/include/time.h
+eglsurface.o: /usr/include/sys/select.h /usr/include/bits/select.h
+eglsurface.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+eglsurface.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+eglsurface.o: /usr/include/alloca.h /usr/include/string.h egldisplay.h
+eglsurface.o: egltypedefs.h ../../../include/EGL/egl.h
+eglsurface.o: ../../../include/EGL/eglplatform.h
+eglsurface.o: ../../../include/KHR/khrplatform.h /usr/include/stdint.h
+eglsurface.o: /usr/include/bits/wchar.h /usr/include/X11/Xlib.h
+eglsurface.o: /usr/include/X11/X.h /usr/include/X11/Xfuncproto.h
+eglsurface.o: /usr/include/X11/Xosdefs.h /usr/include/X11/Xutil.h
+eglsurface.o: /usr/include/X11/keysym.h /usr/include/X11/keysymdef.h
+eglsurface.o: ../../../include/EGL/eglext.h ../../../include/EGL/eglmesaext.h
+eglsurface.o: eglcompiler.h egldefines.h eglmutex.h /usr/include/pthread.h
+eglsurface.o: /usr/include/sched.h /usr/include/bits/sched.h
+eglsurface.o: /usr/include/bits/setjmp.h eglarray.h eglcontext.h eglconfig.h
+eglsurface.o: eglcurrent.h egllog.h eglsurface.h
+eglsync.o: /usr/include/string.h /usr/include/features.h
+eglsync.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+eglsync.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+eglsync.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+eglsync.o: /usr/include/xlocale.h eglsync.h egltypedefs.h
+eglsync.o: ../../../include/EGL/egl.h ../../../include/EGL/eglplatform.h
+eglsync.o: ../../../include/KHR/khrplatform.h /usr/include/stdint.h
+eglsync.o: /usr/include/bits/wchar.h /usr/include/X11/Xlib.h
+eglsync.o: /usr/include/sys/types.h /usr/include/bits/types.h
+eglsync.o: /usr/include/bits/typesizes.h /usr/include/time.h
+eglsync.o: /usr/include/endian.h /usr/include/bits/endian.h
+eglsync.o: /usr/include/bits/byteswap.h /usr/include/sys/select.h
+eglsync.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+eglsync.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+eglsync.o: /usr/include/bits/pthreadtypes.h /usr/include/X11/X.h
+eglsync.o: /usr/include/X11/Xfuncproto.h /usr/include/X11/Xosdefs.h
+eglsync.o: /usr/include/X11/Xutil.h /usr/include/X11/keysym.h
+eglsync.o: /usr/include/X11/keysymdef.h ../../../include/EGL/eglext.h
+eglsync.o: ../../../include/EGL/eglmesaext.h eglcompiler.h egldisplay.h
+eglsync.o: egldefines.h eglmutex.h /usr/include/pthread.h
+eglsync.o: /usr/include/sched.h /usr/include/bits/sched.h
+eglsync.o: /usr/include/bits/setjmp.h eglarray.h eglcurrent.h egllog.h
+eglcompiler.o: /usr/include/stdint.h /usr/include/features.h
+eglcompiler.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+eglcompiler.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+eglcompiler.o: /usr/include/bits/wchar.h
+eglconfig.o: /usr/include/assert.h /usr/include/features.h
+eglconfig.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+eglconfig.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+eglconfig.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+eglconfig.o: egltypedefs.h ../../../include/EGL/egl.h
+eglconfig.o: ../../../include/EGL/eglplatform.h
+eglconfig.o: ../../../include/KHR/khrplatform.h /usr/include/stdint.h
+eglconfig.o: /usr/include/bits/wchar.h /usr/include/X11/Xlib.h
+eglconfig.o: /usr/include/sys/types.h /usr/include/bits/types.h
+eglconfig.o: /usr/include/bits/typesizes.h /usr/include/time.h
+eglconfig.o: /usr/include/endian.h /usr/include/bits/endian.h
+eglconfig.o: /usr/include/bits/byteswap.h /usr/include/sys/select.h
+eglconfig.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+eglconfig.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+eglconfig.o: /usr/include/bits/pthreadtypes.h /usr/include/X11/X.h
+eglconfig.o: /usr/include/X11/Xfuncproto.h /usr/include/X11/Xosdefs.h
+eglconfig.o: /usr/include/X11/Xutil.h /usr/include/X11/keysym.h
+eglconfig.o: /usr/include/X11/keysymdef.h ../../../include/EGL/eglext.h
+eglconfig.o: ../../../include/EGL/eglmesaext.h eglcompiler.h
+eglcontext.o: egltypedefs.h ../../../include/EGL/egl.h
+eglcontext.o: ../../../include/EGL/eglplatform.h
+eglcontext.o: ../../../include/KHR/khrplatform.h /usr/include/stdint.h
+eglcontext.o: /usr/include/features.h /usr/include/sys/cdefs.h
+eglcontext.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+eglcontext.o: /usr/include/gnu/stubs-64.h /usr/include/bits/wchar.h
+eglcontext.o: /usr/include/X11/Xlib.h /usr/include/sys/types.h
+eglcontext.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+eglcontext.o: /usr/include/time.h
+eglcontext.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+eglcontext.o: /usr/include/endian.h /usr/include/bits/endian.h
+eglcontext.o: /usr/include/bits/byteswap.h /usr/include/sys/select.h
+eglcontext.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+eglcontext.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+eglcontext.o: /usr/include/bits/pthreadtypes.h /usr/include/X11/X.h
+eglcontext.o: /usr/include/X11/Xfuncproto.h /usr/include/X11/Xosdefs.h
+eglcontext.o: /usr/include/X11/Xutil.h /usr/include/X11/keysym.h
+eglcontext.o: /usr/include/X11/keysymdef.h ../../../include/EGL/eglext.h
+eglcontext.o: ../../../include/EGL/eglmesaext.h eglcompiler.h egldisplay.h
+eglcontext.o: egldefines.h eglmutex.h /usr/include/pthread.h
+eglcontext.o: /usr/include/sched.h /usr/include/bits/sched.h
+eglcontext.o: /usr/include/bits/setjmp.h eglarray.h
+eglcurrent.o: egltypedefs.h ../../../include/EGL/egl.h
+eglcurrent.o: ../../../include/EGL/eglplatform.h
+eglcurrent.o: ../../../include/KHR/khrplatform.h /usr/include/stdint.h
+eglcurrent.o: /usr/include/features.h /usr/include/sys/cdefs.h
+eglcurrent.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+eglcurrent.o: /usr/include/gnu/stubs-64.h /usr/include/bits/wchar.h
+eglcurrent.o: /usr/include/X11/Xlib.h /usr/include/sys/types.h
+eglcurrent.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+eglcurrent.o: /usr/include/time.h
+eglcurrent.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+eglcurrent.o: /usr/include/endian.h /usr/include/bits/endian.h
+eglcurrent.o: /usr/include/bits/byteswap.h /usr/include/sys/select.h
+eglcurrent.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+eglcurrent.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+eglcurrent.o: /usr/include/bits/pthreadtypes.h /usr/include/X11/X.h
+eglcurrent.o: /usr/include/X11/Xfuncproto.h /usr/include/X11/Xosdefs.h
+eglcurrent.o: /usr/include/X11/Xutil.h /usr/include/X11/keysym.h
+eglcurrent.o: /usr/include/X11/keysymdef.h ../../../include/EGL/eglext.h
+eglcurrent.o: ../../../include/EGL/eglmesaext.h eglcompiler.h
+egldisplay.o: egltypedefs.h ../../../include/EGL/egl.h
+egldisplay.o: ../../../include/EGL/eglplatform.h
+egldisplay.o: ../../../include/KHR/khrplatform.h /usr/include/stdint.h
+egldisplay.o: /usr/include/features.h /usr/include/sys/cdefs.h
+egldisplay.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+egldisplay.o: /usr/include/gnu/stubs-64.h /usr/include/bits/wchar.h
+egldisplay.o: /usr/include/X11/Xlib.h /usr/include/sys/types.h
+egldisplay.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+egldisplay.o: /usr/include/time.h
+egldisplay.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+egldisplay.o: /usr/include/endian.h /usr/include/bits/endian.h
+egldisplay.o: /usr/include/bits/byteswap.h /usr/include/sys/select.h
+egldisplay.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+egldisplay.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+egldisplay.o: /usr/include/bits/pthreadtypes.h /usr/include/X11/X.h
+egldisplay.o: /usr/include/X11/Xfuncproto.h /usr/include/X11/Xosdefs.h
+egldisplay.o: /usr/include/X11/Xutil.h /usr/include/X11/keysym.h
+egldisplay.o: /usr/include/X11/keysymdef.h ../../../include/EGL/eglext.h
+egldisplay.o: ../../../include/EGL/eglmesaext.h eglcompiler.h egldefines.h
+egldisplay.o: eglmutex.h /usr/include/pthread.h /usr/include/sched.h
+egldisplay.o: /usr/include/bits/sched.h /usr/include/bits/setjmp.h eglarray.h
+egldriver.o: egltypedefs.h ../../../include/EGL/egl.h
+egldriver.o: ../../../include/EGL/eglplatform.h
+egldriver.o: ../../../include/KHR/khrplatform.h /usr/include/stdint.h
+egldriver.o: /usr/include/features.h /usr/include/sys/cdefs.h
+egldriver.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+egldriver.o: /usr/include/gnu/stubs-64.h /usr/include/bits/wchar.h
+egldriver.o: /usr/include/X11/Xlib.h /usr/include/sys/types.h
+egldriver.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+egldriver.o: /usr/include/time.h
+egldriver.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+egldriver.o: /usr/include/endian.h /usr/include/bits/endian.h
+egldriver.o: /usr/include/bits/byteswap.h /usr/include/sys/select.h
+egldriver.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+egldriver.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+egldriver.o: /usr/include/bits/pthreadtypes.h /usr/include/X11/X.h
+egldriver.o: /usr/include/X11/Xfuncproto.h /usr/include/X11/Xosdefs.h
+egldriver.o: /usr/include/X11/Xutil.h /usr/include/X11/keysym.h
+egldriver.o: /usr/include/X11/keysymdef.h ../../../include/EGL/eglext.h
+egldriver.o: ../../../include/EGL/eglmesaext.h eglcompiler.h eglapi.h
+eglglobals.o: egltypedefs.h ../../../include/EGL/egl.h
+eglglobals.o: ../../../include/EGL/eglplatform.h
+eglglobals.o: ../../../include/KHR/khrplatform.h /usr/include/stdint.h
+eglglobals.o: /usr/include/features.h /usr/include/sys/cdefs.h
+eglglobals.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+eglglobals.o: /usr/include/gnu/stubs-64.h /usr/include/bits/wchar.h
+eglglobals.o: /usr/include/X11/Xlib.h /usr/include/sys/types.h
+eglglobals.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+eglglobals.o: /usr/include/time.h
+eglglobals.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+eglglobals.o: /usr/include/endian.h /usr/include/bits/endian.h
+eglglobals.o: /usr/include/bits/byteswap.h /usr/include/sys/select.h
+eglglobals.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+eglglobals.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+eglglobals.o: /usr/include/bits/pthreadtypes.h /usr/include/X11/X.h
+eglglobals.o: /usr/include/X11/Xfuncproto.h /usr/include/X11/Xosdefs.h
+eglglobals.o: /usr/include/X11/Xutil.h /usr/include/X11/keysym.h
+eglglobals.o: /usr/include/X11/keysymdef.h ../../../include/EGL/eglext.h
+eglglobals.o: ../../../include/EGL/eglmesaext.h eglcompiler.h eglmutex.h
+eglglobals.o: /usr/include/pthread.h /usr/include/sched.h
+eglglobals.o: /usr/include/bits/sched.h /usr/include/bits/setjmp.h
+eglimage.o: egltypedefs.h ../../../include/EGL/egl.h
+eglimage.o: ../../../include/EGL/eglplatform.h
+eglimage.o: ../../../include/KHR/khrplatform.h /usr/include/stdint.h
+eglimage.o: /usr/include/features.h /usr/include/sys/cdefs.h
+eglimage.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+eglimage.o: /usr/include/gnu/stubs-64.h /usr/include/bits/wchar.h
+eglimage.o: /usr/include/X11/Xlib.h /usr/include/sys/types.h
+eglimage.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+eglimage.o: /usr/include/time.h
+eglimage.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+eglimage.o: /usr/include/endian.h /usr/include/bits/endian.h
+eglimage.o: /usr/include/bits/byteswap.h /usr/include/sys/select.h
+eglimage.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+eglimage.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+eglimage.o: /usr/include/bits/pthreadtypes.h /usr/include/X11/X.h
+eglimage.o: /usr/include/X11/Xfuncproto.h /usr/include/X11/Xosdefs.h
+eglimage.o: /usr/include/X11/Xutil.h /usr/include/X11/keysym.h
+eglimage.o: /usr/include/X11/keysymdef.h ../../../include/EGL/eglext.h
+eglimage.o: ../../../include/EGL/eglmesaext.h eglcompiler.h egldisplay.h
+eglimage.o: egldefines.h eglmutex.h /usr/include/pthread.h
+eglimage.o: /usr/include/sched.h /usr/include/bits/sched.h
+eglimage.o: /usr/include/bits/setjmp.h eglarray.h
+egllog.o: egltypedefs.h ../../../include/EGL/egl.h
+egllog.o: ../../../include/EGL/eglplatform.h
+egllog.o: ../../../include/KHR/khrplatform.h /usr/include/stdint.h
+egllog.o: /usr/include/features.h /usr/include/sys/cdefs.h
+egllog.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+egllog.o: /usr/include/gnu/stubs-64.h /usr/include/bits/wchar.h
+egllog.o: /usr/include/X11/Xlib.h /usr/include/sys/types.h
+egllog.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+egllog.o: /usr/include/time.h
+egllog.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+egllog.o: /usr/include/endian.h /usr/include/bits/endian.h
+egllog.o: /usr/include/bits/byteswap.h /usr/include/sys/select.h
+egllog.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+egllog.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+egllog.o: /usr/include/bits/pthreadtypes.h /usr/include/X11/X.h
+egllog.o: /usr/include/X11/Xfuncproto.h /usr/include/X11/Xosdefs.h
+egllog.o: /usr/include/X11/Xutil.h /usr/include/X11/keysym.h
+egllog.o: /usr/include/X11/keysymdef.h ../../../include/EGL/eglext.h
+egllog.o: ../../../include/EGL/eglmesaext.h eglcompiler.h
+eglmisc.o: egltypedefs.h ../../../include/EGL/egl.h
+eglmisc.o: ../../../include/EGL/eglplatform.h
+eglmisc.o: ../../../include/KHR/khrplatform.h /usr/include/stdint.h
+eglmisc.o: /usr/include/features.h /usr/include/sys/cdefs.h
+eglmisc.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+eglmisc.o: /usr/include/gnu/stubs-64.h /usr/include/bits/wchar.h
+eglmisc.o: /usr/include/X11/Xlib.h /usr/include/sys/types.h
+eglmisc.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+eglmisc.o: /usr/include/time.h
+eglmisc.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+eglmisc.o: /usr/include/endian.h /usr/include/bits/endian.h
+eglmisc.o: /usr/include/bits/byteswap.h /usr/include/sys/select.h
+eglmisc.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+eglmisc.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+eglmisc.o: /usr/include/bits/pthreadtypes.h /usr/include/X11/X.h
+eglmisc.o: /usr/include/X11/Xfuncproto.h /usr/include/X11/Xosdefs.h
+eglmisc.o: /usr/include/X11/Xutil.h /usr/include/X11/keysym.h
+eglmisc.o: /usr/include/X11/keysymdef.h ../../../include/EGL/eglext.h
+eglmisc.o: ../../../include/EGL/eglmesaext.h eglcompiler.h
+eglmode.o: egltypedefs.h ../../../include/EGL/egl.h
+eglmode.o: ../../../include/EGL/eglplatform.h
+eglmode.o: ../../../include/KHR/khrplatform.h /usr/include/stdint.h
+eglmode.o: /usr/include/features.h /usr/include/sys/cdefs.h
+eglmode.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+eglmode.o: /usr/include/gnu/stubs-64.h /usr/include/bits/wchar.h
+eglmode.o: /usr/include/X11/Xlib.h /usr/include/sys/types.h
+eglmode.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+eglmode.o: /usr/include/time.h
+eglmode.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+eglmode.o: /usr/include/endian.h /usr/include/bits/endian.h
+eglmode.o: /usr/include/bits/byteswap.h /usr/include/sys/select.h
+eglmode.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+eglmode.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+eglmode.o: /usr/include/bits/pthreadtypes.h /usr/include/X11/X.h
+eglmode.o: /usr/include/X11/Xfuncproto.h /usr/include/X11/Xosdefs.h
+eglmode.o: /usr/include/X11/Xutil.h /usr/include/X11/keysym.h
+eglmode.o: /usr/include/X11/keysymdef.h ../../../include/EGL/eglext.h
+eglmode.o: ../../../include/EGL/eglmesaext.h eglcompiler.h
+eglmutex.o: eglcompiler.h /usr/include/stdint.h /usr/include/features.h
+eglmutex.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+eglmutex.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+eglmutex.o: /usr/include/bits/wchar.h /usr/include/pthread.h
+eglmutex.o: /usr/include/endian.h /usr/include/bits/endian.h
+eglmutex.o: /usr/include/bits/byteswap.h /usr/include/sched.h
+eglmutex.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+eglmutex.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+eglmutex.o: /usr/include/time.h /usr/include/bits/sched.h
+eglmutex.o: /usr/include/bits/pthreadtypes.h /usr/include/bits/setjmp.h
+eglscreen.o: egltypedefs.h ../../../include/EGL/egl.h
+eglscreen.o: ../../../include/EGL/eglplatform.h
+eglscreen.o: ../../../include/KHR/khrplatform.h /usr/include/stdint.h
+eglscreen.o: /usr/include/features.h /usr/include/sys/cdefs.h
+eglscreen.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+eglscreen.o: /usr/include/gnu/stubs-64.h /usr/include/bits/wchar.h
+eglscreen.o: /usr/include/X11/Xlib.h /usr/include/sys/types.h
+eglscreen.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+eglscreen.o: /usr/include/time.h
+eglscreen.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+eglscreen.o: /usr/include/endian.h /usr/include/bits/endian.h
+eglscreen.o: /usr/include/bits/byteswap.h /usr/include/sys/select.h
+eglscreen.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+eglscreen.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+eglscreen.o: /usr/include/bits/pthreadtypes.h /usr/include/X11/X.h
+eglscreen.o: /usr/include/X11/Xfuncproto.h /usr/include/X11/Xosdefs.h
+eglscreen.o: /usr/include/X11/Xutil.h /usr/include/X11/keysym.h
+eglscreen.o: /usr/include/X11/keysymdef.h ../../../include/EGL/eglext.h
+eglscreen.o: ../../../include/EGL/eglmesaext.h eglcompiler.h
+eglstring.o: /usr/include/string.h /usr/include/features.h
+eglstring.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+eglstring.o: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h
+eglstring.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+eglstring.o: /usr/include/xlocale.h /usr/include/stdio.h
+eglstring.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+eglstring.o: /usr/include/libio.h /usr/include/_G_config.h
+eglstring.o: /usr/include/wchar.h
+eglstring.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stdarg.h
+eglstring.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+eglsurface.o: egltypedefs.h ../../../include/EGL/egl.h
+eglsurface.o: ../../../include/EGL/eglplatform.h
+eglsurface.o: ../../../include/KHR/khrplatform.h /usr/include/stdint.h
+eglsurface.o: /usr/include/features.h /usr/include/sys/cdefs.h
+eglsurface.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+eglsurface.o: /usr/include/gnu/stubs-64.h /usr/include/bits/wchar.h
+eglsurface.o: /usr/include/X11/Xlib.h /usr/include/sys/types.h
+eglsurface.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+eglsurface.o: /usr/include/time.h
+eglsurface.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+eglsurface.o: /usr/include/endian.h /usr/include/bits/endian.h
+eglsurface.o: /usr/include/bits/byteswap.h /usr/include/sys/select.h
+eglsurface.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+eglsurface.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+eglsurface.o: /usr/include/bits/pthreadtypes.h /usr/include/X11/X.h
+eglsurface.o: /usr/include/X11/Xfuncproto.h /usr/include/X11/Xosdefs.h
+eglsurface.o: /usr/include/X11/Xutil.h /usr/include/X11/keysym.h
+eglsurface.o: /usr/include/X11/keysymdef.h ../../../include/EGL/eglext.h
+eglsurface.o: ../../../include/EGL/eglmesaext.h eglcompiler.h egldisplay.h
+eglsurface.o: egldefines.h eglmutex.h /usr/include/pthread.h
+eglsurface.o: /usr/include/sched.h /usr/include/bits/sched.h
+eglsurface.o: /usr/include/bits/setjmp.h eglarray.h
+eglsync.o: egltypedefs.h ../../../include/EGL/egl.h
+eglsync.o: ../../../include/EGL/eglplatform.h
+eglsync.o: ../../../include/KHR/khrplatform.h /usr/include/stdint.h
+eglsync.o: /usr/include/features.h /usr/include/sys/cdefs.h
+eglsync.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+eglsync.o: /usr/include/gnu/stubs-64.h /usr/include/bits/wchar.h
+eglsync.o: /usr/include/X11/Xlib.h /usr/include/sys/types.h
+eglsync.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+eglsync.o: /usr/include/time.h
+eglsync.o: /usr/lib/gcc/x86_64-kylin-linux/4.4.7/include/stddef.h
+eglsync.o: /usr/include/endian.h /usr/include/bits/endian.h
+eglsync.o: /usr/include/bits/byteswap.h /usr/include/sys/select.h
+eglsync.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+eglsync.o: /usr/include/bits/time.h /usr/include/sys/sysmacros.h
+eglsync.o: /usr/include/bits/pthreadtypes.h /usr/include/X11/X.h
+eglsync.o: /usr/include/X11/Xfuncproto.h /usr/include/X11/Xosdefs.h
+eglsync.o: /usr/include/X11/Xutil.h /usr/include/X11/keysym.h
+eglsync.o: /usr/include/X11/keysymdef.h ../../../include/EGL/eglext.h
+eglsync.o: ../../../include/EGL/eglmesaext.h eglcompiler.h egldisplay.h
+eglsync.o: egldefines.h eglmutex.h /usr/include/pthread.h
+eglsync.o: /usr/include/sched.h /usr/include/bits/sched.h
+eglsync.o: /usr/include/bits/setjmp.h eglarray.h
