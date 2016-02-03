@@ -1,0 +1,221 @@
+Determining if the system is big endian passed with the following output:
+Change Dir: /root/workspace/exercise/languages/C/graph/opencv/opencv-2.4.9/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTryCompileExec2285918080/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2285918080.dir/build.make CMakeFiles/cmTryCompileExec2285918080.dir/build
+gmake[1]: Entering directory `/root/workspace/exercise/languages/C/graph/opencv/opencv-2.4.9/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/workspace/exercise/languages/C/graph/opencv/opencv-2.4.9/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2285918080.dir/TestEndianess.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -msse -msse2 -msse3 -ffunction-sections  -g   -o CMakeFiles/cmTryCompileExec2285918080.dir/TestEndianess.c.o   -c /root/workspace/exercise/languages/C/graph/opencv/opencv-2.4.9/build/CMakeFiles/CMakeTmp/TestEndianess.c
+cc1: 警告：命令行选项“-Wsign-promo”对 C++/ObjC++ 是有效的，但对 C 无效
+cc1: 警告：无法识别的命令行选项“-Wno-unnamed-type-template-args”
+cc1: 警告：无法识别的命令行选项“-Wno-delete-non-virtual-dtor”
+cc1: 警告：无法识别的命令行选项“-Wno-narrowing”
+Linking C executable cmTryCompileExec2285918080
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2285918080.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -msse -msse2 -msse3 -ffunction-sections  -g    CMakeFiles/cmTryCompileExec2285918080.dir/TestEndianess.c.o  -o cmTryCompileExec2285918080 -rdynamic 
+gmake[1]: Leaving directory `/root/workspace/exercise/languages/C/graph/opencv/opencv-2.4.9/build/CMakeFiles/CMakeTmp'
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the include file io.h exists failed with the following output:
+Change Dir: /root/workspace/exercise/languages/C/graph/opencv/opencv-2.4.9/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTryCompileExec2625546690/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2625546690.dir/build.make CMakeFiles/cmTryCompileExec2625546690.dir/build
+gmake[1]: Entering directory `/root/workspace/exercise/languages/C/graph/opencv/opencv-2.4.9/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/workspace/exercise/languages/C/graph/opencv/opencv-2.4.9/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2625546690.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -msse -msse2 -msse3 -ffunction-sections  -g   -o CMakeFiles/cmTryCompileExec2625546690.dir/CheckIncludeFile.c.o   -c /root/workspace/exercise/languages/C/graph/opencv/opencv-2.4.9/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+cc1: 警告：命令行选项“-Wsign-promo”对 C++/ObjC++ 是有效的，但对 C 无效
+/root/workspace/exercise/languages/C/graph/opencv/opencv-2.4.9/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:16: 错误：io.h：没有那个文件或目录
+cc1: 警告：无法识别的命令行选项“-Wno-unnamed-type-template-args”
+cc1: 警告：无法识别的命令行选项“-Wno-delete-non-virtual-dtor”
+cc1: 警告：无法识别的命令行选项“-Wno-narrowing”
+gmake[1]: Leaving directory `/root/workspace/exercise/languages/C/graph/opencv/opencv-2.4.9/build/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec2625546690.dir/CheckIncludeFile.c.o] 错误 1
+gmake: *** [cmTryCompileExec2625546690/fast] 错误 2
+
+
+Determining if the function jbg_newlen exists failed with the following output:
+Change Dir: /root/workspace/exercise/languages/C/graph/opencv/opencv-2.4.9/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTryCompileExec2837624072/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2837624072.dir/build.make CMakeFiles/cmTryCompileExec2837624072.dir/build
+gmake[1]: Entering directory `/root/workspace/exercise/languages/C/graph/opencv/opencv-2.4.9/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/workspace/exercise/languages/C/graph/opencv/opencv-2.4.9/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2837624072.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -msse -msse2 -msse3 -ffunction-sections -DCHECK_FUNCTION_EXISTS=jbg_newlen -g   -o CMakeFiles/cmTryCompileExec2837624072.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+cc1: 警告：命令行选项“-Wsign-promo”对 C++/ObjC++ 是有效的，但对 C 无效
+/usr/share/cmake/Modules/CheckFunctionExists.c:3: 警告：函数声明不是一个原型 [-Wstrict-prototypes]
+cc1: 警告：无法识别的命令行选项“-Wno-unnamed-type-template-args”
+cc1: 警告：无法识别的命令行选项“-Wno-delete-non-virtual-dtor”
+cc1: 警告：无法识别的命令行选项“-Wno-narrowing”
+Linking C executable cmTryCompileExec2837624072
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2837624072.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -msse -msse2 -msse3 -ffunction-sections -DCHECK_FUNCTION_EXISTS=jbg_newlen -g    CMakeFiles/cmTryCompileExec2837624072.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2837624072 -rdynamic 
+CMakeFiles/cmTryCompileExec2837624072.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake/Modules/CheckFunctionExists.c:11: undefined reference to `jbg_newlen'
+collect2: gmake[1]: Leaving directory `/root/workspace/exercise/languages/C/graph/opencv/opencv-2.4.9/build/CMakeFiles/CMakeTmp'
+ld 返回 1
+gmake[1]: *** [cmTryCompileExec2837624072] 错误 1
+gmake: *** [cmTryCompileExec2837624072/fast] 错误 2
+
+
+Determining if the include file sys/videoio.h exists failed with the following output:
+Change Dir: /root/workspace/exercise/languages/C/graph/opencv/opencv-2.4.9/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTryCompileExec2914228988/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2914228988.dir/build.make CMakeFiles/cmTryCompileExec2914228988.dir/build
+gmake[1]: Entering directory `/root/workspace/exercise/languages/C/graph/opencv/opencv-2.4.9/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/workspace/exercise/languages/C/graph/opencv/opencv-2.4.9/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2914228988.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -msse -msse2 -msse3 -ffunction-sections  -g   -o CMakeFiles/cmTryCompileExec2914228988.dir/CheckIncludeFile.c.o   -c /root/workspace/exercise/languages/C/graph/opencv/opencv-2.4.9/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+cc1: 警告：命令行选项“-Wsign-promo”对 C++/ObjC++ 是有效的，但对 C 无效
+/root/workspace/exercise/languages/C/graph/opencv/opencv-2.4.9/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:25: 错误：sys/videoio.h：没有那个文件或目录
+cc1: 警告：无法识别的命令行选项“-Wno-unnamed-type-template-args”
+cc1: 警告：无法识别的命令行选项“-Wno-delete-non-virtual-dtor”
+cc1: 警告：无法识别的命令行选项“-Wno-narrowing”
+gmake[1]: Leaving directory `/root/workspace/exercise/languages/C/graph/opencv/opencv-2.4.9/build/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec2914228988.dir/CheckIncludeFile.c.o] 错误 1
+gmake: *** [cmTryCompileExec2914228988/fast] 错误 2
+
+
+Determining if the include file libavformat/avformat.h exists failed with the following output:
+Change Dir: /root/workspace/exercise/languages/C/graph/opencv/opencv-2.4.9/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTryCompileExec3239689872/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3239689872.dir/build.make CMakeFiles/cmTryCompileExec3239689872.dir/build
+gmake[1]: Entering directory `/root/workspace/exercise/languages/C/graph/opencv/opencv-2.4.9/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/workspace/exercise/languages/C/graph/opencv/opencv-2.4.9/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3239689872.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -msse -msse2 -msse3 -ffunction-sections  -g   -o CMakeFiles/cmTryCompileExec3239689872.dir/CheckIncludeFile.c.o   -c /root/workspace/exercise/languages/C/graph/opencv/opencv-2.4.9/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+cc1: 警告：命令行选项“-Wsign-promo”对 C++/ObjC++ 是有效的，但对 C 无效
+/root/workspace/exercise/languages/C/graph/opencv/opencv-2.4.9/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:34: 错误：libavformat/avformat.h：没有那个文件或目录
+cc1: 警告：无法识别的命令行选项“-Wno-unnamed-type-template-args”
+cc1: 警告：无法识别的命令行选项“-Wno-delete-non-virtual-dtor”
+cc1: 警告：无法识别的命令行选项“-Wno-narrowing”
+gmake[1]: Leaving directory `/root/workspace/exercise/languages/C/graph/opencv/opencv-2.4.9/build/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec3239689872.dir/CheckIncludeFile.c.o] 错误 1
+gmake: *** [cmTryCompileExec3239689872/fast] 错误 2
+
+
+Determining if the include file ffmpeg/avformat.h exists failed with the following output:
+Change Dir: /root/workspace/exercise/languages/C/graph/opencv/opencv-2.4.9/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTryCompileExec1799005250/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1799005250.dir/build.make CMakeFiles/cmTryCompileExec1799005250.dir/build
+gmake[1]: Entering directory `/root/workspace/exercise/languages/C/graph/opencv/opencv-2.4.9/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/workspace/exercise/languages/C/graph/opencv/opencv-2.4.9/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1799005250.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -msse -msse2 -msse3 -ffunction-sections  -g   -o CMakeFiles/cmTryCompileExec1799005250.dir/CheckIncludeFile.c.o   -c /root/workspace/exercise/languages/C/graph/opencv/opencv-2.4.9/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+cc1: 警告：命令行选项“-Wsign-promo”对 C++/ObjC++ 是有效的，但对 C 无效
+/root/workspace/exercise/languages/C/graph/opencv/opencv-2.4.9/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:29: 错误：ffmpeg/avformat.h：没有那个文件或目录
+cc1: 警告：无法识别的命令行选项“-Wno-unnamed-type-template-args”
+cc1: 警告：无法识别的命令行选项“-Wno-delete-non-virtual-dtor”
+cc1: 警告：无法识别的命令行选项“-Wno-narrowing”
+gmake[1]: Leaving directory `/root/workspace/exercise/languages/C/graph/opencv/opencv-2.4.9/build/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec1799005250.dir/CheckIncludeFile.c.o] 错误 1
+gmake: *** [cmTryCompileExec1799005250/fast] 错误 2
+
+
+Determining if the include file /usr/include/libpng/png.h exists failed with the following output:
+Change Dir: /root/workspace/exercise/languages/C/graph/opencv/opencv-2.4.9/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTryCompileExec786155802/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec786155802.dir/build.make CMakeFiles/cmTryCompileExec786155802.dir/build
+gmake[1]: Entering directory `/root/workspace/exercise/languages/C/graph/opencv/opencv-2.4.9/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/workspace/exercise/languages/C/graph/opencv/opencv-2.4.9/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec786155802.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -msse -msse2 -msse3 -ffunction-sections  -g   -o CMakeFiles/cmTryCompileExec786155802.dir/CheckIncludeFile.c.o   -c /root/workspace/exercise/languages/C/graph/opencv/opencv-2.4.9/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+cc1: 警告：命令行选项“-Wsign-promo”对 C++/ObjC++ 是有效的，但对 C 无效
+/root/workspace/exercise/languages/C/graph/opencv/opencv-2.4.9/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:37: 错误：/usr/include/libpng/png.h：没有那个文件或目录
+cc1: 警告：无法识别的命令行选项“-Wno-unnamed-type-template-args”
+cc1: 警告：无法识别的命令行选项“-Wno-delete-non-virtual-dtor”
+cc1: 警告：无法识别的命令行选项“-Wno-narrowing”
+gmake[1]: Leaving directory `/root/workspace/exercise/languages/C/graph/opencv/opencv-2.4.9/build/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec786155802.dir/CheckIncludeFile.c.o] 错误 1
+gmake: *** [cmTryCompileExec786155802/fast] 错误 2
+
+
+Determining if the include file sys/videoio.h exists failed with the following output:
+Change Dir: /root/workspace/exercise/languages/C/graph/opencv/opencv-2.4.9/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTryCompileExec1981360669/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1981360669.dir/build.make CMakeFiles/cmTryCompileExec1981360669.dir/build
+gmake[1]: Entering directory `/root/workspace/exercise/languages/C/graph/opencv/opencv-2.4.9/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/workspace/exercise/languages/C/graph/opencv/opencv-2.4.9/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1981360669.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -msse -msse2 -msse3 -ffunction-sections  -g   -o CMakeFiles/cmTryCompileExec1981360669.dir/CheckIncludeFile.c.o   -c /root/workspace/exercise/languages/C/graph/opencv/opencv-2.4.9/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+cc1: 警告：命令行选项“-Wsign-promo”对 C++/ObjC++ 是有效的，但对 C 无效
+/root/workspace/exercise/languages/C/graph/opencv/opencv-2.4.9/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:25: 错误：sys/videoio.h：没有那个文件或目录
+cc1: 警告：无法识别的命令行选项“-Wno-unnamed-type-template-args”
+cc1: 警告：无法识别的命令行选项“-Wno-delete-non-virtual-dtor”
+cc1: 警告：无法识别的命令行选项“-Wno-narrowing”
+gmake[1]: Leaving directory `/root/workspace/exercise/languages/C/graph/opencv/opencv-2.4.9/build/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec1981360669.dir/CheckIncludeFile.c.o] 错误 1
+gmake: *** [cmTryCompileExec1981360669/fast] 错误 2
+
+
+Determining if the include file libavformat/avformat.h exists failed with the following output:
+Change Dir: /root/workspace/exercise/languages/C/graph/opencv/opencv-2.4.9/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTryCompileExec2979937709/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2979937709.dir/build.make CMakeFiles/cmTryCompileExec2979937709.dir/build
+gmake[1]: Entering directory `/root/workspace/exercise/languages/C/graph/opencv/opencv-2.4.9/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/workspace/exercise/languages/C/graph/opencv/opencv-2.4.9/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2979937709.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -msse -msse2 -msse3 -ffunction-sections  -g   -o CMakeFiles/cmTryCompileExec2979937709.dir/CheckIncludeFile.c.o   -c /root/workspace/exercise/languages/C/graph/opencv/opencv-2.4.9/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+cc1: 警告：命令行选项“-Wsign-promo”对 C++/ObjC++ 是有效的，但对 C 无效
+/root/workspace/exercise/languages/C/graph/opencv/opencv-2.4.9/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:34: 错误：libavformat/avformat.h：没有那个文件或目录
+cc1: 警告：无法识别的命令行选项“-Wno-unnamed-type-template-args”
+cc1: 警告：无法识别的命令行选项“-Wno-delete-non-virtual-dtor”
+cc1: 警告：无法识别的命令行选项“-Wno-narrowing”
+gmake[1]: Leaving directory `/root/workspace/exercise/languages/C/graph/opencv/opencv-2.4.9/build/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec2979937709.dir/CheckIncludeFile.c.o] 错误 1
+gmake: *** [cmTryCompileExec2979937709/fast] 错误 2
+
+
+Determining if the include file ffmpeg/avformat.h exists failed with the following output:
+Change Dir: /root/workspace/exercise/languages/C/graph/opencv/opencv-2.4.9/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTryCompileExec2094012696/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2094012696.dir/build.make CMakeFiles/cmTryCompileExec2094012696.dir/build
+gmake[1]: Entering directory `/root/workspace/exercise/languages/C/graph/opencv/opencv-2.4.9/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/workspace/exercise/languages/C/graph/opencv/opencv-2.4.9/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2094012696.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -msse -msse2 -msse3 -ffunction-sections  -g   -o CMakeFiles/cmTryCompileExec2094012696.dir/CheckIncludeFile.c.o   -c /root/workspace/exercise/languages/C/graph/opencv/opencv-2.4.9/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+cc1: 警告：命令行选项“-Wsign-promo”对 C++/ObjC++ 是有效的，但对 C 无效
+/root/workspace/exercise/languages/C/graph/opencv/opencv-2.4.9/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:29: 错误：ffmpeg/avformat.h：没有那个文件或目录
+cc1: 警告：无法识别的命令行选项“-Wno-unnamed-type-template-args”
+cc1: 警告：无法识别的命令行选项“-Wno-delete-non-virtual-dtor”
+cc1: 警告：无法识别的命令行选项“-Wno-narrowing”
+gmake[1]: Leaving directory `/root/workspace/exercise/languages/C/graph/opencv/opencv-2.4.9/build/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec2094012696.dir/CheckIncludeFile.c.o] 错误 1
+gmake: *** [cmTryCompileExec2094012696/fast] 错误 2
+
+

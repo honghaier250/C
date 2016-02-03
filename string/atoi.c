@@ -7,8 +7,8 @@
 
 int main()
 {
-    char *string="123456";
-    int integer=0;
+    char *string = "123456";
+    int integer = 0;
 
     integer = atoi(string);
 

@@ -16,21 +16,21 @@ int main()
     Encrypt_time = atol(token);
     //strtol();
 
-    if(token != NULL)
+    if (token != NULL)
     {
         token = strtok(NULL, ",");
     }
 
     Encrypt_size = atol(token);
 
-    if(token != NULL)
+    if (token != NULL)
     {
         token = strtok(NULL, ",");
     }
 
     Decrypt_time = atol(token);
 
-    if(token != NULL)
+    if (token != NULL)
     {
         token = strtok(NULL, ",");
     }
@@ -40,4 +40,3 @@ int main()
 
     return 0;
 }
-
