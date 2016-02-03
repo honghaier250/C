@@ -1,0 +1,686 @@
+'/" t
+.TH ice 1m "July 2013"
+
+.SH NAME
+.P
+ice - NetIQ Import Convert Export utility
+
+.SH SYNOPSIS
+.P
+Usage: ice <general options> -S <source handler> <source sub options> -D <destination handler> <destination sub options>
+
+.P
+/opt/novell/eDirectory/bin/ice --version
+
+.SH DESCRIPTION
+.P
+The NetIQ* Import Convert Export utility lets you:
+
+- Import data from LDIF files to an LDAP directory
+
+- Export data from an LDAP directory to an LDIF file
+
+- Migrate data between LDAP servers
+
+- Perform a Schema Compare and Update
+
+- Load information into eDirectory* using a template
+
+.P
+The Import Convert Export utility manages a collection of handlers that read or write data in a variety of formats. Source handlers read data, and destination handlers write data. A single executable module can be both a source and a destination handler. The engine receives data from a source handler, processes the data, then passes the data to a destination handler.
+
+.P
+For example, if you want to import LDIF data into an LDAP directory, the Import Convert Export engine uses an LDIF source handler to read an LDIF file and an LDAP destination handler to send the data to the LDAP directory server.
+
+
+.SH OPTIONS
+
+--version is used to print the version information.
+
+.SS GENERAL OPTIONS
+
+.I.P
+
+.TP 25
+-C 
+Specifies that you are using the schema cache to perform schema compare and update.
+
+.TP 25
+-l log_file
+Specifies a filename where output messages (including error messages) are logged. If this option is not used, error messages are not logged.
+
+.TP 25
+-o
+Overwrites an existing log file. If this flag is not set, messages are appended to the log file instead.
+
+.TP 25
+-e LDIF_error_log_ file
+Specifies a filename where entries that fail are output in LDIF format. This file can be examined, modified to correct the errors, then reapplied to the directory.
+
+.TP 25
+-p URL
+Specifies the location of an XML placement rule to be used by the engine. Placement rules let you change the placement of an entry.
+
+.TP 25
+-c URL
+Specifies the location of an XML creation rule to be used by the engine. Creation rules let you supply missing information that might be needed to allow an entry to be successfully created on import.
+
+.TP 25
+-s URL
+Specifies the location of an XML schema mapping rule to be used by the engine. Schema mapping rules let you extend the schema on the destination server to accommodate all of the object classes and attribute types in entries coming from the source server.
+
+.IP
+You can use a schema mapping rule to map a schema element on a source server to a different but equivalent schema element on a destination server.
+
+.SS SCHEMA OPTIONS
+
+.I.P
+
+.TP 25
+-C -a 
+Updates the destination schema (adds missing schema).
+
+.TP 25
+-C -c <filename> 
+Outputs the destination schema to the specified file.
+
+.TP 25
+-C -n 
+Disables schema pre-checking.
+
+.SS MODULE HANDLER OPTIONS
+
+.P
+The Import Convert Export engine reads data from the source handler, processes it, and sends it to the destination handler. The following handlers are supported:
+
+- LDIF Source Handler
+
+- LDIF Destination Handler
+
+- LDAP Source Handler
+
+- LDAP Destination Handler
+
+- DELIM Source Handler
+
+- DELIM Destination Handler
+
+- SCH Source Handler 
+
+- LOAD Source Handler 
+
+.SS LDIF Source Handler Options
+.P
+The LDIF source handler reads data from an LDIF file, then sends it to the Import Convert Export engine.
+
+.I.P
+
+.TP 25
+-f LDIF_file
+Specifies a filename containing LDIF records read by the LDIF source handler and sent to the engine. If you omit this option, the input will be taken from stdin.
+
+.TP 25
+-a
+If the records in the LDIF file are content records (that is, they contain no changetypes), they will be treated as records with a changetype of Add.
+
+.TP 25
+-m
+If the records in the LDIF file are content records (that is, they contain no changetypes), they will be treated as records with a changetype of Modify.
+
+.TP 25
+-x
+If the records in the LDIF file are content records (that is, they contain no changetypes), they will be treated as records with a changetype of Delete.
+
+.TP 25
+-c
+Prevents the LDIF source handler from stopping on errors. This includes errors on parsing LDIF and errors sent back from the destination handler. When this option is set and an error occurs, the LDIF source handler reports the error, finds the next record in the LDIF file, and continues.
+
+.TP 25
+-n
+Does not perform update operations, but prints what would be done. When this option is set, the LDIF source handler parses the LDIF file but does not send any records to the Import Convert Export engine or to the destination handler.
+
+.TP 25
+-v
+Enables the verbose mode of the handler.
+
+
+.SS LDIF Destination Handler Options
+.P
+The LDIF destination handler receives data from the Import Convert Export engine and writes it to an LDIF file.
+
+.I.P
+
+.TP 25
+-f LDIF_file
+Specifies the filename where LDIF records can be written.
+If you omit this option the output will go to stdout.
+
+.TP 25
+-B
+Do not suppress printing of binary values.
+
+.TP 25
+-b
+Do not base64 encode LDIF data.
+
+.SS LDAP Source Handler Options
+.P
+The LDAP source handler reads data from an LDAP server by sending a search request to the server. It then sends the search entries it receives from the search operation to the Import Convert Export engine.
+
+.I.P
+
+.TP 25
+-s server_name
+Specifies the DNS name or IP address of the LDAP server to which the handler will send a search request. The default is the local host. NOTE: eDirectory 8.8 SP8 supports the IPv6 protocol. Provide IPv6 address within square brackets, "[IPv6 Address]:Port".
+
+.TP 25
+-p port
+Specifies the integer port number of the LDAP server specified by server_name. The default is 389. For secure operations, the default port is 636. Secure communication needs the SSL Cerificate.
+
+
+.TP 25
+-d DN
+Specifies the distinguished name of the entry that should be used when binding to the server specified bind operation.
+
+.TP 25
+-w password
+Specifies the password attribute of the entry specified by the DN option.
+
+.TP 25
+-W
+Prompts for the password of the entry specified by the DN option.
+
+.TP 25
+-F filter
+Specifies an RFC 1558 compliant search filter. If this option is omitted, the search filter defaults to objectclass=*.
+
+.TP 25
+-n
+Does not actually perform a search, but shows what search would be performed.
+
+.TP 25
+-m
+The destination LDIF file records will have a changetype of Modify.
+
+.TP 25
+-x
+The destination LDIF file records will have a changetype of Delete.
+
+.TP 25
+-a attribute_list
+Specifies a comma-separated list of attributes to retrieve as part of the search. In addition to attribute names, there are three other values:
+
+- Get no attributes (1.1)
+
+- All user attributes (*)
+
+- An empty list gets all non-operational attributes.
+
+.IP
+If this option is omitted, the attribute list defaults to the empty list.
+
+.TP 25
+-o attribute_list
+Specifies a comma-separated list of attributes to be omitted from the search results received from the LDAP server before they are sent to the engine. This option is useful in cases where you want to use a wildcard with the -a option to get all attributes of some class and then remove a few of them from the search results before passing the data on to the engine.
+
+.IP
+For example, -a* -o telephoneNumber searches for all user-level attributes and filters the telephone number from the results.
+
+.TP 25
+-R
+Do not automatically follow referrals. The default is to follow referrals with the name and password given with the -d and -w options.
+
+.TP 25
+-e value
+Specifies which debugging flags should be enabled in the LDAP client SDK.
+
+.TP 25
+-b base_DN
+Specifies the base distinguished name for the search request. If this option is omitted, the base DN defaults to "" (empty string).
+
+.TP 25
+-c search_scope
+Specifies the scope of the search request. Valid values are:
+
+- One: Searches only the immediate children of the base object.
+
+- Base: Searches only the base object entry itself.
+
+- Sub: Searches the LDAP subtree rooted at and including the base object.
+
+.IP
+If this option is omitted, the search scope defaults to One.
+
+.TP 25
+-r deref_aliases
+Specifies the way aliases should be dereferenced during the search operation. Values include:
+
+.IP
+Never: Prevents the server from dereferencing aliases.
+
+.IP
+Always: Causes aliases to be dereferenced when locating the base object of the search and when evaluating entries that match the search filter.
+
+.IP
+Search: Causes aliases to be dereferenced when applying the filter to entries within the scope of the search after the base object has been located, but not when locating the base object itself.
+
+.IP
+Find: Causes aliases to be dereferenced when locating the base object of the search, but not when actually evaluating entries that match the search filter.
+
+.IP
+If this option is omitted, the alias dereferencing behavior defaults to Never.
+
+.TP 25
+-l time_limit
+Specifies a time limit for the search in seconds.
+
+.TP 25
+-z size _limit
+Specifies the maximum number of entries to be returned by the search.
+
+.TP 25
+-V version
+Specifies the LDAP protocol version to be used for the connection. It must be 2 or 3. If this option is omitted, the default is 3.
+
+.TP 25
+-v
+Enables the verbose mode of the handler.
+
+.TP 25
+-L filename
+Specifies a file in DER format containing a server key used for SSL authentication.
+
+.TP 25
+-A
+Retrieves attribute names only. Attribute values are not returned by the search operation.
+
+.SS LDAP Destination Handler Options
+.P
+The LDAP destination handler receives data from the Import Convert Export engine and sends it to an LDAP server in the form of update operations to be performed by the server.
+
+.I.P
+
+.TP 25
+-s server_name
+Specifies the DNS name or IP address of the LDAP server to which the handler will send a search request. The default is the local host. NOTE: eDirectory 8.8 SP8 supports the IPv6 protocol. Provide IPv6 address within square brackets, "[IPv6 Address]:Port".
+
+.TP 25
+-p port
+Specifies the integer port number of the LDAP server specified by server_name. The default is 389. For secure operations, the default port is 636. Secure communication needs the SSL Cerificate.
+
+.TP 25
+-d DN
+Specifies the distinguished name of the entry that should be used when binding to the server specified bind operation.
+
+.TP 25
+-w password
+Specifies the password attribute of the entry specified by the DN option.
+
+.TP 25
+-W
+Prompts for the password of the entry specified by the DN option.
+
+.TP 25
+-B
+Do not use asynchronous LDAP Bulk Update/Replication Protocol (LBURP) requests for transferring update operations to the server. Instead, use standard synchronous LDAP update operation requests.
+
+.TP 25
+-F
+Allows the creation of forward references. When an entry will be created before its parent exists, a placeholder called a forward reference is created for the entry's parent to allow the entry to be successfully created. If a later operation creates the parent, the forward reference is changed into a normal entry.
+
+.TP 25
+-l
+Stores password values using the simple password method of the NetIQ Modular Authentication Service* (NMAS*). Passwords are kept in a secure location in the directory, but key pairs are not generated until they are actually needed for authentication between servers. This improves the speed with which an object that has password information can be loaded.
+
+.TP 25
+-e value
+Specifies which debugging flags should be enabled in the LDAP client SDK.
+
+.TP 25
+-V version
+Specifies the LDAP protocol version to be used for the connection. It must be 2 or 3. If this option is omitted, the default is 3.
+
+.TP 25
+-L filename
+Specifies a file in DER format containing a server key used for SSL authentication.
+
+.TP 25
+-P
+Enables concurrent LBURP processing. This option is enabled only if all the operations in the LDIF are add. When you use the -F option, -P is enabled by default.
+
+.TP 25
+-Z
+Specifies the number of asynchronous requests. This indicates the number of entries the ICE client can send to the LDAP server asynchronously before waiting for any result back from the server.
+
+.SS DELIM Source Handler Options
+.P
+The DELIM source handler receives data from a comma-delimited data file and sends it to the destination handler.
+
+.I.P
+
+.TP 25
+-f filename
+Specifies a file containing comma-delimited records read by the DELIM source handler and sent to the destination handler.
+
+.TP 25
+-F value
+Specifies a file containing the attribute data order for the file specified by -f. By default, the number of columns for an attribute in the delimited file equals maximum number of values for the attribute. If an attribute is repeated, the number of columns equals the number of times the attribute repeats in the template. If this option is not specified, enter this information directly using -t. 
+
+.TP 25
+-t value
+The comma-delimited list of attributes specifying the attribute data order for the file specified by -f. By default, the number of columns for an attribute in the delimited file equals maximum number of values for the attribute. If an attribute is repeated, the number of columns equals the number of times the attribute repeats in the template. Either this option or -F must be specified.
+
+
+.TP 25
+-c
+Prevents the DELIM source handler from stopping on encountering errors. This includes errors on parsing comma-delimited data files and errors sent back from the destination handler. When this option is set and an error occurs, the DELIM source handler reports the error, finds the next record in the comma-delimited data file, and goes on.
+
+.TP 25
+-n value
+Specifies the LDAP naming attribute for the new object. This attribute must be contained in the attribute data you specify using -F or -t.
+
+.TP 25
+-l value
+Specifies the path to append the RDN (such as o=myCompany). If you are passing the DN, this value is not necessary.
+
+.TP 25
+-o value
+The comma-delimited list of object classes (if none are contained in the input file) or additional object classes such as auxiliary classes. The default value is inetorgperson.
+
+.TP 25
+-i value
+The comma-delimited list of columns to skip. This value is an integer specifying the number of the column to skip. For example, to skip the third and fifth columns, you would pass 3,5.
+
+.TP 25
+-d value
+Specifies the delimiter. The default delimiter is a comma (,).
+
+.TP 25
+-q value
+Specifies the secondary delimiter. The default secondary delimiter is double quotes (" ").
+
+
+.SS DELIM Destination Handler Options
+.P
+The DELIM destination handler receives data from the source handler and writes it to a comma-delimited data file.
+
+.I.P
+
+.TP 25
+-f filename
+Specifies the file where comma-delimited records can be written.
+
+.TP 25
+-F value
+Specifies a file containing the attribute data order for the file specified by -f. By default, the number of columns for an attribute in the delimited file equals maximum number of values for the attribute. If an attribute is repeated, the number of columns equals the number of times the attribute repeats in the template. If this option is not specified, enter this information directly using -t. 
+
+.TP 25
+-t value
+The comma-delimited list of attributes specifying the attribute data order for the file specified by -f. By default, the number of columns for an attribute in the delimited file equals maximum number of values for the attribute. If an attribute is repeated, the number of columns equals the number of times the attribute repeats in the template. Either this option or -F must be specified.
+
+.TP 25
+-l value
+Can be either RDN or DN. Specifies whether the driver should place the entire DN or just the RDN in the data. RDN is the default value.
+
+.TP 25
+-d value
+Specifies the delimiter. The default delimiter is a comma (,).
+
+.TP 25
+-q value
+Specifies the secondary delimiter. The default secondary delimiter is single quotes ('').
+
+.TP 25
+-n value
+Specifies a naming attribute to be appended during import, such as cn.
+
+.TP 25
+-k
+Specifies that the first line in the delimited file is the template. If this option is used with -t or -F, the template specified is checked for consistency with that in the delimited file.
+
+
+.SS SCH Source Handler Options
+.P
+The SCH source handler reads data from a legacy NDS* or eDirectory schema file (files with a *.sch extension), then sends it to the Import Convert Export engine. You can use this handler to implement schema-related operations on an LDAP Server. The
+schema handler is a source handler only. You can use it to import *.sch files into an LDAP server, but you cannot export *.sch files.
+
+.IP
+.TP 25 
+-f filename
+Specifies the full path name of the *.sch file.
+
+.TP 25
+-n
+(Optional) Displays operations, but doesn't actually perform them.
+
+.TP 25
+-v
+(Optional) Run in verbose mode.
+
+.SS LOAD Source Handler Options
+.P
+The DirLoad driver generates eDirectory information from commands in a template. This template file is specified with the -f
+argument and contains the attribute specification information and the program control information.
+
+.IP
+.TP 25
+-f filename
+Specifies the template file containing all attribute specifications and all control information for running the program.
+
+.TP 25
+-c
+Continues to the next record if an error is reported.
+
+.TP 25
+-v
+Runs in verbose mode.
+
+.TP 25
+-r
+Changes the request to a delete request so the data is deleted instead of added. This allows you to remove records that were added using a DirLoad template.
+
+.TP 25
+-m
+Indicates that modify requests will be in the template file.
+
+.SH EXAMPLES
+
+.P
+To perform an LDIF import, combine the LDIF source and LDAP destination handlers like the following example:
+
+.P
+ice -S LDIF -f entries.ldif -D LDAP -s server1.acme.com -p 389 -d cn=admin,c=us -w secret
+
+.P
+This particular command line reads LDIF data from entries.ldif and sends it to the LDAP server server1.acme.com at port 389 using the identity cn=admin,c=us, and the password "secret."
+
+.P
+To perform an LDIF export, combine the LDAP source and LDIF destination handlers like the following example:
+
+.P
+ice -S LDAP -s server1.acme.com -p 389 -d cn=admin,c=us -w password -F objectClass=* -c sub -D LDIF -f server1.ldif
+
+.P
+This command line performs a subtree search for all objects in the server server1.acme.com at port 389 using the identity cn=admin,c=us, and the password "password," and outputs the data in LDIF format to server1.ldif.
+
+.P
+To perform a comma-delimited import, use a command similar to the following:
+
+.P
+ice -S DELIM -f/tmp/in.csv -F /tmp/order.csv -ncn -lo=acme -D LDAP -s server1.acme.com -p389 -d cn=admin,c=us -w secret
+
+.P
+This command reads comma-delimited values from the /tmp/in.csv file and reads the attribute order from the /tmp/order.csv file. For each attribute entry in in.csv, the attribute type is specified in order.csv. For example, if in.csv contains the following:
+
+.P
+pat,pat,engineer,john
+
+.P
+Then order.csv would contain the following:
+
+.P
+dn,cn,title,sn,objectclass
+
+.P
+The information in order.csv could be input directly using the -t option. The data is then sent to the LDAP server server1.acme.com at port 389 using the identity cn=admin,c=us, and the password "secret."
+
+.P
+The -n option specifies that cn should become the new DN for this object using the -n option, and the -l option adds this object to the organization container acme.
+
+.P
+To perform a comma-delimited export, use a command similar to the following:
+
+.P
+ice -S LDAP -s server1.acme.com -p389 -d cn=admin,c=us -w password -lobjectClass=* -c sub -D DELIM -f/tmp/server1.csv -F order.csv
+
+.P
+This command line performs a subtree search for all objects in the server server1.acme.com at port 389 using the identity cn=admin,c=us, and password "password" and gives an output of the data in a comma-delimited format to the /tmp/server1.csv file.
+
+.P
+If the schema rules are saved to an sr1.xml file, the following command instructs the utility to use the rules while processing the entry.ldif file and to send the results to a destination file, outt1.ldif.
+
+.P
+ice -o -s file://sr1.xml -S LDIF -f entry.ldif -c -D LDIF -f outt1.ldif
+
+.P
+To perform a data migration between LDAP servers, combine the LDAP source and LDAP destination handlers like the following example:
+
+.P
+ice -S LDAP -s server1.acme.com -p 389 -d cn=admin,c=us -w password -F objectClass=* -c sub -D LDAP -s server2.acme.com -p 389 -d cn=admin,c=us -w secret
+
+.P
+This particular command line performs a subtree search for all objects in the server server1.acme.com at port 389 using the identity cn=admin,c=us with the password "password," and sends it to the LDAP server server2.acme.com at port 389 using the identity cn=admin,c=us and the password "secret."
+
+.P
+To perform an SCH import, combine the SCH source and LDAP destination handlers like the following example:
+
+.P
+ice -S SCH -f entries.sch -D LDAP -s server1.acme.com -p 389 -d cn=admin,c=us -w secret
+
+.P
+This particular command line reads SCH data from entries.sch and sends it to the LDAP server server1.acme.com at port 389 using the identity cn=admin,c=us, and the password secret.
+
+.SH NOTES
+.SS Conversion Rules
+.P
+The Import Convert Export engine lets you specify a set of rules that describe processing actions to be taken on each record received from the source handler before the record is sent on to the destination handler. These rules are specified in XML (either in the form of an XML file or XML data stored in the directory) and solve the following problems when importing entries from one LDAP directory to another:
+
+- Schema differences
+
+- Hierarchical differences
+
+- Missing information
+
+.P
+There are three types of conversion rules:
+.I.P
+
+.TP 25
+Placement
+Placement rules let you change the placement of an entry. For example, if you are importing a group of users in the l=San Francisco, c=US container but you want them to be in the l=Los Angeles, c=US container when the import is complete, you could use a placement rule to do this.
+
+.TP 25
+Creation
+Creation rules let you supply missing information that might be needed to allow an entry to be created successfully on import.
+
+.IP
+For example, assume that you have exported LDIF data from a server whose schema requires only the cn (commonName) attribute for user entries, but the server to which you are importing the LDIF data requires both the cn and sn (surname) attributes. You could use the creation rule to supply a default sn value, (such as "") for each entry as it is processed by the engine. When the entry is sent to the destination server, it has the required sn attribute and the entry can be added successfully.
+
+.TP 25
+Schema Mapping
+When you are transferring data between servers, either directly or using LDIF, there are almost always schema differences in the servers. In some cases, you might need to extend the schema on the destination server to accommodate the object classes and attribute types in entries coming from the source server.
+
+.IP
+You might also need to map a schema element on the source server to a different but equivalent schema element on the destination server. You can use schema mapping rules to do this.
+
+.SH NOTES
+.SS LDAP Bulk Update/Replication Protocol
+.P
+Import Convert Export uses the LDAP Bulk Update/Replication Protocol (LBURP) to send asynchronous requests to an LDAP server. This guarantees that the requests are processed in the order specified by the protocol and not in an arbitrary order influenced by multiprocessor interactions or the operating system's scheduler.
+
+.P
+LBURP also lets Import Convert Export send several update operations in a single request and receive the response for all of those update operations in a single response. This adds to the network efficiency of the protocol.
+
+.SS Using Simple Passwords
+.P
+The NetIQ eDirectory infrastructure uses public and private key pairs for authentication. Generating these keys is a very CPU-intensive process. With eDirectory 8.7, you can choose to store passwords using the simple password feature of the Modular Authentication Service (NMAS). When you do this, passwords are kept in a secure location in the directory, but key pairs are not generated until they are actually needed for authentication between servers. This greatly improves the speed with which an object that has password information can be loaded.
+
+.SS Enable Forward References
+.P
+You might encounter LDIF files where the record to add one entry comes before the record to add its parents. When this situation occurs, an error is generated because the new entry's parent does not exist when the LDAP server attempts to add the entry. To solve this problem, enable the use of Forward References in the Import Convert Export utility (via the -F option for the LDAP destination handler).
+
+.SH FILES
+.P
+The ICE engine reads data from the default configuration /etc/opt/novell/eDirectory/conf/ice.conf file. The file specifies the source and destination handlers and options available to the application. To use a different configuration file, specify the file in the ICE_CONF environment variable.
+
+.P
+The ice.conf file contains the following parameters:
+
+.I.P
+
+.TP 25
+Section name
+Used to determine what is available.
+
+.TP 25
+Modes
+Specifies the supported functionality. Modes can be any of the following: From File, From Server, To File, or To Server.
+
+.TP 25
+Module name
+Specifies the modules that the ice engine loads.
+
+.TP 25
+Flags
+Specifies the flags to be sent to the destination handler.
+
+.TP 25
+Arguments
+Specifies certain arguments to be sent to the source handler.
+
+.P
+Following is an example of the data that is contained in a configuration file that has source and destination information:
+
+.IP
+Filename: ice.cfg
+.IP
+.nf
+[LDIF]
+Version: 1.0
+Modes: FromFile, ToFile
+Module name: ldif
+Flags: 1
+[LDAP]
+Version: 1.0
+Modes: FromServer, ToServer
+Module name: ldaphdlr
+Flags: 1
+[DELIM]
+Version: 1.0
+Modes: FromFile, ToFile
+Module name: delim
+Flags: 1
+.fi
+
+.SS Module Handlers
+.P
+The ice module handlers are libraries available in the following directories (libldif and libldaphdlr):
+
+Linux 64-bit: /opt/novell/eDirectory/lib64 
+
+To specify another location for the libraries, use the ICE_MODULES_DIR environment variable.
+
+.SH DIAGNOSTICS
+.SS Migrating Schema Between LDAP Directories
+.P
+You can refer to Application Notes (http://www.developer.novell.com/research/) posted on the Novell Developer Portal to get information about migrating schema between LDAP directories.
+
+.SS Importing JPEG Photos
+.P
+To represent binary data such as a JPEG image in LDIF. Convert the image to base 64 encoded data. Conversion tools are available as free downloads on the Internet. Alternatively, you can specify the JPEG file as a URL.
+
+.SH SEE ALSO
+.P
+legal(5)
+
+

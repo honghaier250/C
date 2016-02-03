@@ -1,0 +1,151 @@
+'/" t
+.TH ldapmodrdn 1 "23 September 2003"
+
+.SH NAME
+.P
+ldapmodrdn - LDAP modify entry RDN tool
+
+.SH SYNOPSIS
+.P
+ldapmodrdn [-r] [-n] [-v] [-c] [-C] [-l] [-M] [-s newsuperior] [-d debuglevel] [-e key filename] [-D binddn] [[-W]|[-w  passwd]]  [-h ldaphost] [-p ldapport] [-Z[Z]] [-f file] [dn newrdn]
+
+.SH DESCRIPTION
+.P
+The ldapmodrdn tool opens a connection to an LDAP server, binds, and modifies the RDN of entries. 
+
+DN is a full LDAP dn. Newrdn is a new relative distinguished name.  If given, newrdn replaces the RDN of the entry specified by DN. If not given, the list of modification is read from stdin or from the file specified by -f file. It can also move the entry to a new container.
+
+.SH OPTIONS
+.I.P
+
+.TP 15
+-c
+Continuous operation mode. Errors are reported, but ldapmodify will continue with modifications. The default is to exit after reporting an error.
+
+.TP 15
+-f file
+Reads the entry modification information from the file instead of from standard input or the command line. Make sure that there are no blank lines between the old RDN and new RDN, or the -f option will fail. 
+
+.TP 15
+-r
+Removes old RDN values from the entry. The default is to keep old values.
+
+.TP 15
+-s newsuperior 
+Specifies the distinguished name of the container to which the entry is moving.
+
+.SH COMMON OPTIONS
+
+.TP 15
+-C
+Enables referral following. (anonymous bind)
+
+.TP 15
+-d debuglevel
+Sets the LDAP debugging level to debuglevel. The ldapmodrdn tool must be compiled with LDAP_DEBUG defined for this option to have any effect.
+
+.TP 15
+-D binddn
+Use binddn to bind to the LDAP server. binddn should be a string-represented DN as defined in RFC 1779.
+
+.TP 15
+-e
+Files the certificate filename for SSL bind.
+
+.TP 15
+-h ldaphost
+Specifies an alternate host on which the LDAP server is running.
+
+.TP 15
+-l limit
+Specifies the connection timeout (in seconds).
+
+.TP 15
+-M
+Enables Manage DSA IT control. (non-critical)
+
+.TP 15
+-MM
+Enables Manage DSA IT control. (critical)
+
+.TP 15
+-n
+Shows what would be done, but does not actually change entries.  This is useful for debugging in conjunction with -v.
+
+.TP 15
+-p ldapport
+Specifies an alternate TCP port where the LDAP server is listening.
+
+.TP 15
+-P <version>
+Specifies the LDAP version (2 or 3).
+
+.TP 15
+-v
+Uses verbose mode, with many diagnostics written to standard output.
+
+.TP 15
+-w passwd
+Uses passwd as the password for simple authentication.
+
+.TP 15
+-W
+Prompts for simple authentication. This option is used instead of specifying the password on the command line.
+
+.TP 15
+-Z
+Starts TLS before binding to perform the operation. If an error occurs during the Start TLS operation, the error is ignored and the operation continues. We recommend using the -ZZ option in place of this option to cause the operation to abort if an error occurs.
+
+If a port is specified with this with this option, it must accept clear text connections.
+
+To verify the server identity, this option should be used in conjunction with the -e option to specify a server certificate file to validate the server trusted root certificate when TLS is started. If the -e option is not specified, any certificate from the server is accepted.
+
+.TP 15
+-ZZ
+Starts TLS before binding to perform the operation. If an error occurs during the Start TLS operation, the operation is aborted.
+
+If a port is specified with this option, it must accept clear text connections.
+
+To verify server identity, this option should be used in conjunction with the -e option to specify a server certificate file. This validates the server trusted root certificate when TLS is started. If the -e option is not specified, any certificate from the server is accepted.
+
+.SS INPUT FORMAT
+.P
+If the command line arguments dn and rdn are given, rdn will replace the RDN of the entry specified by the DN, dn.
+.P
+Otherwise, the contents of the file (or standard input if no -f flag is given) should consist of one or more entries.
+.P
+
+.nf
+Distinguished Name (DN)
+
+Relative Distinguished Name (RDN)
+
+.fi
+.P
+One or more blank lines can be used to separate each DN/RDN pair.
+
+.SH EXAMPLES
+.P
+Assume that the file /tmp/entrymods exists and has the following contents:
+.P
+.nf
+
+cn=Modify Me, o=University of Michigan, c=US
+
+cn=The New Me
+
+.fi
+.P
+In this case, the command ldapmodify -r -f /tmp/entrymods will change the RDN of the Modify Me entry from Modify Me to The New Me and the old cn, Modify Me, will be removed.
+
+.SH DIAGNOSTICS
+.P
+The exit status is 0 if no errors occur. Errors result in a non-zero exit status and a diagnostic message being written to standard error.
+
+.SH SEE ALSO
+.P
+ldapadd(1), ldapdelete(1), ldapmodify(1), ldapsearch(1), ndsindex(1), legal(5)
+.P
+Kille, S., A String Representation of Distinguished Names
+.P
+RFC 1779, ISODE Consortium, March 1995

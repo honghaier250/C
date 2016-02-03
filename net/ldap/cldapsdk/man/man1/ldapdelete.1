@@ -1,0 +1,123 @@
+'/" t
+.TH ldapdelete 1 "23 September 2003"
+
+.SH NAME
+.P
+ldapdelete - LDAP delete entry tool
+
+.SH SYNOPSIS
+.P 
+ldapdelete [-n] [-v]  [-c]  [-r] [-l] [-C] [-M] [-d debuglevel] [-e key filename] [-f file] [-D binddn] [[-W]| [-w passwd]] [-h ldaphost] [-p ldapport] [-Z[Z]] [dn]...
+
+.SH DESCRIPTION
+.P
+The ldapdelete tool deletes entries in an LDAP directory server.  
+.P
+The ldapdelete tool opens a connection with an LDAP server, binds, and deletes one or more entries. If one or more dn arguments are provided, entries with those distinguished names are deleted. Each dn should be a string-represented DN as defined in RFC 1779. If no dn arguments are provided, a list of DNs is read from standard input (or from file, if the -f flag is used).
+
+.SH OPTIONS
+.I.P
+
+.TP 15
+-c
+Continuous operation mode. Errors are reported, but ldapdelete will continue with deletions. The default is to exit after reporting an error.
+
+.TP 15
+-f file
+Reads a series of lines from the file, performing one LDAP search for each line. In this case, the filter given on the command line is treated as a pattern, where the first occurrence of %s is replaced with a line from the file.
+
+.TP 15
+-r
+Delete recursively.
+
+.SH COMMON OPTIONS
+
+.TP 15
+-C
+Enable referral following. (anonymous bind)
+
+.TP 15
+-d debuglevel
+Sets the LDAP debugging level to debuglevel. The ldapdelete tool must be compiled with LDAP_DEBUG defined for this option to have any effect.
+
+.TP 15
+-D binddn
+Uses binddn to bind to the LDAP server. binddn should be a string-represented DN as defined in RFC 1779.
+
+.TP 15
+-e
+Files the certificate filename for SSL bind.
+
+.TP 15
+-h ldaphost
+Specifies an alternate host on which the LDAP server is running.
+
+.TP 15
+-l limit
+Specifies the connection timeout (in seconds).
+
+.TP 15
+-M
+Enables Manage DSA IT control. (non-critical)
+
+.TP 15
+-MM
+Enables Manage DSA IT control. (critical)
+
+.TP 15
+-n
+Shows what would be done, but does not actually delete entries. This is useful for debugging in conjunction with -v.
+
+.TP 15
+-p ldapport
+Specifies an alternate TCP port where the LDAP server is listening.
+
+.TP 15
+-P <version>
+Specifies the LDAP version (2 or 3).
+
+.TP 15
+-v
+Uses the verbose mode with many diagnostics written to standard output.
+
+.TP 15
+-w passwd
+Uses passwd as the password for simple authentication.
+
+.TP 15
+-W
+Prompts for simple authentication. This option can be used instead of specifying the password on the command line.
+
+.TP 15
+-Z
+Starts TLS before binding to perform the operation. If an error occurs during the Start TLS operation, the error is ignored and the operation continues. We recommend using the -ZZ option in place of this option to cause the operation to abort if an error occurs.
+
+If a port is specified with this option, it must accept clear text connections.
+
+To verify the server identity, this option should be used in conjunction with the -e option to specify a server certificate file to validate the server trusted root certificate when TLS is started. If the -e option is not specified, any certificate from the server is accepted.
+
+.TP 15
+-ZZ
+Starts TLS before binding to perform the operation. If an error occurs during the Start TLS operation, the operation is aborted.
+
+If a port is specified with this option, it must accept clear text connections.
+
+To verify server identity, this option should be used in conjunction with the -e option to specify a server certificate file. This validates the server trusted root certificate when TLS is started. If the -e option is not specified, any certificate from the server is accepted.
+
+.SH EXAMPLES
+
+.P
+The command ldapdelete "cn=Delete Me, o=University of Michigan, c=US" will attempt to delete the entry named with the commonName Delete Me directly below the University of Michigan organizational entry. In this case, it would be necessary to supply a binddn and passwd for the deletion to be allowed (see the -D and -w options).
+
+.SH DIAGNOSTICS
+.P
+The exit status is 0 if no errors occur. Errors result in a non-zero exit status and a diagnostic message being written to standard error.
+
+.SH SEE ALSO
+.P
+ldapadd(1), ldapmodify(1), ldapmodrdn(1), ldapsearch(1), ndsindex(1), legal(5)
+
+.P
+Kille, S., A String Representation of Distinguished Names
+.P
+RFC 1779, ISODE Consortium, March 1995

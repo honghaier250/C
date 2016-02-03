@@ -1,0 +1,262 @@
+'/" t
+.TH ldapsearch 1 "23 September 2003"
+
+.SH NAME
+.P
+ldapsearch - The LDAP search tool
+
+.SH SYNOPSIS
+.P
+ldapsearch [-n] [-u] [-v] [-t] [-A] [-T] [-C] [-V] [-M] [-P] [-L] [-d debuglevel] [-e key filename] [-f file] [-D binddn] [[-W]| [-w bindpasswd]] [-h ldaphost] [-p ldapport] [-b searchbase] [-s scope] [-a deref] [-l time limit] [-z size limit] [-Z[Z]] filter [attrs....]
+
+.SH DESCRIPTION
+.P
+The ldapsearch tool searches the entries in an LDAP directory server.
+.P
+The ldapsearch tool opens a connection to an LDAP server, binds, and performs a search using the filter. The filter should conform to the string representation for LDAP filters as defined in RFC 2254.
+.P
+If ldapsearch finds one or more entries, the attributes specified by attrs are retrieved and the entries and values are printed to standard output. If no attributes are listed, all attributes are returned.
+
+.SH OPTIONS
+.I.P
+
+.TP 15
+-a deref
+Specifies how to handle the dereferencing of an alias. It uses the following values:
+
+\(hy Never: aliases are never dereferenced while locating the base object or searching.
+
+\(hy Always: aliases are always dereferenced when locating the base object and searching.
+
+\(hy Search: aliases are dereferenced when searching subordinates of the base object but not when locating the base object.
+
+\(hy Find: aliases are dereferenced when locating the base object but not when searching for the subordinates of the base object.
+
+.TP 15
+-A
+Retrieves attributes only (no values). This is useful when you want to see if an attribute is present in an entry and when you are not interested in the specific values.
+
+.TP 15
+-b searchbase
+Use searchbase as the starting point for the search.
+
+.TP 15
+-L
+Prints entries in the LDIF format.
+
+.TP 15
+-LL
+Prints entries in the LDIF format without comments.
+
+.TP 15
+-LLL
+Prints entries in the LDIF format without comments and version.
+
+.TP 15
+-s scope
+Specifies the scope of the search. Scope should be base, one, or sub to specify a base object, one-level, or subtree search. The default is sub.
+
+.TP 15
+-S attribute
+Sorts the entries returned, based on the attribute. The default is not to sort entries returned. If an attribute is a zero-length string (""), the entries are sorted by the components of their distinguished names. See ldap_sort for more details. ldapsearch normally prints out entries as it receives them. The use of the -S option defeats this behavior, causing all entries to be retrieved, sorted, then printed.
+
+.TP 15
+-t
+Writes retrieved binary values to a set of temporary files. This is useful for dealing with non-ASCII values such as jpegPhoto or audio.
+
+.TP 15
+-tt
+Writes all values to temporary files.
+
+.TP 15
+-T <path> 
+Writes files to the directory specified by the path. The default path is /tmp.
+
+.TP 15
+-u
+Includes the user-friendly form of the distinguished name (DN) in the output.
+
+.TP 15
+-V
+URL prefix for files.
+
+.TP 15
+-V <prefix>
+Specifies the URL prefix for files. The default prefix is file://tmp/.
+
+.TP 15
+-z sizelimit
+Waits at most sizelimit entries for a search to complete.
+
+.SH COMMON OPTIONS
+.TP 15
+-C
+Enables referral following. (anonymous bind)
+
+.TP 15
+-CC
+Enables referral following. (authenticated bind with same bind DN and password)
+
+.TP 15
+-d debuglevel
+Sets the LDAP debugging level to debuglevel. The ldapsearch tool must be compiled with the defined LDAP_DEBUG for this option to have any effect.
+
+.TP 15
+-D binddn
+Uses binddn to bind to the LDAP server. binddn should be a string-represented DN as defined in RFC 1779.
+
+.TP 15
+-e
+Files the certificate filename for SSL bind.
+
+.TP 15
+-f file
+Reads a series of lines from file, performing one LDAP search for each line. In this case, the filter given on the command line is treated as a pattern, where the first occurrence of %s is replaced with a line from the file. If the file is a single hyphen (-) character, then the lines are read from standard input.
+
+.TP 15
+-h ldaphost
+Specifies an alternate host on which the LDAP server is running.
+
+.TP 15
+-l limit
+Specifies the connection timeout (in seconds).
+
+.TP 15
+-M
+Enables Manage DSA IT control. (non-critical)
+
+.TP 15
+-MM
+Enables Manage DSA IT control. (critical)
+
+.TP 15
+-n
+Shows what would be done, but doesn't actually perform the search. This is useful for debugging in conjunction with -v.
+
+.TP 15
+-p ldapport
+
+Specifies an alternate TCP port where the LDAP server is listening.
+
+.TP 15
+-P <version>
+Specifies the LDAP version (2 or 3).
+
+.TP 15
+-v
+Run in verbose mode with many diagnostics written to standard output.
+
+.TP 15
+-w bindpasswd
+Use bindpasswd as the password for simple authentication.
+
+.TP 15
+-W 
+Prompts for simple authentication. This option is used instead of specifying the password on the command line.
+
+.TP 15
+-Z
+Starts TLS before binding to perform the operation. If an error occurs during the Start TLS operation, the error is ignored and the operation continues. We recommend using the -ZZ option in place of this option to cause the operation to abort if an error occurs.
+
+If a port is specified with this with this option, it must accept clear text connections.
+
+To verify the server identity, this option should be used in conjunction with the -e option to specify a server certificate file to validate the server trusted root certificate when TLS is started. If the -e option is not specified, any certificate from the server is accepted.
+
+.TP 15
+-ZZ
+Starts TLS before binding to perform the operation. If an error occurs during the Start TLS operation the operation is aborted.
+
+If a port is specified with this option, it must accept clear text connections.
+
+To verify server identity, this option should be used in conjunction with the -e option to specify a server certificate file. This validates the server trusted root certificate when TLS is started. If the -e option is not specified, any certificate from the server is accepted.
+
+.SS OUTPUT FORMAT
+.P
+If one or more entries are found, each entry is written to standard output in the following form:
+.P
+Distinguished Name (DN)
+.P
+User Friendly Name (this line is present only if the -u option is used)
+.P
+attributename=value
+.P
+attributename=value
+.P
+attributename=value
+.P
+...
+.P
+Multiple entries are separated with a single blank line. If the -t option is used, the name of a temporary file is used in place of the actual value. If the -A option is used, only the attributename is written.
+
+.SH EXAMPLES
+.P
+The following command:
+.P
+ldapsearch "cn=mark smith" cn telephoneNumber
+.P
+will perform a subtree  search (using the default search base) for entries with a commonName of mark smith. The commonName and telephoneNumber values will be retrieved and printed to standard output. The output might look like the following if two entries are found:
+.P
+cn=Mark D Smith, ou="College of Literature, Science, and the Arts", ou=Students, ou=People, .P
+o=University of Michigan, c=US
+.P
+cn=Mark Smith
+.P
+cn=Mark David Smith
+.P
+cn=Mark D Smith 1
+.P
+cn=Mark D Smith
+.P
+telephoneNumber=+1 313 930-9489
+.P
+cn=Mark C Smith, ou=Information Technology Division, ou=Faculty and Staff, ou=People,
+.P
+o=University of Michigan, c=US
+.P
+cn=Mark Smith
+.P
+cn=Mark C Smith 1
+.P
+cn=Mark C Smith
+.P
+telephoneNumber=+1 313 764-2277
+.P
+For example, consider the following command:
+.P
+ldapsearch -u -t "uid=mcs" jpegPhoto audio
+.P
+This command performs a subtree search using the default search base for entries with user IDs of mcs. The user-friendly form of the entry's DN is output after the line that contains the DN itself, and the jpegPhoto and audio values are retrieved and written to temporary files. The output might look like the following if one entry with one value for each of the requested attributes is found:
+.P
+cn=Mark C Smith, ou=Information Technology Division, ou=Faculty and Staff, ou=People, o=University of Michigan, c=US
+.P
+Mark C Smith, Information Technology Division, Faculty and Staff, People, University of Michigan, US
+.P
+audio=/tmp/ldapsearch-audio-a19924
+.P
+jpegPhoto=/tmp/ldapsearch-jpegPhoto-a19924
+.P
+The following command performs a one-level search at the c=US level for all organizations whose organizationName begins with university.:
+.P
+ldapsearch -L -s one -b "c=US" "o=university*" o description
+.P
+Search results are displayed in the LDIF format. The organizationName and description attribute values are retrieved and printed to standard output, resulting in output similar to the following:
+.P
+dn: o=University of Alaska Fairbanks, c=US
+.P
+o: University of Alaska Fairbanks
+.P
+description: Preparing Alaska for a brave new yesterday.
+.P
+description: leaf node only
+.P
+dn: o=University of Colorado at Boulder, c=US
+.P
+o: University of Colorado at Boulder
+.P
+description: No personnel information
+.P
+description: Institution of education and research
+.P
+dn: o=University of Colorado at Denver, c=US
+.P
+o: Un

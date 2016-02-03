@@ -1,0 +1,211 @@
+# $Novell: Makefile.in,v 1.47 2003/01/10 12:20:10 $
+#*****************************************************************************
+# Copyright (C) 1999, 2000 Novell, Inc. All Rights Reserved.
+# 
+# THIS WORK IS SUBJECT TO U.S. AND INTERNATIONAL COPYRIGHT LAWS AND
+# TREATIES. USE, MODIFICATION, AND REDISTRIBUTION OF THIS WORK IS SUBJECT
+# TO VERSION 2.0.1 OF THE OPENLDAP PUBLIC LICENSE, A COPY OF WHICH IS
+# AVAILABLE AT HTTP://WWW.OPENLDAP.ORG/LICENSE.HTML OR IN THE FILE "LICENSE"
+# IN THE TOP-LEVEL DIRECTORY OF THE DISTRIBUTION. ANY USE OR EXPLOITATION
+# OF THIS WORK OTHER THAN AS AUTHORIZED IN VERSION 2.0.1 OF THE OPENLDAP
+# PUBLIC LICENSE, OR OTHER PRIOR WRITTEN CONSENT FROM NOVELL, COULD SUBJECT
+# THE PERPETRATOR TO CRIMINAL AND CIVIL LIABILITY. 
+#*****************************************************************************
+SUBDIRS= extensions
+CLEANDIRS= extensions
+INSTALLDIRS= 
+
+LDAP_INCDIR = ../include
+
+SRCS =  CheckBind.c addUserToGroup.c addentry.c addentry1.c bind.c \
+	cmpattrs.c delentry.c dyngroup.c extmatch.c getdse.c gracelog.c \
+        list.c listgroup.c mkcontainer.c modattrs.c modifyACL.c \
+        modifyTimeStamp.c  modpass.c nameandoid.c operationalAttrs.c \
+        rebind.c renamerdn.c schema.c search.c searchAsynch.c searchBinary.c \
+        searchPersist.c searchmsg.c setpass.c sortcntl.c verpass.c vlvcntl.c \
+        multiSort.c simplepass.c debug.c threadSafe.c
+
+OBJS =  CheckBind.o addUserToGroup.o addentry.o addentry1.o bind.o \
+	cmpattrs.o delentry.o dyngroup.o extmatch.o getdse.o gracelog.o \
+        list.o listgroup.o mkcontainer.o modattrs.o modifyACL.o \
+        modifyTimeStamp.o modpass.o nameandoid.o operationalAttrs.o \
+        rebind.o renamerdn.o schema.o search.o searchAsynch.o searchBinary.o \
+        searchPersist.o searchmsg.o setpass.o sortcntl.o verpass.o vlvcntl.o \
+        multiSort.o simplepass.o debug.o threadSafe.o
+
+
+NT_DYN_DEFS = -DLBER_DECL=dllimport -DLDAP_DECL=dllimport
+CPPFLAGS = -DUNIX $(@PLAT@_@LIB_LINKAGE@_DEFS)
+
+DEFINES = -I$(top_srcdir)/nldapx/extensions/sdkinc/common \
+	-I$(LDAP_INCDIR)/include \
+	-I$(top_srcdir)/include \
+	-L$(top_builddir)/libraries 
+
+XLIBS = -lldapsdk $(LTHREAD_LIBS)
+
+PROGRAMS =  CheckBind addUserToGroup addentry addentry1 bind \
+	cmpattrs delentry dyngroup extmatch getdse gracelog list \
+	listgroup mkcontainer modattrs modifyACL modifyTimeStamp \
+	modpass nameandoid operationalAttrs rebind renamerdn \
+	schema search searchAsynch searchBinary searchPersist \
+	searchmsg setpass sortcntl verpass vlvcntl \
+	multiSort simplepass debug threadSafe
+
+sampledir = $(prefix)/samples
+
+all: $(PROGRAMS)
+
+CheckBind:       CheckBind.o
+	$(LTLINK) -o $@ CheckBind.o $(LIBS)
+
+addUserToGroup:       addUserToGroup.o
+	$(LTLINK) -o $@ addUserToGroup.o $(LIBS)
+
+addentry:       addentry.o
+	$(LTLINK) -o $@ addentry.o $(LIBS)
+
+addentry1:       addentry1.o
+	$(LTLINK) -o $@ addentry1.o $(LIBS)
+
+threadSafe:       threadSafe.o
+	$(LTLINK) -o $@ threadSafe.o $(LIBS)
+
+bind:       bind.o
+	$(LTLINK) -o $@ bind.o $(LIBS)
+
+cmpattrs:       cmpattrs.o
+	$(LTLINK) -o $@ cmpattrs.o $(LIBS)
+
+delentry:       delentry.o
+	$(LTLINK) -o $@ delentry.o $(LIBS)
+
+debug:		debug.o
+	$(LTLINK) -o $@ debug.o $(LIBS)
+
+dyngroup:       dyngroup.o
+	$(LTLINK) -o $@ dyngroup.o $(LIBS)
+
+extmatch:	extmatch.o
+	$(LTLINK) -o $@ extmatch.o $(LIBS)
+
+getdse:       getdse.o
+	$(LTLINK) -o $@ getdse.o $(LIBS)
+
+gracelog:       gracelog.o
+	$(LTLINK) -o $@ gracelog.o $(LIBS)
+
+list:       list.o
+	$(LTLINK) -o $@ list.o $(LIBS)
+
+listgroup:       listgroup.o
+	$(LTLINK) -o $@ listgroup.o $(LIBS)
+
+mkcontainer:       mkcontainer.o
+	$(LTLINK) -o $@ mkcontainer.o $(LIBS)
+
+modattrs:       modattrs.o
+	$(LTLINK) -o $@ modattrs.o $(LIBS)
+
+modifyACL:       modifyACL.o
+	$(LTLINK) -o $@ modifyACL.o $(LIBS)
+
+modifyTimeStamp:       modifyTimeStamp.o
+	$(LTLINK) -o $@ modifyTimeStamp.o $(LIBS)
+
+modpass:       modpass.o
+	$(LTLINK) -o $@ modpass.o $(LIBS)
+
+multiSort:	multiSort.o
+	$(LTLINK) -o $@ multiSort.o $(LIBS)
+
+nameandoid:       nameandoid.o
+	$(LTLINK) -o $@ nameandoid.o $(LIBS)
+
+operationalAttrs:       operationalAttrs.o
+	$(LTLINK) -o $@ operationalAttrs.o $(LIBS)
+
+rebind:       rebind.o
+	$(LTLINK) -o $@ rebind.o $(LIBS)
+
+renamerdn:       renamerdn.o
+	$(LTLINK) -o $@ renamerdn.o $(LIBS)
+
+schema:       schema.o
+	$(LTLINK) -o $@ schema.o $(LIBS)
+
+search:       search.o
+	$(LTLINK) -o $@ search.o $(LIBS)
+
+searchAsynch:       searchAsynch.o
+	$(LTLINK) -o $@ searchAsynch.o $(LIBS)
+
+searchBinary:       searchBinary.o
+	$(LTLINK) -o $@ searchBinary.o $(LIBS)
+
+searchPersist:       searchPersist.o
+	$(LTLINK) -o $@ searchPersist.o $(LIBS)
+
+searchmsg:       searchmsg.o
+	$(LTLINK) -o $@ searchmsg.o $(LIBS)
+
+setpass:       setpass.o
+	$(LTLINK) -o $@ setpass.o $(LIBS)
+
+simplepass:		simplepass.o
+	$(LTLINK) -o $@ simplepass.o $(LIBS)
+
+sortcntl:       sortcntl.o
+	$(LTLINK) -o $@ sortcntl.o $(LIBS)
+
+verpass:       verpass.o
+	$(LTLINK) -o $@ verpass.o $(LIBS)
+
+vlvcntl:       vlvcntl.o
+	$(LTLINK) -o $@ vlvcntl.o $(LIBS)
+
+install-local: FORCE
+	-$(MKDIR) $(DESTDIR)$(sampledir)
+	for header in \
+		$(srcdir)/CheckBind.c \
+		$(srcdir)/addUserToGroup.c \
+		$(srcdir)/addentry.c \
+		$(srcdir)/addentry1.c \
+		$(srcdir)/bind.c \
+		$(srcdir)/cmpattrs.c \
+		$(srcdir)/debug.c \
+		$(srcdir)/delentry.c \
+		$(srcdir)/dyngroup.c \
+		$(srcdir)/extmatch.c \
+		$(srcdir)/getdse.c \
+		$(srcdir)/gracelog.c \
+		$(srcdir)/list.c \
+		$(srcdir)/listgroup.c \
+		$(srcdir)/mkcontainer.c \
+		$(srcdir)/modattrs.c \
+		$(srcdir)/modifyACL.c \
+		$(srcdir)/modifyTimeStamp.c \
+		$(srcdir)/modpass.c \
+		$(srcdir)/multiSort.c \
+		$(srcdir)/nameandoid.c \
+		$(srcdir)/operationalAttrs.c \
+		$(srcdir)/rebind.c \
+		$(srcdir)/renamerdn.c \
+		$(srcdir)/schema.c \
+		$(srcdir)/search.c \
+		$(srcdir)/searchAsynch.c \
+		$(srcdir)/searchBinary.c \
+		$(srcdir)/searchPersist.c \
+		$(srcdir)/searchmsg.c \
+		$(srcdir)/setpass.c \
+		$(srcdir)/simplepass.c \
+		$(srcdir)/sortcntl.c \
+		$(srcdir)/threadSafe.c \
+		$(srcdir)/verpass.c \
+		$(srcdir)/vlvcntl.c \
+	; do \
+		$(INSTALL) $(INSTALLFLAGS) -m 644 $$header $(DESTDIR)$(sampledir); \
+	done
+
+clean-local:
+	$(RM) $(OBJS) $(PROGRAMS)

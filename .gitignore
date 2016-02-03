@@ -34,3 +34,7 @@
 # custom
 kernel/
 opencv-2.4.9.tar.xz
+mysqld
+mysql_embedded
+mysqltest_embedded
+mysql_client_test_embedded

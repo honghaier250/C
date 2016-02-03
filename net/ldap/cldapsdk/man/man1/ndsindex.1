@@ -1,0 +1,208 @@
+'/" t
+.TH ndsindex 1 "July 2013"
+
+.SH NAME
+.P
+ndsindex - Utility to create, list, suspend, resume, or delete NetIQ* eDirectory* database indexes.
+
+.SH SYNOPSIS
+.P
+ndsindex list [-h <hostname>] [-p <port>] -D <bind DN> -W|[-w <password>] [-l limit] -s <eDirectory Server DN> [-Z[Z]] [<indexName1>, <indexName2>.....]
+.P
+ndsindex add [-h <hostname>] [-p <port>] -D <bind DN> -W|[-w <password>] [-l limit] -s <eDirectory Server DN> [-Z[Z]] <indexDefinintion1> [<indexDefinintion2>.....]
+.P
+ndsindex delete [-h <hostname>] [-p <port>] -D <bind DN> -W|[-w <password>] [-l limit] -s <eDirectory Server DN> [-Z[Z]] <indexName1> [<indexName2>.....]
+.P
+ndsindex resume [-h <hostname>] [-p <port>] -D <bind DN> -W|[-w <password>] [-l limit] -s <eDirectory Server DN> [-Z[Z]] <indexName1> [<indexName2>.....]
+.P
+ndsindex suspend [-h <hostname>] [-p <port>] -D <bind DN> -W|[-w <password>] [-l limit] -s <eDirectory Server DN> [-Z[Z]] <indexName1> [<indexName2>.....]
+.P
+
+.SH DESCRIPTION
+.P
+The ndsindex utility lets you:
+
+\(hy List existing indexes
+
+\(hy Create indexes
+
+\(hy Delete indexes
+
+\(hy Resume indexes
+
+\(hy Suspend indexes
+
+.P
+eDirectory uses indexes to quickly find entries that match a search filter. An index is a way of grouping together all the entries that have some common attributes. It significantly increases search performance.
+.P
+Apart from performance reasons, indexes must exist if you want to use the Server Side Sorting (SSS) control or the Virtual List View (VLV) control to perform LDAP searches on the eDirectory LDAP Server. The eDirectory Server holds the indexes maintained by eDirectory. ndsindex is the utility that helps manage such indexes.
+
+.SH OPTIONS
+
+.TP 25
+list
+Lists the specified indexes. If the index is not specified, ndsindex lists all existing indexes on the server.
+
+.TP 25
+add
+Creates a new index.
+
+.TP 25
+delete
+Deletes the specified index.
+
+.TP 25
+resume
+Resumes the specified index from an off-line state.
+
+.TP 25
+suspend
+Suspends the specified index to an off-line state.
+
+.TP 25
+-h hostname
+Specifies the DNS name or IP address of the eDirectory LDAP Server. The default server is the local host. NOTE: eDirectory 8.8 SP8 supports IPv6 protocol. Provide IPv6 address within square brackets, "[IPv6 Address]:Port".
+
+.TP 25
+-p port
+Specifies the port number of the eDirectory LDAP Server. The default port is 389.
+
+.TP 25
+-D binddn
+Uses binddn to bind to the LDAP directory. binddn should be a string-represented DN as defined in RFC 1779.
+
+.TP 25
+-W
+Prompts for the password of the LDAP DN specified.
+
+.TP 25
+-w password
+Specifies the password of the LDAP DN in eDirectory.
+
+.TP 25
+-s eDirectory Server DN
+Specifies the eDirectory Server DN.
+
+.TP 25
+-Z
+Starts TLS before binding to perform the operation. If an error occurs during the Start TLS operation, the error is ignored and the operation continues. We recommend using the -ZZ option in place of this option to cause the operation to abort if an error occurs.
+
+If a port is specified with this option, it must accept clear text connections.
+
+To verify the server identity, this option should be used in conjunction with the -e option to specify a server certificate file to validate the server trusted root certificate when TLS is started. If the -e option is not specified, any certificate from the server is accepted.
+
+.TP 25
+-ZZ
+Starts TLS before binding to perform the operation. If an error occurs during the Start TLS operation the operation, is aborted.
+
+If a port is specified with this option, it must accept clear text connections.
+
+.TP 25
+-e
+Specifies the certificate file name required to validate the server certificate.
+
+.TP 25
+indexDefinition
+Each indexDefinition holds all the information for one particular index. The string representation is "<indexName>;<attributeName>;<matchingRule>".
+
+.TP 25
+1. indexName
+The name you choose for the index.
+
+.TP 25
+2. attributeName
+The name of the eDirectory attribute to be indexed.
+
+.TP 25
+3. matchingRule
+matchingRule can be VALUE, SUBSTRING or PRESENCE.
+
+.IP
+VALUE: Value matching optimizes queries that involve matching the entire value or the first part of the value specified in the search filter.
+
+.IP
+SUBSTRING: Substring matching optimizes queries that involve matching a few characters of the value specified in the search filter.
+
+.IP
+PRESENCE: Presence matching optimizes queries that involve only checking for the presence of a specified attribute.
+
+
+.SH EXAMPLES
+.P
+To list the indexes on the server MyHost, enter the following command:
+.P
+ndsindex list -h MyHost -D cn=admin, o=mycompany -w password -s cn=MyHost, o=netiq
+.P
+To create a substring index with the name MyIndex on the email address attribute, enter the following command:
+.P
+ndsindex add -h myhost -D cn=admin, o=mycompany -w password -s cn=myhost, o=netiq "MyIndex;email address;substring"
+.P
+To create a value index with the name MyIndex on the city attribute, enter the following command:
+.P
+ndsindex add -h myhost -D cn=admin, o=mycompany -w password -s cn=myhost, o=netiq "MyIndex;city;value"
+.P
+To create a presence index with the name MyIndex on the homephone attribute, enter the following command:
+.P
+ndsindex add -h myhost -D cn=admin, o=mycompany -w password -s cn=myhost, o=netiq "MyIndex;homephone;presence"
+.P
+To delete the index named MyIndex, enter the following command:
+.P
+ndsindex delete -h myhost -D cn=admin, o=mycompany -w password -s cn=myhost,o=netiq MyIndex
+.P
+To suspend the index named MyIndex, enter the following command:
+.P
+ndsindex suspend -h myhost -D cn=admin, o=mycompany -w password -s cn=myhost, o=netiq MyIndex
+.P
+To resume the index named MyIndex, enter the following command:
+.P
+ndsindex resume -h myhost -D cn=admin, o=mycompany -w password -s cn=myhost, o=netiq MyIndex
+.P
+
+.SH NOTES
+
+.P
+The list command lists the indexes and the various parameters associated with each index on the server. The following parameters give you information regarding each index.
+
+.TP 25
+Index Version
+Specifies the version value for the index.
+
+.TP 25
+Index Name
+Specifies the name of the index.
+
+.TP 25
+Index State
+Specifies the state of the index. Its value can be Suspended, Bringing Online, Online or Pending Creation.
+
+.IP
+Suspended indicates that the index is not used in queries and is not updated.
+.IP
+
+Bringing Online has two states, Bringing Online (low) and Bringing online (high). Bringing Online (low) indicates that the index creation process on the said attribute is pending. However, Bringing Online(high) indicates that the index creation is in progress.
+
+.IP
+Online indicates that the index is up and working.
+.IP
+Pending Creation indicates that the index has been defined and is waiting for the background process to run.
+
+.TP 25
+Index Rule
+Specifies the matching rule for the index. Its value can be Value, Substring or Presence.
+
+.TP 25
+Index Type
+Specifies the type of the index. Its value can be User Defined, Added on attribute creation, Required for operation, or System Index.
+
+.TP 25
+Index State Value
+Specifies the source of the index. Its value can be un-initialized, added from server, added from the local DIB, deleted from local DIB, or modified from the local DIB.
+
+.TP 25
+eDirectory Attribute
+Specifies the eDirectory attribute name.
+
+
+.SH SEE ALSO
+.P
+legal(5)

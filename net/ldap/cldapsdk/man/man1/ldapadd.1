@@ -1,0 +1,233 @@
+'/" t
+.TH ldapadd 1 "17 September 2003"
+.SH NAME
+.P
+
+ldapmodify, ldapadd - LDAP modify entry and LDAP add entry tools
+
+.SH SYNOPSIS
+
+.P
+ldapmodify [-a] [-c] [-C] [-M] [-P] [-r] [-n] [-v] [-F] [-l limit] [-M[M]] [-d debuglevel] [-e key filename] [-D binddn] [[-W]|[-w passwd]] [-h ldaphost] [-p ldap-port] [-P version] [-Z[Z]] [-f file]
+.P
+ldapadd [-c] [-C] [-l] [-M] [-P] [-r] [-n] [-v] [-F] [-l limit] [-M[M]] [-d  debuglevel] [-e key filename] [-D  binddn] [[-W ]| [-w passwd]] [-h  ldaphost] [-p ldapport] [-P version] [-Z[Z]] [-f file]
+
+.SH DESCRIPTION
+.P
+The ldapmodify tool modifies entries on a LDAP Directory server. ldapadd is implemented as a hard link to the ldapmodify tool. When invoked as ldapadd, the -a (add new entry) flag is turned on automatically.
+.P
+The ldapmodify tool opens a connection to an LDAP server, binds, and modifies or adds entries. The entry information is read from standard input or from the file through the use of the -f option.
+
+.SH OPTIONS
+.I.P
+
+.TP 15
+-a
+Adds new entries. The default for ldapmodify is to modify existing entries. If invoked as ldapadd, this flag is always set.
+
+.TP 15
+-r
+Replaces existing values by default.
+
+.TP 15
+-c
+Continuous operation mode. Errors are reported, but ldapmodify will continue with  modifications. The default is to exit after reporting an error.
+
+.TP 15
+-f file
+Reads the entry modification information from an LDIF file instead of from standard input. The maximum length of a record is 4096 lines.
+
+.TP 15
+-F
+Forces the application of all changes regardless of the contents of input lines that begin with replica:. (By default, replica: lines are compared to the LDAP server host and port in use to decide if a replog record should actually be applied.)
+
+.SH COMMON OPTIONS
+
+.TP 15
+-C
+Enables referral following. (anonymous bind)
+
+.TP 15
+-d debuglevel
+Sets the LDAP debugging level to debuglevel. The ldapmodify tool must be compiled with LDAP_DEBUG defined for this option to have any effect.
+
+.TP 15
+-D binddn
+Uses binddn to bind to the LDAP directory. binddn should be a string-represented DN as defined in RFC 1779.
+
+.TP 15
+-e key filename 
+Files the certificate filename for SSL bind.
+
+.TP 15
+-h ldaphost
+Specifies an alternate host on which the LDAP server is running.
+
+.TP 15
+-l limit
+Specifies the connection timeout (in seconds).
+
+.TP 15
+-M
+Enables Manage DSA IT control. (non-critical)
+
+.TP 15
+-MM
+Enables Manage DSA IT control. (critical)
+
+.TP 15
+-n
+Shows what would be done, but does not actually modify entries. Useful for debugging in conjunction with -v.
+
+.TP 15
+-p ldapport
+Specifies an alternate TCP port where the LDAP server is listening.
+
+.TP 15
+-P version
+Specifies the LDAP version (2 or 3).
+
+.TP 15
+-v
+Uses verbose mode with many diagnostics written to standard output.
+
+.TP 15
+-w passwd
+Uses passwd as the password for simple authentication.
+
+.TP 15
+-W 
+Prompts for simple authentication. This option is used instead of specifying the password on the command line.
+
+.TP 15
+-Z
+Starts TLS before binding to perform the operation. If an error occurs during the Start TLS operation the error is ignored and the operation continues. We recommend using the -ZZ option in place of this option to cause the operation to abort if an error occurs.
+
+If a port is specified with this option, it must accept clear text connections.
+
+To verify the server identity, this option should be used in conjunction with the -e option to specify a server certificate file. This validates the server trusted root certificate when TLS is started. If the -e option is not specified, any certificate from the server is accepted.
+
+.TP 15
+-ZZ
+Starts TLS before binding to perform the operation. If an error occurs during the Start TLS operation, the operation is aborted.
+
+If a port is specified with this option, it must accept clear text connections.
+
+To verify server identity, this option should be used in conjunction with the -e option to specify a server certificate file. This validates the server trusted root certificate when TLS is started. If the -e option is not specified, any certificate from the server is accepted.
+
+.SS INPUT FORMAT
+.P
+Lines that begin with replica: are matched against the LDAP server host and port in use to decide if a particular replog record should be applied. Any other lines that precede the dn: line are ignored.  The -F flag can be used to force ldapmodify to apply all of the replog changes, regardless of the presence or absence of any replica: lines.
+.P
+If no changetype: line is present and if the -a flag is set (or if the program was invoked as ldapmodify), the default is add, otherwise  it is modify.
+.P
+If the changetype is modify, and no add:, replace:, or delete: lines appear and if the -r flag is set, the default is replace, otherwise it is add.
+.P
+The above exceptions to the slapd.replog(5) format allow  ldif(5)  entries to be used as input to ldapmodify or ldapadd.
+
+.SS ALTERNATIVE INPUT FORMAT
+.P
+An alternative input format is supported for compatibility with older versions of ldapmodify. This format consists of one or more entries separated by blank lines, where  each entry looks like the following:
+.P
+Distinguished Name (DN)
+.P
+<attr>=<value>
+.P
+[<attr>=<value> ...]
+.P
+The attr variable is the name of the attribute and value is the value.
+.P
+By default, values are added. If the -r command line flag is given, the default is to replace existing values with the new one. It is permissible for a given attribute to appear more than once (for example, to add more than one value for an attribute). Also, you can use a trailing backslash (\) to continue values across lines and preserve new lines in the value itself. For example, this is useful for modifying QUIPU iattr.
+.P
+attr should be preceded by a hyphen (-) to remove a value. The  equals sign (=) and value should be omitted to remove an entire attribute.
+.P
+attr should be preceded by a plus sign (+) to add a value if the -r flag is present.
+
+.SH EXAMPLES
+.P
+Assume that the file /tmp/entrymods exists and has the following contents:
+.P
+dn: cn=Modify Me, o=University of Michigan, c=US
+.P
+changetype: modify
+.P
+replace: mail
+.P
+mail: modme@terminator.rs.itd.umich.edu
+.P
+-
+.P
+add: title
+.P
+title: Manager
+.P
+-
+.P
+add: jpegPhoto
+.P
+jpegPhoto: /tmp/modme.jpeg
+.P
+-
+.P
+delete: description
+.P
+-
+.P
+
+In this case, the command ldapmodify -b -r -f /tmp/entrymods replaces the contents of the Modify Me entry's mail attribute with the value modme@terminator.rs.itd.umich.edu, adds a title of Manager, adds the contents of the file /tmp/modme.jpeg as a jpegPhoto, and completely removes the description attribute.
+.P
+The same modifications as above can be performed using the older ldapmodify input format:
+.P
+cn=Modify Me, o=University of Michigan, c=US
+.P
+mail=modme@terminator.rs.itd.umich.edu
+.P
++title=Manager
+.P
++jpegPhoto=/tmp/modme.jpeg
+.P
+-description
+.P
+and the command:
+.P
+ldapmodify -b -r -f /tmp/entrymods
+.P
+Assume that the file /tmp/newentry exists and has the following contents:
+.P
+dn: cn=Barbara Jensen, o=University of Michigan, c=US
+.P
+objectClass: person
+.P
+cn: Barbara Jensen
+.P
+cn: B Jensen
+.P
+sn: Jensen
+.P
+title: Manager
+.P
+mail: bjensen@terminator.rs.itd.umich.edu
+.P
+uid: bjensen
+.P
+In this case, the command ldapadd -f /tmp/entrymods adds a new entry for B Jensen, using the values from the file /tmp/newentry.
+.P
+Assume that the file /tmp/newentry exists and has the following contents:
+.P
+dn: cn=Barbara Jensen, o=University of Michigan, c=US
+.P
+changetype: delete
+.P
+In this case, the command ldapmodify -f /tmp/entrymods removes B Jensen's entry.
+
+.SH DIAGNOSTICS
+.P
+The exit status is 0 if no errors occur. Errors result in a non-zero exit status and a diagnostic message being written to standard error.
+
+.SH SEE ALSO
+.P
+ldapadd(1), ldapdelete(1), ldapmodrdn(1), ldapsearch(1), ndsindex(1), legal(5).
+.P
+Kille, S., A String Representation of  Distinguished  Names
+.P
+RFC 1779, ISODE Consortium, March 1995 
