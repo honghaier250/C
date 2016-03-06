@@ -71,43 +71,30 @@ typedef UINT2 NN_HALF_DIGIT;
    NN_Digits (a, digits)           Returns significant length of a in digits.
    NN_Bits (a, digits)             Returns significant length of a in bits.
  */
-void NN_Decode PROTO_LIST
-  ((NN_DIGIT *, unsigned int, unsigned char *, unsigned int));
-void NN_Encode PROTO_LIST
-  ((unsigned char *, unsigned int, NN_DIGIT *, unsigned int));
+void NN_Decode PROTO_LIST((NN_DIGIT *, unsigned int, unsigned char *, unsigned int));
+void NN_Encode PROTO_LIST((unsigned char *, unsigned int, NN_DIGIT *, unsigned int));
 
-void NN_Assign PROTO_LIST ((NN_DIGIT *, NN_DIGIT *, unsigned int));
-void NN_AssignZero PROTO_LIST ((NN_DIGIT *, unsigned int));
-void NN_Assign2Exp PROTO_LIST ((NN_DIGIT *, unsigned int, unsigned int));
+void NN_Assign PROTO_LIST((NN_DIGIT *, NN_DIGIT *, unsigned int));
+void NN_AssignZero PROTO_LIST((NN_DIGIT *, unsigned int));
+void NN_Assign2Exp PROTO_LIST((NN_DIGIT *, unsigned int, unsigned int));
 
-NN_DIGIT NN_Add PROTO_LIST
-  ((NN_DIGIT *, NN_DIGIT *, NN_DIGIT *, unsigned int));
-NN_DIGIT NN_Sub PROTO_LIST
-  ((NN_DIGIT *, NN_DIGIT *, NN_DIGIT *, unsigned int));
-void NN_Mult PROTO_LIST ((NN_DIGIT *, NN_DIGIT *, NN_DIGIT *, unsigned int));
-void NN_Div PROTO_LIST
-  ((NN_DIGIT *, NN_DIGIT *, NN_DIGIT *, unsigned int, NN_DIGIT *,
-    unsigned int));
-NN_DIGIT NN_LShift PROTO_LIST 
-  ((NN_DIGIT *, NN_DIGIT *, unsigned int, unsigned int));
-NN_DIGIT NN_RShift PROTO_LIST
-  ((NN_DIGIT *, NN_DIGIT *, unsigned int, unsigned int));
+NN_DIGIT NN_Add PROTO_LIST((NN_DIGIT *, NN_DIGIT *, NN_DIGIT *, unsigned int));
+NN_DIGIT NN_Sub PROTO_LIST((NN_DIGIT *, NN_DIGIT *, NN_DIGIT *, unsigned int));
+void NN_Mult PROTO_LIST((NN_DIGIT *, NN_DIGIT *, NN_DIGIT *, unsigned int));
+void NN_Div PROTO_LIST((NN_DIGIT *, NN_DIGIT *, NN_DIGIT *, unsigned int, NN_DIGIT *, unsigned int));
+NN_DIGIT NN_LShift PROTO_LIST((NN_DIGIT *, NN_DIGIT *, unsigned int, unsigned int));
+NN_DIGIT NN_RShift PROTO_LIST((NN_DIGIT *, NN_DIGIT *, unsigned int, unsigned int));
 
-void NN_Mod PROTO_LIST
-  ((NN_DIGIT *, NN_DIGIT *, unsigned int, NN_DIGIT *, unsigned int));
-void NN_ModMult PROTO_LIST 
-  ((NN_DIGIT *, NN_DIGIT *, NN_DIGIT *, NN_DIGIT *, unsigned int));
-void NN_ModExp PROTO_LIST 
-  ((NN_DIGIT *, NN_DIGIT *, NN_DIGIT *, unsigned int, NN_DIGIT *,
-    unsigned int));
-void NN_ModInv PROTO_LIST
-  ((NN_DIGIT *, NN_DIGIT *, NN_DIGIT *, unsigned int));
-void NN_Gcd PROTO_LIST ((NN_DIGIT *, NN_DIGIT *, NN_DIGIT *, unsigned int));
+void NN_Mod PROTO_LIST((NN_DIGIT *, NN_DIGIT *, unsigned int, NN_DIGIT *, unsigned int));
+void NN_ModMult PROTO_LIST((NN_DIGIT *, NN_DIGIT *, NN_DIGIT *, NN_DIGIT *, unsigned int));
+void NN_ModExp PROTO_LIST((NN_DIGIT *, NN_DIGIT *, NN_DIGIT *, unsigned int, NN_DIGIT *, unsigned int));
+void NN_ModInv PROTO_LIST((NN_DIGIT *, NN_DIGIT *, NN_DIGIT *, unsigned int));
+void NN_Gcd PROTO_LIST((NN_DIGIT *, NN_DIGIT *, NN_DIGIT *, unsigned int));
 
-int NN_Cmp PROTO_LIST ((NN_DIGIT *, NN_DIGIT *, unsigned int));
-int NN_Zero PROTO_LIST ((NN_DIGIT *, unsigned int));
-unsigned int NN_Bits PROTO_LIST ((NN_DIGIT *, unsigned int));
-unsigned int NN_Digits PROTO_LIST ((NN_DIGIT *, unsigned int));
+int NN_Cmp PROTO_LIST((NN_DIGIT *, NN_DIGIT *, unsigned int));
+int NN_Zero PROTO_LIST((NN_DIGIT *, unsigned int));
+unsigned int NN_Bits PROTO_LIST((NN_DIGIT *, unsigned int));
+unsigned int NN_Digits PROTO_LIST((NN_DIGIT *, unsigned int));
 
 #define NN_ASSIGN_DIGIT(a, b, digits) {NN_AssignZero (a, digits); a[0] = b;}
 #define NN_EQUAL(a, b, digits) (! NN_Cmp (a, b, digits))

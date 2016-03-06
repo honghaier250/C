@@ -9,12 +9,10 @@ int main(void)
     BIO *bp;
     char buf[] = "test";
 
-    bp=BIO_new_file ("./sample.log", "wb");
+    bp = BIO_new_file("./sample.log", "wb");
 
     BIO_printf(bp, "%s", buf);
 
     BIO_free(bp);
     return 0;
 }
-
-

@@ -1,10 +1,10 @@
 #include <stdio.h>
-int fast_multiply (x, y)
+int fast_multiply(x, y)
 {
     return x * y;
 }
 
-int slow_multiply (x, y)
+int slow_multiply(x, y)
 {
     int i, j, z;
 
@@ -13,7 +13,7 @@ int slow_multiply (x, y)
     return z;
 }
 
-int main (int argc, char *argv[])
+int main(int argc, char *argv[])
 {
     int i, j;
 
@@ -23,10 +23,10 @@ int main (int argc, char *argv[])
     {
         for (j = 0; j < 30; j++)
         {
-            x = fast_multiply (i, j);
-            y = slow_multiply (i, j);
+            x = fast_multiply(i, j);
+            y = slow_multiply(i, j);
         }
     }
-    printf ("x=%d, y=%d\n", x, y);
+    printf("x=%d, y=%d\n", x, y);
     return 0;
 }

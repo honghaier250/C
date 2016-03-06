@@ -14,14 +14,16 @@
  * author: tonglulin@gmail.com by www.qmailer.net
  ************************************************************************/
 
-const char *n = "C7301B330C4E123E4FA9F54F49121E8CE07974D8BFEF1D39EC9245D573D66E7FAC258F86E2B0816C6BA875F10673E655E6A8DF48DEFDDB655E253ED5A4A0FBAD50D68E91D0459F9F2377BB8CA1583E3F83C06343A5A1177C903F498A6D14015CC975522BE4446CD1EB87E88EF05A863AF0DD7C4D413CF603EDF4893EEC063BE3";
+const char *n =
+    "C7301B330C4E123E4FA9F54F49121E8CE07974D8BFEF1D39EC9245D573D66E7FAC258F86E2B0816C6BA875F10673E655E6A8DF48DEFDDB655E253ED5A4A0FBAD50D68E91D0459F9F2377BB8CA1583E3F83C06343A5A1177C903F498A6D14015CC975522BE4446CD1EB87E88EF05A863AF0DD7C4D413CF603EDF4893EEC063BE3";
 
-const char *pubkey = "-----BEGIN RSA PUBLIC KEY-----\nMIGJAoGBAMcwGzMMThI+T6n1T0kSHozgeXTYv+8dOeySRdVz1m5/rCWPhuKwgWxr\nqHXxBnPmVeao30je/dtlXiU+1aSg+61Q1o6R0EWfnyN3u4yhWD4/g8BjQ6WhF3yQ\nP0mKbRQBXMl1UivkRGzR64fojvBahjrw3XxNQTz2A+30iT7sBjvjAgMBAAE=\n-----END RSA PUBLIC KEY-----";
+const char *pubkey =
+    "-----BEGIN RSA PUBLIC KEY-----\nMIGJAoGBAMcwGzMMThI+T6n1T0kSHozgeXTYv+8dOeySRdVz1m5/rCWPhuKwgWxr\nqHXxBnPmVeao30je/dtlXiU+1aSg+61Q1o6R0EWfnyN3u4yhWD4/g8BjQ6WhF3yQ\nP0mKbRQBXMl1UivkRGzR64fojvBahjrw3XxNQTz2A+30iT7sBjvjAgMBAAE=\n-----END RSA PUBLIC KEY-----";
 
 int main(int argc, char *argv[])
 {
-    RSA    *rsa = NULL;
-    BIO    *bio = NULL;
+    RSA *rsa = NULL;
+    BIO *bio = NULL;
     BIGNUM *bne = NULL;
     BIGNUM *bnn = NULL;
     FILE *fp = NULL;
@@ -78,15 +80,15 @@ int main(int argc, char *argv[])
         //将大数转化为2进制字符串,to的空间必须大于BN_num_bytes(a)
         {
             char to[1024];
-            if(1024>BN_num_bytes(rsa->n))
+            if (1024 > BN_num_bytes(rsa->n))
             {
-                BN_bn2bin(rsa->n,to);
+                BN_bn2bin(rsa->n, to);
                 printf("BN_bn2bin[rsa->n]:\n%s\n", to);
             }
 
-            if(1024>BN_num_bytes(rsa->e))
+            if (1024 > BN_num_bytes(rsa->e))
             {
-                BN_bn2bin(rsa->e,to);
+                BN_bn2bin(rsa->e, to);
                 printf("BN_bn2bin[rsa->e]:\n%s\n", to);
             }
         }
@@ -135,24 +137,24 @@ int main(int argc, char *argv[])
         {
             //将16进制字符串转化为大数
             BN_hex2bn(&bnn, argv[2]);
-            printf("BN_hex2bn:\n%ld\n",BN_get_word(bnn));
+            printf("BN_hex2bn:\n%ld\n", BN_get_word(bnn));
 
             BN_dec2bn(&bnn, argv[2]);
-            printf("BN_dec2bn:\n%ld\n",BN_get_word(bnn));
+            printf("BN_dec2bn:\n%ld\n", BN_get_word(bnn));
 
             BN_bin2bn(n, strlen(n), bnn);
-            printf("BN_bin2bn:\n%ld\n",BN_get_word(bnn));
+            printf("BN_bin2bn:\n%ld\n", BN_get_word(bnn));
         }
         else
         {
             BN_hex2bn(&bnn, n);
-            printf("BN_hex2bn:\n%lld\n",BN_get_word(bnn));
+            printf("BN_hex2bn:\n%lld\n", BN_get_word(bnn));
 
             BN_dec2bn(&bnn, n);
-            printf("BN_dec2bn:\n%ld\n",BN_get_word(bnn));
+            printf("BN_dec2bn:\n%ld\n", BN_get_word(bnn));
 
             BN_bin2bn(n, strlen(n), bnn);
-            printf("BN_bin2bn:\n%ld\n",BN_get_word(bnn));
+            printf("BN_bin2bn:\n%ld\n", BN_get_word(bnn));
         }
 
         PEM_write_RSAPublicKey(stdout, rsa);
@@ -166,4 +168,3 @@ int main(int argc, char *argv[])
 
     return 0;
 }
-

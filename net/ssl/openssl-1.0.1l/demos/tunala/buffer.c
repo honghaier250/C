@@ -2,55 +2,55 @@
 
 #ifndef NO_BUFFER
 
-void buffer_init (buffer_t * buf)
+void buffer_init(buffer_t * buf)
 {
     buf->used = 0;
     buf->total_in = buf->total_out = 0;
 }
 
-void buffer_close (buffer_t * buf)
+void buffer_close(buffer_t * buf)
 {
     /* Our data is static - nothing needs "release", just reset it */
     buf->used = 0;
 }
 
 /* Code these simple ones in compact form */
-unsigned int buffer_used (buffer_t * buf)
+unsigned int buffer_used(buffer_t * buf)
 {
     return buf->used;
 }
 
-unsigned int buffer_unused (buffer_t * buf)
+unsigned int buffer_unused(buffer_t * buf)
 {
     return (MAX_DATA_SIZE - buf->used);
 }
 
-int buffer_full (buffer_t * buf)
+int buffer_full(buffer_t * buf)
 {
     return (buf->used == MAX_DATA_SIZE ? 1 : 0);
 }
 
-int buffer_notfull (buffer_t * buf)
+int buffer_notfull(buffer_t * buf)
 {
     return (buf->used < MAX_DATA_SIZE ? 1 : 0);
 }
 
-int buffer_empty (buffer_t * buf)
+int buffer_empty(buffer_t * buf)
 {
     return (buf->used == 0 ? 1 : 0);
 }
 
-int buffer_notempty (buffer_t * buf)
+int buffer_notempty(buffer_t * buf)
 {
     return (buf->used > 0 ? 1 : 0);
 }
 
-unsigned long buffer_total_in (buffer_t * buf)
+unsigned long buffer_total_in(buffer_t * buf)
 {
     return buf->total_in;
 }
 
-unsigned long buffer_total_out (buffer_t * buf)
+unsigned long buffer_total_out(buffer_t * buf)
 {
     return buf->total_out;
 }
@@ -59,8 +59,8 @@ unsigned long buffer_total_out (buffer_t * buf)
  * it's not sure when they're called how it should be interpreted. Only the
  * higher-level "buffer_[to|from]_[fd|SSL|BIO]" functions should alter these
  * values. */
-#if 0                            /* To avoid "unused" warnings */
-static unsigned int buffer_adddata (buffer_t * buf, const unsigned char *ptr, unsigned int size)
+#    if 0                        /* To avoid "unused" warnings */
+static unsigned int buffer_adddata(buffer_t * buf, const unsigned char *ptr, unsigned int size)
 {
     unsigned int added = MAX_DATA_SIZE - buf->used;
 
@@ -68,13 +68,13 @@ static unsigned int buffer_adddata (buffer_t * buf, const unsigned char *ptr, un
         added = size;
     if (added == 0)
         return 0;
-    memcpy (buf->data + buf->used, ptr, added);
+    memcpy(buf->data + buf->used, ptr, added);
     buf->used += added;
     buf->total_in += added;
     return added;
 }
 
-static unsigned int buffer_tobuffer (buffer_t * to, buffer_t * from, int cap)
+static unsigned int buffer_tobuffer(buffer_t * to, buffer_t * from, int cap)
 {
     unsigned int moved, tomove = from->used;
 
@@ -82,15 +82,15 @@ static unsigned int buffer_tobuffer (buffer_t * to, buffer_t * from, int cap)
         tomove = cap;
     if (tomove == 0)
         return 0;
-    moved = buffer_adddata (to, from->data, tomove);
+    moved = buffer_adddata(to, from->data, tomove);
     if (moved == 0)
         return 0;
-    buffer_takedata (from, NULL, moved);
+    buffer_takedata(from, NULL, moved);
     return moved;
 }
-#endif
+#    endif
 
-static unsigned int buffer_takedata (buffer_t * buf, unsigned char *ptr, unsigned int size)
+static unsigned int buffer_takedata(buffer_t * buf, unsigned char *ptr, unsigned int size)
 {
     unsigned int taken = buf->used;
 
@@ -99,24 +99,24 @@ static unsigned int buffer_takedata (buffer_t * buf, unsigned char *ptr, unsigne
     if (taken == 0)
         return 0;
     if (ptr)
-        memcpy (ptr, buf->data, taken);
+        memcpy(ptr, buf->data, taken);
     buf->used -= taken;
     /* Do we have to scroll? */
     if (buf->used > 0)
-        memmove (buf->data, buf->data + taken, buf->used);
+        memmove(buf->data, buf->data + taken, buf->used);
     return taken;
 }
 
-#ifndef NO_IP
+#    ifndef NO_IP
 
-int buffer_from_fd (buffer_t * buf, int fd)
+int buffer_from_fd(buffer_t * buf, int fd)
 {
-    int toread = buffer_unused (buf);
+    int toread = buffer_unused(buf);
 
     if (toread == 0)
         /* Shouldn't be called in this case! */
-        abort ();
-    toread = read (fd, buf->data + buf->used, toread);
+        abort();
+    toread = read(fd, buf->data + buf->used, toread);
     if (toread > 0)
     {
         buf->used += toread;
@@ -125,29 +125,29 @@ int buffer_from_fd (buffer_t * buf, int fd)
     return toread;
 }
 
-int buffer_to_fd (buffer_t * buf, int fd)
+int buffer_to_fd(buffer_t * buf, int fd)
 {
-    int towrite = buffer_used (buf);
+    int towrite = buffer_used(buf);
 
     if (towrite == 0)
         /* Shouldn't be called in this case! */
-        abort ();
-    towrite = write (fd, buf->data, towrite);
+        abort();
+    towrite = write(fd, buf->data, towrite);
     if (towrite > 0)
     {
-        buffer_takedata (buf, NULL, towrite);
+        buffer_takedata(buf, NULL, towrite);
         buf->total_out += towrite;
     }
     return towrite;
 }
 
-#endif                            /* !defined(NO_IP) */
+#    endif                        /* !defined(NO_IP) */
 
-#ifndef NO_OPENSSL
+#    ifndef NO_OPENSSL
 
-static void int_ssl_check (SSL * s, int ret)
+static void int_ssl_check(SSL * s, int ret)
 {
-    int e = SSL_get_error (s, ret);
+    int e = SSL_get_error(s, ret);
 
     switch (e)
     {
@@ -167,7 +167,7 @@ static void int_ssl_check (SSL * s, int ret)
              * result in the SSL tunnel being regarded as "dead". */
         case SSL_ERROR_SYSCALL:
         case SSL_ERROR_SSL:
-            SSL_set_app_data (s, (char *) 1);
+            SSL_set_app_data(s, (char *) 1);
             return;
         default:
             break;
@@ -175,48 +175,48 @@ static void int_ssl_check (SSL * s, int ret)
     /* For any other errors that (a) exist, and (b) crop up - we need to
      * interpret what to do with them - so "politely inform" the caller that
      * the code needs updating here. */
-    abort ();
+    abort();
 }
 
-void buffer_from_SSL (buffer_t * buf, SSL * ssl)
+void buffer_from_SSL(buffer_t * buf, SSL * ssl)
 {
     int ret;
 
-    if (!ssl || buffer_full (buf))
+    if (!ssl || buffer_full(buf))
         return;
-    ret = SSL_read (ssl, buf->data + buf->used, buffer_unused (buf));
+    ret = SSL_read(ssl, buf->data + buf->used, buffer_unused(buf));
     if (ret > 0)
     {
         buf->used += ret;
         buf->total_in += ret;
     }
     if (ret < 0)
-        int_ssl_check (ssl, ret);
+        int_ssl_check(ssl, ret);
 }
 
-void buffer_to_SSL (buffer_t * buf, SSL * ssl)
+void buffer_to_SSL(buffer_t * buf, SSL * ssl)
 {
     int ret;
 
-    if (!ssl || buffer_empty (buf))
+    if (!ssl || buffer_empty(buf))
         return;
-    ret = SSL_write (ssl, buf->data, buf->used);
+    ret = SSL_write(ssl, buf->data, buf->used);
     if (ret > 0)
     {
-        buffer_takedata (buf, NULL, ret);
+        buffer_takedata(buf, NULL, ret);
         buf->total_out += ret;
     }
     if (ret < 0)
-        int_ssl_check (ssl, ret);
+        int_ssl_check(ssl, ret);
 }
 
-void buffer_from_BIO (buffer_t * buf, BIO * bio)
+void buffer_from_BIO(buffer_t * buf, BIO * bio)
 {
     int ret;
 
-    if (!bio || buffer_full (buf))
+    if (!bio || buffer_full(buf))
         return;
-    ret = BIO_read (bio, buf->data + buf->used, buffer_unused (buf));
+    ret = BIO_read(bio, buf->data + buf->used, buffer_unused(buf));
     if (ret > 0)
     {
         buf->used += ret;
@@ -224,20 +224,20 @@ void buffer_from_BIO (buffer_t * buf, BIO * bio)
     }
 }
 
-void buffer_to_BIO (buffer_t * buf, BIO * bio)
+void buffer_to_BIO(buffer_t * buf, BIO * bio)
 {
     int ret;
 
-    if (!bio || buffer_empty (buf))
+    if (!bio || buffer_empty(buf))
         return;
-    ret = BIO_write (bio, buf->data, buf->used);
+    ret = BIO_write(bio, buf->data, buf->used);
     if (ret > 0)
     {
-        buffer_takedata (buf, NULL, ret);
+        buffer_takedata(buf, NULL, ret);
         buf->total_out += ret;
     }
 }
 
-#endif                            /* !defined(NO_OPENSSL) */
+#    endif                        /* !defined(NO_OPENSSL) */
 
 #endif                            /* !defined(NO_BUFFER) */

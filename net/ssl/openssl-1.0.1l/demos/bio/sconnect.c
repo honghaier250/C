@@ -17,7 +17,7 @@
 
 extern int errno;
 
-int main (argc, argv)
+int main(argc, argv)
      int argc;
 
      char *argv[];
@@ -42,44 +42,44 @@ int main (argc, argv)
         host = argv[1];
 
 #ifdef WATT32
-    dbug_init ();
-    sock_init ();
+    dbug_init();
+    sock_init();
 #endif
 
     /* Lets get nice error messages */
-    SSL_load_error_strings ();
+    SSL_load_error_strings();
 
     /* Setup all the global SSL stuff */
-    OpenSSL_add_ssl_algorithms ();
-    ssl_ctx = SSL_CTX_new (SSLv23_client_method ());
+    OpenSSL_add_ssl_algorithms();
+    ssl_ctx = SSL_CTX_new(SSLv23_client_method());
 
     /* Lets make a SSL structure */
-    ssl = SSL_new (ssl_ctx);
-    SSL_set_connect_state (ssl);
+    ssl = SSL_new(ssl_ctx);
+    SSL_set_connect_state(ssl);
 
     /* Use it inside an SSL BIO */
-    ssl_bio = BIO_new (BIO_f_ssl ());
-    BIO_set_ssl (ssl_bio, ssl, BIO_CLOSE);
+    ssl_bio = BIO_new(BIO_f_ssl());
+    BIO_set_ssl(ssl_bio, ssl, BIO_CLOSE);
 
     /* Lets use a connect BIO under the SSL BIO */
-    out = BIO_new (BIO_s_connect ());
-    BIO_set_conn_hostname (out, host);
-    BIO_set_nbio (out, 1);
-    out = BIO_push (ssl_bio, out);
+    out = BIO_new(BIO_s_connect());
+    BIO_set_conn_hostname(out, host);
+    BIO_set_nbio(out, 1);
+    out = BIO_push(ssl_bio, out);
 
     p = "GET / HTTP/1.0\r\n\r\n";
-    len = strlen (p);
+    len = strlen(p);
 
     off = 0;
     for (;;)
     {
-        i = BIO_write (out, &(p[off]), len);
+        i = BIO_write(out, &(p[off]), len);
         if (i <= 0)
         {
-            if (BIO_should_retry (out))
+            if (BIO_should_retry(out))
             {
-                fprintf (stderr, "write DELAY\n");
-                sleep (1);
+                fprintf(stderr, "write DELAY\n");
+                sleep(1);
                 continue;
             }
             else
@@ -95,38 +95,38 @@ int main (argc, argv)
 
     for (;;)
     {
-        i = BIO_read (out, buf, sizeof (buf));
+        i = BIO_read(out, buf, sizeof(buf));
         if (i == 0)
             break;
         if (i < 0)
         {
-            if (BIO_should_retry (out))
+            if (BIO_should_retry(out))
             {
-                fprintf (stderr, "read DELAY\n");
-                sleep (1);
+                fprintf(stderr, "read DELAY\n");
+                sleep(1);
                 continue;
             }
             goto err;
         }
-        fwrite (buf, 1, i, stdout);
+        fwrite(buf, 1, i, stdout);
     }
 
     ret = 1;
 
     if (0)
     {
-      err:
-        if (ERR_peek_error () == 0)    /* system call error */
+err:
+        if (ERR_peek_error() == 0)    /* system call error */
         {
-            fprintf (stderr, "errno=%d ", errno);
-            perror ("error");
+            fprintf(stderr, "errno=%d ", errno);
+            perror("error");
         }
         else
-            ERR_print_errors_fp (stderr);
+            ERR_print_errors_fp(stderr);
     }
-    BIO_free_all (out);
+    BIO_free_all(out);
     if (ssl_ctx != NULL)
-        SSL_CTX_free (ssl_ctx);
-    exit (!ret);
+        SSL_CTX_free(ssl_ctx);
+    exit(!ret);
     return (ret);
 }

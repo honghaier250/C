@@ -1,11 +1,11 @@
 #include "tunala.h"
 
-int int_strtoul (const char *str, unsigned long *val)
+int int_strtoul(const char *str, unsigned long *val)
 {
 #ifdef HAVE_STRTOUL
     char *tmp;
 
-    unsigned long ret = strtoul (str, &tmp, 10);
+    unsigned long ret = strtoul(str, &tmp, 10);
 
     if ((str == tmp) || (*tmp != '\0'))
         /* The value didn't parse cleanly */
@@ -31,10 +31,10 @@ int int_strtoul (const char *str, unsigned long *val)
         if (ret && (((ULONG_MAX + 10) / ret) < 10))
             return 0;
         ret *= 10;
-        if (!isdigit (*str))
+        if (!isdigit(*str))
             return 0;
         buf[0] = *str;
-        ret += atoi (buf);
+        ret += atoi(buf);
         str++;
     }
     *val = ret;
@@ -43,7 +43,7 @@ int int_strtoul (const char *str, unsigned long *val)
 }
 
 #ifndef HAVE_STRSTR
-char *int_strstr (const char *haystack, const char *needle)
+char *int_strstr(const char *haystack, const char *needle)
 {
     const char *sub_haystack = haystack, *sub_needle = needle;
 

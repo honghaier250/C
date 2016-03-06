@@ -4,7 +4,7 @@
 #include <openssl/cms.h>
 #include <openssl/err.h>
 
-int main (int argc, char **argv)
+int main(int argc, char **argv)
 {
     BIO *in = NULL, *out = NULL;
 
@@ -18,46 +18,46 @@ int main (int argc, char **argv)
      */
     int flags = CMS_STREAM;
 
-    OpenSSL_add_all_algorithms ();
-    ERR_load_crypto_strings ();
+    OpenSSL_add_all_algorithms();
+    ERR_load_crypto_strings();
 
     /* Open content being compressed */
 
-    in = BIO_new_file ("comp.txt", "r");
+    in = BIO_new_file("comp.txt", "r");
 
     if (!in)
         goto err;
 
     /* compress content */
-    cms = CMS_compress (in, NID_zlib_compression, flags);
+    cms = CMS_compress(in, NID_zlib_compression, flags);
 
     if (!cms)
         goto err;
 
-    out = BIO_new_file ("smcomp.txt", "w");
+    out = BIO_new_file("smcomp.txt", "w");
     if (!out)
         goto err;
 
     /* Write out S/MIME message */
-    if (!SMIME_write_CMS (out, cms, in, flags))
+    if (!SMIME_write_CMS(out, cms, in, flags))
         goto err;
 
     ret = 0;
 
-  err:
+err:
 
     if (ret)
     {
-        fprintf (stderr, "Error Compressing Data\n");
-        ERR_print_errors_fp (stderr);
+        fprintf(stderr, "Error Compressing Data\n");
+        ERR_print_errors_fp(stderr);
     }
 
     if (cms)
-        CMS_ContentInfo_free (cms);
+        CMS_ContentInfo_free(cms);
     if (in)
-        BIO_free (in);
+        BIO_free(in);
     if (out)
-        BIO_free (out);
+        BIO_free(out);
 
     return ret;
 

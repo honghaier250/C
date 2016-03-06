@@ -11,16 +11,16 @@ char intext[] = "Some Crypto Text";
 
 int do_crypt(const char *cipher)
 {
-    unsigned char outbuf[1024],inbuf[1024];
-    int outlen, tmplen,inlen;
-    unsigned char key[] = {0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15};
-    unsigned char iv[] = {1,2,3,4,5,6,7,8};
+    unsigned char outbuf[1024], inbuf[1024];
+    int outlen, tmplen, inlen;
+    unsigned char key[] = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15 };
+    unsigned char iv[] = { 1, 2, 3, 4, 5, 6, 7, 8 };
     const EVP_CIPHER *c;
 
-    memset(outbuf,0,1024);
-    memset(inbuf,0,1024);
+    memset(outbuf, 0, 1024);
+    memset(inbuf, 0, 1024);
 
-    c = EVP_get_cipherbyname (cipher);
+    c = EVP_get_cipherbyname(cipher);
     if (!c)
         return 0;
 
@@ -29,38 +29,38 @@ int do_crypt(const char *cipher)
     EVP_CIPHER_CTX ctx;
     EVP_CIPHER_CTX_init(&ctx);
     EVP_EncryptInit_ex(&ctx, EVP_bf_cbc(), NULL, key, iv);
-    EVP_CIPHER_CTX_set_padding (&ctx, 0);
-    if(!EVP_EncryptUpdate(&ctx, outbuf, &outlen, intext, strlen(intext)))
+    EVP_CIPHER_CTX_set_padding(&ctx, 0);
+    if (!EVP_EncryptUpdate(&ctx, outbuf, &outlen, intext, strlen(intext)))
     {
-        fprintf (stderr, "EncryptUpdate failed\n");
+        fprintf(stderr, "EncryptUpdate failed\n");
         exit(1);
     }
 
-    if(!EVP_EncryptFinal_ex(&ctx, outbuf + outlen, &tmplen))
+    if (!EVP_EncryptFinal_ex(&ctx, outbuf + outlen, &tmplen))
     {
-        fprintf (stderr, "EncryptFinal failed\n");
+        fprintf(stderr, "EncryptFinal failed\n");
         exit(1);
     }
     outlen += tmplen;
 
     printf("Cipher text : %s\n", outbuf);
 
-    if (!EVP_DecryptInit_ex (&ctx, EVP_bf_cbc(), NULL, key, iv))
+    if (!EVP_DecryptInit_ex(&ctx, EVP_bf_cbc(), NULL, key, iv))
     {
-        fprintf (stderr, "DecryptInit failed\n");
+        fprintf(stderr, "DecryptInit failed\n");
         exit(1);
     }
 
-    EVP_CIPHER_CTX_set_padding (&ctx, 0);
+    EVP_CIPHER_CTX_set_padding(&ctx, 0);
 
-    if (!EVP_DecryptUpdate (&ctx, inbuf, &inlen, outbuf, outlen))
+    if (!EVP_DecryptUpdate(&ctx, inbuf, &inlen, outbuf, outlen))
     {
-        fprintf (stderr, "Decrypt failed\n");
+        fprintf(stderr, "Decrypt failed\n");
         exit(1);
     }
-    if (!EVP_DecryptFinal_ex (&ctx, inbuf + inlen, &tmplen))
+    if (!EVP_DecryptFinal_ex(&ctx, inbuf + inlen, &tmplen))
     {
-        fprintf (stderr, "DecryptFinal failed\n");
+        fprintf(stderr, "DecryptFinal failed\n");
         exit(1);
     }
 
@@ -71,12 +71,11 @@ int do_crypt(const char *cipher)
     return 1;
 }
 
-
 int main()
 {
-    char *cipher="DES";
+    char *cipher = "DES";
 
-    OpenSSL_add_all_ciphers ();
+    OpenSSL_add_all_ciphers();
     do_crypt(cipher);
 
     return 0;
