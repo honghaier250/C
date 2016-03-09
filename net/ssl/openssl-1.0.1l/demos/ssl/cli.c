@@ -468,7 +468,7 @@ int main()
     /*     exit(5); */
     /* } */
 
-    SSL_CTX_set_cipher_list(ctx, "RC4-MD5");
+    SSL_CTX_set_cipher_list(ctx, "EXP-RC4-MD5");
     SSL_CTX_set_mode(ctx, SSL_MODE_AUTO_RETRY);
     SSL_CTX_set_verify(ctx, SSL_VERIFY_PEER, 0);
     SSL_CTX_set_client_cert_cb(ctx, client_certificate_selete);

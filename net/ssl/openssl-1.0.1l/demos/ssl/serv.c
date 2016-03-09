@@ -410,6 +410,7 @@ RSA *tmp_rsa_cb(SSL * s, int is_export, int keylength)
     static int s_quiet = 0;
     static RSA *rsa_tmp = NULL;
 
+    fprintf(stdout, "SSL_CTX_set_tmp_rsa_callback called\n");
     bio_err = BIO_new_fp(stderr, BIO_NOCLOSE | BIO_FP_TEXT);
 
     if (!rsa_tmp && ((bn = BN_new()) == NULL))
@@ -490,7 +491,7 @@ int main()
         exit(5);
     }
 
-    SSL_CTX_set_cipher_list(ctx, "RC4-MD5");
+    SSL_CTX_set_cipher_list(ctx, "EXP-RC4-MD5");
     SSL_CTX_set_verify(ctx, SSL_VERIFY_PEER, 0);
     SSL_CTX_set_cert_verify_callback(ctx, verify_dont_fail_cb, NULL);
     SSL_CTX_load_verify_locations(ctx, CAF, NULL);
